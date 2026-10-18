@@ -1,0 +1,101 @@
+/* Dated rows (mockup .dl, section 3.17). */
+.deadline-list {
+  display: grid;
+  gap: 2px;
+}
+
+.deadline-list__item {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  padding: 8px 12px;
+  border-radius: 14px;
+  color: var(--ink);
+  text-decoration: none;
+  transition: background-color var(--d-fast);
+}
+
+a.deadline-list__item:hover {
+  background: var(--sunken);
+  text-decoration: none;
+}
+
+.deadline-list__when {
+  display: grid;
+  gap: 2px;
+}
+
+.deadline-list__month {
+  font: 500 10.5px/1.15 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+
+.deadline-list__day {
+  font: 550 15px/1.1 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+.deadline-list__what {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.deadline-list__title {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  font-size: 12.5px;
+  line-height: 1.3;
+  color: var(--ink);
+}
+
+.deadline-list__detail {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 11.5px;
+  line-height: 1.35;
+  color: var(--muted);
+}
+
+.deadline-list__count {
+  font: 500 11px/1 var(--mono);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.deadline-list__count--soon {
+  color: var(--amber);
+}
+
+/* Night (inside the Due next card) */
+.deadline-list--night a.deadline-list__item:hover {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.deadline-list--night .deadline-list__month {
+  color: rgba(245, 245, 242, 0.55);
+}
+
+.deadline-list--night .deadline-list__day,
+.deadline-list--night .deadline-list__title {
+  color: var(--night-fg);
+}
+
+.deadline-list--night .deadline-list__detail {
+  color: rgba(245, 245, 242, 0.55);
+}
+
+.deadline-list--night .deadline-list__count {
+  color: rgba(245, 245, 242, 0.62);
+}
+
+.deadline-list--night .deadline-list__count--soon {
+  color: #f0b44c;
+}

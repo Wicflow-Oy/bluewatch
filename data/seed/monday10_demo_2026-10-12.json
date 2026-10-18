@@ -1,0 +1,250 @@
+{
+ "title": "Monday 10 for Mon 12 Oct 2026 (curated demo list; research output, not the product)",
+ "computed": "2026-10-17 01:20 (research team, from the W11-W12 probes; every row checked against its registry)",
+ "how_built": "W11 run (data/monday10_candidates_2026-10-12.json), W12 Norway run (data/brreg_candidates_sites.json), PRH share-issue scan, TED award and open-tender queries, W12 control group. Classification by a human reader acting as the LLM step. Ten is a cap: in a normal week fewer rows qualify.",
+ "funnel_finland_8_weeks": "3,719 new limited companies -> 379 with priors -> 138 with a confirmed site -> 4 ocean or water candidates",
+ "funnel_norway_4_weeks": "109 code or name candidates -> 16 name-matched sites (about 10 owned by someone else) -> 2 ocean-tech newcomers",
+ "dedupe_note": "A'Pelago cohort companies (2024-2026) are removed as 'already in your list'; e.g. Emission-Eye and Sireness would otherwise rank high.",
+ "rows": [
+  {
+   "rank": 1,
+   "chip": "Newly founded",
+   "mode": "A'Pelago",
+   "name": "Meriva Oy",
+   "registry": "PRH 3652359-1",
+   "founded": "2026-09-03",
+   "municipality": "Turku",
+   "vertical": "blue_biotech_water (aquaculture)",
+   "why": [
+    "Founded 3 Sep 2026 in Turku",
+    "Aquaculture consulting, project planning, training and R&D (site, FI/SV/EN)",
+    "Own business ID shown on its site (strict entity match)"
+   ],
+   "fit_note": "Expert consultancy: likely partner or mentor rather than an investment case",
+   "sources": [
+    "https://www.meriva.fi/",
+    "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3652359-1"
+   ],
+   "channel": "A: newly founded, W11 8-week funnel (keyword hit; own ID on site)",
+   "next_action": "Invite as an aquaculture mentor or expert for Northern Blue 2027 (Turku-based)",
+   "apelago_mode": true
+  },
+  {
+   "rank": 2,
+   "chip": "Newly active (public contract + open tender)",
+   "mode": "both",
+   "name": "Alpo Pro Boats",
+   "registry": "PRH 3101791-3",
+   "founded": "2019-11-26",
+   "municipality": "Rauma",
+   "vertical": "maritime_ports (workboats)",
+   "why": [
+    "Won C-class oil-spill response vessels from the Southwest Finland wellbeing county (TED 423989-2026, Jun 2026)",
+    "Sansia Oy now tenders a C-class oil-spill and rescue vessel, deadlines 30 Oct and 6 Nov 2026 (TED 668013-2026, 713640-2026)",
+    "3 public wins in 12 months (rescue boat 2025; Border Guard AV5 workboats 2026; oil-spill vessels 2026)"
+   ],
+   "fit_note": "Grant-light, buyer-backed. All buyers so far are public bodies",
+   "sources": [
+    "https://ted.europa.eu/en/notice/-/detail/423989-2026",
+    "https://ted.europa.eu/en/notice/-/detail/668013-2026",
+    "https://www.alpovene.fi/"
+   ],
+   "channel": "C: TED award by business ID + matching open TED tender",
+   "next_action": "Send Sansia's C-class oil-spill vessel tender (deadlines 30 Oct and 6 Nov) and Hansel's boat framework (9 Nov)",
+   "apelago_mode": true
+  },
+  {
+   "rank": 3,
+   "chip": "Newly founded",
+   "mode": "both",
+   "name": "HAVNIO AS",
+   "registry": "Brreg 938525420",
+   "founded": "2026-09-16",
+   "municipality": "Stavanger (NO)",
+   "vertical": "maritime_ports (marina software)",
+   "why": [
+    "Founded 16 Sep 2026",
+    "Mobile payment for guest harbours and boat berths; harbour masters see who is moored and paid (site)",
+    "Name prior 'havn' (harbour) caught it"
+   ],
+   "fit_note": "Pre-seed SaaS; check traction",
+   "sources": [
+    "https://havnio.no/",
+    "https://data.brreg.no/enhetsregisteret/api/enheter/938525420"
+   ],
+   "channel": "A (NO): newly founded, W12 Brreg 4-week run (name prior 'havn')",
+   "next_action": "Point to Northern Blue 2027 (applications open; scaling across the Baltic)",
+   "apelago_mode": true
+  },
+  {
+   "rank": 4,
+   "chip": "Newly founded",
+   "mode": "A'Pelago",
+   "name": "Datadeck Oy",
+   "registry": "PRH 3649902-6",
+   "founded": "2026-08-25",
+   "municipality": "Keuruu",
+   "vertical": "marine_intelligence (fresh-water data)",
+   "why": [
+    "Founded 25 Aug 2026",
+    "Fishing DataDeck: analytics for recreational anglers (which day, where on the lake, depth, lure); subscription with a 14-day trial",
+    "Own business ID on its site"
+   ],
+   "fit_note": "Consumer app on inland waters: weak sea fit; 'ocean and waters' in the Mission sense",
+   "sources": [
+    "https://datadeck.fi/",
+    "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3649902-6"
+   ],
+   "channel": "A: newly founded, W11 8-week funnel (keyword hit; own ID on site)",
+   "next_action": "Check fit and invite to Blue Connect; consider Northern Blue 2027",
+   "apelago_mode": true
+  },
+  {
+   "rank": 5,
+   "chip": "New to your list",
+   "mode": "both",
+   "name": "NMR Technologies Oy",
+   "registry": "PRH 3491873-3",
+   "founded": "2024-11-22",
+   "municipality": "see PRH",
+   "vertical": "blue_biotech_water (water monitoring)",
+   "why": [
+    "Chemical-free continuous online NMR measurement for water utilities and industry (site)",
+    "Not in any A'Pelago cohort (found as a matched control in W12)",
+    "Young (founded Nov 2024), instruments code 26510"
+   ],
+   "fit_note": "Water-tech candidate A'Pelago has not had in its cohorts",
+   "sources": [
+    "https://nmrtechnologies.fi/",
+    "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3491873-3"
+   ],
+   "channel": "New to your list: surfaced by the W12 matched-control sample (not a cohort company)",
+   "next_action": "Introduce to water-utility pilot partners; point to Northern Blue 2027",
+   "apelago_mode": true
+  },
+  {
+   "rank": 6,
+   "chip": "Newly active (share issue)",
+   "mode": "Redstone",
+   "name": "Oy WW-Offshore Ab",
+   "registry": "PRH 3436786-3",
+   "founded": "2024-03-22",
+   "municipality": "Raisio",
+   "vertical": "ocean_infra_clean_energy (offshore works)",
+   "why": [
+    "Share-issue decision registered 20 Aug 2026 (PRH notices)",
+    "Young (2024) offshore-named company in the Turku region",
+    "Site resolves but blocks scripted fetch: human look needed"
+   ],
+   "fit_note": "Equity event, but business unclear: verify before contact",
+   "sources": [
+    "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3436786-3"
+   ],
+   "channel": "B: share-issue notice (Redstone mode only)",
+   "next_action": "Redstone: verify the business before any contact",
+   "apelago_mode": false
+  },
+  {
+   "rank": 7,
+   "chip": "Newly founded",
+   "mode": "Redstone",
+   "name": "UpDem Oy",
+   "registry": "PRH 3652619-4",
+   "founded": "2026-09-03",
+   "municipality": "Tampere",
+   "vertical": "maritime-adjacent deep tech",
+   "why": [
+    "Founded 3 Sep 2026",
+    "Acoustic-emission predictive maintenance for heavy assets; site mentions vessels",
+    "Tech code (62100) prior + site text"
+   ],
+   "fit_note": "Ask whether ships or ports are a target market",
+   "sources": [
+    "https://updem.com/",
+    "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3652619-4"
+   ],
+   "channel": "A: newly founded, W11 hand reading (keywords missed it)",
+   "next_action": "Redstone: ask whether ships or ports are a target market",
+   "apelago_mode": false
+  },
+  {
+   "rank": 8,
+   "chip": "Newly founded · pre-launch (watch)",
+   "mode": "A'Pelago",
+   "name": "Aalto Guard Oy",
+   "registry": "PRH 3653087-1",
+   "founded": "2026-09-06",
+   "municipality": "Tampere",
+   "vertical": "water safety",
+   "why": [
+    "Founded 6 Sep 2026",
+    "Water-safety service; waitlist page (pre-launch)",
+    "Keywords missed it (Finnish 'vesiturvallisuus'): reader caught it"
+   ],
+   "fit_note": "Too early to assess; stays in the 12-week watch window",
+   "sources": [
+    "https://aaltoguard.fi/",
+    "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?name=Aalto%20Guard"
+   ],
+   "channel": "A: newly founded, W11 hand reading (pre-launch; keywords missed it)",
+   "next_action": "Watch: re-check the public site in 4 weeks; no contact yet",
+   "apelago_mode": true
+  },
+  {
+   "rank": 9,
+   "chip": "Newly founded · pre-launch (watch)",
+   "mode": "both",
+   "name": "SKAGERRAK ROV AS",
+   "registry": "Brreg 938514216",
+   "founded": "2026-08-30",
+   "municipality": "Grimstad (NO)",
+   "vertical": "marine_intelligence (subsea ROV)",
+   "why": [
+    "Founded 30 Aug 2026",
+    "ROV services, 'coming soon' page",
+    "Found only through the offshore engineering code 71.129"
+   ],
+   "fit_note": "Watch window",
+   "sources": [
+    "https://skagerrakrov.no/",
+    "https://data.brreg.no/enhetsregisteret/api/enheter/938514216"
+   ],
+   "channel": "A (NO): newly founded, W12 Brreg run via offshore code 71.129 (pre-launch)",
+   "next_action": "Watch: re-check the public site in 4 weeks; no contact yet",
+   "apelago_mode": true
+  },
+  {
+   "rank": 10,
+   "chip": "Newly active (share issues 2025)",
+   "mode": "Redstone",
+   "name": "Marine Charging Point",
+   "registry": "PRH 3134791-2",
+   "founded": "2020-05-07",
+   "municipality": "Turku",
+   "vertical": "ocean_infra_clean_energy (vessel charging)",
+   "why": [
+    "Onboard and shore charging for electric vessels (site)",
+    "Share issues registered Mar and Apr 2025 (PRH notices)",
+    "FuelEU Art. 6 makes shore power mandatory at AFIR Art. 9 ports from 2030 (regulation clock)"
+   ],
+   "fit_note": "Turku clean-maritime company; check the round stage before Redstone outreach",
+   "sources": [
+    "https://www.marinechargingpoint.com",
+    "https://avoindata.prh.fi/opendata-registerednotices-api/v3/3134791-2"
+   ],
+   "channel": "B: share-issue notices 2025 (Redstone mode only)",
+   "next_action": "Redstone: check the round stage before outreach",
+   "apelago_mode": false
+  }
+ ],
+ "apelago_mode_rows": [
+  "Meriva Oy",
+  "Alpo Pro Boats",
+  "HAVNIO AS",
+  "Datadeck Oy",
+  "NMR Technologies Oy",
+  "Aalto Guard Oy",
+  "SKAGERRAK ROV AS"
+ ],
+ "why_these_n_apelago": "Why these 7: of 3,719 new Finnish companies in 8 weeks and 109 Norwegian code or name candidates in 4 weeks, 6 read as ocean or water on their own sites (2 of them pre-launch, watch only). 1 more is newly active through public contracts. 3 rows based on share issues or deep tech are Redstone-mode only and hidden here."
+}

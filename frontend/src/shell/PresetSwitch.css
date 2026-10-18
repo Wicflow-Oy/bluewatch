@@ -1,0 +1,54 @@
+.preset-menu {
+  position: relative;
+  flex-shrink: 0;
+}
+
+.preset-menu__trigger svg {
+  color: var(--muted);
+}
+
+.preset-menu__abbr {
+  display: none;
+}
+
+.preset-menu__panel {
+  width: 320px;
+}
+
+.preset-menu__choices {
+  padding: 0 6px 6px;
+}
+
+.preset-sheet {
+  display: grid;
+  gap: 8px;
+}
+
+.preset-sheet__note {
+  padding: 0 4px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.preset-segments {
+  display: none;
+}
+
+@media (max-width: 1279px) {
+  .preset-menu__label {
+    display: none;
+  }
+
+  .preset-menu__abbr {
+    display: inline;
+  }
+}
+
+/* Phones: the page header's segments; from 720px up the scope pill carries the switch. */
+@media (max-width: 719px) {
+  .preset-segments {
+    display: block;
+    width: 100%;
+  }
+}

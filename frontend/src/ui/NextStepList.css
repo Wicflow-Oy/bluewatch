@@ -1,0 +1,135 @@
+/* Next steps as a timeline (mockup .steps, section 3.32): numbered nodes on a hairline, the first node cobalt. */
+.steps {
+  display: grid;
+  gap: 12px;
+  justify-items: start;
+  container-type: inline-size;
+}
+
+.steps__list {
+  display: grid;
+  width: 100%;
+}
+
+.step {
+  position: relative;
+  display: grid;
+  grid-template-columns: 28px minmax(0, 1fr);
+  gap: 12px;
+  padding-bottom: 14px;
+}
+
+.step:not(:last-child)::before {
+  content: "";
+  position: absolute;
+  left: 13.5px;
+  top: 30px;
+  bottom: 2px;
+  width: 1px;
+  background: var(--line-2);
+}
+
+.step__rank {
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font: 550 11.5px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.step--first .step__rank {
+  color: #fff;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.step__body {
+  min-width: 0;
+  padding-top: 4px;
+}
+
+.step__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.step__top > .chip {
+  flex: none;
+}
+
+.step__title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  min-width: 0;
+  font: 600 13.5px/1.25 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.step__title a {
+  color: inherit;
+}
+
+.step__action {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  margin-top: 4px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: var(--ink-2);
+}
+
+.step__why-wrap {
+  display: grid;
+  justify-items: start;
+  margin-top: 4px;
+}
+
+.step__why {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.step__why--open {
+  display: block;
+}
+
+.step__more {
+  font: 500 12px/1.4 var(--sans);
+  color: var(--accent-text);
+}
+
+.step__foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 7px;
+}
+
+.steps--compact .step {
+  padding-bottom: 10px;
+}
+
+.steps__note,
+.steps__empty {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}

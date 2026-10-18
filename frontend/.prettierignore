@@ -1,0 +1,5 @@
+dist
+node_modules
+src/contracts.ts
+package-lock.json
+src/fixtures/*.json

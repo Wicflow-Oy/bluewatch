@@ -1,0 +1,112 @@
+/* The night "Due next" card (mockup .duecard, section 3.17), with two drifting glows. */
+.due-card {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+  padding: 18px 20px 8px;
+  border-radius: var(--r-xl);
+  background: var(--night);
+  color: var(--night-fg);
+  box-shadow: var(--sh-night);
+}
+
+.due-card::before,
+.due-card::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  filter: blur(34px);
+  pointer-events: none;
+}
+
+.due-card::before {
+  right: -90px;
+  top: -110px;
+  width: 320px;
+  height: 240px;
+  background: radial-gradient(closest-side, rgba(52, 86, 255, 1), rgba(36, 70, 255, 0));
+  opacity: 0.95;
+  animation: tp-drift 11s ease-in-out infinite alternate;
+}
+
+.due-card::after {
+  right: 40px;
+  top: -40px;
+  width: 200px;
+  height: 160px;
+  background: radial-gradient(closest-side, rgba(48, 196, 160, 0.45), transparent);
+  animation: tp-drift 13s ease-in-out -4s infinite alternate-reverse;
+}
+
+.due-card__eyebrow {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font: 500 10.5px/1 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: rgba(245, 245, 242, 0.58);
+}
+
+.due-card--soon .due-card__date {
+  color: #f0b44c;
+}
+
+.due-card__big {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.due-card__count {
+  font: 560 56px/0.9 var(--sans);
+  font-stretch: 88%;
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.due-card__unit {
+  font-size: 14px;
+  color: rgba(245, 245, 242, 0.7);
+}
+
+.due-card__what {
+  display: block;
+  margin-top: 12px;
+  font: 600 14.5px/1.3 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--night-fg);
+  overflow-wrap: anywhere;
+}
+
+a.due-card__what:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.due-card__who {
+  margin-top: 4px;
+  font-size: 12.5px;
+  line-height: 1.4;
+  color: rgba(245, 245, 242, 0.64);
+}
+
+.due-card__later {
+  margin: 16px -12px 0;
+  padding: 8px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.due-card__empty {
+  margin: 14px 0 12px;
+  font-size: 14px;
+  color: rgba(245, 245, 242, 0.7);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .due-card::before,
+  .due-card::after {
+    animation: none;
+  }
+}

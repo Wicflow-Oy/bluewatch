@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <!-- BlueWatch mark: an eye on the waterline. We watch for what surfaces; the iris sits half in the sea,
+       and below the hairline wave the eye takes the sea's tint. The pupil takes the workspace accent. -->
+  <defs>
+    <mask id="bw-above" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48"><path fill="#fff" d="M0 0H48V29.4C36 29.4 30 27.6 24 27.6S12 29.4 0 29.4Z"/></mask>
+    <mask id="bw-below" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48"><path fill="#fff" d="M0 48H48V31.1C36 31.1 30 29.3 24 29.3S12 31.1 0 31.1Z"/></mask>
+    <mask id="bw-iris" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+      <rect width="48" height="48" fill="#fff"/><circle cx="24" cy="23.6" r="7.7" fill="#000"/>
+    </mask>
+  </defs>
+  <g mask="url(#bw-iris)">
+    <path mask="url(#bw-above)" fill="#F4F7FF" d="M2 24C11 18.2 16.5 12.5 24 12.5S37 18.2 46 24C37 30.4 31.5 35.8 24 35.8S11 30.4 2 24Z"/>
+    <path mask="url(#bw-below)" fill="#8DB3FF" d="M2 24C11 18.2 16.5 12.5 24 12.5S37 18.2 46 24C37 30.4 31.5 35.8 24 35.8S11 30.4 2 24Z"/>
+  </g>
+  <circle cx="25.8" cy="21.9" r="3.6" fill="#4C8DFF"/>
+</svg>

@@ -1,0 +1,289 @@
+/* The Sonar (TIDEPOOL-SYSTEM.md 4.7). The SVG draws the field; blips are real buttons laid over it. */
+
+.sonar-plot {
+  display: grid;
+  margin: 0;
+}
+
+.sonar {
+  position: relative;
+  width: 100%;
+  max-width: 376px;
+  aspect-ratio: 1;
+  margin: 4px auto 8px;
+}
+
+.sonar-plot--mini .sonar {
+  max-width: 343px;
+}
+
+.sonar svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+/* ---- field ---- */
+.sonar__glow-in {
+  stop-color: var(--accent);
+  stop-opacity: 0.05;
+}
+
+.sonar__glow-out {
+  stop-color: var(--accent);
+  stop-opacity: 0;
+}
+
+.sonar__ring {
+  fill: none;
+  stroke: var(--line-2);
+  stroke-width: 1px;
+  stroke-dasharray: 1 3;
+  vector-effect: non-scaling-stroke;
+}
+
+.sonar__ring--floor {
+  stroke-dasharray: none;
+}
+
+.sonar__spoke {
+  stroke: var(--line);
+  stroke-width: 1px;
+  vector-effect: non-scaling-stroke;
+}
+
+.sonar__ring-label {
+  font: 500 7.5px var(--mono);
+  text-anchor: middle;
+  fill: var(--faint);
+  paint-order: stroke;
+  stroke: var(--surface);
+  stroke-width: 3px;
+}
+
+.sonar__sector {
+  font: 500 8px var(--mono);
+  letter-spacing: 1.2px;
+  fill: var(--muted);
+}
+
+.sonar__centre {
+  fill: var(--accent);
+}
+
+.sonar__centre-ring {
+  fill: none;
+  stroke: var(--accent-line);
+  vector-effect: non-scaling-stroke;
+}
+
+/* ---- sweep ---- */
+.sonar__sweep {
+  --sw1: color-mix(in srgb, var(--accent) 3%, transparent);
+  --sw2: color-mix(in srgb, var(--accent) 8%, transparent);
+  --sw3: color-mix(in srgb, var(--accent) 16%, transparent);
+  position: absolute;
+  inset: 8%;
+  border-radius: 50%;
+  pointer-events: none;
+  will-change: transform;
+  background: conic-gradient(
+    from 0deg,
+    transparent 0deg 290deg,
+    var(--sw1) 320deg,
+    var(--sw2) 345deg,
+    var(--sw3) 359.4deg,
+    transparent 360deg
+  );
+}
+
+.sonar__sweep::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(
+    to top,
+    transparent,
+    color-mix(in srgb, var(--accent) 45%, transparent)
+  );
+}
+
+:root[data-theme="graphite"] .sonar__sweep {
+  --sw2: color-mix(in srgb, var(--accent) 11%, transparent);
+  --sw3: color-mix(in srgb, var(--accent) 22%, transparent);
+}
+
+/* ---- blips ---- */
+.sonar__blips {
+  position: absolute;
+  inset: 0;
+}
+
+.sonar__item {
+  position: absolute;
+  left: var(--x);
+  top: var(--y);
+  width: 0;
+  height: 0;
+}
+
+.sonar__item .tip-anchor {
+  position: absolute;
+  inset: 0;
+}
+
+.blip {
+  position: absolute;
+  left: -14px;
+  top: -14px;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.blip__core {
+  width: var(--s);
+  height: var(--s);
+  border-radius: 50%;
+  background: var(--accent);
+  opacity: 0.9;
+  transition:
+    transform var(--d-lift) var(--spring),
+    opacity var(--d-fast);
+}
+
+.blip--dive_deeper .blip__core {
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1.75px var(--accent);
+}
+
+.blip--not_yet .blip__core,
+.blip--not_for_us .blip__core {
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1.5px var(--faint);
+}
+
+.blip__ping {
+  position: absolute;
+  width: var(--s);
+  height: var(--s);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--accent);
+  opacity: 0;
+  pointer-events: none;
+}
+
+.blip__n {
+  position: absolute;
+  left: calc(50% + var(--s) / 2 + 3px);
+  font: 500 9.5px/1 var(--mono);
+  color: var(--muted);
+  pointer-events: none;
+  transition: color var(--d-fast);
+}
+
+.sonar__item--left .blip__n {
+  left: auto;
+  right: calc(50% + var(--s) / 2 + 3px);
+}
+
+.blip:hover .blip__core,
+.blip:focus-visible .blip__core,
+.blip[data-hot="true"] .blip__core {
+  transform: scale(1.35);
+  opacity: 1;
+}
+
+.blip[data-hot="true"]::before {
+  content: "";
+  position: absolute;
+  width: calc(var(--s) + 12px);
+  height: calc(var(--s) + 12px);
+  border-radius: 50%;
+  box-shadow: 0 0 0 1px var(--accent-line);
+  animation: tp-pop var(--d-spring) var(--spring) both;
+}
+
+.blip[data-hot="true"] .blip__n,
+.blip:hover .blip__n {
+  color: var(--ink);
+}
+
+/* A row the list's filters hide: faded, still there to hover and open. */
+.blip[data-dimmed="true"] {
+  opacity: 0.28;
+  transition: opacity var(--d-fast);
+}
+
+.blip[data-dimmed="true"]:hover,
+.blip[data-dimmed="true"]:focus-visible,
+.blip[data-dimmed="true"][data-hot="true"] {
+  opacity: 1;
+}
+
+.blip:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: -2px;
+}
+
+/* ---- legend ---- */
+.sonar__legend {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+  font-size: 11.5px;
+  line-height: 1.3;
+  color: var(--muted);
+}
+
+.sonar__legend li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.sonar__key {
+  width: 16px;
+  height: 16px;
+  flex: none;
+}
+
+.sonar__key-ring {
+  fill: none;
+  stroke: var(--line-3);
+  stroke-dasharray: 1.5 2;
+}
+
+.sonar__key-solid {
+  fill: var(--accent);
+}
+
+.sonar__key-hollow {
+  fill: var(--surface);
+  stroke: var(--accent);
+  stroke-width: 1.75;
+}
+
+.sonar-plot__caption {
+  margin-top: 12px;
+  padding: 10px 12px;
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.sonar-plot__caption > svg {
+  width: 14px;
+  height: 14px;
+}

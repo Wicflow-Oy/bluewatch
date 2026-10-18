@@ -1,0 +1,42 @@
+.lang-menu {
+  position: relative;
+}
+
+.lang-menu__trigger {
+  gap: 5px;
+}
+
+.lang-menu__trigger .mono {
+  font: 500 12px/1 var(--mono);
+}
+
+.lang-menu__trigger svg {
+  width: 12px;
+  height: 12px;
+  transition: transform var(--d-base) var(--ease);
+}
+
+.lang-menu__trigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.lang-menu__panel {
+  width: 200px;
+  padding: 6px;
+}
+
+.lang-seg .seg__btn {
+  font-family: var(--mono);
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.lang-sheet .lang-seg .seg__btn {
+  font-family: var(--sans);
+  font-weight: 520;
+}
+
+.lang-sheet {
+  display: grid;
+  gap: 10px;
+}

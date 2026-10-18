@@ -1,0 +1,230 @@
+/* The frosted top bar (sections 2.3 and 2.7). It sits inside the scroller, so content slides under it. */
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-areas: "left nav right";
+  align-items: center;
+  column-gap: 16px;
+  height: var(--header-h);
+  padding: 0 var(--gutter);
+  background: color-mix(in srgb, var(--canvas) 82%, transparent);
+  -webkit-backdrop-filter: saturate(1.4) blur(18px);
+  backdrop-filter: saturate(1.4) blur(18px);
+  border-bottom: 1px solid transparent;
+  transition:
+    border-color var(--d-base),
+    background-color var(--d-theme) var(--ease);
+}
+
+.topbar[data-scrolled="true"] {
+  border-bottom-color: var(--line);
+}
+
+.topbar__left {
+  grid-area: left;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+}
+
+.topbar__nav {
+  grid-area: nav;
+  justify-self: center;
+  min-width: 0;
+  max-width: 100%;
+}
+
+.topbar__right {
+  grid-area: right;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: none;
+  color: var(--ink);
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.brand:hover {
+  text-decoration: none;
+}
+
+@media (max-width: 1439px) {
+  .brand .wordmark {
+    display: none;
+  }
+}
+
+/* Demo data chip: amber, only while recorded data is in use. */
+.demo-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 24px;
+  padding: 0 10px;
+  border-radius: var(--r-pill);
+  font: 520 11.5px/1 var(--sans);
+  white-space: nowrap;
+  color: var(--amber);
+  background: var(--amber-soft);
+  box-shadow: inset 0 0 0 1px var(--amber-line);
+  cursor: default;
+}
+
+.demo-chip__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--amber);
+}
+
+/* Below 1440 the chip is its dot (the tooltip says what it means), so the nav row keeps its room. */
+@media (max-width: 1439px) {
+  .demo-chip {
+    width: 24px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .demo-chip__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+}
+
+/* Search: a wide pill at 1600+, icon plus keys from 1280, an icon button below. */
+.search-trigger {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  height: 36px;
+  padding: 0 8px 0 14px;
+  border-radius: var(--r-pill);
+  color: var(--muted);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  transition:
+    transform var(--d-spring) var(--spring),
+    box-shadow var(--d-fast);
+}
+
+.search-trigger:hover {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.search-trigger:active {
+  transform: scale(var(--press));
+  transition-duration: var(--d-press);
+}
+
+.search-trigger > svg {
+  width: 15px;
+  height: 15px;
+}
+
+.search-trigger__text {
+  width: 150px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  text-align: left;
+  font-size: 13px;
+  color: var(--faint);
+}
+
+.search-trigger__keys {
+  display: flex;
+  gap: 3px;
+}
+
+.topbar__lang--menu {
+  display: none;
+}
+
+@media (max-width: 1599px) {
+  .search-trigger__text {
+    display: none;
+  }
+}
+
+/* Below 1440 the Finnish nav row with a More page active needs the room: search is an icon. */
+@media (max-width: 1439px) {
+  .search-trigger {
+    width: 36px;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .search-trigger__keys {
+    display: none;
+  }
+}
+
+/* Tablet: the pills move to a second row; the language becomes a menu pill. */
+@media (max-width: 1279px) {
+  .topbar {
+    grid-template-areas:
+      "left . right"
+      "nav nav nav";
+    grid-template-rows: 64px 48px;
+  }
+
+  .topbar__nav {
+    align-self: start;
+  }
+
+  .topbar__lang--seg {
+    display: none;
+  }
+
+  .topbar__lang--menu {
+    display: block;
+  }
+}
+
+/* Phone: brand, scope, then search, bell and avatar. Language, theme and guide live in the More sheet. */
+@media (max-width: 719px) {
+  .topbar {
+    grid-template-areas: "left . right";
+    grid-template-rows: 56px;
+    padding: 0 12px 0 16px;
+    column-gap: 8px;
+  }
+
+  .topbar__nav,
+  .topbar__lang--menu,
+  .topbar__theme,
+  .topbar__guide {
+    display: none;
+  }
+
+  .topbar__left {
+    gap: 10px;
+  }
+
+  .topbar__right {
+    gap: 4px;
+  }
+
+  .search-trigger,
+  .topbar .alerts__bell {
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    box-shadow: none;
+  }
+}

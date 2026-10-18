@@ -1,0 +1,91 @@
+{
+  "about": "Entity-resolution traps T1-T10 from w15-benchmarks.md §2.3.2, as inputs to bluewatch.resolve.resolver.resolve(). Register rows are organisation-level public data recorded in the W13 dry run and the live-path probe (16-17 Oct 2026). Sole traders (natural persons) and a namesake whose trade name contains a person's name are left out or withheld.",
+  "pass_rule": "The state is one of ok_states; an accepted company (resolved or probable; the first candidate) is never in must_not_accept and, when a gold ID is given, is the gold; when the state is ambiguous or unconfirmed, the gold is among the first three candidates.",
+  "cases": [
+    {
+      "id": "T1", "name": "Kelluu", "trap": "A plain name search returns Kelluu Clothing Oy first.",
+      "input": {"name": "Kelluu", "country": "FI", "candidates": [
+        {"name": "Kelluu Clothing Oy", "registry": {"country": "FI", "id": "3431445-4", "name": "Kelluu Clothing Oy", "founded": "2024-02-29", "industry_code": "47712"}},
+        {"name": "Kelluu Oy", "registry": {"country": "FI", "id": "2902007-2", "name": "Kelluu Oy", "founded": "2018-03-09", "industry_code": "30310"}}
+      ]},
+      "expect": {"text": "Kelluu Oy (2902007-2) accepted or listed; never Kelluu Clothing Oy", "gold": "2902007-2",
+                 "ok_states": ["resolved", "probable", "ambiguous", "unconfirmed"], "must_not_accept": ["3431445-4"]}
+    },
+    {
+      "id": "T2", "name": "Wolt", "trap": "Every recorded namesake contains 'Wolt', one of them as a whole word; Wolt's own company is not among them.",
+      "input": {"name": "Wolt", "country": "FI", "candidates": [
+        {"name": "Idea ja Tuotanto Wolt Oy", "registry": {"country": "FI", "id": "0713678-7", "name": "Idea ja Tuotanto Wolt Oy", "founded": "1988-10-13", "industry_code": "74991"}},
+        {"name": "Tupla-Woltti Oy", "registry": {"country": "FI", "id": "0935671-6", "name": "Tupla-Woltti Oy", "founded": "1993-08-30", "industry_code": "43210"}},
+        {"name": "Woltax Oy", "registry": {"country": "FI", "id": "0937566-9", "name": "Woltax Oy", "founded": "1993-09-13", "industry_code": "47521"}},
+        {"name": "Oy Woltter Ab", "registry": {"country": "FI", "id": "0943797-0", "name": "Oy Woltter Ab", "founded": "1993-10-20", "industry_code": "05010"}}
+      ]},
+      "expect": {"text": "ambiguous or unresolved; no namesake accepted", "gold": null,
+                 "ok_states": ["ambiguous", "unconfirmed", "unresolved"],
+                 "must_not_accept": ["0713678-7", "0935671-6", "0937566-9", "0943797-0"]}
+    },
+    {
+      "id": "T3", "name": "Seaber", "trap": "Seaberry Oy's site once matched 'Seaber' by substring.",
+      "input": {"name": "Seaber", "country": "FI", "candidates": [
+        {"name": "Seabergs Ab", "registry": {"country": "FI", "id": "2018415-0", "name": "Seabergs Ab", "founded": "2006-02-07", "industry_code": "46900"}},
+        {"name": "Seaberry Oy", "registry": {"country": "FI", "id": "3558526-4", "name": "Seaberry Oy", "founded": "2025-08-21", "industry_code": "62200", "website": "seaberry.io"}},
+        {"name": "Seaber Oy", "registry": {"country": "FI", "id": "2855258-7", "name": "Seaber Oy", "founded": "2017-09-11", "industry_code": "62200", "website": "seaber.io"}}
+      ]},
+      "expect": {"text": "Seaber Oy (2855258-7) accepted or listed; never Seaberry or Seabergs", "gold": "2855258-7",
+                 "ok_states": ["resolved", "probable", "ambiguous", "unconfirmed"], "must_not_accept": ["3558526-4", "2018415-0"]}
+    },
+    {
+      "id": "T4", "name": "Hyke (NO)", "trap": "Several register rows named Hyke, two of them sole traders; none is linked to hyke.no.",
+      "input": {"name": "Hyke", "country": "NO", "domain": "hyke.no", "page_ids": [], "candidates": [
+        {"name": "HYKE AS", "registry": {"country": "NO", "id": "912288161", "name": "HYKE AS", "founded": "2013-09-04", "industry_code": "46.900"}},
+        {"name": "HYKE (sole trader, name withheld)", "registry": {"country": "NO", "id": "withheld-1", "natural_person": true}},
+        {"name": "HYKE (sole trader, name withheld)", "registry": {"country": "NO", "id": "withheld-2", "natural_person": true}}
+      ]},
+      "expect": {"text": "ambiguous: offer 'paste the company's URL'; never pick the first row", "gold": null,
+                 "ok_states": ["ambiguous", "unconfirmed", "unresolved"],
+                 "must_not_accept": ["912288161", "withheld-1", "withheld-2"]}
+    },
+    {
+      "id": "T5", "name": "Clewat", "trap": "The site's TLS certificate fails, so only the register candidate is known.",
+      "input": {"name": "Clewat", "country": "FI", "candidates": [
+        {"name": "Clewat Oy", "registry": {"country": "FI", "id": "2896110-2", "name": "Clewat Oy", "founded": "2018-02-20", "industry_code": "28990", "website": "www.clewat.com"}}
+      ]},
+      "expect": {"text": "Clewat Oy (2896110-2) shown: unconfirmed, or accepted by name", "gold": "2896110-2",
+                 "ok_states": ["resolved", "probable", "ambiguous", "unconfirmed"], "must_not_accept": []}
+    },
+    {
+      "id": "T6", "name": "Echandia (SE)", "trap": "No keyless Swedish register, and the site returned 429.",
+      "input": {"name": "Echandia", "country": "SE", "candidates": []},
+      "expect": {"text": "unresolved, with the reason", "gold": null, "ok_states": ["unresolved", "unconfirmed"], "must_not_accept": []}
+    },
+    {
+      "id": "T7", "name": "Blue Ocean Robotics (DK)", "trap": "No keyless Danish register; the name says 'ocean' but the business is robotics.",
+      "input": {"name": "Blue Ocean Robotics", "country": "DK", "domain": "blueoceanrobotics.com", "page_ids": [], "candidates": []},
+      "expect": {"text": "unresolved, with the reason", "gold": null, "ok_states": ["unresolved", "unconfirmed"], "must_not_accept": []}
+    },
+    {
+      "id": "T8", "name": "Edilm", "trap": "Its homepage atlan.fi/edilm and the pack's ID belong to Atlan Studio Oy.",
+      "input": {"name": "Edilm", "country": "FI", "domain": "atlan.fi", "registry_id": "3480010-2", "page_ids": [], "candidates": [
+        {"name": "Atlan Studio Oy", "registry": {"country": "FI", "id": "3480010-2", "name": "Atlan Studio Oy", "founded": "2024-10-02", "industry_code": "64990"}}
+      ]},
+      "expect": {"text": "the name mismatch is flagged; Atlan Studio Oy is not accepted as Edilm", "gold": null,
+                 "ok_states": ["ambiguous", "unconfirmed", "unresolved"], "must_not_accept": ["3480010-2"]}
+    },
+    {
+      "id": "T9", "name": "Norsepower", "trap": "A separate Norwegian entity NORSEPOWER AS also exists.",
+      "input": {"name": "Norsepower", "country": "FI", "domain": "www.norsepower.com", "page_ids": [], "candidates": [
+        {"name": "Norsepower Oy Ltd", "registry": {"country": "FI", "id": "2506251-5", "name": "Norsepower Oy Ltd", "founded": "2012-10-22", "industry_code": "30110", "website": "www.norsepower.com"}},
+        {"name": "NORSEPOWER AS", "registry": {"country": "NO", "id": "936106404", "name": "NORSEPOWER AS", "founded": "2025-08-26"}}
+      ]},
+      "expect": {"text": "Norsepower Oy Ltd (2506251-5); the Norwegian entity is not merged in", "gold": "2506251-5",
+                 "ok_states": ["resolved", "probable"], "must_not_accept": ["936106404"]}
+    },
+    {
+      "id": "T10", "name": "Foreign namesake site", "trap": "A same-name site abroad (a stand-in on the reserved .example domain; the dossier's cases were a Florida company and a Crete operator) shows no business ID.",
+      "input": {"name": "Seaber", "country": "FI", "domain": "seaber.example", "page_ids": [], "candidates": [
+        {"name": "Seaber Oy", "registry": {"country": "FI", "id": "2855258-7", "name": "Seaber Oy", "founded": "2017-09-11", "industry_code": "62200", "website": "seaber.io"}}
+      ]},
+      "expect": {"text": "the foreign site does not make the match 'resolved'", "gold": "2855258-7",
+                 "ok_states": ["probable", "ambiguous", "unconfirmed", "unresolved"], "must_not_accept": []}
+    }
+  ]
+}

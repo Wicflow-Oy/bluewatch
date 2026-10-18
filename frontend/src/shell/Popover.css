@@ -1,0 +1,47 @@
+/* Dropdown panels anchored to a top-bar trigger (section 2.12). */
+.popover {
+  position: absolute;
+  top: calc(100% + 8px);
+  z-index: var(--z-popover);
+  display: flex;
+  flex-direction: column;
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--sh-3);
+  animation:
+    tp-pop 340ms var(--spring) both,
+    tp-fade 180ms var(--ease) both;
+}
+
+.popover--start {
+  left: 0;
+  transform-origin: top left;
+}
+
+.popover--end {
+  right: 0;
+  transform-origin: top right;
+}
+
+.popover__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 48px;
+  padding: 0 16px;
+}
+
+.popover__title {
+  font: 600 13.5px/1.2 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.popover__foot {
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+}

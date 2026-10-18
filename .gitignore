@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+*.env
+.env.*
+!.env.example
+data/cache/
+data/outbox/
+data/*.db
+data/downloads/
+frontend/node_modules/
+frontend/dist/
+*.egg-info/
+.DS_Store
+# Local editor and tool folders
+.claude/
+.codex/
+.cursor/
+.idea/
+.vscode/

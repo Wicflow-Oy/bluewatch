@@ -1,0 +1,92 @@
+/* The avatar (workspace badge) and its status popover (section 2.9). */
+.status {
+  position: relative;
+  flex: none;
+}
+
+.status__avatar {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  font: 600 11.5px/1 var(--sans);
+  color: var(--ink-2);
+  transition:
+    transform var(--d-spring) var(--spring),
+    box-shadow var(--d-fast);
+}
+
+.status__avatar:hover,
+.status__avatar[aria-expanded="true"] {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.status__avatar:active {
+  transform: scale(var(--press-icon));
+  transition-duration: var(--d-press);
+}
+
+.status__dot {
+  position: absolute;
+  right: -1px;
+  bottom: -1px;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--ws-dot);
+  box-shadow: 0 0 0 2px var(--canvas);
+}
+
+.status__panel {
+  width: 320px;
+  max-width: calc(100vw - 24px);
+  max-height: calc(100dvh - var(--header-h) - 24px);
+  overflow-y: auto;
+}
+
+.status__head {
+  display: grid;
+  gap: 4px;
+  padding: 16px 16px 12px;
+}
+
+.status__kind {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.status__asof {
+  margin-top: 6px;
+  font: 450 12px/1.3 var(--mono);
+  color: var(--muted);
+}
+
+.status__body {
+  display: grid;
+  gap: 6px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+}
+
+.status__demo {
+  margin: 0 16px 12px;
+  font-size: 12px;
+}
+
+.status__foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* The deployed commit: small and last, for whoever checks what is live. */
+.status__build {
+  margin-left: auto;
+  font-size: 11px;
+  white-space: nowrap;
+  color: var(--muted);
+}

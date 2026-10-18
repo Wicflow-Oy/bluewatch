@@ -1,0 +1,755 @@
+{
+  "tracks": [
+    {
+      "id": "bluewatch",
+      "title": "Så fungerar BlueWatch",
+      "intro": "För fonder och acceleratorer: vad BlueWatch gör varje vecka, tanken bakom de viktigaste vyerna, var uppgifterna kommer ifrån och vad prototypen gör redan i dag.",
+      "sections": [
+        {
+          "id": "what-it-does",
+          "title": "Vad BlueWatch gör",
+          "body": [
+            "BlueWatch hittar nya bolag inom havsekonomin i offentliga företagsregister, EU:s offentliga upphandlingar och EU:s forskningsprojekt och visar vilka som är värda en närmare titt nu, varför och vad nästa steg är. Verktyget är byggt för dem som letar efter nya bolag på en accelerator eller en fond.",
+            "Varje bolag får ett bolagskort som håller isär det som är känt, det som antas och det som ännu är okänt, med källa och datum för varje faktum. Kortet slutar i en enda ordnad lista med nästa steg, där program, bidrag, investerare och köpare står tillsammans, vart och ett med sin tidsfrist.",
+            "Regler, inte en språkmodell, avgör varje mognadsnivå, poäng, grupp och behörighetsnivå, och regeln bakom varje resultat visas bredvid det. Ni kan alltid se varför ett bolag står där det står."
+          ]
+        },
+        {
+          "id": "workspaces",
+          "title": "Två arbetsytor: A'Pelago och Redstone",
+          "body": [
+            "BlueWatch har en arbetsyta per team. A'Pelagos arbetsyta är byggd för en accelerator: den letar efter bolag som är värda att bjuda in till ett program, använder vardagliga ord för mognadsnivåerna och visar havspåverkan som områden i Ocean Impact Navigator, aldrig som en siffra. Redstones arbetsyta är byggd för en investerare: den letar efter bolag som är värda ett första samtal, använder vedertagna förkortningar som TRL och BRL och visar poängvärdena och delarna bakom varje placering.",
+            "Uppgifterna, reglerna och källorna är desamma i båda. Bara listan, ordvalen och en del av ordningen ändras, så att byta arbetsyta känns som att gå över till en kollegas skrivbord, inte som att öppna en annan app."
+          ]
+        },
+        {
+          "id": "weekly-flow",
+          "title": "Veckans gång",
+          "body": [
+            "En vanlig vecka går från offentliga uppgifter till ett meddelande som en person har godkänt, i fem steg."
+          ],
+          "points": [
+            "Källor: BlueWatch läser företagsregistren i Finland, Norge och Estland, EU:s offentliga upphandlingar (TED) och EU:s forskningsprojekt (CORDIS) och visar när varje källa senast lästes.",
+            "Listan: nya och nyligen aktiva bolag som passar er arbetsyta rangordnas i en lista med högst 10 bolag, indelade i Agera nu, Undersök närmare och Inte än, och varje rad har upp till tre skäl med källor.",
+            "Bolagskortet: öppna ett bolag för att se dess mognadsnivåer, dess potential och belägg och luckregistret med fakta, antaganden och okänt.",
+            "Nästa steg: kortet ordnar vad som ska göras härnäst, med tidsfrister, från program och bidrag till investerare och köpare. Bryggor ger daterade skäl att agera, till exempel en köpare vars upphandling snart stänger.",
+            "Kontakt med godkännande: när fakta saknas tar sidan Kontakter fram en begäran om uppgifter till bolaget, och en person godkänner exakt den texten innan något kan gå iväg."
+          ]
+        },
+        {
+          "id": "the-list",
+          "title": "Listan: högst 10, aldrig utfylld",
+          "body": [
+            "Listan, som i appen heter Aktuellt nu, visar högst 10 bolag. Ett bolag kommer med om det grundades under de senaste 12 veckorna, om en daterad offentlig signal visar att det nyligen har blivit aktivt (en vunnen offentlig upphandling, ett EU-projekt, ett undertecknat EU-bidrag eller en ny webbadress för en produkt) eller om det är lovande och nytt på er lista. I Redstones arbetsyta räknas också en nyemission; A'Pelagos arbetsyta lyfter aldrig fram ett bolag på grund av en nyemission.",
+            "Bolag som redan finns i er kohort eller portfölj lämnas utanför, liksom enskilda näringsidkare och bolag utanför er tes eller förbi er målfas. Om färre än 10 kvalificerar sig visar listan färre och lämnar resten av platserna tomma. Två rader förklarar urvalet: varför de här bolagen kom med och varför nästa inte gjorde det.",
+            "Placeringen är en viktad summa av fem delar: matchning, signal, grupp, belägg och potential. Redstones arbetsyta visar varje del bredvid placeringen, så att ordningen kan kontrolleras för hand.",
+            "Varje rad har upp till tre skäl, och varje skäl har en numrerad källa. Håll pekaren över en källa eller tryck på den för att se tre datum: när händelsen inträffade, när BlueWatch först såg den och när sidan senast lästes. Rader märkta Ny eller Ändrad visar vad som har hänt sedan förra måndagens sammandrag.",
+            "Listan är alltid i bruk, inte en veckorapport. I den färdiga produkten rangordnas den om när en källa uppdateras, och ett sammandrag av ändringarna går ut varje måndag kl. 7.00 finsk tid. Den här prototypen skickar ingen e-post."
+          ]
+        },
+        {
+          "id": "groups",
+          "title": "Agera nu, Undersök närmare och Inte än",
+          "body": [
+            "Varje bolag på listan hör till en av tre grupper, och varje grupp har en nedskriven regel. Inom en förinställning är gränserna desamma för alla bolag: en potential på 0,6 eller mer räknas som lovande och belägg på 0,5 eller mer som tillräckliga."
+          ],
+          "table": {
+            "head": ["Grupp", "Regel", "Vad ni gör"],
+            "rows": [
+              [
+                "Agera nu",
+                "Lovande potential och tillräckliga belägg.",
+                "Kontakta bolaget med det program eller den öppna utlysning som passar bäst, eller för ett första samtal."
+              ],
+              [
+                "Undersök närmare",
+                "Lovande potential men tunna belägg.",
+                "Stäng de största okända punkterna först. Kortet säger vilka frågor ni ska ställa."
+              ],
+              [
+                "Inte än",
+                "För tidigt skede eller svag matchning just nu, eller bara en sida inför lansering.",
+                "Bevaka och kontrollera igen om fyra veckor. Ingen kontakt än."
+              ],
+              [
+                "Inte för oss",
+                "Utanför tesen, förbi målfasen eller en enskild näringsidkare.",
+                "Aldrig på listan. Syns ändå på sidan Bolag."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "readiness-levels",
+          "title": "Mognadsnivåer",
+          "body": [
+            "Varje kort visar fyra mognadsnivåer. En nivå är den högsta som ett faktum med källa stöder, med en säkerhet och de belägg som skulle höja den. När inget faktum stöder en nivå visas den som okänd, streckad, och aldrig som noll. Ett tjänste- eller konsumentföretag har ingen teknik att bedöma, så dess tekniska mognadsnivå står som Ej tillämplig.",
+            "Säkerheten är hög när två eller fler oberoende källor stöder nivån, medel när en primär källa gör det, till exempel ett register eller ett upphandlingsbeslut, och låg när den enda källan är bolagets egna påståenden.",
+            "Skalan för havspåverkan är vårt eget utkast och är inte kalibrerad: det finns ännu inga referensbedömningar för den, så BlueWatch gör inga anspråk på träffsäkerhet för den, och självrapporterade siffror kan höja den till högst 3."
+          ],
+          "table": {
+            "head": ["Nivå", "Vad den mäter", "Skala"],
+            "rows": [
+              [
+                "Teknisk mognadsnivå (TRL)",
+                "Hur långt tekniken har kommit, från idé till beprövad drift.",
+                "1–9"
+              ],
+              [
+                "Affärsmässig mognadsnivå (BRL, KTH)",
+                "Hur långt affären har kommit, från idé till upprepbar försäljning.",
+                "1–9"
+              ],
+              [
+                "Havspåverkan",
+                "Hur långt bolagets påverkan på havet har kommit, från avsikt till en inbyggd del av verksamheten.",
+                "Vår utkastskala 1–5 i Redstones arbetsyta; bara områden i Ocean Impact Navigator i A'Pelagos arbetsyta"
+              ],
+              [
+                "Investeringsmognad (IRL)",
+                "Hur redo bolaget är för en investerare, från registrerat bolag till bevisad, upprepbar efterfrågan.",
+                "1–9"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "potential-evidence",
+          "title": "Potential och belägg",
+          "body": [
+            "BlueWatch bedömer varje bolag på två separata axlar. Potential är hur stor möjligheten ser ut att vara om påståendena håller: matchning mot er tes, matchning mot er målfas och typen av bolag, plus ett litet tillägg för bevisad efterfrågan. Belägg är hur mycket av detta som stöds av källor som BlueWatch har läst: hur många av de fem standardkontrollerna som täcks, hur oberoende källorna är och hur färska de är.",
+            "Okänt sänker beläggen, aldrig potentialen. En del av potentialen som inte kan bedömas lämnas utanför medelvärdet i stället för att räknas som noll, så ett ungt bolag som det har skrivits lite om hamnar lågt på belägg men inte lågt på potential. Kända negativa omständigheter, som att bolaget ligger utanför er tes eller förbi er målfas, sänker potentialen, eftersom de är fakta och inte luckor.",
+            "Ett faktum väger enligt sin källa: en registeruppgift eller ett upphandlingsbeslut väger fullt och ett påstående på bolagets egen webbplats mindre. Ett antagande med angiven grund väger lite, och en kontroll som inte hittade något väger hälften så mycket som ett faktum: saken är känd, men den är inget friskintyg."
+          ]
+        },
+        {
+          "id": "gap-ledger",
+          "title": "Fakta, antaganden och okänt",
+          "body": [
+            "Saknad information är ett spår, inte ett lågt betyg. Luckregistret på varje kort sorterar allt BlueWatch vet om ett bolag i fyra kolumner: fakta, antaganden, okänt och ej tillämpligt.",
+            "Ett faktum har en källa och tre datum, och ett påstående från ett bolags webbplats behålls bara om citatet finns ordagrant på sidan. Ett antagande anger vad det vilar på. En okänd punkt anger varför den är okänd och hur den stängs: antingen genom en offentlig kontroll som BlueWatch gör, till exempel en registersökning, eller genom en fråga till bolaget.",
+            "Varje kort har fem standardkontroller: produkt, kunder, team, finansiering och offentliga upphandlingar. Varje kontroll som källorna inte täcker blir en okänd punkt med sin billigaste nästa kontroll, så ett tunt kort visar vad som ska tas reda på härnäst i stället för att se tomt ut."
+          ]
+        },
+        {
+          "id": "venture-card",
+          "title": "Bolagskortet och nästa steg",
+          "body": [
+            "Bolagskortet samlar ett bolag på en sida: registeruppgifterna och hur säkert bolaget är matchat mot sin registerpost, de fyra mognadsnivåerna, tio dimensioner från marknad till påverkan, potential och belägg, luckregistret och de möjligheter som passar.",
+            "Bolag matchas med organisationsnummer (i Finland FO-nummer), aldrig enbart med namnet. När matchningen inte är säker är det alltid första steget att bekräfta den, och inget meddelande kan gå iväg förrän den är bekräftad.",
+            "Nästa steg kommer som en enda ordnad lista över program, bidrag, investerare, köpare och partner. Först kommer poster med god matchning och en tidsfrist inom de närmaste 60 dagarna, den närmaste först. När beläggen är tunna kommer en fråga till bolaget därefter, och program går före investerare. Ett tjänsteföretag får inga investerarsteg. Varje steg anger vem som agerar: ert team, bolaget eller båda."
+          ]
+        },
+        {
+          "id": "bridges",
+          "title": "Bryggor",
+          "body": [
+            "En brygga kopplar ett bolag till en motpart, till exempel en offentlig köpare, en partner, en finansiär eller en testanläggning, med belägg på båda sidor, en tidsfrist när det finns en, och en enda åtgärd. Den svarar på en fråga: varför ska just det här bolaget agera nu, och med vem?",
+            "Det finns sju slags bryggor: vunnit förut, öppen igen (bolaget har vunnit en offentlig upphandling och en köpare upphandlar nu samma sak); samarbetar redan; regeln avgör; steg mot belägg; en lag skapar köpare; passar ett program; och öppet labbtillträde. Varje brygga är märkt bekräftad, trolig eller möjlig, och sidan Bryggor öppnas med de bekräftade och troliga.",
+            "Valet Dölj namn ersätter bolagets namn med en beskrivning ur registeruppgifterna och döljer dess organisationsnummer och länkar, till exempel när ni delar skärmen."
+          ]
+        },
+        {
+          "id": "funding-tiers",
+          "title": "Behörighetsnivåer för finansiering",
+          "body": [
+            "För varje bidrag och program jämför BlueWatch bolaget med finansiärens publicerade regler, till exempel vem som får söka, från vilket land och i vilken fas, och placerar det på en behörighetsnivå. Varje nivå visar regeln som avgjorde den, var regeln lästes och tidsfristen. Arbetsytorna använder lite olika ord för samma nivåer."
+          ],
+          "table": {
+            "head": ["Nivå", "A'Pelagos benämning", "Redstones benämning", "Betydelse"],
+            "rows": [
+              [
+                "Säker",
+                "Trolig",
+                "Säker*",
+                "Varje avgörande regel uppfylls, och var och en har lästs på finansiärens officiella sida."
+              ],
+              [
+                "Trolig",
+                "Trolig",
+                "Trolig",
+                "Ingen regel faller och de regler som lästs på den officiella sidan uppfylls, men en eller två punkter är ännu okända."
+              ],
+              [
+                "Möjlig",
+                "Möjlig",
+                "Möjlig",
+                "Ingen regel faller, men en regel kommer från en sekundär källa, kriterierna är inte publicerade, mer är okänt eller ingen utlysning är öppen just nu."
+              ],
+              [
+                "Utesluten",
+                "Osannolik",
+                "Utesluten",
+                "En avgörande regel uppfylls inte. Regeln som faller visas."
+              ],
+              ["Okänd", "Okänd", "Okänd", "Inget om finansieringsformen kunde verifieras."]
+            ]
+          }
+        },
+        {
+          "id": "funding-certain",
+          "title": "Varför Säker är ovanlig",
+          "body": [
+            "Säker är ovanlig med avsikt. Nivån kräver att varje avgörande regel har lästs på finansiärens officiella utlysningssida, inte i en sammanfattning eller ett sökresultat, och många finansiärer publicerar bara delar av sina regler. En stängd utlysning hamnar aldrig högre än Möjlig, hur väl bolaget än passar. Även ett Säker-resultat är ett skäl att stämma av med finansiären, inte ett löfte om finansiering.",
+            "Var ett bolag är registrerat kan avgöra svaret. I utlysning 4 inom Sustainable Blue Economy Partnership (SBEP) deltar till exempel ingen finländsk finansiär, så ett finländskt bolag är uteslutet medan ett norskt bolag av samma slag förblir möjligt.",
+            "Bidrag ger startbana, men de är inte affären: ett bolag som är beroende av offentlig finansiering flaggas på sitt kort."
+          ]
+        },
+        {
+          "id": "founder-view",
+          "title": "Grundarvyn",
+          "body": [
+            "Grundarvyn tillämpar samma regler från bolagets håll. Skriv ett finländskt, norskt eller estniskt organisationsnummer (i Finland FO-nummer) så visar BlueWatch varje bidrag och program med behörighetsnivå och avgörande regel, de investerare som är värda att sätta upp på kortlistan och vad som ska göras under de närmaste 30 dagarna. För ett bolag utanför den bedömda mängden bygger resultatet enbart på registeruppgifter, som grundandedatum och branschkod, och allt annat förblir okänt.",
+            "Det som skrivs in lagras eller loggas aldrig, och numret går bara till det landets officiella register. Enskilda näringsidkare är privatpersoner, så BlueWatch visar ingenting om dem. I den färdiga produkten kan en grundare dela resultatet med A'Pelago, som då kan bjuda in bolaget till ett program; i den här prototypen är delningen avstängd, så ingenting lagras eller skickas."
+          ]
+        },
+        {
+          "id": "outreach-desk",
+          "title": "Kontakter och mänskligt godkännande",
+          "body": [
+            "När ett kort har öppna okända punkter tar sidan Kontakter fram en begäran om uppgifter: en användbar möjlighet för bolaget plus de två frågor som skulle stänga de största luckorna. Utkasten finns på engelska, finska och svenska.",
+            "En person godkänner varje meddelande, och godkännandet är knutet till ett fingeravtryck (en hash) av exakt den texten och mottagaren. Om ett enda tecken eller mottagaren ändras blir godkännandet ogiltigt. Ett godkännande går också ut efter 24 timmar, och reglerna för utskick kontrolleras igen i varje steg.",
+            "Meddelanden får bara gå till en organisations egen allmänna adress, presskontakt eller kontaktformulär, till en grundares rolladress när en offentlig källa som visar rollen finns sparad, eller till en adress vars innehavare har gett sitt samtycke. Personliga eller insamlade adresser blockeras och lagras aldrig. Bara ett bolag som är säkert matchat mot sin registerpost kan kontaktas, så ett bolag med liknande namn får aldrig meddelandet.",
+            "Utskick är avstängt i den här prototypen. Skicka registrerar vad som skulle ha gått ut, och bolagets svar simuleras: de okända punkter som frågorna gällde blir fakta märkta Bekräftat av bolaget, och varje steg skrivs till en granskningslogg som bara kan fyllas på."
+          ]
+        },
+        {
+          "id": "precision",
+          "title": "Träffsäkerhet, och varför vi visar baslinjen",
+          "body": [
+            "Sidan Träffsäkerhet visar hur ofta BlueWatchs bedömningar av mognadsnivåer stämmer med ett facit: samma intervall, högst en nivå ifrån, och en viktad kappa när det finns minst 10 bolag. Facit är våra egna analytikers tolkning av offentliga belägg för en uppsättning referensbolag, inte bedömningar från A'Pelago eller Redstone.",
+            "Varje siffra står bredvid en åldersbaslinje: en enkel regel som gissar nivåbandet enbart utifrån bolagets ålder och som poängsätts på samma bolag. Ett verktyg som inte slår en gissning utifrån ålder har inte förtjänat förtroende, så sidan visar jämförelsen och säger redan i sin första mening var baslinjen vinner.",
+            "Varje siffra visar sitt n, och urvalen är små, så se siffrorna som en riktning, inte en mätning. Sidan kör också identifieringsfällor, alltså namn som liknar varandra och utländska namnar som inte får matchas, anger om resultaten är låsta till en version av reglerna och låter er ladda upp ett eget blindtest, som poängsätts i minnet och inte lagras."
+          ]
+        },
+        {
+          "id": "presets",
+          "title": "Förinställningar: bortom den blå ekonomin",
+          "body": [
+            "En förinställning är en tes skriven som konfiguration: branscher, nyckelord, ämnen för bidrag, investerarnas teser, påverkansramverk, målfas och investeringsstorlek. Motorn, reglerna och gränserna förblir desamma; bara förinställningen byts, och en ny tes är en ny förinställningsfil, inte ny kod.",
+            "När förinställningen byts rangordnas samma bolag om. Pilar visar hur varje bolag flyttar sig, och de bolag som faller bort nämns under listan."
+          ],
+          "table": {
+            "head": ["", "Blå ekonomi", "Klimat och cirkulär ekonomi"],
+            "rows": [
+              [
+                "Branscher",
+                "Hållbara sjöfarts- och hamnsystem; havsinfrastruktur och ren energi; havsdata och havsobservation; blå bioteknik och vattenteknik",
+                "Energiomställning och elektrifiering; minskade utsläpp i industri och transporter; cirkulära material och avfall; klimatdata, utsläppsredovisning och anpassning; vatten- och livsmedelssystem"
+              ],
+              [
+                "Påverkansområden",
+                "De sex områdena i Ocean Impact Navigator",
+                "De sex miljömålen i EU:s taxonomi (förordning (EU) 2020/852)"
+              ],
+              ["Typisk investeringsstorlek", "0,2–2 miljoner euro", "0,5–5 miljoner euro"],
+              [
+                "Målfas",
+                "Investeringsmognad 2–8, högst 10 år gammalt",
+                "Investeringsmognad 2–8, högst 10 år gammalt"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "data-sources",
+          "title": "Var uppgifterna kommer ifrån",
+          "body": [
+            "BlueWatch använder endast offentliga uppgifter på bolagsnivå. Varje källa visar sitt läge på listan: direkt, daglig fil, veckofil, sparad eller ej tillgänglig. En källa som inte är tillgänglig visas som sådan och räknas inte som noll, så en lucka i uppgifterna ser aldrig ut som en lugn vecka.",
+            "Reglerna för bidrag kommer från finansiärernas egna utlysningssidor och EU:s portal Funding & Tenders, investerarnas teser från investerarnas egna webbplatser och produktpåståendena från bolagens egna webbplatser, kort citerade med länk. Loggar för certifikattransparens visar när ett bolag tar en ny webbadress för en produkt i bruk.",
+            "I den här prototypen beräknas listan, korten och bryggorna ur offentliga uppgifter som sparades den 16 och 17 oktober 2026, och appen visar när uppgifterna lästes. Den nuvarande mängden omfattar omkring 140 nordiska och baltiska bolag inom havsekonomin, omkring 60 investerare, omkring 60 finansieringsformer och öppna EU-ämnen samt över 80 storföretag, hamnar, offentliga köpare, testbäddar och universitet. I den färdiga produkten läses varje register så ofta som det publicerar, dagligen eller varje vecka."
+          ],
+          "table": {
+            "head": ["Källa", "Vad BlueWatch använder", "Licens", "I den här prototypen"],
+            "rows": [
+              [
+                "Patent- och registerstyrelsen (PRH), Finland",
+                "Nya bolag, bolagssökningar, nyemissioner och kungörelser i handelsregistret",
+                "CC BY 4.0",
+                "Sparad 16–17.10.2026; sökningar sker direkt när direktsökningar är påslagna"
+              ],
+              [
+                "Brønnøysundregistrene (Brreg), Norge",
+                "Nya bolag, registerändringar och bolagssökningar",
+                "NLOD 2.0",
+                "Sparad 16–17.10.2026; sökningar sker direkt när direktsökningar är påslagna"
+              ],
+              [
+                "Estlands e-företagsregister (RIK)",
+                "Dagliga filer med bolag (endast juridiska personer) och bolagssökningar",
+                "CC BY 4.0",
+                "Daglig fil"
+              ],
+              [
+                "TED, EU:s offentliga upphandlingar",
+                "Öppna upphandlingar och tilldelade kontrakt per vinnare",
+                "© Europeiska unionen, CC BY 4.0",
+                "Sparad 16–17.10.2026"
+              ],
+              [
+                "CORDIS, EU:s forskningsprojekt",
+                "Forskningsprojekt och deltagande organisationer",
+                "© Europeiska unionen, CC BY 4.0",
+                "Uttag 17.10.2026"
+              ],
+              [
+                "Statistiska centralbyråns företagsregister (SCB), Sverige",
+                "Inte inläst än: veckofilen innehåller också enskilda näringsidkare, så den kräver först en import av enbart juridiska personer",
+                "Inte inläst",
+                "Ej tillgänglig, räknas inte som noll"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "privacy",
+          "title": "Integritet: vad som aldrig lagras",
+          "body": [
+            "BlueWatch arbetar med organisationer, inte personer. Verktyget lagrar eller visar aldrig namn, e-postadress, telefonnummer eller foto för en person. När en källa nämner en grundare eller en anställd noterar BlueWatch bara att en person nämns. Enskilda näringsidkare är privatpersoner, så de rangordnas, kontaktas eller visas aldrig."
+          ],
+          "points": [
+            "Organisationsnummer och bolagsnamn som skrivs in i en sökning eller i grundarvyn lagras eller loggas aldrig, läggs aldrig in i sidans adress och går bara till det landets officiella register.",
+            "Svaren från registren hålls i minnet för snabbhetens skull och skrivs aldrig till disk.",
+            "Servern för ingen åtkomstlogg. Er IP-adress används bara som en räknare i minnet för att begränsa antalet förfrågningar.",
+            "Personliga eller insamlade e-postadresser blockeras på sidan Kontakter och lagras aldrig.",
+            "En partners blindtest poängsätts i minnet och lagras inte.",
+            "Text som läses från webbplatser behandlas som uppgifter, aldrig som instruktioner.",
+            "Idea Harbour lagrar inget som ett team skriver om inte teamet självt väljer att dela det. Guiden till Idea Harbour förklarar hur."
+          ]
+        },
+        {
+          "id": "live-vs-planned",
+          "title": "Vad som fungerar i prototypen i dag, och vad den färdiga produkten lägger till",
+          "body": [
+            "Den här prototypen är fungerande programvara som körs på sparade uppgifter. Tabellen säger rakt ut vad som körs nu, vad som kommer från en sparad kopia, vad som är avstängt och vad som är planerat."
+          ],
+          "table": {
+            "head": ["Funktion", "I den här prototypen", "I den färdiga produkten"],
+            "rows": [
+              [
+                "Regler: mognadsnivåer, potential och belägg, grupper, behörighetsnivåer, nästa steg",
+                "I bruk: beräknas av appen",
+                "Samma regler, körda på färska uppgifter varje dag"
+              ],
+              [
+                "Listan, bolagskorten och bryggorna",
+                "Sparat: offentliga uppgifter från 16–17.10.2026",
+                "Rangordnas om när en källa uppdateras"
+              ],
+              [
+                "Sökning med organisationsnummer eller namn (Finland, Norge, Estland)",
+                "Direkt när direktsökningar är påslagna; annars den sparade kopian, märkt Sparad",
+                "Alltid direkt, och bolagets webbplats läses för ett fylligare kort"
+              ],
+              [
+                "Grundarvyn",
+                "Direkt när direktsökningar är påslagna, annars ur den sparade kopian; inget lagras; delning avstängd",
+                "Delning med A'Pelago påslagen, med samtycke"
+              ],
+              [
+                "Läsning av bolagens webbplatser",
+                "Sparat: sidor lästa 16–17.10.2026",
+                "Nya bolags webbplatser läses automatiskt, varje påstående behålls bara om citatet finns på sidan, inom ett dagligt kostnadstak"
+              ],
+              [
+                "Kontakter",
+                "I bruk fram till godkännandet; utskick avstängt och svaret simulerat",
+                "Godkända meddelanden skickas till bolagets allmänna adress; verkliga svar uppdaterar kortet"
+              ],
+              [
+                "Veckosammandrag",
+                "Avstängt: ingen e-post skickas",
+                "Vad som har ändrats, varje måndag kl. 7.00 finsk tid"
+              ],
+              [
+                "Aviseringar",
+                "I bruk på de sparade uppgifterna: tidsfrister 30 och 14 dagar i förväg samt nya registersignaler för bolag på listan",
+                "Samma aviseringar på färska uppgifter"
+              ],
+              [
+                "Träffsäkerhet",
+                "I bruk: facit, åldersbaslinje, identifieringsfällor och uppladdning av blindtest",
+                "Blindtest från A'Pelago och Redstone, poängsatta på en låst version av reglerna"
+              ],
+              [
+                "Hackathonspaning",
+                "Sparat: offentliga resultatsidor, kontaktvägar bara via organisationer",
+                "Godkända meddelanden skickas till arrangörens egen kanal"
+              ],
+              [
+                "Idea Harbour",
+                "I bruk: mognadsbedömning och granskningskö; delade idéer hålls i minnet i 60 minuter",
+                "Delade idéer lagras med registrerat samtycke, dubbel bekräftelse och överenskommen lagringstid"
+              ],
+              [
+                "Länder",
+                "Finland, Norge och Estland; Sverige visas som ej tillgängligt",
+                "Sverige (endast juridiska personer), därefter Storbritanniens Companies House, Frankrikes SIRENE och Irlands CRO"
+              ],
+              [
+                "Alla EU-register",
+                "Planerat",
+                "Kommissionens genomförandeförordning (EU) 2023/138 om särskilda värdefulla dataset ålägger företagsregistren i EU:s medlemsstater att publicera grundläggande bolagsuppgifter, bland annat registreringsdatum och verksamhet, kostnadsfritt via API och massnedladdning, så varje nytt land behöver bara en koppling byggd på samma sätt"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "idea-harbour",
+      "title": "Så fungerar Idea Harbour",
+      "intro": "Idea Harbour är A'Pelagos inbjudan till student- och forskarteam att lyfta fram en havsidé innan den har blivit ett bolag. Teamen får en ärlig mognadsbedömning på några minuter, och A'Pelago går igenom en kort, rangordnad lista i stället för en hög.",
+      "sections": [
+        {
+          "id": "ih-overview",
+          "title": "Vad Idea Harbour är",
+          "body": [
+            "Idea Harbour har två sidor. Teamen använder studentsidan, som A'Pelago delar via en inbjudningslänk: de beskriver en idé på ungefär fem minuter, utan konto och utan namn, och får en mognadsbedömning direkt. A'Pelagos granskare använder granskningskön i BlueWatch, där idéer som teamen har valt att dela står bredvid offentliga uppslag på projekt som ännu inte är bolag, och allt bedöms med samma bedömningsmall.",
+            "Ingenting når A'Pelago om inte teamet bestämmer sig för att dela det. Bedömningsmallen ordnar läsningen; varje beslut fattas av en människa på A'Pelago."
+          ]
+        },
+        {
+          "id": "students-who",
+          "title": "För studenter: vem tjänsten är till för",
+          "body": [
+            "Idea Harbour är till för studentteam, forskarteam i tidigt skede och hackathonteam som har en idé för havet eller den blå ekonomin men ännu inget bolag. A'Pelago delar inbjudningslänken via universitet, studentföreningar, sin Blue Economy Academy och hackathonarrangörer.",
+            "Ni behöver inget bolag, ingen prototyp och ingen finansiering för att vara med. Ett team med ett problem och en första tanke om lösningen får en användbar bedömning, och bedömningen säger exakt vad ni ska lägga till härnäst. Samma sida kan också köras med förinställningen för klimat och cirkulär ekonomi, där påverkansområdena är EU-taxonomins sex miljömål."
+          ]
+        },
+        {
+          "id": "students-submit",
+          "title": "För studenter: vad ni fyller i",
+          "body": [
+            "Formuläret har fyra korta delar och tar ungefär fem minuter. Inga personuppgifter behövs för att få en bedömning: beskriv teamet med roller, aldrig med namn."
+          ],
+          "points": [
+            "Teamet: rollerna i teamet (bygga, affär, kunskap om branschen eller design) med kompetenser om ni vill, hur mycket tid ni lägger på idén och i vilket land ni finns.",
+            "Idén: ett arbetsnamn, problemet och vem som har det, hur er lösning fungerar, vem som skulle betala och hur, och det påverkansområde som idén förbättrar mest, eller Vet inte.",
+            "Vad som finns hittills: vad ni har, till exempel forskning, ett koncept, en prototyp, en pilot, användarintervjuer, avsiktsförklaringar eller betalande kunder, och vad ni har byggt eller testat, gärna med datum och siffror.",
+            "Vad ni behöver: mentorer, en pilotpartner, finansiering, fler i teamet eller tillgång till testmiljöer, plus upp till tre offentliga länkar, till exempel en projektsida, ett kodarkiv eller en demovideo. En människa på A'Pelago öppnar länkarna; ingenting öppnar dem automatiskt.",
+            "Formuläret har inga fält för namn, e-postadresser eller telefonnummer. Kontaktuppgifter som skrivs in i ett svar tas bort före läsningen, länkar till personliga profiler (LinkedIn, Facebook, Instagram, X) tas bort, och bedömningen säger till om något av detta hände."
+          ]
+        },
+        {
+          "id": "students-rubric",
+          "title": "För studenter: hur er idé läses",
+          "body": [
+            "Era svar läses mot en publicerad bedömningsmall med åtta kriterier på två axlar. Varje kriterium har fyra steg, från 0 till 3, och varje steg bestäms av vad ni säger (vem, hur, hur mycket), aldrig av hur mycket ni skriver. Ett längre svar ger ingenting i sig.",
+            "Potentialen är det viktade medelvärdet av de potentialkriterier ni har besvarat. Tomma fält lämnas utanför och räknas aldrig som noll, och potentialen bedöms när både problemet och lösningen är besvarade; fram till dess står det Inte bedömd än. Beläggen är det viktade medelvärdet av beläggkriterierna, där ett tomt fält räknas som att inget har visats. Det ni skriver är påståenden, inte fakta, så formuläret ensamt gör aldrig beläggen starka: det kräver ett offentligt spår som en människa kan öppna.",
+            "Okänt sänker beläggen, aldrig potentialen. Varje tomt fält blir en fråga i er bedömning, inte ett minus för idéns potential."
+          ],
+          "table": {
+            "head": ["Kriterium", "Axel", "Vikt", "Vad som höjer nivån"],
+            "rows": [
+              [
+                "Problemet och vem som har det",
+                "Potential",
+                "3",
+                "Säg vem som har problemet, och ange sedan dess storlek med en siffra eller varför just nu"
+              ],
+              [
+                "Lösning",
+                "Potential",
+                "2",
+                "Säg hur den fungerar, och sedan vad den ersätter eller är bättre än"
+              ],
+              [
+                "Vem betalar",
+                "Potential",
+                "2",
+                "Nämn en köpare eller ett sätt att ta betalt, och ange sedan ett pris"
+              ],
+              [
+                "Team",
+                "Potential",
+                "2",
+                "Visa att teamet kan bygga, sälja och kan branschen (bara roller)"
+              ],
+              [
+                "Påverkansområde",
+                "Potential",
+                "2",
+                "Välj ett område och visa i texten hur idén hjälper, och nämn sedan vad som skulle mätas"
+              ],
+              [
+                "Vad som är byggt",
+                "Belägg",
+                "3",
+                "Gå från koncept till prototyp eller pilot, med en siffra eller ett datum"
+              ],
+              [
+                "Kontakt med köpare",
+                "Belägg",
+                "3",
+                "Gå från samtal med användare till räknade samtal, en pilotpartner, avsiktsförklaringar eller betalande kunder"
+              ],
+              [
+                "Offentligt spår",
+                "Belägg",
+                "2",
+                "Lägg till länkar som en granskare kan öppna; en offentlig post, som en arrangörs resultatsida, väger tyngst"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-claude",
+          "title": "För studenter: läsning med Claude",
+          "body": [
+            "Ovanför knappen som startar bedömningen finns ett reglage, påslaget som standard, som låter också Claude läsa era svar. När det är påslaget skickas er text, med kontaktuppgifterna redan borttagna, till Anthropics API för just den här bedömningen, och inget av den sparas. Claude får bara lägga till påståenden som går att citera ordagrant ur era svar, och reglerna avgör alltid resultatet.",
+            "Slå av reglaget så läser reglerna era svar på egen hand. I båda fallen anger bedömningen vem som gjorde den, och bedömningen är komplett. Om Claude inte är tillgänglig eller dagens kostnadstak är nått svarar reglerna, och bedömningen säger varför."
+          ]
+        },
+        {
+          "id": "students-result",
+          "title": "För studenter: vad ert resultat betyder",
+          "body": [
+            "Bedömningen kommer tillbaka på några sekunder med ett av de tre resultaten i tabellen nedan. Resultaten är regler tillämpade på det ni skrev, inte en förutsägelse om framgång. Om era svar innehåller text riktad till granskaren, till exempel en uppmaning att ge idén ett högt betyg, hålls idén kvar för att läsas av en människa.",
+            "Utöver resultatet ser ni:"
+          ],
+          "points": [
+            "Vad som är starkt, citerat med era egna ord.",
+            "Upp till tre nästa steg bland program och finansieringsvägar som finns i våra uppgifter, vart och ett med källa och eventuell tidsfrist.",
+            "En ärlig kommentar om pengar. Om ingenting i våra uppgifter passar än säger bedömningen det.",
+            "Liknande offentliga projekt, om sådana finns. Det är inget problem: det visar att problemet är verkligt, så säg vad ni gör annorlunda.",
+            "Hur varje svar lästes, sorterat i era påståenden, våra antaganden och det okända, där varje okänd punkt har sin nästa kontroll. Kolumnen för fakta är tom för ett teams egen idé: inget som skrivs i ett formulär är ett faktum förrän någon har kontrollerat det."
+          ],
+          "table": {
+            "head": ["Resultat", "Vad det betyder", "Vad ni gör"],
+            "rows": [
+              [
+                "Redo att ta till A'Pelago",
+                "Hög potential, åtminstone vissa belägg och ett påverkansområde som visas i texten.",
+                "Lägg idén i granskningskön när ni är redo."
+              ],
+              [
+                "Lovande: två svar avgör",
+                "Hög eller medelhög potential, men något viktigt är fortfarande öppet.",
+                "Svara på de två frågorna i bedömningen, och be sedan om en ny bedömning eller dela."
+              ],
+              [
+                "Inte än: det här kan ni lägga till",
+                "För lite att bedöma än, eller låg potential utifrån det som står.",
+                "Lägg till det som bedömningen efterfrågar. Ni kan ändå dela redan nu: ett Inte än hindrar er aldrig."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-sharing",
+          "title": "För studenter: dela med A'Pelago",
+          "body": [
+            "Det är ert val att dela. Under bedömningen finns en samtyckesruta som inte är ikryssad, och delningsknappen fungerar inte förrän ni kryssar i den. När ni delar hamnar era svar och er mognadsbedömning i granskningskön. I den här prototypen är delningen simulerad: idén hamnar i en demokö som bara er webbläsarsession ser, och ingenting skickas till eller tas emot av A'Pelago.",
+            "I den här prototypen är lagringen avstängd: en delad idé hålls i serverns minne i 60 minuter, syns bara i er egen webbläsarsession och skrivs aldrig till disk eller loggar. Om ni ändrar era svar efter att ni har delat, be om en ny bedömning och dela igen så uppdateras den delade versionen.",
+            "I den färdiga produkten ser A'Pelagos granskare varje delad idé och kan bjuda in teamet till ett program. Delningen ber då om en e-postadress, som bekräftas via en länk som skickas dit (dubbel bekräftelse), och om en bekräftelse på att ni är minst 18 år. A'Pelago ansvarar för uppgifterna, och ert samtycke registreras tillsammans med exakt den text ni godkände."
+          ]
+        },
+        {
+          "id": "students-consent",
+          "title": "För studenter: samtycke och återkallelse",
+          "body": [
+            "Samtyckestexten säger vad ni går med på: i den här prototypen att idén och dess mognadsbedömning läggs i demons granskningskö, som A'Pelago inte tar emot; i den färdiga produkten att A'Pelago får se dem och kontakta ert team om sina program. Ni kan återkalla samtycket när som helst. Om samtyckestexten ändras ber sidan er läsa den igen och kryssa i rutan på nytt.",
+            "Knappen Återkalla tar genast bort allt som er session har delat. I den färdiga produkten raderar en återkallelse idén och era kontaktuppgifter inom 30 dagar och sparar bara ett hashvärde av e-postadressen, så att ni inte kontaktas igen. En delad idé som A'Pelago inte går vidare med skulle raderas efter 12 månader; den tiden är ett förslag som A'Pelago beslutar om.",
+            "Inget beslut fattas av programvara ensam. Bedömningsmallen ordnar läsningen, och en människa på A'Pelago går igenom varje idé på topplatserna och fattar beslutet."
+          ]
+        },
+        {
+          "id": "students-timeline",
+          "title": "För studenter: tidslinjen",
+          "body": ["Från första utkast till A'Pelagos granskning är stegen korta."],
+          "points": [
+            "Ungefär fem minuter: beskriv er idé.",
+            "Några sekunder: få er mognadsbedömning.",
+            "När ni vill: förbättra svaren och be om en ny bedömning.",
+            "När ni är redo: kryssa i samtyckesrutan och lägg idén i granskningskön (simulerat i den här prototypen).",
+            "Varje vecka: A'Pelagos granskare börjar med köns fem översta och beslutar vilka som bjuds in.",
+            "När som helst: återkalla er idé."
+          ]
+        },
+        {
+          "id": "reviewers-queue",
+          "title": "För granskare: hur kön rangordnas",
+          "body": [
+            "Granskningskön ställer idéer som team har delat bredvid offentliga uppslag på projekt som ännu inte är bolag och rangordnar alla med samma bedömningsmall. Det finns ingen dold poäng. Ordningen bestäms först av nivån (Ta till A'Pelago nu, sedan Lovande: ställ två frågor, sedan Inte än), därefter av nivåerna för potential och belägg och sist av varje källas egen ordning, så att källorna varvas och teamens egna bidrag kommer först vid lika läge. A'Pelagos arbetsyta läser potential före belägg; Redstones arbetsyta läser belägg först.",
+            "Kön öppnas med veckans fem översta att granska, och ni kan byta till de tre eller tio översta. Tomma platser förblir tomma när färre kvalificerar sig. Under platserna säger kön varför de här kom med och varför nästa inte gjorde det. Filter för källa, nivå, fas, påverkansområde och behov begränsar listan utan att numrera om den.",
+            "Varje idékort visar bedömningen, de två frågor som ska ställas, registret över fakta, påståenden, antaganden och okänt samt bedömningsmallen rad för rad. Knappen Så bedömer vi öppnar hela mallen i en vy: varje kriterium, vikt, steg och nivåregel.",
+            "Nivåerna är regler tillämpade på det som står skrivet, inte förutsägelser. Det finns ännu inga utfallsdata, så ingen kan säga hur många idéer märkta Ta till A'Pelago nu som blir bolag; den första kohorten inleder den statistiken."
+          ]
+        },
+        {
+          "id": "reviewers-flags",
+          "title": "För granskare: flaggor",
+          "body": [
+            "Flaggorna visar vad ni bör titta på innan ni litar på en bedömning. Idéer som hålls kvar för en människa, idéer med liten insats och nästan-dubbletter stannar på listan men kommer aldrig in på topplatserna."
+          ],
+          "table": {
+            "head": ["Flagga", "När den visas", "Vad som händer"],
+            "rows": [
+              [
+                "Hålls kvar för en människa",
+                "Texten innehåller instruktioner riktade till granskaren, till exempel ”ignorera reglerna” eller ”sätt den här överst”.",
+                "Reglerna bortser från instruktionerna, bedömningen blir Inte än och idén väntar på en människa."
+              ],
+              [
+                "Liten insats",
+                "Färre än 20 ord sammanlagt, eller mest upprepade ord.",
+                "Bedömningen blir Inte än, med de frågor som skulle kunna ändra den."
+              ],
+              [
+                "Nästan-dubblett",
+                "Idén liknar en annan idé eller ett offentligt projekt som rankas högre.",
+                "Den länkas till den högre rankade, som behåller sin plats bland de översta."
+              ],
+              [
+                "Beroende av bidrag",
+                "Intäkterna skulle komma från bidrag eller donationer.",
+                "Visas i bedömningen: investerare letar efter en köpare som betalar."
+              ],
+              [
+                "Kontaktuppgifter borttagna",
+                "E-postadresser eller telefonnummer skrevs in i svaren.",
+                "De tas bort före läsningen och sparas aldrig."
+              ],
+              [
+                "Personlig länk borttagen",
+                "En länk ledde till en personlig profil.",
+                "Länken tas bort före läsningen."
+              ],
+              [
+                "Formulär och text går isär",
+                "Texten nämner något som är byggt, men formuläret gör det inte.",
+                "Visas så att granskaren kontrollerar vad som verkligen finns."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "reviewers-public-leads",
+          "title": "För granskare: uppslag från hackathon och forskning",
+          "body": [
+            "Offentliga uppslag kommer in i kön från två källor. Hackathonresultaten är hackathonspaningens högst rankade projekt, med arrangörens resultatsida som offentlig post; ungdoms- och skolevenemang är uteslutna. Forskningsprojekten är de EU- och Interregprojekt i vårt forskningsmaterial som materialet bedömer passar bra för ett bolag och som fortfarande pågår.",
+            "Varje offentligt uppslag byggs enbart av text som posten själv innehåller, om organisationer och projekt, aldrig personer. Claude läste de offentliga beskrivningarna av hackathonuppslagen en gång, den 17 oktober 2026. Kön spelar upp den läsningen, kontrollerar varje citat mot beskrivningen på nytt och kastar läsningen om beskrivningen har ändrats. Beskrivningar som är för tunna för en rättvis läsning, och forskningsprojekt som bara har en titel i våra uppgifter, står som Inte bedömd än i stället för en gissning.",
+            "Offentliga uppslag hamnar oftast på Lovande: nästa steg är två frågor som ställs via organisationen. Funktionen Bjud in via arrangören tar fram ett meddelande till arrangören eller till ett universitets kontaktfunktion, aldrig till en enskild person, med en begäran om att skicka inbjudan vidare, och teamet bestämmer själv om det svarar. I den här prototypen är utskick från Idea Harbour avstängt: kopiera meddelandet och skicka det från er egen e-post."
+          ]
+        },
+        {
+          "id": "reviewers-sample-data",
+          "title": "För granskare: förhandsvisning med exempeldata",
+          "body": [
+            "En ny kö ser stillsam ut tills teamen börjar dela. Med ett reglage i granskningskön växlar ni mellan Verklig kö och Exempeldata. Exempeldata fyller kön med påhittade idéer, så att ni kan se hur rangordning, flaggor, nästan-dubbletter och topplatserna fungerar en intensiv vecka.",
+            "Så länge exempeldata visas ligger ett fast meddelande kvar på skärmen: Exempeldata: påhittade för att visa hela flödet. Inga verkliga bidrag. Växla tillbaka till Verklig kö för att bara se idéer som team har delat och offentliga uppslag."
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Åldersbaslinje",
+      "definition": "En enkel regel som gissar ett nivåband enbart utifrån bolagets ålder. BlueWatch visar den bredvid varje siffra för träffsäkerhet."
+    },
+    {
+      "term": "Facit",
+      "definition": "Referensnivåer för mognad för en uppsättning bolag, härledda av våra analytiker ur offentliga belägg och använda bara för att mäta träffsäkerhet."
+    },
+    {
+      "term": "Antagande",
+      "definition": "Ett påstående som BlueWatch inte har bekräftat, med den grund det vilar på."
+    },
+    {
+      "term": "Brygga",
+      "definition": "Ett daterat skäl, belagt från två håll, för ett bolag att agera nu: belägg på båda sidor och en åtgärd."
+    },
+    {
+      "term": "Belägg",
+      "definition": "Hur mycket av ett bolags potential som stöds av källor som BlueWatch har läst. Okänt sänker beläggen."
+    },
+    {
+      "term": "Fakta",
+      "definition": "Påståenden som stöds av en källa som BlueWatch har läst, med datum för när det hände, när det först sågs och när det senast lästes."
+    },
+    {
+      "term": "Behörighetsnivå",
+      "definition": "Hur väl ett bolag uppfyller de publicerade reglerna för ett bidrag eller program: säker, trolig, möjlig, utesluten eller okänd, alltid med den avgörande regeln."
+    },
+    {
+      "term": "Luckregister",
+      "definition": "Ett bolags fakta, antaganden, okända punkter och det som inte är tillämpligt i fyra kolumner, där varje okänd punkt har sin nästa kontroll."
+    },
+    {
+      "term": "Grupper",
+      "definition": "Agera nu (lovande, tillräckliga belägg), Undersök närmare (lovande, tunna belägg) och Inte än (för tidigt skede eller svag matchning just nu). Varje grupp har en nedskriven regel."
+    },
+    {
+      "term": "Nästa steg",
+      "definition": "En åtgärd i bolagets ordnade lista, till exempel ett program, ett bidrag, en investerare, en köpare, en partner, en pilot eller en fråga till bolaget, med tidsfrist när en sådan finns."
+    },
+    {
+      "term": "Potential",
+      "definition": "Hur stor möjligheten ser ut att vara om påståendena håller. Okänt sänker den aldrig."
+    },
+    {
+      "term": "Förinställning",
+      "definition": "En tes skriven som konfiguration: branscher, nyckelord, ämnen för bidrag, investerarnas teser och påverkansområden. Motorn förblir densamma."
+    },
+    {
+      "term": "Mognadsnivå",
+      "definition": "En av fyra skalor: teknik, affär, havspåverkan och investeringsmognad. Okänt är aldrig noll."
+    },
+    {
+      "term": "Mognadsbedömning",
+      "definition": "Idea Harbours resultat för en idé: en nivå, nivåer för potential och belägg, de två viktigaste frågorna och nästa steg."
+    },
+    {
+      "term": "Matchning mot registret",
+      "definition": "Hur säkert ett bolag är matchat mot sin registerpost med hjälp av organisationsnumret. Bara ett säkert matchat bolag kan kontaktas."
+    },
+    {
+      "term": "Enskild näringsidkare",
+      "definition": "En privatperson som är registrerad som företagare. BlueWatch rangordnar, kontaktar eller visar aldrig en sådan."
+    },
+    {
+      "term": "Okänt",
+      "definition": "Något som källorna inte säger, visat tillsammans med hur luckan stängs. Saknad information är ett spår, inte ett lågt betyg."
+    },
+    {
+      "term": "Arbetsyta",
+      "definition": "Ett teams vy av BlueWatch, A'Pelago eller Redstone: samma uppgifter och regler med en annan lista och andra ordval."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Är uppgifterna verkliga?",
+      "a": "Ja. Varje bolag, upphandling, forskningsprojekt, bidrag och investerare kommer från en offentlig källa, och varje faktum har en länk och datum. I den här prototypen sparades uppgifterna den 16 och 17 oktober 2026, och appen visar det datumet. Det enda som simuleras är bolagets svar på sidan Kontakter och förhandsvisningen med exempeldata i Idea Harbour, som är märkt som påhittad."
+    },
+    {
+      "q": "Varför visar listan ibland färre än 10 bolag?",
+      "a": "För att den aldrig fylls ut. Bara bolag med ett nytt skäl att titta på dem den här veckan kommer med, och listan säger varför nästa bolag inte kom med."
+    },
+    {
+      "q": "Ett bolag jag känner har tunna belägg. Har det fått sämre betyg?",
+      "a": "Nej. Beläggen mäter hur mycket BlueWatch kunde belägga med källor, inte hur bra bolaget är, och okänt sänker bara beläggen, aldrig potentialen. Kortet listar varje okänd punkt med den kontroll eller fråga som skulle stänga den."
+    },
+    {
+      "q": "Kan BlueWatch skicka e-post till ett bolag på egen hand?",
+      "a": "Nej. En person godkänner varje meddelande, godkännandet är knutet till exakt den texten, och personliga eller insamlade adresser blockeras. I den här prototypen är utskick helt avstängt."
+    },
+    {
+      "q": "Varför står ett bidrag som Möjlig när bolaget uppenbart passar?",
+      "a": "För att minst en avgörande regel inte kunde läsas på finansiärens officiella sida, kriterierna inte är publicerade eller ingen utlysning är öppen just nu. Nivån namnger regeln, så ni vet vad ni ska stämma av med finansiären."
+    },
+    {
+      "q": "Hur träffsäkert är BlueWatch?",
+      "a": "Sidan Träffsäkerhet visar överensstämmelsen med facit bredvid en baslinje som bara utgår från ålder, med n för varje siffra, och säger var baslinjen vinner. Urvalen är små, så läs siffrorna som en riktning. BlueWatch rangordnar och förklarar; verktyget förutsäger inte vilka bolag som lyckas."
+    },
+    {
+      "q": "Fungerar BlueWatch bortom den blå ekonomin?",
+      "a": "Ja. Byt förinställning till klimat och cirkulär ekonomi så rangordnas samma bolag om efter andra branscher, bidrag, investerarteser och påverkansområden. En ny tes är en ny förinställning, inte ny kod."
+    },
+    {
+      "q": "Vad händer med ett organisationsnummer som jag skriver in?",
+      "a": "Det går bara till det landets officiella register och lagras, loggas eller läggs aldrig in i sidans adress. Enskilda näringsidkare är privatpersoner, så BlueWatch visar ingenting om dem."
+    }
+  ]
+}

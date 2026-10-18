@@ -1,0 +1,194 @@
+/* Readiness track (mockup .segs), confidence dots and the ten dimensions (sections 3.12 and 3.13).
+   Reached is ink; the cobalt underline marks the range we cannot narrow; unknown is hatched. */
+.track {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  gap: 3px;
+  height: 10px;
+  min-width: 0;
+}
+
+.track--numbers {
+  height: 16px;
+}
+
+.track__cell {
+  display: grid;
+  place-items: center;
+  border-radius: 3px;
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line);
+  transform-origin: left;
+}
+
+.track__cell--reached {
+  background: var(--ink);
+  box-shadow: none;
+  animation: tp-seg 520ms var(--spring) backwards;
+  animation-delay: calc(var(--j, 0) * 45ms + 220ms);
+}
+
+.track__cell--band {
+  box-shadow:
+    inset 0 -2px 0 var(--accent-line),
+    inset 0 0 0 1px var(--line);
+}
+
+.track__cell--reached.track__cell--band {
+  box-shadow: inset 0 -2px 0 var(--accent);
+}
+
+.track__cell--unknown {
+  background: repeating-linear-gradient(135deg, var(--hatch-ink) 0 1px, transparent 1px 5px);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.track__n {
+  font: 500 9.5px/1 var(--mono);
+  color: var(--muted);
+}
+
+.track__cell--reached .track__n {
+  color: var(--btn-ink-fg);
+}
+
+.confidence {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+}
+
+.confidence__dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.confidence__dot--on {
+  background: var(--ink-2);
+  box-shadow: none;
+}
+
+/* ---- the 10 dimensions ---- */
+.dimensions {
+  display: grid;
+  gap: 10px;
+  container-type: inline-size;
+}
+
+.dimensions__cells {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 4px;
+}
+
+/* One row of ten only when each cell keeps about 100 px, so "Competition" and "Marketing and
+   distribution" are never cut. */
+@container (min-width: 1040px) {
+  .dimensions__cells {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+}
+
+.dimension {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 6px;
+  width: 100%;
+  min-height: 52px;
+  padding: 8px 7px 7px;
+  border-radius: 10px;
+  font-size: 10.5px;
+  line-height: 1.15;
+  color: var(--muted);
+  cursor: default;
+  background-image: repeating-linear-gradient(135deg, var(--hatch-ink) 0 1px, transparent 1px 6px);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  transition: transform var(--d-spring) var(--spring);
+}
+
+.dimension:hover,
+.dimension:focus-visible {
+  transform: translateY(-2px);
+}
+
+.dimension::before {
+  content: attr(data-state-label);
+  font: 550 9.5px/1 var(--mono);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+}
+
+.dimension--fact {
+  background: var(--sea-soft);
+  box-shadow: none;
+  color: var(--sea);
+}
+
+.dimension--assumption {
+  background: var(--amber-soft);
+  box-shadow: none;
+  color: var(--amber);
+}
+
+.dimension--not_applicable {
+  background: none;
+  box-shadow: inset 0 0 0 1px var(--line-3);
+  outline: 1px dotted var(--line-3);
+  outline-offset: -3px;
+  color: var(--faint);
+}
+
+.dimension__label {
+  display: -webkit-box;
+  /* Three lines: in a narrow sheet "Marketing and distribution" needs them. */
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  /* Finnish and Swedish compounds are wider than the cell: hyphenate them by the page language, and
+     break them anywhere where the browser has no dictionary for it. */
+  hyphens: auto;
+  overflow-wrap: anywhere;
+}
+
+.dimensions__legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 16px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.dimensions__key {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dimensions__swatch {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  min-height: 0;
+  padding: 0;
+  border-radius: 3px;
+}
+
+.dimensions__swatch::before {
+  content: none;
+}
+
+.dimensions__swatch.dimension--not_applicable {
+  outline: none;
+}
+
+/* A phone-width card: two columns, so "Marketing and distribution" still fits its cell. */
+@container (max-width: 400px) {
+  .dimensions__cells {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}

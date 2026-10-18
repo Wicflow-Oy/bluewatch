@@ -1,0 +1,293 @@
+.tier-group {
+  display: grid;
+  min-width: 0;
+}
+
+.tier-group__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  column-gap: 8px;
+  row-gap: 4px;
+  padding: 4px 0 10px;
+}
+
+.tier-group__count {
+  font: 500 12px/1 var(--mono);
+  color: var(--muted);
+}
+
+.tier-group__meaning {
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.tier-group__items {
+  display: grid;
+  gap: 8px;
+}
+
+.tier-group__more {
+  justify-self: start;
+  margin: 8px 0 0 -8px;
+}
+
+.tier-group__more svg {
+  transition: transform var(--d-base) var(--ease);
+}
+
+.tier-group__more[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+/* ---- one instrument ---- */
+.tier-item {
+  display: grid;
+  gap: 8px;
+  padding: 14px 16px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+/* Picked in search (command palette): "this is the one you asked for". */
+.tier-item--highlight {
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1.5px var(--accent);
+}
+
+/* Pinned to the top of its group: the one call a single fact decides (the registration country). */
+.tier-item--pinned {
+  background: var(--violet-soft);
+  box-shadow: inset 0 0 0 1.5px var(--violet-line);
+}
+
+.tier-item .tier-item__pin {
+  color: var(--violet);
+}
+
+.tier-item__head {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.tier-item__title {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.tier-item__name {
+  font: 600 15px/1.25 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.tier-item__detail {
+  overflow: hidden;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--muted);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tier-item__no-date {
+  flex-shrink: 0;
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.tier-item__head .deadline {
+  flex-shrink: 0;
+  align-items: flex-end;
+}
+
+/* ---- notes under a rule: what is still unknown, what moves the company up ---- */
+.tier-note {
+  font-size: 13px;
+  line-height: 18px;
+  color: var(--ink-2);
+  overflow-wrap: anywhere;
+}
+
+.tier-note__label {
+  color: var(--muted);
+}
+
+.tier-item__notes {
+  display: grid;
+  gap: 8px;
+  padding-left: 22px;
+}
+
+/* The notes repeat inside "Why" for phones only (see the media query at the end). */
+.tier-item__why-notes {
+  display: none;
+}
+
+/* ---- "Why": every hard rule as it was checked ---- */
+.tier-item__why {
+  padding-left: 22px;
+}
+
+.tier-item__why summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-height: 28px;
+  margin-left: -4px;
+  padding: 0 4px;
+  border-radius: var(--r-sm);
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--ink-2);
+  cursor: pointer;
+  list-style: none;
+  transition: color var(--d-fast) var(--ease);
+}
+
+.tier-item__why summary::-webkit-details-marker {
+  display: none;
+}
+
+.tier-item__why summary:hover {
+  color: var(--ink);
+}
+
+.tier-item__why summary svg {
+  transform: rotate(-90deg);
+  transition: transform var(--d-base) var(--ease);
+}
+
+.tier-item__why[open] summary svg {
+  transform: none;
+}
+
+.tier-item__why-count {
+  color: var(--muted);
+  font-weight: 400;
+}
+
+.tier-item__why-count::before {
+  content: "· ";
+}
+
+.tier-item__why[open] .checks,
+.tier-item__why[open] .tier-note {
+  margin-top: 8px;
+}
+
+@media (min-width: 720px) {
+  .tier-item__why--notes-only {
+    display: none;
+  }
+}
+
+.checks {
+  display: grid;
+  border-radius: 12px;
+  background: var(--sunken);
+}
+
+.check {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(120px, 168px) minmax(0, 1fr) auto;
+  align-items: baseline;
+  gap: 12px;
+  padding: 8px 12px;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+/* An unknown is hatched, here as a thin edge so the text stays readable. */
+.check--unknown::before {
+  content: "";
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: 4px;
+  background: var(--hatch);
+}
+
+.check + .check {
+  border-top: 1px solid var(--line);
+}
+
+.check__outcome {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  min-width: 0;
+  align-self: start;
+}
+
+.check__outcome svg {
+  align-self: center;
+}
+
+.check__name {
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.check__word {
+  color: var(--muted);
+}
+
+.check__word::before {
+  content: "· ";
+}
+
+.check--pass .check__outcome svg {
+  color: var(--sea);
+}
+
+.check--fail .check__outcome svg,
+.check--fail .check__word {
+  color: var(--red);
+}
+
+.check--unknown .check__outcome svg {
+  color: var(--muted);
+}
+
+.check__text {
+  color: var(--ink-2);
+  overflow-wrap: anywhere;
+}
+
+.check__source {
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+.check__source--verified {
+  color: var(--sea);
+}
+
+@media (max-width: 719px) {
+  .tier-group__more,
+  .tier-item__why summary {
+    min-height: 44px;
+  }
+
+  .check {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 4px;
+  }
+
+  .tier-item__notes {
+    display: none;
+  }
+
+  .tier-item__why-notes {
+    display: block;
+  }
+}

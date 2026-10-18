@@ -1,0 +1,1300 @@
+{
+ "query": "notice-type IN (cn-standard cn-social cn-desg) AND buyer-country IN (FIN SWE NOR DNK EST LVA LTU) AND classification-cpv IN (34500000 34510000 34512000 34520000 34521000 34930000 35513000 38221000 38290000 38420000 63720000 71354000 73112000 90733000 09230000) AND publication-date>=20260801",
+ "scope": "ACTIVE",
+ "fetched": "2026-10-17",
+ "open_from": "2026-10-17",
+ "open": [
+  {
+   "pub": "634009-2026",
+   "date": "2026-09-15",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Boats – Mindre arbetsbåt till Fyrbjörn",
+   "deadlines": [
+    "2026-10-21"
+   ],
+   "cpv": [
+    "34500000",
+    "34520000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/634009-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "635317-2026",
+   "date": "2026-09-15",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Pohjanmaan vesi ja ympäristö ry",
+   "title": "Finland – Research consultancy services – Lestijoen yhteistarkkailun kuormitus- ja vesistötarkkailut vuosina 2027-2030",
+   "deadlines": [
+    "2026-10-19"
+   ],
+   "cpv": [
+    "71900000",
+    "73210000",
+    "90733100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/635317-2026",
+   "relevance": "startup",
+   "relevance_note": "river load and water-body monitoring 2027-2030 (water monitoring)"
+  },
+  {
+   "pub": "636420-2026",
+   "date": "2026-09-16",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Miljøstyrelsen",
+   "title": "Denmark – Marine research services – Genudbud - Projekter vedrørende sameksistens mellem havvind og havnatur",
+   "deadlines": [
+    "2026-10-19"
+   ],
+   "cpv": [
+    "45244100",
+    "71313420",
+    "71313430",
+    "71313440"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/636420-2026",
+   "relevance": "startup",
+   "relevance_note": "marine research: coexistence of offshore wind and marine nature"
+  },
+  {
+   "pub": "639781-2026",
+   "date": "2026-09-17",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Väylävirasto",
+   "title": "Finland – Port and waterway operation services and associated services – Rannikon avattavien siltojen käyttö ja kunnossapito 2027 - 2031",
+   "deadlines": [
+    "2026-11-11"
+   ],
+   "cpv": [
+    "63721000",
+    "63721300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/639781-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "639800-2026",
+   "date": "2026-09-17",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sveriges geologiska undersökning",
+   "title": "Sweden – Aircraft operating services – Upphandling av flygtjänster för geofysiska flygmätningar och strålskyddsberedskap",
+   "deadlines": [
+    "2026-10-19"
+   ],
+   "cpv": [
+    "60445000",
+    "71351710",
+    "71354200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/639800-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "642293-2026",
+   "date": "2026-09-17",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Hargs Hamn Aktiebolag",
+   "title": "Sweden – Port operation services – Stuveri- och logistiktjänster",
+   "deadlines": [
+    "2026-10-27"
+   ],
+   "cpv": [
+    "63721200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/642293-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "645453-2026",
+   "date": "2026-09-18",
+   "country": [
+    "LTU"
+   ],
+   "buyer": "AB Via Lietuva (PV)",
+   "title": "Lithuania – Surveying instruments – Mobilios lazerinės skenavimo sistemos LiDAR įrangos įsigijimas",
+   "deadlines": [
+    "2026-10-22"
+   ],
+   "cpv": [
+    "38296000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/645453-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "646515-2026",
+   "date": "2026-09-21",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Navigation equipment – Portable Pilot Units",
+   "deadlines": [
+    "2026-10-19"
+   ],
+   "cpv": [
+    "34930000",
+    "34933000",
+    "38112100",
+    "48326000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/646515-2026",
+   "relevance": "startup",
+   "relevance_note": "portable pilot units (navigation tech)"
+  },
+  {
+   "pub": "648104-2026",
+   "date": "2026-09-21",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Time Kommune",
+   "title": "Norway – Sleeving repair services – Framework agreement for plumbing services and materials.",
+   "deadlines": [
+    "2026-10-21"
+   ],
+   "cpv": [
+    "38421100",
+    "39350000",
+    "42997000",
+    "43132500"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/648104-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "648949-2026",
+   "date": "2026-09-21",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "SVERIGES LANTBRUKSUNIVERSITET",
+   "title": "Sweden – Direction-finding equipment – Acoustic telemetry and aquatic satellite based telemetry",
+   "deadlines": [
+    "2026-10-20"
+   ],
+   "cpv": [
+    "38111000",
+    "73112000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/648949-2026",
+   "relevance": "startup",
+   "relevance_note": "acoustic telemetry and aquatic satellite telemetry (marine intelligence)"
+  },
+  {
+   "pub": "649210-2026",
+   "date": "2026-09-21",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Vejen Vand A/S",
+   "title": "Denmark – Water meters – Udbud af fjernaflæste vandmålere",
+   "deadlines": [
+    "2026-10-27"
+   ],
+   "cpv": [
+    "38421100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/649210-2026",
+   "relevance": "startup",
+   "relevance_note": "remote-read water meters (water tech)"
+  },
+  {
+   "pub": "652962-2026",
+   "date": "2026-09-22",
+   "country": [
+    "LVA"
+   ],
+   "buyer": "Latvijas Biozinātņu un tehnoloģiju universitāte",
+   "title": "Latvia – Instruments for measuring flow, level and pressure of liquids and gases – Laboratorijas iekārtu iegāde LBTU LPTF vajadzībām",
+   "deadlines": [
+    "2026-10-20"
+   ],
+   "cpv": [
+    "38420000",
+    "38430000",
+    "38434000",
+    "38434560"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/652962-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "657061-2026",
+   "date": "2026-09-23",
+   "country": [
+    "LVA"
+   ],
+   "buyer": "Valsts sabiedrība ar ierobežotu atbildību \"Latvijas Valsts ceļi\"",
+   "title": "Latvia – Geographic information systems (GIS or equivalent) – ESRI izstrādāto datorprogrammu licences 3 gadiem",
+   "deadlines": [
+    "2026-10-26"
+   ],
+   "cpv": [
+    "38221000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/657061-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "658504-2026",
+   "date": "2026-09-24",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "FMV",
+   "title": "Sweden – Ships and boats – Arbetsbåt",
+   "deadlines": [
+    "2026-10-29"
+   ],
+   "cpv": [
+    "34500000",
+    "34520000",
+    "34521000",
+    "34521100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/658504-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "660461-2026",
+   "date": "2026-09-25",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Boats – Begagnad båt för farledsunderhåll",
+   "deadlines": [
+    "2026-10-27"
+   ],
+   "cpv": [
+    "34500000",
+    "34520000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/660461-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "662995-2026",
+   "date": "2026-09-25",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Boats – Mindre arbetsbåt till Fyrbjörn",
+   "deadlines": [
+    "2026-10-23"
+   ],
+   "cpv": [
+    "34500000",
+    "34520000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/662995-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "668013-2026",
+   "date": "2026-09-29",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Sansia Oy",
+   "title": "Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema",
+   "deadlines": [
+    "2026-10-30"
+   ],
+   "cpv": [
+    "34521000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/668013-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "669159-2026",
+   "date": "2026-09-29",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Väylävirasto",
+   "title": "Finland – Port and waterway operation services and associated services – Rannikon avattavien siltojen käyttö ja kunnossapito 2027 - 2031",
+   "deadlines": [
+    "2026-11-11"
+   ],
+   "cpv": [
+    "63721000",
+    "63721300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/669159-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "670798-2026",
+   "date": "2026-09-30",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Havs- och vattenmyndigheten",
+   "title": "Sweden – Services incidental to fishing – Koncession för förtecknade hamnar",
+   "deadlines": [
+    "2026-10-26"
+   ],
+   "cpv": [
+    "63523000",
+    "63721000",
+    "63721200",
+    "63726700"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/670798-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "674425-2026",
+   "date": "2026-10-01",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Sandnes kommune",
+   "title": "Norway – Ships and boats – Renovation of work boats - the Skerry service.",
+   "deadlines": [
+    "2026-11-03"
+   ],
+   "cpv": [
+    "34000000",
+    "34500000",
+    "34510000",
+    "34512000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/674425-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "675355-2026",
+   "date": "2026-10-01",
+   "country": [
+    "LTU"
+   ],
+   "buyer": "Biržų rajono savivaldybės administracija",
+   "title": "Lithuania – Multi-purpose sports facilities construction work – Sporto paskirties inžinerinių statinių, vandentiekio ir nuotekų šalinimo tinklų bei kitų inžinerinių statinių Biržuose, Vytauto g. 47, statybos ir rekonstravimo darbai (I Etapas)",
+   "deadlines": [
+    "2026-10-20"
+   ],
+   "cpv": [
+    "45212220",
+    "71354300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/675355-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "677303-2026",
+   "date": "2026-10-01",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Ship-piloting services – Lotstransporter för Södra Vänern",
+   "deadlines": [
+    "2026-10-30"
+   ],
+   "cpv": [
+    "63722000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/677303-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "677306-2026",
+   "date": "2026-10-01",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Väylävirasto",
+   "title": "Finland – Port and waterway operation services and associated services – Taipaleen ja Konnuksen kanavien sekä Savonlinnan avattavien siltojen käyttö ja kunnossapito 2027 - 2031",
+   "deadlines": [
+    "2026-10-26"
+   ],
+   "cpv": [
+    "63721000",
+    "63721300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/677306-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "677706-2026",
+   "date": "2026-10-01",
+   "country": [
+    "LTU"
+   ],
+   "buyer": "Akcinė bendrovė Turto bankas (PV)",
+   "title": "Lithuania – Cadastral surveying services – VP-3488 Žemės sklypų formavimo ir matavimo paslaugos",
+   "deadlines": [
+    "2026-11-03"
+   ],
+   "cpv": [
+    "71354300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/677706-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "678586-2026",
+   "date": "2026-10-02",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Hansel Oy",
+   "title": "Finland – Boats – Vesiskootterit ja trailerit 2026 (0072004)",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34520000",
+    "50240000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/678586-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "679471-2026",
+   "date": "2026-10-02",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "City of Oslo, Agency for Urban Environment",
+   "title": "Norway – Boats – Procurement of two petrol-powered service boats for the archipelago service in the Inner Oslo Fjord.",
+   "deadlines": [
+    "2026-11-10"
+   ],
+   "cpv": [
+    "34500000",
+    "34513000",
+    "34520000",
+    "34521000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/679471-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "679552-2026",
+   "date": "2026-10-02",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Troms Fylkeskommune",
+   "title": "Norway – Ship bridge simulators – Navigation simulators for Nord-Troms and Senja sixth form colleges",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "30231000",
+    "30231320",
+    "34150000",
+    "34152000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/679552-2026",
+   "relevance": "startup",
+   "relevance_note": "navigation simulators for colleges (maritime training tech)"
+  },
+  {
+   "pub": "680569-2026",
+   "date": "2026-10-02",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Lappeenrannan-Lahden teknillinen yliopisto LUT",
+   "title": "Finland – Checking and testing apparatus – TREFFI-koelaitteiston prosessikomponentit ja mittalaitteet",
+   "deadlines": [
+    "2026-10-30"
+   ],
+   "cpv": [
+    "38000000",
+    "38420000",
+    "38423000",
+    "38500000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/680569-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "680718-2026",
+   "date": "2026-10-02",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Hansel Oy",
+   "title": "Finland – Boats – Kumiveneet ja trailerit 2026 (0072003)",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34520000",
+    "50240000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/680718-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "680751-2026",
+   "date": "2026-10-02",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Ullensvang Kommune",
+   "title": "Norway – Ships and boats – Harbour Vessel - Stand-by",
+   "deadlines": [
+    "2026-11-03"
+   ],
+   "cpv": [
+    "34500000",
+    "34513700",
+    "34521000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/680751-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "681017-2026",
+   "date": "2026-10-02",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Hansel Oy",
+   "title": "Finland – Boats – Ulkolaitamoottorilliset veneet ja trailerit 2026 (0072002)",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34520000",
+    "50240000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/681017-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "681402-2026",
+   "date": "2026-10-02",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Hansel Oy",
+   "title": "Finland – Boats – Kevyet veneet ja trailerit 2026 (0072001)",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34520000",
+    "50240000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/681402-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "682269-2026",
+   "date": "2026-10-05",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Västra Götalandsregionen",
+   "title": "Sweden – Medical equipments – Elektrisk bärbar sug och lågflödesväljare",
+   "deadlines": [
+    "2026-11-04"
+   ],
+   "cpv": [
+    "33100000",
+    "38421000",
+    "38427000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/682269-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "682428-2026",
+   "date": "2026-10-05",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Aktiebolaget PiteEnergi",
+   "title": "Sweden – Data analysis services – Analys och klassificering av drönar- och LiDAR-data för driftbesiktning av elnät",
+   "deadlines": [
+    "2026-11-02"
+   ],
+   "cpv": [
+    "48000000",
+    "48320000",
+    "71354100",
+    "72316000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/682428-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "682645-2026",
+   "date": "2026-10-05",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Norrköpings kommun",
+   "title": "Sweden – Environmental engineering consultancy services – Biotopkarteringar, artinventeringar och utredningar i vattenmiljöer 2026",
+   "deadlines": [
+    "2026-11-06"
+   ],
+   "cpv": [
+    "71313000",
+    "73112000",
+    "77231400",
+    "90700000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/682645-2026",
+   "relevance": "startup",
+   "relevance_note": "biotope mapping and species inventories in water environments"
+  },
+  {
+   "pub": "682737-2026",
+   "date": "2026-10-05",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Boats – Begagnad båt för farledsunderhåll",
+   "deadlines": [
+    "2026-10-28"
+   ],
+   "cpv": [
+    "34500000",
+    "34520000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/682737-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "683674-2026",
+   "date": "2026-10-05",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Ice-breaking services – Isrensing m.m. Marieholm",
+   "deadlines": [
+    "2026-11-02"
+   ],
+   "cpv": [
+    "63726200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/683674-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "689123-2026",
+   "date": "2026-10-06",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Marker buoys – Prickar och tillbehör för farledsutmärkning",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34515000",
+    "34515100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/689123-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "689476-2026",
+   "date": "2026-10-07",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Surahammars kommun",
+   "title": "Sweden – Services related to water pollution – Upphandling avseende Recipientkontroller i Kolbäcksån",
+   "deadlines": [
+    "2026-11-06"
+   ],
+   "cpv": [
+    "71620000",
+    "71900000",
+    "90700000",
+    "90715000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/689476-2026",
+   "relevance": "startup",
+   "relevance_note": "recipient control: water-pollution monitoring"
+  },
+  {
+   "pub": "691546-2026",
+   "date": "2026-10-07",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Trafikkontoret",
+   "title": "Sweden – Construction works for saunas – Ramavtal - Lätta konstruktioner",
+   "deadlines": [
+    "2026-11-04"
+   ],
+   "cpv": [
+    "34515000",
+    "44230000",
+    "45211370",
+    "45212000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/691546-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "694853-2026",
+   "date": "2026-10-08",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Lahden kaupunki",
+   "title": "Finland – Technical testing, analysis and consultancy services – Pohjavesien tarkkailupalvelut 2027-2029 (2030-2031)",
+   "deadlines": [
+    "2026-11-11"
+   ],
+   "cpv": [
+    "71600000",
+    "71900000",
+    "90733700"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/694853-2026",
+   "relevance": "startup",
+   "relevance_note": "groundwater monitoring services"
+  },
+  {
+   "pub": "695892-2026",
+   "date": "2026-10-08",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Navigation equipment – Portable Pilot Units",
+   "deadlines": [
+    "2026-11-02"
+   ],
+   "cpv": [
+    "34930000",
+    "34933000",
+    "38112100",
+    "48326000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/695892-2026",
+   "relevance": "startup",
+   "relevance_note": "portable pilot units (navigation tech)"
+  },
+  {
+   "pub": "699158-2026",
+   "date": "2026-10-09",
+   "country": [
+    "LTU"
+   ],
+   "buyer": "AB Klaipėdos vanduo (PV)",
+   "title": "Lithuania – Water meters – Buitiniai vandens apskaitos prietaisai su nuotoliniu duomenų nuskaitymu",
+   "deadlines": [
+    "2026-11-12"
+   ],
+   "cpv": [
+    "38421100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/699158-2026",
+   "relevance": "startup",
+   "relevance_note": "remote-read household water meters (water tech)"
+  },
+  {
+   "pub": "699698-2026",
+   "date": "2026-10-09",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Abakus AS",
+   "title": "Norway – Geology, oceanography and hydrology services – RE-26-03 Review and mapping of avalanche and flood hazards in Rendalen municipality",
+   "deadlines": [
+    "2026-11-13"
+   ],
+   "cpv": [
+    "71222200",
+    "71310000",
+    "71317000",
+    "71335000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/699698-2026",
+   "relevance": "startup",
+   "relevance_note": "flood and avalanche hazard mapping (hydrology, weak)"
+  },
+  {
+   "pub": "701538-2026",
+   "date": "2026-10-12",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "KYSTVERKET",
+   "title": "Norway – Ice-breaking services – Procurement of icebreaking services - 13 contract areas",
+   "deadlines": [
+    "2026-11-10"
+   ],
+   "cpv": [
+    "63726200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/701538-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "703922-2026",
+   "date": "2026-10-12",
+   "country": [
+    "LVA"
+   ],
+   "buyer": "Valsts izglītības attīstības aģentūra",
+   "title": "Latvia – Workshop equipment – Instrumentu ratiņu un dažādu instrumentu, vibrokājas un augstspiediena mazgāšanas iekārtas piegāde Aizkraukles Profesionālajai vidusskolai",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "38300000",
+    "38420000",
+    "42413000",
+    "42924700"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/703922-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "705123-2026",
+   "date": "2026-10-13",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Väylävirasto",
+   "title": "Finland – Port and waterway operation services and associated services – Taipaleen ja Konnuksen kanavien sekä Savonlinnan avattavien siltojen käyttö ja kunnossapito 2027 - 2031",
+   "deadlines": [
+    "2026-10-26"
+   ],
+   "cpv": [
+    "63721000",
+    "63721300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/705123-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "706877-2026",
+   "date": "2026-10-13",
+   "country": [
+    "LVA"
+   ],
+   "buyer": "Latvijas Valsts mežzinātnes institūts “Silava”",
+   "title": "Latvia – Laboratory, optical and precision equipments (excl. glasses) – Pētniecības iekārtu un aprīkojuma iegāde mežkopības un meža faunas pētījumiem",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "30200000",
+    "30213100",
+    "31158000",
+    "34711200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/706877-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "709571-2026",
+   "date": "2026-10-14",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Marker buoys – Prickar och tillbehör för farledsutmärkning",
+   "deadlines": [
+    "2026-11-16"
+   ],
+   "cpv": [
+    "34515000",
+    "34515100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/709571-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "710197-2026",
+   "date": "2026-10-14",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Havforskningsinstituttet",
+   "title": "Norway – Hire of water transport equipment with crew – Hire vessel for estimation of NVG herring in February 2027",
+   "deadlines": [
+    "2026-11-13"
+   ],
+   "cpv": [
+    "34513100",
+    "60600000",
+    "60650000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/710197-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "711403-2026",
+   "date": "2026-10-15",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Boligselskabet Sjælland",
+   "title": "Denmark – Meter reading service – LEVERING AF FORBRUGSMÅLERE OG -REGNSKABER SAMT HÅNDTERING AF FORBRUGSKLAGER (2026)",
+   "deadlines": [
+    "2026-11-25"
+   ],
+   "cpv": [
+    "38421100",
+    "38551000",
+    "38552000",
+    "38554000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/711403-2026",
+   "relevance": "noise",
+   "relevance_note": "CPV overlap, not ocean or water tech"
+  },
+  {
+   "pub": "713458-2026",
+   "date": "2026-10-15",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Sjöfartsverket",
+   "title": "Sweden – Repair and maintenance services – Varvsöversyn Svea",
+   "deadlines": [
+    "2026-11-16"
+   ],
+   "cpv": [
+    "34500000",
+    "50000000",
+    "50200000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/713458-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "713640-2026",
+   "date": "2026-10-15",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Sansia Oy",
+   "title": "Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema",
+   "deadlines": [
+    "2026-11-06"
+   ],
+   "cpv": [
+    "34521000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/713640-2026",
+   "relevance": "blue_incumbent",
+   "relevance_note": "boats, ship or port operations, icebreaking or fairway works"
+  },
+  {
+   "pub": "713808-2026",
+   "date": "2026-10-15",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Austevoll kommune",
+   "title": "Norway – Construction work – I1036 Public floating dock Competition FOA part 2",
+   "deadlines": [
+    "2026-11-09"
+   ],
+   "cpv": [
+    "34515000",
+    "45000000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/713808-2026",
+   "relevance": "startup",
+   "relevance_note": "public floating dock (floating infrastructure; cf. Reverlast)"
+  }
+ ],
+ "no_deadline": [
+  {
+   "pub": "552851-2026",
+   "date": "2026-08-10",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "Møre og Romsdal Fylkeskommune",
+   "title": "Norway – Water transport services – Competition - Operation of the county road ferry route Brattvåg-Dryna (2029-2033) - Prekval.",
+   "deadlines": [],
+   "cpv": [
+    "60600000",
+    "60610000",
+    "63721300"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/552851-2026"
+  },
+  {
+   "pub": "558609-2026",
+   "date": "2026-08-12",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Ørsted salg og service A/S",
+   "title": "Denmark – Pipeline-inspection services – IA_IRM ROV_26-34_FA",
+   "deadlines": [],
+   "cpv": [
+    "63726620",
+    "76600000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/558609-2026"
+  },
+  {
+   "pub": "569869-2026",
+   "date": "2026-08-18",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Aalborg Kommune",
+   "title": "Denmark – Ferry boats – Negotiated procedure of Contract regarding the construction of electric ferries",
+   "deadlines": [],
+   "cpv": [
+    "34512000",
+    "34512100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/569869-2026"
+  },
+  {
+   "pub": "603783-2026",
+   "date": "2026-09-02",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Vejdirektoratet",
+   "title": "Denmark – Architectural, construction, engineering and inspection services – DIS-IHK-AG - Dynamisk Indkøbssystem: In house-konsulenter til arealerhvervelse, GIS, CAD, kortlægning og ledninger",
+   "deadlines": [],
+   "cpv": [
+    "71000000",
+    "71350000",
+    "71354000",
+    "71355000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/603783-2026"
+  },
+  {
+   "pub": "607021-2026",
+   "date": "2026-09-03",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Länsstyrelsen i Södermanlands Län",
+   "title": "Sweden – Nature reserve services – Dynamiskt inköpssystem för naturvård och inventering",
+   "deadlines": [],
+   "cpv": [
+    "71313000",
+    "71354500",
+    "77231400",
+    "90700000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/607021-2026"
+  },
+  {
+   "pub": "613901-2026",
+   "date": "2026-09-07",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "IKT Nordhordland kommunalt oppgåvefellesskap",
+   "title": "Norway – Geographic information systems (GIS or equivalent) – GIS - Map systems for insight and management.",
+   "deadlines": [],
+   "cpv": [
+    "38221000",
+    "48326000",
+    "48326100",
+    "48810000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/613901-2026"
+  },
+  {
+   "pub": "622212-2026",
+   "date": "2026-09-09",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Göteborgs Spårvägar AB",
+   "title": "Sweden – IT services: consulting, software development, Internet and support – Utveckling och förvaltning av systemstöd för ärende- och arbetsorderhantering",
+   "deadlines": [],
+   "cpv": [
+    "38221000",
+    "48000000",
+    "72000000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/622212-2026"
+  },
+  {
+   "pub": "641744-2026",
+   "date": "2026-09-17",
+   "country": [
+    "NOR"
+   ],
+   "buyer": "FORSVARSMATERIELL",
+   "title": "Norway – Repair and maintenance services of security and defence materials – Sea Contractor Services for The Norwegian Defence Materiel Agency and the Navy - Prequalification",
+   "deadlines": [],
+   "cpv": [
+    "31321500",
+    "35512000",
+    "50600000",
+    "50800000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/641744-2026"
+  },
+  {
+   "pub": "654776-2026",
+   "date": "2026-09-23",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Roskilde Kommune",
+   "title": "Denmark – Architectural, engineering and surveying services – Landinspektør- og landmålerydelser",
+   "deadlines": [],
+   "cpv": [
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/654776-2026"
+  },
+  {
+   "pub": "657453-2026",
+   "date": "2026-09-24",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Roskilde Kommune",
+   "title": "Denmark – Architectural, engineering and surveying services – Landinspektør- og landmålerydelser",
+   "deadlines": [],
+   "cpv": [
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/657453-2026"
+  },
+  {
+   "pub": "675334-2026",
+   "date": "2026-10-01",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Stadsbyggnadskontoret (SBK)",
+   "title": "Sweden – Geographic information systems (GIS or equivalent) – GIS-plattform",
+   "deadlines": [],
+   "cpv": [
+    "38221000",
+    "48000000",
+    "48326000",
+    "48326100"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/675334-2026"
+  },
+  {
+   "pub": "690089-2026",
+   "date": "2026-10-07",
+   "country": [
+    "FIN"
+   ],
+   "buyer": "Vantaan Energia Oy",
+   "title": "Finland – Energy meters – Kaukolämpömittarit",
+   "deadlines": [],
+   "cpv": [
+    "38421100",
+    "38551000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/690089-2026"
+  },
+  {
+   "pub": "691717-2026",
+   "date": "2026-10-07",
+   "country": [
+    "DNK"
+   ],
+   "buyer": "Danmarks Fængsler",
+   "title": "Denmark – Architectural, engineering and surveying services – Udbud af kontrakt om scanning, opmåling og 3D modellering af Danmarks Fængslers samlede ejendomsportefølje",
+   "deadlines": [],
+   "cpv": [
+    "71250000",
+    "71354000",
+    "71355000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/691717-2026"
+  },
+  {
+   "pub": "707240-2026",
+   "date": "2026-10-13",
+   "country": [
+    "SWE"
+   ],
+   "buyer": "Örnsköldsviks Hamn och Logistik AB",
+   "title": "Sweden – Ice-breaking services – Isbrytar och bogseringstjänst.",
+   "deadlines": [],
+   "cpv": [
+    "60651100",
+    "63726200",
+    "63727000"
+   ],
+   "url": "https://ted.europa.eu/en/notice/-/detail/707240-2026"
+  }
+ ],
+ "all_count": 101,
+ "relevance_tagged_by": "orchestrator, 17 Oct 01:25 (title reading; a human or LLM should confirm)"
+}

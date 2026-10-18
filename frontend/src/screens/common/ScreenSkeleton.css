@@ -1,0 +1,29 @@
+.detail-skeleton {
+  margin-top: 16px;
+}
+
+.detail-skeleton__head {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.detail-skeleton__name {
+  display: grid;
+  flex: 1;
+  gap: 12px;
+  min-width: 0;
+}
+
+.detail-skeleton__cols {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+  margin-top: 24px;
+}
+
+@media (max-width: 719px) {
+  .detail-skeleton__cols {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}

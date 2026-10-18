@@ -1,0 +1,24 @@
+.rank-delta {
+  display: inline-flex;
+  align-items: center;
+  font: 500 11.5px/1 var(--mono);
+  white-space: nowrap;
+}
+
+.rank-delta--up {
+  color: var(--sea);
+}
+
+/* Amber already means "deadline soon", so a drop stays neutral. */
+.rank-delta--down {
+  color: var(--muted);
+}
+
+.rank-delta--same {
+  color: var(--faint);
+}
+
+.rank-delta--new {
+  font: 600 11.5px/1 var(--sans);
+  color: var(--accent-text);
+}

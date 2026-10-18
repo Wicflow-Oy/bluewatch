@@ -1,0 +1,43 @@
+/* Tabs look like a segmented control (section 3.6): the .seg and .seg__btn classes carry the look, the
+   sliding indicator comes from useSlidingIndicator. The row scrolls on narrow screens with edge fades. */
+.tabs.seg {
+  display: flex;
+  width: fit-content;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+/* A fade at the end that hides more tabs, so a phone shows there is more to scroll to. */
+.tabs[data-more="end"] {
+  mask-image: linear-gradient(to right, #000 calc(100% - 32px), transparent);
+}
+
+.tabs[data-more="start"] {
+  mask-image: linear-gradient(to left, #000 calc(100% - 32px), transparent);
+}
+
+.tabs[data-more="both"] {
+  mask-image: linear-gradient(
+    to right,
+    transparent,
+    #000 32px,
+    #000 calc(100% - 32px),
+    transparent
+  );
+}
+
+.tabs__tab {
+  flex: none;
+}
+
+.tab-panel {
+  animation: tp-swap 360ms var(--ease);
+}
+
+.tab-panel:focus-visible {
+  outline: none;
+}

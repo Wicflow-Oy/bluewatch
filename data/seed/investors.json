@@ -1,0 +1,1873 @@
+{
+ "meta": {
+  "title": "Ocean Opportunity Radar demo pack: investor list (consolidated)",
+  "built": "2026-10-16",
+  "row_count": 60,
+  "carried_over_from_existing_files": 38,
+  "new_rows_this_run": 22,
+  "sources_rule": "Official sites via WebFetch; press/search snippets tagged 'snippet'. No Dealroom, Crunchbase, PitchBook or Tracxn used. Blank or null means not stated or not verified; no values were guessed.",
+  "verification_levels": {
+   "read": "official page opened with WebFetch this run or in w2/w3",
+   "read+snippet": "official page opened and one or more press/search snippets added",
+   "snippet": "search result summary only; treat figures as unconfirmed",
+   "name-only": "named on another opened page; no further data gathered"
+  },
+  "search_budget": "WebSearch used 8 of 8 calls in this run.",
+  "fields_note": "ticket_eur_min/max are null when not stated; ticket_note carries currency or caveats.",
+  "w11_corrections": {
+   "applied": 75,
+   "unknown_names": []
+  }
+ },
+ "investors": [
+  {
+   "name": "Lifeline Ventures",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "not stated",
+   "stages": [
+    "pre-seed",
+    "seed"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "sector-agnostic"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Origin by Ocean (portfolio adjacency only)",
+    "Ambio (adjacency only)"
+   ],
+   "eif_or_blueinvest_backed": "unknown (not stated on fetched page)",
+   "status": "not stated on fetched page",
+   "website": "https://www.lifelineventures.com",
+   "source_urls": [
+    "https://www.lifelineventures.com"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Icebreaker.vc",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Estonia, Finland, Sweden",
+   "stages": [
+    "idea",
+    "seed"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": 1500000,
+   "ticket_note": "first investment ceiling as stated; not a standard ticket",
+   "thesis_keywords": [
+    "not stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown (Fund II supported by InnovFin Equity per page; BlueInvest not stated)",
+   "status": "not stated on fetched page",
+   "website": "https://www.icebreaker.vc",
+   "source_urls": [
+    "https://www.icebreaker.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Maki.vc",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Nordic founders",
+   "stages": [
+    "day-0",
+    "seed",
+    "series-a"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "5M first-round figure in w2 is a ceiling note, not a stated ticket",
+   "thesis_keywords": [
+    "deep tech",
+    "category-changing companies"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://www.maki.vc",
+   "source_urls": [
+    "https://www.maki.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Inventure",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Nordics and Baltics",
+   "stages": [
+    "seed"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "generalist",
+    "deep tech",
+    "consumer",
+    "healthtech",
+    "AI",
+    "B2B SaaS"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://inventure.vc",
+   "source_urls": [
+    "https://inventure.vc/"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "NordicNinja VC",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Northern Europe (offices London, Stockholm, Helsinki, Tokyo)",
+   "stages": [
+    "series-a"
+   ],
+   "ticket_eur_min": 2000000,
+   "ticket_eur_max": 8000000,
+   "thesis_keywords": [
+    "deep tech",
+    "decarbonisation",
+    "digital society",
+    "transport",
+    "healthcare"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://www.nordicninja.com",
+   "source_urls": [
+    "https://www.nordicninja.com"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Co-led Photoncycle EUR 15M Series A; led Redpine EUR 6.8M seed (snippet). Site lists Einride among named companies (Nasdaq listing), so 'news-only' was wrong. Site confirms Series A focus, EUR 2-8M cheque size, and Northern Europe focus."
+  },
+  {
+   "name": "2150",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "not stated",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "energy",
+    "industry",
+    "materials",
+    "built environment",
+    "circular manufacturing",
+    "decarbonisation"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://www.2150.vc",
+   "source_urls": [
+    "https://www.2150.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Blue Frontier (US) listed on site; not verified as ocean company."
+  },
+  {
+   "name": "World Fund",
+   "origin": "existing w2",
+   "type": "VC",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Europe",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "climate",
+    "decarbonisation",
+    "deep tech"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://worldfund.vc",
+   "source_urls": [
+    "https://worldfund.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Freshflow listed on site; not verified as ocean company."
+  },
+  {
+   "name": "Tesi (Suomen Teollisuussijoitus Oy)",
+   "origin": "existing w2",
+   "type": "public growth investor (fund-of-funds and direct)",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Finland",
+   "stages": [
+    "growth"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "growth capital for Finnish SMEs",
+    "fund-of-funds"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "unknown; named as Fund III investor in Voima Ventures press (snippet)",
+   "status": "active (site)",
+   "website": "https://www.tesi.fi",
+   "source_urls": [
+    "https://www.tesi.fi"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Portfolio named on page (Cactos, Cloudberry, Capalo AI, Ixi, DAL Partners); none ocean."
+  },
+  {
+   "name": "Nefco (Nordic Green Bank)",
+   "origin": "existing w2",
+   "type": "public development finance",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Nordic SMEs; green solutions in global markets; Baltic Sea",
+   "stages": [
+    "early-stage scale-up"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "green transition",
+    "Baltic Sea health"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable (not EIF)",
+   "status": "active (site)",
+   "website": "https://www.nefco.int",
+   "source_urls": [
+    "https://www.nefco.int/"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Green-mandate lender; not an equity VC."
+  },
+  {
+   "name": "NOPEF (managed by Nefco)",
+   "origin": "existing w2",
+   "type": "public programme",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Nordic green SMEs; international markets outside EU/EFTA",
+   "stages": [
+    "feasibility study",
+    "pilot"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "green SME internationalisation"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (site)",
+   "website": "https://nopef.com",
+   "source_urls": [
+    "https://nopef.com"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Requires environmental or climate benefit."
+  },
+  {
+   "name": "Finnvera",
+   "origin": "existing w2",
+   "type": "public financier (guarantees, loans, export credit)",
+   "hq_city": null,
+   "hq_country": "Finland",
+   "geography": "Finland",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "guarantees",
+    "loans",
+    "export credit guarantees"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Example only: buyer credit guarantee for a cruise ship built at Meyer Turku (not a portfolio)"
+   ],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (site)",
+   "website": "https://www.finnvera.fi/eng",
+   "source_urls": [
+    "https://www.finnvera.fi/eng"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Business Finland",
+   "origin": "existing w2",
+   "type": "public innovation funder",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Finland; international growth",
+   "stages": [
+    "startup sprint funding"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "internationalisation",
+    "innovation funding"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (site)",
+   "website": "https://www.businessfinland.fi/en",
+   "source_urls": [
+    "https://www.businessfinland.fi/en"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "No ocean or maritime programme stated."
+  },
+  {
+   "name": "EIF (European Investment Fund)",
+   "origin": "existing w2",
+   "type": "public (EU equity and debt for SMEs)",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Europe",
+   "stages": [
+    "SME"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "SME debt",
+    "SME equity"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "is the EIF (BlueInvest Fund managed by EIF; see notes)",
+   "status": "active (site)",
+   "website": "https://www.eif.org",
+   "source_urls": [
+    "https://www.eif.org"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read+snippet",
+   "notes": "Homepage (read) says EIF is part of the EIB Group and invests equity through funds and intermediaries; it does not mention BlueInvest. EUR 75M BlueInvest pilot managed by EIF per EIF/EC press (snippet; the EIF 2021 release URL returned 404). Use as a funder-of-funds route, not a direct pitch target."
+  },
+  {
+   "name": "Redstone Blue (Redstone blue-economy fund)",
+   "origin": "existing w3 (updated)",
+   "type": "VC (ocean and water tech)",
+   "hq_city": "Turku",
+   "hq_country": "Finland",
+   "geography": "Nordics and the Baltic Sea region (inferred: Turku-based team, Finnish LPs, Nordic maritime focus); not stated on the fund page (W11 read)",
+   "stages": [
+    "pre-seed",
+    "seed",
+    "series-a"
+   ],
+   "ticket_eur_min": 200000,
+   "ticket_eur_max": 2000000,
+   "ticket_note": "initial ticket range",
+   "thesis_keywords": [
+    "blue biotech",
+    "water",
+    "marine intelligence and data",
+    "ocean infrastructure and clean energy",
+    "maritime and port tech"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Tethys Robotics",
+    "Valkama Watercrafts",
+    "Unique Docks",
+    "Norolan"
+   ],
+   "eif_or_blueinvest_backed": "false (not stated as BlueInvest or EIF)",
+   "status": "active (first close EUR 25M; snippet)",
+   "website": "https://www.redstone.vc/strategies/blue-economy",
+   "source_urls": [
+    "https://www.redstone.vc/strategies/blue-economy",
+    "https://pulse2.com/redstone-reaches-first-close-of-e25-million-blue-fund-to-back-ocean-technology-startups/"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read+snippet",
+   "notes": "Four themes per press: maritime and ports, energy, water technologies, marine data and observation. Backers named in press: City of Turku, Meriaura Invest, Aboa Advest, LähiTapiola, Kelonia, Rausanne, Adamo Capital."
+  },
+  {
+   "name": "Katapult Ocean",
+   "origin": "existing w3",
+   "type": "impact VC",
+   "hq_city": "Oslo",
+   "hq_country": "Norway",
+   "geography": "global (presence Singapore, Cape Town)",
+   "stages": [
+    "seed",
+    "series-b"
+   ],
+   "ticket_eur_min": 150000,
+   "ticket_eur_max": 4000000,
+   "thesis_keywords": [
+    "regenerative blue economy",
+    "ocean transport",
+    "circularity",
+    "ocean data",
+    "food and water",
+    "energy"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Flocean",
+    "bound4blue",
+    "Hullbot",
+    "Carbon Ridge"
+   ],
+   "eif_or_blueinvest_backed": "unknown (not stated)",
+   "status": "active (site)",
+   "website": "https://www.katapultocean.com",
+   "source_urls": [
+    "https://www.katapultocean.com"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Ocean 14 Capital",
+   "origin": "existing w3 (updated)",
+   "type": "impact PE / growth",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "not stated on fetched page",
+   "stages": [
+    "late-stage venture",
+    "growth"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "blue economy",
+    "sustainable aquaculture",
+    "alternatives to fish protein",
+    "sustainable fisheries",
+    "circular plastics",
+    "marine ecosystems"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Tilabras",
+    "Ava Ocean",
+    "Sofar Ocean",
+    "KIME Akva"
+   ],
+   "eif_or_blueinvest_backed": "true (EIF EUR 35M cornerstone commitment; snippet)",
+   "status": "First close EUR 80M of EUR 150M target (EIF press release, 20 Dec 2021); current fund status not verified",
+   "website": "https://ocean14capital.com",
+   "source_urls": [
+    "https://ocean14capital.com",
+    "https://www.eif.org/press/all/ocean-14-capital-completes-80m-of-150m-inaugural-impact-fund"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Resolved by EIF press release (20 Dec 2021): EUR 80M first close of EUR 150M target; EIF EUR 35M cornerstone. The EUR 60M snippet is superseded. Figures date from 2021; current size not verified. Site: late-stage venture and growth; no ticket stated; HQ not stated on site. Late-stage: poor fit for pre-seed startups."
+  },
+  {
+   "name": "SWEN Capital Partners (Blue Ocean funds)",
+   "origin": "existing w3",
+   "type": "impact VC",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Primarily Europe; press says up to 30% of fund capital may be deployed outside Europe",
+   "stages": [
+    "series-a"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "overfishing",
+    "ocean pollution",
+    "climate change",
+    "marine health"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "WSense (underwater wireless)",
+    "Noray Seafood (indoor shrimp)"
+   ],
+   "eif_or_blueinvest_backed": "true (EIF named as Blue Ocean 2 backer; press)",
+   "status": "Blue Ocean 2: first close EUR 160M of EUR 300M target (53%), EIF named as limited partner (press, 2025); one outlet calls it closed, others a first close",
+   "website": null,
+   "source_urls": [
+    "https://www.seafoodsource.com/news/business-finance/swen-capital-partners-raises-eur-160-million-for-ocean-impact-fund",
+    "https://nextbillion.net/news/swen-capital-raises-183-million-for-new-ocean-impact-venture-fund"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "swen-capital.com did not resolve in this run."
+  },
+  {
+   "name": "Aqua-Spark",
+   "origin": "existing w3",
+   "type": "impact VC (evergreen)",
+   "hq_city": "Utrecht",
+   "hq_country": "Netherlands",
+   "geography": "global; Africa vehicle",
+   "stages": [
+    "early-stage",
+    "series-a"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "sustainable aquaculture",
+    "fish health",
+    "feed",
+    "alternatives to fishmeal",
+    "cell-based seafood"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Calysta",
+    "Wanda Fish"
+   ],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not verified",
+   "website": null,
+   "source_urls": [
+    "https://impactalpha.com/?p=124486"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "aqua-spark.com resolves to an unrelated business; website left blank."
+  },
+  {
+   "name": "Hatch Blue Revolution Fund",
+   "origin": "existing w3",
+   "type": "impact fund (manager Hatch Blue)",
+   "hq_city": null,
+   "hq_country": "Ireland (manager)",
+   "geography": "Not stated in EIF release; press says North America and Southeast Asia",
+   "stages": [
+    "early-stage aquaculture"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "EIF release (7 Mar 2024) states no ticket size; the earlier 500k-5M figure came from press and is unverified",
+   "thesis_keywords": [
+    "finfish",
+    "shellfish",
+    "seaweed",
+    "aquaculture nutrition and genetics",
+    "alternative seafood"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "CageEye",
+    "ChucaoTec",
+    "DeNova"
+   ],
+   "eif_or_blueinvest_backed": "true (EIF EUR 20M under InvestEU, 7 Mar 2024)",
+   "status": "Second close completed (EIF release, 7 Mar 2024); current status not verified; fund website not found",
+   "website": null,
+   "source_urls": [
+    "https://www.eif.org/press/all/eif-supports-blue-revolution-fund-in-boosting-sustainable-acquaculture-investmetns-backed-by-the-investeu-programme",
+    "https://globalaginvesting.com/hatch-blue-raises-e93m-to-advance-sustainable-aquaculture-technology/"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read+snippet",
+   "notes": "hatchblue.com is a parked domain."
+  },
+  {
+   "name": "Indico Capital Partners (Indico Blue Fund)",
+   "origin": "existing w3 (updated)",
+   "type": "VC",
+   "hq_city": "Lisbon",
+   "hq_country": "Portugal",
+   "geography": "ocean companies with HQ or significant operations in Portugal",
+   "stages": [
+    "pre-seed",
+    "series-a",
+    "series-b",
+    "series-c"
+   ],
+   "ticket_eur_min": 100000,
+   "ticket_eur_max": 5000000,
+   "thesis_keywords": [
+    "SDG 14",
+    "sustainable aquaculture and fisheries",
+    "blue biotech",
+    "digital ocean",
+    "waste and circularity",
+    "green shipping",
+    "ocean renewables"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Inclita Seaweed Solutions",
+    "FOSSA Systems (sector not stated on page)"
+   ],
+   "eif_or_blueinvest_backed": "false (EC page: fully privately funded; separate 2019 EFSI deal)",
+   "status": "Active per site. Site figures conflict: '3 funds, EUR 102m AuM as of Dec 31, 2021' vs '4 funds, EUR 244M AuM' at a glance. EUR 157M deployed since 2019 (site). EUR 50M/36M fundraising figures are undated press, not on site.",
+   "website": "https://www.indicocapital.com",
+   "source_urls": [
+    "https://www.indicocapital.com",
+    "https://oceans-and-fisheries.ec.europa.eu/news/indico-capital-partners-blueinvest-harnessing-oceans-potential-2025-06-11_en"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Oceano Fresco appears as a logo only; excluded from named portfolio.",
+   "ticket_note": "Ocean range EUR 100k-5M per company (the row's ticket values); site tech range EUR 500k-10M. Ocean stage not stated on site."
+  },
+  {
+   "name": "Blue Horizon Ventures I",
+   "origin": "existing w3",
+   "type": "VC (food tech)",
+   "hq_city": "Zurich",
+   "hq_country": "Switzerland",
+   "geography": "Not stated on site (food-system focus; press describes a Zurich-based food-tech firm)",
+   "stages": [
+    "seed",
+    "roll-ups"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "sustainable food system",
+    "alternative proteins",
+    "better crop practices",
+    "sustainable packaging",
+    "biology, technology and agriculture"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "true (EIF BlueInvest commitment; part of EUR 45M to 2 funds, Jan 2021; snippet)",
+   "status": "Not stated on site. Press (snippet, undated) reports final close of flagship fund at EUR 183M. Site headline mentions AgFunder assuming management of a '$100m Growth Fund' (not linked to this fund on site).",
+   "website": "https://bluehorizon.com",
+   "source_urls": [
+    "https://eif.org/what_we_do/equity/news/2021/first-blueinvest-fund-agreements-secure-eur-45-million-blue-economy.htm",
+    "https://startupticker.ch/en/news/blue-horizon-ventures-flagship-fund-attracts-eur-183-million",
+    "https://bluehorizon.com/"
+   ],
+   "source_tags": "snippet",
+   "verification": "read+snippet",
+   "notes": "Food-tech investor, not an ocean or maritime fund; 'Blue' in the name does not indicate an ocean mandate. Not an ocean-thesis target for the demo. EIF BlueInvest commitment (Jan 2021) from search snippets only; EIF release URL returned 404 this run.",
+   "exclude_from_matching": true,
+   "exclude_reason": "W11: Zurich-based food-tech investor, not an ocean fund; keep only for alt-protein seafood cases"
+  },
+  {
+   "name": "Sustainable Ocean Fund (Althelia / Mirova)",
+   "origin": "existing w3",
+   "type": "impact fund (SICAV-SIF)",
+   "hq_city": null,
+   "hq_country": "Luxembourg (fund vehicle)",
+   "geography": "Global emerging markets; named 2020 deals include Mexico (aquaculture), India (plastic recycling) and Tunisia (insect protein); a Latin America-only focus is not confirmed",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "sustainable seafood",
+    "fisheries and aquaculture",
+    "circular economy",
+    "marine conservation",
+    "marine plastic"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "false (EIB named as investor; not EIF)",
+   "status": "Closed: final close July 2020, over USD 132M (ESG Today). No later closes or wind-down notice found in official or press sources. Fully deployed status not confirmed; no 2025-2026 update found. FMO project pages list it as an approved investment.",
+   "website": "https://www.mirova.com",
+   "source_urls": [
+    "https://www.esgtoday.com/mirova-announces-close-of-sustainable-ocean-fund/",
+    "https://www.mirova.com/sites/default/files/2020-08/2020-328-validé%20DCCI-PR_SOF%20Final%20Closing_Jul%2020201_revu%20compliance%20EN.pdf",
+    "https://www.mirova.com/en"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Seven investments by 2020 close (Mirova). Mirova homepage fetched this run: no mention of the fund. Named 2020 deals (snippet): Plastic for Change (India), nextProtein (Tunisia). Early investors named in snippets include EIB, AXA IM and FMO; EIF not named."
+  },
+  {
+   "name": "Astanor Ventures",
+   "origin": "existing w3",
+   "type": "impact VC / growth",
+   "hq_city": null,
+   "hq_country": "Not stated on site (site: 5 offices in Europe and the US); press says Belgium",
+   "geography": "Europe and US",
+   "stages": [
+    "seed",
+    "growth"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "agrifood",
+    "soil and sea to gut",
+    "biodiversity",
+    "water use",
+    "GHG"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "true (first BlueInvest investment, Jan 2021; snippet)",
+   "status": "Active per site: strategies Astanor Venture and Astanor Growth, 'from seed to growth'; 50+ investments; EUR 800M capital raised. No fund names or fund status stated on site.",
+   "website": "https://astanor.com",
+   "source_urls": [
+    "https://astanor.com",
+    "https://www.openaccessgovernment.org/blueinvest-fund/102293/"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Ocean fund about USD 325M per press."
+  },
+  {
+   "name": "Planet Ocean Fund",
+   "origin": "existing w3",
+   "type": "fund of funds (ocean economy)",
+   "hq_city": "Linz",
+   "hq_country": "Austria",
+   "geography": "global",
+   "stages": [
+    "pre-seed",
+    "series-a"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "ocean economy",
+    "aquaculture",
+    "carbon capture",
+    "plastics",
+    "data",
+    "energy"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Underlying funds, not startups: Hatch Blue Revolution Fund; Katapult Deep Blue Fund"
+   ],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "Active per April 2025 press (IntraFish snippet): invested in 8 funds incl. Hatch Blue Revolution Fund and Katapult Deep Blue Fund; EUR 18M AuM. No official site found. A 2023 profile says Series B+ (outdated, conflicting).",
+   "website": null,
+   "source_urls": [
+    "https://www.intrafish.com/finance/ocean-focused-fund-betting-on-ai-precision-aquaculture/2-1-1806003"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Fund size about EUR 18M per press. One profile says Series B+."
+  },
+  {
+   "name": "Builders Vision",
+   "origin": "existing w3",
+   "type": "impact investment and philanthropy platform",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "not stated",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "systems change",
+    "blue economy",
+    "oceans",
+    "food and agriculture",
+    "energy"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "ECOncrete (spotlight; investment not confirmed)"
+   ],
+   "eif_or_blueinvest_backed": "unknown",
+   "status": "not stated on fetched page",
+   "website": "https://www.buildersvision.com",
+   "source_urls": [
+    "https://www.buildersvision.com"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Pale Blue Dot",
+   "origin": "existing w3",
+   "type": "VC",
+   "hq_city": "Malmo",
+   "hq_country": "Sweden (directories; not on fetched page)",
+   "geography": "Europe and US",
+   "stages": [
+    "pre-seed",
+    "seed"
+   ],
+   "ticket_eur_min": 500000,
+   "ticket_eur_max": 2000000,
+   "thesis_keywords": [
+    "optimise",
+    "adapt",
+    "pioneer (climate pillars)",
+    "energy",
+    "sustainable food",
+    "decarbonisation"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Alver (Norwegian aquaculture and sustainable protein)"
+   ],
+   "eif_or_blueinvest_backed": "false (not stated)",
+   "status": "Active per site: invites pitches ('if we believe in you... we act fast'); some portfolio entries marked Active, others Folded. Explicit fund-status statement not on site.",
+   "website": "https://paleblue.vc",
+   "source_urls": [
+    "https://paleblue.vc",
+    "https://www.pitchwise.se/investors/pale-blue-dot"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read+snippet",
+   "notes": "Ocean conservation is listed as a sector in directories only. Site confirms pre-seed and seed stages, EUR 0.5-2M initial ticket, Europe and US focus. Alver (ocean_or_maritime_portfolio) did not appear in the fetched summary; the list is not exhaustive, so verify manually before quoting."
+  },
+  {
+   "name": "Almi Invest GreenTech",
+   "origin": "existing w3",
+   "type": "public (state-owned VC initiative)",
+   "hq_city": null,
+   "hq_country": "Sweden",
+   "geography": "Sweden only",
+   "stages": [
+    "seed",
+    "series-a"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "SEK 5M to 15M initial (not EUR)",
+   "thesis_keywords": [
+    "climate",
+    "nature and biodiversity",
+    "water treatment",
+    "circular economy",
+    "energy transition"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "CorPower Ocean (ocean activity not described on page)",
+    "Swedish Algae Factory"
+   ],
+   "eif_or_blueinvest_backed": "unknown (page cites EU support, not named)",
+   "status": "active (site)",
+   "website": "https://almi.se/en/venture-capital/almi-invest-greentech/",
+   "source_urls": [
+    "https://almi.se/en/venture-capital/almi-invest-greentech/"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Voima Ventures",
+   "origin": "existing w3",
+   "type": "VC (science-based deep tech)",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Nordics and Baltics",
+   "stages": [
+    "pre-seed",
+    "series-b"
+   ],
+   "ticket_eur_min": 200000,
+   "ticket_eur_max": 3000000,
+   "ticket_note": "Fund III, press",
+   "thesis_keywords": [
+    "science-based deep tech",
+    "green transition",
+    "life science",
+    "energy",
+    "climate"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "true (EIF named as Fund III investor; snippet)",
+   "status": "active (fund III; snippet)",
+   "website": "https://www.voimaventures.com",
+   "source_urls": [
+    "https://siliconcanals.com/voima-ventures-announces-first-close-90m-fund/"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Homepage only partly read. Portfolio mostly VTT spin-offs, not named."
+  },
+  {
+   "name": "Growth Blue Fund I",
+   "origin": "existing w3",
+   "type": "PE (blue economy, Portugal)",
+   "hq_city": null,
+   "hq_country": "Portugal",
+   "geography": "Portugal (SMEs and small mid-caps); one EU description adds Spain as a focus",
+   "stages": [
+    "growth"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "blue economy",
+    "aquaculture (preferred)",
+    "blue bioeconomy",
+    "offshore energy",
+    "sustainability and climate action"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "Partly: EUR 28M is public money via Fundo Azul and EIF under InvestEU (EIF share not split out in sources), not a sole EIF commitment",
+   "status": "First fund signed under the InvestEU Blue Economy instrument (EC: 27 Mar 2023); target EUR 50M; first close and current status not verified. EIF releases are dated 2021 and 2023.",
+   "website": null,
+   "source_urls": [
+    "https://www.openaccessgovernment.org/blueinvest-fund/102293/",
+    "https://blue-economy-observatory.ec.europa.eu/news/investeu-eu28-million-portugals-first-blue-economy-instrument-2023-03-30_en"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "ticket_note": "EU project description: 8-12 investments with tickets above EUR 1.5M (snippet). No fund website found, so not confirmed from the investor."
+  },
+  {
+   "name": "Bold Ocean Ventures (Gulf of Maine Ventures / GMRI)",
+   "origin": "existing w3",
+   "type": "impact investor / angel pipeline",
+   "hq_city": null,
+   "hq_country": "USA (Maine)",
+   "geography": "US Gulf of Maine",
+   "stages": [],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "ocean economy",
+    "mission impact"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "Not verified: ventures.gmri.org 301-redirects to gmri.org pages; the redirect target (gmri.org/impacts/strategic-initiatives/gulf-maine-ventures/) returned 404 this run",
+   "website": "https://ventures.gmri.org/investments/",
+   "source_urls": [
+    "https://ventures.gmri.org/investments/",
+    "http://gmri.org/impacts/strategic-initiatives/gulf-maine-ventures/"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet"
+  },
+  {
+   "name": "Ocean Impact Organisation (OIO)",
+   "origin": "existing w3",
+   "type": "accelerator / venture builder (charity)",
+   "hq_city": null,
+   "hq_country": "Not confirmed. onimpact.com.au is an impact news publisher (Impact Asia Pacific Pty Ltd, Glebe NSW), not the organisation's own site.",
+   "geography": "not stated",
+   "stages": [
+    "early-stage (pitch programme)"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "ocean health",
+    "ocean impact measurement"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "Unclear: the only dated item is a 2021 pitch-fest call (applications to 21 Sep 2021). No current programme found.",
+   "website": null,
+   "source_urls": [
+    "https://onimpact.com.au/?p=773",
+    "https://onimpact.com.au"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Stockholm 'Ocean Impact' excluded: sources conflict."
+  },
+  {
+   "name": "Kongsberg Innovation (Kongsberg Innovasjon)",
+   "origin": "existing w3",
+   "type": "accelerator / early-stage company builder",
+   "hq_city": null,
+   "hq_country": "Norway",
+   "geography": "Norway",
+   "stages": [
+    "early-stage",
+    "through commercialisation"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "press cites NOK 1M to 2M first round; unverified",
+   "thesis_keywords": [
+    "Ocean Technologies",
+    "Energy Transition",
+    "Advanced Manufacturing",
+    "Sustainable Cities",
+    "dual-use"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "none confirmed on official site (Kongsberg Ferrotech is a press-reported shareholder)"
+   ],
+   "eif_or_blueinvest_backed": "not applicable (not stated)",
+   "status": "active (site)",
+   "website": "https://kongsberginnovasjon.no",
+   "source_urls": [
+    "https://kongsberginnovasjon.no",
+    "https://seedtable.com/companies/kongsberg-ferrotech/funding-rounds/seed-2025-07"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read"
+  },
+  {
+   "name": "Investinor",
+   "origin": "existing w3",
+   "type": "public (state-owned risk capital, Norway)",
+   "hq_city": "Trondheim",
+   "hq_country": "Norway",
+   "geography": "Norway",
+   "stages": [
+    "seed scheme referenced"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "growth companies",
+    "innovation",
+    "sustainable value creation"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (site)",
+   "website": "https://www.investinor.no",
+   "source_urls": [
+    "https://www.investinor.no",
+    "https://bebeez.eu/2025/07/25/norwegian-startup-secures-e12-million-seed-to-scale-subsea-robotics-backed-by-nato-innovation-fund/"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Co-led Kongsberg Ferrotech seed per press (snippet)."
+  },
+  {
+   "name": "Maersk Growth",
+   "origin": "existing w3",
+   "type": "CVC (Maersk)",
+   "hq_city": null,
+   "hq_country": "Denmark (unit HQ not stated)",
+   "geography": "not stated",
+   "stages": [
+    "early-stage"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "decarbonisation",
+    "logistics",
+    "trade tools"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Fleetzero (battery-electric cargo ships)"
+   ],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "PAUSED: new startup investments paused 'at this time' (Global Venturing, 19 Mar 2026, read). Existing portfolio supported. Unit says it continues operating. A Tech Funding News scoop reports a wind-down (paywalled; unconfirmed). Maersk official pages not reachable this run. An F4 profile cites a Jan 2026 Fleetzero Series A, which predates or ignores the pause.",
+   "website": null,
+   "source_urls": [
+    "https://globalventuring.com/corporate/europe/maersk-halts-vc-investing-slims-team-to-focus-on-venture-clienting/?format=md"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Do not recommend as an active investor."
+  },
+  {
+   "name": "EIFO (Export and Investment Fund, Denmark)",
+   "origin": "existing w3",
+   "type": "public (business promotion and export credit)",
+   "hq_city": null,
+   "hq_country": "Denmark",
+   "geography": "Denmark and Danish exporters",
+   "stages": [
+    "startup",
+    "growth",
+    "export"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "green transition",
+    "security",
+    "growth",
+    "internationalisation"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable (not stated)",
+   "status": "active (site)",
+   "website": "https://www.eifo.dk",
+   "source_urls": [
+    "https://www.eifo.dk"
+   ],
+   "source_tags": "read",
+   "verification": "read"
+  },
+  {
+   "name": "Climentum Capital",
+   "origin": "existing w3",
+   "type": "VC (climate hard tech)",
+   "hq_city": "Copenhagen",
+   "hq_country": "Denmark (press; not on fetched page)",
+   "geography": "Europe (7 countries)",
+   "stages": [
+    "seed",
+    "series-a"
+   ],
+   "ticket_eur_min": 1000000,
+   "ticket_eur_max": 5000000,
+   "thesis_keywords": [
+    "climate hard tech",
+    "decarbonisation",
+    "circular and low-carbon supply chains",
+    "industrial transformation"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "true (EIF and EIFO named as Fund II commitments; press)",
+   "status": "active (site; press)",
+   "website": "https://climentum.com",
+   "source_urls": [
+    "https://climentum.com",
+    "https://techsavvy.media/en/venture-capital-fund-raises-450-million-kroner-for-early-stage-climate-startups/"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "No ocean portfolio (Qvantum, urban heat pumps)."
+  },
+  {
+   "name": "Norrsken VC",
+   "origin": "existing w3",
+   "type": "VC (early-stage tech)",
+   "hq_city": "Stockholm",
+   "hq_country": "Sweden",
+   "geography": "Europe and beyond",
+   "stages": [
+    "early-stage",
+    "growth"
+   ],
+   "ticket_eur_min": 1000000,
+   "ticket_eur_max": 10000000,
+   "thesis_keywords": [
+    "energy",
+    "industry",
+    "healthcare",
+    "deep and frontier tech"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site)",
+   "website": "https://norrsken.vc",
+   "source_urls": [
+    "https://norrsken.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Einride is land freight; no ocean portfolio."
+  },
+  {
+   "name": "Equinor Ventures",
+   "origin": "existing w3",
+   "type": "CVC (Equinor)",
+   "hq_city": null,
+   "hq_country": "Norway (parent)",
+   "geography": "Europe and North America",
+   "stages": [
+    "early-phase",
+    "growth"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "renewables",
+    "low-carbon",
+    "disruptive energy technology"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (site)",
+   "website": "https://www.equinor.com/energy/ventures",
+   "source_urls": [
+    "https://www.equinor.com/energy/ventures"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "No ocean or maritime portfolio named."
+  },
+  {
+   "name": "Nysnø Klimainvesteringer (Nysnø Climate Investments)",
+   "origin": "new w5",
+   "type": "public (state-owned climate investor, Norway)",
+   "hq_city": "Stavanger",
+   "hq_country": "Norway (Oslo office also)",
+   "geography": "Norway",
+   "stages": [
+    "early-stage"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "climate solutions",
+    "greenhouse gas reduction",
+    "direct and fund investments"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "false (not stated)",
+   "status": "Active (58 investments in direct companies and funds per site). Site news (21 Aug 2026): the CEO has resigned but continues in the role for the coming months while the board seeks a successor.",
+   "website": "https://www.nysnoinvest.no",
+   "source_urls": [
+    "https://www.nysnoinvest.no",
+    "https://www.mynewsdesk.com/nysnoinvest/tag/climate-investments"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Ticket range NOK 5M to 100M appears only in an unverified vendor directory; not used."
+  },
+  {
+   "name": "Startuplab Ventures",
+   "origin": "new w5",
+   "type": "VC (early-stage)",
+   "hq_city": "Oslo (office; Bergen also)",
+   "hq_country": "Norway",
+   "geography": "Norway",
+   "stages": [
+    "early-stage"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "early-stage tech",
+    "energy programme",
+    "construction",
+    "AI",
+    "fintech",
+    "hardware"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site; not explicitly confirmed)",
+   "website": "https://www.startuplab.no",
+   "source_urls": [
+    "https://www.startuplab.no"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Named portfolio not listed on page. Maritime not stated."
+  },
+  {
+   "name": "Planet A Ventures",
+   "origin": "new w5",
+   "type": "VC (pan-European early-stage)",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "pan-European ('London to Zurich and beyond')",
+   "stages": [
+    "pre-seed",
+    "series-a"
+   ],
+   "ticket_eur_min": 500000,
+   "ticket_eur_max": 4000000,
+   "ticket_note": "initial investment range per site",
+   "thesis_keywords": [
+    "systemic challenges",
+    "deeply technical founders",
+    "climate (implied by partners; not stated as thesis)"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated (European Commission logo only)",
+   "status": "not stated on fetched page",
+   "website": "https://www.planet-a.com",
+   "source_urls": [
+    "https://www.planet-a.com"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Hived, Auar, Traceless, Project Eaden, Makersite appear only as image alt text; not confirmed as portfolio statements."
+  },
+  {
+   "name": "Chalmers Ventures AB",
+   "origin": "new w5",
+   "type": "deep-tech investor and venture builder (university-linked)",
+   "hq_city": "Gothenburg",
+   "hq_country": "Sweden",
+   "geography": "Nordics; global commercial and impact potential",
+   "stages": [
+    "idea stage onward (not specified)"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "deep tech",
+    "research-based technology",
+    "university spin-outs"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site investment section; not explicit on fund status)",
+   "website": "https://www.chalmersventures.com",
+   "source_urls": [
+    "https://www.chalmersventures.com"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Named portfolio: Atley Solutions, Atium, Trine, Sigmastocks. A water heavy-metal cleaning story is mentioned but the company is not named."
+  },
+  {
+   "name": "Industrifonden",
+   "origin": "new w5",
+   "type": "VC (Swedish; state-ownership not stated on page)",
+   "hq_city": "Stockholm",
+   "hq_country": "Sweden",
+   "geography": "Sweden; New Nordics via syndicates",
+   "stages": [
+    "first check to global scale (software, growth)",
+    "deep tech stage not specified"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "life science",
+    "vertical AI and enterprise software",
+    "growth",
+    "deep tech and planetary health"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "false (EIF not mentioned; EIC mentioned in events)",
+   "status": "active (evergreen; 2026 investments in news)",
+   "website": "https://industrifonden.com",
+   "source_urls": [
+    "https://industrifonden.com/"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Named portfolio on page includes AlixLabs, SaltX, Nextory, Pixelgen, Valdyr (Telness Tech). No ocean or maritime thesis stated."
+  },
+  {
+   "name": "ShipsFocus Ventures",
+   "origin": "new w5",
+   "type": "venture studio and maritime-focused investor",
+   "hq_city": "Singapore",
+   "hq_country": "Singapore",
+   "geography": "Not stated explicitly on site (Singapore address; operates 'across the region')",
+   "stages": [
+    "early-stage"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "maritime technology for MSMEs",
+    "shipping operations",
+    "ports",
+    "maritime trade documentation"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Ofiniti",
+    "BeeX",
+    "Clearbot",
+    "thirdlyr",
+    "Pyxis",
+    "Cetasol",
+    "Closelink",
+    "ELXA (named on site)"
+   ],
+   "eif_or_blueinvest_backed": "false (not stated)",
+   "status": "Active per site timeline (entries through 2026); not explicitly stated as an active fund",
+   "website": "https://www.shipsfocus.com",
+   "source_urls": [
+    "https://www.shipsfocus.com",
+    "https://www.dealstreetasia.com/?p=268314"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Site mentions a 2022 SEEDS Capital co-investment partnership and LP opportunities but names no fund. Quest Ventures and the SGD 10M first close come from a DealStreetAsia snippet, not the site. Climate not on site. Non-EU; check fit for Finnish or Nordic brief."
+  },
+  {
+   "name": "byFounders",
+   "origin": "new w5",
+   "type": "VC (generalist, New Nordics)",
+   "hq_city": "Copenhagen",
+   "hq_country": "Denmark",
+   "geography": "New Nordics founders (Baltic focus not stated)",
+   "stages": [
+    "pre-seed",
+    "seed",
+    "series-a",
+    "later (portfolio spans pre-seed to Series C)"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "people before ideas (generalist)",
+    "deep tech",
+    "energy and climate",
+    "health",
+    "vertical SaaS",
+    "fintech"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site: 'Are you actively investing? Yes')",
+   "website": "https://byfounders.vc",
+   "source_urls": [
+    "https://byfounders.vc"
+   ],
+   "source_tags": "read+snippet",
+   "verification": "read",
+   "notes": "Fund size not stated on site; EUR 100M debut fund figure is from a snippet and unverified. Site lists 'Are you actively investing? Yes', New Nordics focus, and a Stockholm office. Energy and climate examples on site include Greenely and Spiral Hydrogen; no ocean or maritime companies on site."
+  },
+  {
+   "name": "EstBAN (Estonian Business Angels Network)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": "Tallinn",
+   "hq_country": "Estonia",
+   "geography": "Estonia (international deal-flow mentioned)",
+   "stages": [
+    "syndicated rounds (stage not stated)"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "pitch to exit",
+    "syndicated investment"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site: 220+ members; EUR 14.1M invested jointly in 2025)",
+   "website": "https://www.estban.ee",
+   "source_urls": [
+    "https://www.estban.ee"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Member of NordicBAN. Co-leads Latitude59 syndicates (snippet)."
+  },
+  {
+   "name": "LatBAN (Latvian Business Angels Network)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": "Riga",
+   "hq_country": "Latvia",
+   "geography": "Latvia and abroad",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "innovative projects with exceptional growth potential"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site: 75+ members; more than EUR 30M invested; 150+ startups)",
+   "website": "https://www.latban.lv",
+   "source_urls": [
+    "https://www.latban.lv"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Member of NordicBAN. Aggregate figures only; no named investments on site."
+  },
+  {
+   "name": "FiBAN (Finnish Business Angels Network)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Finland",
+   "stages": [
+    "seed and growth (funding round median up to EUR 300k)"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "median round up to EUR 300k per site; not a min or max",
+   "thesis_keywords": [
+    "no general sector focus stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site: 655 angels; EUR 57M invested in 2025)",
+   "website": "https://www.fiban.org",
+   "source_urls": [
+    "https://www.fiban.org"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Named success stories: Silo.AI, Kahoot!, Aiven, Hostaway, others. Apply via fiban.org/apply. Aggregator Miami HQ listing conflicts; not used."
+  },
+  {
+   "name": "Stockholms Affärsänglar (Stoaf)",
+   "origin": "new w5",
+   "type": "angel-powered venture finance group",
+   "hq_city": "Stockholm",
+   "hq_country": "Sweden",
+   "geography": "not stated",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "advanced technology",
+    "fast-growing companies"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (site)",
+   "website": "https://stoaf.se",
+   "source_urls": [
+    "https://stoaf.se"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Named cases: SWEGAN (GaN-on-SiC), LIMINA. Full legal name inferred from link slug, not stated on page. Member of NordicBAN."
+  },
+  {
+   "name": "NordicBAN",
+   "origin": "new w5",
+   "type": "angel-network platform (not a cheque-writer)",
+   "hq_city": null,
+   "hq_country": "Nordic/Baltic (multi-country)",
+   "geography": "Finland, Sweden, Norway, Denmark, Estonia, Latvia (page also lists Iceland and Lithuania; founder list does not)",
+   "stages": [
+    "growth companies"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "syndicated co-investment across national angel networks"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated (funded under High-Growth Entrepreneurship Initiative)",
+   "status": "active (page; not dated)",
+   "website": null,
+   "source_urls": [
+    "https://nordicinnovation.org/news/new-nordic-angel-investor-network-its-wings"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Use as a routing channel to the national networks above, not as a target investor."
+  },
+  {
+   "name": "DNV Ventures",
+   "origin": "new w5",
+   "type": "CVC (DNV)",
+   "hq_city": null,
+   "hq_country": "Norway (parent; not stated on fetched page)",
+   "geography": "not stated",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "AI",
+    "electrification",
+    "decarbonisation",
+    "energy security"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "active (page present tense; not explicit)",
+   "website": "https://www.dnv.com/about/dnv-ventures/who-we-are.html",
+   "source_urls": [
+    "https://www.dnv.com/about/dnv-ventures/who-we-are.html",
+    "https://www.dnv.com/about/dnv-ventures/investment-thematics/"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Maritime and aquaculture are DNV sector labels, not stated venture theses. Portfolio page not read (fetch returned no names)."
+  },
+  {
+   "name": "Nordic Makers",
+   "origin": "new w5",
+   "type": "VC (B2B software)",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "Nordics",
+   "stages": [
+    "pre-seed",
+    "seed"
+   ],
+   "ticket_eur_min": 500000,
+   "ticket_eur_max": 1000000,
+   "thesis_keywords": [
+    "B2B software"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "active (page criteria; not explicit)",
+   "website": "https://nordicmakers.vc",
+   "source_urls": [
+    "https://nordicmakers.vc"
+   ],
+   "source_tags": "read",
+   "verification": "read",
+   "notes": "Excludes MedTech, BioTech, impact measurement, crypto, VR, AR. Names on page (Spotahome, Corti, Saltfoss, All Gravy) are under a founders heading, not confirmed as portfolio."
+  },
+  {
+   "name": "Superhero Capital",
+   "origin": "new w5",
+   "type": "seed VC (software)",
+   "hq_city": "Helsinki",
+   "hq_country": "Finland",
+   "geography": "Finland and Baltics ('New Nordics')",
+   "stages": [
+    "pre-seed",
+    "seed"
+   ],
+   "ticket_eur_min": 50000,
+   "ticket_eur_max": 1000000,
+   "ticket_note": "sources conflict: EUR 50k to 1M initial, or up to 1M",
+   "thesis_keywords": [
+    "software-driven startups"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "not verified (snippet only)",
+   "website": null,
+   "source_urls": [
+    "https://www.startbase.de/organization/superhero-capital/",
+    "https://www.vestbee.com/vc-list/superhero-capital"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "www.superhero.vc returned a TLS error; website left blank. Named portfolio (snippet): MX Labs, DeepFin, Cactos. Founder names and portfolio counts conflict."
+  },
+  {
+   "name": "LitBAN (Lithuanian Business Angels Network)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": null,
+   "hq_country": "Lithuania",
+   "geography": "Lithuania and beyond; most applications from Lithuania and Northern Europe; deal syndication across the Nordics (site)",
+   "stages": [
+    "early-stage companies with exceptional growth potential"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "ticket_note": "Site states no ticket size. The EUR 250k figure was one joint 2025 deal (snippet), not a stated ticket.",
+   "thesis_keywords": [
+    "early-stage companies with exceptional growth potential",
+    "founders with exciting projects",
+    "no sector focus stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "Active per site: EUR 12.1M invested in 2024; over EUR 50M in seven years since launch. No 2025-2026 totals on site.",
+   "website": "https://www.litban.lt",
+   "source_urls": [
+    "https://startupsmagazine.co.uk/article-baltic-business-angels-invest-latitude59-pitch-competition",
+    "https://www.litban.lt"
+   ],
+   "source_tags": "snippet",
+   "verification": "read+snippet",
+   "notes": "litban.org returned HTTP 404 in this run; website left blank. Led Luna Robotics round (snippet; year unclear)."
+  },
+  {
+   "name": "BAN Norway (Connect Norway)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": null,
+   "hq_country": "Norway",
+   "geography": "Norway",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "not stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "Named in NordicBAN article (dated 2015, updated 2022) as 'Connect Norway's BAN Norway'. No official site reached (bannorway.no DNS failure). Current activity not verified.",
+   "website": null,
+   "source_urls": [
+    "https://nordicinnovation.org/news/new-nordic-angel-investor-network-its-wings"
+   ],
+   "source_tags": "name-only (NordicBAN page)",
+   "verification": "name-only",
+   "notes": "bannorway.no failed DNS in this run. Route via NordicBAN."
+  },
+  {
+   "name": "ABB Ventures (formerly ABB Technology Ventures)",
+   "origin": "new w5",
+   "type": "CVC (ABB)",
+   "hq_city": null,
+   "hq_country": null,
+   "geography": "not stated",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "industrial and energy technology (not stated in detail)"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "Orbital Marine Power (exit, ABB portfolio page snippet)",
+    "Aquamarine Power (third-party database; may be outdated)"
+   ],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "not verified (renamed from ABB Technology Ventures)",
+   "website": "https://www.abb.com/global/en/company/ventures/investments",
+   "source_urls": [
+    "https://www.abb.com/global/en/company/ventures/investments"
+   ],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Fetch of ABB page timed out; only search snippet used."
+  },
+  {
+   "name": "Yara Growth Ventures",
+   "origin": "new w5",
+   "type": "CVC (Yara)",
+   "hq_city": null,
+   "hq_country": "Norway (parent; not verified)",
+   "geography": "Norway coast (ammonia bunkering, via co-owned venture)",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "maritime fuels (indirect)"
+   ],
+   "ocean_or_maritime_portfolio": [
+    "AZANE Fuel Solutions (co-owner, self-reported in a LinkedIn post; ammonia bunkering terminals)"
+   ],
+   "eif_or_blueinvest_backed": "not applicable",
+   "status": "not verified",
+   "website": null,
+   "source_urls": [],
+   "source_tags": "snippet",
+   "verification": "snippet",
+   "notes": "Weak source (social post). Yara Marine X (2020 accelerator) is a separate unit. No official page reached."
+  },
+  {
+   "name": "Business Angels Copenhagen (BAC)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": null,
+   "hq_country": "Denmark",
+   "geography": "Denmark",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "not stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "Named in NordicBAN article (dated 2015, updated 2022) as 'Business Angels Copenhagen (BAC)'. No URL on page; no official site found. Current activity not verified.",
+   "website": null,
+   "source_urls": [
+    "https://nordicinnovation.org/news/new-nordic-angel-investor-network-its-wings"
+   ],
+   "source_tags": "name-only (NordicBAN page)",
+   "verification": "name-only",
+   "notes": "No site fetched."
+  },
+  {
+   "name": "Capital2Grow",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": null,
+   "hq_country": "Denmark",
+   "geography": "Denmark",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "not stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "Named in NordicBAN article (dated 2015, updated 2022) as 'Capital2Grow'. capital2grow.dk did not resolve. Current activity not verified.",
+   "website": null,
+   "source_urls": [
+    "https://nordicinnovation.org/news/new-nordic-angel-investor-network-its-wings"
+   ],
+   "source_tags": "name-only (NordicBAN page)",
+   "verification": "name-only",
+   "notes": "capital2grow.dk did not resolve."
+  },
+  {
+   "name": "Founders Fund (Norway)",
+   "origin": "new w5",
+   "type": "angel network",
+   "hq_city": null,
+   "hq_country": "Norway",
+   "geography": "Norway",
+   "stages": [
+    "not stated"
+   ],
+   "ticket_eur_min": null,
+   "ticket_eur_max": null,
+   "thesis_keywords": [
+    "not stated"
+   ],
+   "ocean_or_maritime_portfolio": [],
+   "eif_or_blueinvest_backed": "not stated",
+   "status": "Named in NordicBAN article (dated 2015, updated 2022) only as 'Founders Fund', listed with 'Connect Norway's BAN Norway'. Entity not verified; founders.no returned 404. Probably not a separate entity from the Connect Norway network.",
+   "website": null,
+   "source_urls": [
+    "https://nordicinnovation.org/news/new-nordic-angel-investor-network-its-wings"
+   ],
+   "source_tags": "name-only (NordicBAN page)",
+   "verification": "name-only",
+   "notes": "Likely confusion: the only source (NordicBAN article) lists 'Founders Fund' under Connect Norway alongside BAN Norway, and gives no separate name or website. The label 'Founders Fund (Norway)' is our own. It is not the US Founders Fund. founders.no returned 404. Recommend removing from the demo unless the owner can confirm the entity.",
+   "exclude_from_matching": true,
+   "exclude_reason": "Likely confusion (W11): only source lists 'Founders Fund' under Connect Norway; founders.no 404"
+  }
+ ],
+ "excluded_or_not_added": [
+  {
+   "name": "Norselab Investment Management",
+   "reason": "Site shows Growth Equity (Meaningful Equity I) and Nordic high-yield credit. Not an early-stage or ocean mandate."
+  },
+  {
+   "name": "ShipsFocus / Quest Ventures maritime fund (separate vehicle)",
+   "reason": "Not a separate verified entity; covered within ShipsFocus Ventures row."
+  },
+  {
+   "name": "Ness, Risan & Partners fund",
+   "reason": "Shipping fund (about USD 100M, press snippet), not an early-stage VC. Not verified."
+  },
+  {
+   "name": "EIC Fund",
+   "reason": "eic.ec.europa.eu did not resolve; the European Innovation Council page had no EIC Fund content. Not added."
+  },
+  {
+   "name": "Vaekstfonden (Denmark)",
+   "reason": "vaekstfonden.dk redirected to eifo.dk. Not verified separately; EIFO row kept."
+  },
+  {
+   "name": "Sintef Venture (Norway)",
+   "reason": "Fetch of sintef.no/venture failed; no verified investment mandate."
+  },
+  {
+   "name": "Contrarian Ventures",
+   "reason": "contrarian.vc did not resolve; no source found in search."
+  },
+  {
+   "name": "Vendep (Norway)",
+   "reason": "vendep.no did not resolve."
+  },
+  {
+   "name": "Sitra (Finland)",
+   "reason": "Site confirmed Helsinki and a 'Sitra as investor' section, but no ocean, stage or ticket mandate was stated. Not added."
+  },
+  {
+   "name": "Wartsila, Shell, Antler Nordics, Blue Bear, Seaborn, Propeller, Kvarken, Seaspace",
+   "reason": "Not searched or verified in this run (WebSearch budget exhausted). Listed as gaps."
+  }
+ ]
+}

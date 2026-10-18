@@ -1,0 +1,17 @@
+.venv
+.git
+.pytest_cache
+.ruff_cache
+**/__pycache__
+*.egg-info
+.env
+.env.*
+!.env.example
+data/cache
+data/outbox
+data/*.db
+data/downloads
+frontend/node_modules
+frontend/dist
+tests
+docs

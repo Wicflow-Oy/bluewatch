@@ -1,0 +1,75 @@
+/* Numbered source pills (mockup .src, section 3.14). Registers get a sea-green number. */
+.source-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  height: 20px;
+  max-width: 100%;
+  padding: 0 7px 0 3px;
+  border-radius: var(--r-pill);
+  font: 500 10.5px/1 var(--mono);
+  letter-spacing: 0;
+  color: var(--muted);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  white-space: nowrap;
+  vertical-align: middle;
+  text-decoration: none;
+  transition:
+    color var(--d-fast),
+    box-shadow var(--d-fast),
+    background-color var(--d-fast);
+}
+
+.source-chip--plain {
+  padding: 0 8px;
+}
+
+.source-chip--short {
+  max-width: 132px;
+}
+
+.source-chip__index {
+  width: 14px;
+  height: 14px;
+  flex: none;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 9.5px;
+  color: var(--ink-2);
+  background: var(--sunken);
+}
+
+.source-chip--registry .source-chip__index {
+  background: var(--sea-soft);
+  color: var(--sea);
+}
+
+.source-chip__label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+a.source-chip:hover,
+.source-chip:focus-visible {
+  color: var(--ink);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line-3);
+  text-decoration: none;
+}
+
+.source-chip--nolink {
+  color: var(--faint);
+  cursor: help;
+}
+
+.source-chip svg {
+  width: 11px;
+  height: 11px;
+}
+
+.source-tip__dates {
+  margin-top: 6px;
+  min-width: 180px;
+}

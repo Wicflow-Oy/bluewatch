@@ -1,0 +1,66 @@
+/* One-of-n rows in popovers and sheets (section 3.23). */
+.choices {
+  display: grid;
+  gap: 2px;
+}
+
+.choice {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 14px;
+  text-align: left;
+  color: var(--ink);
+  transition:
+    background-color var(--d-fast),
+    transform var(--d-spring) var(--spring);
+}
+
+.choice:hover {
+  background: var(--sunken);
+}
+
+.choice:active {
+  transform: scale(var(--press-row));
+}
+
+.choice:focus-visible {
+  outline-offset: -2px;
+}
+
+.choice[aria-checked="true"] {
+  background: var(--canvas-2);
+}
+
+.choice > .ws-dot {
+  margin-top: 5px;
+}
+
+.choice__text {
+  display: grid;
+  flex: 1;
+  gap: 2px;
+  min-width: 0;
+}
+
+.choice__title {
+  font: 600 13px/1.4 var(--sans);
+  letter-spacing: -0.01em;
+}
+
+.choice__description {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.choice__check {
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 16px;
+  height: 18px;
+  color: var(--accent);
+}

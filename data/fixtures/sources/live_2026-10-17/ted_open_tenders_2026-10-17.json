@@ -1,0 +1,4532 @@
+{
+ "recorded_at": "2026-10-17T17:31:03+00:00",
+ "query": "notice-type IN (cn-standard cn-social cn-desg) AND buyer-country IN (FIN SWE NOR DNK EST LVA LTU) AND classification-cpv IN (34500000 34510000 34512000 34520000 34521000 34930000 35513000 38221000 38290000 38420000 63720000 71354000 73112000 90733000 09230000) AND publication-date>=20260618",
+ "notices": [
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-13+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "418889-2026",
+   "classification-cpv": [
+    "73210000",
+    "90733100",
+    "73210000",
+    "90733100"
+   ],
+   "publication-date": "2026-06-18+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pyhäjärven kaupunki"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Research consultancy services – PYHÄJOEN KUORMITUS-, VESISTÖ- JA KALATALOUSTARKKAILU VV. 2026–2032 hankinta"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-03+02:00",
+    "2026-08-03+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "421888-2026",
+   "classification-cpv": [
+    "63726800",
+    "63726800",
+    "63726800"
+   ],
+   "publication-date": "2026-06-19+02:00",
+   "buyer-name": {
+    "lav": [
+     "Pārtikas drošības, dzīvnieku veselības un vides zinātniskais institūts \"BIOR\""
+    ]
+   },
+   "buyer-country": [
+    "LVA"
+   ],
+   "notice-title": {
+    "eng": "Latvia – Research vessel services – Baltijas jūras un Rīgas līča starptautiskās hidroakustiskās uzskaites un Baltijas jūras starptautiskās grunts traļa uzskaites nodrošināšana 2026. gada 4. ceturksnī"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-07-21+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "425007-2026",
+   "classification-cpv": [
+    "34515100",
+    "34515100"
+   ],
+   "publication-date": "2026-06-22+02:00",
+   "buyer-name": {
+    "est": [
+     "Riigilaevastik"
+    ]
+   },
+   "buyer-country": [
+    "EST"
+   ],
+   "notice-title": {
+    "eng": "Estonia – Marker buoys – Plastikpoid"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "426027-2026",
+   "classification-cpv": [
+    "34510000",
+    "32520000",
+    "34510000",
+    "32520000"
+   ],
+   "publication-date": "2026-06-22+02:00",
+   "buyer-name": {
+    "eng": [
+     "National emergency supply agency of Finland/ Huoltovarmuuskeskus",
+     "Post- och telestyrelsen",
+     "Elering AS"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "SWE",
+    "EST"
+   ],
+   "notice-title": {
+    "eng": "Finland, Sweden, Estonia – Ships – Offshore cable handling and repair equipment /Request to Participate"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-07-21+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "430473-2026",
+   "classification-cpv": [
+    "34515100",
+    "34515100"
+   ],
+   "publication-date": "2026-06-24+02:00",
+   "buyer-name": {
+    "est": [
+     "Riigilaevastik"
+    ]
+   },
+   "buyer-country": [
+    "EST"
+   ],
+   "notice-title": {
+    "eng": "Estonia – Marker buoys – Plastikpoid"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-24Z"
+   ],
+   "notice-type": "cn-social",
+   "publication-number": "431822-2026",
+   "classification-cpv": [
+    "79713000",
+    "63721200",
+    "79713000",
+    "63721200"
+   ],
+   "publication-date": "2026-06-25+02:00",
+   "buyer-name": {
+    "fin": [
+     "Oulun Satama Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Guard services – Vartiointipalvelu sekä alusten irrotus- ja kiinnityspalvelut Oulun Satama Oy:lle"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-25+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "432103-2026",
+   "classification-cpv": [
+    "38000000",
+    "38300000",
+    "38410000",
+    "38424000",
+    "38636100",
+    "38000000",
+    "38300000",
+    "38410000",
+    "38424000",
+    "38636100"
+   ],
+   "publication-date": "2026-06-25+02:00",
+   "buyer-name": {
+    "eng": [
+     "Lunds universitet"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Laboratory, optical and precision equipments (excl. glasses) – Laser tracker"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-07Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "439731-2026",
+   "classification-cpv": [
+    "34521000",
+    "34521000"
+   ],
+   "publication-date": "2026-06-26+02:00",
+   "buyer-name": {
+    "fin": [
+     "Satakunnan hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Specialised boats – C-luokan öljyntorjunta-alus"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-31Z",
+    "2026-08-31Z",
+    "2026-08-31Z",
+    "2026-08-31Z",
+    "2026-08-31Z",
+    "2026-08-31Z",
+    "2026-08-31Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "441326-2026",
+   "classification-cpv": [
+    "71222100",
+    "60445000",
+    "71222200",
+    "71353000",
+    "71222100",
+    "71222200",
+    "71354000",
+    "71354000",
+    "71222100",
+    "60445000",
+    "60445000",
+    "60445000",
+    "71222200",
+    "71353000",
+    "71222100",
+    "71353000",
+    "71222100",
+    "71222200",
+    "71354100",
+    "71222100",
+    "71222200",
+    "48326100",
+    "71222200"
+   ],
+   "publication-date": "2026-06-26+02:00",
+   "buyer-name": {
+    "swe": [
+     "Ulricehamns kommun"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Urban areas mapping services – Tekniska konsulter inom kart-, mät-, GIS- och drönartjänster"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-07-29+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "445202-2026",
+   "classification-cpv": [
+    "73120000",
+    "71350000",
+    "73112000",
+    "73120000",
+    "71350000",
+    "73112000"
+   ],
+   "publication-date": "2026-06-29+02:00",
+   "buyer-name": {
+    "est": [
+     "Tartu Ülikool"
+    ]
+   },
+   "buyer-country": [
+    "EST"
+   ],
+   "notice-title": {
+    "eng": "Estonia – Experimental development services – Hübriidtoitega autonoomsete akustiliste hülgepeletite arendamine, valmistamine ja tõhususe uurimine"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "454956-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-07-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Heinäveden ja Tahkon reittien kanavien sekä Varistaipaleen ja Taivallahden kanavien ja avattavien siltojen käyttö ja kunnossapito 2027 - 2030"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-12Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "455743-2026",
+   "classification-cpv": [
+    "71000000",
+    "71354300",
+    "30221000",
+    "71000000",
+    "71354300",
+    "30221000"
+   ],
+   "publication-date": "2026-07-02+02:00",
+   "buyer-name": {
+    "eng": [
+     "Oslo kommune v/ Plan- og bygningsetaten"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Architectural, construction, engineering and inspection services – Procurement of a framework agreement for consultancy services within land registering."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-02Z",
+    "2026-10-02Z",
+    "2026-10-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "456898-2026",
+   "classification-cpv": [
+    "73112000",
+    "45244100",
+    "71313420",
+    "71313430",
+    "71313440",
+    "71313450",
+    "90700000",
+    "73112000",
+    "73112000",
+    "73112000"
+   ],
+   "publication-date": "2026-07-03+02:00",
+   "buyer-name": {
+    "dan": [
+     "Miljøstyrelsen"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Marine research services – Projekter vedrørende sameksistens mellem havvind og havnatur"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-03Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "461700-2026",
+   "classification-cpv": [
+    "34500000",
+    "34520000",
+    "34500000",
+    "34520000"
+   ],
+   "publication-date": "2026-07-06+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ships and boats – Lotsbåtar"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-25Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "463091-2026",
+   "classification-cpv": [
+    "60600000",
+    "34512000",
+    "60600000",
+    "34512000"
+   ],
+   "publication-date": "2026-07-06+02:00",
+   "buyer-name": {
+    "eng": [
+     "Nordland fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Water transport services – Operation of the boat route Træna Local 20.02.2027-31.03.2037"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "469044-2026",
+   "classification-cpv": [
+    "71000000",
+    "71510000",
+    "71354000",
+    "71355000",
+    "71353000",
+    "71000000",
+    "71000000",
+    "71000000",
+    "71510000",
+    "71354000",
+    "71355000",
+    "71353000",
+    "71510000",
+    "71354000",
+    "71355000",
+    "71353000"
+   ],
+   "publication-date": "2026-07-08+02:00",
+   "buyer-name": {
+    "dan": [
+     "Middelfart kommune",
+     "Odense Kommune",
+     "Svendborg Kommune",
+     "Nyborg Kommune",
+     "Fredericia Kommune",
+     "Ikast-Brande Kommune",
+     "Billund kommune",
+     "Kolding kommune",
+     "Esbjerg Kommune",
+     "Silkeborg Kommune"
+    ]
+   },
+   "buyer-country": [
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, construction, engineering and inspection services – Dynamisk indkøbssystem for landinspektør- og landmålerydelser til KomUdbud"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-03Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "470236-2026",
+   "classification-cpv": [
+    "34500000",
+    "34520000",
+    "34500000",
+    "34520000"
+   ],
+   "publication-date": "2026-07-08+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ships and boats – Lotsbåtar"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-14Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "471908-2026",
+   "classification-cpv": [
+    "34520000",
+    "34520000"
+   ],
+   "publication-date": "2026-07-08+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Boats – Aluminiumbåt (Farledsdrift)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-06Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "480456-2026",
+   "classification-cpv": [
+    "48000000",
+    "48100000",
+    "71354000",
+    "71354400",
+    "72000000",
+    "72268000",
+    "72260000",
+    "72263000",
+    "48000000",
+    "48100000",
+    "71354000",
+    "71354400",
+    "72000000",
+    "72268000",
+    "72260000",
+    "72263000"
+   ],
+   "publication-date": "2026-07-13+02:00",
+   "buyer-name": {
+    "eng": [
+     "The Norwegian Mapping Authority"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Software package and information systems – Procurement of a nautical chart production system."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-17Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "482466-2026",
+   "classification-cpv": [
+    "34520000",
+    "34513700",
+    "34520000",
+    "34513700"
+   ],
+   "publication-date": "2026-07-13+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pohjois-Pohjanmaan hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – Pelastusveneet pelastuslaitokselle, A-luokka."
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "491815-2026",
+   "classification-cpv": [
+    "71000000",
+    "72000000",
+    "71355000",
+    "71354000",
+    "71350000",
+    "71355000",
+    "72000000",
+    "72000000",
+    "71354000",
+    "71350000",
+    "71000000",
+    "71000000",
+    "71000000"
+   ],
+   "publication-date": "2026-07-16+02:00",
+   "buyer-name": {
+    "dan": [
+     "Vejdirektoratet"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, construction, engineering and inspection services – DIS-IHK-AG - Dynamisk Indkøbssystem: In house-konsulenter til arealerhvervelse, GIS, CAD, kortlægning og ledninger"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-24Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "494839-2026",
+   "classification-cpv": [
+    "48000000",
+    "48100000",
+    "71354000",
+    "71354400",
+    "72000000",
+    "72268000",
+    "72260000",
+    "72263000",
+    "48000000",
+    "48100000",
+    "71354000",
+    "71354400",
+    "72000000",
+    "72268000",
+    "72260000",
+    "72263000"
+   ],
+   "publication-date": "2026-07-17+02:00",
+   "buyer-name": {
+    "eng": [
+     "Statens Kartverk"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Software package and information systems – Procurement of a new nautical chart production system."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-28Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "502329-2026",
+   "classification-cpv": [
+    "34513000",
+    "34223300",
+    "34311000",
+    "34500000",
+    "34520000",
+    "34521000",
+    "34522300",
+    "34930000",
+    "42111100",
+    "34513000",
+    "34223300",
+    "34311000",
+    "34500000",
+    "34520000",
+    "34521000",
+    "34522300",
+    "34930000",
+    "42111100"
+   ],
+   "publication-date": "2026-07-21+02:00",
+   "buyer-name": {
+    "eng": [
+     "Norwegian Defence Materiel Agency"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Fishing, emergency and other special vessels – Maritime Safety and Work boats"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-24+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "519491-2026",
+   "classification-cpv": [
+    "38424000",
+    "38424000"
+   ],
+   "publication-date": "2026-07-28+02:00",
+   "buyer-name": {
+    "eng": [
+     "Lunds universitet"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Measuring and control equipment – In-situ temperature measurement and control equipment"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-04+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "520272-2026",
+   "classification-cpv": [
+    "79714000",
+    "35121900",
+    "38115100",
+    "34932000",
+    "71350000",
+    "90711100",
+    "79710000",
+    "63712710",
+    "63712700",
+    "90721000",
+    "71356100",
+    "75241000",
+    "79711000",
+    "75240000",
+    "79700000",
+    "90721800",
+    "71356000",
+    "79714000",
+    "35121900",
+    "38115100",
+    "34932000",
+    "71350000",
+    "90711100",
+    "79710000",
+    "63712710",
+    "63712700",
+    "90721000",
+    "71356100",
+    "75241000",
+    "79711000",
+    "75240000",
+    "79700000",
+    "90721800",
+    "71356000"
+   ],
+   "publication-date": "2026-07-28+02:00",
+   "buyer-name": {
+    "eng": [
+     "Troms Fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Surveillance services – Hire of radar - Blåbærtinden's avalanche management facility - county road 87 Tamokdalen-Troms County."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-08-17Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "521476-2026",
+   "classification-cpv": [
+    "71000000",
+    "71354300",
+    "30221000",
+    "71000000",
+    "71354300",
+    "30221000"
+   ],
+   "publication-date": "2026-07-28+02:00",
+   "buyer-name": {
+    "eng": [
+     "Oslo kommune v/ Plan- og bygningsetaten"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Architectural, construction, engineering and inspection services – Procurement of a framework agreement for consultancy services within land registering."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "539067-2026",
+   "classification-cpv": [
+    "90700000",
+    "45240000",
+    "45246000",
+    "45246200",
+    "63721300",
+    "90700000",
+    "45240000",
+    "45246000",
+    "45246200",
+    "63721300"
+   ],
+   "publication-date": "2026-08-04+02:00",
+   "buyer-name": {
+    "dan": [
+     "Køge Kommune"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Environmental services – Udbud af Vandløbsvedligeholdelse til Køge Kommune"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "547957-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721000"
+   ],
+   "publication-date": "2026-08-07+02:00",
+   "buyer-name": {
+    "dan": [
+     "Skive Kommune"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Port and waterway operation services and associated services – EU- udbud på driften af Skive Erhvervshavn og Molerkajen på Fur Havn"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "552851-2026",
+   "classification-cpv": [
+    "60600000",
+    "60610000",
+    "63721300",
+    "60600000",
+    "60610000",
+    "63721300"
+   ],
+   "publication-date": "2026-08-10+02:00",
+   "buyer-name": {
+    "eng": [
+     "Møre og Romsdal Fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Water transport services – Competition - Operation of the county road ferry route Brattvåg-Dryna (2029-2033) - Prekval."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-11Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "557852-2026",
+   "classification-cpv": [
+    "34521000",
+    "34521000"
+   ],
+   "publication-date": "2026-08-12+02:00",
+   "buyer-name": {
+    "fin": [
+     "Satakunnan hyvinvointialue",
+     "Satakunnan Hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Specialised boats – C-luokan öljyntorjuntavene"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "558609-2026",
+   "classification-cpv": [
+    "76600000",
+    "63726620",
+    "76600000",
+    "63726620"
+   ],
+   "publication-date": "2026-08-12+02:00",
+   "buyer-name": {
+    "dan": [
+     "Ørsted salg og service A/S"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Pipeline-inspection services – IA_IRM ROV_26-34_FA"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "569869-2026",
+   "classification-cpv": [
+    "34512100",
+    "34512000",
+    "34512100",
+    "34512000"
+   ],
+   "publication-date": "2026-08-18+02:00",
+   "buyer-name": {
+    "eng": [
+     "Aalborg Kommune",
+     "Svendborg Kommune",
+     "Slagelse Kommune",
+     "Odder Kommune",
+     "Faaborg-Midtfyn Kommune"
+    ]
+   },
+   "buyer-country": [
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Ferry boats – Negotiated procedure of Contract regarding the construction of electric ferries"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-25Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "570342-2026",
+   "classification-cpv": [
+    "60600000",
+    "34512000",
+    "60610000",
+    "63721300",
+    "60600000",
+    "34512000",
+    "60610000",
+    "63721300"
+   ],
+   "publication-date": "2026-08-18+02:00",
+   "buyer-name": {
+    "eng": [
+     "Nordland fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Water transport services – Operation of the boat route Træna Local 20.02.2027-31.03.2037"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-29+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "573276-2026",
+   "classification-cpv": [
+    "73210000",
+    "90733100",
+    "73210000",
+    "90733100"
+   ],
+   "publication-date": "2026-08-19+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pohjanmaan vesi ja ympäristö ry",
+     "Ilmajoen kunta",
+     "Kauhajoen Vesihuolto Oy",
+     "Kyrönmaan Jätevesi Oy",
+     "Kurikan Vesihuolto Oy",
+     "Mustasaaren Kunta",
+     "Seinäjoen Energia Oy",
+     "Seinäjoen Voima Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Research consultancy services – Kyrönjoen yhteistarkkailun kuormitus- ja vesistötarkkailut vuosina 2027-2030"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-16Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "574955-2026",
+   "classification-cpv": [
+    "90460000",
+    "90733500",
+    "90460000",
+    "90733500"
+   ],
+   "publication-date": "2026-08-19+02:00",
+   "buyer-name": {
+    "eng": [
+     "BIR AS"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Cesspool or septic tank emptying services – Procurement of suction and flushing services"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-23+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "575294-2026",
+   "classification-cpv": [
+    "71900000",
+    "90711300",
+    "71620000",
+    "90531000",
+    "90733100",
+    "90733000",
+    "71900000",
+    "90711300",
+    "71620000",
+    "90531000",
+    "90733100",
+    "90733000"
+   ],
+   "publication-date": "2026-08-19+02:00",
+   "buyer-name": {
+    "dan": [
+     "Esbjerg Kommune"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Laboratory services – Udbud af Miljøanalyser for deponier, svømmebade og badevand"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-17Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "575770-2026",
+   "classification-cpv": [
+    "34500000",
+    "34520000",
+    "34500000",
+    "34520000"
+   ],
+   "publication-date": "2026-08-20+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ships and boats – Lotsbåtar"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-28Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "581974-2026",
+   "classification-cpv": [
+    "34513650",
+    "34144210",
+    "34500000",
+    "34520000",
+    "34521000",
+    "35110000",
+    "35111000",
+    "35111200",
+    "34513650",
+    "34144210",
+    "34500000",
+    "34520000",
+    "34521000",
+    "35110000",
+    "35111000",
+    "35111200"
+   ],
+   "publication-date": "2026-08-24+02:00",
+   "buyer-name": {
+    "eng": [
+     "Porsgrunn kommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Fire vessels – Fireboat GBR 2026"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-29Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "583003-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-08-24+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Pielisjoen reitin kanavien ja avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-06+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "584218-2026",
+   "classification-cpv": [
+    "63721200",
+    "63721200"
+   ],
+   "publication-date": "2026-08-24+02:00",
+   "buyer-name": {
+    "swe": [
+     "Hargs Hamn Aktiebolag"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Port operation services – Stuveri- och logistiktjänster"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-29+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "588489-2026",
+   "classification-cpv": [
+    "73210000",
+    "90733100",
+    "73210000",
+    "90733100"
+   ],
+   "publication-date": "2026-08-26+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pohjanmaan vesi ja ympäristö ry",
+     "Ilmajoen kunta",
+     "Kauhajoen Vesihuolto Oy",
+     "Kyrönmaan Jätevesi Oy",
+     "Kurikan Vesihuolto Oy",
+     "Mustasaaren Kunta",
+     "Seinäjoen Energia Oy",
+     "Seinäjoen Voima Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Research consultancy services – Kyrönjoen yhteistarkkailun kuormitus- ja vesistötarkkailut vuosina 2027-2030"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-25+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "589547-2026",
+   "classification-cpv": [
+    "34221000",
+    "34221000",
+    "34512600",
+    "44613000",
+    "44613300"
+   ],
+   "publication-date": "2026-08-26+02:00",
+   "buyer-name": {
+    "swe": [
+     "Jönköpings kommun"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Special-purpose mobile containers – Container"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-07Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "594336-2026",
+   "classification-cpv": [
+    "60600000",
+    "34512000",
+    "60610000",
+    "60600000",
+    "34512000",
+    "60610000"
+   ],
+   "publication-date": "2026-08-28+02:00",
+   "buyer-name": {
+    "eng": [
+     "Nordland fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Water transport services – Operation of a boat route in Tysfjord 01.05.2027-30.04.2037"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "603783-2026",
+   "classification-cpv": [
+    "71000000",
+    "72000000",
+    "71355000",
+    "71354000",
+    "71350000",
+    "71355000",
+    "72000000",
+    "72000000",
+    "71354000",
+    "71350000",
+    "71000000",
+    "71000000",
+    "71000000"
+   ],
+   "publication-date": "2026-09-02+02:00",
+   "buyer-name": {
+    "dan": [
+     "Vejdirektoratet"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, construction, engineering and inspection services – DIS-IHK-AG - Dynamisk Indkøbssystem: In house-konsulenter til arealerhvervelse, GIS, CAD, kortlægning og ledninger"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "607021-2026",
+   "classification-cpv": [
+    "92533000",
+    "71313000",
+    "90700000",
+    "98361000",
+    "71313000",
+    "98361000",
+    "92533000",
+    "71354500",
+    "90712300",
+    "77231400",
+    "92534000"
+   ],
+   "publication-date": "2026-09-03+02:00",
+   "buyer-name": {
+    "swe": [
+     "Länsstyrelsen i Södermanlands Län"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Nature reserve services – Dynamiskt inköpssystem för naturvård och inventering"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-09+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "607199-2026",
+   "classification-cpv": [
+    "73210000",
+    "90733100",
+    "73210000",
+    "90733100"
+   ],
+   "publication-date": "2026-09-03+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pohjanmaan vesi ja ympäristö ry",
+     "Lapuan Jätevesi Oy",
+     "Kauhavan Vesi Oy",
+     "Alavuden kaupunki",
+     "Alajärven kaupunki",
+     "Kuortaneen kunta"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Research consultancy services – Lapuanjoen yhteistarkkailun kuormitus- ja vesistötarkkailu 2027-2030"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-06+03:00",
+    "2026-10-06+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "608162-2026",
+   "classification-cpv": [
+    "63721200",
+    "63721200",
+    "63721200"
+   ],
+   "publication-date": "2026-09-03+02:00",
+   "buyer-name": {
+    "est": [
+     "aktsiaselts TALLINNA SADAM"
+    ]
+   },
+   "buyer-country": [
+    "EST"
+   ],
+   "notice-title": {
+    "eng": "Estonia – Port operation services – Sildumisteenuse osutamine Vanasadamas"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "613901-2026",
+   "classification-cpv": [
+    "38221000",
+    "48326000",
+    "48326100",
+    "48810000",
+    "72212326",
+    "72263000",
+    "38221000",
+    "48326000",
+    "48326100",
+    "48810000",
+    "72212326",
+    "72263000"
+   ],
+   "publication-date": "2026-09-07+02:00",
+   "buyer-name": {
+    "eng": [
+     "IKT Nordhordland kommunalt oppgåvefellesskap"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Geographic information systems (GIS or equivalent) – GIS - Map systems for insight and management."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-05+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "614434-2026",
+   "classification-cpv": [
+    "71354100",
+    "71355100",
+    "72314000",
+    "71354000",
+    "71350000",
+    "71354300",
+    "71354100",
+    "71355100",
+    "72314000",
+    "71354000",
+    "71350000",
+    "71354300"
+   ],
+   "publication-date": "2026-09-07+02:00",
+   "buyer-name": {
+    "dan": [
+     "Styrelsen for Grøn Arealomlægning og Vandmiljø"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Digital mapping services – Rammeaftale screening af markblokke og tilhørende korttemaer"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-11Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "614653-2026",
+   "classification-cpv": [
+    "71351924",
+    "45000000",
+    "71000000",
+    "71351200",
+    "71351900",
+    "71353100",
+    "71354400",
+    "71351924",
+    "45000000",
+    "71000000",
+    "71351200",
+    "71351900",
+    "71353100",
+    "71354400"
+   ],
+   "publication-date": "2026-09-07+02:00",
+   "buyer-name": {
+    "eng": [
+     "Norges vassdrags- og energidirektorat (NVE)"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Underwater exploration services – New Tender for Riverbed Mapping 2026"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-05+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "614925-2026",
+   "classification-cpv": [
+    "71354100",
+    "71355100",
+    "72314000",
+    "71354000",
+    "71350000",
+    "71354300",
+    "71354100",
+    "71355100",
+    "72314000",
+    "71354000",
+    "71350000",
+    "71354300"
+   ],
+   "publication-date": "2026-09-07+02:00",
+   "buyer-name": {
+    "dan": [
+     "Styrelsen for Grøn Arealomlægning og Vandmiljø"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Digital mapping services – Genudbud Rammeaftale screening af markblokke og tilhørende korttemaer"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-15Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "616357-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-08+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Taipaleen ja Konnuksen kanavien sekä Savonlinnan avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-05+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "617561-2026",
+   "classification-cpv": [
+    "34930000",
+    "31120000",
+    "31612200",
+    "42111000",
+    "34930000",
+    "31120000",
+    "31612200",
+    "42111000"
+   ],
+   "publication-date": "2026-09-08+02:00",
+   "buyer-name": {
+    "swe": [
+     "Trafikverket Myndighet"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Marine equipment – Dieselgeneratorer till Färjerederiets vägfärjor"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-09+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "620600-2026",
+   "classification-cpv": [
+    "90730000",
+    "90730000",
+    "90733000",
+    "90733700",
+    "90700000",
+    "50500000",
+    "50710000"
+   ],
+   "publication-date": "2026-09-09+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sveriges geologiska undersökning"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Pollution tracking and monitoring and rehabilitation – Beredskapspersonal Blaikengruvan vattenrening"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-08Z",
+    "2026-10-08Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "622105-2026",
+   "classification-cpv": [
+    "38900000",
+    "34930000",
+    "38300000",
+    "71351920",
+    "38900000",
+    "38900000",
+    "34930000",
+    "38300000",
+    "71351920",
+    "34930000",
+    "38300000",
+    "71351920"
+   ],
+   "publication-date": "2026-09-09+02:00",
+   "buyer-name": {
+    "eng": [
+     "Göteborgs universitet"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Miscellaneous evaluation or testing instruments – Long-endurance underwater glider"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "622212-2026",
+   "classification-cpv": [
+    "72000000",
+    "38221000",
+    "48000000",
+    "72000000",
+    "38221000",
+    "48000000"
+   ],
+   "publication-date": "2026-09-09+02:00",
+   "buyer-name": {
+    "swe": [
+     "Göteborgs Spårvägar AB"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – IT services: consulting, software development, Internet and support – Utveckling och förvaltning av systemstöd för ärende- och arbetsorderhantering"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-09-16Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "623154-2026",
+   "classification-cpv": [
+    "34521000",
+    "34521000"
+   ],
+   "publication-date": "2026-09-10+02:00",
+   "buyer-name": {
+    "fin": [
+     "Satakunnan hyvinvointialue",
+     "Satakunnan Hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Specialised boats – C-luokan öljyntorjuntavene"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-10+02:00",
+    "2026-10-10+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "623476-2026",
+   "classification-cpv": [
+    "38420000",
+    "38420000",
+    "38420000"
+   ],
+   "publication-date": "2026-09-10+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sveriges geologiska undersökning"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Instruments for measuring flow, level and pressure of liquids and gases – Upphandling av grundvattennivåinstrument"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-01Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "624978-2026",
+   "classification-cpv": [
+    "34500000",
+    "34520000",
+    "34500000",
+    "34520000"
+   ],
+   "publication-date": "2026-09-10+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ships and boats – Lotsbåtar"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-12+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "628294-2026",
+   "classification-cpv": [
+    "38424000",
+    "38430000",
+    "38344000",
+    "35125100",
+    "38290000",
+    "38422000",
+    "38424000",
+    "38430000",
+    "38344000",
+    "35125100",
+    "38290000",
+    "38422000"
+   ],
+   "publication-date": "2026-09-11+02:00",
+   "buyer-name": {
+    "dan": [
+     "Styrelsen for Grøn Arealomlægning og Vandmiljø"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Measuring and control equipment – Rammeaftale vedrørende levering af trådløse dataloggere og sensorer til registrering og opsamling af miljømålinger"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-16Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "628671-2026",
+   "classification-cpv": [
+    "60600000",
+    "34512000",
+    "60610000",
+    "63721300",
+    "60600000",
+    "34512000",
+    "60610000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-11+02:00",
+   "buyer-name": {
+    "eng": [
+     "Nordland fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Water transport services – Operation of the boat route Træna Local 20.02.2027-31.03.2037"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-21Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "634009-2026",
+   "classification-cpv": [
+    "34520000",
+    "34500000",
+    "34520000",
+    "34500000"
+   ],
+   "publication-date": "2026-09-15+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Boats – Mindre arbetsbåt till Fyrbjörn"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-19+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "635317-2026",
+   "classification-cpv": [
+    "73210000",
+    "90733100",
+    "71900000",
+    "73210000",
+    "90733100",
+    "71900000"
+   ],
+   "publication-date": "2026-09-15+02:00",
+   "buyer-name": {
+    "fin": [
+     "Pohjanmaan vesi ja ympäristö ry",
+     "Vesikolmio Oy",
+     "Toholammin Viemäri Oy",
+     "Kannuksen Vesiosuuskunta"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN",
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Research consultancy services – Lestijoen yhteistarkkailun kuormitus- ja vesistötarkkailut vuosina 2027-2030"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-19Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "636420-2026",
+   "classification-cpv": [
+    "73112000",
+    "45244100",
+    "71313420",
+    "71313430",
+    "71313440",
+    "71313450",
+    "90700000",
+    "73112000",
+    "45244100",
+    "71313420",
+    "71313430",
+    "71313440",
+    "71313450",
+    "90700000"
+   ],
+   "publication-date": "2026-09-16+02:00",
+   "buyer-name": {
+    "dan": [
+     "Miljøstyrelsen"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Marine research services – Genudbud - Projekter vedrørende sameksistens mellem havvind og havnatur"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-11Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "639781-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-17+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Rannikon avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-19+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "639800-2026",
+   "classification-cpv": [
+    "60445000",
+    "60445000",
+    "71354200",
+    "71351710"
+   ],
+   "publication-date": "2026-09-17+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sveriges geologiska undersökning"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Aircraft operating services – Upphandling av flygtjänster för geofysiska flygmätningar och strålskyddsberedskap"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "641744-2026",
+   "classification-cpv": [
+    "50600000",
+    "31321500",
+    "35512000",
+    "50800000",
+    "63726620",
+    "71351820",
+    "71351924",
+    "71355000",
+    "71631420",
+    "50600000",
+    "31321500",
+    "35512000",
+    "50800000",
+    "63726620",
+    "71351820",
+    "71351924",
+    "71355000",
+    "71631420"
+   ],
+   "publication-date": "2026-09-17+02:00",
+   "buyer-name": {
+    "eng": [
+     "FORSVARSMATERIELL"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Repair and maintenance services of security and defence materials – Sea Contractor Services for The Norwegian Defence Materiel Agency and the Navy - Prequalification"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-27+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "642293-2026",
+   "classification-cpv": [
+    "63721200",
+    "63721200"
+   ],
+   "publication-date": "2026-09-17+02:00",
+   "buyer-name": {
+    "swe": [
+     "Hargs Hamn Aktiebolag"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Port operation services – Stuveri- och logistiktjänster"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-06+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "645087-2026",
+   "classification-cpv": [
+    "63721200",
+    "63721200"
+   ],
+   "publication-date": "2026-09-18+02:00",
+   "buyer-name": {
+    "swe": [
+     "Hargs Hamn Aktiebolag"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Port operation services – Stuveri- och logistiktjänster"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-22+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "645453-2026",
+   "classification-cpv": [
+    "38296000",
+    "38296000"
+   ],
+   "publication-date": "2026-09-18+02:00",
+   "buyer-name": {
+    "lit": [
+     "AB Via Lietuva (PV)"
+    ]
+   },
+   "buyer-country": [
+    "LTU"
+   ],
+   "notice-title": {
+    "eng": "Lithuania – Surveying instruments – Mobilios lazerinės skenavimo sistemos LiDAR įrangos įsigijimas"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-19Z",
+    "2026-10-19Z",
+    "2026-10-19Z",
+    "2026-10-19Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "646515-2026",
+   "classification-cpv": [
+    "34933000",
+    "34930000",
+    "38112100",
+    "48326000",
+    "34933000",
+    "48326000",
+    "34933000",
+    "34933000",
+    "38112100",
+    "38112100"
+   ],
+   "publication-date": "2026-09-21+02:00",
+   "buyer-name": {
+    "eng": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Navigation equipment – Portable Pilot Units"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-21Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "648104-2026",
+   "classification-cpv": [
+    "50514300",
+    "38421100",
+    "39350000",
+    "42997000",
+    "43132500",
+    "44160000",
+    "45231113",
+    "45330000",
+    "50411100",
+    "50514300",
+    "38421100",
+    "39350000",
+    "42997000",
+    "43132500",
+    "44160000",
+    "45231113",
+    "45330000",
+    "50411100"
+   ],
+   "publication-date": "2026-09-21+02:00",
+   "buyer-name": {
+    "eng": [
+     "Time Kommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Sleeving repair services – Framework agreement for plumbing services and materials."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-20+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "648949-2026",
+   "classification-cpv": [
+    "38111000",
+    "38111000",
+    "73112000"
+   ],
+   "publication-date": "2026-09-21+02:00",
+   "buyer-name": {
+    "swe": [
+     "SVERIGES LANTBRUKSUNIVERSITET"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Direction-finding equipment – Acoustic telemetry and aquatic satellite based telemetry"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-27+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "649210-2026",
+   "classification-cpv": [
+    "38421100",
+    "38421100"
+   ],
+   "publication-date": "2026-09-21+02:00",
+   "buyer-name": {
+    "dan": [
+     "Vejen Vand A/S"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Water meters – Udbud af fjernaflæste vandmålere"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-20+02:00",
+    "2026-10-20+02:00",
+    "2026-10-20+02:00",
+    "2026-10-20+02:00",
+    "2026-10-20+02:00",
+    "2026-10-20+02:00",
+    "2026-10-20+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "652962-2026",
+   "classification-cpv": [
+    "38420000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38420000",
+    "38420000",
+    "38420000",
+    "38420000",
+    "38420000",
+    "38420000",
+    "38420000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000",
+    "38434000",
+    "38430000",
+    "38434560",
+    "42992000"
+   ],
+   "publication-date": "2026-09-22+02:00",
+   "buyer-name": {
+    "lav": [
+     "Latvijas Biozinātņu un tehnoloģiju universitāte"
+    ]
+   },
+   "buyer-country": [
+    "LVA"
+   ],
+   "notice-title": {
+    "eng": "Latvia – Instruments for measuring flow, level and pressure of liquids and gases – Laboratorijas iekārtu iegāde LBTU LPTF vajadzībām"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "654776-2026",
+   "classification-cpv": [
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200",
+    "71250000",
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200",
+    "71353000",
+    "71354300",
+    "71355200"
+   ],
+   "publication-date": "2026-09-23+02:00",
+   "buyer-name": {
+    "dan": [
+     "Roskilde Kommune",
+     "Guldborgsund Kommune",
+     "Holbæk Kommune",
+     "Kalundborg Kommune",
+     "Køge Kommune",
+     "Lejre Kommune",
+     "Næstved Kommune",
+     "Odsherred Kommune",
+     "Ringsted Kommune",
+     "Sorø Kommune",
+     "Stevns Kommune",
+     "Vordingborg Kommune",
+     "Faxe Kommune",
+     "Fors Affald Holbæk A/S",
+     "Fors Varme Roskilde A/S",
+     "Fors Spildevand Roskilde A/S",
+     "Fors Spildevand Lejre A/S",
+     "Fors Spildevand Holbæk A/S",
+     "Fors Vand Roskilde A/S",
+     "Fors Vand Lejre A/S",
+     "Fors Vand Holbæk A/S",
+     "Fors A/S",
+     "Fors Varme Holbæk, Jyderup A/S"
+    ]
+   },
+   "buyer-country": [
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, engineering and surveying services – Landinspektør- og landmålerydelser"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-26+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "657061-2026",
+   "classification-cpv": [
+    "38221000",
+    "38221000"
+   ],
+   "publication-date": "2026-09-23+02:00",
+   "buyer-name": {
+    "lav": [
+     "Valsts sabiedrība ar ierobežotu atbildību \"Latvijas Valsts ceļi\""
+    ]
+   },
+   "buyer-country": [
+    "LVA"
+   ],
+   "notice-title": {
+    "eng": "Latvia – Geographic information systems (GIS or equivalent) – ESRI izstrādāto datorprogrammu licences 3 gadiem"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "657453-2026",
+   "classification-cpv": [
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200",
+    "71250000",
+    "71250000",
+    "71353000",
+    "71354300",
+    "71355200",
+    "71353000",
+    "71354300",
+    "71355200"
+   ],
+   "publication-date": "2026-09-24+02:00",
+   "buyer-name": {
+    "dan": [
+     "Roskilde Kommune",
+     "Guldborgsund Kommune",
+     "Holbæk Kommune",
+     "Kalundborg Kommune",
+     "Køge Kommune",
+     "Lejre Kommune",
+     "Næstved Kommune",
+     "Odsherred Kommune",
+     "Ringsted Kommune",
+     "Sorø Kommune",
+     "Stevns Kommune",
+     "Vordingborg Kommune",
+     "Faxe Kommune",
+     "Fors Affald Holbæk A/S",
+     "Fors Varme Roskilde A/S",
+     "Fors Spildevand Roskilde A/S",
+     "Fors Spildevand Lejre A/S",
+     "Fors Spildevand Holbæk A/S",
+     "Fors Vand Roskilde A/S",
+     "Fors Vand Lejre A/S",
+     "Fors Vand Holbæk A/S",
+     "Fors A/S",
+     "Fors Varme Holbæk, Jyderup A/S"
+    ]
+   },
+   "buyer-country": [
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK",
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, engineering and surveying services – Landinspektør- og landmålerydelser"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-29+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "658504-2026",
+   "classification-cpv": [
+    "34500000",
+    "34520000",
+    "34521000",
+    "34521100",
+    "34500000",
+    "34520000",
+    "34521000",
+    "34521100"
+   ],
+   "publication-date": "2026-09-24+02:00",
+   "buyer-name": {
+    "swe": [
+     "FMV"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ships and boats – Arbetsbåt"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-06Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "660169-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-24+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Pielisjoen reitin kanavien ja avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-27Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "660461-2026",
+   "classification-cpv": [
+    "34520000",
+    "34500000",
+    "34520000",
+    "34500000"
+   ],
+   "publication-date": "2026-09-25+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Boats – Begagnad båt för farledsunderhåll"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-06Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "660718-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-25+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Pielisjoen reitin kanavien ja avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-10+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "661272-2026",
+   "classification-cpv": [
+    "90730000",
+    "90730000",
+    "90733000",
+    "90733700",
+    "90700000",
+    "50500000",
+    "50710000"
+   ],
+   "publication-date": "2026-09-25+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sveriges geologiska undersökning"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Pollution tracking and monitoring and rehabilitation – Beredskapspersonal Blaikengruvan vattenrening"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-23Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "662995-2026",
+   "classification-cpv": [
+    "34520000",
+    "34500000",
+    "34520000",
+    "34500000"
+   ],
+   "publication-date": "2026-09-25+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Boats – Mindre arbetsbåt till Fyrbjörn"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-30Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "668013-2026",
+   "classification-cpv": [
+    "34521000",
+    "34521000"
+   ],
+   "publication-date": "2026-09-29+02:00",
+   "buyer-name": {
+    "fin": [
+     "Sansia Oy",
+     "Kainuun hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-11Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "669159-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-09-29+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Rannikon avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-26+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "670798-2026",
+   "classification-cpv": [
+    "77700000",
+    "63523000",
+    "63721000",
+    "63721200",
+    "63726700",
+    "98360000",
+    "98362000",
+    "77700000",
+    "63523000",
+    "63721000",
+    "63721200",
+    "63726700",
+    "98360000",
+    "98362000"
+   ],
+   "publication-date": "2026-09-30+02:00",
+   "buyer-name": {
+    "swe": [
+     "Havs- och vattenmyndigheten"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Services incidental to fishing – Koncession för förtecknade hamnar"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-03Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "674425-2026",
+   "classification-cpv": [
+    "34500000",
+    "34000000",
+    "34510000",
+    "34512000",
+    "34513000",
+    "34520000",
+    "34521000",
+    "34500000",
+    "34000000",
+    "34510000",
+    "34512000",
+    "34513000",
+    "34520000",
+    "34521000"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "eng": [
+     "Sandnes kommune",
+     "Ryfylke Friluftsråd"
+    ]
+   },
+   "buyer-country": [
+    "NOR",
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Ships and boats – Renovation of work boats - the Skerry service."
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "675334-2026",
+   "classification-cpv": [
+    "38221000",
+    "48000000",
+    "48326000",
+    "48326100",
+    "38221000",
+    "48000000",
+    "48326000",
+    "48326100"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "swe": [
+     "Stadsbyggnadskontoret (SBK)"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Geographic information systems (GIS or equivalent) – GIS-plattform"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-20+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "675355-2026",
+   "classification-cpv": [
+    "45212220",
+    "71354300",
+    "45212220",
+    "71354300"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "lit": [
+     "Biržų rajono savivaldybės administracija"
+    ]
+   },
+   "buyer-country": [
+    "LTU"
+   ],
+   "notice-title": {
+    "eng": "Lithuania – Multi-purpose sports facilities construction work – Sporto paskirties inžinerinių statinių, vandentiekio ir nuotekų šalinimo tinklų bei kitų inžinerinių statinių Biržuose, Vytauto g. 47, statybos ir rekonstravimo darbai (I Etapas)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-30Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "677303-2026",
+   "classification-cpv": [
+    "63722000",
+    "63722000"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ship-piloting services – Lotstransporter för Södra Vänern"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-26Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "677306-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Taipaleen ja Konnuksen kanavien sekä Savonlinnan avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-03+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "677706-2026",
+   "classification-cpv": [
+    "71354300",
+    "71354300"
+   ],
+   "publication-date": "2026-10-01+02:00",
+   "buyer-name": {
+    "lit": [
+     "Akcinė bendrovė Turto bankas (PV)"
+    ]
+   },
+   "buyer-country": [
+    "LTU"
+   ],
+   "notice-title": {
+    "eng": "Lithuania – Cadastral surveying services – VP-3488 Žemės sklypų formavimo ir matavimo paslaugos"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "678586-2026",
+   "classification-cpv": [
+    "34520000",
+    "50240000",
+    "34520000",
+    "50240000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Hansel Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – Vesiskootterit ja trailerit 2026 (0072004)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-10Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "679471-2026",
+   "classification-cpv": [
+    "34520000",
+    "34521000",
+    "34500000",
+    "34513000",
+    "34520000",
+    "34521000",
+    "34500000",
+    "34513000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "eng": [
+     "City of Oslo, Agency for Urban Environment"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Boats – Procurement of two petrol-powered service boats for the archipelago service in the Inner Oslo Fjord."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "679552-2026",
+   "classification-cpv": [
+    "34931400",
+    "48190000",
+    "34931000",
+    "80210000",
+    "30231320",
+    "34152000",
+    "48822000",
+    "38112100",
+    "48000000",
+    "30231000",
+    "39100000",
+    "38110000",
+    "34150000",
+    "34930000",
+    "39162100",
+    "34931400",
+    "48190000",
+    "34931000",
+    "80210000",
+    "30231320",
+    "34152000",
+    "48822000",
+    "38112100",
+    "48000000",
+    "30231000",
+    "39100000",
+    "38110000",
+    "34150000",
+    "34930000",
+    "39162100"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "eng": [
+     "Troms Fylkeskommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Ship bridge simulators – Navigation simulators for Nord-Troms and Senja sixth form colleges"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-30Z",
+    "2026-10-30Z",
+    "2026-10-30Z",
+    "2026-10-30Z",
+    "2026-10-30Z",
+    "2026-10-30Z",
+    "2026-10-30Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "680569-2026",
+   "classification-cpv": [
+    "38500000",
+    "42122000",
+    "38500000",
+    "38423000",
+    "42131140",
+    "38420000",
+    "38000000",
+    "38500000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Lappeenrannan-Lahden teknillinen yliopisto LUT"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Checking and testing apparatus – TREFFI-koelaitteiston prosessikomponentit ja mittalaitteet"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "680718-2026",
+   "classification-cpv": [
+    "34520000",
+    "50240000",
+    "34520000",
+    "50240000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Hansel Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – Kumiveneet ja trailerit 2026 (0072003)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-03Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "680751-2026",
+   "classification-cpv": [
+    "34500000",
+    "34513700",
+    "34521000",
+    "34500000",
+    "34513700",
+    "34521000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "eng": [
+     "Ullensvang Kommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Ships and boats – Harbour Vessel - Stand-by"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "681017-2026",
+   "classification-cpv": [
+    "34520000",
+    "50240000",
+    "34520000",
+    "50240000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Hansel Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – Ulkolaitamoottorilliset veneet ja trailerit 2026 (0072002)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "681402-2026",
+   "classification-cpv": [
+    "34520000",
+    "50240000",
+    "34520000",
+    "50240000"
+   ],
+   "publication-date": "2026-10-02+02:00",
+   "buyer-name": {
+    "fin": [
+     "Hansel Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – Kevyet veneet ja trailerit 2026 (0072001)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-04Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "682269-2026",
+   "classification-cpv": [
+    "33100000",
+    "38421000",
+    "38427000",
+    "33100000",
+    "38421000",
+    "38427000"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "swe": [
+     "Västra Götalandsregionen"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Medical equipments – Elektrisk bärbar sug och lågflödesväljare"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "682428-2026",
+   "classification-cpv": [
+    "72316000",
+    "48000000",
+    "48320000",
+    "71354100",
+    "72316000",
+    "48000000",
+    "48320000",
+    "71354100"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "swe": [
+     "Aktiebolaget PiteEnergi"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Data analysis services – Analys och klassificering av drönar- och LiDAR-data för driftbesiktning av elnät"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-06+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "682645-2026",
+   "classification-cpv": [
+    "71313000",
+    "71313000",
+    "73112000",
+    "77231400",
+    "90700000",
+    "92530000",
+    "98361000"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "swe": [
+     "Norrköpings kommun"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Environmental engineering consultancy services – Biotopkarteringar, artinventeringar och utredningar i vattenmiljöer 2026"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-28Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "682737-2026",
+   "classification-cpv": [
+    "34520000",
+    "34500000",
+    "34520000",
+    "34500000"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Boats – Begagnad båt för farledsunderhåll"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "683674-2026",
+   "classification-cpv": [
+    "63726200",
+    "63726200"
+   ],
+   "publication-date": "2026-10-05+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ice-breaking services – Isrensing m.m. Marieholm"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "689123-2026",
+   "classification-cpv": [
+    "34515100",
+    "34515000",
+    "34515100",
+    "34515000"
+   ],
+   "publication-date": "2026-10-06+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Marker buoys – Prickar och tillbehör för farledsutmärkning"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-06Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "689476-2026",
+   "classification-cpv": [
+    "90733000",
+    "71620000",
+    "71900000",
+    "90700000",
+    "90715000",
+    "90733000",
+    "71620000",
+    "71900000",
+    "90700000",
+    "90715000"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "swe": [
+     "Surahammars kommun"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Services related to water pollution – Upphandling avseende Recipientkontroller i Kolbäcksån"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "690089-2026",
+   "classification-cpv": [
+    "38551000",
+    "38421100",
+    "38551000",
+    "38421100"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "fin": [
+     "Vantaan Energia Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Energy meters – Kaukolämpömittarit"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-04+01:00",
+    "2026-11-04+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "691546-2026",
+   "classification-cpv": [
+    "45211370",
+    "34515000",
+    "44230000",
+    "45212000",
+    "45212300",
+    "45212600",
+    "45213260",
+    "45223000",
+    "45240000",
+    "45242100",
+    "45420000",
+    "45421000",
+    "45421150",
+    "45422000",
+    "45211370",
+    "45211370",
+    "34515000",
+    "44230000",
+    "45212000",
+    "45212300",
+    "45212600",
+    "45213260",
+    "45223000",
+    "45240000",
+    "45242100",
+    "45420000",
+    "45421000",
+    "45421150",
+    "45422000",
+    "34515000",
+    "44230000",
+    "45212000",
+    "45212300",
+    "45212600",
+    "45213260",
+    "45223000",
+    "45240000",
+    "45242100",
+    "45420000",
+    "45421000",
+    "45421150",
+    "45422000"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "swe": [
+     "Trafikkontoret"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Construction works for saunas – Ramavtal - Lätta konstruktioner"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "691717-2026",
+   "classification-cpv": [
+    "71250000",
+    "71354000",
+    "71355000",
+    "71250000",
+    "71354000",
+    "71355000"
+   ],
+   "publication-date": "2026-10-07+02:00",
+   "buyer-name": {
+    "dan": [
+     "Danmarks Fængsler"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Architectural, engineering and surveying services – Udbud af kontrakt om scanning, opmåling og 3D modellering af Danmarks Fængslers samlede ejendomsportefølje"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-11Z",
+    "2026-11-11Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "694853-2026",
+   "classification-cpv": [
+    "71600000",
+    "71600000",
+    "71600000",
+    "71900000",
+    "90733700"
+   ],
+   "publication-date": "2026-10-08+02:00",
+   "buyer-name": {
+    "fin": [
+     "Lahden kaupunki"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Technical testing, analysis and consultancy services – Pohjavesien tarkkailupalvelut 2027-2029 (2030-2031)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-02Z",
+    "2026-11-02Z",
+    "2026-11-02Z",
+    "2026-11-02Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "695892-2026",
+   "classification-cpv": [
+    "34933000",
+    "34930000",
+    "38112100",
+    "48326000",
+    "34933000",
+    "48326000",
+    "34933000",
+    "34933000",
+    "38112100",
+    "38112100"
+   ],
+   "publication-date": "2026-10-08+02:00",
+   "buyer-name": {
+    "eng": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Navigation equipment – Portable Pilot Units"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-12+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "699158-2026",
+   "classification-cpv": [
+    "38421100",
+    "38421100"
+   ],
+   "publication-date": "2026-10-09+02:00",
+   "buyer-name": {
+    "lit": [
+     "AB Klaipėdos vanduo (PV)"
+    ]
+   },
+   "buyer-country": [
+    "LTU"
+   ],
+   "notice-title": {
+    "eng": "Lithuania – Water meters – Buitiniai vandens apskaitos prietaisai su nuotoliniu duomenų nuskaitymu"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-13+01:00",
+    "2026-11-13+01:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "699698-2026",
+   "classification-cpv": [
+    "71351900",
+    "71335000",
+    "71351200",
+    "71351913",
+    "71353100",
+    "71317000",
+    "71222200",
+    "71351220",
+    "71351910",
+    "71354400",
+    "71350000",
+    "71351000",
+    "71310000",
+    "71353000",
+    "71351900",
+    "71351900",
+    "71335000",
+    "71351200",
+    "71351913",
+    "71353100",
+    "71317000",
+    "71222200",
+    "71351220",
+    "71351910",
+    "71354400",
+    "71350000",
+    "71351000",
+    "71310000",
+    "71353000",
+    "71335000",
+    "71351200",
+    "71351913",
+    "71353100",
+    "71317000",
+    "71222200",
+    "71351220",
+    "71351910",
+    "71354400",
+    "71350000",
+    "71351000",
+    "71310000",
+    "71353000"
+   ],
+   "publication-date": "2026-10-09+02:00",
+   "buyer-name": {
+    "eng": [
+     "Abakus AS",
+     "Rendalen kommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR",
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Geology, oceanography and hydrology services – RE-26-03 Review and mapping of avalanche and flood hazards in Rendalen municipality"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-16+03:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "700742-2026",
+   "classification-cpv": [
+    "45232400",
+    "71320000",
+    "71354300",
+    "71351810",
+    "45232400",
+    "71320000",
+    "71354300",
+    "71351810"
+   ],
+   "publication-date": "2026-10-12+02:00",
+   "buyer-name": {
+    "lit": [
+     "UAB \"Kuršėnų vandenys\""
+    ]
+   },
+   "buyer-country": [
+    "LTU"
+   ],
+   "notice-title": {
+    "eng": "Lithuania – Sewer construction work – Vandentiekio ir nuotekų tinklų Kužių mstl., Šiaulių r. sav., statybos darbai"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z",
+    "2026-11-10Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "701538-2026",
+   "classification-cpv": [
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200",
+    "63726200"
+   ],
+   "publication-date": "2026-10-12+02:00",
+   "buyer-name": {
+    "eng": [
+     "KYSTVERKET"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Ice-breaking services – Procurement of icebreaking services - 13 contract areas"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "703922-2026",
+   "classification-cpv": [
+    "43800000",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700",
+    "43800000",
+    "43800000",
+    "43800000",
+    "43800000",
+    "43800000",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700",
+    "44510000",
+    "44512000",
+    "42993200",
+    "38420000",
+    "38300000",
+    "42413000",
+    "43312000",
+    "42924700"
+   ],
+   "publication-date": "2026-10-12+02:00",
+   "buyer-name": {
+    "lav": [
+     "Valsts izglītības attīstības aģentūra"
+    ]
+   },
+   "buyer-country": [
+    "LVA"
+   ],
+   "notice-title": {
+    "eng": "Latvia – Workshop equipment – Instrumentu ratiņu un dažādu instrumentu, vibrokājas un augstspiediena mazgāšanas iekārtas piegāde Aizkraukles Profesionālajai vidusskolai"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-10-26Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "705123-2026",
+   "classification-cpv": [
+    "63721000",
+    "63721300",
+    "63721000",
+    "63721300"
+   ],
+   "publication-date": "2026-10-13+02:00",
+   "buyer-name": {
+    "fin": [
+     "Väylävirasto"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Port and waterway operation services and associated services – Taipaleen ja Konnuksen kanavien sekä Savonlinnan avattavien siltojen käyttö ja kunnossapito 2027 - 2031"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00",
+    "2026-11-09+02:00"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "706877-2026",
+   "classification-cpv": [
+    "38000000",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38000000",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100",
+    "38400000",
+    "38424000",
+    "38430000",
+    "38200000",
+    "38540000",
+    "38310000",
+    "38561000",
+    "38900000",
+    "38434000",
+    "38414000",
+    "38632000",
+    "30200000",
+    "30213100",
+    "37423000",
+    "39711120",
+    "34711200",
+    "31158000",
+    "44512000",
+    "42652000",
+    "42716200",
+    "42931100"
+   ],
+   "publication-date": "2026-10-13+02:00",
+   "buyer-name": {
+    "lav": [
+     "Latvijas Valsts mežzinātnes institūts “Silava”"
+    ]
+   },
+   "buyer-country": [
+    "LVA"
+   ],
+   "notice-title": {
+    "eng": "Latvia – Laboratory, optical and precision equipments (excl. glasses) – Pētniecības iekārtu un aprīkojuma iegāde mežkopības un meža faunas pētījumiem"
+   }
+  },
+  {
+   "notice-type": "cn-standard",
+   "publication-number": "707240-2026",
+   "classification-cpv": [
+    "63726200",
+    "63726200",
+    "63727000",
+    "60651100"
+   ],
+   "publication-date": "2026-10-13+02:00",
+   "buyer-name": {
+    "swe": [
+     "Örnsköldsviks Hamn och Logistik AB"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Ice-breaking services – Isbrytar och bogseringstjänst."
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-16Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "709571-2026",
+   "classification-cpv": [
+    "34515100",
+    "34515000",
+    "34515100",
+    "34515000"
+   ],
+   "publication-date": "2026-10-14+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Marker buoys – Prickar och tillbehör för farledsutmärkning"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-13Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "710197-2026",
+   "classification-cpv": [
+    "60650000",
+    "60600000",
+    "34513100",
+    "60650000",
+    "60600000",
+    "34513100"
+   ],
+   "publication-date": "2026-10-14+02:00",
+   "buyer-name": {
+    "eng": [
+     "Havforskningsinstituttet"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Hire of water transport equipment with crew – Hire vessel for estimation of NVG herring in February 2027"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-25Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "711403-2026",
+   "classification-cpv": [
+    "65500000",
+    "38421100",
+    "38551000",
+    "38552000",
+    "38554000",
+    "44115220",
+    "50411100",
+    "72314000",
+    "72319000",
+    "65500000",
+    "38421100",
+    "38551000",
+    "38552000",
+    "38554000",
+    "44115220",
+    "50411100",
+    "72314000",
+    "72319000"
+   ],
+   "publication-date": "2026-10-15+02:00",
+   "buyer-name": {
+    "dan": [
+     "Boligselskabet Sjælland"
+    ]
+   },
+   "buyer-country": [
+    "DNK"
+   ],
+   "notice-title": {
+    "eng": "Denmark – Meter reading service – LEVERING AF FORBRUGSMÅLERE OG -REGNSKABER SAMT HÅNDTERING AF FORBRUGSKLAGER (2026)"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-16Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "713458-2026",
+   "classification-cpv": [
+    "50000000",
+    "34500000",
+    "50200000",
+    "50000000",
+    "34500000",
+    "50200000"
+   ],
+   "publication-date": "2026-10-15+02:00",
+   "buyer-name": {
+    "swe": [
+     "Sjöfartsverket"
+    ]
+   },
+   "buyer-country": [
+    "SWE"
+   ],
+   "notice-title": {
+    "eng": "Sweden – Repair and maintenance services – Varvsöversyn Svea"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-06Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "713640-2026",
+   "classification-cpv": [
+    "34521000",
+    "34521000"
+   ],
+   "publication-date": "2026-10-15+02:00",
+   "buyer-name": {
+    "fin": [
+     "Sansia Oy",
+     "Kainuun hyvinvointialue"
+    ]
+   },
+   "buyer-country": [
+    "FIN",
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema"
+   }
+  },
+  {
+   "deadline-receipt-tender-date-lot": [
+    "2026-11-09Z"
+   ],
+   "notice-type": "cn-standard",
+   "publication-number": "713808-2026",
+   "classification-cpv": [
+    "45000000",
+    "34515000",
+    "45000000",
+    "34515000"
+   ],
+   "publication-date": "2026-10-15+02:00",
+   "buyer-name": {
+    "eng": [
+     "Austevoll kommune"
+    ]
+   },
+   "buyer-country": [
+    "NOR"
+   ],
+   "notice-title": {
+    "eng": "Norway – Construction work – I1036 Public floating dock Competition FOA part 2"
+   }
+  }
+ ]
+}

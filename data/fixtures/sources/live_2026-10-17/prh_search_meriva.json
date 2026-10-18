@@ -1,0 +1,1674 @@
+{
+ "recorded_at": "2026-10-17T19:23:32+00:00",
+ "name": "meriva",
+ "response": {
+  "totalResults": 21,
+  "companies": [
+   {
+    "businessId": {
+     "value": "0571360-8",
+     "registrationDate": "1984-11-06",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Merivalkama",
+      "type": "1",
+      "registrationDate": "1984-07-19",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.reim.fi",
+     "registrationDate": "2021-09-30",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "049"
+       },
+       {
+        "municipalityCode": "049"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "049"
+       },
+       {
+        "municipalityCode": "049"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "0763908-5",
+     "registrationDate": "1989-10-19",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Espoon Fregatti",
+      "type": "1",
+      "registrationDate": "1998-08-26",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Asunto Oy Espoon Merivalkama 15",
+      "type": "1",
+      "registrationDate": "1997-05-05",
+      "endDate": "1998-08-25",
+      "version": 2,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1989-08-16",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "257"
+       },
+       {
+        "municipalityCode": "257"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "257"
+       },
+       {
+        "municipalityCode": "257"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "0774605-9",
+     "registrationDate": "1989-12-29",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Espoon Merivalkama 18",
+      "type": "1",
+      "registrationDate": "1997-03-17",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Asunto Oy Merikeskus",
+      "type": "1",
+      "registrationDate": "1989-11-29",
+      "endDate": "1997-03-16",
+      "version": 2,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1989-11-29",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "0872914-6",
+     "registrationDate": "1992-01-30",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Oulun Merivaruste Oy",
+      "type": "1",
+      "registrationDate": "1992-01-29",
+      "endDate": "2004-12-30",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "51482",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Partihandel med båtar o tillbehör"
+      },
+      {
+       "languageCode": "1",
+       "description": "Veneiden ja veneilytarv. tukkukauppa"
+      },
+      {
+       "languageCode": "3",
+       "description": "Wholesale of boats and boating accessories"
+      }
+     ],
+     "typeCodeSet": "TOIMI2",
+     "registrationDate": "2001-12-31",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "1992-01-29",
+      "endDate": "2004-12-30",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "0903762-7",
+     "registrationDate": "1992-10-12",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "As Oy Helsingin Merivalkama",
+      "type": "1",
+      "registrationDate": "1992-05-20",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1992-05-20",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1010012-8",
+     "registrationDate": "1995-06-13",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Merivakka Avoin yhtiö",
+      "type": "1",
+      "registrationDate": "1995-09-27",
+      "endDate": "2006-12-04",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "61101",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Meriliikenteen henkilökuljetus"
+      },
+      {
+       "languageCode": "2",
+       "description": "Persontransport över hav"
+      },
+      {
+       "languageCode": "3",
+       "description": "Sea passenger transport"
+      }
+     ],
+     "typeCodeSet": "TOIMI2",
+     "registrationDate": "2001-12-31",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "5",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Avoin yhtiö"
+       },
+       {
+        "languageCode": "3",
+        "description": "Partnership"
+       },
+       {
+        "languageCode": "2",
+        "description": "Öppet bolag"
+       }
+      ],
+      "registrationDate": "1995-09-27",
+      "endDate": "2006-12-04",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "1484998-8",
+     "registrationDate": "1998-09-01",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Rauman Merivalkama",
+      "type": "1",
+      "registrationDate": "1998-08-04",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68203",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Muu kiinteistöjen vuokraus ja hallinta"
+      },
+      {
+       "languageCode": "3",
+       "description": "Rental and operating of own or leased non-residential real estate"
+      },
+      {
+       "languageCode": "2",
+       "description": "Övrig uthyrning och förvaltning av fastigheter"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1998-08-04",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "684"
+       },
+       {
+        "municipalityCode": "684"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1504694-1",
+     "registrationDate": "1998-12-04",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Merivaara Oy",
+      "type": "1",
+      "registrationDate": "2002-03-13",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Angelo Insulting Oy",
+      "type": "1",
+      "registrationDate": "1998-03-25",
+      "endDate": "2002-03-12",
+      "version": 2,
+      "source": "1"
+     },
+     {
+      "name": "Merivaara Corporation",
+      "type": "2",
+      "registrationDate": "2008-02-25",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "32502",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Manufacture of other medical and dental instruments and supplies"
+      },
+      {
+       "languageCode": "1",
+       "description": "Muu lääkintä- ja hammaslääkintäinstrumenttien ja -tarvikkeiden valmistus"
+      },
+      {
+       "languageCode": "2",
+       "description": "Övrig tillverkning av medicinsk och dental utrustning"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.merivaara.com",
+     "registrationDate": "2025-03-02",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "1998-03-25",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "098"
+       },
+       {
+        "municipalityCode": "098"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "098"
+       },
+       {
+        "municipalityCode": "098"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1522264-2",
+     "registrationDate": "1999-03-09",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Oulun Merivaahtera",
+      "type": "1",
+      "registrationDate": "1998-12-11",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "https://kodinisannointi.fi/",
+     "registrationDate": "2025-05-30",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1998-12-11",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "564"
+       },
+       {
+        "municipalityCode": "564"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "564"
+       },
+       {
+        "municipalityCode": "564"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1538472-1",
+     "registrationDate": "1999-06-08",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Oulun Merivalkama",
+      "type": "1",
+      "registrationDate": "1999-04-16",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.reim.fi",
+     "registrationDate": "2021-10-13",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "1999-04-16",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "564"
+       },
+       {
+        "municipalityCode": "564"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "564"
+       },
+       {
+        "municipalityCode": "564"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1644519-4",
+     "registrationDate": "2001-02-05",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Kuljetus J. Merivaara Oy",
+      "type": "1",
+      "registrationDate": "2001-03-21",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "49410",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Freight transport by road"
+      },
+      {
+       "languageCode": "1",
+       "description": "Tieliikenteen tavarankuljetus"
+      },
+      {
+       "languageCode": "2",
+       "description": "Vägtransport, godstrafik"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2001-03-21",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1797341-5",
+     "registrationDate": "2002-11-25",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Saaristomeren merivartiokilta ry Skärgårdshavets sjöbevakningsgille rf",
+      "type": "1",
+      "registrationDate": "2014-12-02",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Saaristomeren Merivartioston Kilta ry Skärgårdshavets Sjöbevakningssektions Gillet rf",
+      "type": "1",
+      "registrationDate": "1997-10-06",
+      "endDate": "2014-12-01",
+      "version": 2,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "84220",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Defence activities"
+      },
+      {
+       "languageCode": "1",
+       "description": "Maanpuolustus"
+      },
+      {
+       "languageCode": "2",
+       "description": "Totalförsvar"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.smmvk.fi",
+     "registrationDate": "2021-02-18",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "6",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Aatteellinen yhdistys"
+       },
+       {
+        "languageCode": "2",
+        "description": "Ideell förening"
+       },
+       {
+        "languageCode": "3",
+        "description": "Non-profit association"
+       }
+      ],
+      "registrationDate": "1993-02-11",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "3",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "853"
+       },
+       {
+        "municipalityCode": "853"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "1840671-1",
+     "registrationDate": "2003-07-10",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "MeriVA avoin yhtiö",
+      "type": "1",
+      "registrationDate": "2003-07-21",
+      "endDate": "2008-10-13",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companyForms": [
+     {
+      "type": "5",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Avoin yhtiö"
+       },
+       {
+        "languageCode": "3",
+        "description": "Partnership"
+       },
+       {
+        "languageCode": "2",
+        "description": "Öppet bolag"
+       }
+      ],
+      "registrationDate": "2003-07-21",
+      "endDate": "2008-10-13",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "1873411-7",
+     "registrationDate": "2004-01-09",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Asunto Oy Helsingin Merivarjakka",
+      "type": "1",
+      "registrationDate": "2004-02-24",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "68202",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Asuntojen ja asuinkiinteistöjen hallinta"
+      },
+      {
+       "languageCode": "2",
+       "description": "Förvaltning av bostäder och bostadsfastigheter"
+      },
+      {
+       "languageCode": "3",
+       "description": "Operating of own or leased dwellings and residential real estate"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "2",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Asunto-osakeyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Bostadsaktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Housing corporation"
+       }
+      ],
+      "registrationDate": "2004-02-24",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "091"
+       },
+       {
+        "municipalityCode": "091"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "2124656-0",
+     "registrationDate": "2007-06-26",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Merivalli Ky",
+      "type": "1",
+      "registrationDate": "2007-09-10",
+      "endDate": "2018-09-19",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "47722",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Laukkujen vähittäiskauppa"
+      },
+      {
+       "languageCode": "3",
+       "description": "Retail sale of bags"
+      },
+      {
+       "languageCode": "2",
+       "description": "Specialiserad butikshandel med väskor"
+      }
+     ],
+     "typeCodeSet": "TOIMI3",
+     "registrationDate": "2007-12-31",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "13",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Kommandiittiyhtiö"
+       },
+       {
+        "languageCode": "2",
+        "description": "Kommanditbolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited partnership"
+       }
+      ],
+      "registrationDate": "2007-09-10",
+      "endDate": "2018-09-19",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "2225176-7",
+     "registrationDate": "2008-10-10",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Kotisairaala Luotsi Oy",
+      "type": "1",
+      "registrationDate": "2009-03-23",
+      "endDate": "2024-08-19",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Merivakka Oy",
+      "type": "1",
+      "registrationDate": "2008-10-15",
+      "endDate": "2009-03-22",
+      "version": 2,
+      "source": "1"
+     },
+     {
+      "name": "Varsinais-Suomen kotisairaanhoito",
+      "type": "3",
+      "registrationDate": "2009-03-23",
+      "endDate": "2024-08-19",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Medixir",
+      "type": "3",
+      "registrationDate": "2009-03-23",
+      "endDate": "2024-08-19",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Lääkäriasema Luotsi",
+      "type": "3",
+      "registrationDate": "2009-03-23",
+      "endDate": "2024-08-19",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "96090",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Diverse övriga konsumenttjänster"
+      },
+      {
+       "languageCode": "1",
+       "description": "Muualla luokittelemattomat henkilökohtaiset palvelut"
+      },
+      {
+       "languageCode": "3",
+       "description": "Other personal service activities n.e.c."
+      }
+     ],
+     "typeCodeSet": "TOIMI3",
+     "registrationDate": "2008-10-03",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2008-10-15",
+      "endDate": "2024-08-19",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "2395483-5",
+     "registrationDate": "2011-03-07",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Meriva-Rahoitus Oy",
+      "type": "1",
+      "registrationDate": "2011-03-22",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "64920",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Annan kreditgivning"
+      },
+      {
+       "languageCode": "1",
+       "description": "Muu luotonanto"
+      },
+      {
+       "languageCode": "3",
+       "description": "Other credit granting"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2011-03-22",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "743"
+       },
+       {
+        "municipalityCode": "743"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "743"
+       },
+       {
+        "municipalityCode": "743"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "3378546-5",
+     "registrationDate": "2023-07-19",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Merivar Oy",
+      "type": "1",
+      "registrationDate": "2023-07-27",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "14290",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Manufacture of other wearing apparel and accessories n.e.c."
+      },
+      {
+       "languageCode": "1",
+       "description": "Muualla luokittelematon muiden vaatteiden ja asusteiden valmistus"
+      },
+      {
+       "languageCode": "2",
+       "description": "Tillverkning av diverse övriga beklädnadsvaror och tillbehör"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.merivar.com",
+     "registrationDate": "2024-01-01",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2023-07-27",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "753"
+       },
+       {
+        "municipalityCode": "753"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "2556226-1",
+     "registrationDate": "2013-06-25",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Turun Merivaruste Oy",
+      "type": "1",
+      "registrationDate": "2013-07-03",
+      "endDate": "2024-01-30",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Turun Rautakauppa-Åbo Järnhandel",
+      "type": "3",
+      "registrationDate": "2013-07-03",
+      "endDate": "2024-01-30",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "47642",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Retail sale of boats and boating accessories"
+      },
+      {
+       "languageCode": "2",
+       "description": "Specialiserad butikshandel med båtar och båttillbehör"
+      },
+      {
+       "languageCode": "1",
+       "description": "Veneiden ja veneilytarvikkeiden vähittäiskauppa"
+      }
+     ],
+     "typeCodeSet": "TOIMI3",
+     "registrationDate": "2013-06-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2013-07-03",
+      "endDate": "2024-01-30",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "4",
+    "addresses": []
+   },
+   {
+    "businessId": {
+     "value": "3652359-1",
+     "registrationDate": "2026-09-03",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Meriva Oy",
+      "type": "1",
+      "registrationDate": "2026-09-14",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "71129",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Muu tekninen palvelu"
+      },
+      {
+       "languageCode": "3",
+       "description": "Other engineering activities and related technical consultancy"
+      },
+      {
+       "languageCode": "2",
+       "description": "Övriga tekniska tjänster"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-09-01",
+     "source": "2"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2026-09-14",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "853"
+       },
+       {
+        "municipalityCode": "853"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "businessId": {
+     "value": "3656639-9",
+     "registrationDate": "2026-09-20",
+     "source": "3"
+    },
+    "names": [
+     {
+      "name": "Psykoterapia ja psykiatripalvelut Satu Merivalo Oy",
+      "type": "1",
+      "registrationDate": "2026-09-29",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "86220",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Lääkäriasemat, yksityislääkärit ja vastaavat erikoislääkäripalvelut"
+      },
+      {
+       "languageCode": "3",
+       "description": "Medical specialists activities"
+      },
+      {
+       "languageCode": "2",
+       "description": "Specialistläkarverksamhet"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-09-20",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.satumerivalo.fi",
+     "registrationDate": "2026-09-20",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2026-09-29",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "tradeRegisterStatus": "1",
+    "addresses": [
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "749"
+       },
+       {
+        "municipalityCode": "749"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

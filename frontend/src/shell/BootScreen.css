@@ -1,0 +1,26 @@
+/* No background: body paints the canvas (the shockwave sits on it). */
+.boot {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 16px;
+  height: 100vh;
+  height: 100dvh;
+}
+
+.boot .app-tile {
+  animation: boot-breathe 1.6s ease-in-out infinite alternate;
+}
+
+.boot .wordmark {
+  font-size: 18px;
+}
+
+@keyframes boot-breathe {
+  from {
+    transform: scale(0.96);
+  }
+  to {
+    transform: scale(1);
+  }
+}

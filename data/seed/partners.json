@@ -1,0 +1,3217 @@
+{
+ "generated": "2026-10-16",
+ "project": "Redstone x A'Pelago - Ocean Opportunity Radar",
+ "scope_note": "Consolidated partner list. Deduplicated from w2-partners-pilots.md (rows A1-A36, B1-B21, C1-C16), the TED maritime and awards probes, and the Nordic-Baltic procurement summary. A blank pilot field means not found in sources checked, not absence. Entities marked knowledge have city or country from general background, not verified in this run.",
+ "legend": {
+  "verification": {
+   "fetched": "page read in this run (WebFetch, 2026-10-16)",
+   "search_snippet": "from a WebSearch result summary; primary page not read or no primary URL given",
+   "w2_read": "carried from w2-partners-pilots.md (read in an earlier run)",
+   "ted_probe": "TED notice in data/ted_fi_maritime.json or ted_fi_awards_probe.json",
+   "ted_nordic": "count in data/w4/grants-procurement/ted_nordic_baltic_summary.json",
+   "knowledge": "general background, not checked in this run",
+   "gap": "not checked, or blocked (403, 404, TLS error, redirect or captcha)"
+  },
+  "pilot_evidence_status": {
+   "verified_pilot": "a public source names a specific pilot or deployment with a partner",
+   "partial": "some pilot or deployment evidence, secondary or headline only",
+   "none_found": "checked sources show no startup pilot; not proof of absence",
+   "unknown": "not checked"
+  }
+ },
+ "budget": {
+  "web_search_calls": 8,
+  "web_search_cap": 8,
+  "web_fetch_calls": 16,
+  "scripted_http": "none. No script was run that makes HTTP requests, so the junctionx-research-probe/0.1 User-Agent was not needed."
+ },
+ "entities": [
+  {
+   "id": "meyer_turku",
+   "name": "Meyer Turku",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "decarbonisation",
+    "net_zero_ship_concept",
+    "carbon_neutral_energy_and_heating",
+    "future_maritime_technology"
+   ],
+   "innovation_channel": {
+    "label": "Meyer Turku news; MERiON programme (Business Finland Leading Company 2026-2030, per search summary)",
+    "url": "https://www.meyerturku.fi/fi/tuotteet-teknologia/merion/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "NEcOLEAP (national programme, led by Meyer, 2022) and MERiON (2026-2030): corporate-led, no startup named in sources checked"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Aalto University (EUR 800,000 ship-design professorship donation, 21 May 2026); Åbo Akademi (green transition cooperation, 5 Oct 2023); University of Turku (strategic partner, 2020 press release)",
+   "source_urls": [
+    "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/",
+    "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/abo-akademi-ja-meyer-turku-syventavat-vihrean-siirtyman-yhteistyotaan/",
+    "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/meyer-turku-tekee-aalto-yliopistolle-800-000-euron-lahjoituksen/",
+    "https://www.utu.fi/en/news/press-release/university-of-turku-and-meyer-turku-increase-collaboration-in-engineering"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A1",
+    "web_search"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "No startup pilot found in sources checked, including a 2025-26 search."
+  },
+  {
+   "id": "wartsila",
+   "name": "Wärtsilä",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Helsinki",
+   "cares_about": [
+    "decarbonisation",
+    "future_fuels",
+    "lifecycle_service",
+    "emissions"
+   ],
+   "innovation_channel": {
+    "label": "Insights topic: decarbonisation and future fuels (article text not in fetched shell)",
+    "url": "https://www.wartsila.com/insights/topics/decarbonisation-future-fuels"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.wartsila.com/media/news/13-10-2026-viking-line-expands-wartsila-service-agreement-partnership-to-a-third-vessel-3800414"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A12",
+    "web_search"
+   ],
+   "verification": "w2_read; search_snippet (One Sea partner)",
+   "notes": "Viking Line service agreement expanded to a third vessel on 13 Oct 2026 (a service contract, not an innovation pilot). Named as One Sea partner in a search snippet."
+  },
+  {
+   "id": "kongsberg_maritime",
+   "name": "Kongsberg Maritime",
+   "type": "corporate",
+   "country": "NO",
+   "city": "Kongsberg (Norway); Finnish office not checked",
+   "cares_about": [
+    "autonomy",
+    "remote_operations",
+    "subsea_robotics"
+   ],
+   "innovation_channel": {
+    "label": "News archive: 2026 AUV hangar and subsea docking contract",
+    "url": "https://www.kongsbergmaritime.com/news-and-events/news-archive/2026/kongsberg-maritime-to-deliver-auv-hangar-and-subsea-docking-system-for-new-research-vessel/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.kongsbergmaritime.com/news-and-events/news-archive/2026/kongsberg-maritime-to-deliver-auv-hangar-and-subsea-docking-system-for-new-research-vessel/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A14",
+    "w2_row_A34"
+   ],
+   "verification": "w2_read",
+   "notes": "w2 reports an acquisition of Steerprop linked to Kongsberg (from Meriteollisuus news); not re-verified. The AUV hangar is a supply contract, not a startup pilot."
+  },
+  {
+   "id": "abb_marine_ports",
+   "name": "ABB Marine & Ports",
+   "type": "corporate",
+   "country": "CH/FI",
+   "city": "unverified (group HQ Zurich)",
+   "cares_about": [
+    "electric_propulsion",
+    "autonomy"
+   ],
+   "innovation_channel": {
+    "label": "Azipod showcase in Finnish marine industry pages (industry showcase, not a programme)",
+    "url": "https://teknologiateollisuus.fi/meriteollisuus/azipod/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://teknologiateollisuus.fi/meriteollisuus/azipod/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A13"
+   ],
+   "verification": "w2_read; search_snippet (One Sea partner)",
+   "notes": "ABB website not checked in w2 or this run."
+  },
+  {
+   "id": "steerprop",
+   "name": "Steerprop",
+   "type": "corporate",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [
+    "propulsion_efficiency",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "knowledge",
+   "notes": "Named in the brief; not checked. See Kongsberg Maritime notes."
+  },
+  {
+   "id": "elomatic",
+   "name": "Elomatic",
+   "type": "corporate",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [
+    "ship_design",
+    "fuel_saving_elogrid",
+    "future_fuels"
+   ],
+   "innovation_channel": {
+    "label": "Marine services page",
+    "url": "https://www.elomatic.com/#marine"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.elomatic.com/#marine"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A15"
+   ],
+   "verification": "w2_read; search_snippet (A'Pelago 2026 panel)",
+   "notes": "Electric ferry references not found (w2 C15)."
+  },
+  {
+   "id": "deltamarin",
+   "name": "Deltamarin",
+   "type": "corporate",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [
+    "ship_design"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "foreship",
+   "name": "Foreship",
+   "type": "corporate",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [
+    "ship_design"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "norsepower",
+   "name": "Norsepower",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "wind_propulsion_rotor_sails",
+    "fuel_and_CO2_savings_verification",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "Norsepower homepage and news (no startup programme found)",
+    "url": "https://www.norsepower.com/"
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Norsepower (rotor sail)",
+     "partner": "Viking Line, Viking Grace (LNG cruise ferry, Turku-Stockholm route)",
+     "year": "retrofit April 2018; three-year trial completed; sail to be removed at next service (trade press, article date not in snippet)",
+     "source": "https://www.marinelog.com/news/finnish-operator-viking-line-has-completed-a-three-year-test-of-a-norsepower-rotor-sail-on-its-lng-fueled-cruise-ferry-viking-grace-the-ship-was-the-first-passenger-vessel-to-be-fitted-with-a-rotor-s/"
+    },
+    {
+     "startup": "Norsepower (rotor sail)",
+     "partner": "Sea-Cargo (Trans Hav and Trans Sol)",
+     "year": "about Apr 2026 (commercial installation)",
+     "source": "https://www.norsepower.com/post/norsepower-rotor-sails-support-the-launch-of-sea-cargos-trans-hav-and-trans-sol-into-full-operations-following-major-efficiency-upgrade/"
+    },
+    {
+     "startup": "Norsepower (rotor sail)",
+     "partner": "RISE (validation of force measurements; not a customer)",
+     "year": "about Jul 2026",
+     "source": "https://www.norsepower.com/post/norsepower-rotor-sailtm-force-measurement-validated-by-rise/"
+    }
+   ],
+   "pilot_evidence_status": "verified_pilot",
+   "other_pilots_and_deployments": [
+    "Viking Glory equipped for a possible rotor sail (trade press). Norsepower homepage claims 38 sails on 21 vessels with 46 ordered (w2 read)."
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "RISE (Sweden), validation Jul 2026",
+   "source_urls": [
+    "https://www.marinelog.com/news/finnish-operator-viking-line-has-completed-a-three-year-test-of-a-norsepower-rotor-sail-on-its-lng-fueled-cruise-ferry-viking-grace-the-ship-was-the-first-passenger-vessel-to-be-fitted-with-a-rotor-s/",
+    "https://www.norsepower.com/",
+    "https://www.norsepower.com/post/norsepower-rotor-sailtm-force-measurement-validated-by-rise/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_C1",
+    "w2_row_C2",
+    "web_search"
+   ],
+   "verification": "w2_read; search_snippet (Viking Grace trial)",
+   "notes": "w2 listed Viking Grace as unconfirmed. Trade press now confirms a completed three-year trial that started in 2018. It is not a current pilot."
+  },
+  {
+   "id": "vaisala",
+   "name": "Vaisala",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Vantaa (knowledge)",
+   "cares_about": [
+    "weather_and_sea_state_data",
+    "marine_safety"
+   ],
+   "innovation_channel": {
+    "label": "No innovation page found (careers page returned 404)",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A18"
+   ],
+   "verification": "search_snippet (A'Pelago 2026 panel)",
+   "notes": "A'Pelago 2026 panel speaker per W1 notes."
+  },
+  {
+   "id": "kemira",
+   "name": "Kemira",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "water_quality",
+    "water_treatment_chemicals"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "neste",
+   "name": "Neste",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Espoo (knowledge)",
+   "cares_about": [
+    "renewable_marine_fuels",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "fortum",
+   "name": "Fortum",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Espoo (knowledge)",
+   "cares_about": [
+    "energy_services",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "Homepage (energy services only)",
+    "url": "https://www.fortum.com/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.fortum.com/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A21"
+   ],
+   "verification": "w2_read",
+   "notes": "Homepage shows no port or startup content."
+  },
+  {
+   "id": "valmet",
+   "name": "Valmet",
+   "type": "corporate",
+   "country": "FI",
+   "city": "Espoo (knowledge)",
+   "cares_about": [
+    "process_automation",
+    "energy_efficiency"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "finnlines",
+   "name": "Finnlines",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "decarbonisation",
+    "low_carbon_fuels",
+    "emissions_data"
+   ],
+   "innovation_channel": {
+    "label": "Green Lane low-carbon shipping (commercial product)",
+    "url": "https://www.finnlines.com/freight/green-lane-low-carbon-sea-transport/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Green Lane with Stora Enso, a customer deal announced 15 Oct 2026 (commercial, not a startup pilot)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.finnlines.com/freight/green-lane-low-carbon-sea-transport/",
+    "https://www.finnlines.com/news-and-press-releases/finnlines-implements-green-lane-low-carbon-shipping-solution-with-stora-enso/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A6"
+   ],
+   "verification": "w2_read",
+   "notes": "Biofuel claim (up to 90% well-to-wake) is a company claim."
+  },
+  {
+   "id": "viking_line",
+   "name": "Viking Line",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Mariehamn, Åland (knowledge)",
+   "cares_about": [
+    "decarbonisation",
+    "wind_assist",
+    "lng_and_emissions"
+   ],
+   "innovation_channel": {
+    "label": "Homepage returned HTTP 403 in earlier run (not read)",
+    "url": "https://www.vikingline.com/"
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Norsepower (rotor sail)",
+     "partner": "Viking Line, Viking Grace",
+     "year": "2018 start, three-year trial completed",
+     "source": "https://www.marinelog.com/news/finnish-operator-viking-line-has-completed-a-three-year-test-of-a-norsepower-rotor-sail-on-its-lng-fueled-cruise-ferry-viking-grace-the-ship-was-the-first-passenger-vessel-to-be-fitted-with-a-rotor-s/"
+    }
+   ],
+   "pilot_evidence_status": "verified_pilot",
+   "other_pilots_and_deployments": [
+    "Wärtsilä service agreement expanded to a third vessel, 13 Oct 2026 (service contract)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [
+    "TWIN-PORT 3 (ferry operator partner, 2017 CEF call; search summary)"
+   ],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.marinelog.com/news/finnish-operator-viking-line-has-completed-a-three-year-test-of-a-norsepower-rotor-sail-on-its-lng-fueled-cruise-ferry-viking-grace-the-ship-was-the-first-passenger-vessel-to-be-fitted-with-a-rotor-s/",
+    "https://www.wartsila.com/media/news/13-10-2026-viking-line-expands-wartsila-service-agreement-partnership-to-a-third-vessel-3800414"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A7",
+    "web_search"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "Viking Line website not read. Trade press says the Viking Grace rotor sail was due to be removed at its next service."
+  },
+  {
+   "id": "tallink_silja",
+   "name": "Tallink Silja",
+   "type": "shipowner",
+   "country": "EE/FI/SE",
+   "city": "Tallinn (group HQ, knowledge)",
+   "cares_about": [
+    "decarbonisation (not verified)"
+   ],
+   "innovation_channel": {
+    "label": "Press releases (group site; tallinksilja.com redirects to tallink.com)",
+    "url": "https://company.tallink.com/media-centre/press-releases"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [
+    "TWIN-PORT 3 (ferry operator partner; search summary)"
+   ],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://company.tallink.com/media-centre/press-releases",
+    "https://company.tallink.com/esg/sustainability"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A8",
+    "web_fetch"
+   ],
+   "verification": "fetched (group site); search_snippet (TWIN-PORT)",
+   "notes": "Group site has sustainability and press release links only; no innovation or pilot content found."
+  },
+  {
+   "id": "eckero_line",
+   "name": "Eckerö Line",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Åland (knowledge)",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "Homepage (SSL error in this run; not read)",
+    "url": "https://www.eckero.fi/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [
+    "TWIN-PORT 3 (ferry operator partner; search summary)"
+   ],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.eckero.fi/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap",
+    "web_search"
+   ],
+   "verification": "gap; search_snippet (TWIN-PORT)",
+   "notes": "Not read."
+  },
+  {
+   "id": "esl_shipping",
+   "name": "ESL Shipping",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "meriaura",
+   "name": "Meriaura",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "wasaline",
+   "name": "Wasaline",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Vaasa (knowledge)",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "stena_line",
+   "name": "Stena Line",
+   "type": "shipowner",
+   "country": "SE/DK",
+   "city": "Gothenburg (knowledge)",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A32"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "dfds",
+   "name": "DFDS",
+   "type": "shipowner",
+   "country": "DK",
+   "city": "Copenhagen (knowledge)",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A33"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "color_line",
+   "name": "Color Line",
+   "type": "shipowner",
+   "country": "NO/DE",
+   "city": "unverified",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap"
+   ],
+   "verification": "gap",
+   "notes": "Not checked in w2 or this run."
+  },
+  {
+   "id": "finferries",
+   "name": "Finferries",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "unverified",
+   "cares_about": [
+    "archipelago_connectivity",
+    "supply_security"
+   ],
+   "innovation_channel": {
+    "label": "Press release: letter of intent for a new shipyard (supply security)",
+    "url": "https://www.finferries.fi/en/news/press-releases/letter-of-intent-signed-new-shipyard-axyards-planned-to-safeguard-the-operational-supply-security-of-archipelago-traffic.html"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.finferries.fi/en/",
+    "https://www.finferries.fi/en/news/press-releases/letter-of-intent-signed-new-shipyard-axyards-planned-to-safeguard-the-operational-supply-security-of-archipelago-traffic.html"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_fetch"
+   ],
+   "verification": "fetched",
+   "notes": "No electric, hybrid, shore power or procurement content on the homepage."
+  },
+  {
+   "id": "fori_turku",
+   "name": "Föri (Turku city ferry)",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "knowledge",
+   "notes": "City of Turku ferry, per the brief. Not checked."
+  },
+  {
+   "id": "suomenlinna_liikenne",
+   "name": "Suomenlinnan Liikenne Oy",
+   "type": "shipowner",
+   "country": "FI",
+   "city": "Helsinki",
+   "cares_about": [
+    "vessel_maintenance_services"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "189564-2025",
+     "date": "2025-03-25",
+     "buyer": "Suomenlinnan Liikenne Oy",
+     "title": "Vessel laying-up services: M/S Ehrensvärd docking (ferry)",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "191150-2025",
+     "date": "2025-03-25",
+     "buyer": "Suomenlinnan Liikenne Oy",
+     "title": "Vessel laying-up services: M/S Ehrensvärd docking (repeat)",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Found through TED, not in the brief."
+  },
+  {
+   "id": "port_of_turku",
+   "name": "Port of Turku",
+   "type": "port",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "port_operations",
+    "sustainable_development",
+    "smart_port"
+   ],
+   "innovation_channel": {
+    "label": "Port of Turku homepage (no innovation or startup section found)",
+    "url": "https://www.portofturku.fi/en/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Smart Port City research project with University of Turku and Åbo Akademi (Jan 2023 to Dec 2024; W1 snippet, not re-checked)"
+   ],
+   "public_buying_evidence": [
+    {
+     "id": "128035-2025",
+     "date": "2025-02-26",
+     "buyer": "Turun Satama Oy (port company; mapping to Port of Turku not verified)",
+     "title": "Ferry Terminal Turku: construction, project-management contract",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "414738-2025",
+     "date": "2025-06-26",
+     "buyer": "Turun Satama Oy",
+     "title": "Ferry Terminal Turku: same title, result notice",
+     "winner": "Oteran Oy",
+     "value_eur": 14000000,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "University of Turku; Åbo Akademi (Smart Port City)",
+   "source_urls": [
+    "https://www.portofturku.fi/en/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A2",
+    "ted_fi"
+   ],
+   "verification": "w2_read; ted_probe; search_snippet",
+   "notes": "No startup pilot on public pages (w2)."
+  },
+  {
+   "id": "port_of_naantali",
+   "name": "Port of Naantali",
+   "type": "port",
+   "country": "FI",
+   "city": "Naantali",
+   "cares_about": [
+    "fairway_safety",
+    "navigation_aids",
+    "emissions_monitoring"
+   ],
+   "innovation_channel": {
+    "label": "Port of Naantali news (intelligent fairway article, archive dated May 2020)",
+    "url": "https://portofnaantali.fi/en/?p=2600"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "EU-funded intelligent fairway project (acronym not in source): four smart buoys and an emissions-monitoring buoy on the approach channel. Technical design and production by Meritaito Oy (Arctia Group), which is a company, not a startup. Year: 2020 archive; current status unknown."
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [
+    "intelligent fairway project (acronym not found)"
+   ],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://portofnaantali.fi/en/?p=2600"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_search"
+   ],
+   "verification": "search_snippet",
+   "notes": "Startup pilot not found. The fairway pilot is a useful public precedent but is dated."
+  },
+  {
+   "id": "port_of_helsinki",
+   "name": "Port of Helsinki (Helsingin Satama Oy)",
+   "type": "port",
+   "country": "FI",
+   "city": "Helsinki",
+   "cares_about": [
+    "decarbonisation",
+    "onshore_power",
+    "port_digitalisation",
+    "work_machine_emissions (target: 60% lower by 2030)"
+   ],
+   "innovation_channel": {
+    "label": "EU-supported projects page",
+    "url": "https://www.portofhelsinki.fi/en/making-new/the-eu-supported-projects/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "42092-2025",
+     "date": "2025-01-21",
+     "buyer": "Helsingin Satama Oy",
+     "title": "Repair and maintenance of mooring systems",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "215632-2025",
+     "date": "2025-04-03",
+     "buyer": "Helsingin Satama Oy",
+     "title": "Eteläkärjen kenttälaajennus (construction; repeated in six notices in 2025, e.g. 54166-2025, 95845-2025, 114516-2025, 142392-2025, 167783-2025)",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [
+    "TWIN-PORT 3, 4, 5, 6. Coordinator for TWIN-PORT 5 and 6. TWIN-PORT 6 (2024-2027): EUR 30.8m budget, 50% EU co-funding, onshore power for vessel traffic in Vuosaari. Partner: Port of Tallinn."
+   ],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.portofhelsinki.fi/en/making-new/the-eu-supported-projects/",
+    "https://www.portofhelsinki.fi/en/about-us/port-of-helsinki/whats-new/helsinki-and-tallinn-ports-receive-eu-funding-worth-over-e15-million/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A4",
+    "ted_fi",
+    "web_search"
+   ],
+   "verification": "w2_read; ted_probe; search_snippet",
+   "notes": "TWIN-PORT is a port-to-port EU project, not a startup pilot. Partner details come from a search summary; check the official project documents."
+  },
+  {
+   "id": "port_of_haminakotka",
+   "name": "Port of HaminaKotka",
+   "type": "port",
+   "country": "FI",
+   "city": "Kotka / Hamina",
+   "cares_about": [
+    "heavy_transport_electrification",
+    "charging_infrastructure",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "Mussalo heavy-transport charging news (EU projects page exists; not read)",
+    "url": "https://www.haminakotka.com/fi/ajankohtaista/mussalon-raskaan-liikenteen-latausasemalla-tehty-suomen-ensimmainen-julkinen-mcs"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "Plugit: public MCS charging at the Mussalo heavy-transport station, described as Finland's first public MCS charge. Plugit is named as the provider in an image caption; startup status not verified. Year not in fetched text."
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.haminakotka.com/fi/ajankohtaista/mussalon-raskaan-liikenteen-latausasemalla-tehty-suomen-ensimmainen-julkinen-mcs"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A5",
+    "w2_row_C7"
+   ],
+   "verification": "w2_read",
+   "notes": "Verified port and provider pair."
+  },
+  {
+   "id": "port_of_hanko",
+   "name": "Port of Hanko",
+   "type": "port",
+   "country": "FI",
+   "city": "Hanko",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "rauma_harbours",
+   "name": "Rauma (city small-boat harbours)",
+   "type": "port",
+   "country": "FI",
+   "city": "Rauma",
+   "cares_about": [
+    "small_boat_harbour_infrastructure"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "242149-2025",
+     "date": "2025-04-14",
+     "buyer": "Rauman kaupunki / pienvenesatamat",
+     "title": "Guest pier, Syväraumanlahti small-boat harbour (post-award notice)",
+     "winner": "A-Laiturit Oy",
+     "value_eur": 194745,
+     "source": "data/ted_fi_maritime.json; data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "The buyer is the city small-boat harbour unit, not the commercial port of Rauma."
+  },
+  {
+   "id": "port_of_pori",
+   "name": "Port of Pori (Pori city infrastructure)",
+   "type": "port",
+   "country": "FI",
+   "city": "Pori",
+   "cares_about": [
+    "workboat_procurement"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "308770-2025",
+     "date": "2025-05-14",
+     "buyer": "Porin kaupunki, technical dept., infrastructure maintenance",
+     "title": "Professional boat procurement",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "637936-2025",
+     "date": "not in probe",
+     "buyer": "Porin kaupunki",
+     "title": "Professional boat procurement (award)",
+     "winner": "Alucat Catamarans Oy",
+     "value_eur": 172288,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Satakunta University of Applied Sciences (Pori), not verified as partner",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Buyer is the city of Pori, not a port operator. The brief names Pori; this is the procurement evidence found."
+  },
+  {
+   "id": "kvarken_ports",
+   "name": "Kvarken Ports (Vaasa)",
+   "type": "port",
+   "country": "FI/SE",
+   "city": "Vaasa (knowledge; Umeå partner)",
+   "cares_about": [
+    "ice",
+    "icebreaking",
+    "port_efficiency"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "222271-2025",
+     "date": "2025-04-07",
+     "buyer": "Vaasan Satamapalvelut Oy",
+     "title": "Market dialogue: port-area icebreaking services",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "339059-2025",
+     "date": "2025-05-26",
+     "buyer": "Vaasan Satamapalvelut Oy",
+     "title": "Port-area icebreaking services",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "585910-2025",
+     "date": "not in probe",
+     "buyer": "Vaasan Satamapalvelut Oy",
+     "title": "Port-area icebreaking services (award)",
+     "winner": "R-towing OY",
+     "value_eur": 1380000,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe; knowledge (Kvarken Ports structure)",
+   "notes": "Vaasan Satamapalvelut Oy is treated as the Vaasa port operator, unverified."
+  },
+  {
+   "id": "port_of_tallinn",
+   "name": "Port of Tallinn (AS Tallinna Sadam)",
+   "type": "port",
+   "country": "EE",
+   "city": "Tallinn",
+   "cares_about": [
+    "onshore_power",
+    "port_electrification"
+   ],
+   "innovation_channel": {
+    "label": "EU projects pages (ts.ee)",
+    "url": "https://www.ts.ee/en/ongoing-eu-projects/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "aktsiaselts TALLINNA SADAM: 10 CPV-blue notices in the Estonian sample (from Oct 2025)",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [
+    "TWIN-PORT 5 and 6 (partner of Port of Helsinki)"
+   ],
+   "typical_university_partner": "TalTech (Tallinn; not verified as partner)",
+   "source_urls": [
+    "https://www.ts.ee/en/ongoing-eu-projects/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic",
+    "web_search"
+   ],
+   "verification": "search_snippet; ted_nordic",
+   "notes": ""
+  },
+  {
+   "id": "riga_freeport",
+   "name": "Riga Freeport (Rīgas brīvostas pārvalde)",
+   "type": "port",
+   "country": "LV",
+   "city": "Riga",
+   "cares_about": [
+    "port_operations"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Rīgas brīvostas pārvalde: 6 CPV-blue notices in the Latvian sample",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Riga Technical University (not checked)",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic"
+   ],
+   "verification": "ted_nordic",
+   "notes": ""
+  },
+  {
+   "id": "klaipeda_port",
+   "name": "Port of Klaipėda (Klaipėdos valstybinio jūrų uosto direkcija)",
+   "type": "port",
+   "country": "LT",
+   "city": "Klaipėda",
+   "cares_about": [
+    "port_operations"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Klaipėdos valstybinio jūrų uosto direkcija: 7 CPV-blue notices in the Lithuanian sample",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic"
+   ],
+   "verification": "ted_nordic",
+   "notes": ""
+  },
+  {
+   "id": "stockholm_norvik",
+   "name": "Stockholm Norvik port",
+   "type": "port",
+   "country": "SE",
+   "city": "Stockholm (knowledge)",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "port_of_gothenburg",
+   "name": "Port of Gothenburg",
+   "type": "port",
+   "country": "SE",
+   "city": "Gothenburg",
+   "cares_about": [
+    "onshore_power_for_tankers",
+    "liquefied_biogas",
+    "digital_port_call",
+    "decarbonisation"
+   ],
+   "innovation_channel": {
+    "label": "Digital port call e-service",
+    "url": "https://www.portofgothenburg.com/maritime/e-services/dpc/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "Projects listed without detail: onshore power for tankers; Tranzero Energy. The LBG facility was built by Nordion Energi (a corporate, not a startup)."
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.portofgothenburg.com/",
+    "https://www.portofgothenburg.com/about/articles/liquefied-biogas-facility-port-of-gothenburg/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A36",
+    "w2_row_C14"
+   ],
+   "verification": "w2_read",
+   "notes": "Projects are named but no startup pilot is named."
+  },
+  {
+   "id": "port_of_gdansk",
+   "name": "Port of Gdańsk",
+   "type": "port",
+   "country": "PL",
+   "city": "Gdańsk",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "port_of_gdynia",
+   "name": "Port of Gdynia",
+   "type": "port",
+   "country": "PL",
+   "city": "Gdynia",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "port_of_rostock",
+   "name": "Port of Rostock",
+   "type": "port",
+   "country": "DE",
+   "city": "Rostock",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "port_of_kiel",
+   "name": "Port of Kiel",
+   "type": "port",
+   "country": "DE",
+   "city": "Kiel",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Kiel University (not checked)",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "port_of_aarhus",
+   "name": "Port of Aarhus",
+   "type": "port",
+   "country": "DK",
+   "city": "Aarhus",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Aarhus University (top Danish buyer in sample; not a port partner, not verified)",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "copenhagen_malmo_port",
+   "name": "Copenhagen Malmö Port",
+   "type": "port",
+   "country": "DK/SE",
+   "city": "Copenhagen-Malmö",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed"
+   ],
+   "verification": "gap",
+   "notes": "Not checked."
+  },
+  {
+   "id": "vaylavirasto",
+   "name": "Väylävirasto (Finnish Transport Infrastructure Agency)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "ice",
+    "icebreaking",
+    "navigation_infrastructure",
+    "safety"
+   ],
+   "innovation_channel": {
+    "label": "Väylävirasto homepage (TLS error in this run; not read)",
+    "url": "https://www.vaylavirasto.fi/en"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "19102-2025",
+     "date": "2025-01-13",
+     "buyer": "Väylävirasto",
+     "title": "Icebreaking services: A-class icebreakers",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "19298-2025",
+     "date": "2025-01-13",
+     "buyer": "Väylävirasto",
+     "title": "Icebreaking services: C-class icebreakers",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "21402-2025",
+     "date": "2025-01-13",
+     "buyer": "Väylävirasto",
+     "title": "Icebreaking services: B-class icebreakers",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "273420-2025",
+     "date": "2025-04-28",
+     "buyer": "Väylävirasto",
+     "title": "Icebreaking services using a class B icebreaker",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "573337-2025",
+     "date": "not in probe",
+     "buyer": "Väylävirasto",
+     "title": "Icebreaking services using a class B icebreaker (award; winner not shown)",
+     "source": "data/ted_fi_awards_probe.json"
+    },
+    {
+     "evidence": "Market dialogue call, 2025-10-02: tendering a shipyard to build an assistance icebreaker",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json (FIN pin_sample_titles)"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.vaylavirasto.fi/en"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A25_context",
+    "ted_fi"
+   ],
+   "verification": "ted_probe; gap (site not read)",
+   "notes": "Strong ice and icebreaking procurement signal. Finnish TED ice-breaking notices are a good demo anchor."
+  },
+  {
+   "id": "traficom",
+   "name": "Traficom (Finnish Transport and Communications Agency)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "vessel_regulation",
+    "data_economy",
+    "ai_regulation"
+   ],
+   "innovation_channel": {
+    "label": "Traficom homepage (no innovation or procurement section found)",
+    "url": "https://www.traficom.fi/en"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.traficom.fi/en"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_fetch"
+   ],
+   "verification": "fetched",
+   "notes": "Regulator and authority. Pilot route not found on homepage."
+  },
+  {
+   "id": "finnpilot",
+   "name": "Finnpilot Pilotage Oy",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Finland (city unverified)",
+   "cares_about": [
+    "pilotage_safety",
+    "remote_pilotage",
+    "navigation_equipment"
+   ],
+   "innovation_channel": {
+    "label": "Finnpilot news (homepage has no innovation or procurement URL)",
+    "url": "https://finnpilot.fi/en/news/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "Live remote-pilotage demonstration at Remote Pilotage Days 2026 in Helsinki, per a LinkedIn post cited in a search summary (no primary URL; not read)"
+   ],
+   "public_buying_evidence": [
+    {
+     "id": "116722-2025",
+     "date": "2025-02-21",
+     "buyer": "Finnpilot Pilotage Oy",
+     "title": "Navigation equipment",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "152481-2025",
+     "date": "2025-03-10",
+     "buyer": "Finnpilot Pilotage Oy",
+     "title": "Boat engine service and repair",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "245941-2025",
+     "date": "2025-04-15",
+     "buyer": "Finnpilot Pilotage Oy",
+     "title": "Emergency power units for boats",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "339642-2025",
+     "date": "2025-05-27",
+     "buyer": "Finnpilot Pilotage Oy",
+     "title": "Navigation and radio equipment",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "480752-2025",
+     "date": "not in probe",
+     "buyer": "Finnpilot Pilotage Oy",
+     "title": "Navigation and radio equipment (cancellation notice)",
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Novia UAS (remote pilotage project with Aboa Mare, headline Aug 2025; Finnpilot link not confirmed)",
+   "source_urls": [
+    "https://finnpilot.fi/en/news/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A25_context",
+    "ted_fi",
+    "web_fetch"
+   ],
+   "verification": "fetched; ted_probe",
+   "notes": "Strong buyer for remote-pilotage and navigation tech."
+  },
+  {
+   "id": "finnish_border_guard",
+   "name": "Finnish Border Guard (Rajavartiolaitos)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "maritime_safety_patrol",
+    "small_boats",
+    "jetboats"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "91226-2025",
+     "date": "2025-02-11",
+     "buyer": "Finnish Border Guard",
+     "title": "HDPE jetboat procurement",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "366798-2025",
+     "date": "2025-06-06",
+     "buyer": "Rajavartiolaitos",
+     "title": "Small boat fleet (AV boats)",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "422365-2025",
+     "date": "2025-07-01",
+     "buyer": "Finnish Border Guard",
+     "title": "HDPE jetboat procurement (award; winner not shown)",
+     "value_eur": 856725,
+     "source": "data/ted_fi_maritime.json; data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Public buyer of small boats and jetboats. Site not checked."
+  },
+  {
+   "id": "fdf_navy_procurement",
+   "name": "Finnish Navy procurement route (Defence Forces Logistics Command, FDFLOGCOM; Puolustusvoimat)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Finland (location not verified)",
+   "cares_about": [
+    "naval_systems",
+    "ice_load_monitoring",
+    "defence_innovation"
+   ],
+   "innovation_channel": {
+    "label": "Defence Forces Logistics Command tender listings; Defence Forces Innovation Unit under the Finnish Defence Research Agency (expected operational summer 2026, per secondary commentary). Official URLs not checked.",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "DEFINE Accelerator (launched 2024, dual-use startups) and NATO DIANA are cross-cutting startup routes (search summaries)."
+   ],
+   "public_buying_evidence": [
+    {
+     "id": "IntLog orders",
+     "date": "Aug 2025",
+     "buyer": "Defence Forces Logistics Command (supplier: Summa Defence subsidiary IntLog)",
+     "title": "Training facility and spare-parts container for personnel transport boats (over EUR 500k combined)",
+     "source": "https://www.mfn.se/cis/a/summa-defence/summa-defence-oyj-summa-defences-subsidiary-intlog-receives-orders-from-defence-forces-logistics-command-e5d977a8.iframe"
+    },
+    {
+     "id": "FIN TED sample",
+     "buyer": "Puolustusvoimat",
+     "evidence": "5 notices in the Finnish sample",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    },
+    {
+     "evidence": "Aker Arctic selected for the ARC ILMS ice load monitoring system on Pohjanmaa-class corvettes (2025 roundup; undated)",
+     "source": "search summary only; no primary URL"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://forumnordic.com/defence/finlands-new-defence-innovation-playbook/",
+    "https://www.mfn.se/cis/a/summa-defence/summa-defence-oyj-summa-defences-subsidiary-intlog-receives-orders-from-defence-forces-logistics-command-e5d977a8.iframe"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_search",
+    "ted_nordic"
+   ],
+   "verification": "search_snippet; ted_nordic; gap (official sites not read)",
+   "notes": "No navy-specific startup scheme found in search. Innovation routes are cross-cutting."
+  },
+  {
+   "id": "syke",
+   "name": "SYKE (Finnish Environment Institute)",
+   "type": "research_institute",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "marine_monitoring",
+    "water_quality",
+    "sea_research"
+   ],
+   "innovation_channel": {
+    "label": "Collaboration route",
+    "url": "https://syke.fi/en/research/collaboration"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Research vessel Aranda; marine research laboratory"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://syke.fi/en/research/collaboration",
+    "https://syke.fi/en/services/quality-and-laboratory-services/marine-research-laboratory"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B7"
+   ],
+   "verification": "w2_read",
+   "notes": "No TED notice in the provided probes."
+  },
+  {
+   "id": "fmi",
+   "name": "FMI (Finnish Meteorological Institute)",
+   "type": "research_institute",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "marine_and_ice_forecasting",
+    "weather_data",
+    "ocean_observation"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "328543-2025",
+     "date": "2025-05-21",
+     "buyer": "Ilmatieteen laitos",
+     "title": "BGC-Argo floats, 3 units",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "562689-2025",
+     "date": "not in probe",
+     "buyer": "Ilmatieteen laitos",
+     "title": "BGC-Argo floats (award)",
+     "winner": "Nke-instrumentation",
+     "value_eur": 306500,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe; gap (site not read)",
+   "notes": ""
+  },
+  {
+   "id": "gtk",
+   "name": "GTK (Geological Survey of Finland)",
+   "type": "research_institute",
+   "country": "FI",
+   "city": "Espoo (knowledge)",
+   "cares_about": [
+    "seabed_mapping",
+    "marine_geology",
+    "seismic_survey"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "18742-2025",
+     "date": "2025-01-13",
+     "buyer": "Geologian tutkimuskeskus",
+     "title": "Marine multichannel seismic system",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "235348-2025",
+     "date": "2025-04-11",
+     "buyer": "Geologian tutkimuskeskus",
+     "title": "Depth control for a multichannel seismic system",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "238033-2025",
+     "date": "2025-04-11",
+     "buyer": "Geologian tutkimuskeskus",
+     "title": "Seismic sound source for a multichannel seismic system",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "534634-2025",
+     "date": "not in probe",
+     "buyer": "Geologian tutkimuskeskus",
+     "title": "Marine multichannel seismic system (award)",
+     "value_eur": 255340,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Buyer of marine seismic kit. Several awards without winner names in the probe."
+  },
+  {
+   "id": "sjofartsverket",
+   "name": "Sjöfartsverket (Swedish Maritime Administration)",
+   "type": "public_buyer",
+   "country": "SE",
+   "city": "Norrköping (knowledge)",
+   "cares_about": [
+    "icebreaking",
+    "navigation",
+    "environmental_reporting",
+    "shipping_of_the_future"
+   ],
+   "innovation_channel": {
+    "label": "Shipping of the Future",
+    "url": "https://www.sjofartsverket.se/en/shipping-of-the-future/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Top CPV-blue buyer in the Swedish sample: 15 notices (from Oct 2025)",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    },
+    {
+     "evidence": "News: icebreaker procurement finalised",
+     "source": "https://www.sjofartsverket.se/en/about-us/news-and-press/news/procurement-finalized-new-icebreaker-to-strengthen-swedens-preparedness/"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.sjofartsverket.se/en/shipping-of-the-future/",
+    "https://www.sjofartsverket.se/en/about-us/news-and-press/news/procurement-finalized-new-icebreaker-to-strengthen-swedens-preparedness/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_fetch",
+    "ted_nordic"
+   ],
+   "verification": "fetched; ted_nordic",
+   "notes": "Named in the brief as a Nordic buyer."
+  },
+  {
+   "id": "riigilaevastik",
+   "name": "Riigilaevastik (Estonian state fleet)",
+   "type": "public_buyer",
+   "country": "EE",
+   "city": "Tallinn (knowledge)",
+   "cares_about": [
+    "vessel_procurement",
+    "naval_and_state_fleet"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Top CPV-blue buyer in the Estonian sample: 10 notices",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic"
+   ],
+   "verification": "ted_nordic; gap (site not read)",
+   "notes": "Named in the brief; role as described is from background knowledge."
+  },
+  {
+   "id": "forsvarsmateriell",
+   "name": "Forsvarsmateriell (Norwegian Defence Materiel Agency)",
+   "type": "public_buyer",
+   "country": "NO",
+   "city": "Oslo (knowledge)",
+   "cares_about": [
+    "defence_vessels",
+    "defence_procurement"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Norway sample: 3 CPV-blue notices and 5 PIN notices",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_nordic"
+   ],
+   "verification": "ted_nordic; gap (site not read)",
+   "notes": ""
+  },
+  {
+   "id": "aland_government",
+   "name": "Ålands landskapsregering (Åland Government)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Mariehamn (knowledge)",
+   "cares_about": [
+    "water_quality",
+    "ship_propulsion",
+    "ferry_maintenance"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "44556-2025",
+     "date": "2025-01-22",
+     "buyer": "Ålands landskapsregering",
+     "title": "Environmental engineering consultancy framework: Rent vatten 2030 (clean water)",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "153904-2025",
+     "date": "2025-03-10",
+     "buyer": "Ålands landskapsregering",
+     "title": "Ship propellers for M/S Doppingen and ferry F123",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Åbo Akademi (not verified)",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Found through TED; Swedish-speaking public buyer in Finland."
+  },
+  {
+   "id": "espoo_city",
+   "name": "Espoo city (harbour equipment)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Espoo",
+   "cares_about": [
+    "harbour_equipment",
+    "marker_buoys"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "145178-2025",
+     "date": "2025-03-05",
+     "buyer": "Espoon kaupunki",
+     "title": "Marker buoys: harbour supplies 2025 (cancellation notice)",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "360713-2025",
+     "date": "2025-06-04",
+     "buyer": "Espoon kaupunki",
+     "title": "Harbour supplies and harbour equipment 2025",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Aalto University (not verified)",
+   "source_urls": [],
+   "source_tags": [
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Extra entity found through TED, not in the brief."
+  },
+  {
+   "id": "tampere_city",
+   "name": "Tampere city (electric passenger vessel market dialogue)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Tampere",
+   "cares_about": [
+    "electric_passenger_vessels",
+    "electrification"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "34598-2025",
+     "date": "2025-01-17",
+     "buyer": "Tampereen kaupunki",
+     "title": "Market dialogue on an electric passenger vessel procurement",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Tampere University (not verified)",
+   "source_urls": [],
+   "source_tags": [
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Extra entity found through TED; a clean electrification demo candidate."
+  },
+  {
+   "id": "pohjanmaa_wellbeing",
+   "name": "Pohjanmaan hyvinvointialue (Ostrobothnia wellbeing services county, rescue)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Vaasa",
+   "cares_about": [
+    "rescue_boats",
+    "safety"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "72213-2025",
+     "date": "2025-02-03",
+     "buyer": "Österbottens välfärdsområde - Pohjanmaan hyvinvointialue",
+     "title": "Lifeboats: cancellation and post-award notice",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "167046-2025",
+     "date": "2025-03-14",
+     "buyer": "Österbottens välfärdsområde - Pohjanmaan hyvinvointialue",
+     "title": "Lifeboat procurement 2025 with options 2026-2027",
+     "source": "data/ted_fi_maritime.json"
+    },
+    {
+     "id": "433538-2025",
+     "date": "not in probe",
+     "buyer": "Österbottens välfärdsområde - Pohjanmaan hyvinvointialue",
+     "title": "Lifeboats (award)",
+     "winner": "Alpo Pro Boats Oy",
+     "value_eur": 496000,
+     "source": "data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Extra entity found through TED; rescue-boat buyer."
+  },
+  {
+   "id": "lapland_wellbeing",
+   "name": "Lapin hyvinvointialue (Lapland wellbeing services county, rescue)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Rovaniemi (knowledge)",
+   "cares_about": [
+    "rescue_boats",
+    "oil_spill_response",
+    "ice"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "126662-2025",
+     "date": "2025-02-26",
+     "buyer": "Lapin hyvinvointialue",
+     "title": "Rescue and oil-spill vessel for Inari",
+     "winner": "Juha Snell Oy",
+     "value_eur": 209850,
+     "source": "data/ted_fi_maritime.json; data/ted_fi_awards_probe.json"
+    },
+    {
+     "id": "250036-2025",
+     "date": "2025-04-16",
+     "buyer": "Lapin hyvinvointialue",
+     "title": "Market dialogue call: oil-spill response vessel for Perämeri",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Extra entity found through TED."
+  },
+  {
+   "id": "fintraffic",
+   "name": "Fintraffic (Vessel Traffic Services)",
+   "type": "public_buyer",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "vessel_traffic_services",
+    "port_schedule_data",
+    "safety"
+   ],
+   "innovation_channel": {
+    "label": "fintraffic.fi returned 404 in an earlier run (not read)",
+    "url": null
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Awake.AI (Turku)",
+     "partner": "Fintraffic VTS: vessel schedule estimates for Finnish ports (tender won)",
+     "year": "not stated",
+     "source": "WebSearch summary (no primary URL; verify before use)"
+    }
+   ],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Tender won by Awake.AI for vessel schedule estimates for Finnish ports via Fintraffic VTS; date not stated",
+     "source": "WebSearch summary (no primary URL)"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_A25_context",
+    "web_search"
+   ],
+   "verification": "search_snippet",
+   "notes": "Only startup-buyer link found in this run that involves a public Finnish maritime buyer. Needs primary-source check."
+  },
+  {
+   "id": "one_sea",
+   "name": "One Sea (ecosystem, DIMECC-led)",
+   "type": "testbed",
+   "country": "FI",
+   "city": "Finland (not verified)",
+   "cares_about": [
+    "autonomy",
+    "remote_operations",
+    "ice_operations"
+   ],
+   "innovation_channel": {
+    "label": "One Sea ecosystem website (onesea.fi did not resolve in w2; domain per search summary)",
+    "url": "https://oneseaecosystem.net"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [
+    "Groke Technologies joined the One Sea Association (membership, not a pilot; j-l-a.com snippet)",
+    "Partners named as Wärtsilä and ABB (W1 snippet)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://oneseaecosystem.net",
+    "https://j-l-a.com/?p=8758"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B13",
+    "web_search"
+   ],
+   "verification": "search_snippet; w2_read (gap)",
+   "notes": "The 2025 commercial-autonomy target has passed with no 2025-26 result found in searches."
+  },
+  {
+   "id": "jaakonmeri",
+   "name": "Jaakonmeri autonomous test area",
+   "type": "testbed",
+   "country": "FI",
+   "city": "Eurajoki (west coast)",
+   "cares_about": [
+    "autonomy",
+    "ice_operations"
+   ],
+   "innovation_channel": {
+    "label": "DIMECC ecosystems page (operator per sources)",
+    "url": "https://dimecc.com/ecosystems"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [
+    "Area about 17.85 x 7.10 km. Campaigns of 1 to 6 weeks; applications through the One Sea site (search summary). Sources are mostly from 2017-2019; 2025-26 status unknown."
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.ship-technology.com/news/newsdimecc-opens-new-autonomous-maritime-test-area-in-finland-5902720/",
+    "https://dimecc.com/ecosystems"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_C12",
+    "web_search"
+   ],
+   "verification": "search_snippet; w2_read (DIMECC)",
+   "notes": "Current status is unknown. Verify before presenting."
+  },
+  {
+   "id": "aboa_mare",
+   "name": "Aboa Mare",
+   "type": "testbed",
+   "country": "FI",
+   "city": "Turku (knowledge)",
+   "cares_about": [
+    "remote_pilotage",
+    "maritime_simulation",
+    "training"
+   ],
+   "innovation_channel": {
+    "label": "Maritime R&D news",
+    "url": "https://aboamare.fi/maritime-research-and-development/rd-news"
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Groke Technologies",
+     "partner": "Novia UAS remote-pilotage project (camera technology contribution)",
+     "year": "11 Aug 2025 (headline only)",
+     "source": "https://aboamare.fi/maritime-research-and-development/rd-news"
+    },
+    {
+     "startup": "Brighthouse Intelligence Ltd (startup status not verified)",
+     "partner": "Novia remote-pilotage solution",
+     "year": "Aug 2025 (headline only)",
+     "source": "https://aboamare.fi/maritime-research-and-development/rd-news"
+    }
+   ],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "Fraunhofer FIP-S2 hosted at Aboa Mare, Jun 2021 to Sep 2024; inactive in 2025 (W1 notes, not re-checked)"
+   ],
+   "public_buying_evidence": [
+    {
+     "id": "213099-2025",
+     "date": "2025-04-02",
+     "buyer": "Aboa Mare Ab",
+     "title": "Full mission engine room simulator and engine room desktop simulators",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Novia UAS",
+   "source_urls": [
+    "https://aboamare.fi/maritime-research-and-development/rd-news"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B4_context",
+    "web_search",
+    "ted_fi"
+   ],
+   "verification": "search_snippet (headline); ted_probe",
+   "notes": "Article text not read. The Groke leg of the brief's triple is supported by this headline."
+  },
+  {
+   "id": "novia_uas",
+   "name": "Novia UAS (Yrkeshögskolan Novia)",
+   "type": "university",
+   "country": "FI",
+   "city": "Turku (campuses incl. Vaasa; knowledge)",
+   "cares_about": [
+    "remote_pilotage",
+    "maritime_information_exchange",
+    "maritime_simulation",
+    "sustainable_technology"
+   ],
+   "innovation_channel": {
+    "label": "Maritime technology research area",
+    "url": "https://www.novia.fi/en/rdi/research-area/maritime-technology"
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Groke Technologies",
+     "partner": "Novia remote-pilotage project (via Aboa Mare)",
+     "year": "2025 (headline only)",
+     "source": "https://aboamare.fi/maritime-research-and-development/rd-news"
+    }
+   ],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "MaDaMe project (digital maritime information exchange): final seminar 30 Sep 2026; news 15 Oct 2026"
+   ],
+   "public_buying_evidence": [
+    {
+     "id": "391807-2025",
+     "date": "2025-06-18",
+     "buyer": "Ab Yrkeshögskolan vid Åbo Akademi / Yrkeshögskolan Novia",
+     "title": "Unmanned vessel for multibeam echo sounding, training and research (award value 262,000; winner not shown)",
+     "value_eur": 262000,
+     "source": "data/ted_fi_maritime.json; data/ted_fi_awards_probe.json"
+    }
+   ],
+   "eu_projects": [
+    "MaDaMe (funding not checked)"
+   ],
+   "typical_university_partner": "Aboa Mare; Åbo Akademi (same legal family); Finnpilot (remote pilotage, not confirmed)",
+   "source_urls": [
+    "https://www.novia.fi/en/rdi/research-area/maritime-technology",
+    "https://www.novia.fi/en/news/news/madame-project-advances-digital-maritime-information-exchange"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B4",
+    "w2_row_C9",
+    "ted_fi"
+   ],
+   "verification": "w2_read; ted_probe",
+   "notes": "The brief's Novia leg is supported. The triple is headline-confirmed."
+  },
+  {
+   "id": "abo_akademi",
+   "name": "Åbo Akademi University",
+   "type": "university",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "green_transition",
+    "smart_port"
+   ],
+   "innovation_channel": {
+    "label": "Green transition cooperation with Meyer Turku (five-year agreement with a green transition lab)",
+    "url": "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/abo-akademi-ja-meyer-turku-syventavat-vihrean-siirtyman-yhteistyotaan/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Smart Port City with University of Turku (2023-2024; W1 snippet)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Meyer Turku; University of Turku (Smart Port City)",
+   "source_urls": [
+    "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/abo-akademi-ja-meyer-turku-syventavat-vihrean-siirtyman-yhteistyotaan/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B2"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "Own website not checked."
+  },
+  {
+   "id": "university_of_turku",
+   "name": "University of Turku",
+   "type": "university",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "smart_port",
+    "engineering_with_industry"
+   ],
+   "innovation_channel": {
+    "label": "Innovations and entrepreneurship",
+    "url": "https://www.utu.fi/en/business-collaboration/innovations-and-entrepreneurship"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Smart Port City with Åbo Akademi (Jan 2023 to Dec 2024; W1 snippet)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Åbo Akademi; Meyer Turku (strategic engineering partner, 2020)",
+   "source_urls": [
+    "https://www.utu.fi/en/business-collaboration/innovations-and-entrepreneurship",
+    "https://www.utu.fi/en/news/press-release/university-of-turku-and-meyer-turku-increase-collaboration-in-engineering"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B1"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": ""
+  },
+  {
+   "id": "turku_uas",
+   "name": "Turku University of Applied Sciences (TUAS)",
+   "type": "university",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "company_services",
+    "rdi_infrastructure"
+   ],
+   "innovation_channel": {
+    "label": "Services for companies",
+    "url": "https://www.turkuamk.fi/en/co-operation-and-services/service/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.turkuamk.fi/en/co-operation-and-services/service/",
+    "https://www.turkuamk.fi/en/research-and-development/research-and-development-infrastructure/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B3"
+   ],
+   "verification": "w2_read",
+   "notes": "Laboratories are open to companies. No maritime testbed found on fetched pages."
+  },
+  {
+   "id": "aalto",
+   "name": "Aalto University",
+   "type": "university",
+   "country": "FI",
+   "city": "Espoo",
+   "cares_about": [
+    "marine_technology",
+    "ship_design"
+   ],
+   "innovation_channel": {
+    "label": "Meyer Turku and Aalto expand collaboration in marine technology research (news)",
+    "url": "https://aalto.fi/en/news/meyer-turku-and-aalto-university-to-expand-collaboration-in-marine-technology-research-and"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "EUR 800,000 donation from Meyer Turku for a ship-design work-life professorship (21 May 2026, w2 read)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "Meyer Turku",
+   "source_urls": [
+    "https://aalto.fi/en/news/meyer-turku-and-aalto-university-to-expand-collaboration-in-marine-technology-research-and",
+    "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/meyer-turku-tekee-aalto-yliopistolle-800-000-euron-lahjoituksen/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B5"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "Aalto ship lab pages returned 404 in w2."
+  },
+  {
+   "id": "vtt",
+   "name": "VTT Technical Research Centre of Finland",
+   "type": "research_institute",
+   "country": "FI",
+   "city": "Espoo (knowledge)",
+   "cares_about": [
+    "maritime_research",
+    "autonomy"
+   ],
+   "innovation_channel": {
+    "label": "VTT homepage (HTTP 403 in this run)",
+    "url": "https://www.vtt.fi/en"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B6"
+   ],
+   "verification": "gap",
+   "notes": "Blocked in w2 and this run."
+  },
+  {
+   "id": "tampere_university",
+   "name": "Tampere University",
+   "type": "university",
+   "country": "FI",
+   "city": "Tampere",
+   "cares_about": [],
+   "innovation_channel": {
+    "label": "Tampere Universities overview (no maritime content)",
+    "url": "https://www.tuni.fi/en/node/71287"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.tuni.fi/en/node/71287"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_gap",
+    "web_fetch"
+   ],
+   "verification": "fetched (no maritime content found)",
+   "notes": "Page does not show maritime or testbed content."
+  },
+  {
+   "id": "ntnu",
+   "name": "NTNU (Norwegian University of Science and Technology)",
+   "type": "university",
+   "country": "NO",
+   "city": "Trondheim",
+   "cares_about": [
+    "autonomous_underwater_vehicles",
+    "subsea_inspection"
+   ],
+   "innovation_channel": {
+    "label": "Innovation resources",
+    "url": "https://www.ntnu.edu/innovation-resources"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [
+    "Autonomous inspection test of a seabed gas pipeline (NTNU news; date and partner not stated)",
+    "NTNU purchased an autonomous underwater vehicle (NTNU news)"
+   ],
+   "public_buying_evidence": [
+    {
+     "evidence": "Top CPV-blue buyer in the Norwegian sample: 5 notices",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.ntnu.edu/innovation-resources",
+    "https://nyheter.ntnu.no/en/ntnu-has-tested-autonome-inspection-of-a-seabed-gas-pipeline/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_fetch",
+    "ted_nordic"
+   ],
+   "verification": "fetched; ted_nordic",
+   "notes": "Startup route not named on the page."
+  },
+  {
+   "id": "sintef_ocean",
+   "name": "SINTEF Ocean",
+   "type": "research_institute",
+   "country": "NO",
+   "city": "Trondheim (knowledge)",
+   "cares_about": [
+    "maritime_transport",
+    "aquaculture",
+    "offshore_wind",
+    "marine_environment"
+   ],
+   "innovation_channel": {
+    "label": "Laboratories",
+    "url": "https://www.sintef.no/en/ocean/laboratories2/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.sintef.no/en/ocean/laboratories2/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B18"
+   ],
+   "verification": "w2_read",
+   "notes": "SINTEF Venture page exists but was not read."
+  },
+  {
+   "id": "rise_research_institutes",
+   "name": "RISE Research Institutes of Sweden",
+   "type": "research_institute",
+   "country": "SE",
+   "city": "Sweden (not verified)",
+   "cares_about": [
+    "maritime_validation",
+    "wind_propulsion"
+   ],
+   "innovation_channel": {
+    "label": "not checked (homepage showed a bot-verification page)",
+    "url": null
+   },
+   "known_startup_pilots": [
+    {
+     "startup": "Norsepower (rotor sail)",
+     "partner": "RISE (validation of force measurements)",
+     "year": "about Jul 2026",
+     "source": "https://www.norsepower.com/post/norsepower-rotor-sailtm-force-measurement-validated-by-rise/"
+    }
+   ],
+   "pilot_evidence_status": "partial",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.norsepower.com/post/norsepower-rotor-sailtm-force-measurement-validated-by-rise/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B19",
+    "w2_row_C1"
+   ],
+   "verification": "w2_read; gap (RISE site blocked)",
+   "notes": "The validation is a verified RISE-Norsepower pair."
+  },
+  {
+   "id": "chalmers",
+   "name": "Chalmers University of Technology",
+   "type": "university",
+   "country": "SE",
+   "city": "Gothenburg",
+   "cares_about": [
+    "maritime_research",
+    "innovation_and_startups"
+   ],
+   "innovation_channel": {
+    "label": "Entrepreneurship and innovation; Chalmers Ventures and Chalmers Next Labs (startup routes)",
+    "url": "https://www.chalmers.se/en/collaborate-with-us/entrepreneurship-and-innovation/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.chalmers.se/en/collaborate-with-us/entrepreneurship-and-innovation/",
+    "https://chalmersventures.com/",
+    "https://chalmersnextlabs.se/"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B20",
+    "web_fetch"
+   ],
+   "verification": "fetched (homepage links); maritime page 404 in w2",
+   "notes": "Maritime research page not confirmed."
+  },
+  {
+   "id": "dtu",
+   "name": "DTU (Technical University of Denmark)",
+   "type": "university",
+   "country": "DK",
+   "city": "Kongens Lyngby (knowledge)",
+   "cares_about": [
+    "innovation_ecosystem"
+   ],
+   "innovation_channel": {
+    "label": "Innovation",
+    "url": "https://www.dtu.dk/english/innovation"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "evidence": "Top CPV-blue buyer in the Danish sample: 4 notices",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://www.dtu.dk/english/innovation"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B21",
+    "web_fetch",
+    "ted_nordic"
+   ],
+   "verification": "fetched",
+   "notes": "Blue or marine research not found on the page. Startup examples on the page are not maritime."
+  },
+  {
+   "id": "taltech",
+   "name": "TalTech (Tallinn University of Technology)",
+   "type": "university",
+   "country": "EE",
+   "city": "Tallinn",
+   "cares_about": [
+    "maritime_education",
+    "smart_city"
+   ],
+   "innovation_channel": {
+    "label": "Estonian Maritime Academy",
+    "url": "https://taltech.ee/en/estonian-maritime-academy"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "TalTech Entrepreneurship Day 2026 (29 Oct 2026); Smart City Centre of Excellence (no link)"
+   ],
+   "public_buying_evidence": [
+    {
+     "evidence": "Top CPV-blue buyer in the Estonian sample: 4 notices",
+     "source": "data/w4/grants-procurement/ted_nordic_baltic_summary.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Port of Tallinn (not verified)",
+   "source_urls": [
+    "https://taltech.ee/en/estonian-maritime-academy",
+    "https://taltech.ee/en/events/taltech-entrepreneurship-day-2026-competitiveness-and-efficiency"
+   ],
+   "source_tags": [
+    "brief_listed",
+    "web_fetch",
+    "ted_nordic"
+   ],
+   "verification": "fetched; ted_nordic",
+   "notes": ""
+  },
+  {
+   "id": "samk",
+   "name": "Satakunta University of Applied Sciences (SAMK)",
+   "type": "university",
+   "country": "FI",
+   "city": "Pori (knowledge)",
+   "cares_about": [
+    "maritime_education",
+    "simulators"
+   ],
+   "innovation_channel": {
+    "label": "not checked",
+    "url": null
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [
+    {
+     "id": "386891-2025",
+     "date": "2025-06-16",
+     "buyer": "Satakunnan ammattikorkeakoulu Oy, Länsirannikon Koulutus Oy",
+     "title": "Maritime simulator computers: navigation and engine-room simulation",
+     "source": "data/ted_fi_maritime.json"
+    }
+   ],
+   "eu_projects": [],
+   "typical_university_partner": "Port of Pori (not verified)",
+   "source_urls": [],
+   "source_tags": [
+    "brief_listed",
+    "w2_row_B10",
+    "ted_fi"
+   ],
+   "verification": "ted_probe",
+   "notes": "Maritime education; the W1 gap is now partly filled by TED."
+  },
+  {
+   "id": "business_turku",
+   "name": "Business Turku",
+   "type": "ecosystem_extra",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "blue_economy_matchmaking",
+    "startup_growth"
+   ],
+   "innovation_channel": {
+    "label": "Find partners service (networks)",
+    "url": "https://businessturku.fi/en/services/find-partners/#networks"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Maritime Venture Program (matchmaking format; date not stated; search summary)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "University of Turku; Åbo Akademi (not verified)",
+   "source_urls": [
+    "https://businessturku.fi/en/services/find-partners/#networks",
+    "https://businessturku.fi/en/blue-economy-and-maritime/",
+    "https://businessturku.fi/en/event/turku-basque-maritime-collaboration-innovation-and-business-opportunities/"
+   ],
+   "source_tags": [
+    "extra",
+    "w2_row_B16",
+    "web_search"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "Turku–Basque maritime event on 21 Oct 2026 at Forum Marinum. Navigate 2026 on 24-25 Nov 2026."
+  },
+  {
+   "id": "dimecc",
+   "name": "DIMECC",
+   "type": "ecosystem_extra",
+   "country": "FI",
+   "city": "Finland (city not verified)",
+   "cares_about": [
+    "autonomy",
+    "industrial_rd"
+   ],
+   "innovation_channel": {
+    "label": "Contact",
+    "url": "https://dimecc.com/contact/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "unknown",
+   "other_pilots_and_deployments": [
+    "Operator of the Jaakonmeri test area and leader of the One Sea ecosystem (per sources)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://dimecc.com/ecosystems",
+    "https://dimecc.com/contact/"
+   ],
+   "source_tags": [
+    "extra",
+    "w2_row_B17"
+   ],
+   "verification": "w2_read; search_snippet",
+   "notes": "Sea4Value is not found on the DIMECC pages."
+  },
+  {
+   "id": "finnish_maritime_cluster",
+   "name": "Finnish Maritime Cluster (Meriteollisuus, Teknologiateollisuus)",
+   "type": "ecosystem_extra",
+   "country": "FI",
+   "city": "Helsinki (knowledge)",
+   "cares_about": [
+    "maritime_strategy",
+    "industry_showcase"
+   ],
+   "innovation_channel": {
+    "label": "Projects and programmes",
+    "url": "https://teknologiateollisuus.fi/meriteollisuus/kehitys/projektit-ja-ohjelmat/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "not checked",
+   "source_urls": [
+    "https://teknologiateollisuus.fi/meriteollisuus/kehitys/projektit-ja-ohjelmat/",
+    "https://teknologiateollisuus.fi/meriteollisuus/yhteystiedot/"
+   ],
+   "source_tags": [
+    "extra",
+    "w2_row_B12"
+   ],
+   "verification": "w2_read",
+   "notes": "Industry strategy of 22 Sep 2026."
+  },
+  {
+   "id": "turku_science_park",
+   "name": "Turku Science Park (Blue Economy Centre)",
+   "type": "ecosystem_extra",
+   "country": "FI",
+   "city": "Turku",
+   "cares_about": [
+    "startup_ecosystem"
+   ],
+   "innovation_channel": {
+    "label": "Blue Economy and Maritime (Business Turku)",
+    "url": "https://businessturku.fi/en/blue-economy-and-maritime/"
+   },
+   "known_startup_pilots": [],
+   "pilot_evidence_status": "none_found",
+   "other_pilots_and_deployments": [
+    "Blue Economy Centre described as the hub of the regional blue-economy movement; A'Pelago headquarters there (search summary)"
+   ],
+   "public_buying_evidence": [],
+   "eu_projects": [],
+   "typical_university_partner": "University of Turku; Åbo Akademi (not verified)",
+   "source_urls": [
+    "https://businessturku.fi/en/blue-economy-and-maritime/"
+   ],
+   "source_tags": [
+    "extra",
+    "w2_gap",
+    "web_search"
+   ],
+   "verification": "search_snippet; w2_gap (Turku Science Park site refused)",
+   "notes": ""
+  }
+ ],
+ "pilot_pair_candidates": [
+  {
+   "id": "P1",
+   "pair": "Norsepower rotor sail + Viking Line (Viking Grace) + RISE validation",
+   "corporate_or_buyer": "Viking Line",
+   "university_or_institute": "RISE (validation, Jul 2026)",
+   "startup": "Norsepower",
+   "status": "verified (historic trial 2018 onward; RISE validation 2026)",
+   "evidence": "trade press (marinelog); w2 read (Norsepower posts)",
+   "caveat": "Viking Grace sail is slated for removal. Use as a precedent, not a live pilot."
+  },
+  {
+   "id": "P2",
+   "pair": "Novia remote pilotage + Groke Technologies + Aboa Mare (+ Brighthouse Intelligence)",
+   "corporate_or_buyer": "not confirmed (Finnpilot a candidate)",
+   "university_or_institute": "Novia UAS",
+   "startup": "Groke Technologies (camera tech); Brighthouse Intelligence (status not verified)",
+   "status": "partial: tests reported summer 2025 (Aboa Mare, snippet); Novia steering-group item 3 Feb 2026 says the technology is ready (read)",
+   "evidence": "snippet: aboamare.fi/?p=13953; read: novia.fi RDI maritime technology page",
+   "caveat": "Article not read. Finnpilot's role not confirmed."
+  },
+  {
+   "id": "P3",
+   "pair": "Meyer Turku + Aalto University (+ Åbo Akademi) + startup (unknown)",
+   "corporate_or_buyer": "Meyer Turku",
+   "university_or_institute": "Aalto University; Åbo Akademi",
+   "startup": "unknown",
+   "status": "partial (corporate-university verified; startup leg not found)",
+   "evidence": "Meyer Turku news (Aalto donation 21 May 2026; Åbo Akademi cooperation 5 Oct 2023)",
+   "caveat": "Do not present a startup leg."
+  },
+  {
+   "id": "P4",
+   "pair": "Fintraffic VTS + Awake.AI (Turku startup) + port-schedule data",
+   "corporate_or_buyer": "Fintraffic (public)",
+   "university_or_institute": "unknown",
+   "startup": "Awake.AI",
+   "status": "partial (search summary; date and primary source missing)",
+   "evidence": "WebSearch summary only",
+   "caveat": "Verify before use. Strongest startup-buyer link in this run."
+  },
+  {
+   "id": "P5",
+   "pair": "Port of Helsinki + Port of Tallinn (TWIN-PORT 6, onshore power, Vuosaari)",
+   "corporate_or_buyer": "Port of Helsinki (coordinator); AS Tallinna Sadam",
+   "university_or_institute": "unknown",
+   "startup": "unknown",
+   "status": "verified EU project; no startup",
+   "evidence": "Port of Helsinki news; Port of Tallinn EU pages (search summary)",
+   "caveat": "Port-to-port, not a startup pilot."
+  },
+  {
+   "id": "P6",
+   "pair": "Port of Turku (Ferry Terminal Turku) + UTU + Åbo Akademi (Smart Port City)",
+   "corporate_or_buyer": "Turun Satama Oy (Port of Turku; mapping unverified)",
+   "university_or_institute": "University of Turku; Åbo Akademi",
+   "startup": "unknown",
+   "status": "partial (university project verified by snippet; TED evidence; no startup)",
+   "evidence": "TED 128035-2025 / 414738-2025; W1 snippet on Smart Port City",
+   "caveat": "Startup leg not found."
+  },
+  {
+   "id": "P7",
+   "pair": "Väylävirasto icebreaking + Vaasa port (Kvarken) + R-towing OY",
+   "corporate_or_buyer": "Väylävirasto; Vaasan Satamapalvelut Oy",
+   "university_or_institute": "unknown",
+   "startup": "none (company award)",
+   "status": "verified TED evidence",
+   "evidence": "TED 19102-2025, 273420-2025, 222271-2025, 339059-2025, 585910-2025",
+   "caveat": "Ice demand signal, not a startup pilot."
+  },
+  {
+   "id": "P8",
+   "pair": "Port of Naantali intelligent fairway (EU project) + Meritaito (Arctia)",
+   "corporate_or_buyer": "Port of Naantali",
+   "university_or_institute": "unknown",
+   "startup": "none (Meritaito is a company)",
+   "status": "partial (2020 archive; current status unknown)",
+   "evidence": "https://portofnaantali.fi/en/?p=2600",
+   "caveat": "Old precedent."
+  },
+  {
+   "id": "P9",
+   "pair": "One Sea / Jaakonmeri + Wärtsilä + ABB + DIMECC + Groke (One Sea membership)",
+   "corporate_or_buyer": "Wärtsilä; ABB (named as partners)",
+   "university_or_institute": "not checked",
+   "startup": "Groke Technologies (membership)",
+   "status": "unknown (no 2025-26 pilot reports found)",
+   "evidence": "search summaries; ship-technology (about 2017)",
+   "caveat": "Status unknown; verify with DIMECC before presenting."
+  },
+  {
+   "id": "P10",
+   "pair": "MaDaMe: Turku UAS (coordinator) + Fintraffic + Finnish Transport Infrastructure Agency + Aboa Mare / Novia + SMEs Digital Maritime Consultancy, Sternula (DK), NavSim (PL)",
+   "corporate_or_buyer": "Fintraffic; Finnish Transport Infrastructure Agency; DFDS; Danish and Swedish maritime authorities",
+   "university_or_institute": "Turku UAS (coordinator); Novia UAS; National Institute of Telecommunications (PL)",
+   "startup": "Digital Maritime Consultancy; Sternula A/S; NavSim Poland (SMEs)",
+   "status": "verified, completed (Interreg Baltic Sea Region; final seminar Turku 30 Sep 2026)",
+   "evidence": "read: novia.fi news 15 Oct 2026; fintraffic.fi news 26 Aug 2026",
+   "caveat": "SME roles from project news; Traffic Clearance Service tested with Fintraffic and Aboa Mare."
+  },
+  {
+   "id": "P11",
+   "pair": "USVA: Turku UAS + Marine Alutech + Business Finland + Port of Lappohja",
+   "corporate_or_buyer": "Business Finland (about EUR 1.3m to Turku UAS); Port of Lappohja (unveiling)",
+   "university_or_institute": "Turku UAS (coordinator)",
+   "startup": "Marine Alutech (SME; size not verified)",
+   "status": "verified, ongoing (final demonstration planned summer 2027)",
+   "evidence": "read: turkuamk.fi article 24 Sep 2026",
+   "caveat": "Remote and autonomous Watercat M12 platform for subsea cable and pipeline monitoring."
+  },
+  {
+   "id": "P12",
+   "pair": "Virtual Sea Trial: Novia UAS (lead) + Meyer Turku + SMEs Semantum, Cadmatic, Loisto Pro + Valmet, Kongsberg Maritime Finland, Wärtsilä, Steerprop + UTU, Åbo Akademi, University of Oulu",
+   "corporate_or_buyer": "Meyer Turku (simulation models); Valmet; Kongsberg; Wärtsilä; Steerprop",
+   "university_or_institute": "Novia UAS; University of Turku; Åbo Akademi; University of Oulu",
+   "startup": "Semantum Oy; Cadmatic Oy; Loisto Pro Oy (sizes not verified)",
+   "status": "snippet, ongoing (Business Finland co-innovation, EUR 6m, 1 Jan 2024 to 31 Dec 2026)",
+   "evidence": "snippet: two novia.fi press pages (one URL returned 404 when fetched)",
+   "caveat": "The only named Meyer Turku collaboration with SMEs found. Confirm before quoting."
+  },
+  {
+   "id": "P13",
+   "pair": "NELSON: Fintraffic VTS + EMSA + Híades Business Patterns (ES)",
+   "corporate_or_buyer": "Fintraffic (VTS); EMSA (testing coordination)",
+   "university_or_institute": "not stated",
+   "startup": "Híades Business Patterns (Spanish company, one work package)",
+   "status": "verified, ongoing (first anniversary Sep 2026; about two years left)",
+   "evidence": "read: fintraffic.fi news 1 Sep 2026",
+   "caveat": "VDES fairway stations, route exchange, remote pilotage concept. No Finnish startup leg stated."
+  }
+ ],
+ "gaps": [
+  "Blocked or unreadable: Väylävirasto (TLS error), Viking Line (HTTP 403 earlier), VTT (HTTP 403), RISE (bot check), Eckerö Line (SSL error), Fintraffic (404 earlier), Groke (unreachable earlier), onesea.fi (DNS fail earlier; oneseaecosystem.net used), Turku Science Park (refused earlier).",
+  "Not checked at all: Steerprop, Deltamarin, Foreship, Neste, Valmet, Kemira, ESL Shipping, Meriaura, Wasaline, Stena, DFDS, Color Line, Hanko, Stockholm Norvik, Gdańsk, Gdynia, Rostock, Kiel, Aarhus, Copenhagen Malmö, Border Guard site, FMI site, GTK site, Riigilaevastik and Forsvarsmateriell sites.",
+  "Pilot evidence is limited to headlines and trade-press summaries. No startup pilot has been checked against a primary source except the Norsepower and Viking Grace trade-press article.",
+  "The awards probe has no winner name for several notices, and some notices lack a date.",
+  "W9 (16 Oct 2026): the Port of Turku, Port of Naantali and Meyer Turku newsrooms name no startup pilot 2022-2026. The Novia / Aboa Mare / Turku UAS maritime cluster is where named SME pilots happen."
+ ],
+ "programmes": [
+  {
+   "name": "MERiON (Business Finland Leading Company, Meyer Turku)",
+   "years": "2026-2030",
+   "what": "up to EUR 85m combined R&D with ecosystem partners",
+   "startup_route": "not stated",
+   "source": "https://www.meyerturku.fi/fi/uutiset-ja-julkaisut/ajankohtaista/",
+   "tag": "read (21 Apr 2026)"
+  },
+  {
+   "name": "Turku Growth Hub",
+   "years": "opens autumn 2026",
+   "what": "campus facility with an industrial-scale pilot environment; Turku Startup Hub in the same building",
+   "startup_route": "premises and pilot environment",
+   "source": "https://businessturku.fi/en/hub-activities/turku-growth-hub/",
+   "tag": "snippet"
+  },
+  {
+   "name": "LAE Hub (Turku UAS)",
+   "years": "2026-2028",
+   "what": "autonomous-systems test and pilot environment",
+   "startup_route": "not stated",
+   "source": "job posting, May 2026",
+   "tag": "snippet"
+  },
+  {
+   "name": "PILOTech (Central Baltic)",
+   "years": "news 9 Jun 2026",
+   "what": "cross-border pilotage cooperation",
+   "startup_route": "not stated",
+   "source": "https://www.novia.fi/en/rdi/research-area/maritime-technology",
+   "tag": "read"
+  },
+  {
+   "name": "NEcOLEAP (Meyer-led)",
+   "years": "2022",
+   "what": "climate-neutral cruise ship programme",
+   "startup_route": "project proposals invited (2022)",
+   "source": "Meyer Turku news 8 Jun 2022",
+   "tag": "read"
+  }
+ ]
+}

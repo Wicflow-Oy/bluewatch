@@ -1,0 +1,3916 @@
+{
+ "judge_known_apelago": {
+  "generated": "2026-10-16",
+  "scope": "A'Pelago-linked companies (accelerator cohorts 2024, 2025, 2026; Pitch Challenge 2025 finalists and 2026 winner) as an answer key for the JunctionX Redstone x A'Pelago demo. Public evidence only.",
+  "method": {
+   "web_search_calls_used": 4,
+   "web_search_cap": 4,
+   "fetch_policy": "WebFetch of apelago.fi cohort, programme, news, event and Initiative pages; WebFetch of one descubre.vc article and one Global Fund page; company sites were not fetched in this run.",
+   "registry_policy": "PRH (Finland) queried by name and by business ID with User-Agent junctionx-research-probe/0.1 at about 1 request/second. Brreg (Norway) queried by name. Denmark, Sweden, Spain and Bulgaria are outside the PRH/Brreg scope and were not registry-checked.",
+   "existing_rows_used": "Evidence fields for some companies were taken from the already-collected rows startups_fi.json and startups_nordic.json. Those rows were not re-verified in this run unless stated.",
+   "personal_data": "No user identifiers were sent in any request."
+  },
+  "sources": {
+   "accelerator_2024_cohort_page": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/",
+   "accelerator_2025_cohort_page": "https://www.apelago.fi/2025-accelerator/",
+   "nordic_blue_2026_batch_page": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/",
+   "nordic_blue_2026_cohort_page": "https://www.apelago.fi/2026-nordic-blue/",
+   "programmes_page": "https://www.apelago.fi/apelago-accelerator-programs/",
+   "pitch_challenge_2025_finalists_article": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/",
+   "pitch_challenge_2025_call_page": "https://www.apelago.fi/apelago-pitch-challenge-2025/",
+   "pitch_challenge_2026_winner_article_single_source": "https://www.descubre.vc/noticia/la-startup-con-ra-ces-chilenas-nido-contech-triunfa-en-el-a-pelago-pitch-challenge-en-finlandia-2026-08-25",
+   "lab2impact_page": "https://www.apelago.fi/laboff/",
+   "decelerator_2026_event_page": "https://www.apelago.fi/events/jarruttamo/",
+   "initiative_page": "https://www.apelago.fi/apelago-initiative/"
+  },
+  "cohort_counts": {
+   "2024_cohort_listed_on_page": 9,
+   "2024_cohort_programme_text_says": 10,
+   "2025_cohort_listed_on_page": 12,
+   "2025_cohort_news_says": 14,
+   "2026_batch_page_says": 19,
+   "2026_cohort_page_lists": 18,
+   "pitch_challenge_2025_finalists": 12,
+   "pitch_challenge_2025_finalists_not_in_2025_cohort": 2,
+   "pitch_challenge_2026_winner": 1,
+   "pitch_challenge_2024_finalists_or_winners_found": 0,
+   "unique_a_pelago_linked_companies": 41
+  },
+  "discrepancies": [
+   "2026 batch page lists 19 companies; the 2026 cohort page lists 18. WESI Solutions appears only on the batch page.",
+   "The 2024 cohort page lists 9 companies, but the programme text says 'cohort of 10 selected ventures'. One venture may be missing from the page.",
+   "The 2025 cohort page lists 12 companies, but the 2025 wrap-up news says '14 Startups'. Two may be missing from the page.",
+   "Raw row WAIing (WAI Water Intelligence) carries business ID 3380111-1. PRH resolves that ID to Taikoa Oy (registered 2023-08-10), which the raw row describes as the parent. The WAIing entity was not found by name.",
+   "Raw row Sub Marine Store: the earlier seed says it designs and builds USVs and ROVs, while the 2026 batch page calls it an online retailer. The build claim is unverified.",
+   "Raw row NPHarvest is tagged 'Redstone Blue portfolio'. It also appears as a 2025 A'Pelago Pitch Challenge finalist, so it is included here.",
+   "Origin by Ocean appears on the A'Pelago Initiative page only as a previous speaker (CEO), not as a cohort or pitch participant. It is excluded from the alumni list.",
+   "Lentola Logistics: the PRH main business line code (30310, civilian air and spacecraft manufacturing) does not obviously match drone logistics. Code kept as found.",
+   "Eco Weedkiller (2025 cohort page) and EWK Finland (2025 pitch finalists) are linked by name only. Treated as the same company with low confidence.",
+   "Lokala (2025 cohort and finalists) is linked to Oy Lokala Ab (PRH 3434778-2) by name only.",
+   "NIDO (2026 batch) and NIDO Contech (2026 pitch winner per one Spanish-language article) are linked by name and product only."
+  ],
+  "companies": [
+   {
+    "name": "Aila",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found",
+     "no_brreg": "no name match found",
+     "business_id": null
+    },
+    "website": "https://aila.earth/",
+    "one_liner": "AI platform that automates carbon accounting and biodiversity measurement for corporate sustainability compliance.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Only the cohort page description was read. No product, pilot or customer page was read.",
+     "brl_band": "unknown",
+     "brl_evidence": "No customers or pilots named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Climate-tech seed investors in the Nordics (names not researched)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Company identity and country not verified."
+    ]
+   },
+   {
+    "name": "Environmental Impacts Academy",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Environmental Impacts Academy Oy, business ID 3265719-7, registered 2022-02-08, TOL 85599 (other education)",
+     "no_brreg": "not checked",
+     "business_id": "3265719-7"
+    },
+    "website": "https://www.environmentalacademy.org/",
+    "one_liner": "E-learning provider offering life cycle assessment (LCA) training, from fundamentals to hands-on practice.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "7-9 [inferred from a publicly offered course catalogue; not verified]",
+     "trl_evidence": "Courses are offered on the site. Readiness of the learning content was not evaluated.",
+     "brl_band": "unknown",
+     "brl_evidence": "No customers or revenue evidence read.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Sitra (Finnish Innovation Fund)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": [
+     "Registry match is by exact name."
+    ]
+   },
+   {
+    "name": "Fish Farm 4.0",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found",
+     "no_brreg": "no name match found",
+     "business_id": null
+    },
+    "website": "not shown",
+    "one_liner": "Fish farming system aimed at industrial-scale, animal-based protein production with less harm to sea regions.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "No website and no company record found.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EMFAF (EU Maritime, Fisheries and Aquaculture Fund)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Hardest case: no website and no registry entity found under this name."
+    ]
+   },
+   {
+    "name": "Nexamass",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Nexamass Oy, business ID 3461811-6, registered 2024-07-11, TOL 46900 (non-specialised wholesale)",
+     "no_brreg": "not checked",
+     "business_id": "3461811-6"
+    },
+    "website": "https://www.nexamass.com/",
+    "one_liner": "Scalable approach to biomass harvesting and processing into industrial raw material.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (12 finalists; winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a described collaboration; no commercial deployment stated]",
+     "trl_evidence": "Existing row: collaboration with Wiurilan kartano in a nature reserve, described but not labelled a pilot.",
+     "brl_band": "1-3 [inferred; no paying customers named]",
+     "brl_evidence": "Existing row: no paying customers named. Site says it is seeking financiers.",
+     "funding_evidence": "None found. Site says it is seeking financiers (existing row).",
+     "routes": [
+      {
+       "route": "Business Finland growth and RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Sitra (Finnish Innovation Fund)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match and three A'Pelago appearances)",
+    "flags": [
+     "Registry main business line (wholesale) does not match the processing business."
+    ]
+   },
+   {
+    "name": "Niinmun",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found",
+     "no_brreg": "not checked",
+     "business_id": null
+    },
+    "website": "https://niinmun.fi/",
+    "one_liner": "Women's clothing from natural materials, inspired by the Finnish archipelago.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "not a technology-readiness case (consumer apparel)",
+     "trl_evidence": "Product type is apparel, not a technology.",
+     "brl_band": "unknown",
+     "brl_evidence": "Not read.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding (if Finnish)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Nordic design and fashion grants (not researched)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Hardest case: no registry entity found under this name; a consumer brand, so the blue-tech fit is weak."
+    ]
+   },
+   {
+    "name": "OliOil",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "OliOil Oy, business ID 3405555-2, registered 2023-11-18, TOL 28990 (special-purpose machinery)",
+     "no_brreg": "not checked",
+     "business_id": "3405555-2"
+    },
+    "website": "https://olioil.io/",
+    "one_liner": "Developing robotic vessels that automatically collect oil spills at sea.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from 'developing'; no field trial read]",
+     "trl_evidence": "The cohort page says 'developing'. Existing row: no pilots or customers named on the site.",
+     "brl_band": "1-3 [inferred; no pilots or customers named]",
+     "brl_evidence": "Existing row (W2 read): no pilots or customers named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match)",
+    "flags": []
+   },
+   {
+    "name": "Ruoco",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Ruoco Oy, business ID 3470530-8, registered 2024-09-04, TOL 32999 (manufacturing n.e.c.)",
+     "no_brreg": "not checked",
+     "business_id": "3470530-8"
+    },
+    "website": "none (the cohort page links to an A'Pelago news item, not a company site)",
+    "one_liner": "Germination solution that replaces plastic with nutrients sourced from the Baltic Sea.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "No company website read. Only the cohort description is available.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland seed or RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Sitra (Finnish Innovation Fund)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (registry name match; no company site)",
+    "flags": [
+     "No company website."
+    ]
+   },
+   {
+    "name": "Space of Mind",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Space Of Mind Oy, business ID 3246801-1, registered 2021-11-12, TOL 55202 (short-term accommodation)",
+     "no_brreg": "not checked",
+     "business_id": "3246801-1"
+    },
+    "website": "https://www.spaceofmind.fi/",
+    "one_liner": "Concept for micro-hospitality.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "1-3 [inferred from the page calling it a concept]",
+     "trl_evidence": "The 2024 cohort page calls it a concept.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "No blue-economy programme fits well",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": [
+     "Weak blue or ocean fit."
+    ]
+   },
+   {
+    "name": "SubDrone (Saarento Marine Works)",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Saarento Marine Works Oy, business ID 3462582-6, registered 2024-07-18, TOL 26510; auxiliary names SubDrone Services, V-Nemo Robotics, V-Nemo Analytics",
+     "no_brreg": "not checked",
+     "business_id": "3462582-6"
+    },
+    "website": "not shown on the cohort page; the existing row says the SubDrone site was unreachable",
+    "one_liner": "Model for fast, affordable underwater imaging and surveying using modern, versatile equipment.",
+    "apelago_link": [
+     {
+      "cohort": "2024",
+      "programme": "A'Pelago Accelerator Cohort 01 (2024)",
+      "role": "cohort member (listed as SubDrone)",
+      "source": "https://www.apelago.fi/apelago-accelerator/accelerator-2024/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a described product model; no field read]",
+     "trl_evidence": "Existing row: the site was unreachable; the name link rests on the auxiliary name SubDrone Services.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium-low (name link inferred from an auxiliary name)",
+    "flags": [
+     "Confirm the name link before the demo."
+    ]
+   },
+   {
+    "name": "Alga.e",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found",
+     "no_brreg": "not checked",
+     "business_id": null
+    },
+    "website": "none (LinkedIn link only on the 2025 cohort page)",
+    "one_liner": "Dries sargassum on site with a machine, cutting its weight and disposal costs.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Only the cohort page description is available.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EMFAF (EU Maritime, Fisheries and Aquaculture Fund)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Hardest case: no website and no registry entity found."
+    ]
+   },
+   {
+    "name": "Coral Rescue",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found",
+     "no_brreg": "not checked",
+     "business_id": null
+    },
+    "website": "none (Instagram link only on the 2025 cohort page)",
+    "one_liner": "Uses satellite data to analyse coral reef health in real time for restoration.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Only the cohort page description is available.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EU LIFE programme",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "ESA Business Incubation Centre network",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Hardest case: no website and no registry entity found."
+    ]
+   },
+   {
+    "name": "Nemo Seafarms",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Nemo Seafarms Oy, business ID 3251940-5, registered 2021-12-07, TOL 72100 (R&D)",
+     "no_brreg": "not checked",
+     "business_id": "3251940-5"
+    },
+    "website": "https://www.nemo-seafarms.com/",
+    "one_liner": "Farms keystone species to remove nutrients and supply biorefinery feedstock.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred from the 'entering pilot phase' wording on the 2025 cohort page]",
+     "trl_evidence": "Cohort page: entering pilot phase. Existing row: a Bjorksker project linked to offshore wind, no customer named.",
+     "brl_band": "1-3 [inferred; no customers named]",
+     "brl_evidence": "Existing row: no customer named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EMFAF (EU Maritime, Fisheries and Aquaculture Fund)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match)",
+    "flags": []
+   },
+   {
+    "name": "Eco Weedkiller (EWK Finland)",
+    "country": "Finland (probable)",
+    "registry": {
+     "fi_prh": "EWK Finland Oy, business ID 3153199-8, registered 2020-12-31, TOL 28990 (name link only; probable match to Eco Weedkiller)",
+     "no_brreg": "not checked",
+     "business_id": "3153199-8"
+    },
+    "website": "https://www.ecoweedkiller.com/",
+    "one_liner": "Removes weeds and invasive plants with non-toxic hot water.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member (listed as Eco Weedkiller)",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist (listed as EWK Finland)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (listed as EWK Finland)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "unknown (machinery-type registry code suggests a physical product; not verified)",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low-medium (name link only)",
+    "flags": [
+     "Two different names on the cohort and finalist lists; treat the match as probable, not confirmed."
+    ]
+   },
+   {
+    "name": "eMathStudio (FourFerries)",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found for eMathStudio or FourFerries",
+     "no_brreg": "not checked",
+     "business_id": null
+    },
+    "website": "https://fourferries.com",
+    "one_liner": "Learning platform covering science, technology, economics and ecosystems, with standardised grading.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7-9 [inferred from a live platform described on the site; not verified]",
+     "trl_evidence": "Cohort and finalist descriptions only; the site was not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Education innovation grants (not researched)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low (no registry match)",
+    "flags": [
+     "Hardest case: no registry entity found under either name."
+    ]
+   },
+   {
+    "name": "Coconord",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Coconord Oy, business ID 3513199-1, registered 2025-03-01, TOL 46850 (wholesale of chemicals); auxiliary name Aurincoco",
+     "no_brreg": "not checked",
+     "business_id": "3513199-1"
+    },
+    "website": "https://coconord.com/",
+    "one_liner": "Makes growing media from discarded coconut husks to replace peat and rockwool.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match; company under 2 years old)",
+    "flags": []
+   },
+   {
+    "name": "FimusKraft",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Fimuskraft Oy, business ID 2730617-3, registered 2015-12-17, TOL 72100 (R&D)",
+     "no_brreg": "not checked",
+     "business_id": "2730617-3"
+    },
+    "website": "https://fimuskraft.com/",
+    "one_liner": "Turns bio-waste into energy, fertiliser and materials while treating wastewater.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred from an R&D registry code and a multi-output process; no pilot read]",
+     "trl_evidence": "Registry code is R&D (TOL 72100). No pilot or plant read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EU LIFE programme",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match)",
+    "flags": []
+   },
+   {
+    "name": "Lentola Logistics",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Lentola Logistics Oy, business ID 2844385-8, registered 2017-08-16, TOL 30310 (civilian air and spacecraft manufacturing)",
+     "no_brreg": "not checked",
+     "business_id": "2844385-8"
+    },
+    "website": "https://lentola.com/",
+    "one_liner": "Uses drones instead of boats or cars for archipelago deliveries, cutting emissions and costs.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Site not read in this run. Registry code points to aircraft manufacturing, which does not clearly match drone delivery.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry name match)",
+    "flags": [
+     "Registry business code does not clearly match the drone business."
+    ]
+   },
+   {
+    "name": "Lokala",
+    "country": "Finland (probable)",
+    "registry": {
+     "fi_prh": "Oy Lokala Ab, business ID 3434778-2, registered 2024-03-27, TOL 62100 (computer programming); name link only, to be verified",
+     "no_brreg": "not checked",
+     "business_id": "3434778-2"
+    },
+    "website": "https://lokala.fi/",
+    "one_liner": "Digital marketplace where customers buy produce directly from local producers.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7-9 [inferred from a marketplace described as operating; not verified]",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium-low (probable name match)",
+    "flags": [
+     "Company identity to be confirmed; the registry name is Oy Lokala Ab."
+    ]
+   },
+   {
+    "name": "Ocean Eye",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Ocean Eye Conservation Oy, business ID 3541569-5, registered 2025-08-07, TOL 39000 (remediation and environmental services); name link only",
+     "no_brreg": "not checked",
+     "business_id": "3541569-5"
+    },
+    "website": "https://oceaneye.io/",
+    "one_liner": "App that rewards marine conservation and citizen science and funds coastal projects.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a launched pilot on the site]",
+     "trl_evidence": "Existing row: Indonesia is the first pilot region per the site. The Finland Archipelago Sea was launched as the first European pilot (2026-06, site). The site copyright reads 2022-2023.",
+     "brl_band": "1-3 [inferred; pilots only, no paying customers named]",
+     "brl_evidence": "Existing row: no paying customers named. Coastal funding is a product feature, not funding to the company.",
+     "funding_evidence": "None found for the company.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (name link only)",
+    "flags": [
+     "Registry link is by name only."
+    ]
+   },
+   {
+    "name": "OW-Ferment (Organic Waste Ferment OW-F)",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Organic Waste Ferment OW-F Oy Ltd, business ID 3404990-2, registered 2023-11-16, TOL 72100 (R&D)",
+     "no_brreg": "not checked",
+     "business_id": "3404990-2"
+    },
+    "website": "https://ow-f.fi",
+    "one_liner": "Ferments biodegradable waste into nutrient-rich soil products that support Baltic Sea health.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Accelerator Cohort 02 (2025)",
+      "role": "cohort member",
+      "source": "https://www.apelago.fi/2025-accelerator/"
+     },
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred; pilot projects mentioned, none named]",
+     "trl_evidence": "Existing row (W2 read): pilot projects mentioned but none named.",
+     "brl_band": "1-3 [inferred]",
+     "brl_evidence": "Existing row: no customers named.",
+     "funding_evidence": "Existing row (W2 read): Ålandsbanken Baltic Sea Reward, 2025-06-17, amount not stated.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Sitra (Finnish Innovation Fund)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match)",
+    "flags": [
+     "Weak blue fit (soil and waste) per the existing row."
+    ]
+   },
+   {
+    "name": "Reverlast",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Oy Reverlast Ab, business ID 3470077-7, registered 2024-08-28, TOL 30110 (civilian ships and floating structures)",
+     "no_brreg": "not checked",
+     "business_id": "3470077-7"
+    },
+    "website": "not read in this run",
+    "one_liner": "Turns retired wind-turbine blades into floating infrastructure for marinas and other platforms.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025 (not in the 2025 accelerator cohort)",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EU LIFE circular-economy programme",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (registry match; pitch-only appearance)",
+    "flags": [
+     "Pitch-only finalist; no cohort appearance."
+    ]
+   },
+   {
+    "name": "NPHarvest",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "NPHarvest Oy, business ID 3392875-3, registered 2023-09-30, TOL 38210 (waste material recycling)",
+     "no_brreg": "not checked",
+     "business_id": "3392875-3"
+    },
+    "website": "not read in this run (existing row has a site)",
+    "one_liner": "Patented process that recovers nutrients from wastewater, reducing eutrophication and fertiliser imports.",
+    "apelago_link": [
+     {
+      "cohort": "2025",
+      "programme": "A'Pelago Pitch Challenge 2025 (not in the 2025 accelerator cohort)",
+      "role": "finalist",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2025",
+      "result": "finalist (winner not named in sources)",
+      "source": "https://www.apelago.fi/twelve-startups-pitch-at-apelago-pitch-challenge-2025-finals/"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a patented process and a deep-tech accelerator selection]",
+     "trl_evidence": "Existing row: EIT FAN 2025 cohort (site); Aalto Water Lab spin-off, 2023-09 (search snippet, not re-verified).",
+     "brl_band": "unknown",
+     "brl_evidence": "No customer data read.",
+     "funding_evidence": "Existing row (site): selected for Business Finland Deep Tech Accelerator; a EUR 1.2M funding pathway (not re-verified in this run).",
+     "routes": [
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Business Finland follow-on growth funding",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (registry match; existing row labels it Redstone portfolio)",
+    "flags": [
+     "Raw row tagged 'Redstone Blue portfolio'; included here because it is a 2025 A'Pelago pitch finalist."
+    ]
+   },
+   {
+    "name": "TuniSea",
+    "country": "Norway",
+    "registry": {
+     "brreg": "TUNISEA AS, organisation number 936277241, registered 2025-09-30, founded (stiftelsesdato) 2025-09-15, NACE 10.890, Trondheim",
+     "fi_prh": "not applicable",
+     "business_id": "936277241"
+    },
+    "website": "https://tunisea.no/",
+    "one_liner": "Protein, aroma and mince ingredients from tunicate biomass.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a demo with a potential customer; no customer named]",
+     "trl_evidence": "Existing row (company site): tunicates caught at Froya for a demo with a potential customer. Customer not named.",
+     "brl_band": "1-3 [inferred; no named customer]",
+     "brl_evidence": "Existing row: no customer named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Innovation Norway startup and innovation grants",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Research Council of Norway (Forskningsradet)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match)",
+    "flags": []
+   },
+   {
+    "name": "Race for Oceans Technology",
+    "country": "Denmark",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "denmark": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "https://raceforoceanstechnology.com/",
+    "one_liner": "AI detection of microplastics in coastal areas, with plans for drone and robot cleanup.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "1-3 [inferred from the 'plans' wording]",
+     "trl_evidence": "Batch page describes plans for drone and robot cleanup.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Innovation Fund Denmark (Innovationsfonden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Pathfinder (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (country from the batch page; no registry check)",
+    "flags": [
+     "Country from the batch page flag."
+    ]
+   },
+   {
+    "name": "ReefCircular",
+    "country": "Denmark",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "denmark": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "https://www.reefcircular.com/",
+    "one_liner": "Artificial reef structures designed for specific marine ecosystems to support biodiversity.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from a pilot the company reports; self-reported, not verified]",
+     "trl_evidence": "Existing row: a self-reported 400% biodiversity increase in a Denmark pilot (unverified).",
+     "brl_band": "unknown",
+     "brl_evidence": "No customers named.",
+     "funding_evidence": "Existing row: partner logo labelled 'eu funding' (filename only, weak).",
+     "routes": [
+      {
+       "route": "Innovation Fund Denmark (Innovationsfonden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EU LIFE programme",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": [
+     "Self-reported biodiversity result is not verified."
+    ]
+   },
+   {
+    "name": "Sensemakers",
+    "country": "Denmark (inferred from the .dk domain and batch flag)",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "denmark": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "https://sensemakers.dk/",
+    "one_liner": "Autonomous, sensor-equipped surface vessels that collect year-round water-quality data.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown (vessel deployment not read)",
+     "trl_evidence": "Existing row: supporter logos (ESA BIC Denmark, DTU, Innovationsfonden, DHI, Maritime Fonden) with roles not described.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "Supporter logos only; no amounts found.",
+     "routes": [
+      {
+       "route": "Innovation Fund Denmark (Innovationsfonden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium-low",
+    "flags": [
+     "Legal entity not confirmed."
+    ]
+   },
+   {
+    "name": "PEATZ",
+    "country": "Denmark",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "denmark": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "none (LinkedIn page only on the 2026 cohort page)",
+    "one_liner": "Uses satellite, drone and sensor data to help landowners access climate and biodiversity funding.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "No company website read.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Innovation Fund Denmark (Innovationsfonden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EU LIFE programme",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low-medium",
+    "flags": [
+     "No company website."
+    ]
+   },
+   {
+    "name": "Just-measure",
+    "country": "Denmark",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "denmark": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "https://just-measure.com/",
+    "one_liner": "Wireless water-quality sensors (nitrate, pH, salinity) with cloud connectivity.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Existing row: the cases page was not readable.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Innovation Fund Denmark (Innovationsfonden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": []
+   },
+   {
+    "name": "Edilm",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no entity found; a name-only search lead (Atlan Studio Oy, 3480010-2) is not linked",
+     "no_brreg": "not checked",
+     "business_id": null
+    },
+    "website": "https://atlan.fi/edilm",
+    "one_liner": "Edible, hot-water-soluble film intended to replace plastic sachets.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Product described on the batch page. Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low",
+    "flags": [
+     "Hardest case: the domain is atlan.fi but no registry entity was linked."
+    ]
+   },
+   {
+    "name": "Kilocode (Saaristo.online)",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Kilocode Oy, business ID 1840910-3, registered 2003-07-31, TOL 58290; auxiliary names Saaristo.online, Archipelagosea.online, Schärenmeer.online",
+     "no_brreg": "not checked",
+     "business_id": "1840910-3"
+    },
+    "website": "https://saaristo.online/landing (also listed as http://www.kilocode.net/)",
+    "one_liner": "Digital platform connecting services, information and local actors in the Finnish archipelago.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member (listed as Kilocode / Saaristo.online)",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "7-9 [inferred from a live platform; not tested]",
+     "trl_evidence": "Live platform described on the site.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Sitra (Finnish Innovation Fund)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match)",
+    "flags": [
+     "Registered in 2003, so this is an older company rather than a young startup."
+    ]
+   },
+   {
+    "name": "WAIing (WAI Water Intelligence)",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Business ID in the existing row (3380111-1) resolves to Taikoa Oy, registered 2023-08-10, TOL 70200. The row describes Taikoa as the parent. The WAIing entity was not found by name.",
+     "no_brreg": "not applicable",
+     "business_id": "3380111-1 (parent, per existing row; unverified for WAIing)"
+    },
+    "website": "https://www.waiing.com/",
+    "one_liner": "Portable nutrient measurement with cloud analytics for water monitoring.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from the product description; no pilot named]",
+     "trl_evidence": "Existing row: seeking pilots across Europe; none named.",
+     "brl_band": "1-3 [inferred; no pilots named]",
+     "brl_evidence": "Existing row: no pilots named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low-medium (registry entity uncertain)",
+    "flags": [
+     "Registry ID in the existing row belongs to the parent, not the product company."
+    ]
+   },
+   {
+    "name": "Sub Marine Store",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Sub Marine Store Oy, business ID 3197621-7, registered 2021-03-23, TOL 46900 (non-specialised wholesale); auxiliary name Suomen Varavirta",
+     "no_brreg": "not checked",
+     "business_id": "3197621-7"
+    },
+    "website": "http://www.substore.fi/",
+    "one_liner": "Online shop for unmanned surface vessels, underwater robots and research equipment.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "not applicable if it is only a retailer (batch page); unknown if it builds vessels (earlier seed claim, unverified)",
+     "trl_evidence": "Conflict between the earlier seed (builds USVs and ROVs) and the batch page (online retailer).",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Tesi (Finnish Industry Investment)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Business Finland export and growth funding",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match); business model conflict",
+    "flags": [
+     "Conflicting descriptions of what the company does."
+    ]
+   },
+   {
+    "name": "WESI Solutions (Arctic Fry Oy)",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Arctic Fry Oy, business ID 3166759-6, registered 2020-11-23, TOL 03220 (freshwater aquaculture); auxiliary name WESI Solutions",
+     "no_brreg": "not checked",
+     "business_id": "3166759-6"
+    },
+    "website": "http://www.wesi.fi/",
+    "one_liner": "AI-enabled automation for fish farming.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch only)",
+      "role": "batch member; missing from the 2026 cohort page",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "No product evidence read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "Existing row: EU co-funding suggested by a logo filename only (weak).",
+     "routes": [
+      {
+       "route": "EMFAF (EU Maritime, Fisheries and Aquaculture Fund)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match via auxiliary name; VAT consistent per existing row)",
+    "flags": [
+     "Appears on the batch page only."
+    ]
+   },
+   {
+    "name": "Sireness",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Sireness Oy, business ID 3568392-1, registered 2025-10-08, TOL 72100 (R&D)",
+     "no_brreg": "not checked",
+     "business_id": "3568392-1"
+    },
+    "website": "https://sireness.fi/",
+    "one_liner": "Biodegradable, bio-based oil spill response products for water and land.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Registered October 2025. Product page not re-read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland pre-seed or RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match)",
+    "flags": [
+     "Very young company (registered October 2025)."
+    ]
+   },
+   {
+    "name": "Emission-Eye",
+    "country": "Finland",
+    "registry": {
+     "fi_prh": "Emission-Eye Oy, business ID 3543918-7, registered 2025-07-02, TOL 62100 (computer programming)",
+     "no_brreg": "not checked",
+     "business_id": "3543918-7"
+    },
+    "website": "https://emission-eye.io/",
+    "one_liner": "Blockchain-anchored, AI-powered tracking of maritime greenhouse-gas emissions.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "4-6 [inferred from the product description; no deployment named]",
+     "trl_evidence": "Existing row (W2 read): no customers or pilots named.",
+     "brl_band": "1-3 [inferred; no customers named]",
+     "brl_evidence": "Existing row: no customers or pilots named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland RDI funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "high (registry match)",
+    "flags": []
+   },
+   {
+    "name": "sauna/ing",
+    "country": "unknown",
+    "registry": {
+     "fi_prh": "no name match found for Sauna-ing or Sauna Ing",
+     "no_brreg": "not applicable",
+     "business_id": null
+    },
+    "website": "https://www.sauna-ing.com (Finnish page: sauna-ing.com/fi)",
+    "one_liner": "Sauna-inspired natural skincare and body care with forest-derived ingredients.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "not applicable (consumer product)",
+     "trl_evidence": "Consumer skincare; not a technology case.",
+     "brl_band": "unknown",
+     "brl_evidence": "Existing row: Origin by Ocean lists sauna/ing as a customer (not verified from the sauna/ing side).",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Business Finland growth funding",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Tesi (Finnish Industry Investment)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "low (no registry match)",
+    "flags": [
+     "Weak blue fit; a consumer brand."
+    ]
+   },
+   {
+    "name": "MOR",
+    "country": "Sweden",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "sweden": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "http://www.garvemor.se/",
+    "one_liner": "Handcrafted luxury accessories made from repurposed fish skin.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "not applicable (consumer product)",
+     "trl_evidence": "Consumer product; not a technology case.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Vinnova (Sweden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "Almi Invest (Sweden)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium (country from the batch page)",
+    "flags": []
+   },
+   {
+    "name": "Your Devocean",
+    "country": "Sweden",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "sweden": "not registry-checked (outside scope); org number not shown on the site (existing row)",
+     "business_id": null
+    },
+    "website": "https://www.yourdevocean.com",
+    "one_liner": "Open platform turning ocean and freshwater conservation actions into ESG impact data.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Existing row: partner logos (WSP, John Nurminen Foundation, Hands2Ocean, Nemo Seafarms, ReefCircular, Levande Hav) with roles not described.",
+     "brl_band": "unknown",
+     "brl_evidence": "No customers named.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "Vinnova (Sweden)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": []
+   },
+   {
+    "name": "NIDO (NIDO Contech)",
+    "country": "Spain (roots in Chile and Spain per one article)",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "spain": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "http://www.nido.eco/",
+    "one_liner": "Nature-based biohybrid materials for wood construction, including NIDO Hydrogel; the press article describes a NIDO Algae Panel.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     },
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Pitch Challenge 2026",
+      "role": "winner (first place; single source)",
+      "source": "https://www.descubre.vc/noticia/la-startup-con-ra-ces-chilenas-nido-contech-triunfa-en-el-a-pelago-pitch-challenge-en-finlandia-2026-08-25"
+     }
+    ],
+    "pitch": [
+     {
+      "year": "2026",
+      "result": "first place (single Spanish-language source; event date not stated; no monetary prize stated; advances to the Turku Startup Prize final)",
+      "source": "https://www.descubre.vc/noticia/la-startup-con-ra-ces-chilenas-nido-contech-triunfa-en-el-a-pelago-pitch-challenge-en-finlandia-2026-08-25"
+     }
+    ],
+    "assessment": {
+     "trl_band": "4-6 [inferred; product described, deployment not verified]",
+     "trl_evidence": "Press article describes product development; no pilot read.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "No monetary prize stated in the single source.",
+     "routes": [
+      {
+       "route": "CDTI (Spain)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium-low (win from one source; NIDO and NIDO Contech identity inferred)",
+    "flags": [
+     "Pitch win rests on a single article; the link between NIDO and NIDO Contech is inferred."
+    ]
+   },
+   {
+    "name": "VesselChain",
+    "country": "Spain",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "spain": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "http://www.vesselchain.org/",
+    "one_liner": "Blockchain-based maritime certification and vessel data platform.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "CDTI (Spain)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "ENISA (Spain)",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": []
+   },
+   {
+    "name": "RedGet.io",
+    "country": "Bulgaria",
+    "registry": {
+     "fi_prh": "not applicable",
+     "no_brreg": "not applicable",
+     "bulgaria": "not registry-checked (outside scope)",
+     "business_id": null
+    },
+    "website": "https://redget.io/",
+    "one_liner": "AI greenhouse-gas emissions monitoring and reporting (Scope 1, 2 and 3) for ports and maritime operators.",
+    "apelago_link": [
+     {
+      "cohort": "2026",
+      "programme": "A'Pelago Nordic Blue 2026 accelerator (batch)",
+      "role": "batch member",
+      "source": "https://www.apelago.fi/nordic-blue-2026-meet-this-years-batch/"
+     }
+    ],
+    "pitch": [],
+    "assessment": {
+     "trl_band": "unknown",
+     "trl_evidence": "Site not read in this run.",
+     "brl_band": "unknown",
+     "brl_evidence": "None found.",
+     "funding_evidence": "None found.",
+     "routes": [
+      {
+       "route": "EIC Accelerator (EU)",
+       "basis": "[inferred]"
+      },
+      {
+       "route": "EU LIFE or Horizon climate programmes",
+       "basis": "[inferred]"
+      }
+     ]
+    },
+    "confidence": "medium",
+    "flags": []
+   }
+  ],
+  "adjacent_not_alumni": [
+   {
+    "name": "Origin by Ocean",
+    "reason": "Previous speaker at the A'Pelago Initiative (CEO). Not a cohort, pitch or batch member in the pages read.",
+    "source": "https://www.apelago.fi/apelago-initiative/"
+   },
+   {
+    "name": "Lab2Impact",
+    "reason": "Programme page names no participant companies. The programme text says more than 50 researchers, all Finnish.",
+    "source": "https://www.apelago.fi/laboff/"
+   },
+   {
+    "name": "Decelerator 2026 event",
+    "reason": "Event page names no companies. Named organisations are the organiser, the venue and the facilitator only.",
+    "source": "https://www.apelago.fi/events/jarruttamo/"
+   },
+   {
+    "name": "A'Pelago Initiative 2026 exhibitors",
+    "reason": "No 2026 exhibitor or startup list found. The Initiative page names speakers only.",
+    "source": "https://www.apelago.fi/apelago-initiative/"
+   },
+   {
+    "name": "Redstone Blue portfolio rows in the raw files (NanoHalen, Valkama Watercrafts, Viva Electric Jets, Kelluu, Unique Docks, Norolan, Klimate)",
+    "reason": "Tagged Redstone Blue portfolio in the raw files. No A'Pelago source found for these. NPHarvest is the only one included, because it is a 2025 pitch finalist.",
+    "source": "existing raw rows"
+   }
+  ],
+  "not_found": [
+   "2024 Pitch Challenge finalists or winners: none found in the news pages read.",
+   "2025 Pitch Challenge winner: not named in the finalists article or the call page.",
+   "2026 Pitch Challenge finalists other than the winner: not found.",
+   "Lab2Impact participants: none named.",
+   "Decelerator 2026 participants: none named.",
+   "A'Pelago Initiative 2026 startup exhibitors: none found."
+  ]
+ },
+ "judge_known_famous": {
+  "meta": {
+   "purpose": "Answer key for judge-typed famous Nordic ocean and maritime companies (Redstone x A'Pelago, Ocean Opportunity Radar).",
+   "as_of": "2026-10-16",
+   "method": "Registry records from PRH (FI) and Brreg (NO) APIs via a read-only probe with User-Agent junctionx-research-probe/0.1. Company facts from company sites and press pages via WebFetch. WebSearch used 4 of 5 permitted calls. Dealroom, Crunchbase, PitchBook and Tracxn were not used as sources.",
+   "evidence_tags": {
+    "fetched": "Read from the company site or a press/primary page in this run",
+    "search_result": "Seen only in a WebSearch summary, page not fetched",
+    "not_verified": "Not found or not reachable; no claim made"
+   },
+   "trl_scale": "TRL 1-9 (standard NASA-style scale). Bands used here are analyst judgments from the cited evidence, not vendor data.",
+   "brl_scale": "Analyst bands. 1-3: no named paying customers evidenced. 4-6: named pilots, early or unquantified commercial use. 7-9: multiple named commercial customers or contracts with dated deployments, or disclosed scale.",
+   "redstone_window": "Pre-seed to Series A, as stated in the brief.",
+   "sources_not_reachable": [
+    "groke.ai (connection refused)",
+    "groke.com (certificate belongs to another host)",
+    "remora-robotics.com and remora.no (reset or DNS failure)",
+    "sensemakers.io (DNS failure); sensemakers.dk fetched",
+    "origin-by-ocean.com (DNS failure); originbyocean.com fetched",
+    "hefring.com (certificate mismatch); hefringmarine.com fetched",
+    "iceye.com/about and norsepower.com/about-us (HTTP 404)"
+   ]
+  },
+  "companies": [
+   {
+    "name": "Norsepower",
+    "group": "requested",
+    "country": "FI (registry); NO entity also exists",
+    "one_liner": "Rotor Sail wind propulsion for ships. Site tagline: 'Bringing sails back to shipping since 2012.'",
+    "founded": "2012 (PRH registration 2012-11-08; site tagline 2012)",
+    "hq": "Helsinki (PRH registered address, Tallberginkatu 2). Site does not state HQ.",
+    "website": "https://www.norsepower.com/",
+    "registry": {
+     "fi": {
+      "name": "Norsepower Oy Ltd",
+      "business_id": "2506251-5",
+      "registered": "2012-11-08"
+     },
+     "no": {
+      "name": "NORSEPOWER AS",
+      "org_nr": "936106404",
+      "registered": "2025-08-26",
+      "city": "Oslo",
+      "note": "Separate Norwegian entity; relationship to the Finnish company not checked."
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "DNV GL first type approval for an auxiliary wind propulsion system on a commercial ship, for the 30 m x 5 m Rotor Sail.",
+      "date": "2019 (per press summary; article not fetched)",
+      "source": "https://maritime-executive.com/article/first-type-approval-for-auxiliary-wind-propulsion-system-awarded",
+      "tag": "search_result"
+     },
+     {
+      "claim": "38 Rotor Sails installed on 21 vessels, 46 more ordered. 100,000+ hours of 'third-party verified performance data'.",
+      "date": "not stated on page",
+      "source": "https://www.norsepower.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Installations on a Maersk LR2 tanker, a Bore RoRo and Viking Grace (cruise ferry, 2018).",
+      "date": "2016-2019",
+      "source": "https://maritime-executive.com/article/first-type-approval-for-auxiliary-wind-propulsion-system-awarded (search summary)",
+      "tag": "search_result"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Installed base and order book: 38 installed on 21 vessels; 46 on order (company claim).",
+      "date": "not stated",
+      "source": "https://www.norsepower.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Named shipowners on site: none. Ship segments only.",
+      "date": "n/a",
+      "source": "https://www.norsepower.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue: not public in this run.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "RotorDEMO (H2020, grant 738282): total cost EUR 2,677,467.25; EU contribution EUR 1,581,256.00; coordinator Norsepower Oy Ltd; 2017-01-01 to 2018-12-31.",
+      "date": "2017-2018",
+      "source": "https://cordis.europa.eu/project/id/738282",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Company news (2016) reports EUR 2.6M from the EU and Tekes for R&D; amounts not checked beyond the CORDIS record above.",
+      "date": "2016",
+      "source": "https://www.norsepower.com/post/norsepower-receives-eur2-6m-funding-to-develop-the-worlds-largest-rotor-sail/ (search summary)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "EU Innovation Fund grant: not found in this run.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     },
+     {
+      "claim": "Latest equity rounds and investors: not found in this run.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "9 (type-approved; installed on commercial vessels)",
+     "brl_band": "7 (installed base and orders; revenue not public)",
+     "investment_stage": "Late-stage commercial company. Latest equity round not verified.",
+     "redstone_fit": "Too late",
+     "reason": "Established product with type approval and an installed fleet. Outside pre-seed to Series A. Thesis fit is partial: ship energy efficiency, not ocean ecosystems or resources."
+    }
+   },
+   {
+    "name": "ICEYE",
+    "group": "requested",
+    "country": "FI",
+    "one_liner": "Synthetic aperture radar (SAR) satellite constellation and analytics, sold to government, defence and commercial users.",
+    "founded": "2014 (PRH registration 2014-09-16; ICEYE Oy)",
+    "hq": "Espoo per PRH registered address (Maarintie 6). Press sources also say Helsinki.",
+    "website": "https://www.iceye.com/newsroom",
+    "registry": {
+     "fi": {
+      "name": "ICEYE Oy",
+      "business_id": "2639822-1",
+      "registered": "2014-09-16",
+      "address": "Maarintie 6, 02150 Espoo"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Operational constellation (SAR satellites in orbit). 16 satellites on orbit as stated in February 2022.",
+      "date": "2022-02-03",
+      "source": "https://www.satellitetoday.com/finance/2022/02/03/iceye-raises-136m-in-series-d-funding-round/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "64 satellites in orbit as of March 2026, with more launches planned.",
+      "date": "2026-03 (aggregator)",
+      "source": "not cited (aggregator data only)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "Company news shows government and defence partnerships: Nokia sovereign satellite communications (2026-10-01); ESA ARISE consortium led by ICEYE (2026-09-17); State of California disaster response partnership (2026-10-08).",
+      "date": "2026-09 to 2026-10",
+      "source": "https://www.iceye.com/newsroom",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Commercial and government customers named in company news: California state partnership; Sompo Japan contract for Flood Insights (2026-09-07); Insurity distribution (2026-09-29).",
+      "date": "2026-09 to 2026-10",
+      "source": "https://www.iceye.com/newsroom",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue: not verified in this run.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Series D USD 136M led by Seraphim Space, with BAE Systems and Kajima Ventures as new strategic investors and the UK NSSIF; total raised USD 304M at that time.",
+      "date": "2022-02-03",
+      "source": "https://www.satellitetoday.com/finance/2022/02/03/iceye-raises-136m-in-series-d-funding-round/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Series E about EUR 150M new money plus EUR 50M secondary, led by General Catalyst, at about EUR 2.4bn valuation.",
+      "date": "2025-12 (aggregator)",
+      "source": "not cited (aggregator only)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "Series F about EUR 450M led by General Atlantic, valuation above EUR 10bn; closing expected Q3 2026 subject to approvals.",
+      "date": "2026-06 (aggregator)",
+      "source": "not cited (aggregator only)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "EU grants: not verified.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "9 (operational constellation)",
+     "brl_band": "9 (government and commercial contracts; revenue not verified)",
+     "investment_stage": "Late growth. Series D verified; Series E and F reported by aggregators only.",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Late-stage, dual-use (defence and government) satellite company. Far outside pre-seed to Series A, and the core business is not ocean-specific."
+    }
+   },
+   {
+    "name": "Groke Technologies",
+    "group": "requested",
+    "country": "FI",
+    "one_liner": "Vessel situational awareness combining cameras, radar and AIS data (product 'Groke Pro' per press caption).",
+    "founded": "2019 (PRH registration 2019-10-17)",
+    "hq": "Turku (PRH registered address, Lemminkaisenkatu 14-18)",
+    "website": "groke.ai (connection refused; not verified)",
+    "registry": {
+     "fi": {
+      "name": "NACOS Marine Finland Oy (current, since 2026-05-17); previously Groke Technologies Oy",
+      "business_id": "3092837-9",
+      "registered": "2019-10-17"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Product in use on tankers. Uyeno Transtech reports installing cameras on its vessels since 2020 for Groke's image data.",
+      "date": "2020 onward (per Digital Ship article)",
+      "source": "https://thedigitalship.com/news/maritime-software/groke-technologies-secures-investment-from-three-tanker-operators",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Vessel count and certifications: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Three Japanese tanker operators (Uyeno Transtech, Tsurumi Sunmarine, Asahi Tanker) are both investors and cooperating users.",
+      "date": "article shows 2025-11-05 but its body refers to a spring 2022 sales plan, so the true date is probably 2021; not resolved",
+      "source": "https://thedigitalship.com/news/maritime-software/groke-technologies-secures-investment-from-three-tanker-operators",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue and vessel count: not verified.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Raised funds from three Japanese tanker operators. Round size: not stated in the article.",
+      "date": "see brl_evidence date note",
+      "source": "https://thedigitalship.com/news/maritime-software/groke-technologies-secures-investment-from-three-tanker-operators",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Aggregators report seed-type rounds in 2020-2021 with an investor count of 5. These conflict with each other and with a 'no known funding' listing. Not used as a source.",
+      "date": "2020-2021",
+      "source": "not cited",
+      "tag": "search_result"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7-8 (product in commercial use; deployment count not verified)",
+     "brl_band": "4-5 (named investor-customers; no revenue or vessel count)",
+     "investment_stage": "Seed-type rounds per aggregators (2020-2021 or 2021). Round size not verified.",
+     "redstone_fit": "Borderline, in window only if still pre-Series A",
+     "reason": "Commercial maritime safety product, weak to partial ocean thesis fit. Stage depends on funding dates that conflict across sources. Re-check before any judge-facing claim."
+    }
+   },
+   {
+    "name": "Awake.AI",
+    "group": "requested",
+    "country": "FI",
+    "one_liner": "AI port call planning and maritime emissions analytics (Port Vision, AI Sea, Emission Monitor).",
+    "founded": "2018 (PRH registration 2018-10-30; AWAKE.AI Oy)",
+    "hq": "Turku (PRH registered address, Lemminkaisenkatu 32; footer shows Datacity, Turku)",
+    "website": "https://awake.ai/",
+    "registry": {
+     "fi": {
+      "name": "AWAKE.AI Oy",
+      "business_id": "2945733-8",
+      "registered": "2018-10-30"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Commercial port products; partnerships and service expansions in the news list: Fintraffic expanding Port Call Time Stamp and ETA service stepwise in the Baltic (2025-06-11); StormGeo partnership (2025-04-29); Optko partnership (2025-09-22); Tidalis partnership for emissions monitoring (2026-05-13).",
+      "date": "2025-2026",
+      "source": "https://awake.ai/news/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Analytics configured for over 3,000 ports; 1.5 million voyage predictions per day (company claim).",
+      "date": "not stated",
+      "source": "https://awake.ai/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Named partners and customers on site: Port of Gothenburg (Berth Planner testimonial), X-Press Feeder, Fintraffic, Port of Antwerp-Bruges, COSCO, DFDS, CMA CGM and others (partner logos; roles not separated).",
+      "date": "not stated",
+      "source": "https://awake.ai/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Interreg CO2 and logistics digital tool tender (Dec 2024); pilot ports listed as Rauma, Pori, Norrkoping, Oxelosund, Mariehamn, Tallinn and Riga.",
+      "date": "2024-12",
+      "source": "https://awake.ai/news/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue and contract values: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No funding rounds, investors or grants stated on the site or news list.",
+      "date": "n/a",
+      "source": "https://awake.ai/news/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8 (commercial port products)",
+     "brl_band": "6 (named port and shipping partners, public tender win; revenue not public)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Off-thesis (weak); stage unknown",
+     "reason": "Port logistics and emissions software for shipping. Maritime, but not an ocean resource or ecology thesis. Funding not found, so the stage cannot be assessed."
+    }
+   },
+   {
+    "name": "Origin by Ocean",
+    "group": "requested",
+    "country": "FI",
+    "one_liner": "Sargassum-derived functional ingredients: OCEANBOOST (fucoidan) and OCEANTHIX (alginate), with a planned Kokkola biorefinery.",
+    "founded": "2019 (PRH registration 2019-03-01 as Ocean Orchard Oy; renamed Origin by Ocean Oy in 2022)",
+    "hq": "Espoo per PRH registered address (Tietotie 2, 02150). Site does not state HQ.",
+    "website": "https://originbyocean.com/ (www.origin-by-ocean.com not resolvable)",
+    "registry": {
+     "fi": {
+      "name": "Origin by Ocean Oy (formerly Ocean Orchard Oy)",
+      "business_id": "2982879-2",
+      "registered": "2019-03-01"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Products are commercial ingredients with sample requests and preorders. Dedicated UV and FG grades are described as in development.",
+      "date": "not stated",
+      "source": "https://originbyocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Biorefinery: planned first industrial-scale site in Kokkola, Finland. Capacity and timeline not stated.",
+      "date": "not stated (news headline 2026-05-13)",
+      "source": "https://originbyocean.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Named brand users: sauna/ing and Ole Hyva Luonnontuote (formulations); Marimekko textile-printing pilot.",
+      "date": "not stated",
+      "source": "https://originbyocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Awards: European Natural Beauty Awards (2025 and 2026); Cosmopack 2026 sustainability award.",
+      "date": "2025-2026",
+      "source": "https://originbyocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue and volumes: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "EU backing for the first industrial-scale seaweed biorefinery (headline dated 2026-05-13). Programme and amount not found.",
+      "date": "2026-05-13",
+      "source": "https://originbyocean.com/ (news headline)",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Equity rounds and investors: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "Ingredients 6-7; biorefinery 5-6",
+     "brl_band": "3-4 (named brand users and pilots; no revenue)",
+     "investment_stage": "Not verified. EU backing for a biorefinery suggests capital needs beyond seed; round data missing.",
+     "redstone_fit": "In window (borderline), strong blue fit",
+     "reason": "Blue biotech from marine biomass with brand pilots and a 2019 founding. Verify the EU amount and round history before calling it in window."
+    }
+   },
+   {
+    "name": "Kelluu",
+    "group": "requested",
+    "country": "FI",
+    "one_liner": "Autonomous hydrogen airships for persistent aerial monitoring, mainly defence, infrastructure and forest monitoring.",
+    "founded": "2018 (PRH registration 2018-03-14 as L-Airships Oy; renamed Kelluu Oy 2018-12-17)",
+    "hq": "Reijola, Finland (PRH registered address, Metallimiehentie 4). Site says it is 'the northernmost airship factory in the world'.",
+    "website": "https://www.kelluu.com/",
+    "registry": {
+     "fi": {
+      "name": "Kelluu Oy",
+      "business_id": "2902007-2",
+      "registered": "2018-03-14"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Fleet has flown over 50,000 km; 12-hour Arctic missions; operates to -33 C (press summary of company claims).",
+      "date": "2026-04 (press)",
+      "source": "https://www.nif.fund/news/the-nato-innovation-fund-leads-e15mn-series-a-in-kelluu-to-build-europes-persistent-aerial-intelligence-layer-and-strengthen-natos-surveillance-capabilities/ (summary cites press)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "Real-time integration with the Maven Smart System during Exercise Steadfast Dart 26 (Feb 2026), delivering live video to allied forces.",
+      "date": "2026-02 (press summary)",
+      "source": "https://thenextweb.com:443/news/kelluu-raises-e15m-to-build-a-persistent-aerial-intelligence-layer-for-europe (search summary)",
+      "tag": "search_result"
+     },
+     {
+      "claim": "Site: 'proven flight time of 12 hours throughout the year'; payload 6 kg; forest monitoring study in Koli national park.",
+      "date": "not stated",
+      "source": "https://www.kelluu.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Named customer on site: Terrafame (3D digital twin project; no value or date). Defence and infrastructure use claimed, no contracts dated.",
+      "date": "not stated",
+      "source": "https://www.kelluu.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "DIANA member since 2024; selected as one of 15 from over 2,600 applicants; completed two phases.",
+      "date": "2024-2026",
+      "source": "https://www.nif.fund/news/the-nato-innovation-fund-leads-e15mn-series-a-in-kelluu-to-build-europes-persistent-aerial-intelligence-layer-and-strengthen-natos-surveillance-capabilities/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Series A EUR 15M led by the NATO Innovation Fund (its first direct investment in Finland). Other investors: Keen Venture Partners, Gungnir Capital and Tesi. Use of funds: technology, AI, fleet expansion and international growth.",
+      "date": "2026-04-14",
+      "source": "https://www.nif.fund/news/the-nato-innovation-fund-leads-e15mn-series-a-in-kelluu-to-build-europes-persistent-aerial-intelligence-layer-and-strengthen-natos-surveillance-capabilities/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Prior workspace notes list a 2021 Redstone investment in Kelluu. Not re-verified in this run.",
+      "date": "2021 (per workspace notes)",
+      "source": "workspace notes, not re-checked",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8 (operational fleet, military exercise integration)",
+     "brl_band": "6-7 (defence, government and industrial use; revenue not public)",
+     "investment_stage": "Series A closed 2026-04-14 (EUR 15M, NATO Innovation Fund lead)",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Post-Series A, defence-led and aerial rather than ocean. Outside the pre-seed to Series A window. Its only blue link is in the Redstone portfolio tags, which are weak."
+    }
+   },
+   {
+    "name": "Zeabuz",
+    "group": "requested",
+    "country": "NO",
+    "one_liner": "Autonomy for any vessel: ZeaMate self-sailing system, ZeaControl and USV solutions. Site tagline: 'Dual-use autonomy for any vessel and operation.'",
+    "founded": "2019 (Brreg registration 2019-12-09)",
+    "hq": "Trondheim (Brreg: Skippergata 14, 7042 Trondheim; site agrees)",
+    "website": "https://www.zeabuz.com/",
+    "registry": {
+     "no": {
+      "name": "ZEABUZ AS",
+      "org_nr": "924571179",
+      "registered": "2019-12-09",
+      "city": "Trondheim",
+      "employees_brreg": 30,
+      "employees_note": "Brreg field; year not given by the API"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "First Virtual Cable Ferry System deployed in Aland (commercial milestone per company news).",
+      "date": "2026-09-28",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "MF Estelle, Stockholm: described on site as 'the world's first autonomous commercial passenger ferry'. Date not on page.",
+      "date": "not stated",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Dual-Use Demo Day 2026 demonstrations after NATO dialogue.",
+      "date": "2026-09-25",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Yinson GreenTech HydroFerry programme selection (selection, not a deployment).",
+      "date": "2026-10-08",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Other customers shown as unnamed logos. Revenue not stated.",
+      "date": "n/a",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No round amounts or investors stated. EIT Urban Mobility appears as a footer partner logo, not as a stated grant.",
+      "date": "n/a",
+      "source": "https://www.zeabuz.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8 (commercial ferry operations and deployments)",
+     "brl_band": "6-7 (commercial deployments; named partner selection; no revenue)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Too late if it has institutional rounds, otherwise off-thesis (partial); verify",
+     "reason": "Commercial autonomous vessels with dated deployments. Maritime autonomy rather than ocean resources or ecology. Funding history needed before a fit call."
+    }
+   },
+   {
+    "name": "CorPower Ocean",
+    "group": "requested",
+    "country": "SE",
+    "one_liner": "C4 wave energy converters and project delivery. Site: 'We're on a mission to power the planet with clean energy from ocean waves.'",
+    "founded": "not stated",
+    "hq": "Stockholm (site footer)",
+    "website": "https://corpowerocean.com/",
+    "registry": {
+     "note": "Swedish registry not queried (outside the brief's registry sources)."
+    },
+    "trl_evidence": [
+     {
+      "claim": "HiWave-5 at Aguçadoura, Portugal: C4 in full-scale operation, delivering power to the grid.",
+      "date": "not stated",
+      "source": "https://corpowerocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "World-first DNV certification for wave energy technology (DNV Prototype Certificate).",
+      "date": "2026-07-21",
+      "source": "https://corpowerocean.com/news/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Portugal's deputy energy minister visited Viana do Castelo operations (news).",
+      "date": "2026-09-21",
+      "source": "https://corpowerocean.com/news/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Partners EDP, ESB and TotalEnergies on HiWave-5; VianaWave 10 MW array targeted for 2029/30, about 46 GWh per year.",
+      "date": "not stated",
+      "source": "https://corpowerocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "EU Innovation Fund grant EUR 40M supporting VianaWave (grant date not stated).",
+      "date": "not stated",
+      "source": "https://corpowerocean.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Investors shown as logos only: Lombard Odier, Inno, Nordic Ninja. Amounts and dates not stated.",
+      "date": "not stated",
+      "source": "https://corpowerocean.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7 (full-scale grid-connected demonstrator; DNV prototype certification 2026)",
+     "brl_band": "5 (utility partners; project pipeline; no revenue)",
+     "investment_stage": "Grant-backed project developer (EUR 40M Innovation Fund); equity amounts not verified",
+     "redstone_fit": "Too late",
+     "reason": "Utility partners, a EUR 40M EU grant and a 10 MW project pipeline put it well beyond pre-seed to Series A, although the ocean-energy thesis fit is strong."
+    }
+   },
+   {
+    "name": "Candela",
+    "group": "requested",
+    "country": "SE",
+    "one_liner": "Hydrofoiling electric boats and ferries (P-12, C-8, C-7). Site: 'Redefining urban waterborne transportation.'",
+    "founded": "not stated",
+    "hq": "Not stated on site; press describes Stockholm. 'Designed and made in Sweden' per site.",
+    "website": "https://www.candela.com/",
+    "registry": {
+     "note": "Swedish registry not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "First electric hydrofoil ferry line launched in Stockholm.",
+      "date": "2024-10-29",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Flying electric ferries returned to Trondheim, now electric; Stockholm service success reports.",
+      "date": "2025-12-12; 2026-02-12",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "C-7 passed a Swiss safety and noise test (certifying body not named).",
+      "date": "2021-02-11",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "P-12 completed the world's longest electric sea journey.",
+      "date": "2026-02-02",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Sold ten electric P-12 ferries to the Maldives.",
+      "date": "2025-11-06",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Boreal investment in 20 P-12 hydrofoil vessels (white paper; contract date not stated).",
+      "date": "not stated",
+      "source": "https://www.candela.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "NEOM (Saudi Arabia), Lake Tahoe, Berlin and Sydney projects; counts not stated.",
+      "date": "2024-2025",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Raised EUR 30M.",
+      "date": "2026-03-18",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Final close of a USD 40M Series C.",
+      "date": "2024-11-21",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Investors not stated on the news page.",
+      "date": "n/a",
+      "source": "https://candela.com/news",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8-9 (commercial ferry service and deliveries)",
+     "brl_band": "7 (multiple customers and commercial orders)",
+     "investment_stage": "Series C and later (USD 40M Series C, plus EUR 30M raised in 2026)",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Late-stage passenger transport company. Electric ferries are a maritime transport play, not an ocean resource or ecology thesis."
+    }
+   },
+   {
+    "name": "X Shore",
+    "group": "requested",
+    "country": "SE",
+    "one_liner": "100% electric boats: X Shore 1 daycruiser, Eelex 8000, X Shore PRO.",
+    "founded": "not stated",
+    "hq": "not stated",
+    "website": "https://xshore.com/",
+    "registry": {
+     "note": "Swedish registry not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Commercial product range with a 10-year structural hull warranty and a one-year limited warranty (site).",
+      "date": "not stated",
+      "source": "https://xshore.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Certifications (CE or class): not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Official supplier of umpire and support boats for the 2026 Team Sailing World Championship.",
+      "date": "not stated",
+      "source": "https://xshore.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Sales and delivery counts: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "50 MSEK round. Date and lead investor not stated.",
+      "date": "not stated",
+      "source": "https://xshore.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Named as one of 20 companies in the EU Blue Champions programme (EIB). Selection date not stated; the news page lists no dated items.",
+      "date": "not stated",
+      "source": "https://xshore.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8 (commercial product range)",
+     "brl_band": "4 (named event supplier; no sales counts)",
+     "investment_stage": "Round of about EUR 4.5M (50 MSEK); date unknown, so the stage cannot be fixed",
+     "redstone_fit": "Off-thesis",
+     "reason": "Leisure and professional electric boats. Maritime but not ocean resources or ecology, so a weak blue thesis fit whatever the stage."
+    }
+   },
+   {
+    "name": "Evoy",
+    "group": "requested",
+    "country": "NO",
+    "one_liner": "100% electric motor systems for boats: Breeze 120+ hp, Storm 300+ hp, Hurricane 400+ hp.",
+    "founded": "2018 (site and Brreg registration 2018-02-04)",
+    "hq": "Florø (Brreg: Hamregata 19, 6900 Florø)",
+    "website": "https://www.evoy.no/",
+    "registry": {
+     "no": {
+      "name": "EVOY AS",
+      "org_nr": "920430384",
+      "registered": "2018-02-04",
+      "city": "Florø",
+      "employees_brreg": 5,
+      "employees_note": "Brreg field; year not given by the API"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Product line with stated power ratings and continuous and peak figures (company specification).",
+      "date": "not stated",
+      "source": "https://www.evoy.no/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Type approval or class certification: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "No customers, pilots, boat builders or deliveries named.",
+      "date": "n/a",
+      "source": "https://www.evoy.no/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No rounds, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://www.evoy.no/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7-8 (product spec published; no deployment evidence on site)",
+     "brl_band": "2-3 (no named customers)",
+     "investment_stage": "Not verified; small team (5 per Brreg field)",
+     "redstone_fit": "Off-thesis",
+     "reason": "Electrified marine propulsion for boats, not an ocean resource or ecology thesis. Little customer evidence."
+    }
+   },
+   {
+    "name": "Minesto",
+    "group": "requested",
+    "country": "SE",
+    "one_liner": "Subsea tidal kites generating power from ocean currents, 100 kW to 1.2 MW.",
+    "founded": "not stated",
+    "hq": "Vastra Frolunda, Sweden (office listed on site); UK office in Holyhead",
+    "website": "https://www.minesto.com/",
+    "registry": {
+     "note": "Swedish registry not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Projects listed: Faroe Islands clean-energy project (featured), Holyhead Deep and Taiwan (project pages). No dates, ratings or grid connection stated.",
+      "date": "not stated",
+      "source": "https://www.minesto.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Technology specs: 2.7 to 28 tonnes, span 4.9 to 12 m (company spec).",
+      "date": "not stated",
+      "source": "https://www.minesto.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "No named customers or revenue. Partner and investor logos only, without names.",
+      "date": "n/a",
+      "source": "https://www.minesto.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No amounts, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://www.minesto.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "6-7 (provisional; project references but no dated evidence on site)",
+     "brl_band": "2-3 (project references; no revenue)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Strong thesis fit; stage unverified",
+     "reason": "Ocean energy with a clear blue-economy fit. Stage and funding need checking before a call."
+    }
+   },
+   {
+    "name": "Brim Explorer",
+    "group": "requested",
+    "country": "NO",
+    "one_liner": "Silent hybrid-electric fjord sightseeing cruises. Operates as a tour operator, not a technology developer.",
+    "founded": "2017 (Brreg registration 2017-10-04)",
+    "hq": "Conflict: site lists Head Office at Dronningens gate 3, Oslo; Brreg registered address is Tromso (Prostneset Havneterminal).",
+    "website": "http://brimexplorer.com/",
+    "registry": {
+     "no": {
+      "name": "BRIM EXPLORER AS",
+      "org_nr": "919909889",
+      "registered": "2017-10-04",
+      "city": "Tromso",
+      "employees_brreg": 142,
+      "employees_note": "Brreg field; year not given by the API"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Operating hybrid-electric cruises in Tromso, Oslo, Lofoten, Stavanger, Bodo and Svalbard (operator, not technology development).",
+      "date": "not stated",
+      "source": "http://brimexplorer.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Commercial tour bookings. Revenue and passenger numbers not stated.",
+      "date": "n/a",
+      "source": "http://brimexplorer.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Not applicable (operator; no rounds stated).",
+      "date": "n/a",
+      "source": "http://brimexplorer.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "Not applicable (operator)",
+     "brl_band": "7 (operating paid service; revenue not public)",
+     "investment_stage": "Not applicable",
+     "redstone_fit": "Off-thesis",
+     "reason": "Tour operator. Not a technology startup and not ocean-technology."
+    }
+   },
+   {
+    "name": "Oceanbox",
+    "group": "requested",
+    "country": "NO",
+    "one_liner": "Cloud oceanography software: ocean data, particle-tracking simulations and analytics, mainly for aquaculture.",
+    "founded": "2021 (Brreg registration 2021-11-26)",
+    "hq": "Tromso (Brreg: Fredrik Langes gate 24)",
+    "website": "https://oceanbox.io/",
+    "registry": {
+     "no": {
+      "name": "OCEANBOX AS",
+      "org_nr": "928178056",
+      "registered": "2021-11-26",
+      "city": "Tromso",
+      "employees_brreg": 21,
+      "employees_note": "Brreg field; year not given by the API"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Cloud platform in use: ocean currents, temperature and salinity data; sea lice dispersion simulations; analytics. Company claims.",
+      "date": "not stated",
+      "source": "https://oceanbox.io/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Customer logos shown; Nordlaks named in logo alt text only. No dates or contract values.",
+      "date": "not stated",
+      "source": "https://oceanbox.io/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "Revenue: not stated.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No rounds, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://oceanbox.io/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "8 (commercial SaaS; company claims)",
+     "brl_band": "4-5 (customers named only as logos; no revenue)",
+     "investment_stage": "Not verified; founded 2021 with 21 employees (Brreg field)",
+     "redstone_fit": "In window if pre-seed to Series A; strong blue fit; verify funding",
+     "reason": "Blue-economy aquaculture data platform founded 2021. Stage is plausible for the window, but no funding is published on the site."
+    }
+   },
+   {
+    "name": "Hefring Marine",
+    "group": "requested",
+    "country": "IS",
+    "one_liner": "Marine decision intelligence: IMAS (edge AI on board, fleet analytics). Site: 'Marine Decision Intelligence for every vessel at sea.'",
+    "founded": "not stated",
+    "hq": "Iceland (ehf registration on site footer); city not stated",
+    "website": "https://www.hefringmarine.com/ (hefring.com certificate mismatch)",
+    "registry": {
+     "note": "Icelandic registry not queried; Brreg matches for HEFRING AS are different Norwegian entities and were not used."
+    },
+    "trl_evidence": [
+     {
+      "claim": "IMAS in use, with national rescue services cited as users (unnamed). Self-reported outcomes: 93% fewer vessel impacts across monitored fleets, 20% fuel reduction, 2.1M+ nautical miles tracked.",
+      "date": "not stated",
+      "source": "https://www.hefringmarine.com/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "NATO DIANA Innovator 2026 badge and news item. Selection date not stated on the page.",
+      "date": "2026 (date not stated)",
+      "source": "https://www.hefringmarine.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "No named customers, pilots or revenue on site.",
+      "date": "n/a",
+      "source": "https://www.hefringmarine.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No rounds, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://www.hefringmarine.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "7-8 (in use per company; outcomes self-reported)",
+     "brl_band": "3-4 (no named customers)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Partial thesis (maritime safety and fuel); stage unknown",
+     "reason": "Vessel safety and fuel decision software. Maritime but not ocean resources or ecology. DIANA selection adds defence credibility."
+    }
+   },
+   {
+    "name": "SeaTwirl AB",
+    "group": "requested",
+    "country": "SE",
+    "one_liner": "Floating vertical-axis offshore wind turbine for deep-water sites.",
+    "founded": "not stated",
+    "hq": "Gothenburg (site footer)",
+    "website": "https://seatwirl.com/",
+    "registry": {
+     "note": "Swedish registry not queried. Whether 'Seabased' (workspace note; domain returned 404) is the same company was not confirmed."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Concept and target markets (oil and gas platforms, islands, wind farms, fish farms). No prototype, demo dates or ratings on site.",
+      "date": "not stated",
+      "source": "https://seatwirl.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "No named customers or partners.",
+      "date": "n/a",
+      "source": "https://seatwirl.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No rounds, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://seatwirl.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "3-5 (provisional; no evidence on site)",
+     "brl_band": "1-2 (no named customers)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Strong thesis fit; stage unknown, likely in window only if pre-Series A",
+     "reason": "Ocean-infrastructure hardware with no public proof points in this run. Judges may test it; the honest answer is early stage with thin public evidence."
+    }
+   },
+   {
+    "name": "Remora Robotics",
+    "group": "requested",
+    "country": "NO",
+    "one_liner": "Autonomous net-cleaning and inspection robots for aquaculture (per prior workspace notes; not re-verified).",
+    "founded": "2015 (Brreg registration 2015-12-22)",
+    "hq": "Stavanger (Brreg: Dusavikveien 39, 4007 Stavanger)",
+    "website": "not reachable (remora-robotics.com reset; remora.no DNS failure)",
+    "registry": {
+     "no": {
+      "name": "REMORA ROBOTICS AS",
+      "org_nr": "916538251",
+      "registered": "2015-12-22",
+      "city": "Stavanger",
+      "employees_brreg": 39,
+      "employees_note": "Brreg field; year not given by the API"
+     }
+    },
+    "trl_evidence": [
+     {
+      "claim": "Not verified: site unreachable in this run.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Not verified.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Not verified.",
+      "date": "n/a",
+      "source": "n/a",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "Not assessed",
+     "brl_band": "Not assessed",
+     "investment_stage": "Not assessed",
+     "redstone_fit": "Cannot be called; re-check when the site is reachable",
+     "reason": "Registry confirms a 2015 company with 39 employees (Brreg field). No product or funding evidence obtained."
+    }
+   },
+   {
+    "name": "Sensemakers",
+    "group": "requested",
+    "country": "DK (inferred from .dk domain; registry not queried)",
+    "one_liner": "Autonomous research vessels (SenseBoat) and SenseVision AI sensor data platform for subsea and water-quality intelligence.",
+    "founded": "not stated",
+    "hq": "not stated",
+    "website": "https://sensemakers.dk/ (sensemakers.io not resolvable)",
+    "registry": {
+     "note": "Danish registry not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Products described (SenseBoat, SenseVision). No dated deployments on the site.",
+      "date": "not stated",
+      "source": "https://sensemakers.dk/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Named customers: none. Supporter logos only (ESA BIC Denmark, DTU, Innovationsfonden, DHI, Odense Robotics, FORCE, Maritime Fonden, and others).",
+      "date": "not stated",
+      "source": "https://sensemakers.dk/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Supporter logos: Innovationsfonden and ESA BIC Denmark. No amounts, dates or lead investors stated.",
+      "date": "not stated",
+      "source": "https://sensemakers.dk/",
+      "tag": "fetched"
+     },
+     {
+      "claim": "A'Pelago Nordic Blue 2026 cohort membership (per workspace notes). Not re-verified in this run.",
+      "date": "2026 (workspace notes)",
+      "source": "workspace notes",
+      "tag": "not_verified"
+     }
+    ],
+    "assessment": {
+     "trl_band": "6-7 (live data platform and vessels per company; dated deployments not published)",
+     "brl_band": "3 (no named customers)",
+     "investment_stage": "Grant and accelerator-supported; amounts not verified",
+     "redstone_fit": "In window (likely); strong blue fit; verify",
+     "reason": "Marine research sensing with a pre-commercial profile and strong ocean thesis fit. Its supporter list looks like grant and accelerator funding, not equity."
+    }
+   }
+  ],
+  "extra_companies": [
+   {
+    "name": "Wartsila",
+    "group": "extra (likely judge input)",
+    "country": "FI (listed, Nasdaq Helsinki)",
+    "one_liner": "Global marine and energy technology group. Site: 'a global leader in innovative technologies and services shaping the decarbonisation of marine and energy.'",
+    "founded": "not stated on the fetched page",
+    "hq": "not stated on the fetched page",
+    "website": "https://www.wartsila.com/about",
+    "registry": {
+     "note": "Not queried (large listed group; PRH not needed for the call)."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Mature marine products (site: 'a global pioneer in power, propulsion, digital, and lifecycle solutions').",
+      "date": "n/a",
+      "source": "https://www.wartsila.com/about",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Net sales EUR 6,219M for 2025 (restated after discontinued operations).",
+      "date": "2025",
+      "source": "https://www.wartsila.com/about",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Public listed company; no venture rounds applicable.",
+      "date": "n/a",
+      "source": "https://www.wartsila.com/about",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "9",
+     "brl_band": "9",
+     "investment_stage": "Public company",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Large listed industrial group, not a startup. A tool should say so."
+    }
+   },
+   {
+    "name": "Kongsberg Maritime",
+    "group": "extra (likely judge input)",
+    "country": "NO (listed, Euronext Oslo, ticker KMAR)",
+    "one_liner": "Maritime technology for shipowners, shipyards, operators and navies. Demerged from Kongsberg Gruppen (per site).",
+    "founded": "not stated on the fetched page",
+    "hq": "not stated on the fetched page",
+    "website": "https://www.kongsbergmaritime.com/ (redirected from kongsberg.com/maritime)",
+    "registry": {
+     "note": "Not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Mature product areas (bridge systems, deck machinery, propulsion, naval). 2026 contracts on site: four offshore wind CSOVs; AUV hangar for research vessel.",
+      "date": "2026",
+      "source": "https://www.kongsbergmaritime.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "Headcount 7,985 ('Experts', no year). Revenue not stated.",
+      "date": "not stated",
+      "source": "https://www.kongsbergmaritime.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Public listed company.",
+      "date": "n/a",
+      "source": "https://www.kongsbergmaritime.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "9",
+     "brl_band": "9",
+     "investment_stage": "Public company",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Listed maritime equipment group. Naval and defence exposure, not a pre-seed to Series A profile."
+    }
+   },
+   {
+    "name": "Mowi",
+    "group": "extra (likely judge input)",
+    "country": "NO",
+    "one_liner": "Farmed salmon producer. Site: 'the world's largest supplier of farm-raised salmon.'",
+    "founded": "not stated on the fetched page",
+    "hq": "not stated on the fetched page (Bergen per general knowledge; unverified here)",
+    "website": "https://mowi.com/about/",
+    "registry": {
+     "note": "Not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Commercial production at scale: 559,000 tonnes harvested in 2025 (about 20% of global market share, per site).",
+      "date": "2025",
+      "source": "https://mowi.com/about/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "2025 revenue EUR 5.7bn (per site).",
+      "date": "2025",
+      "source": "https://mowi.com/about/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "Listed company; no venture rounds applicable. Exchange not stated on the page.",
+      "date": "n/a",
+      "source": "https://mowi.com/about/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "9",
+     "brl_band": "9",
+     "investment_stage": "Public company",
+     "redstone_fit": "Too late and off-thesis",
+     "reason": "Large aquaculture producer and potential customer of ocean technology, not an early-stage technology company."
+    }
+   },
+   {
+    "name": "Ocean Rainforest",
+    "group": "extra (likely judge input)",
+    "country": "FO (Faroe Islands, Kaldbak address on site)",
+    "one_liner": "Seaweed farming and processing for biostimulants, feed and food.",
+    "founded": "not stated",
+    "hq": "Kaldbak, Faroe Islands (site footer)",
+    "website": "https://www.oceanrainforest.com/",
+    "registry": {
+     "note": "Faroese registry not queried."
+    },
+    "trl_evidence": [
+     {
+      "claim": "Commercial product categories listed (biostimulants, feed, food). Sites in Faroe Islands, USA, Mexico, Iceland and Denmark. Dates and capacities not stated.",
+      "date": "not stated",
+      "source": "https://www.oceanrainforest.com/",
+      "tag": "fetched"
+     }
+    ],
+    "brl_evidence": [
+     {
+      "claim": "No named customers or revenue; partner page has no names.",
+      "date": "n/a",
+      "source": "https://www.oceanrainforest.com/",
+      "tag": "fetched"
+     }
+    ],
+    "funding": [
+     {
+      "claim": "No rounds, investors or grants stated.",
+      "date": "n/a",
+      "source": "https://www.oceanrainforest.com/",
+      "tag": "fetched"
+     }
+    ],
+    "assessment": {
+     "trl_band": "6-7 (provisional)",
+     "brl_band": "3-4 (no named customers)",
+     "investment_stage": "Not verified",
+     "redstone_fit": "Strong blue fit; stage unknown, verify",
+     "reason": "Multi-site seaweed business with product categories. Its scale and funding need checking before a call."
+    }
+   }
+  ],
+  "iceye_control_case": {
+   "expected_tool_verdict": "Late stage, dual-use, outside the window",
+   "reasons": [
+    "Founded 2014 (PRH); operational constellation of SAR satellites.",
+    "Series D USD 136M (2022, verified); Series E and F reported by aggregators in 2025-2026 but not verified against press.",
+    "Government and defence partnerships in September and October 2026 (company news, verified).",
+    "Core business is Earth observation for government, defence and commercial users, not ocean-specific."
+   ]
+  },
+  "not_verified_or_open_items": [
+   "Groke: website unreachable; funding dates conflict across sources (Digital Ship date vs its own content); vessel count and revenue not found.",
+   "Remora Robotics: site unreachable; no product, customer or funding evidence obtained.",
+   "Sensemakers, Minesto, SeaTwirl, Oceanbox, Evoy, Awake.AI, Ocean Rainforest: funding round data not found on site.",
+   "CorPower EU Innovation Fund grant date and VianaWave amount, and Kelluu Redstone investment (2021, workspace notes only), not re-verified.",
+   "X Shore 50 MSEK round date and lead investor; EIB Blue Champions selection date.",
+   "Norsepower: current installation count date; Innovation Fund grant not found (only H2020 RotorDEMO verified).",
+   "Brim Explorer HQ conflict: Oslo (site) vs Tromso (Brreg registered address).",
+   "Seabased vs SeaTwirl: unresolved whether they are the same company.",
+   "Hefring Marine: Icelandic registry not queried; site cert mismatch on hefring.com."
+  ]
+ },
+ "judge_known_redstone": {
+  "generated": "2026-10-16",
+  "purpose": "Answer key for Redstone portfolio companies relevant to the blue economy and the Nordics. Built read-only from redstone.vc, company sites, PRH open data and a capped set of web searches. Bands are inferred from public evidence; 'not stated' means not found in the sources listed.",
+  "band_definitions_inferred": {
+   "TRL": "Technology readiness, EC 1-9 scale. Bands: 1-3 concept/lab, 4-5 validation, 6-7 demonstrated in relevant or operational environment, 8-9 qualified/proven in operations.",
+   "BRL": "Business readiness, as used in the project's own notes: BRL 6-8 needs paying customers; 1-3 idea/team only; 4-5 pilots or partners without stated revenue; 9 scaled revenue.",
+   "investment_readiness": "Qualitative: pre-seed (team, product idea), seed (pilots, early funding), growth (paid customers, institutional rounds), grant-led (public funding is main runway)."
+  },
+  "portfolio_scan": {
+   "source": "https://www.redstone.vc/portfolio (page 1 and ?fdfd0e13_page=2; page 2 has no next link; page 3 empty)",
+   "filters_shown": [
+    "Blue Economy",
+    "Energy & Infrastructure",
+    "Health",
+    "Industrial",
+    "Fintech",
+    "Deeptech",
+    "Social Impact",
+    "Venture Debt"
+   ],
+   "nordic_filter_shown": false,
+   "blue_economy_tagged": [
+    "Kelluu Airships",
+    "Klimate",
+    "NanoHalen",
+    "Norolan",
+    "Redkik",
+    "Tethys Robotics",
+    "Unique Docks",
+    "Valkama Watercrafts",
+    "Viva Jets"
+   ],
+   "investment_years_shown_on_list_page": false,
+   "note": "The list page shows no investment years; years were taken from each company page. The count of 9 matches the earlier w2-startups.md list."
+  },
+  "companies": [
+   {
+    "name": "Valkama Watercrafts",
+    "redstone": {
+     "tags": [
+      "Energy & Infrastructure",
+      "Blue Economy"
+     ],
+     "fund": "South Savo Fund (managed by Redstone)",
+     "investment_year": 2023,
+     "url": "https://www.redstone.vc/portfolio/valkama-watercrafts"
+    },
+    "country": "Finland",
+    "location": "Mikkeli",
+    "website": "https://valkama.com/",
+    "website_note": "Legal entity name, business ID and HQ not stated on site; footer shows a Mikkeli address.",
+    "legal_entity": {
+     "name": "Valkama Watercrafts Oy",
+     "business_id": "3274823-2",
+     "registration_date": "2022-05-17",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2"
+    },
+    "one_liner": "Modular, autonomous electric surface vehicles (platform 'AAVe' on site; 'Harbor Master' variant) for military/defence and public-safety use.",
+    "blue_fit": {
+     "strength": "strong",
+     "reason": "Autonomous maritime vessels; Redstone tags Blue Economy; a direct ocean-platform product."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2023",
+      "fact": "South Savo Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/valkama-watercrafts",
+      "verified": true
+     },
+     {
+      "date": "2022-05-17",
+      "fact": "Company registered in PRH as Valkama Watercrafts Oy",
+      "source": "PRH YTJ open data",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "Site names customer segments (naval defence, public safety) but no named customers, pilots or contracts",
+      "source": "https://valkama.com/",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "No external funding round found. Search summaries reported no known round; Dealroom page was not retrievable (HTTP 403)",
+      "source": "WebSearch summary, CB Insights/Dealroom snippets",
+      "verified": false
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "6-7 (inferred)",
+     "trl_evidence": "Product claims a 'military-grade' fully autonomous platform; no trial, test or certification stated.",
+     "brl_band": "3-5 (inferred)",
+     "brl_evidence": "No named customers, pilots or revenue; segments only.",
+     "investment_readiness_band": "pre-seed to seed (inferred)",
+     "ir_evidence": "No round found; investment year 2023 via Redstone regional fund."
+    },
+    "next_routes_inferred": [
+     "Defence and public-safety procurement pilots (named buyer needed for BRL)",
+     "Business Finland defence/dual-use programmes",
+     "NATO DIANA or EU defence innovation calls (eligibility not checked)"
+    ]
+   },
+   {
+    "name": "Unique Docks",
+    "redstone": {
+     "tags": [
+      "Energy & Infrastructure",
+      "Blue Economy"
+     ],
+     "fund": "South Savo Fund (managed by Redstone)",
+     "investment_year": 2023,
+     "url": "https://www.redstone.vc/portfolio/unique-docks"
+    },
+    "country": "Finland",
+    "location": "Savonlinna",
+    "website": "https://www.uniquedocks.com/ (also tried https://uniquedocks.com/)",
+    "website_note": "Both fetches returned a WordPress/PHP error page (missing plugin file). Company content could not be read.",
+    "legal_entity": {
+     "name": "not identified",
+     "business_id": "not identified",
+     "registry": "PRH open data queried for 'Unique Docks' and 'Unique Docks Oy' (0 matches) and 'Uniquedocks' (0 matches)"
+    },
+    "one_liner": "Modular floating docks from recycled plastic composite; no heavy machinery needed for assembly (Redstone description).",
+    "blue_fit": {
+     "strength": "medium",
+     "reason": "Marina and waterfront infrastructure with a recycling angle; Redstone tags Blue Economy, but it is more inland/marina infrastructure than ocean science or ocean economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2023",
+      "fact": "South Savo Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/unique-docks",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "No company-level funding, customers or certifications could be read",
+      "source": "company site error page",
+      "verified": false
+     },
+     {
+      "date": "unknown",
+      "fact": "An EU Enterprise Europe Network listing describes a Finnish dock maker using recycled household plastic composite, validity ended Sep 2025. The company is not named in the retrieved text, so it is NOT attributed to Unique Docks",
+      "source": "https://een.ec.europa.eu/node/39716 (search snippet; page returned HTTP 403 on fetch)",
+      "verified": false
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "5-7 (inferred; product described, deployments not evidenced)",
+     "trl_evidence": "Product description only; no trial, certification or reference project readable.",
+     "brl_band": "unknown (inferred 3-5)",
+     "brl_evidence": "No customers readable; registry entity not identified, so revenue cannot be checked.",
+     "investment_readiness_band": "unknown (seed or grant-led possible)",
+     "ir_evidence": "Only the 2023 regional fund investment is confirmed."
+    },
+    "next_routes_inferred": [
+     "Resolve the legal entity in PRH before presenting any revenue claim",
+     "Ports, marinas and municipal waterfront procurement",
+     "Regional and Business Finland circular-economy funding"
+    ]
+   },
+   {
+    "name": "Viva Electric Jets (Viva Jets)",
+    "redstone": {
+     "tags": [
+      "Blue Economy",
+      "Energy & Infrastructure"
+     ],
+     "fund": "South Savo Fund (managed by Redstone)",
+     "investment_year": 2025,
+     "url": "https://www.redstone.vc/portfolio/viva-jets"
+    },
+    "country": "Finland",
+    "location": "Mikkeli",
+    "website": "https://vivaelectricjets.com/",
+    "website_note": "Site says the vessel was developed in Finland; legal name and HQ not stated on site. Site lists 'eMPV' (electric multipurpose vessel).",
+    "legal_entity": {
+     "name": "Viva Jets Oy",
+     "business_id": "2962040-6",
+     "registration_date": "2019-02-25",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2"
+    },
+    "one_liner": "Electric personal watercraft / multipurpose vessel with zero-emission powertrain and bio-composite hull.",
+    "blue_fit": {
+     "strength": "medium",
+     "reason": "Electric marine craft; the market is recreational and authority use, not ocean science or infrastructure. Redstone tags Blue Economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2025",
+      "fact": "South Savo Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/viva-jets",
+      "verified": true
+     },
+     {
+      "date": "2019-02-25",
+      "fact": "Viva Jets Oy registered in PRH (predates the 2025 Redstone investment)",
+      "source": "PRH YTJ open data",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "Site shows an EU co-funding logo with no amount or date, and a Teko logo with no described relationship",
+      "source": "https://vivaelectricjets.com/",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "No pilots, customers, certifications or news items with dates",
+      "source": "https://vivaelectricjets.com/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "6-7 (inferred)",
+     "trl_evidence": "Product is described as manufactured; no field trials or certification shown.",
+     "brl_band": "3-4 (inferred)",
+     "brl_evidence": "No named customers or revenue; EU co-funding is a grant, not a sale.",
+     "investment_readiness_band": "seed, grant-supported (inferred)",
+     "ir_evidence": "EU co-funding logo and a 2025 regional fund investment; no round size stated."
+    },
+    "next_routes_inferred": [
+     "Dealer or rental-operator pilots",
+     "Authority pilots (rescue, border, environmental monitoring)",
+     "Business Finland growth funding"
+    ]
+   },
+   {
+    "name": "NanoHalen",
+    "redstone": {
+     "tags": [
+      "Energy & Infrastructure",
+      "Blue Economy"
+     ],
+     "fund": "North Karelia Growth Fund (managed by Redstone)",
+     "investment_year": 2024,
+     "url": "https://www.redstone.vc/portfolio/nanohalen"
+    },
+    "country": "Finland",
+    "location": "Joensuu",
+    "website": "https://nanohalen.fi/",
+    "website_note": "Site names NanoHalen Oy and gives founding year 2023.",
+    "legal_entity": {
+     "name": "NanoHalen Oy",
+     "business_id": "3399187-5",
+     "registration_date": "2023-11-30",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2"
+    },
+    "one_liner": "Fast, low-impact measurement methods for drinking and domestic water quality.",
+    "blue_fit": {
+     "strength": "weak",
+     "reason": "Freshwater drinking and domestic water testing, not ocean or marine economy. Redstone tags Blue Economy, which a judge may challenge."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2024",
+      "fact": "North Karelia Growth Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/nanohalen",
+      "verified": true
+     },
+     {
+      "date": "2023-11-30",
+      "fact": "NanoHalen Oy registered in PRH",
+      "source": "PRH YTJ open data",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "Site says more than a decade of technology development, with no validation data, certifications, customers or pilots",
+      "source": "https://nanohalen.fi/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "4-5 (inferred)",
+     "trl_evidence": "Decade of development claimed; no validation or test evidence.",
+     "brl_band": "2-3 (inferred)",
+     "brl_evidence": "No customers, pilots or revenue shown.",
+     "investment_readiness_band": "pre-seed, regional-fund backed (inferred)",
+     "ir_evidence": "Registered in 2023; 2024 regional investment confirmed."
+    },
+    "next_routes_inferred": [
+     "Accreditation or validation study for water-test methods",
+     "Municipal water utilities as pilot partners",
+     "Regional and Business Finland R&D funding"
+    ]
+   },
+   {
+    "name": "Kelluu Airships (Kelluu)",
+    "redstone": {
+     "tags": [
+      "Energy & Infrastructure",
+      "Blue Economy"
+     ],
+     "fund": "North Karelia Fund (managed by Redstone)",
+     "investment_year": 2021,
+     "url": "https://www.redstone.vc/portfolio/kelluu-airships"
+    },
+    "country": "Finland",
+    "location": "Joensuu (home base per press; site refers to 'the northernmost airship factory')",
+    "website": "https://kelluu.com/",
+    "website_note": "Site does not state legal entity or HQ.",
+    "legal_entity": {
+     "name": "Kelluu Oy",
+     "business_id": "2902007-2",
+     "registration_date": "2018-03-14",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2",
+     "warning": "Kelluu Clothing Oy (3431445-4) is a different company and must not be used"
+    },
+    "one_liner": "Autonomous hydrogen-powered airships for persistent aerial data (power lines, forests, industrial sites).",
+    "blue_fit": {
+     "strength": "weak",
+     "reason": "Aerial monitoring of land assets, not marine. Redstone tags Blue Economy, so a judge may test whether it is ocean-relevant."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2021",
+      "fact": "North Karelia Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/kelluu-airships",
+      "verified": true
+     },
+     {
+      "date": "2026-04-14",
+      "fact": "EUR 15M Series A. Lead NATO Innovation Fund (its first Finnish investment). Participants Keen Venture Partners, GungnirCapital, Tesi",
+      "source": "https://tech.eu/2026/04/14/kelluu-raises-eur15m-to-scale-autonomous-airship-intelligence-platform/ (fetched); raising.fi and resiliencemedia reports in search results",
+      "verified": true
+     },
+     {
+      "date": "two phases completed",
+      "fact": "Completed two phases of NATO DIANA accelerator programme (date not stated)",
+      "source": "tech.eu article (fetched)",
+      "verified": true
+     },
+     {
+      "date": "2023-10",
+      "fact": "Terrafame selected Kelluu for geo-referenced monitoring of a 60 sq km industrial site; a service selection, not an investment",
+      "source": "https://www.suasnews.com/2023/10/terrafame-initiates-the-operation-of-kelluus-autonomous-airships-as-part-of-safe-and-efficient-battery-chemical-production/ (search snippet, not fetched)",
+      "verified": false
+     },
+     {
+      "date": "not stated",
+      "fact": "Company claims a smaller carbon footprint than helicopters; no source is given",
+      "source": "https://kelluu.com/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "7-8 (inferred)",
+     "trl_evidence": "Operational deployment at an industrial site is reported; certification or aviation approval names are not stated.",
+     "brl_band": "6-7 (inferred)",
+     "brl_evidence": "Named industrial customer (Terrafame, per press). Contract value and recurring revenue not stated.",
+     "investment_readiness_band": "growth (Series A closed April 2026)",
+     "ir_evidence": "EUR 15M Series A with NATO Innovation Fund lead, confirmed by tech.eu."
+    },
+    "next_routes_inferred": [
+     "Series B or defence-procurement contracts",
+     "NATO and EU defence innovation programmes",
+     "Blue-economy framing only if the judge accepts aerial monitoring of water bodies (not evidenced here)"
+    ]
+   },
+   {
+    "name": "Norolan",
+    "redstone": {
+     "tags": [
+      "Blue Economy"
+     ],
+     "fund": "South Savo Fund (managed by Redstone)",
+     "investment_year": 2025,
+     "url": "https://www.redstone.vc/portfolio/norolan"
+    },
+    "country": "Finland",
+    "location": "Mikkeli (products made there)",
+    "website": "https://norolan.com/",
+    "website_note": "Site says the legal name is Norolan Artisanlures Oy (from EU co-funding image text).",
+    "legal_entity": {
+     "name": "Norolan Artisanlures Oy",
+     "business_id": "2982240-3",
+     "registration_date": "2019-03-04",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2"
+    },
+    "one_liner": "Handcrafted lead-free fishing lures, winter fishing gear and apparel; sold online via Shopify.",
+    "blue_fit": {
+     "strength": "weak",
+     "reason": "Consumer recreational fishing tackle. Fishing is adjacent to the sea but this is not blue-economy infrastructure or ocean tech. Redstone tags Blue Economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2025",
+      "fact": "South Savo Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/norolan",
+      "verified": true
+     },
+     {
+      "date": "2019-03-04",
+      "fact": "Norolan Artisanlures Oy registered in PRH",
+      "source": "PRH YTJ open data",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "EU co-funding notice for a growth and internationalisation project; amount and date not stated",
+      "source": "https://norolan.com/",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "'Award-winning' Light Spoon series; award name and year not stated",
+      "source": "https://www.redstone.vc/portfolio/norolan and https://norolan.com/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "8-9 (inferred; a commercial consumer product)",
+     "trl_evidence": "Products are on sale via an online store.",
+     "brl_band": "4-5 (inferred)",
+     "brl_evidence": "Commercial online sales, but no sales figures, retailer partners or customer counts stated.",
+     "investment_readiness_band": "SME growth, grant-supported (inferred)",
+     "ir_evidence": "EU co-funding; a regional fund investment. Not a venture-scale profile from the public sources."
+    },
+    "next_routes_inferred": [
+     "Retail distribution partners",
+     "Business Finland and EU SME growth programmes",
+     "Consumer-brand rather than blue-economy investor routes"
+    ]
+   },
+   {
+    "name": "Redkik",
+    "redstone": {
+     "tags": [
+      "Industrial",
+      "Blue Economy"
+     ],
+     "fund": "North Karelia Fund (managed by Redstone)",
+     "investment_year": 2021,
+     "url": "https://www.redstone.vc/portfolio/redkik"
+    },
+    "country": "United States (HQ per company site); Finland (Redkik Oy, Joensuu office)",
+    "location": "Redstone page says 'Oxford, US'. Company site lists offices in Easton, Maryland, Joensuu, Hong Kong and Curitiba. HQ conflict noted.",
+    "website": "https://redkik.com/",
+    "website_note": "Company site names Redkik, Inc. (USA), Redkik Oy (Finland), Redkik Asia Limited (Hong Kong), Redkik Soluções em Tecnologia LTDA (Brazil).",
+    "legal_entity": {
+     "name": "Redkik Oy",
+     "business_id": "3154837-8",
+     "registration_date": "2020-09-04",
+     "registry": "PRH (YTJ open data, queried 16 Oct 2026)",
+     "status_code_returned": "2",
+     "note": "Finnish subsidiary entity; the parent is US per the site"
+    },
+    "one_liner": "Embedded per-shipment insurance and SaaS for logistics and transport, with API point-of-sale coverage.",
+    "blue_fit": {
+     "strength": "weak",
+     "reason": "Logistics and transport insurance. Marine transport is one segment (the site cites a 2022 Marine Transportation ranking), but this is not ocean economy or environmental. Redstone tags Blue Economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2021",
+      "fact": "North Karelia Fund investment (investment year per Redstone; amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/redkik",
+      "verified": true
+     },
+     {
+      "date": "2020-09-04",
+      "fact": "Redkik Oy registered in PRH",
+      "source": "PRH YTJ open data",
+      "verified": true
+     },
+     {
+      "date": "2022-2023",
+      "fact": "Awards on site: Top 12 Marine Transportation companies (2022); Top 100 Insurtechs to Watch (2023); Top 3 InsurTech on Global Maritime Tech Startup Map (2023); other awards without dates",
+      "source": "https://redkik.com/",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "Named customers include Translogistics, Inc., Aviation Logistics, LLC, Roger S. Hochman Transportation Services; insurer partner Canopy Specialty Insurance",
+      "source": "https://redkik.com/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "8-9 (inferred; live product with named customers)",
+     "trl_evidence": "Live insurance software with named customers and an insurer integration.",
+     "brl_band": "5-6 (inferred)",
+     "brl_evidence": "Named customers and an insurer partner; revenue not stated.",
+     "investment_readiness_band": "seed to growth (inferred); funding rounds not stated",
+     "ir_evidence": "North Karelia investment only; no round size readable."
+    },
+    "next_routes_inferred": [
+     "Marine and cargo insurers (for maritime use)",
+     "Logistics insurtech investors"
+    ]
+   },
+   {
+    "name": "Klimate",
+    "redstone": {
+     "tags": [
+      "Energy & Infrastructure",
+      "Blue Economy"
+     ],
+     "fund": "not stated on Redstone page",
+     "investment_year": 2023,
+     "url": "https://www.redstone.vc/portfolio/klimate"
+    },
+    "country": "Denmark",
+    "location": "Copenhagen",
+    "website": "https://www.klimate.co/",
+    "website_note": "Site names Klimate ApS, CVR 41057165 (as stated on site; not checked in the Danish CVR register in this run).",
+    "legal_entity": {
+     "name": "Klimate ApS",
+     "company_registration": "CVR 41057165 (stated on company site, not verified)",
+     "registry": "not checked (Danish CVR outside PRH/Brreg scope)"
+    },
+    "one_liner": "Net-zero platform that builds corporate carbon-removal portfolios and pools buyer demand.",
+    "blue_fit": {
+     "strength": "weak",
+     "reason": "Carbon removal across methods; the site does not name ocean-based removal. Redstone tags Blue Economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2023",
+      "fact": "Redstone investment (amount and fund not stated)",
+      "source": "https://www.redstone.vc/portfolio/klimate",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "Customer and partner logos on site include Nykredit, Storebrand, DNB, CPH Airport, Vodafone Ziggo; no revenue shown; logos not independently verified",
+      "source": "https://www.klimate.co/",
+      "verified": true
+     },
+     {
+      "date": "2024 (link)",
+      "fact": "Claims 6th fastest-growing startup in Europe on Sifted 250 leaderboard; date not stated on site",
+      "source": "https://www.klimate.co/ (claim, not verified)",
+      "verified": false
+     },
+     {
+      "date": "not stated",
+      "fact": "Funding rounds and investors not stated on site beyond an Energy Impact Partners logo in a partner list",
+      "source": "https://www.klimate.co/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "8-9 (inferred; commercial platform)",
+     "trl_evidence": "Commercial platform with named customer logos.",
+     "brl_band": "6-7 (inferred; logos unverified)",
+     "brl_evidence": "Customer list on site, not verified by case studies beyond their names.",
+     "investment_readiness_band": "growth (inferred)",
+     "ir_evidence": "Redstone investment and an EIP logo; round size not verifiable."
+    },
+    "next_routes_inferred": [
+     "Nordic climate and carbon-removal investors",
+     "Corporate offtake buyers"
+    ]
+   },
+   {
+    "name": "Tethys Robotics",
+    "redstone": {
+     "tags": [
+      "Blue Economy",
+      "DeepTech"
+     ],
+     "fund": "not stated on Redstone page",
+     "investment_year": 2025,
+     "url": "https://www.redstone.vc/portfolio/tethys-robotics"
+    },
+    "country": "Switzerland (Denmark partner; outside Nordic scope as the company)",
+    "location": "Zurich (Redstone); Schlieren footer address (company site)",
+    "website": "https://www.tethys-robotics.ch/",
+    "website_note": "Site states legal entity Tethys Robotics AG.",
+    "legal_entity": {
+     "name": "Tethys Robotics AG",
+     "company_registration": "not stated",
+     "registry": "not checked (Swiss)"
+    },
+    "one_liner": "Compact underwater drone (Tethys ONE) for offshore inspection, explosive ordnance disposal and search and rescue.",
+    "blue_fit": {
+     "strength": "strong",
+     "reason": "Underwater robotics for offshore and ocean operations; Redstone tags Blue Economy."
+    },
+    "funding_and_traction": [
+     {
+      "date": "2025",
+      "fact": "Redstone investment (amount not stated)",
+      "source": "https://www.redstone.vc/portfolio/tethys-robotics",
+      "verified": true
+     },
+     {
+      "date": "2025-05-27",
+      "fact": "Strategic partnership with SeaRenergy Offshore Holding GmbH",
+      "source": "https://www.tethys-robotics.ch/ (news)",
+      "verified": true
+     },
+     {
+      "date": "2025-07-29",
+      "fact": "SepcoTech named as reseller in Denmark",
+      "source": "https://www.tethys-robotics.ch/ (news)",
+      "verified": true
+     },
+     {
+      "date": "2025-10-16",
+      "fact": "Aramco tested Tethys ONE in a demo on a Swiss lake; company calls it 'successful'. Test results not published",
+      "source": "https://www.tethys-robotics.ch/ (news)",
+      "verified": true
+     },
+     {
+      "date": "not stated",
+      "fact": "No funding rounds, grants or certifications stated on site. Logo-only partners (Repower, Axpo and others) are unverified",
+      "source": "https://www.tethys-robotics.ch/",
+      "verified": true
+     }
+    ],
+    "assessment_key": {
+     "trl_band": "6-7 (inferred; demo in a non-marine operational-like setting)",
+     "trl_evidence": "Lake demo with an energy major; no offshore deployment stated.",
+     "brl_band": "4-5 (inferred)",
+     "brl_evidence": "Partnerships and a reseller; no revenue or contract value stated.",
+     "investment_readiness_band": "seed (inferred); round size not stated",
+     "ir_evidence": "Redstone 2025 investment only."
+    },
+    "next_routes_inferred": [
+     "Swiss innovation funding (Innosuisse) [not checked]",
+     "Offshore energy operators as pilot partners",
+     "Nordic offshore wind service providers via the Denmark reseller"
+    ]
+   }
+  ],
+  "not_assessed_in_this_run": [
+   "Other Finnish or Nordic-sounding names on the Redstone list (for example Metatavu, Modulo (KoskiRent), MinersLoop, Mediclaudo, Albio (PAL Finland)). Their location and blue fit were not checked.",
+   "Redstone Health, Fintech, Deeptech and Social Impact companies with no blue tag."
+  ],
+  "limitations": [
+   "WebSearch was capped at 3 calls and was used for Unique Docks, Valkama and Kelluu. Other funding facts come from company sites or Redstone pages only.",
+   "Unique Docks site returned an error page on both fetches. Its legal entity was not found in PRH.",
+   "Dealroom (Valkama) and the Enterprise Europe Network listing returned HTTP 403 on fetch.",
+   "PRH status_code '2' is returned by the API unlabelled. It was recorded as returned, not interpreted.",
+   "Redstone investment years are as shown on Redstone company pages. The earlier w2-startups.md list matches them.",
+   "Registry queries used the User-Agent junctionx-research-probe/0.1 and a 1.1-second gap between requests."
+  ]
+ }
+}

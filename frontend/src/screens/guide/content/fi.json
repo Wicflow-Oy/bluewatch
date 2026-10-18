@@ -1,0 +1,760 @@
+{
+  "tracks": [
+    {
+      "id": "bluewatch",
+      "title": "Näin BlueWatch toimii",
+      "intro": "Rahastojen ja kiihdyttämöjen tiimeille: mitä BlueWatch tekee viikoittain, mihin päänäkymien ajatus perustuu, mistä tiedot tulevat ja mitä tämä prototyyppi tekee jo nyt.",
+      "sections": [
+        {
+          "id": "what-it-does",
+          "title": "Mitä BlueWatch tekee",
+          "body": [
+            "BlueWatch löytää uusia meritalouden yrityksiä julkisista kaupparekistereistä, EU:n julkisista hankinnoista ja EU:n tutkimushankkeista. Se kertoo tiimillenne, mihin yrityksiin kannattaa tutustua nyt, miksi ja mitä tehdä seuraavaksi. Työkalu on tehty kiihdyttämöjen ja rahastojen tiimeille, jotka etsivät uusia kohteita.",
+            "Jokaisesta yrityksestä tehdään yrityskortti, joka pitää erillään sen, mikä tiedetään, mikä oletetaan ja mikä on vielä tuntematonta. Jokaisella faktalla on lähde ja päivämäärät. Kortin lopussa on yksi järjestetty lista seuraavista askelista: ohjelmat, avustukset, sijoittajat ja ostajat ovat samassa listassa, kukin määräaikoineen.",
+            "Säännöt, eivät kielimalli, ratkaisevat jokaisen valmiustason, pistemäärän, ryhmän ja kelpoisuusluokan, ja kunkin tuloksen taustalla oleva sääntö näkyy tuloksen vieressä. Näette siis aina, miksi yritys on siinä, missä se on."
+          ]
+        },
+        {
+          "id": "workspaces",
+          "title": "Kaksi työtilaa: A'Pelago ja Redstone",
+          "body": [
+            "BlueWatchissa on oma työtila kummallekin tiimille. A'Pelagon työtila on rakennettu kiihdyttämön tarpeisiin: se etsii yrityksiä, jotka kannattaa kutsua ohjelmaan, käyttää valmiustasoista selkokielisiä nimiä ja näyttää merivaikuttavuuden Ocean Impact Navigator -alueina, ei koskaan numerona. Redstonen työtila on rakennettu sijoittajan tarpeisiin: se etsii yrityksiä, joiden kanssa kannattaa käydä ensimmäinen keskustelu, käyttää vakiintuneita lyhenteitä kuten TRL ja BRL ja näyttää pistearvot sekä listasijan osatekijät.",
+            "Tiedot, säännöt ja lähteet ovat molemmissa samat. Vain lista, sanamuodot ja osa järjestyksestä vaihtuvat, joten työtilan vaihtaminen tuntuu siltä kuin siirtyisi kollegan pöydän ääreen, ei toiseen sovellukseen."
+          ]
+        },
+        {
+          "id": "weekly-flow",
+          "title": "Viikon kulku",
+          "body": [
+            "Tavallinen viikko etenee julkisista tiedoista ihmisen hyväksymään viestiin viidessä vaiheessa."
+          ],
+          "points": [
+            "Lähteet: BlueWatch lukee Suomen, Norjan ja Viron kaupparekistereitä, EU:n julkisia hankintoja (TED) ja EU:n tutkimushankkeita (CORDIS) ja näyttää, milloin kukin lähde on viimeksi luettu.",
+            "Lista: uudet ja hiljattain aktivoituneet, työtilaanne sopivat yritykset järjestetään enintään kymmenen yrityksen listaksi ryhmiin Toimi nyt, Selvitä tarkemmin ja Ei vielä. Jokaisella rivillä on enintään kolme perustetta lähteineen.",
+            "Yrityskortti: avatkaa yritys, niin näette sen valmiustasot, potentiaalin ja näytön sekä tietoaukkoluettelon, jossa faktat, oletukset ja tuntemattomat tiedot ovat erillään.",
+            "Seuraavat askeleet: kortti järjestää seuraavat toimet määräaikoineen ohjelmista ja avustuksista sijoittajiin ja ostajiin. Sillat tuovat lisäksi päivättyjä syitä toimia, esimerkiksi ostajan, jonka tarjouskilpailu päättyy pian.",
+            "Yhteydenotto hyväksynnällä: kun faktoja puuttuu, Yhteydenotot-sivu laatii yritykselle tietopyynnön, ja ihminen hyväksyy täsmälleen sen tekstin ennen kuin mitään voi lähteä."
+          ]
+        },
+        {
+          "id": "the-list",
+          "title": "Lista: enintään 10, ei koskaan täytettä",
+          "body": [
+            "Lista, jonka nimi sovelluksessa on Pinnalla nyt, näyttää enintään 10 yritystä. Yritys pääsee listalle, jos se on perustettu viimeisten 12 viikon aikana, jos päivätty julkinen signaali osoittaa sen aktivoituneen (julkisen hankinnan voitto, EU-hanke, allekirjoitettu EU-avustus tai tuotteen uusi verkko-osoite) tai jos se on lupaava ja uusi teidän listallenne. Redstonen työtilassa myös osakeanti lasketaan signaaliksi; A'Pelagon työtila ei koskaan nosta yritystä listalle osakeannin perusteella.",
+            "Listalta jätetään pois yritykset, jotka ovat jo kohortissanne tai salkussanne, sekä yksityiset elinkeinonharjoittajat ja yritykset, jotka ovat teesinne tai kohdevaiheenne ulkopuolella. Jos ehdot täyttäviä yrityksiä on alle kymmenen, lista näyttää vähemmän ja jättää loput paikat tyhjiksi. Kaksi riviä perustelee rajauksen: miksi nämä yritykset pääsivät listalle ja miksi seuraava ei päässyt.",
+            "Järjestys on viiden osatekijän painotettu summa: sopivuus, signaali, ryhmä, näyttö ja potentiaali. Redstonen työtila näyttää jokaisen osatekijän listasijan vieressä, joten järjestyksen voi tarkistaa käsin.",
+            "Jokaisella rivillä on enintään kolme perustetta, ja jokaisella perusteella on numeroitu lähde. Viekää osoitin lähteen päälle tai napauttakaa sitä, niin näette kolme päivämäärää: milloin tapahtuma sattui, milloin BlueWatch havaitsi sen ensimmäisen kerran ja milloin sivu on viimeksi luettu. Merkintä Uusi tai Muuttunut kertoo, mitä on tapahtunut edellisen maanantain koosteen jälkeen.",
+            "Lista on aina käytössä eikä pelkkä viikkoraportti. Valmiissa tuotteessa se järjestetään uudelleen aina, kun jokin lähde päivittyy, ja kooste muutoksista lähtee joka maanantai klo 7.00 Suomen aikaa. Tämä prototyyppi ei lähetä sähköpostia."
+          ]
+        },
+        {
+          "id": "groups",
+          "title": "Toimi nyt, Selvitä tarkemmin ja Ei vielä",
+          "body": [
+            "Jokainen listan yritys kuuluu yhteen kolmesta ryhmästä, ja jokaisella ryhmällä on kirjattu sääntö. Saman esiasetuksen sisällä raja-arvot ovat kaikille yrityksille samat: potentiaali 0,6 tai enemmän on lupaava ja näyttö 0,5 tai enemmän on riittävä."
+          ],
+          "table": {
+            "head": ["Ryhmä", "Sääntö", "Mitä tehdä"],
+            "rows": [
+              [
+                "Toimi nyt",
+                "Lupaava potentiaali ja riittävä näyttö.",
+                "Ottakaa yhteyttä parhaiten sopivan ohjelman tai avoimen haun merkeissä tai sopikaa ensimmäinen keskustelu."
+              ],
+              [
+                "Selvitä tarkemmin",
+                "Lupaava potentiaali, mutta näyttöä on vähän.",
+                "Selvittäkää ensin suurimmat tuntemattomat tiedot. Kortti kertoo, mitä kysyä."
+              ],
+              [
+                "Ei vielä",
+                "Liian varhainen vaihe tai heikko sopivuus tällä hetkellä, tai vain lanseerausta edeltävä sivu.",
+                "Seuratkaa ja tarkistakaa uudelleen neljän viikon päästä. Ei vielä yhteydenottoa."
+              ],
+              [
+                "Ei meille",
+                "Teesin ulkopuolella, kohdevaiheen ohi tai yksityinen elinkeinonharjoittaja.",
+                "Ei koskaan listalla. Näkyy silti Yritykset-sivulla."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "readiness-levels",
+          "title": "Valmiustasot",
+          "body": [
+            "Jokaisessa kortissa on neljä valmiustasoa. Taso on korkein, jota lähteellinen fakta tukee, ja sen yhteydessä näkyvät varmuus sekä näyttö, joka nostaisi tasoa. Jos mikään fakta ei tue tasoa, se näytetään tuntemattomana ja viivoitettuna, ei koskaan nollana. Palvelu- tai kuluttajayrityksellä ei ole arvioitavaa teknologiaa, joten sen teknologisen valmiustason kohdalla lukee Ei sovellu.",
+            "Varmuus on korkea, kun kaksi tai useampi toisistaan riippumaton lähde tukee tasoa, keskitasoa, kun yksi ensisijainen lähde kuten rekisteri tai hankintailmoitus tukee sitä, ja matala, kun ainoa lähde on yrityksen oma ilmoitus.",
+            "Merivaikuttavuuden asteikko on oma luonnoksemme, eikä sitä ole kalibroitu: sille ei vielä ole vertailuluokituksia, joten BlueWatch ei väitä mitään sen tarkkuudesta, ja yrityksen itse ilmoittamat luvut voivat nostaa tason enintään kolmoseen."
+          ],
+          "table": {
+            "head": ["Taso", "Mitä se mittaa", "Asteikko"],
+            "rows": [
+              [
+                "Teknologinen valmiustaso (TRL)",
+                "Kuinka pitkällä teknologia on ideasta todennettuun käyttöön.",
+                "1–9"
+              ],
+              [
+                "Liiketoiminnan valmiustaso (BRL, KTH)",
+                "Kuinka pitkällä liiketoiminta on ideasta toistuvaan myyntiin.",
+                "1–9"
+              ],
+              [
+                "Merivaikuttavuus",
+                "Kuinka pitkällä yrityksen vaikutus meriin on aikomuksesta vakiintuneeksi osaksi toimintaa.",
+                "Oma 1–5-luonnosasteikkomme Redstonen työtilassa; A'Pelagon työtilassa vain Ocean Impact Navigator -alueet"
+              ],
+              [
+                "Sijoitusvalmius (IRL)",
+                "Kuinka valmis yritys on sijoittajalle, rekisteröinnistä osoitettuun, toistuvaan kysyntään.",
+                "1–9"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "potential-evidence",
+          "title": "Potentiaali ja näyttö",
+          "body": [
+            "BlueWatch arvioi jokaisen yrityksen kahdella erillisellä akselilla. Potentiaali kertoo, kuinka suurelta mahdollisuus näyttää, jos väitteet pitävät: sopivuus teesiinne, sopivuus kohdevaiheeseenne ja yrityksen tyyppi sekä pieni lisä osoitetusta kysynnästä. Näyttö kertoo, kuinka suuri osa tästä perustuu BlueWatchin lukemiin lähteisiin: kuinka moni viidestä vakiotarkistuksesta on katettu, kuinka riippumattomia lähteet ovat ja kuinka tuoreita ne ovat.",
+            "Tuntemattomat tiedot laskevat näyttöä, eivät koskaan potentiaalia. Jos jotakin potentiaalin osaa ei voida arvioida, se jätetään keskiarvon ulkopuolelle eikä lasketa nollaksi. Siksi nuori yritys, josta on kirjoitettu vähän, saa matalan näytön mutta ei matalaa potentiaalia. Tunnetut kielteiset seikat, kuten se, että yritys on teesinne tai kohdevaiheenne ulkopuolella, laskevat potentiaalia, koska ne ovat faktoja eivätkä aukkoja.",
+            "Fakta painaa lähteensä mukaan: rekisteri- tai hankintatieto painaa täysin ja yrityksen omalla sivulla oleva väite vähemmän. Oletus, jonka peruste on kerrottu, painaa vähän, ja tarkistus, joka ei löytänyt mitään, painaa puolet faktasta: asia tiedetään, mutta se ei ole puhdas paperi."
+          ]
+        },
+        {
+          "id": "gap-ledger",
+          "title": "Faktat, oletukset ja tuntemattomat tiedot",
+          "body": [
+            "Puuttuva tieto on johtolanka, ei huono arvosana. Kunkin kortin tietoaukkoluettelo jakaa kaiken, mitä BlueWatch yrityksestä tietää, neljään sarakkeeseen: faktat, oletukset, tuntemattomat tiedot ja asiat, jotka eivät sovellu.",
+            "Faktalla on lähde ja kolme päivämäärää, ja yrityksen sivulta poimittu väite säilytetään vain, jos sen lainaus löytyy sivulta sanasta sanaan. Oletus kertoo, mihin se perustuu. Tuntematon tieto kertoo, miksi sitä ei tiedetä ja miten aukko suljetaan: joko BlueWatchin tekemällä julkisella tarkistuksella, kuten rekisterihaulla, tai kysymällä yritykseltä.",
+            "Jokaisessa kortissa on viisi vakiotarkistusta: tuote, asiakkaat, tiimi, rahoitus ja julkiset hankinnat. Jokaisesta tarkistuksesta, jota lähteet eivät kata, tulee tuntematon tieto ja sen edullisin seuraava tarkistus. Niukkakin kortti näyttää siis, mitä seuraavaksi selvittää, eikä näytä tyhjältä."
+          ]
+        },
+        {
+          "id": "venture-card",
+          "title": "Yrityskortti ja seuraavat askeleet",
+          "body": [
+            "Yrityskortti kokoaa yhden yrityksen yhdelle sivulle: rekisteritiedot ja sen, kuinka varmasti yritys on yhdistetty rekisteritietoonsa, neljä valmiustasoa, kymmenen ulottuvuutta markkinasta vaikuttavuuteen, potentiaalin ja näytön, tietoaukkoluettelon sekä sopivat mahdollisuudet.",
+            "Yritykset yhdistetään yritystunnuksella, ei koskaan pelkän nimen perusteella. Jos yhdistäminen ei ole varma, sen vahvistaminen on aina ensimmäinen askel, eikä yhtään viestiä voi lähettää ennen sitä.",
+            "Seuraavat askeleet ovat yksi järjestetty lista, jossa ovat ohjelmat, avustukset, sijoittajat, ostajat ja kumppanit. Ensin tulevat hyvin sopivat kohteet, joiden määräaika on seuraavien 60 päivän aikana, lähin ensin. Jos näyttöä on vähän, seuraavana on yritykseltä kysyminen, ja ohjelmat menevät sijoittajien edelle. Palveluyritykselle ei ehdoteta sijoittaja-askeleita. Jokainen askel kertoo, kuka toimii: te, yritys vai molemmat."
+          ]
+        },
+        {
+          "id": "bridges",
+          "title": "Sillat",
+          "body": [
+            "Silta yhdistää yrityksen vastapuoleen, kuten julkiseen ostajaan, kumppaniin, rahoittajaan tai testiympäristöön. Sillalla on näyttö molemmilta puolilta, määräaika, jos sellainen on, ja yksi toimenpide. Se vastaa yhteen kysymykseen: miksi tämän yrityksen kannattaa toimia nyt, ja kenen kanssa?",
+            "Siltoja on seitsemää tyyppiä: voittanut ennenkin, haku taas auki (yritys on voittanut julkisen hankinnan, ja ostaja kilpailuttaa nyt saman asian); jo yhteistyössä; sääntö ratkaisee; näyttöaskel; laki luo ostajia; sopii ohjelmaan; ja laboratoriohaku auki. Jokainen silta on merkitty varmistetuksi, todennäköiseksi tai mahdolliseksi, ja Sillat-sivu avautuu varmistettuihin ja todennäköisiin.",
+            "Piilota nimet -valinta korvaa yrityksen nimen rekisteritietoihin perustuvalla kuvauksella ja piilottaa sen rekisteritunnuksen ja linkit, esimerkiksi kun jaatte näyttönne."
+          ]
+        },
+        {
+          "id": "funding-tiers",
+          "title": "Rahoituksen kelpoisuusluokat",
+          "body": [
+            "BlueWatch vertaa yritystä jokaisen avustuksen ja ohjelman julkaistuihin sääntöihin, kuten siihen, kuka saa hakea, mistä maasta ja missä vaiheessa, ja sijoittaa sen kelpoisuusluokkaan. Jokaisen luokan kohdalla näkyvät ratkaissut sääntö, paikka, josta sääntö luettiin, ja määräaika. Työtilat käyttävät samoista luokista hieman eri sanoja."
+          ],
+          "table": {
+            "head": ["Luokka", "A'Pelagon nimitys", "Redstonen nimitys", "Merkitys"],
+            "rows": [
+              [
+                "Varma",
+                "Todennäköinen",
+                "Varma*",
+                "Jokainen ratkaiseva sääntö täyttyy, ja jokainen niistä on luettu rahoittajan virallisilta sivuilta."
+              ],
+              [
+                "Todennäköinen",
+                "Todennäköinen",
+                "Todennäköinen",
+                "Mikään sääntö ei estä ja virallisilta sivuilta luetut säännöt täyttyvät, mutta yksi tai kaksi asiaa on vielä tuntematta."
+              ],
+              [
+                "Mahdollinen",
+                "Mahdollinen",
+                "Mahdollinen",
+                "Mikään sääntö ei estä, mutta jokin sääntö on peräisin toissijaisesta lähteestä, kriteerejä ei ole julkaistu, tuntemattomia tietoja on enemmän tai hakua ei ole nyt auki."
+              ],
+              [
+                "Poissuljettu",
+                "Epätodennäköinen",
+                "Poissuljettu",
+                "Jokin ratkaiseva sääntö ei täyty. Estävä sääntö näytetään."
+              ],
+              [
+                "Ei tiedossa",
+                "Ei tiedossa",
+                "Ei tiedossa",
+                "Rahoitusmuodosta ei voitu varmentaa mitään."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "funding-certain",
+          "title": "Miksi Varma on harvinainen",
+          "body": [
+            "Varma on tarkoituksella harvinainen. Se edellyttää, että jokainen ratkaiseva sääntö on luettu rahoittajan virallisesta hakuilmoituksesta eikä tiivistelmästä tai hakutuloksesta, ja moni rahoittaja julkaisee sääntönsä vain osittain. Suljettu haku ei koskaan saa Mahdollista korkeampaa luokkaa, vaikka yritys sopisi siihen hyvin. Varmakin tulos on syy varmistaa asia rahoittajalta, ei lupaus rahoituksesta.",
+            "Yrityksen rekisteröintimaa voi ratkaista vastauksen. Esimerkiksi Sustainable Blue Economy Partnershipin (SBEP) neljännessä haussa ei ole mukana suomalaista rahoittajaa, joten suomalainen yritys on poissuljettu, kun taas samanlainen norjalainen yritys on edelleen mahdollinen.",
+            "Avustus on kiitotie, ei liiketoimintamalli: julkisesta rahoituksesta riippuvainen yritys saa kortissaan merkinnän."
+          ]
+        },
+        {
+          "id": "founder-view",
+          "title": "Perustajanäkymä",
+          "body": [
+            "Perustajanäkymä soveltaa samoja sääntöjä yrityksen näkökulmasta. Kirjoittakaa suomalainen, norjalainen tai virolainen yritystunnus, niin BlueWatch näyttää jokaisen avustuksen ja ohjelman kelpoisuusluokkineen ja ratkaisevine sääntöineen, sijoittajat, jotka kannattaa ottaa harkintaan, ja mitä tehdä seuraavien 30 päivän aikana. Jos yritys ei kuulu arvioituun joukkoon, tulos perustuu pelkkiin rekisteritietoihin, kuten perustamispäivään ja toimialakoodiin, ja kaikki muu jää tuntemattomaksi.",
+            "Kirjoitettua tietoa ei tallenneta eikä kirjata lokiin, ja tunnus menee vain kyseisen maan viralliseen rekisteriin. Yksityiset elinkeinonharjoittajat ovat yksityishenkilöitä, joten BlueWatch ei näytä heistä mitään. Valmiissa tuotteessa perustaja voi jakaa tuloksen A'Pelagolle, joka voi kutsua yrityksen ohjelmaan; tässä prototyypissä jakaminen on pois päältä, joten mitään ei tallenneta eikä lähetetä."
+          ]
+        },
+        {
+          "id": "outreach-desk",
+          "title": "Yhteydenotot ja ihmisen hyväksyntä",
+          "body": [
+            "Kun kortissa on avoimia tuntemattomia tietoja, Yhteydenotot-sivu laatii yritykselle tietopyynnön: yksi yritykselle hyödyllinen mahdollisuus ja kaksi kysymystä, jotka sulkisivat suurimmat aukot. Luonnoksen voi laatia englanniksi, suomeksi tai ruotsiksi.",
+            "Ihminen hyväksyy jokaisen viestin, ja hyväksyntä sidotaan juuri tämän tekstin ja vastaanottajan sormenjälkeen (tiivisteeseen). Jos yksikin merkki tai vastaanottaja muuttuu, hyväksyntä raukeaa. Hyväksyntä vanhenee myös 24 tunnin kuluttua, ja lähetyssäännöt tarkistetaan uudelleen jokaisessa vaiheessa.",
+            "Viestin saa lähettää vain organisaation omaan yleisosoitteeseen, mediayhteysosoitteeseen tai yhteydenottolomakkeeseen, perustajan rooliosoitteeseen silloin, kun roolin osoittava julkinen lähde on tallennettu, tai osoitteeseen, jonka haltija on antanut suostumuksensa. Henkilökohtaiset tai haravoidut osoitteet on estetty, eikä niitä tallenneta. Yhteyttä voi ottaa vain yritykseen, joka on yhdistetty rekisteritietoonsa varmasti, joten viesti ei koskaan päädy samannimiselle yritykselle.",
+            "Lähettäminen on tässä prototyypissä pois päältä. Lähetä-painike kirjaa, mitä lähtisi, ja yrityksen vastaus simuloidaan: tuntemattomat tiedot, joista kysyttiin, muuttuvat faktoiksi merkinnällä Yritys vahvistanut, ja jokainen vaihe kirjataan lokiin, johon voi vain lisätä merkintöjä."
+          ]
+        },
+        {
+          "id": "precision",
+          "title": "Tarkkuus ja miksi näytämme vertailutason",
+          "body": [
+            "Tarkkuus-sivu näyttää, kuinka usein BlueWatchin valmiustasoarviot vastaavat vertailuluokitusta: sama tasoväli, enintään yhden tason päässä sekä painotettu kappa, kun yrityksiä on vähintään 10. Vertailuluokitukset ovat analyytikoidemme tulkinta julkisesta näytöstä joukolle vertailuyrityksiä, eivät A'Pelagon tai Redstonen antamia arvioita.",
+            "Jokaisen luvun vieressä on ikään perustuva vertailutaso: yksinkertainen sääntö, joka arvaa luokan pelkän yrityksen iän perusteella ja joka pisteytetään samoilla yrityksillä. Työkalu, joka ei pärjää iän perusteella tehdylle arvaukselle, ei ole ansainnut luottamusta, joten sivu näyttää vertailun ja kertoo heti ensimmäisessä virkkeessään, missä vertailutaso on parempi.",
+            "Jokaisen luvun kohdalla näkyy n, ja otokset ovat pieniä, joten lukuja kannattaa pitää suuntaa antavina eikä mittauksina. Sivu ajaa myös tunnistusansat eli samannäköiset nimet ja ulkomaiset kaimat, joita ei saa yhdistää, kertoo, onko tulokset lukittu yhteen sääntöversioon, ja antaa ladata oman sokkoaineiston, joka pisteytetään muistissa eikä sitä tallenneta."
+          ]
+        },
+        {
+          "id": "presets",
+          "title": "Esiasetukset: sinisen talouden ulkopuolelle",
+          "body": [
+            "Esiasetus on konfiguraatioksi kirjoitettu teesi: toimialat, avainsanat, avustusten aiheet, sijoittajien teesit, vaikuttavuuskehys, kohdevaihe ja sijoituskoko. Moottori, säännöt ja raja-arvot pysyvät samoina; vain esiasetus vaihtuu, ja uusi teesi on uusi esiasetustiedosto eikä uutta koodia.",
+            "Esiasetuksen vaihtaminen järjestää samat yritykset uudelleen. Nuolet näyttävät kunkin yrityksen siirtymän, ja listalta pudonneet yritykset nimetään listan alla."
+          ],
+          "table": {
+            "head": ["", "Sininen talous", "Ilmasto ja kiertotalous"],
+            "rows": [
+              [
+                "Toimialat",
+                "Kestävät meriliikenne- ja satamajärjestelmät; meri-infrastruktuuri ja puhdas energia; meritieto eli merten data ja havainnointi; sininen biotekniikka ja vesiteknologia",
+                "Energiamurros ja sähköistäminen; teollisuuden ja liikenteen päästövähennykset; kiertotalouden materiaalit ja jätteet; ilmastodata, päästölaskenta ja sopeutuminen; vesi- ja ruokajärjestelmät"
+              ],
+              [
+                "Vaikuttavuusalueet",
+                "Ocean Impact Navigatorin kuusi aluetta",
+                "EU-taksonomian kuusi ympäristötavoitetta (asetus (EU) 2020/852)"
+              ],
+              ["Tyypillinen sijoituskoko", "0,2–2 milj. euroa", "0,5–5 milj. euroa"],
+              [
+                "Kohdevaihe",
+                "Sijoitusvalmius 2–8, enintään 10 vuotta vanha",
+                "Sijoitusvalmius 2–8, enintään 10 vuotta vanha"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "data-sources",
+          "title": "Mistä tiedot tulevat",
+          "body": [
+            "BlueWatch käyttää vain julkisia, yritystason tietoja. Jokaisen lähteen tila näkyy listalla: reaaliaikainen, päivittäinen tiedosto, viikoittainen tiedosto, tallennettu tai ei saatavilla. Lähde, joka ei ole saatavilla, näytetään sellaisena eikä sitä lasketa nollaksi, joten aukko tiedoissa ei koskaan näytä hiljaiselta viikolta.",
+            "Avustusten säännöt tulevat rahoittajien omista hakuilmoituksista ja EU:n Funding & Tenders -portaalista, sijoittajien teesit sijoittajien omilta verkkosivuilta ja tuoteväitteet yritysten omilta sivuilta lyhyinä lainauksina linkkeineen. Julkiset varmennelokit näyttävät, kun yritys ottaa käyttöön tuotteelle uuden verkko-osoitteen.",
+            "Tässä prototyypissä lista, kortit ja sillat lasketaan julkisista tiedoista, jotka tallennettiin 16. ja 17. lokakuuta 2026, ja sovellus näyttää, milloin tiedot on luettu. Nykyisessä aineistossa on noin 140 pohjoismaista ja baltialaista meritalouden yritystä, noin 60 sijoittajaa, noin 60 rahoitusmuotoa ja avointa EU-hakuaihetta sekä yli 80 suuryritystä, satamaa, julkista ostajaa, testiympäristöä ja yliopistoa. Valmiissa tuotteessa jokainen rekisteri luetaan niin usein kuin se julkaisee tietoja, päivittäin tai viikoittain."
+          ],
+          "table": {
+            "head": ["Lähde", "Mitä BlueWatch käyttää", "Lisenssi", "Tässä prototyypissä"],
+            "rows": [
+              [
+                "Patentti- ja rekisterihallitus (PRH)",
+                "Uudet yritykset, yrityshaut, osakeannit ja kaupparekisteri-ilmoitukset",
+                "CC BY 4.0",
+                "Tallennettu 16.–17.10.2026; haut ovat reaaliaikaisia, kun reaaliaikaiset haut on kytketty päälle"
+              ],
+              [
+                "Brønnøysundregistrene (Brreg), Norja",
+                "Uudet yritykset, rekisterimuutokset ja yrityshaut",
+                "NLOD 2.0",
+                "Tallennettu 16.–17.10.2026; haut ovat reaaliaikaisia, kun reaaliaikaiset haut on kytketty päälle"
+              ],
+              [
+                "Viron kaupparekisteri (RIK, e-äriregister)",
+                "Päivittäiset yritystiedostot (vain oikeushenkilöt) ja yrityshaut",
+                "CC BY 4.0",
+                "Päivittäinen tiedosto"
+              ],
+              [
+                "TED, EU:n julkiset hankinnat",
+                "Avoimet tarjouskilpailut ja hankintasopimukset voittajittain",
+                "© Euroopan unioni, CC BY 4.0",
+                "Tallennettu 16.–17.10.2026"
+              ],
+              [
+                "CORDIS, EU:n tutkimushankkeet",
+                "Tutkimushankkeet ja niihin osallistuvat organisaatiot",
+                "© Euroopan unioni, CC BY 4.0",
+                "Poiminta 17.10.2026"
+              ],
+              [
+                "Ruotsin tilastoviraston yritysrekisteri (SCB)",
+                "Ei vielä ladattu: viikkotiedostossa on myös yksityisiä elinkeinonharjoittajia, joten se vaatii ensin tuonnin, jossa ovat vain oikeushenkilöt",
+                "Ei ladattu",
+                "Ei saatavilla, ei lasketa nollaksi"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "privacy",
+          "title": "Yksityisyys: mitä ei koskaan tallenneta",
+          "body": [
+            "BlueWatch käsittelee organisaatioita, ei ihmisiä. Se ei koskaan tallenna eikä näytä kenenkään nimeä, sähköpostiosoitetta, puhelinnumeroa tai kuvaa. Jos lähteessä mainitaan perustaja tai työntekijä, BlueWatch kirjaa vain sen, että lähteessä mainitaan henkilö. Yksityiset elinkeinonharjoittajat ovat yksityishenkilöitä, joten heitä ei koskaan nosteta listalle, heihin ei oteta yhteyttä eikä heistä näytetä mitään."
+          ],
+          "points": [
+            "Hakuun tai perustajanäkymään kirjoitettuja yritystunnuksia ja yritysten nimiä ei koskaan tallenneta eikä kirjata lokiin, niitä ei koskaan lisätä sivun osoitteeseen, ja ne menevät vain kyseisen maan viralliseen rekisteriin.",
+            "Rekisterien vastauksia pidetään muistissa nopeuden vuoksi, eikä niitä koskaan kirjoiteta levylle.",
+            "Palvelin ei pidä käyntilokia. IP-osoitettanne käytetään vain muistissa olevana laskurina pyyntömäärien rajoittamiseen.",
+            "Henkilökohtaiset tai haravoidut sähköpostiosoitteet on estetty yhteydenotoissa, eikä niitä tallenneta.",
+            "Kumppanin sokkoaineisto pisteytetään muistissa eikä sitä tallenneta.",
+            "Verkkosivuilta luettu teksti käsitellään tietona, ei koskaan ohjeina.",
+            "Idea Harbour ei tallenna mitään tiimin kirjoittamaa, ellei tiimi itse päätä jakaa sitä. Idea Harbourin opas kertoo, miten."
+          ]
+        },
+        {
+          "id": "live-vs-planned",
+          "title": "Mitä prototyypissä toimii jo nyt ja mitä valmis tuote tuo lisää",
+          "body": [
+            "Tämä prototyyppi on toimiva ohjelmisto, joka käyttää tallennettua aineistoa. Taulukko kertoo suoraan, mikä toimii nyt, mikä perustuu tallenteeseen, mikä on pois päältä ja mitä on suunnitteilla."
+          ],
+          "table": {
+            "head": ["Toiminto", "Tässä prototyypissä", "Valmiissa tuotteessa"],
+            "rows": [
+              [
+                "Säännöt: valmiustasot, potentiaali ja näyttö, ryhmät, kelpoisuusluokat, seuraavat askeleet",
+                "Käytössä: sovellus laskee ne",
+                "Samat säännöt tuoreilla tiedoilla joka päivä"
+              ],
+              [
+                "Lista, yrityskortit ja sillat",
+                "Tallenne: julkiset tiedot 16.–17.10.2026",
+                "Järjestetään uudelleen aina, kun lähde päivittyy"
+              ],
+              [
+                "Haku yritystunnuksella tai nimellä (Suomi, Norja, Viro)",
+                "Reaaliaikainen, kun reaaliaikaiset haut on kytketty päälle; muuten tallenne, jossa on merkintä Tallennettu",
+                "Aina reaaliaikainen, ja yrityksen sivut luetaan kattavampaa korttia varten"
+              ],
+              [
+                "Perustajanäkymä",
+                "Reaaliaikainen, kun reaaliaikaiset haut on kytketty päälle, muuten tallenteesta; mitään ei tallenneta; jakaminen pois päältä",
+                "Jakaminen A'Pelagolle käytössä suostumuksella"
+              ],
+              [
+                "Yritysten verkkosivujen lukeminen",
+                "Tallenne: sivut luettu 16.–17.10.2026",
+                "Uusien yritysten sivut luetaan automaattisesti, ja väite säilytetään vain, jos sen lainaus löytyy sivulta, päivittäisen kulukaton puitteissa"
+              ],
+              [
+                "Yhteydenotot",
+                "Käytössä hyväksyntään asti; lähettäminen pois päältä ja vastaus simuloitu",
+                "Hyväksytyt viestit lähetetään yrityksen yleisosoitteeseen, ja todelliset vastaukset päivittävät kortin"
+              ],
+              [
+                "Viikkokooste",
+                "Pois päältä: sähköpostia ei lähetetä",
+                "Muutokset joka maanantai klo 7.00 Suomen aikaa"
+              ],
+              [
+                "Hälytykset",
+                "Käytössä tallennetulla aineistolla: määräajat 30 ja 14 päivää etukäteen sekä listan yritysten uudet rekisterisignaalit",
+                "Samat hälytykset tuoreilla tiedoilla"
+              ],
+              [
+                "Tarkkuus",
+                "Käytössä: vertailuluokitukset, ikään perustuva vertailutaso, tunnistusansat ja sokkoaineiston lataus",
+                "A'Pelagon ja Redstonen sokkoaineistot pisteytettyinä lukitulla sääntöversiolla"
+              ],
+              [
+                "Hackathon-seuranta",
+                "Tallenne: julkiset tulossivut, yhteydenottoreitit vain organisaatioiden kautta",
+                "Hyväksytyt viestit lähetetään järjestäjän omaan kanavaan"
+              ],
+              [
+                "Idea Harbour",
+                "Käytössä: valmiusarvio ja arviointijono; jaetut ideat säilyvät muistissa 60 minuuttia",
+                "Jaetut ideat tallennetaan kirjatulla suostumuksella, kaksivaiheisella vahvistuksella ja sovitulla säilytysajalla"
+              ],
+              [
+                "Maat",
+                "Suomi, Norja ja Viro; Ruotsi näkyy tilassa Ei saatavilla",
+                "Ruotsi (vain oikeushenkilöt), sitten Ison-Britannian Companies House, Ranskan SIRENE ja Irlannin CRO"
+              ],
+              [
+                "Kaikki EU:n rekisterit",
+                "Suunnitteilla",
+                "Komission täytäntöönpanoasetus (EU) 2023/138 arvokkaista tietoaineistoista velvoittaa EU-maiden kaupparekisterit julkaisemaan yritysten perustiedot, myös rekisteröintipäivän ja toimialan, maksutta rajapinnan ja massalatauksen kautta. Siksi jokainen uusi maa tarvitsee vain yhden samalla tavalla rakennetun liittymän."
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "idea-harbour",
+      "title": "Näin Idea Harbour toimii",
+      "intro": "Idea Harbour on A'Pelagon kutsu opiskelija- ja tutkimustiimeille tuoda meriin liittyvä idea esiin jo ennen kuin siitä on tullut yritys. Tiimit saavat rehellisen valmiusarvion muutamassa minuutissa, ja A'Pelago käy läpi lyhyen, järjestetyn listan eikä pinoa hakemuksia.",
+      "sections": [
+        {
+          "id": "ih-overview",
+          "title": "Mikä Idea Harbour on",
+          "body": [
+            "Idea Harbourilla on kaksi puolta. Tiimit käyttävät opiskelijoiden sivua, jonka A'Pelago jakaa kutsulinkillä: ne kuvaavat ideansa noin viidessä minuutissa ilman käyttäjätiliä ja ilman nimiä ja saavat valmiusarvion heti. A'Pelagon arvioijat käyttävät BlueWatchin arviointijonoa, jossa tiimien jakamat ideat ovat julkisista lähteistä löydettyjen, vielä yhtiöittämättömien hankkeiden rinnalla, ja kaikki luetaan samalla arviointikehikolla.",
+            "A'Pelagolle ei päädy mitään, ellei tiimi päätä jakaa sitä. Arviointikehikko järjestää lukemisen; jokaisen päätöksen tekee ihminen A'Pelagossa."
+          ]
+        },
+        {
+          "id": "students-who",
+          "title": "Opiskelijoille: kenelle palvelu on tarkoitettu",
+          "body": [
+            "Idea Harbour on tarkoitettu opiskelijatiimeille, varhaisen vaiheen tutkimustiimeille ja hackathon-tiimeille, joilla on meriin tai siniseen talouteen liittyvä idea mutta ei vielä yritystä. A'Pelago jakaa kutsulinkin yliopistojen, opiskelijajärjestöjen, oman Blue Economy Academynsa ja hackathonien järjestäjien kautta.",
+            "Osallistuminen ei edellytä yritystä, prototyyppiä tai rahoitusta. Tiimi, jolla on ongelma ja ensimmäinen ajatus ratkaisusta, saa hyödyllisen arvion, ja arvio kertoo tarkasti, mitä lisätä seuraavaksi. Samaa sivua voi käyttää myös ilmasto- ja kiertotalouden esiasetuksella, jolloin vaikuttavuusalueet ovat EU-taksonomian kuusi ympäristötavoitetta."
+          ]
+        },
+        {
+          "id": "students-submit",
+          "title": "Opiskelijoille: mitä lomakkeeseen kirjoitetaan",
+          "body": [
+            "Lomakkeessa on neljä lyhyttä osaa, ja sen täyttäminen vie noin viisi minuuttia. Arvion saamiseen ei tarvita henkilötietoja: kuvatkaa tiiminne roolien avulla, ei koskaan nimillä."
+          ],
+          "points": [
+            "Tiimi: tiimin roolit (rakentaminen, liiketoiminta, alan osaaminen tai muotoilu) ja halutessanne taidot, kuinka paljon aikaa käytätte ideaan ja missä maassa toimitte.",
+            "Idea: työnimi, ongelma ja kenellä se on, miten ratkaisunne toimii, kuka maksaisi ja miten sekä vaikuttavuusalue, jota idea parantaa eniten, tai En ole varma.",
+            "Mitä on jo olemassa: mitä teillä on, kuten tutkimusta, konsepti, prototyyppi, pilotti, käyttäjähaastatteluja, aiesopimuksia tai maksavia asiakkaita, ja mitä olette rakentaneet tai testanneet, mieluiten päivämäärineen ja lukuineen.",
+            "Mitä tarvitsette: mentoreita, pilottikumppanin, rahoitusta, lisää tiimin jäseniä tai pääsyn testiympäristöön sekä enintään kolme julkista linkkiä, kuten hankesivun, koodivaraston tai esittelyvideon. Linkit avaa ihminen A'Pelagossa; mikään ei avaa niitä automaattisesti.",
+            "Lomakkeessa ei ole kenttiä nimille, sähköpostiosoitteille tai puhelinnumeroille. Vastaukseen kirjoitetut yhteystiedot poistetaan ennen lukemista, henkilökohtaisten profiilien linkit (LinkedIn, Facebook, Instagram, X) jätetään pois, ja arvio kertoo, jos niin kävi."
+          ]
+        },
+        {
+          "id": "students-rubric",
+          "title": "Opiskelijoille: miten ideanne luetaan",
+          "body": [
+            "Vastauksenne luetaan julkaistua arviointikehikkoa vasten. Siinä on kahdeksan kriteeriä kahdella akselilla. Jokaisella kriteerillä on neljä porrasta nollasta kolmeen, ja jokainen porras määräytyy sen mukaan, mitä sanotte (kuka, miten, kuinka paljon), ei koskaan sen mukaan, kuinka paljon kirjoitatte. Pidempi vastaus ei itsessään tuo mitään.",
+            "Potentiaali on vastaamienne potentiaalikriteerien painotettu keskiarvo. Tyhjät kohdat jätetään pois eikä niitä lasketa nollaksi, ja potentiaali arvioidaan, kun sekä ongelmaan että ratkaisuun on vastattu; siihen asti siinä lukee Ei vielä arvioitu. Näyttö on näyttökriteerien painotettu keskiarvo, ja tyhjä kohta tarkoittaa, ettei mitään ole osoitettu. Kirjoitetut vastaukset ovat väitteitä, eivät faktoja, joten pelkkä lomake ei koskaan tee näytöstä vahvaa: siihen tarvitaan julkinen jälki, jonka ihminen voi avata.",
+            "Tuntemattomat tiedot laskevat näyttöä, eivät koskaan potentiaalia. Jokaisesta tyhjästä kohdasta tulee arvioonne kysymys eikä miinus ideanne potentiaaliin."
+          ],
+          "table": {
+            "head": ["Kriteeri", "Akseli", "Paino", "Mikä nostaa tasoa"],
+            "rows": [
+              [
+                "Ongelma ja kenellä se on",
+                "Potentiaali",
+                "3",
+                "Kertokaa, kenellä ongelma on, ja sitten sen suuruus luvulla tai miksi juuri nyt"
+              ],
+              [
+                "Ratkaisu",
+                "Potentiaali",
+                "2",
+                "Kertokaa, miten se toimii, ja sitten, mitä se korvaa tai missä se on parempi"
+              ],
+              [
+                "Kuka maksaa",
+                "Potentiaali",
+                "2",
+                "Nimetkää ostaja tai hinnoittelutapa ja sitten hinta"
+              ],
+              [
+                "Tiimi",
+                "Potentiaali",
+                "2",
+                "Osoittakaa, että tiimi osaa rakentaa ja myydä ja tuntee alan (vain roolit)"
+              ],
+              [
+                "Vaikuttavuusalue",
+                "Potentiaali",
+                "2",
+                "Valitkaa alue ja näyttäkää tekstissä, miten idea auttaa, ja nimetkää sitten, mitä mitattaisiin"
+              ],
+              [
+                "Mitä on rakennettu",
+                "Näyttö",
+                "3",
+                "Konseptista prototyyppiin tai pilottiin, luvun tai päivämäärän kera"
+              ],
+              [
+                "Yhteys ostajiin",
+                "Näyttö",
+                "3",
+                "Käyttäjien kanssa puhumisesta laskettuihin keskusteluihin, pilottikumppaniin, aiesopimuksiin tai maksaviin asiakkaisiin"
+              ],
+              [
+                "Julkinen jälki",
+                "Näyttö",
+                "2",
+                "Lisätkää linkkejä, jotka arvioija voi avata; julkinen tallenne, kuten järjestäjän tulossivu, painaa eniten"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-claude",
+          "title": "Opiskelijoille: lukeminen Clauden avulla",
+          "body": [
+            "Arvion käynnistävän painikkeen yläpuolella on kytkin, joka on oletuksena päällä ja antaa myös Clauden lukea vastauksenne. Kun kytkin on päällä, tekstinne lähetetään yhteystiedot valmiiksi poistettuina Anthropicin rajapintaan vain tätä yhtä arviota varten, eikä siitä säilytetä mitään. Claude saa lisätä vain väitteitä, jotka se pystyy lainaamaan vastauksistanne sanasta sanaan, ja säännöt ratkaisevat tuloksen aina.",
+            "Jos käännätte kytkimen pois päältä, säännöt lukevat vastauksenne yksin. Kummassakin tapauksessa arvio kertoo, kumpi sen tuotti, ja arvio on täydellinen. Jos Claude ei ole käytettävissä tai päivän kulukatto on täynnä, säännöt vastaavat, ja arvio kertoo syyn."
+          ]
+        },
+        {
+          "id": "students-result",
+          "title": "Opiskelijoille: mitä tuloksenne tarkoittaa",
+          "body": [
+            "Arvio valmistuu sekunneissa, ja siinä on yksi alla olevan taulukon kolmesta tuloksesta. Tulokset ovat kirjoittamaanne sovellettuja sääntöjä, eivät ennuste menestyksestä. Jos vastauksissanne on arvioijalle suunnattua tekstiä, esimerkiksi kehotus arvioida idea korkealle, idea jätetään ihmisen luettavaksi.",
+            "Tuloksen lisäksi näette:"
+          ],
+          "points": [
+            "Mikä on vahvaa, omin sanoinne lainattuna.",
+            "Enintään kolme seuraavaa askelta aineistossamme olevista ohjelmista ja rahoitusreiteistä, kukin lähteineen ja mahdollisine määräaikoineen.",
+            "Rehellisen huomion rahasta. Jos aineistossamme ei vielä ole mitään sopivaa, arvio sanoo sen.",
+            "Samankaltaiset julkiset hankkeet, jos niitä on. Se ei ole ongelma: se osoittaa, että ongelma on todellinen, joten kertokaa, mitä teette toisin.",
+            "Miten kukin vastaus luettiin, jaoteltuna väitteisiinne, oletuksiimme ja tuntemattomiin tietoihin, ja jokaisella tuntemattomalla tiedolla on seuraava tarkistuksensa. Faktat-sarake jää tiimin omassa ideassa tyhjäksi: mikään lomakkeeseen kirjoitettu ei ole faktaa, ennen kuin joku tarkistaa sen."
+          ],
+          "table": {
+            "head": ["Tulos", "Mitä se tarkoittaa", "Mitä tehdä"],
+            "rows": [
+              [
+                "Valmis tuotavaksi A'Pelagolle",
+                "Korkea potentiaali, ainakin jonkin verran näyttöä ja tekstissä osoitettu vaikuttavuusalue.",
+                "Lisätkää idea arviointijonoon, kun olette valmiita."
+              ],
+              [
+                "Lupaava: kaksi vastausta ratkaisee",
+                "Korkea tai keskitasoinen potentiaali, mutta jokin tärkeä on vielä auki.",
+                "Vastatkaa arviossa oleviin kahteen kysymykseen ja pyytäkää sitten uusi arvio tai jakakaa."
+              ],
+              [
+                "Ei vielä: lisätkää nämä",
+                "Liian vähän arvioitavaa tai matala potentiaali kirjoitetun perusteella.",
+                "Lisätkää se, mitä arvio pyytää. Voitte silti jakaa jo nyt: Ei vielä ei koskaan estä jakamista."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-sharing",
+          "title": "Opiskelijoille: jakaminen A'Pelagolle",
+          "body": [
+            "Jakaminen on teidän valintanne. Arvion alla on suostumusruutu, jota ei ole valmiiksi rastitettu, eikä jakopainike toimi ennen kuin rastitatte sen. Jakaminen vie vastauksenne ja valmiusarvionne arviointijonoon. Tässä prototyypissä jakaminen on simuloitu: idea menee demon arviointijonoon, jonka näkee vain oma selainistuntonne, eikä mitään lähetetä A'Pelagolle tai päädy sille.",
+            "Tässä prototyypissä tallennus on pois päältä: jaettu idea säilyy palvelimen muistissa 60 minuuttia, näkyy vain omassa selainistunnossanne eikä sitä koskaan kirjoiteta levylle tai lokeihin. Jos muutatte vastauksia jakamisen jälkeen, pyytäkää uusi arvio ja jakakaa uudelleen, niin jaettu versio päivittyy.",
+            "Valmiissa tuotteessa A'Pelagon arvioijat näkevät jokaisen jaetun idean ja voivat kutsua tiimin ohjelmaan. Jakaminen pyytää silloin yhden sähköpostiosoitteen, joka vahvistetaan siihen lähetetyllä linkillä (kaksivaiheinen vahvistus), sekä vahvistuksen siitä, että olette vähintään 18-vuotiaita. A'Pelago vastaa tiedoista, ja suostumuksenne kirjataan yhdessä sen tekstin kanssa, johon suostuitte."
+          ]
+        },
+        {
+          "id": "students-consent",
+          "title": "Opiskelijoille: suostumus ja sen peruminen",
+          "body": [
+            "Suostumusteksti kertoo, mihin suostutte: tässä prototyypissä siihen, että idea ja sen valmiusarvio lisätään demon arviointijonoon, jota A'Pelago ei saa; valmiissa tuotteessa siihen, että A'Pelago saa nähdä ne ja ottaa tiimiinne yhteyttä ohjelmiinsa liittyen. Voitte perua suostumuksen milloin tahansa. Jos suostumusteksti muuttuu, sivu pyytää lukemaan sen uudelleen ja rastittamaan ruudun uudelleen.",
+            "Peru jakaminen -painike poistaa heti kaiken, minkä istuntonne on jakanut. Valmiissa tuotteessa peruminen poistaa idean ja yhteystietonne 30 päivän kuluessa ja säilyttää vain sähköpostiosoitteesta muodostetun tiivisteen, jotta teihin ei oteta uudelleen yhteyttä. Jaettu idea, jota A'Pelago ei vie eteenpäin, poistettaisiin 12 kuukauden kuluttua; aika on ehdotus, josta A'Pelago päättää.",
+            "Mitään päätöstä ei tee ohjelmisto yksin. Arviointikehikko järjestää lukemisen, ja ihminen A'Pelagossa käy läpi jokaisen kärkipaikoilla olevan idean ja tekee päätöksen."
+          ]
+        },
+        {
+          "id": "students-timeline",
+          "title": "Opiskelijoille: aikataulu",
+          "body": ["Ensimmäisestä luonnoksesta A'Pelagon arvioon on vain muutama lyhyt vaihe."],
+          "points": [
+            "Noin viisi minuuttia: kuvatkaa ideanne.",
+            "Muutama sekunti: saatte valmiusarvion.",
+            "Milloin haluatte: parantakaa vastauksia ja pyytäkää uusi arvio.",
+            "Kun olette valmiita: rastittakaa suostumusruutu ja lisätkää idea arviointijonoon (tässä prototyypissä simuloitu).",
+            "Joka viikko: A'Pelagon arvioijat aloittavat jonon viidestä kärkipaikasta ja päättävät, keitä kutsutaan.",
+            "Milloin tahansa: perukaa jakaminen."
+          ]
+        },
+        {
+          "id": "reviewers-queue",
+          "title": "Arvioijille: miten jono järjestetään",
+          "body": [
+            "Arviointijonossa tiimien jakamat ideat ovat julkisista lähteistä löydettyjen, vielä yhtiöittämättömien hankkeiden rinnalla, ja kaikki järjestetään samalla arviointikehikolla. Piilotettuja pisteitä ei ole. Järjestys määräytyy ensin luokan mukaan (Tuo A'Pelagolle nyt, sitten Lupaava: kysy kaksi kysymystä, sitten Ei vielä), sitten potentiaalin ja näytön tasojen mukaan ja lopuksi kunkin lähteen oman järjestyksen mukaan niin, että lähteet vuorottelevat ja tiimien omat ehdotukset tulevat tasatilanteessa ensin. A'Pelagon työtila katsoo potentiaalia ennen näyttöä, Redstonen työtila näyttöä ensin.",
+            "Jono avautuu tämän viikon viiteen kärkipaikkaan, ja voitte vaihtaa kolmeen tai kymmeneen. Tyhjät paikat jäävät tyhjiksi, jos ehdot täyttäviä on vähemmän. Kärkipaikkojen alla kerrotaan, miksi nämä pääsivät mukaan ja miksi seuraava ei päässyt. Suodattimet (lähde, luokka, vaihe, vaikuttavuusalue ja tarpeet) rajaavat listaa numeroimatta sitä uudelleen.",
+            "Jokaisessa ideakortissa näkyvät arvio, kaksi kysyttävää kysymystä, faktojen, väitteiden, oletusten ja tuntemattomien tietojen luettelo sekä arviointikehikko kriteeri kriteeriltä. Näin arvioimme -painike avaa koko kehikon yhteen näkymään: jokaisen kriteerin, painon, portaan ja luokkasäännön.",
+            "Luokat ovat kirjoitettuun sovellettuja sääntöjä, eivät ennusteita. Tulostietoa ei vielä ole, joten kukaan ei voi sanoa, kuinka moni Tuo A'Pelagolle nyt -idea muuttuu yritykseksi; ensimmäinen kohortti aloittaa tämän tilaston."
+          ]
+        },
+        {
+          "id": "reviewers-flags",
+          "title": "Arvioijille: merkinnät",
+          "body": [
+            "Merkinnät kertovat, mitä kannattaa katsoa ennen kuin arvioon luottaa. Ihmiselle pidätetyt, vähällä vaivalla tehdyt ja lähes päällekkäiset ideat pysyvät listalla, mutta ne eivät koskaan pääse kärkipaikoille."
+          ],
+          "table": {
+            "head": ["Merkintä", "Milloin se näkyy", "Mitä tapahtuu"],
+            "rows": [
+              [
+                "Pidätetty ihmiselle",
+                "Tekstissä on arvioijalle suunnattuja ohjeita, kuten ”ohita säännöt” tai ”nosta tämä kärkeen”.",
+                "Säännöt sivuuttavat ohjeet, arvio on Ei vielä, ja idea odottaa ihmistä."
+              ],
+              [
+                "Vähäinen vaiva",
+                "Alle 20 sanaa yhteensä tai enimmäkseen toistuvia sanoja.",
+                "Arvio on Ei vielä, ja mukana ovat kysymykset, jotka voisivat muuttaa sen."
+              ],
+              [
+                "Lähes päällekkäinen",
+                "Idea muistuttaa toista ideaa tai julkista hanketta, joka on korkeammalla.",
+                "Se linkitetään korkeammalla olevaan, joka säilyttää paikkansa kärjessä."
+              ],
+              [
+                "Riippuvuus avustuksista",
+                "Tulot tulisivat avustuksista tai lahjoituksista.",
+                "Näkyy arviossa: sijoittajat etsivät ostajaa, joka maksaa."
+              ],
+              [
+                "Yhteystiedot poistettu",
+                "Vastauksiin oli kirjoitettu sähköpostiosoitteita tai puhelinnumeroita.",
+                "Ne poistetaan ennen lukemista, eikä niitä säilytetä."
+              ],
+              [
+                "Henkilökohtainen linkki poistettu",
+                "Linkki osoitti henkilökohtaiseen profiiliin.",
+                "Linkki jätetään pois ennen lukemista."
+              ],
+              [
+                "Lomake ja teksti ristiriidassa",
+                "Tekstissä mainitaan jotain rakennettua, mutta lomakkeessa ei.",
+                "Näkyy, jotta arvioija tarkistaa, mitä todella on olemassa."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "reviewers-public-leads",
+          "title": "Arvioijille: hackathon- ja tutkimushankkeet",
+          "body": [
+            "Julkiset liidit tulevat jonoon kahdesta lähteestä. Hackathon-tulokset ovat hackathon-seurannan kärkeen nostamia hankkeita, ja julkisena tallenteena on järjestäjän tulossivu; nuorten ja koulujen tapahtumat on jätetty pois. Tutkimushankkeet ovat tutkimusaineistomme EU- ja Interreg-hankkeita, jotka aineisto arvioi hyvin yritykseksi sopiviksi ja jotka ovat yhä käynnissä.",
+            "Jokainen julkinen liidi rakennetaan vain tekstistä, jonka tallenne itse sisältää, ja se koskee organisaatioita ja hankkeita, ei koskaan ihmisiä. Claude luki hackathon-liidien julkiset kuvaukset kerran 17. lokakuuta 2026. Jono toistaa tuon lukukerran, tarkistaa jokaisen lainauksen kuvausta vasten uudelleen ja hylkää lukukerran, jos kuvaus on muuttunut. Liian niukat kuvaukset sekä tutkimushankkeet, joista aineistossamme on vain nimi, saavat merkinnän Ei vielä arvioitu arvauksen sijaan.",
+            "Julkiset liidit saavat yleensä luokan Lupaava: seuraava askel on kaksi kysymystä, jotka esitetään organisaation kautta. Kutsu järjestäjän kautta -toiminto laatii viestin järjestäjälle tai yliopiston yhteyspalveluun, ei koskaan yksittäiselle ihmiselle, ja pyytää välittämään kutsun eteenpäin; tiimi päättää itse, vastaako se. Tässä prototyypissä lähettäminen Idea Harbourista on pois päältä: kopioikaa viesti ja lähettäkää se omasta sähköpostistanne."
+          ]
+        },
+        {
+          "id": "reviewers-sample-data",
+          "title": "Arvioijille: esimerkkiaineiston esikatselu",
+          "body": [
+            "Uusi jono näyttää hiljaiselta, kunnes tiimit alkavat jakaa ideoita. Arviointijonon kytkimellä vaihdetaan näkymien Todellinen jono ja Esimerkkiaineisto välillä. Esimerkkiaineisto täyttää jonon keksityillä ideoilla, jotta näette, miten järjestys, merkinnät, lähes päällekkäiset ideat ja kärkipaikat toimivat vilkkaalla viikolla.",
+            "Kun esimerkkiaineisto on käytössä, näytöllä pysyy koko ajan ilmoitus: Esimerkkiaineisto: keksitty näyttämään koko prosessi. Ei todellisia ehdotuksia. Palatkaa näkymään Todellinen jono, niin näette vain tiimien jakamat ideat ja julkiset liidit."
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Ikään perustuva vertailutaso",
+      "definition": "Yksinkertainen sääntö, joka arvaa valmiusluokan pelkän yrityksen iän perusteella. BlueWatch näyttää sen jokaisen tarkkuusluvun vieressä."
+    },
+    {
+      "term": "Vertailuluokitus",
+      "definition": "Joukon yrityksiä valmiusluokat, jotka analyytikkomme ovat päätelleet julkisesta näytöstä ja joita käytetään vain tarkkuuden mittaamiseen."
+    },
+    {
+      "term": "Oletus",
+      "definition": "Väite, jota BlueWatch ei ole vahvistanut, ja peruste, johon se nojaa."
+    },
+    {
+      "term": "Silta",
+      "definition": "Päivätty, kaksipuolinen syy yritykselle toimia nyt: näyttö molemmilta puolilta ja yksi toimenpide."
+    },
+    {
+      "term": "Näyttö",
+      "definition": "Kuinka suuri osa yrityksen potentiaalista perustuu BlueWatchin lukemiin lähteisiin. Tuntemattomat tiedot laskevat sitä."
+    },
+    {
+      "term": "Fakta",
+      "definition": "Väite, jonka taustalla on BlueWatchin lukema lähde, päivämäärineen: milloin asia tapahtui, milloin se havaittiin ensimmäisen kerran ja milloin se on viimeksi luettu."
+    },
+    {
+      "term": "Kelpoisuusluokka",
+      "definition": "Kuinka hyvin yritys täyttää avustuksen tai ohjelman julkaistut säännöt: varma, todennäköinen, mahdollinen, poissuljettu tai ei tiedossa, aina ratkaisevan säännön kera."
+    },
+    {
+      "term": "Tietoaukkoluettelo",
+      "definition": "Yrityksen faktat, oletukset, tuntemattomat tiedot ja soveltumattomat kohdat neljässä sarakkeessa; jokaisella tuntemattomalla tiedolla on seuraava tarkistuksensa."
+    },
+    {
+      "term": "Ryhmät",
+      "definition": "Toimi nyt (lupaava, riittävä näyttö), Selvitä tarkemmin (lupaava, vähän näyttöä) ja Ei vielä (liian varhainen vaihe tai heikko sopivuus tällä hetkellä). Jokaisella on kirjattu sääntö."
+    },
+    {
+      "term": "Seuraava askel",
+      "definition": "Yksi toimenpide yrityksen järjestetyssä listassa, kuten ohjelma, avustus, sijoittaja, ostaja, kumppani, pilotti tai kysymys yritykselle, ja sen määräaika, jos sellainen on."
+    },
+    {
+      "term": "Potentiaali",
+      "definition": "Kuinka suurelta mahdollisuus näyttää, jos väitteet pitävät. Tuntemattomat tiedot eivät koskaan laske sitä."
+    },
+    {
+      "term": "Esiasetus",
+      "definition": "Konfiguraatioksi kirjoitettu teesi: toimialat, avainsanat, avustusten aiheet, sijoittajien teesit ja vaikuttavuusalueet. Moottori pysyy samana."
+    },
+    {
+      "term": "Valmiustaso",
+      "definition": "Yksi neljästä asteikosta: teknologia, liiketoiminta, merivaikuttavuus ja sijoitusvalmius. Tuntematon ei ole koskaan nolla."
+    },
+    {
+      "term": "Valmiusarvio",
+      "definition": "Idea Harbourin tulos yhdelle idealle: luokka, potentiaalin ja näytön tasot, kaksi tärkeintä kysymystä ja seuraavat askeleet."
+    },
+    {
+      "term": "Yhdistäminen rekisteriin",
+      "definition": "Kuinka varmasti yritys on yhdistetty rekisteritietoonsa yritystunnuksen perusteella. Yhteyttä voi ottaa vain varmasti yhdistettyyn yritykseen."
+    },
+    {
+      "term": "Yksityinen elinkeinonharjoittaja",
+      "definition": "Yrittäjänä rekisteröity yksityishenkilö. BlueWatch ei koskaan nosta tällaista listalle, ota yhteyttä tai näytä tietoja."
+    },
+    {
+      "term": "Tuntematon tieto",
+      "definition": "Asia, jota lähteet eivät kerro, ja tieto siitä, miten aukko suljetaan. Puuttuva tieto on johtolanka, ei huono arvosana."
+    },
+    {
+      "term": "Työtila",
+      "definition": "Tiimin näkymä BlueWatchiin, A'Pelago tai Redstone: samat tiedot ja säännöt, eri lista ja sanamuodot."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Ovatko tiedot todellisia?",
+      "a": "Ovat. Jokainen yritys, hankinta, tutkimushanke, avustus ja sijoittaja on peräisin julkisesta lähteestä, ja jokaisella faktalla on linkki ja päivämäärät. Tässä prototyypissä tiedot tallennettiin 16. ja 17. lokakuuta 2026, ja sovellus näyttää tämän päivämäärän. Simuloituja ovat vain yrityksen vastaus yhteydenotoissa ja Idea Harbourin esimerkkiaineiston esikatselu, joka on merkitty keksityksi."
+    },
+    {
+      "q": "Miksi listalla on joskus alle 10 yritystä?",
+      "a": "Koska listaa ei koskaan täytetä varmuuden vuoksi. Mukaan pääsevät vain yritykset, joihin on tällä viikolla uusi syy tutustua, ja lista kertoo, miksi seuraava yritys ei päässyt mukaan."
+    },
+    {
+      "q": "Tuntemallani yrityksellä on vähän näyttöä. Onko sitä rangaistu?",
+      "a": "Ei. Näyttö mittaa sitä, kuinka paljon BlueWatch löysi lähteitä, ei sitä, kuinka hyvä yritys on, ja tuntemattomat tiedot laskevat vain näyttöä, eivät koskaan potentiaalia. Kortti luettelee jokaisen tuntemattoman tiedon ja tarkistuksen tai kysymyksen, joka sen selvittäisi."
+    },
+    {
+      "q": "Voiko BlueWatch lähettää yritykselle sähköpostia itsestään?",
+      "a": "Ei. Ihminen hyväksyy jokaisen viestin, hyväksyntä on sidottu juuri siihen tekstiin, ja henkilökohtaiset tai haravoidut osoitteet on estetty. Tässä prototyypissä lähettäminen on kokonaan pois päältä."
+    },
+    {
+      "q": "Miksi avustus näkyy luokassa Mahdollinen, vaikka yritys selvästi sopii?",
+      "a": "Koska ainakin yhtä ratkaisevaa sääntöä ei voitu lukea rahoittajan virallisilta sivuilta, kriteerejä ei ole julkaistu tai hakua ei ole nyt auki. Luokka nimeää säännön, joten tiedätte, mitä varmistaa rahoittajalta."
+    },
+    {
+      "q": "Kuinka tarkka BlueWatch on?",
+      "a": "Tarkkuus-sivu näyttää yhtäpitävyyden vertailuluokitusten kanssa pelkkään ikään perustuvan vertailutason rinnalla, jokaisen luvun kohdalla n, ja kertoo, missä vertailutaso on parempi. Otokset ovat pieniä, joten lukuja kannattaa pitää suuntaa antavina. BlueWatch järjestää ja perustelee, mutta ei ennusta, mitkä yritykset menestyvät."
+    },
+    {
+      "q": "Toimiiko BlueWatch sinisen talouden ulkopuolella?",
+      "a": "Toimii. Vaihtakaa esiasetukseksi ilmasto ja kiertotalous, niin samat yritykset järjestetään uudelleen muiden toimialojen, avustusten, sijoittajien teesien ja vaikuttavuusalueiden mukaan. Uusi teesi on uusi esiasetus, ei uutta koodia."
+    },
+    {
+      "q": "Mitä kirjoittamalleni yritystunnukselle tapahtuu?",
+      "a": "Se menee vain kyseisen maan viralliseen rekisteriin, eikä sitä koskaan tallenneta, kirjata lokiin tai lisätä sivun osoitteeseen. Yksityiset elinkeinonharjoittajat ovat yksityishenkilöitä, joten BlueWatch ei näytä heistä mitään."
+    }
+  ]
+}

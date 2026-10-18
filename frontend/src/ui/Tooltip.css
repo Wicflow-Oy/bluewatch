@@ -1,0 +1,86 @@
+/* The night tooltip (section 3.9). */
+.tip-anchor {
+  display: inline-flex;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.tip-anchor--block {
+  display: flex;
+}
+
+.tooltip {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--z-tooltip);
+  max-width: 320px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  background: var(--night);
+  color: var(--night-fg);
+  font-size: 12.5px;
+  line-height: 1.45;
+  box-shadow:
+    0 10px 30px -8px rgba(0, 0, 0, 0.45),
+    0 0 0 1px rgba(255, 255, 255, 0.06);
+  pointer-events: none;
+  opacity: 0;
+}
+
+.tooltip[data-ready="true"] {
+  animation: tp-tip 260ms var(--spring) forwards;
+}
+
+@keyframes tp-tip {
+  from {
+    opacity: 0;
+    transform: var(--tip-xy) translateY(4px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: var(--tip-xy);
+  }
+}
+
+.tooltip__title {
+  display: block;
+  margin-bottom: 4px;
+  font: 500 10.5px/1.3 var(--mono);
+  letter-spacing: 0;
+  color: rgba(245, 245, 242, 0.58);
+}
+
+.tooltip .muted,
+.tooltip__row {
+  color: rgba(245, 245, 242, 0.74);
+}
+
+.tooltip__row {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.tooltip__row + .tooltip__row {
+  margin-top: 2px;
+}
+
+.tooltip__row dt,
+.tooltip__note {
+  color: rgba(245, 245, 242, 0.58);
+}
+
+.tooltip__row dd {
+  font-family: var(--mono);
+  font-variant-numeric: tabular-nums;
+  color: var(--night-fg);
+}
+
+.tooltip__note {
+  margin-top: 6px;
+}
+
+.tooltip a {
+  color: #8a9dff;
+}

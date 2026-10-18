@@ -1,0 +1,95 @@
+/* The switch (section 3.8): sea when on, the thumb stretches on press. */
+.toggle {
+  --track-w: 40px;
+  --track-h: 24px;
+  --thumb: 20px;
+  --inset: 2px;
+  --travel: 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 32px;
+  padding: 0 4px;
+  border-radius: var(--r-pill);
+  font: 520 13px/1.3 var(--sans);
+  color: var(--ink-2);
+  text-align: left;
+  -webkit-tap-highlight-color: transparent;
+  transition: color var(--d-fast);
+}
+
+.toggle--lg {
+  --track-w: 52px;
+  --track-h: 32px;
+  --thumb: 26px;
+  --inset: 3px;
+  --travel: 20px;
+}
+
+.toggle:hover,
+.toggle[aria-checked="true"] {
+  color: var(--ink);
+}
+
+.toggle:focus-visible {
+  outline: none;
+}
+
+.toggle:focus-visible .toggle__track {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+.toggle__track {
+  position: relative;
+  flex: none;
+  width: var(--track-w);
+  height: var(--track-h);
+  border-radius: var(--r-pill);
+  background: var(--line-2);
+  transition: background-color 280ms var(--ease);
+}
+
+:root[data-theme="graphite"] .toggle__track {
+  background: var(--line-3);
+}
+
+.toggle[aria-checked="true"] .toggle__track {
+  background: var(--sea);
+}
+
+.toggle__thumb {
+  position: absolute;
+  top: var(--inset);
+  left: var(--inset);
+  width: var(--thumb);
+  height: var(--thumb);
+  border-radius: var(--r-pill);
+  background: #fff;
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.18),
+    0 3px 8px rgba(0, 0, 0, 0.14);
+  transition:
+    transform var(--d-slide) var(--spring),
+    width 220ms var(--ease);
+}
+
+.toggle[aria-checked="true"] .toggle__thumb {
+  transform: translateX(var(--travel));
+}
+
+.toggle:active .toggle__thumb {
+  width: calc(var(--thumb) + 4px);
+}
+
+.toggle--lg:active .toggle__thumb {
+  width: calc(var(--thumb) + 6px);
+}
+
+.toggle[aria-checked="true"]:active .toggle__thumb {
+  transform: translateX(calc(var(--travel) - 4px));
+}
+
+.toggle--lg[aria-checked="true"]:active .toggle__thumb {
+  transform: translateX(calc(var(--travel) - 6px));
+}

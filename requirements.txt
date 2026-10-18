@@ -1,0 +1,6 @@
+# Runtime dependencies for the container (pinned from the dev environment, 17 Oct 2026).
+anthropic==1.15.0
+fastapi==0.143.3
+httpx==0.28.1
+pydantic==2.14.1
+uvicorn==0.54.0

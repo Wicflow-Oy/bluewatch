@@ -1,0 +1,178 @@
+/* The phone's floating pill tab bar (section 2.5) and the More sheet. */
+.tabbar {
+  display: none;
+}
+
+@media (max-width: 719px) {
+  .tabbar {
+    position: fixed;
+    z-index: var(--z-tabbar);
+    left: var(--tabbar-gap);
+    right: var(--tabbar-gap);
+    bottom: calc(var(--tabbar-gap) + env(safe-area-inset-bottom));
+    display: grid;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    height: var(--tabbar-h);
+    padding: 6px;
+    border-radius: 32px;
+    background: color-mix(in srgb, var(--surface) 86%, transparent);
+    -webkit-backdrop-filter: blur(20px) saturate(1.4);
+    backdrop-filter: blur(20px) saturate(1.4);
+    box-shadow:
+      0 0 0 1px var(--line-2),
+      0 16px 40px -12px rgba(0, 0, 0, 0.28);
+  }
+}
+
+.tabbar__ind {
+  position: absolute;
+  top: 6px;
+  bottom: 6px;
+  left: 0;
+  width: 0;
+  border-radius: 26px;
+  background: var(--btn-ink);
+  box-shadow: var(--sh-ink);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform var(--d-slide) var(--spring-soft),
+    width var(--d-slide) var(--spring-soft),
+    opacity var(--d-fast);
+}
+
+.tabbar__ind[data-instant] {
+  transition: none;
+}
+
+.tabbar__item {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  place-items: center;
+  align-content: center;
+  gap: 3px;
+  min-width: 0;
+  border-radius: 26px;
+  color: var(--muted);
+  font: 550 10.5px/1 var(--sans);
+  letter-spacing: 0;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    color var(--d-base) var(--ease),
+    transform var(--d-spring) var(--spring);
+}
+
+.tabbar__item:hover {
+  text-decoration: none;
+}
+
+.tabbar__item svg {
+  width: 20px;
+  height: 20px;
+}
+
+.tabbar__item[data-selected="true"] {
+  color: var(--btn-ink-fg);
+}
+
+.tabbar__item span {
+  max-width: 100%;
+  padding: 0 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tabbar__item:active {
+  transform: scale(var(--press-seg));
+  transition-duration: var(--d-press);
+}
+
+.tabbar__item:focus-visible {
+  outline-offset: -2px;
+}
+
+/* The More sheet */
+.more {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.more__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px 20px 8px;
+}
+
+.more__body {
+  display: grid;
+  gap: 24px;
+  padding: 8px 16px calc(24px + env(safe-area-inset-bottom));
+  overflow-y: auto;
+}
+
+.more__list {
+  display: grid;
+  gap: 2px;
+}
+
+.more__item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-height: 52px;
+  padding: 0 14px;
+  border-radius: var(--r-md);
+  font: 550 15px/1.2 var(--sans);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  text-decoration: none;
+  transition:
+    background-color var(--d-fast),
+    transform var(--d-spring) var(--spring);
+}
+
+.more__item:hover {
+  background: var(--sunken);
+  text-decoration: none;
+}
+
+.more__item:active {
+  transform: scale(var(--press-row));
+}
+
+.more__item[aria-current="page"] {
+  background: var(--canvas-2);
+}
+
+.more__item > svg:first-child {
+  color: var(--muted);
+}
+
+.more__item > svg:last-child:not(:first-child) {
+  color: var(--accent);
+}
+
+.more__label {
+  flex: 1;
+  min-width: 0;
+}
+
+.more__theme {
+  display: grid;
+  gap: 10px;
+}
+
+.more__note {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  font-size: 12.5px;
+  color: var(--muted);
+}

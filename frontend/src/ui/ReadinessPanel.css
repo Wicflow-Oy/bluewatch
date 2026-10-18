@@ -1,0 +1,136 @@
+/* Readiness levels, stacked (section 3.12): label and state on top, the track full width, then the
+   note with the confidence dots. No fixed label column, so Finnish labels wrap instead of clipping. */
+.readiness {
+  display: grid;
+}
+
+.readiness__row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  grid-template-areas:
+    "label state"
+    "track track"
+    "sub conf";
+  align-items: baseline;
+  gap: 8px;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+}
+
+.readiness__row:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.readiness__row:last-child {
+  padding-bottom: 0;
+}
+
+.readiness__row > .track,
+.readiness__row > .readiness__na {
+  grid-area: track;
+  align-self: center;
+}
+
+.readiness__label {
+  grid-area: label;
+  min-width: 0;
+  font: 550 13px/1.2 var(--sans);
+  color: var(--ink);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.readiness__state {
+  grid-area: state;
+  font: 550 12px/1.2 var(--mono);
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.readiness__state--muted {
+  font-family: var(--sans);
+  color: var(--muted);
+}
+
+/* Right-aligned under the state, so the dots line up down the panel whatever the state word's width. */
+.readiness__confidence {
+  grid-area: conf;
+  align-self: start;
+  justify-self: end;
+  display: inline-flex;
+  padding-top: 4px;
+}
+
+/* Beside area tags the dots sit on the first tag's centre line. */
+.readiness__row:has(.readiness__areas) .readiness__confidence {
+  padding-top: 8px;
+}
+
+.readiness__sub {
+  grid-area: sub;
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.readiness__sub:empty {
+  display: none;
+}
+
+.readiness__na {
+  height: 10px;
+  border-radius: 3px;
+  outline: 1px dotted var(--line-3);
+  outline-offset: -1px;
+}
+
+.readiness__row--areas {
+  grid-template-areas:
+    "label label"
+    "areas areas";
+}
+
+.readiness__row--areas > .readiness__impact {
+  grid-area: areas;
+}
+
+.readiness__impact {
+  display: grid;
+  gap: 6px;
+}
+
+.readiness__areas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.readiness__no-area {
+  justify-self: start;
+  display: inline-flex;
+  align-items: center;
+  height: 22px;
+  padding: 0 9px;
+  border-radius: var(--r-pill);
+  font: 520 11.5px/1 var(--sans);
+  color: var(--muted);
+  background: var(--hatch), var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.readiness__note {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.readiness__note--faint {
+  color: var(--faint);
+}
+
+.readiness__quote {
+  font-style: italic;
+  color: var(--ink-2);
+  quotes: '"' '"';
+}

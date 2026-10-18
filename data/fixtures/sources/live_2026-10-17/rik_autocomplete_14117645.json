@@ -1,0 +1,22 @@
+{
+ "recorded_at": "2026-10-17T17:31:03+00:00",
+ "q": "14117645",
+ "response": {
+  "status": "OK",
+  "data": [
+   {
+    "company_id": 9000165560,
+    "reg_code": 14117645,
+    "name": "Avatec Marine OÜ",
+    "historical_names": [
+     "AWATECH Marine OÜ",
+     "Marine Support OÜ"
+    ],
+    "status": "R",
+    "legal_address": "Harju maakond, Tallinn",
+    "legal_form": "5",
+    "url": "https://ariregister.rik.ee/est/company/14117645/Avatec-Marine-OÜ"
+   }
+  ]
+ }
+}

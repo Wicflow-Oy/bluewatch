@@ -1,0 +1,68 @@
+{
+  "name": "blue",
+  "label": "Blue economy",
+  "description": "Ocean, maritime and water ventures: Redstone Blue's four verticals and A'Pelago's programmes. Pre-seed to Series A.",
+  "verticals": {
+    "maritime_ports": {
+      "label": "Sustainable maritime and port systems",
+      "keywords": ["maritime", "shipping", "ship", "ships", "vessel", "vessels", "port", "ports", "harbour", "harbours", "marina", "berth", "berths", "boat", "boats", "ferry", "ferries", "workboats", "fleet", "propulsion", "autonomous vessel", "shipbuilding"]
+    },
+    "ocean_infra_clean_energy": {
+      "label": "Ocean infrastructure and clean energy",
+      "keywords": ["offshore", "wave energy", "tidal", "offshore wind", "floating", "subsea", "shore power", "charging", "electric vessels", "docks", "reef", "reefs"]
+    },
+    "marine_intelligence": {
+      "label": "Marine intelligence (ocean data and observation)",
+      "keywords": ["ocean data", "oceanography", "hydrographic", "underwater", "sonar", "buoy", "rov", "auv", "usv", "sensor", "sensors", "monitoring", "satellite", "marine data", "biodiversity"]
+    },
+    "blue_biotech_water": {
+      "label": "Blue biotech and water technology",
+      "keywords": ["aquaculture", "fish farming", "seaweed", "algae", "seafood", "marine ingredients", "fish", "mussels", "water treatment", "wastewater", "water quality", "drinking water", "nutrients", "phosphorus", "fucoidan"]
+    }
+  },
+  "vertical_prior": {
+    "maritime_ports": 0.7,
+    "ocean_infra_clean_energy": 0.7,
+    "marine_intelligence": 0.7,
+    "blue_biotech_water": 0.7,
+    "other": 0.15,
+    "none": 0.3
+  },
+  "off_thesis_keywords": ["sauna", "skincare", "clothing", "apparel", "insurance", "micro-hospitality"],
+  "grant_topics": ["ocean", "maritime", "water", "aquaculture_food"],
+  "investor_topics": ["ocean", "maritime", "water", "aquaculture_food"],
+  "impact": {
+    "name": "Ocean Impact Navigator areas",
+    "note": "Six areas from a secondary source, to confirm with A'Pelago; the 1-5 level per area is our own draft scale.",
+    "areas": {
+      "Sustainably Managed Ocean Resources": ["aquaculture", "fish farming", "fisheries", "fishing", "seafood", "seaweed", "mussels", "by-products", "marine biomass", "traceable", "feed"],
+      "A Clean Ocean": ["oil spill", "oil spills", "pollution", "microplastics", "plastic", "plastics", "wastewater", "nutrients", "phosphorus", "nitrogen", "water quality", "sorbent", "waste"],
+      "Thriving and Restored Marine Habitats": ["biodiversity", "restoration", "reef", "reefs", "habitat", "habitats", "ecosystem", "ecosystems", "coral", "invasive"],
+      "Towards 1.5°C": ["emissions", "decarbonisation", "co2", "carbon", "ghg", "wind propulsion", "zero-emission", "electric", "shore power", "charging", "wave energy", "tidal", "offshore wind", "fuel optimisation"],
+      "Climate-Resilient Coastal Communities": ["coastal resilience", "flood", "flooding", "erosion", "storm", "sea level", "early warning"],
+      "Positive Socio-Economic Outcomes": ["coastal communities", "livelihoods", "local producers", "archipelago", "search and rescue", "rescue", "water safety", "jobs"]
+    }
+  },
+  "stage_window": {"irl_min": 2, "irl_max": 8, "max_age_years": 10},
+  "ticket_eur": [200000, 2000000],
+  "house_fund": {"investor_id": "redstone-blue", "label": "Redstone Blue"},
+  "programmes": [
+    "apelago-northern-blue-2027",
+    "apelago-lab2impact-2027",
+    "apelago-2027-programmes",
+    "noca-2027",
+    "helsinki-blue-economy-studio-2027",
+    "katapult-ocean-accelerator",
+    "blueinvest-ira",
+    "emso-physical-access-2026"
+  ],
+  "weights": {
+    "potential": {"thesis_fit": 0.5, "stage_fit": 0.3, "venture_type": 0.2},
+    "evidence": {"coverage": 0.7, "independence": 0.2, "recency": 0.1},
+    "rank": {"fit": 0.3, "signal": 0.25, "group": 0.2, "evidence": 0.15, "potential": 0.1},
+    "investor": {"stage": 0.3, "thesis": 0.3, "geography": 0.2, "ticket": 0.1, "verification": 0.1}
+  },
+  "traction_bonus": 0.15,
+  "thresholds": {"promising": 0.6, "solid_evidence": 0.5, "off_thesis": 0.35},
+  "windows": {"newborn_weeks": 12, "newly_active_days": 365}
+}

@@ -1,0 +1,6 @@
+# Generated files: collapsed in diffs and left out of GitHub's language stats.
+frontend/src/contracts.ts linguist-generated=true
+frontend/src/fixtures/*.json linguist-generated=true
+frontend/package-lock.json linguist-generated=true
+data/i18n/*.json linguist-generated=true
+data/fixtures/** linguist-generated=true

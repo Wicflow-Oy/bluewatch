@@ -1,0 +1,4842 @@
+{
+ "recorded_at": "2026-10-17T17:34:10+00:00",
+ "since": "2026-10-16T06:00:00+00:00",
+ "until": "2026-10-16T09:00:00+00:00",
+ "items": [
+  {
+   "oppdateringsid": 25370593,
+   "dato": "2026-10-16T06:00:10.689Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370594,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370596,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370597,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370598,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370599,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370600,
+   "dato": "2026-10-16T06:00:12.081Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370601,
+   "dato": "2026-10-16T06:05:10.740Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370602,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370603,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370604,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370605,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370606,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370608,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370609,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370610,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370611,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370612,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370613,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370614,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370615,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370616,
+   "dato": "2026-10-16T06:05:12.204Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370617,
+   "dato": "2026-10-16T06:10:10.628Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370620,
+   "dato": "2026-10-16T06:10:11.905Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/2"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370621,
+   "dato": "2026-10-16T06:10:11.905Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370622,
+   "dato": "2026-10-16T06:10:11.905Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370624,
+   "dato": "2026-10-16T06:10:11.905Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370625,
+   "dato": "2026-10-16T06:10:11.905Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    },
+    {
+     "op": "remove",
+     "path": "/hjemmeside"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370626,
+   "dato": "2026-10-16T06:15:11.257Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370627,
+   "dato": "2026-10-16T06:15:11.990Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370629,
+   "dato": "2026-10-16T06:15:11.990Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370630,
+   "dato": "2026-10-16T06:15:11.990Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370631,
+   "dato": "2026-10-16T06:15:11.990Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370632,
+   "dato": "2026-10-16T06:20:11.404Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370634,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370635,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370636,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370637,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370638,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370639,
+   "dato": "2026-10-16T06:20:13.595Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370640,
+   "dato": "2026-10-16T06:25:11.798Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370646,
+   "dato": "2026-10-16T06:25:12.671Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370647,
+   "dato": "2026-10-16T06:25:12.671Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370648,
+   "dato": "2026-10-16T06:25:12.671Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/registrertIFrivillighetsregisteret"
+    },
+    {
+     "op": "add",
+     "path": "/registreringsdatoFrivillighetsregisteret"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370649,
+   "dato": "2026-10-16T06:25:12.671Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370651,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370654,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370657,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370659,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370660,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370661,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370663,
+   "dato": "2026-10-16T06:30:12.122Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370664,
+   "dato": "2026-10-16T06:35:10.675Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370665,
+   "dato": "2026-10-16T06:35:11.277Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370666,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370667,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370668,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370675,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370676,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370677,
+   "dato": "2026-10-16T06:35:12.241Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370678,
+   "dato": "2026-10-16T06:40:11.206Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370679,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370680,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370681,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370682,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370683,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370684,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370685,
+   "dato": "2026-10-16T06:40:11.962Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370686,
+   "dato": "2026-10-16T06:45:10.700Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370687,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370688,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370689,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370690,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370691,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370692,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370693,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/belop"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370694,
+   "dato": "2026-10-16T06:45:12.226Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370695,
+   "dato": "2026-10-16T06:50:11.332Z",
+   "endringstype": "Endring",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370696,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370697,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/3"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/4"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370698,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370699,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370701,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370702,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370703,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370704,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode2"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370705,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370706,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370707,
+   "dato": "2026-10-16T06:50:12.925Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370708,
+   "dato": "2026-10-16T06:55:11.209Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370709,
+   "dato": "2026-10-16T06:55:11.832Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370711,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/registrertIForetaksregisteret"
+    },
+    {
+     "op": "add",
+     "path": "/registreringsdatoForetaksregisteret"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370712,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370715,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370716,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370717,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370718,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/forretningsadresse"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370719,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370721,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370722,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370723,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/3"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370724,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370725,
+   "dato": "2026-10-16T06:55:12.752Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370726,
+   "dato": "2026-10-16T07:00:11.420Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370728,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    },
+    {
+     "op": "remove",
+     "path": "/paategninger/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370729,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370731,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370733,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370734,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370735,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370736,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370737,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/paategninger/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370739,
+   "dato": "2026-10-16T07:00:12.398Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370740,
+   "dato": "2026-10-16T07:05:11.201Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370742,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370743,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370744,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370745,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370746,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370750,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370751,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370752,
+   "dato": "2026-10-16T07:05:12.038Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370753,
+   "dato": "2026-10-16T07:05:14.702Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370754,
+   "dato": "2026-10-16T07:05:14.702Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370755,
+   "dato": "2026-10-16T07:10:11.220Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370756,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370758,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370759,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370760,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370761,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370763,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370764,
+   "dato": "2026-10-16T07:10:12.108Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370769,
+   "dato": "2026-10-16T07:15:12.253Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370770,
+   "dato": "2026-10-16T07:15:12.253Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370771,
+   "dato": "2026-10-16T07:15:12.253Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/forretningsadresse"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370773,
+   "dato": "2026-10-16T07:15:12.253Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370774,
+   "dato": "2026-10-16T07:20:10.957Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370775,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370778,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370779,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370780,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370781,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370782,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370783,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370785,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370786,
+   "dato": "2026-10-16T07:20:12.596Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370787,
+   "dato": "2026-10-16T07:25:10.686Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370788,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370790,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370791,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370792,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370793,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370794,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370795,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/3"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370796,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938673977"
+  },
+  {
+   "oppdateringsid": 25370797,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370798,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370800,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370801,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370802,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370803,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370804,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370805,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370807,
+   "dato": "2026-10-16T07:25:12.179Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370808,
+   "dato": "2026-10-16T07:30:10.703Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370809,
+   "dato": "2026-10-16T07:30:11.410Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370810,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370811,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    },
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370812,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370813,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370814,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370817,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370819,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370822,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370823,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370824,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370825,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370826,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370827,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370828,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370829,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370830,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370832,
+   "dato": "2026-10-16T07:30:12.473Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370833,
+   "dato": "2026-10-16T07:35:10.684Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370834,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370835,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370838,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370839,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370840,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370841,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370842,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370843,
+   "dato": "2026-10-16T07:35:11.971Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370844,
+   "dato": "2026-10-16T07:40:10.698Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370845,
+   "dato": "2026-10-16T07:40:11.370Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370846,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370848,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370849,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370851,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370852,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "remove",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370854,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370855,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370857,
+   "dato": "2026-10-16T07:40:12.271Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370858,
+   "dato": "2026-10-16T07:45:11.245Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370859,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode2"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370860,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370861,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370864,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370865,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370866,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/3"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370867,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370868,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370869,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370870,
+   "dato": "2026-10-16T07:45:12.146Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370871,
+   "dato": "2026-10-16T07:50:10.564Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370873,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370874,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370877,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370878,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370879,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370880,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938649456"
+  },
+  {
+   "oppdateringsid": 25370883,
+   "dato": "2026-10-16T07:50:12.065Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370884,
+   "dato": "2026-10-16T07:55:11.588Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370887,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370889,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370892,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370893,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Endring",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370895,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370896,
+   "dato": "2026-10-16T07:55:12.540Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370897,
+   "dato": "2026-10-16T08:00:11.341Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370899,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370903,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370904,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/paategninger/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370906,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370908,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370909,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370910,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370911,
+   "dato": "2026-10-16T08:00:12.319Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370912,
+   "dato": "2026-10-16T08:05:11.209Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370913,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370914,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370915,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/3"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370917,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370918,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370923,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370925,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370926,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "copy",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370927,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938654816"
+  },
+  {
+   "oppdateringsid": 25370928,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370929,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689628"
+  },
+  {
+   "oppdateringsid": 25370930,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370931,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370935,
+   "dato": "2026-10-16T08:05:12.156Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370936,
+   "dato": "2026-10-16T08:10:10.682Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370939,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370940,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938617546"
+  },
+  {
+   "oppdateringsid": 25370941,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689644"
+  },
+  {
+   "oppdateringsid": 25370942,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370943,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370944,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370945,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/antallAksjer"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/belop"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370946,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370947,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689660"
+  },
+  {
+   "oppdateringsid": 25370948,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370949,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370950,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370951,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "copy",
+     "path": "/fravalgRevisjonBeslutningsDato"
+    },
+    {
+     "op": "add",
+     "path": "/fravalgRevisjonDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370953,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "remove",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370954,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370957,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370959,
+   "dato": "2026-10-16T08:10:11.932Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370960,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370961,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370964,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370965,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370966,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370967,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/naeringskode1/beskrivelse"
+    },
+    {
+     "op": "replace",
+     "path": "/naeringskode1/kode"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370969,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370970,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/antallAksjer"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/1"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/2"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/3"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/4"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370972,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370973,
+   "dato": "2026-10-16T08:15:12.100Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370975,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370976,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370977,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370978,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370979,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370980,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370982,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370983,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370984,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370985,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/1"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    },
+    {
+     "op": "remove",
+     "path": "/vedtektsfestetFormaal/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370986,
+   "dato": "2026-10-16T08:20:11.793Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370987,
+   "dato": "2026-10-16T08:25:11.771Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370988,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370989,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370991,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "remove",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370992,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25370993,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370996,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370997,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370998,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25370999,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/forretningsadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371000,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371004,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/antallAksjer"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/1"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/2"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371005,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371006,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    },
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371010,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371011,
+   "dato": "2026-10-16T08:25:12.669Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371012,
+   "dato": "2026-10-16T08:30:10.632Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371013,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371014,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371016,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371018,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371019,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371022,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371023,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371024,
+   "dato": "2026-10-16T08:30:12.122Z",
+   "endringstype": "Endring",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371025,
+   "dato": "2026-10-16T08:35:10.683Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/naeringskode1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371028,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/fravalgRevisjonBeslutningsDato"
+    },
+    {
+     "op": "remove",
+     "path": "/fravalgRevisjonDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371029,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371031,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689792"
+  },
+  {
+   "oppdateringsid": 25371032,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371033,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371035,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371036,
+   "dato": "2026-10-16T08:35:11.980Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/forretningsadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371037,
+   "dato": "2026-10-16T08:40:10.646Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371038,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371039,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371040,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371041,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938652961"
+  },
+  {
+   "oppdateringsid": 25371042,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/belop"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371043,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371044,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/historiskeNavn/0"
+    },
+    {
+     "op": "replace",
+     "path": "/navn"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371045,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689830"
+  },
+  {
+   "oppdateringsid": 25371046,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371047,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371048,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371049,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371051,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/3"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371056,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/0"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/1"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/2"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsfestetFormaal/3"
+    },
+    {
+     "op": "add",
+     "path": "/vedtektsfestetFormaal/4"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371057,
+   "dato": "2026-10-16T08:40:11.934Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371058,
+   "dato": "2026-10-16T08:45:10.606Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371059,
+   "dato": "2026-10-16T08:45:11.203Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/fravalgRevisjonBeslutningsDato"
+    },
+    {
+     "op": "copy",
+     "path": "/fravalgRevisjonDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371061,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371064,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/kapital/belop"
+    },
+    {
+     "op": "replace",
+     "path": "/kapital/innfortDato"
+    },
+    {
+     "op": "replace",
+     "path": "/vedtektsdato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371065,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371066,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371067,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371070,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371072,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371074,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse/adresse/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371075,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "move",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371077,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371079,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689881"
+  },
+  {
+   "oppdateringsid": 25371080,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371081,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371082,
+   "dato": "2026-10-16T08:45:12.212Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371083,
+   "dato": "2026-10-16T08:45:15.272Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371097,
+   "dato": "2026-10-16T08:45:15.272Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371098,
+   "dato": "2026-10-16T08:45:15.272Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371099,
+   "dato": "2026-10-16T08:50:11.618Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371100,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371101,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371104,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371105,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/forretningsadresse"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/adresse/1"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/land"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/landkode"
+    },
+    {
+     "op": "replace",
+     "path": "/postadresse/poststed"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse/kommune"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse/kommunenummer"
+    },
+    {
+     "op": "add",
+     "path": "/postadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371107,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371108,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371111,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371116,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "remove",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371119,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/1"
+    },
+    {
+     "op": "add",
+     "path": "/aktivitet/2"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371120,
+   "dato": "2026-10-16T08:50:12.643Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "remove",
+     "path": "/fravalgRevisjonDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371121,
+   "dato": "2026-10-16T08:50:14.214Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371122,
+   "dato": "2026-10-16T08:50:14.215Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371123,
+   "dato": "2026-10-16T08:50:14.215Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/erIKonsern"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371124,
+   "dato": "2026-10-16T08:55:10.727Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371125,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "add",
+     "path": "/hjemmeside"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371127,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/aktivitet/0"
+    },
+    {
+     "op": "replace",
+     "path": "/aktivitet/1"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371128,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371129,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371130,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371131,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371132,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371134,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "move",
+     "path": "/postadresse"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371135,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371136,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938689997"
+  },
+  {
+   "oppdateringsid": 25371138,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Ny",
+   "endringer": [],
+   "organisasjonsnummer": "938610681"
+  },
+  {
+   "oppdateringsid": 25371139,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/underAvvikling"
+    },
+    {
+     "op": "add",
+     "path": "/underAvviklingDato"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371140,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/adresse/0"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommune"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/kommunenummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/postnummer"
+    },
+    {
+     "op": "replace",
+     "path": "/forretningsadresse/poststed"
+    }
+   ]
+  },
+  {
+   "oppdateringsid": 25371143,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Sletting",
+   "endringer": []
+  },
+  {
+   "oppdateringsid": 25371144,
+   "dato": "2026-10-16T08:55:12.553Z",
+   "endringstype": "Endring",
+   "endringer": [
+    {
+     "op": "move",
+     "path": "/postadresse"
+    }
+   ]
+  }
+ ]
+}

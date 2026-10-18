@@ -1,0 +1,252 @@
+/* Who the company is (mockup .vc-head, section 3.34): rank tile, name with group chips, a meta row with the
+   copy-ID pill, register-match and flag chips, then the one-liner. */
+.entity {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  column-gap: 16px;
+  align-items: start;
+  min-width: 0;
+}
+
+.entity--tiled {
+  grid-template-columns: auto minmax(0, 1fr);
+}
+
+.entity__tile {
+  display: grid;
+  place-items: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 16px;
+  font: 550 15px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.entity__tile--ink {
+  color: var(--btn-ink-fg);
+  background: var(--btn-ink);
+  box-shadow: var(--sh-ink);
+}
+
+.entity__main {
+  display: grid;
+  min-width: 0;
+}
+
+.entity__name-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
+  min-height: 52px;
+}
+
+.entity__name {
+  min-width: 0;
+  font: 620 28px/1.05 var(--sans);
+  font-stretch: 94%;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.entity__meta,
+.entity__facts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px 10px;
+  font-size: 13px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.entity__meta {
+  margin-top: 10px;
+}
+
+.entity__id {
+  font-size: 11.5px;
+  color: var(--ink-2);
+}
+
+.entity__details {
+  display: grid;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+/* Dots between facts, drawn by CSS so a missing item never leaves a stray separator. Every item gets a
+   dot; the row starts 13px early and clips that strip, so a dot never leads a line, wrapped or not. */
+.entity__facts {
+  column-gap: 0;
+  margin-left: -13px;
+  clip-path: inset(-4px -4px -4px 13px);
+}
+
+.entity__facts > *::before {
+  content: "";
+  display: inline-block;
+  width: 3px;
+  height: 3px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: var(--line-3);
+  vertical-align: middle;
+}
+
+.entity__facts > * {
+  margin-right: 10px;
+}
+
+/* A fact longer than one line (a long vertical on a phone) wraps under its own text, not into the clipped
+   strip that hides the leading dot. */
+.entity__facts > :not(a) {
+  padding-left: 13px;
+  text-indent: -13px;
+}
+
+.entity__facts a {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  color: var(--ink-2);
+}
+
+.entity__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.entity__chips:empty {
+  display: none;
+}
+
+.entity__flag {
+  display: inline-flex;
+  border-radius: var(--r-pill);
+}
+
+/* The copy-ID pill */
+.entity__copy {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 24px;
+  padding: 0 4px 0 9px;
+  border-radius: var(--r-pill);
+  font: 500 11.5px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  transition:
+    transform var(--d-spring) var(--spring),
+    color var(--d-base),
+    background-color var(--d-base);
+}
+
+.entity__copy:active {
+  transform: scale(0.94);
+  transition-duration: var(--d-press);
+}
+
+.entity__copy-icon {
+  position: relative;
+  display: grid;
+  width: 18px;
+  height: 18px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: var(--surface);
+  box-shadow: 0 0 0 1px var(--line);
+}
+
+.entity__copy-icon svg {
+  grid-area: 1 / 1;
+  place-self: center;
+  transition:
+    transform 360ms var(--spring),
+    opacity 360ms var(--spring);
+}
+
+.entity__copy-icon svg + svg {
+  opacity: 0;
+  transform: translateY(14px);
+}
+
+.entity__copy.is-done {
+  color: var(--sea);
+  background: var(--sea-soft);
+}
+
+.entity__copy.is-done .entity__copy-icon svg:first-child {
+  opacity: 0;
+  transform: translateY(-14px);
+}
+
+.entity__copy.is-done .entity__copy-icon svg + svg {
+  opacity: 1;
+  transform: none;
+  color: var(--sea);
+}
+
+/* The text clamps to two lines; its source chip sits outside the clamp so it is never cut off. */
+.entity__oneliner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 8px;
+  max-width: 640px;
+  margin-top: 2px;
+}
+
+.entity__oneliner-text {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.entity__toggle {
+  display: none;
+}
+
+.entity__toggle svg {
+  transition: transform var(--d-base) var(--ease);
+}
+
+.entity__toggle[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 719px) {
+  .entity__name {
+    font-size: 24px;
+  }
+
+  .entity__tile {
+    width: 44px;
+    height: 44px;
+    border-radius: 14px;
+  }
+
+  .entity__name-row {
+    min-height: 44px;
+  }
+
+  .entity--compact .entity__toggle {
+    display: inline-flex;
+    margin-left: auto;
+  }
+
+  .entity--compact .entity__details:not(.entity__details--open) {
+    display: none;
+  }
+}

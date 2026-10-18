@@ -1,0 +1,50 @@
+{
+ "9338c8ea55797032c0afc7a8": {
+  "text": "{\"claims\":[{\"field\":\"problem\",\"signal\":\"quantified_pain\",\"quote\":\"Fish farms in the Archipelago Sea overfeed by about 15%\"},{\"field\":\"problem\",\"signal\":\"why_now\",\"quote\":\"New nutrient rules from 2027 make this costly.\"},{\"field\":\"who_has_it\",\"signal\":\"named_customer\",\"quote\":\"Rainbow trout farms in the Turku archipelago and on Åland.\"},{\"field\":\"solution\",\"signal\":\"mechanism\",\"quote\":\"An underwater camera and a small machine-learning model detect when fish stop eating and stop the feeder\"},{\"field\":\"who_pays\",\"signal\":\"payer\",\"quote\":\"Farms pay a subscription per site\"},{\"field\":\"who_pays\",\"signal\":\"price_point\",\"quote\":\"about 300 EUR a month.\"},{\"field\":\"exists_detail\",\"signal\":\"built_specific\",\"quote\":\"We tested a prototype at one farm in Kustavi in August 2026 for three weeks.\"},{\"field\":\"exists_detail\",\"signal\":\"buyer_talks_counted\",\"quote\":\"We interviewed 9 farm managers.\"}]}",
+  "data": {
+   "claims": [
+    {
+     "field": "problem",
+     "signal": "quantified_pain",
+     "quote": "Fish farms in the Archipelago Sea overfeed by about 15%"
+    },
+    {
+     "field": "problem",
+     "signal": "why_now",
+     "quote": "New nutrient rules from 2027 make this costly."
+    },
+    {
+     "field": "who_has_it",
+     "signal": "named_customer",
+     "quote": "Rainbow trout farms in the Turku archipelago and on Åland."
+    },
+    {
+     "field": "solution",
+     "signal": "mechanism",
+     "quote": "An underwater camera and a small machine-learning model detect when fish stop eating and stop the feeder"
+    },
+    {
+     "field": "who_pays",
+     "signal": "payer",
+     "quote": "Farms pay a subscription per site"
+    },
+    {
+     "field": "who_pays",
+     "signal": "price_point",
+     "quote": "about 300 EUR a month."
+    },
+    {
+     "field": "exists_detail",
+     "signal": "built_specific",
+     "quote": "We tested a prototype at one farm in Kustavi in August 2026 for three weeks."
+    },
+    {
+     "field": "exists_detail",
+     "signal": "buyer_talks_counted",
+     "quote": "We interviewed 9 farm managers."
+    }
+   ]
+  },
+  "model": "claude-haiku-5-5"
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "recorded_at": "2026-10-17T17:31:03+00:00",
+ "query": "winner-identifier IN (3101791-3 31017913 FI31017913)",
+ "winner_ids": [
+  "3101791-3",
+  "31017913",
+  "FI31017913"
+ ],
+ "notices": [
+  {
+   "winner-identifier": [
+    "3101791-3"
+   ],
+   "notice-type": "can-standard",
+   "publication-number": "433538-2025",
+   "classification-cpv": [
+    "34521400",
+    "34521400"
+   ],
+   "result-value-notice": "496000",
+   "publication-date": "2025-07-04+02:00",
+   "buyer-name": {
+    "fin": [
+     "Österbottens välfärdsområde - Pohjanmaan hyvinvointialue"
+    ]
+   },
+   "winner-name": {
+    "fin": [
+     "Alpo Pro Boats Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Lifeboats – JÄLKI-ILMOITUS / TULOKSET: Veneen hankinta Pohjanmaan Hyvinvointialueelle / Pelastuslaitokselle 2025, sisältäen optiot vuosille 2026-2027"
+   }
+  },
+  {
+   "winner-identifier": [
+    "3101791-3",
+    "0878338-8"
+   ],
+   "notice-type": "can-standard",
+   "publication-number": "152432-2026",
+   "classification-cpv": [
+    "34520000",
+    "34520000"
+   ],
+   "result-value-notice": "373800",
+   "publication-date": "2026-03-05+01:00",
+   "buyer-name": {
+    "fin": [
+     "Rajavartiolaitos"
+    ]
+   },
+   "winner-name": {
+    "fin": [
+     "Alpo Pro Boats Oy",
+     "Inhan Tehtaat Oy Ab"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Boats – AV 5-luokan työveneiden hankinta"
+   }
+  },
+  {
+   "winner-identifier": [
+    "3101791-3"
+   ],
+   "notice-type": "can-standard",
+   "publication-number": "423989-2026",
+   "classification-cpv": [
+    "34513650",
+    "34513650"
+   ],
+   "result-value-notice": "750000",
+   "publication-date": "2026-06-19+02:00",
+   "buyer-name": {
+    "fin": [
+     "Varsinais-Suomen hyvinvointialue"
+    ]
+   },
+   "winner-name": {
+    "fin": [
+     "Alpo Pro Boats Oy"
+    ]
+   },
+   "buyer-country": [
+    "FIN"
+   ],
+   "notice-title": {
+    "eng": "Finland – Fire vessels – TP1/26EU Öljyntorjunta-alukset C-luokka"
+   }
+  }
+ ]
+}

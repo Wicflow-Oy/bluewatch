@@ -1,0 +1,774 @@
+/* Reset, type and the shared Tidepool primitives (buttons, inputs, capsules, callouts, motion).
+   Spec: build-specs/TIDEPOOL-SYSTEM.md sections 1.5, 1.7 and 3.3. Components keep their own CSS. */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--canvas);
+  color: var(--ink);
+  font: 400 14px/1.45 var(--sans);
+  letter-spacing: -0.006em;
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  transition:
+    background-color var(--d-theme) var(--ease),
+    color var(--d-theme) var(--ease);
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+dl,
+dd,
+figure {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+ul,
+ol {
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  color: var(--accent-text);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+}
+
+button {
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}
+
+svg {
+  flex-shrink: 0;
+}
+
+:focus {
+  outline: none;
+}
+
+:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 2px;
+}
+
+::selection {
+  background: var(--selection);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--line-3) transparent;
+}
+
+/* ---- type ---- */
+.t-display {
+  font: 560 56px/0.9 var(--sans);
+  font-stretch: 88%;
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.t-num {
+  font: 500 34px/1 var(--mono);
+  letter-spacing: -0.05em;
+  font-variant-numeric: tabular-nums;
+}
+
+.t-num-md {
+  font: 500 22px/1 var(--mono);
+  letter-spacing: -0.04em;
+  font-variant-numeric: tabular-nums;
+}
+
+.t-h1 {
+  font: 620 30px/1.05 var(--sans);
+  font-stretch: 94%;
+  letter-spacing: -0.035em;
+}
+
+.t-h2 {
+  font: 620 28px/1 var(--sans);
+  font-stretch: 94%;
+  letter-spacing: -0.035em;
+}
+
+.t-hero {
+  font: 600 29px/1.04 var(--sans);
+  font-stretch: 92%;
+  letter-spacing: -0.04em;
+}
+
+.t-h3 {
+  font: 600 15px/1.2 var(--sans);
+  letter-spacing: -0.02em;
+}
+
+.t-title {
+  font: 600 13.5px/1.2 var(--sans);
+  letter-spacing: -0.015em;
+}
+
+.t-body {
+  font: 400 14px/1.45 var(--sans);
+  letter-spacing: -0.006em;
+}
+
+.t-sm {
+  font: 400 13px/1.4 var(--sans);
+}
+
+.t-xs {
+  font: 400 12.5px/1.4 var(--sans);
+}
+
+.t-cap {
+  font: 400 12px/1.4 var(--sans);
+}
+
+.t-meta {
+  font: 450 12px/1.3 var(--mono);
+  letter-spacing: -0.01em;
+  color: var(--muted);
+}
+
+.t-mono-sm {
+  font: 500 11px/1 var(--mono);
+  letter-spacing: 0;
+}
+
+.overline,
+.t-eyebrow {
+  font: 500 10.5px/1.3 var(--mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+@media (max-width: 719px) {
+  .t-h1 {
+    font-size: 26px;
+    line-height: 1.08;
+  }
+
+  .t-h2 {
+    font-size: 24px;
+    line-height: 1.05;
+  }
+}
+
+.mono {
+  font-family: var(--mono);
+  font-feature-settings: "tnum", "zero";
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.01em;
+}
+
+/* Legacy class on headings: now the display sans. */
+.serif {
+  font-family: var(--sans);
+  font-weight: 620;
+  font-stretch: 94%;
+  letter-spacing: -0.035em;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.faint {
+  color: var(--faint);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---- buttons (every button is a pill) ---- */
+.btn {
+  --h: 36px;
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: var(--h);
+  padding: 0 16px;
+  border-radius: var(--r-pill);
+  font: 550 13.5px/1 var(--sans);
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--ink);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform var(--d-spring) var(--spring),
+    background-color var(--d-fast) var(--ease),
+    box-shadow var(--d-fast) var(--ease),
+    color var(--d-fast) var(--ease);
+}
+
+.btn:hover:not(:disabled):not([aria-disabled="true"]) {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+  text-decoration: none;
+}
+
+.btn:active:not(:disabled):not([aria-disabled="true"]) {
+  transform: scale(var(--press));
+  transition-duration: var(--d-press);
+  transition-timing-function: var(--ease);
+}
+
+.btn svg {
+  width: 15px;
+  height: 15px;
+  flex: none;
+}
+
+.btn:disabled,
+.btn[aria-disabled="true"] {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.btn--primary {
+  color: var(--btn-ink-fg);
+  background: var(--btn-ink);
+  box-shadow: var(--sh-ink);
+}
+
+.btn--primary:hover:not(:disabled):not([aria-disabled="true"]) {
+  background: var(--btn-ink-hover);
+  box-shadow: var(--sh-ink);
+}
+
+.btn--ghost,
+.btn--subtle {
+  color: var(--ink-2);
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn--ghost:hover:not(:disabled):not([aria-disabled="true"]),
+.btn--subtle:hover:not(:disabled):not([aria-disabled="true"]) {
+  color: var(--ink);
+  background: var(--sunken);
+  box-shadow: none;
+}
+
+.btn--sm {
+  --h: 30px;
+  padding: 0 12px;
+  gap: 6px;
+  font-size: 12.5px;
+}
+
+.btn--sm svg {
+  width: 14px;
+  height: 14px;
+}
+
+.btn--lg {
+  --h: 44px;
+  padding: 0 20px;
+  font-size: 14.5px;
+}
+
+.btn .kbd {
+  background: transparent;
+  color: inherit;
+  box-shadow: inset 0 0 0 1px rgba(127, 127, 127, 0.45);
+}
+
+.btn .spin {
+  width: 14px;
+  height: 14px;
+  animation: tp-spin 0.8s linear infinite;
+}
+
+.icon-btn {
+  width: 36px;
+  height: 36px;
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  border-radius: var(--r-pill);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform var(--d-spring) var(--spring),
+    box-shadow var(--d-fast),
+    color var(--d-fast),
+    background-color var(--d-fast);
+}
+
+.icon-btn:hover {
+  color: var(--ink);
+  box-shadow: inset 0 0 0 1px var(--line-3);
+  text-decoration: none;
+}
+
+.icon-btn:active:not(:disabled) {
+  transform: scale(var(--press-icon));
+  transition-duration: var(--d-press);
+}
+
+.icon-btn svg {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-btn--bare {
+  background: transparent;
+  box-shadow: none;
+}
+
+.icon-btn--bare:hover {
+  background: var(--sunken);
+  box-shadow: none;
+}
+
+.kbd {
+  display: inline-grid;
+  place-items: center;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border-radius: var(--r-2xs);
+  font: 500 11px/1 var(--mono);
+  color: var(--muted);
+  background: var(--surface);
+  box-shadow:
+    inset 0 0 0 1px var(--line-2),
+    inset 0 -1px 0 var(--line-2);
+}
+
+/* ---- inputs ---- */
+.input {
+  height: 40px;
+  width: 100%;
+  padding: 0 16px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  color: var(--ink);
+  font: 400 14px/1.2 var(--sans);
+  transition: box-shadow var(--d-fast) var(--ease);
+}
+
+.input::placeholder {
+  color: var(--faint);
+}
+
+.input:hover {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.input:focus {
+  outline: none;
+  box-shadow:
+    inset 0 0 0 1px var(--accent),
+    0 0 0 4px var(--accent-soft);
+}
+
+.input[aria-invalid="true"] {
+  box-shadow:
+    inset 0 0 0 1px var(--red),
+    0 0 0 4px var(--red-soft);
+}
+
+textarea.input {
+  height: auto;
+  min-height: 96px;
+  padding: 12px 16px;
+  border-radius: var(--r-md);
+  line-height: 1.5;
+  resize: vertical;
+}
+
+select.input,
+.select {
+  appearance: none;
+  padding-right: 36px;
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  background-size: 12px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%23696970' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");
+}
+
+:root[data-theme="graphite"] select.input,
+:root[data-theme="graphite"] .select {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='none' stroke='%239B9BA1' stroke-width='1.7' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m4 6 4 4 4-4'/%3E%3C/svg%3E");
+}
+
+.select:not(.input) {
+  height: 36px;
+  padding: 0 36px 0 14px;
+  border: 0;
+  border-radius: var(--r-pill);
+  background-color: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  font: 520 13px/1 var(--sans);
+  color: var(--ink);
+}
+
+@media (max-width: 719px) {
+  .input {
+    height: 44px;
+    font-size: 16px; /* 16px stops iOS zoom */
+  }
+}
+
+/* ---- shared shapes ---- */
+
+/* A capsule: the Tidepool row and card shell. */
+.capsule {
+  border-radius: var(--r-lg);
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.capsule--interactive {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform var(--d-lift) var(--spring),
+    box-shadow 260ms var(--ease);
+}
+
+.capsule--interactive:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--sh-2);
+}
+
+.capsule--interactive:active {
+  transform: scale(var(--press-row));
+  transition-duration: 110ms;
+  transition-timing-function: var(--ease);
+}
+
+.capsule[aria-current="true"],
+.capsule.is-selected {
+  box-shadow:
+    var(--sh-2),
+    0 0 0 1.5px var(--accent-line);
+}
+
+/* A panel inside a card or sheet. */
+.inset {
+  border-radius: var(--r-xl);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+/* Callouts (banners, caveats, blocked notes): rounded, tinted, never a left bar. */
+.callout {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-2);
+  background: var(--sunken);
+}
+
+.callout > svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  margin-top: 1px;
+  color: var(--muted);
+}
+
+.callout--accent {
+  background: var(--accent-soft);
+}
+
+.callout--accent > svg {
+  color: var(--accent);
+}
+
+.callout--sea {
+  background: var(--sea-soft);
+}
+
+.callout--sea > svg {
+  color: var(--sea);
+}
+
+.callout--amber {
+  background: var(--amber-soft);
+}
+
+.callout--amber > svg {
+  color: var(--amber);
+}
+
+.callout--red {
+  background: var(--red-soft);
+}
+
+.callout--red > svg {
+  color: var(--red);
+}
+
+/* Unknown or unavailable frames: hatch plus a hairline. */
+.hatch-frame {
+  border-radius: var(--r-lg);
+  background-image: var(--hatch);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.hatch-frame--red {
+  background-image: var(--hatch-red);
+  box-shadow: inset 0 0 0 1px var(--red-line);
+}
+
+/* Staggered entrance: set style={vars({ "--i": index })} on each item. */
+.stagger-in {
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+  animation-delay: calc(min(var(--i, 0), 12) * var(--stagger) + var(--stagger-base));
+}
+
+/* Press feedback for anything clickable that is not a .btn. */
+.press {
+  -webkit-tap-highlight-color: transparent;
+  transition: transform var(--d-spring) var(--spring);
+}
+
+.press:active {
+  transform: scale(var(--press-scale, var(--press)));
+  transition-duration: var(--d-press);
+  transition-timing-function: var(--ease);
+}
+
+/* A dot separator for meta lines. */
+.sep-dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--line-3);
+  flex: none;
+}
+
+/* A chip that is a button: filters, toggles (mockup .fchip). */
+.chip-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 30px;
+  padding: 0 12px;
+  border-radius: var(--r-pill);
+  font: 520 12.5px/1 var(--sans);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  white-space: nowrap;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    transform var(--d-spring) var(--spring),
+    background-color var(--d-fast),
+    color var(--d-fast),
+    box-shadow var(--d-fast);
+}
+
+.chip-btn:hover {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.chip-btn:active:not(:disabled) {
+  transform: scale(var(--press-seg));
+  transition-duration: var(--d-press);
+}
+
+.chip-btn .ct {
+  font: 500 11px/1 var(--mono);
+  color: var(--faint);
+}
+
+.chip-btn[aria-pressed="true"] {
+  color: var(--btn-ink-fg);
+  background: var(--btn-ink);
+  box-shadow: none;
+}
+
+.chip-btn[aria-pressed="true"] .ct {
+  color: color-mix(in srgb, var(--btn-ink-fg) 60%, transparent);
+}
+
+/* "Prototype" marker (apply and the More sheet use it). */
+.prototype-pill {
+  display: inline-flex;
+  align-items: center;
+  flex-shrink: 0;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: var(--r-pill);
+  font: 600 11px/1 var(--sans);
+  color: var(--accent-text);
+  background: var(--accent-soft);
+  box-shadow: inset 0 0 0 1px var(--accent-line);
+}
+
+/* ---- motion ---- */
+@keyframes tp-rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.99);
+  }
+}
+
+@keyframes tp-fade {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes tp-swap {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+@keyframes tp-bar {
+  from {
+    transform: scaleX(0);
+  }
+}
+
+@keyframes tp-seg {
+  from {
+    transform: scaleY(0.2);
+    opacity: 0;
+  }
+}
+
+@keyframes tp-pop {
+  from {
+    opacity: 0;
+    transform: translateY(-4px) scale(0.98);
+  }
+}
+
+@keyframes tp-drift {
+  to {
+    transform: translate(-36px, 22px) scale(1.12);
+  }
+}
+
+@keyframes tp-shimmer {
+  from {
+    background-position: -320px 0;
+  }
+  to {
+    background-position: 320px 0;
+  }
+}
+
+@keyframes tp-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Legacy names, redefined so old usages get the Tidepool feel. */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+}
+
+@keyframes shimmer {
+  from {
+    background-position: -320px 0;
+  }
+  to {
+    background-position: 320px 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 1ms !important;
+    animation-delay: 0ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
+    scroll-behavior: auto !important;
+  }
+}

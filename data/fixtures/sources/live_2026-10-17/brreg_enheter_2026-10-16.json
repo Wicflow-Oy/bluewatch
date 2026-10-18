@@ -1,0 +1,3312 @@
+{
+ "recorded_at": "2026-10-17T17:34:08+00:00",
+ "request": "https://data.brreg.no/enhetsregisteret/api/enheter registered 2026-10-16, AS",
+ "totalElements": 127,
+ "enheter": [
+  {
+   "organisasjonsnummer": "938690111",
+   "navn": "1440 DRØBAK AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Frisering og barbering",
+    "kode": "96.210"
+   },
+   "stiftelsesdato": "2026-08-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FROGN",
+    "kommunenummer": "3214",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938385491",
+   "navn": "ABY MOBILITY AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Passasjertransport på forespørsel utført av fører med kjøretøy",
+    "kode": "49.330"
+   },
+   "stiftelsesdato": "2026-08-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691215",
+   "navn": "AFAS 051026-03 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691274",
+   "navn": "AFAS 051026-04 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691320",
+   "navn": "AFAS 051026-05 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691347",
+   "navn": "AFAS 051026-06 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838691412",
+   "navn": "AFAS 051026-07 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691134",
+   "navn": "AFAS 051026-08 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691061",
+   "navn": "AFAS 051026-09 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691169",
+   "navn": "AFAS 051026-10 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691185",
+   "navn": "AFAS 051026-14 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938688028",
+   "navn": "AKEREN INVESTMENT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-03",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690499",
+   "navn": "ANTALYA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Drift av restauranter",
+    "kode": "56.110"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692394",
+   "navn": "ARENA KOMIKER AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690693",
+   "navn": "B LOUNGE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Drift av restauranter",
+    "kode": "56.110"
+   },
+   "stiftelsesdato": "2026-10-07",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "RINGERIKE",
+    "kommunenummer": "3305",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689628",
+   "navn": "BEK OG VEF EIENDOM AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utvikling og salg av byggeprosjekter",
+    "kode": "68.120"
+   },
+   "stiftelsesdato": "2026-08-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692203",
+   "navn": "BERGMJØL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Grunnarbeid",
+    "kode": "43.120"
+   },
+   "stiftelsesdato": "2026-09-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "HALDEN",
+    "kommunenummer": "3101",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689660",
+   "navn": "BERO TANKERS AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utenriks sjøfart med gods",
+    "kode": "50.201"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938610681",
+   "navn": "BITTEGO AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-21",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693390",
+   "navn": "BIZCONTROL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+   },
+   "stiftelsesdato": "2026-10-11",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693218",
+   "navn": "BLE FJELLMAT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-24",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KONGSBERG",
+    "kommunenummer": "3303",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938603235",
+   "navn": "BROKKE MASKIN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Grunnarbeid",
+    "kode": "43.120"
+   },
+   "stiftelsesdato": "2026-08-11",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VALLE",
+    "kommunenummer": "4221",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690383",
+   "navn": "BRP INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-16",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SARPSBORG",
+    "kommunenummer": "3105",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938675376",
+   "navn": "BRØNNDRIFT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-22",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ÅL",
+    "kommunenummer": "3328",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938673977",
+   "navn": "BTS-HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690944",
+   "navn": "BYGGE TI INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+   },
+   "stiftelsesdato": "2026-09-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VESTRE TOTEN",
+    "kommunenummer": "3443",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694044",
+   "navn": "C.KRISTENSEN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-08-20",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693609",
+   "navn": "CARDCORNER AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-09",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690669",
+   "navn": "CARL SANDAKER HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838591582",
+   "navn": "CARTRADER AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-07",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "STEINKJER",
+    "kommunenummer": "5006",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689644",
+   "navn": "CHAMPION INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utenriks sjøfart med gods",
+    "kode": "50.201"
+   },
+   "stiftelsesdato": "2026-10-06",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693919",
+   "navn": "CHRISTINA FINSETH INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ØRLAND",
+    "kommunenummer": "5057",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691703",
+   "navn": "COATES ELEKTROMEK AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690081",
+   "navn": "CONTROLPLANE HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-17",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938679495",
+   "navn": "CORPO TECHNOLOGY AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TROMSØ",
+    "kommunenummer": "5501",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691681",
+   "navn": "DC KONSULT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Industri-, produkt- og motedesignvirksomhet",
+    "kode": "74.110"
+   },
+   "stiftelsesdato": "2026-09-16",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KARMØY",
+    "kommunenummer": "1149",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690375",
+   "navn": "E-DAHL MASKIN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ANDØY",
+    "kommunenummer": "1871",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938676704",
+   "navn": "EB1 LEID AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ASKER",
+    "kommunenummer": "3203",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691339",
+   "navn": "EGGEBØ PROSJEKTER AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Kjøp og salg av egen fast eiendom",
+    "kode": "68.110"
+   },
+   "stiftelsesdato": "2026-10-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838690882",
+   "navn": "EIENDOM MIDT-NORGE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utleie av egen eller leid fast eiendom",
+    "kode": "68.200"
+   },
+   "stiftelsesdato": "2026-10-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NAMSOS",
+    "kommunenummer": "5007",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693188",
+   "navn": "EPLEHAGEN HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-07",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "GRIMSTAD",
+    "kommunenummer": "4202",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938624623",
+   "navn": "EVFAKTA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BAMBLE",
+    "kommunenummer": "4012",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694559",
+   "navn": "EVJE OG VENNESLA BEGRAVELSESBYRÅ AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Begravelsesbyråvirksomhet og lignende tjenester",
+    "kode": "96.300"
+   },
+   "stiftelsesdato": "2026-09-08",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VENNESLA",
+    "kommunenummer": "4223",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690960",
+   "navn": "FLÅTEN INVEST NARVIK AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-18",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NARVIK",
+    "kommunenummer": "1806",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694796",
+   "navn": "FUBAR HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-25",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VESTBY",
+    "kommunenummer": "3216",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693137",
+   "navn": "GEN I ALT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "RENNEBU",
+    "kommunenummer": "5022",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691398",
+   "navn": "GNG HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-17",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NITTEDAL",
+    "kommunenummer": "3232",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693560",
+   "navn": "GRIP GRUPPEN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KRISTIANSUND",
+    "kommunenummer": "1505",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690448",
+   "navn": "GROWY NORGE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FAUSKE",
+    "kommunenummer": "1841",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692955",
+   "navn": "GUMUS SØRVEST DRIFT AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Detaljhandel med drivstoff til motorvogner",
+    "kode": "47.300"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692939",
+   "navn": "HAST EQUITY AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-24",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ÅLESUND",
+    "kommunenummer": "1508",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693552",
+   "navn": "HEITMANN BROKERAGE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-06",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FROGN",
+    "kommunenummer": "3214",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690766",
+   "navn": "HJØRUNDFJORD HOTEL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ØRSTA",
+    "kommunenummer": "1520",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693544",
+   "navn": "HOLDING ADVENTURE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SANDEFJORD",
+    "kommunenummer": "3907",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692513",
+   "navn": "HOMESTEAD HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-07",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694052",
+   "navn": "HV SITE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+   },
+   "stiftelsesdato": "2026-08-27",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691452",
+   "navn": "HAARSAKER EIENDOM AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-08",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691045",
+   "navn": "ISKO HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691630",
+   "navn": "JEHS 192 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692025",
+   "navn": "JEHS 193 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838691722",
+   "navn": "JEHS 194 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691754",
+   "navn": "JEHS 195 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691770",
+   "navn": "JEHS 196 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691843",
+   "navn": "JEHS 197 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938691916",
+   "navn": "JEHS 198 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692009",
+   "navn": "JEHS 200 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692033",
+   "navn": "JEHS 201 1026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FJALER",
+    "kommunenummer": "4646",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689792",
+   "navn": "KEFI NOVA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938507511",
+   "navn": "KIS RÅDGJEVING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+   },
+   "stiftelsesdato": "2026-09-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "HØYANGER",
+    "kommunenummer": "4638",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693927",
+   "navn": "KLASK FILM AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Produksjon av film, video og fjernsynsprogrammer",
+    "kode": "59.110"
+   },
+   "stiftelsesdato": "2026-10-07",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690405",
+   "navn": "KOINE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ØKSNES",
+    "kommunenummer": "1868",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693536",
+   "navn": "KONDUKTANS AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Elektrisk installasjonsarbeid",
+    "kode": "43.210"
+   },
+   "stiftelsesdato": "2026-09-30",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "EIGERSUND",
+    "kommunenummer": "1101",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938439877",
+   "navn": "LOST OR FOUND AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-08-20",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938592152",
+   "navn": "LYNGDAL AUTOTECH AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-10",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "LYNGDAL",
+    "kommunenummer": "4225",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693315",
+   "navn": "MARCELIUS KAPITAL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693196",
+   "navn": "MATTER ACTIVE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-08",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838690572",
+   "navn": "MEISTAD INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KVÆFJORD",
+    "kommunenummer": "5510",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693595",
+   "navn": "MERTEZ AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Detaljhandel med klær",
+    "kode": "47.710"
+   },
+   "stiftelsesdato": "2026-10-09",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693099",
+   "navn": "MIDSUND GOLF LOUNGE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690553",
+   "navn": "MIEH JAHAN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Drift av restauranter",
+    "kode": "56.110"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690634",
+   "navn": "MITT ENTREPRENØR AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692521",
+   "navn": "ML8 INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "STAVANGER",
+    "kommunenummer": "1103",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689881",
+   "navn": "MODIG FRISØR AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Frisering og barbering",
+    "kode": "96.210"
+   },
+   "stiftelsesdato": "2026-09-24",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689997",
+   "navn": "MY ACCOUNTING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Regnskapsføring og bokføring",
+    "kode": "69.202"
+   },
+   "stiftelsesdato": "2026-09-06",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BÆRUM",
+    "kommunenummer": "3201",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690065",
+   "navn": "N.D ACCOUNTING & ADVISORY AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Regnskapsføring og bokføring",
+    "kode": "69.202"
+   },
+   "stiftelsesdato": "2026-09-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "MOSS",
+    "kommunenummer": "3103",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690847",
+   "navn": "NASA HOLDNING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-09",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BERGEN",
+    "kommunenummer": "4601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690316",
+   "navn": "NBD312026 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+    "kode": "70.200"
+   },
+   "stiftelsesdato": "2026-10-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938617317",
+   "navn": "NEEEWCO AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-16",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "STAD",
+    "kommunenummer": "4649",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694656",
+   "navn": "NOBEL UTVIKLING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Byggeteknisk konsulentvirksomhet",
+    "kode": "71.121"
+   },
+   "stiftelsesdato": "2026-09-28",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938617546",
+   "navn": "NORD PROFILERING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Grafisk design og visuell kommunikasjonsdesign",
+    "kode": "74.120"
+   },
+   "stiftelsesdato": "2026-10-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ALTA",
+    "kommunenummer": "5601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838692702",
+   "navn": "NORDES AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Fotografvirksomhet",
+    "kode": "74.200"
+   },
+   "stiftelsesdato": "2026-09-10",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NAMSOS",
+    "kommunenummer": "5007",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690154",
+   "navn": "NORDLYS FOT OG HUD KLINIKK AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Ortopedi- og fotterapitjenester",
+    "kode": "86.991"
+   },
+   "stiftelsesdato": "2026-09-04",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "GRIMSTAD",
+    "kommunenummer": "4202",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690200",
+   "navn": "NORGAARD SEA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-21",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ASKØY",
+    "kommunenummer": "4627",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938652961",
+   "navn": "NOVITAS BOLIG AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Kjøp og salg av egen fast eiendom",
+    "kode": "68.110"
+   },
+   "stiftelsesdato": "2026-09-18",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ÅS",
+    "kommunenummer": "3218",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838690602",
+   "navn": "OCHRE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838480942",
+   "navn": "OSLO VINDUSRESTAURERING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Snekkerarbeid",
+    "kode": "43.320"
+   },
+   "stiftelsesdato": "2026-08-31",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692726",
+   "navn": "PIEL RETAIL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Detaljhandel med kosmetikk og toalettartikler",
+    "kode": "47.750"
+   },
+   "stiftelsesdato": "2026-09-11",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "MOLDE",
+    "kommunenummer": "1506",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692750",
+   "navn": "REGA INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-01",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ALTA",
+    "kommunenummer": "5601",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690588",
+   "navn": "RETNING MEDIA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Reklamebyråvirksomhet",
+    "kode": "73.110"
+   },
+   "stiftelsesdato": "2026-10-14",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "AUSTEVOLL",
+    "kommunenummer": "4625",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690057",
+   "navn": "RIGHT-HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690650",
+   "navn": "RIKTIG STI AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Detaljhandel med bredt vareutvalg med hovedvekt på nærings- og nytelsesmidler",
+    "kode": "47.110"
+   },
+   "stiftelsesdato": "2026-10-12",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "STEINKJER",
+    "kommunenummer": "5006",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690839",
+   "navn": "RISBRÅTHE FINANS AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-08",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VESTBY",
+    "kommunenummer": "3216",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694257",
+   "navn": "ROAN INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-25",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692866",
+   "navn": "ROPIRI AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+   },
+   "stiftelsesdato": "2026-09-30",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938654816",
+   "navn": "RUDENS GARTNERISERVICE AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-16",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "LARVIK",
+    "kommunenummer": "3909",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938649456",
+   "navn": "RÅDHUSGT 4 EIENDOM II AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utleie av egen eller leid fast eiendom",
+    "kode": "68.200"
+   },
+   "stiftelsesdato": "2026-09-21",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TØNSBERG",
+    "kommunenummer": "3905",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690855",
+   "navn": "RÅDHUSVEIEN 29-31 AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utleie av egen eller leid fast eiendom",
+    "kode": "68.200"
+   },
+   "stiftelsesdato": "2026-10-15",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "KRISTIANSAND",
+    "kommunenummer": "4204",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690421",
+   "navn": "SKILL NORDIC AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Dataprogrammeringstjenester",
+    "kode": "62.100"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BODØ",
+    "kommunenummer": "1804",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690545",
+   "navn": "SOFIES GULL & UR AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NORDREISA",
+    "kommunenummer": "5544",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693781",
+   "navn": "SOGNASOGN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SOGNDAL",
+    "kommunenummer": "4640",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690510",
+   "navn": "SUSTAINABLE SPACETECH AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Annen teknisk konsulentvirksomhet",
+    "kode": "71.129"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692068",
+   "navn": "SØNSTERUD AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-27",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "NORE OG UVDAL",
+    "kommunenummer": "3338",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690227",
+   "navn": "TANNLEGE THORVALDSEN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Tannlegetjenester",
+    "kode": "86.230"
+   },
+   "stiftelsesdato": "2026-09-23",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "TRONDHEIM",
+    "kommunenummer": "5001",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938695091",
+   "navn": "TITECH AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-17",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SANDNES",
+    "kommunenummer": "1108",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938694613",
+   "navn": "TROLLHEIMEN GULV OG MALING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Maler- og glassarbeid",
+    "kode": "43.340"
+   },
+   "stiftelsesdato": "2026-10-12",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SURNADAL",
+    "kommunenummer": "1566",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692114",
+   "navn": "UGLANE EIGEDOM AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Utleie av egen eller leid fast eiendom",
+    "kode": "68.200"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SOGNDAL",
+    "kommunenummer": "4640",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938692580",
+   "navn": "VARANGER GRUPPEN AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Catering for arrangementer",
+    "kode": "56.210"
+   },
+   "stiftelsesdato": "2026-09-21",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SØR-VARANGER",
+    "kommunenummer": "5605",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693005",
+   "navn": "VARMEPUMPE NORD AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "VÅGAN",
+    "kommunenummer": "1865",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838693202",
+   "navn": "VECTOR ELEKTRO AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Elektrisk installasjonsarbeid",
+    "kode": "43.210"
+   },
+   "stiftelsesdato": "2026-10-13",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "SARPSBORG",
+    "kommunenummer": "3105",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938618135",
+   "navn": "VESTLEIA AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+    "kode": "62.200"
+   },
+   "stiftelsesdato": "2026-09-16",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ARENDAL",
+    "kommunenummer": "4203",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689571",
+   "navn": "VEXO FJELL INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-10-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "838692842",
+   "navn": "VIO AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "stiftelsesdato": "2026-09-17",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "ASKVOLL",
+    "kommunenummer": "4645",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938693633",
+   "navn": "WIBORG INVEST AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-08-05",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689830",
+   "navn": "XO TRENING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Treningssentervirksomhet",
+    "kode": "93.130"
+   },
+   "stiftelsesdato": "2026-09-29",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "BODØ",
+    "kommunenummer": "1804",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938689504",
+   "navn": "YARD KAPITAL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-02",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690561",
+   "navn": "ZION CAPITAL AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-07-18",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "OSLO",
+    "kommunenummer": "0301",
+    "landkode": "NO"
+   }
+  },
+  {
+   "organisasjonsnummer": "938690014",
+   "navn": "ØK LEK HOLDING AS",
+   "organisasjonsform": {
+    "_links": {
+     "self": {
+      "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+     }
+    },
+    "beskrivelse": "Aksjeselskap",
+    "kode": "AS"
+   },
+   "naeringskode1": {
+    "beskrivelse": "Uoppgitt",
+    "kode": "00.000"
+   },
+   "stiftelsesdato": "2026-09-22",
+   "registreringsdatoEnhetsregisteret": "2026-10-16",
+   "konkurs": false,
+   "underAvvikling": false,
+   "underTvangsavviklingEllerTvangsopplosning": false,
+   "forretningsadresse": {
+    "kommune": "FREDRIKSTAD",
+    "kommunenummer": "3107",
+    "landkode": "NO"
+   }
+  }
+ ]
+}

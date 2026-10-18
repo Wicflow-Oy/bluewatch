@@ -1,0 +1,128 @@
+.stepper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  min-width: 0;
+  min-height: 48px;
+}
+
+.stepper__list {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.stepper__step {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.stepper__step:last-child {
+  flex: 0 0 auto;
+}
+
+/* The rule to the next step: teal once this step is done. */
+.stepper__step:not(:last-child)::after {
+  content: "";
+  flex: 1;
+  min-width: 16px;
+  height: 1px;
+  margin: 0 4px;
+  background: var(--line-2);
+  transition: background-color var(--d-base) var(--ease);
+}
+
+.stepper__step--done:not(:last-child)::after {
+  background: color-mix(in srgb, var(--sea) 55%, transparent);
+}
+
+.stepper__mark {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font: 500 11.5px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  transition:
+    background-color var(--d-base) var(--ease),
+    box-shadow var(--d-base) var(--ease),
+    color var(--d-base) var(--ease);
+}
+
+.stepper__label {
+  white-space: nowrap;
+}
+
+.stepper__step--done {
+  color: var(--ink-2);
+}
+
+.stepper__step--done .stepper__mark {
+  color: var(--sea);
+  background: var(--sea-soft);
+  box-shadow: none;
+}
+
+.stepper__step--current {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.stepper__step--current .stepper__mark {
+  color: #fff;
+  background: var(--accent);
+  box-shadow: 0 0 0 4px var(--accent-soft);
+}
+
+.stepper__current {
+  display: none;
+}
+
+@media (max-width: 719px) {
+  .stepper__mark {
+    width: 12px;
+    height: 12px;
+  }
+
+  .stepper__mark > * {
+    display: none;
+  }
+
+  .stepper__label {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  .stepper__step:not(:last-child)::after {
+    flex: 0 0 12px;
+    min-width: 0;
+  }
+
+  .stepper__list {
+    flex: 0 0 auto;
+  }
+
+  /* Wraps rather than truncates: a long Finnish label must stay readable. */
+  .stepper__current {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 600;
+    color: var(--ink);
+  }
+}

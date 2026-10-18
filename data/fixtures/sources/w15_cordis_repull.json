@@ -1,0 +1,1015 @@
+{
+ "checked": "2026-10-17",
+ "source": "cordis.europa.eu/project/id/<id>?format=json",
+ "ua": "junctionx-research-probe/0.1",
+ "n": 30,
+ "errors": [],
+ "diffs_vs_fixture": [
+  {
+   "acronym": "REALM",
+   "changed": {
+    "end": [
+     "2026-06-30",
+     "2027-06-30"
+    ],
+    "status_on_2026_10_17": [
+     "ended",
+     "running"
+    ]
+   },
+   "coordinator": {
+    "name": "NECTON-COMPANHIA PORTUGUESA DE CULTURAS MARINHAS SA",
+    "country": "PT",
+    "sme": "true"
+   }
+  },
+  {
+   "acronym": "VIGIMARE",
+   "changed": {
+    "end": [
+     "2027-08-31",
+     "2027-09-30"
+    ]
+   },
+   "coordinator": {
+    "name": "LAUREA-AMMATTIKORKEAKOULU OY",
+    "country": "FI",
+    "sme": "false"
+   }
+  },
+  {
+   "acronym": "MARBEFES",
+   "changed": {
+    "end": [
+     "2026-08-31",
+     "2027-02-28"
+    ],
+    "status_on_2026_10_17": [
+     "ended",
+     "running"
+    ]
+   },
+   "coordinator": {
+    "name": "INSTYTUT OCEANOLOGII POLSKIEJ AKADEMII NAUK",
+    "country": "PL",
+    "sme": "false"
+   }
+  },
+  {
+   "acronym": "ICEBERG",
+   "changed": {
+    "end": [
+     "2026-12-31",
+     "2027-06-30"
+    ]
+   },
+   "coordinator": {
+    "name": "OULUN YLIOPISTO",
+    "country": "FI",
+    "sme": "false"
+   }
+  }
+ ],
+ "projects": [
+  {
+   "acronym": "AlgaePro BANOS",
+   "title": "Accelerating algae product developments in Baltic and North Sea",
+   "start": "2023-04-01",
+   "end": "2027-03-31",
+   "ec_signature_date": "2023-05-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 10939105,
+   "coordinator": {
+    "name": "SUBMARINER NETWORK FOR BLUE GROWTH EWIV",
+    "country": "DE",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "SUOMEN YMPARISTOKESKUS",
+     "role": "participant",
+     "ec_contribution_eur": 579750
+    },
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "role": "participant",
+     "ec_contribution_eur": 341834
+    }
+   ],
+   "cordis_last_update": "2026-07-27 13:05:19",
+   "grant_agreement_id": "101112943"
+  },
+  {
+   "acronym": "MISSION",
+   "title": "MARITIME JUST-IN-TIME OPTIMIZATION INTEROPERABLE PORT CALL AND VOYAGE OPTIMIZATION TOOL",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "ec_signature_date": "2023-11-22",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7436448,
+   "coordinator": {
+    "name": "SYDDANSK UNIVERSITET",
+    "country": "DK",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "AWAKE.AI OY",
+     "role": "participant",
+     "ec_contribution_eur": 413250
+    },
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "participant",
+     "ec_contribution_eur": 574108
+    },
+    {
+     "name": "FINTRAFFIC MERILIIKENTEENOHJAUS OY",
+     "role": "participant",
+     "ec_contribution_eur": 177000
+    },
+    {
+     "name": "FINNLINES OYJ",
+     "role": "participant",
+     "ec_contribution_eur": 106500
+    },
+    {
+     "name": "NAPA OY",
+     "role": "participant",
+     "ec_contribution_eur": 504000
+    },
+    {
+     "name": "ABO AKADEMI",
+     "role": "participant",
+     "ec_contribution_eur": 280496
+    }
+   ],
+   "cordis_last_update": "2026-06-19 16:42:29",
+   "grant_agreement_id": "101138583"
+  },
+  {
+   "acronym": "GREEN RAY",
+   "title": "New GeneRation marinE ENgines and Retrofit solutions to Achieve methane abatement flexibilitY",
+   "start": "2022-06-01",
+   "end": "2027-05-31",
+   "ec_signature_date": "2022-05-17",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 6973122,
+   "coordinator": {
+    "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+    "country": "FI",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "coordinator",
+     "ec_contribution_eur": 1111948
+    },
+    {
+     "name": "ILMATIETEEN LAITOS",
+     "role": "participant",
+     "ec_contribution_eur": 307625
+    }
+   ],
+   "cordis_last_update": "2026-09-16 10:30:52",
+   "grant_agreement_id": "101056642"
+  },
+  {
+   "acronym": "LOCALITY",
+   "title": "LOCALITY - Nature-positive aLgae-based fOod, agriCulture, AquacuLture and textIle producTs made in North and Baltic Sea ecosYstems",
+   "start": "2023-06-01",
+   "end": "2027-05-31",
+   "ec_signature_date": "2023-05-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 8499975,
+   "coordinator": {
+    "name": "NORSK INSTITUTT FOR VANNFORSKNING STI",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "role": "participant",
+     "ec_contribution_eur": 220774
+    }
+   ],
+   "cordis_last_update": "2026-10-16 13:43:44",
+   "grant_agreement_id": "101112884"
+  },
+  {
+   "acronym": "MARPOWER",
+   "title": "Efficient zero-emissions gas turbine POWER system for MARitime transport",
+   "start": "2024-09-01",
+   "end": "2028-08-31",
+   "ec_signature_date": "2024-05-27",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7999805,
+   "coordinator": {
+    "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+    "country": "FI",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "ALFA LAVAL AALBORG OY",
+     "role": "participant",
+     "ec_contribution_eur": 541250
+    },
+    {
+     "name": "AURELIA TURBINES OY",
+     "role": "participant",
+     "ec_contribution_eur": 1771900
+    },
+    {
+     "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+     "role": "coordinator",
+     "ec_contribution_eur": 1262364
+    }
+   ],
+   "cordis_last_update": "2026-09-30 18:14:04",
+   "grant_agreement_id": "101138341"
+  },
+  {
+   "acronym": "AQUAPHOENIX",
+   "title": "Innovative solutions to reduce AQUAculture emissions and valorize sludge through PHOsphorus and NItrogen eXtraction",
+   "start": "2025-01-01",
+   "end": "2028-12-31",
+   "ec_signature_date": "2024-10-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 8999726,
+   "coordinator": {
+    "name": "NORCE RESEARCH AS",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "ÅLANDS LANDSKAPSREGERING/ALLMANNA FÖRVALTNINGEN",
+     "role": "associatedPartner",
+     "ec_contribution_eur": 0
+    },
+    {
+     "name": "ALANDS FISKODLARFORENING RF",
+     "role": "participant",
+     "ec_contribution_eur": 69500
+    },
+    {
+     "name": "LUONNONVARAKESKUS",
+     "role": "participant",
+     "ec_contribution_eur": 179875
+    },
+    {
+     "name": "BRANDO LAX AB",
+     "role": "participant",
+     "ec_contribution_eur": 33688
+    },
+    {
+     "name": "STORFJARDENS FISK AB",
+     "role": "participant",
+     "ec_contribution_eur": 28000
+    }
+   ],
+   "cordis_last_update": "2026-10-13 17:32:46",
+   "grant_agreement_id": "101182028"
+  },
+  {
+   "acronym": "CirclesOfLife",
+   "title": "Enhancing material CIRCularity and Lower Emissions of Ship building processes in all phases of the LIFE cycle",
+   "start": "2024-01-01",
+   "end": "2026-12-31",
+   "ec_signature_date": "2023-12-05",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 4499935,
+   "coordinator": {
+    "name": "DAMEN RESEARCH DEVELOPMENT & INNOVATION BV",
+    "country": "NL",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "participant",
+     "ec_contribution_eur": 618184
+    },
+    {
+     "name": "MEYER TURKU OY",
+     "role": "participant",
+     "ec_contribution_eur": 96503
+    }
+   ],
+   "cordis_last_update": "2026-10-06 13:00:53",
+   "grant_agreement_id": "101138013"
+  },
+  {
+   "acronym": "SEAMLESS",
+   "title": "Safe, Efficient and Autonomous: Multimodal Library of European Shortsea and inland Solutions",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "ec_signature_date": "2022-12-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 14545315,
+   "coordinator": {
+    "name": "ETHNICON METSOVION POLYTECHNION",
+    "country": "EL",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "MACGREGOR FINLAND OY",
+     "role": "participant",
+     "ec_contribution_eur": 827750
+    },
+    {
+     "name": "AWAKE.AI OY",
+     "role": "participant",
+     "ec_contribution_eur": 248550
+    }
+   ],
+   "cordis_last_update": "2026-10-16 09:03:42",
+   "grant_agreement_id": "101096923"
+  },
+  {
+   "acronym": "GEORGE",
+   "title": "Next generation multiplatform Ocean observing technologies for research infrastructures",
+   "start": "2023-01-01",
+   "end": "2027-06-30",
+   "ec_signature_date": "2022-12-01",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7705725,
+   "coordinator": {
+    "name": "INTEGRATED CARBON OBSERVATION SYSTEM EUROPEAN RESEARCH INFRASTRUCTURECONSORTIUM",
+    "country": "FI",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 290229
+    },
+    {
+     "name": "INTEGRATED CARBON OBSERVATION SYSTEM EUROPEAN RESEARCH INFRASTRUCTURECONSORTIUM",
+     "role": "coordinator",
+     "ec_contribution_eur": 797986
+    }
+   ],
+   "cordis_last_update": "2026-10-16 13:34:54",
+   "grant_agreement_id": "101094716"
+  },
+  {
+   "acronym": "REALM",
+   "title": "Reusing Effluents from Agriculture to unLock the potential of Microalgae",
+   "start": "2022-07-01",
+   "end": "2027-06-30",
+   "ec_signature_date": "2022-06-07",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 8554801,
+   "coordinator": {
+    "name": "NECTON-COMPANHIA PORTUGUESA DE CULTURAS MARINHAS SA",
+    "country": "PT",
+    "sme": "true"
+   },
+   "finnish_participants": [
+    {
+     "name": "TURUN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 900399
+    }
+   ],
+   "cordis_last_update": "2026-10-12 09:20:12",
+   "grant_agreement_id": "101060991"
+  },
+  {
+   "acronym": "OCEANIDS",
+   "title": "User-driven applications and tools for Climate-Informed Maritime Spatial Planning and integrated seascape management, towards a resilient & inclusive Blue Economy",
+   "start": "2023-12-01",
+   "end": "2026-07-31",
+   "ec_signature_date": "2023-12-14",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 3096345,
+   "coordinator": {
+    "name": "GEOSYSTEMS HELLAS IT KAI EFARMOGESGEOPLIROFORIAKON SYSTIMATON ANONIMIETAIREIA",
+    "country": "EL",
+    "sme": "true"
+   },
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN SATAMA OY",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "RAUMAN SATAMA OY",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "RAAHEN SATAMA OY",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "ILMATIETEEN LAITOS",
+     "role": "participant",
+     "ec_contribution_eur": 177125
+    },
+    {
+     "name": "VARSINAIS-SUOMEN LIITTO",
+     "role": "participant",
+     "ec_contribution_eur": 47750
+    }
+   ],
+   "cordis_last_update": "2026-07-27 09:18:14",
+   "grant_agreement_id": "101112919"
+  },
+  {
+   "acronym": "FuelSOME",
+   "title": "Multifuel SOFC system with  Maritime Energy vectors",
+   "start": "2022-09-01",
+   "end": "2026-08-31",
+   "ec_signature_date": "2022-05-18",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 2499986,
+   "coordinator": {
+    "name": "AVL LIST GMBH",
+    "country": "AT",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "participant",
+     "ec_contribution_eur": 429998
+    },
+    {
+     "name": "ELCOGEN OY",
+     "role": "participant",
+     "ec_contribution_eur": 379812
+    }
+   ],
+   "cordis_last_update": "2026-10-02 14:14:08",
+   "grant_agreement_id": "101069828"
+  },
+  {
+   "acronym": "OBAMA-NEXT",
+   "title": "OBSERVING AND MAPPING MARINE ECOSYSTEMS – NEXT GENERATION TOOLS",
+   "start": "2022-12-01",
+   "end": "2026-11-30",
+   "ec_signature_date": "2022-09-28",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 8612068,
+   "coordinator": {
+    "name": "AARHUS UNIVERSITET",
+    "country": "DK",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 317311
+    },
+    {
+     "name": "SUOMEN YMPARISTOKESKUS",
+     "role": "participant",
+     "ec_contribution_eur": 553118
+    },
+    {
+     "name": "LUONNONVARAKESKUS",
+     "role": "participant",
+     "ec_contribution_eur": 307019
+    }
+   ],
+   "cordis_last_update": "2026-10-09 16:49:20",
+   "grant_agreement_id": "101081642"
+  },
+  {
+   "acronym": "AIRSHIP",
+   "title": "AUTONOMOUS FLYING SHIPS FOR INTER-ISLAND AND INLAND WATERS TRANSPORT",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "ec_signature_date": "2022-12-05",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 5116012,
+   "coordinator": {
+    "name": "UNIVERSIDAD POLITECNICA DE MADRID",
+    "country": "ES",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TAMPEREEN KORKEAKOULUSAATIO SR",
+     "role": "participant",
+     "ec_contribution_eur": 999425
+    }
+   ],
+   "cordis_last_update": "2026-09-11 18:35:22",
+   "grant_agreement_id": "101096487"
+  },
+  {
+   "acronym": "REFOLUTION",
+   "title": "Refinery integration, scale-up and certification for aviation and marine biofuels production",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "ec_signature_date": "2022-12-09",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 9275275,
+   "coordinator": {
+    "name": "SINTEF AS",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "participant",
+     "ec_contribution_eur": 2542822
+    },
+    {
+     "name": "NESTE OYJ",
+     "role": "participant",
+     "ec_contribution_eur": 296212
+    }
+   ],
+   "cordis_last_update": "2026-08-10 15:10:22",
+   "grant_agreement_id": "101096780"
+  },
+  {
+   "acronym": "H2MARINE",
+   "title": "Hydrogen PEM fuel cell stack for marine applications",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "ec_signature_date": "2023-12-05",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7499172,
+   "coordinator": {
+    "name": "ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS",
+    "country": "EL",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "role": "participant",
+     "ec_contribution_eur": 629256
+    }
+   ],
+   "cordis_last_update": "2026-06-23 15:30:17",
+   "grant_agreement_id": "101137965"
+  },
+  {
+   "acronym": "VIGIMARE",
+   "title": "Vigilant Maritime Surveillance of Critical Submarine Infrastructure",
+   "start": "2024-09-01",
+   "end": "2027-09-30",
+   "ec_signature_date": "2024-07-19",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 4749863,
+   "coordinator": {
+    "name": "LAUREA-AMMATTIKORKEAKOULU OY",
+    "country": "FI",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "LAUREA-AMMATTIKORKEAKOULU OY",
+     "role": "coordinator",
+     "ec_contribution_eur": 492875
+    },
+    {
+     "name": "CINIA OY",
+     "role": "participant",
+     "ec_contribution_eur": 181037
+    },
+    {
+     "name": "JYVASKYLAN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 138688
+    },
+    {
+     "name": "HUOLTOVARMUUSKESKUS",
+     "role": "participant",
+     "ec_contribution_eur": 58125
+    }
+   ],
+   "cordis_last_update": "2026-10-02 17:10:42",
+   "grant_agreement_id": "101168016"
+  },
+  {
+   "acronym": "TwinShip",
+   "title": "TWINSHIP – INTEGRATED DIGITAL TWIN FRAMEWORK TO ENABLE GREEN SHIP OPERATIONS TOWARDS ZERO EMISSION VESSELS",
+   "start": "2025-02-01",
+   "end": "2028-01-31",
+   "ec_signature_date": "2024-12-12",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7700000,
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "role": "participant",
+     "ec_contribution_eur": 560228
+    }
+   ],
+   "cordis_last_update": "2026-10-06 14:54:20",
+   "grant_agreement_id": "101192583"
+  },
+  {
+   "acronym": "SEA-Quester",
+   "title": "Blue Carbon production, export and sequestration in emerging polar ecosystems",
+   "start": "2024-02-01",
+   "end": "2028-01-31",
+   "ec_signature_date": "2023-11-15",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 5111919,
+   "coordinator": {
+    "name": "DANMARKS TEKNISKE UNIVERSITET",
+    "country": "DK",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "ABO AKADEMI",
+     "role": "participant",
+     "ec_contribution_eur": 411315
+    }
+   ],
+   "cordis_last_update": "2026-10-09 17:39:11",
+   "grant_agreement_id": "101136480"
+  },
+  {
+   "acronym": "STEESMAT",
+   "title": "Smart Transformer for Enhanced Efficiency and Sustainability in Maritime Transportation",
+   "start": "2025-01-01",
+   "end": "2028-06-30",
+   "ec_signature_date": "2024-12-06",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 7752035,
+   "coordinator": {
+    "name": "MARITIME CLEANTECH",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "THE SWITCH ENGINEERING OY",
+     "role": "participant",
+     "ec_contribution_eur": 320175
+    },
+    {
+     "name": "DANFOSS DRIVES OY",
+     "role": "participant",
+     "ec_contribution_eur": 626625
+    },
+    {
+     "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+     "role": "participant",
+     "ec_contribution_eur": 332750
+    }
+   ],
+   "cordis_last_update": "2026-09-11 16:47:15",
+   "grant_agreement_id": "101192740"
+  },
+  {
+   "acronym": "AENEAS",
+   "title": "innovAtive ENErgy storage systems onboArd vesselS",
+   "start": "2023-02-01",
+   "end": "2026-01-31",
+   "ec_signature_date": "2022-11-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 4987277,
+   "coordinator": {
+    "name": "FLANDERS MAKE",
+    "country": "BE",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "VAASAN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 520750
+    }
+   ],
+   "cordis_last_update": "2026-07-14 14:53:21",
+   "grant_agreement_id": "101095902"
+  },
+  {
+   "acronym": "Ammonia2-4",
+   "title": "Demonstrating a 2-stroke and 4-stroke large scale ammonia marine engine",
+   "start": "2022-05-01",
+   "end": "2026-04-30",
+   "ec_signature_date": "2022-04-26",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 9788202,
+   "coordinator": {
+    "name": "WARTSILA ITALIA SPA",
+    "country": "IT",
+    "sme": "false"
+   },
+   "finnish_participants": [],
+   "cordis_last_update": "2026-10-01 09:25:36",
+   "grant_agreement_id": "101056835"
+  },
+  {
+   "acronym": "A-AAgora",
+   "title": "Blueprint for Atlantic-Arctic Agora on cross-sectoral cooperation for restoration of marine and coastal ecosystems and increased climate resilience through transformative innovation",
+   "start": "2022-12-01",
+   "end": "2026-05-31",
+   "ec_signature_date": "2022-12-06",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 8362817,
+   "coordinator": {
+    "name": "UNIVERSIDADE DE AVEIRO",
+    "country": "PT",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "MAPITA OY",
+     "role": "participant",
+     "ec_contribution_eur": 221462
+    }
+   ],
+   "cordis_last_update": "2026-10-02 14:32:13",
+   "grant_agreement_id": "101093956"
+  },
+  {
+   "acronym": "HyEkoTank",
+   "title": "Hydrogen PEM fuel cell system to retrofit ships in the marine transport industry",
+   "start": "2023-02-01",
+   "end": "2026-07-31",
+   "ec_signature_date": "2022-12-19",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 5092999,
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "NESTE OYJ",
+     "role": "associatedPartner",
+     "ec_contribution_eur": 0
+    }
+   ],
+   "cordis_last_update": "2026-04-06 15:53:49",
+   "grant_agreement_id": "101096981"
+  },
+  {
+   "acronym": "i-MASTER",
+   "title": "Integrating Adaptive Learning in Maritime Simulator-Based Education and Training with Intelligent Learning System",
+   "start": "2022-09-01",
+   "end": "2026-08-31",
+   "ec_signature_date": "2022-06-02",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 3286600,
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "AB YRKESHOGSKOLAN VID ABO AKADEMI",
+     "role": "participant",
+     "ec_contribution_eur": 328950
+    }
+   ],
+   "cordis_last_update": "2026-10-16 09:07:07",
+   "grant_agreement_id": "101060107"
+  },
+  {
+   "acronym": "MARBEFES",
+   "title": "MARine Biodiversity and Ecosystem Functioning leading to Ecosystem Services",
+   "start": "2022-09-01",
+   "end": "2027-02-28",
+   "ec_signature_date": "2022-06-02",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 12915068,
+   "coordinator": {
+    "name": "INSTYTUT OCEANOLOGII POLSKIEJ AKADEMII NAUK",
+    "country": "PL",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 526130
+    },
+    {
+     "name": "ABO AKADEMI",
+     "role": "participant",
+     "ec_contribution_eur": 273370
+    }
+   ],
+   "cordis_last_update": "2026-10-16 13:31:03",
+   "grant_agreement_id": "101060937"
+  },
+  {
+   "acronym": "ICEBERG",
+   "title": "INNOVATIVE COMMUNITY ENGAGEMENT FOR BUILDING EFFECTIVE RESILIENCE AND ARCTIC OCEAN POLLUTION-CONTROL GOVERNANCE IN THE CONTEXT OF CLIMATE CHANGE",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "ec_signature_date": "2023-11-22",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 5987060,
+   "coordinator": {
+    "name": "OULUN YLIOPISTO",
+    "country": "FI",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "OULUN YLIOPISTO",
+     "role": "coordinator",
+     "ec_contribution_eur": 852375
+    },
+    {
+     "name": "LAPIN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 507500
+    },
+    {
+     "name": "WOMEN OF THE ARCTIC RY",
+     "role": "participant",
+     "ec_contribution_eur": 378750
+    },
+    {
+     "name": "KASKAS MEDIA OY",
+     "role": "participant",
+     "ec_contribution_eur": 330000
+    }
+   ],
+   "cordis_last_update": "2026-09-16 10:25:13",
+   "grant_agreement_id": "101135130"
+  },
+  {
+   "acronym": "FOREMAST",
+   "title": "Freight vOlumes transfer from Road to waterborne transport, using zero-EMission, Automated, Small and flexible vessel protoTypes",
+   "start": "2024-01-01",
+   "end": "2026-12-31",
+   "ec_signature_date": "2023-11-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 4981706,
+   "coordinator": {
+    "name": "INLECOM GROUP",
+    "country": "BE",
+    "sme": "true"
+   },
+   "finnish_participants": [
+    {
+     "name": "ABB OY",
+     "role": "participant",
+     "ec_contribution_eur": 137500
+    }
+   ],
+   "cordis_last_update": "2026-06-19 16:39:34",
+   "grant_agreement_id": "101138261"
+  },
+  {
+   "acronym": "DTO-BioFlow",
+   "title": "Integration of biodiversity monitoring data into the Digital Twin Ocean",
+   "start": "2023-09-01",
+   "end": "2027-02-28",
+   "ec_signature_date": "2023-05-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 9452372,
+   "coordinator": {
+    "name": "VLAAMS INSTITUUT VOOR DE ZEE",
+    "country": "BE",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "CSC-TIETEEN TIETOTEKNIIKAN KESKUS OY",
+     "role": "participant",
+     "ec_contribution_eur": 153125
+    }
+   ],
+   "cordis_last_update": "2026-09-14 12:22:07",
+   "grant_agreement_id": "101112823"
+  },
+  {
+   "acronym": "CircSyst",
+   "title": "Circular Systemic Solutions for Plastic, Packaging, Bio-Waste, and Water",
+   "start": "2024-06-01",
+   "end": "2027-05-31",
+   "ec_signature_date": "2024-05-21",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 10244331,
+   "coordinator": {
+    "name": "ASOCIACION DE INVESTIGACION DE LA INDUSTRIA DEL JUGUETE CONEXAS Y AFINES",
+    "country": "ES",
+    "sme": "false"
+   },
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "role": "participant",
+     "ec_contribution_eur": 499919
+    },
+    {
+     "name": "LAB-AMMATTIKORKEAKOULU OY",
+     "role": "participant",
+     "ec_contribution_eur": 414678
+    }
+   ],
+   "cordis_last_update": "2026-10-06 13:04:46",
+   "grant_agreement_id": "101135505"
+  }
+ ],
+ "extras": [
+  {
+   "acronym": "SmartGLASS",
+   "title": "Functionalized Glass Membranes for Resource Recovery from Waste Streams",
+   "start": "2026-10-01",
+   "end": "2028-03-31",
+   "ec_signature_date": "2026-07-25",
+   "cordis_status": "SIGNED",
+   "status_on_2026_10_17": "running",
+   "ec_max_contribution_eur": 150000,
+   "coordinator": {
+    "name": "AALBORG UNIVERSITET",
+    "country": "DK",
+    "sme": "false"
+   },
+   "finnish_participants": [],
+   "cordis_last_update": "2026-08-03 11:30:21",
+   "grant_agreement_id": "101333547"
+  },
+  {
+   "acronym": "BLUESURVEY",
+   "title": "Unlocking the value of a blue economy with a revolutionary Underwater Satellite to promote the sustainable use of our ocean’s resources",
+   "start": "2022-05-01",
+   "end": "2024-04-30",
+   "ec_signature_date": "2022-08-03",
+   "cordis_status": "CLOSED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 2493050,
+   "coordinator": {
+    "name": "PLANBLUE GMBH",
+    "country": "DE",
+    "sme": "true"
+   },
+   "finnish_participants": [],
+   "cordis_last_update": "2026-06-17 11:25:41",
+   "grant_agreement_id": "190175727"
+  },
+  {
+   "acronym": "GRAPHEC",
+   "title": "Scalable Graphene-enabled ElectroChemical Treatment for Complete Destruction of “Forever Chemicals” in Contaminated Water",
+   "start": "2023-06-01",
+   "end": "2024-11-30",
+   "ec_signature_date": "2023-03-20",
+   "cordis_status": "CLOSED",
+   "status_on_2026_10_17": "ended",
+   "ec_max_contribution_eur": 150000,
+   "coordinator": {
+    "name": "FUNDACIO INSTITUT CATALA DE RECERCA DE L'AIGUA",
+    "country": "ES",
+    "sme": "false"
+   },
+   "finnish_participants": [],
+   "cordis_last_update": "2026-02-18 16:58:34",
+   "grant_agreement_id": "101112898"
+  }
+ ]
+}

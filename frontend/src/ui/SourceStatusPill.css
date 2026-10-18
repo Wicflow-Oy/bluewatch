@@ -1,0 +1,157 @@
+/* Source state colours (mockup .srcrow .s): live sea with a halo, cached sea, files accent,
+   unavailable a hollow red ring with red text. */
+.source-pill {
+  --pill-tone: var(--sea);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 26px;
+  padding: 0 10px 0 9px;
+  border-radius: var(--r-pill);
+  font-size: 12px;
+  line-height: 1;
+  white-space: nowrap;
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  cursor: default;
+  transition: box-shadow var(--d-fast) var(--ease);
+}
+
+.source-pill:hover {
+  box-shadow: inset 0 0 0 1px var(--line-3);
+}
+
+.source-pill__dot,
+.source-dot,
+.source-row__dot {
+  width: 6px;
+  height: 6px;
+  flex: none;
+  border-radius: 50%;
+  background: var(--pill-tone);
+}
+
+.source-pill--live .source-pill__dot,
+.source-dot--live,
+.source-row--live .source-row__dot {
+  box-shadow: 0 0 0 3px var(--sea-soft);
+}
+
+.source-pill__name {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.source-pill__state {
+  color: var(--muted);
+}
+
+.source-pill--daily_file,
+.source-pill--weekly_file,
+.source-dot--daily_file,
+.source-dot--weekly_file,
+.source-row--daily_file,
+.source-row--weekly_file {
+  --pill-tone: var(--accent);
+}
+
+.source-pill--unavailable {
+  --pill-tone: var(--red);
+  background: var(--hatch-red), var(--red-soft);
+  box-shadow: inset 0 0 0 1px var(--red-line);
+}
+
+.source-pill--unavailable .source-pill__name,
+.source-pill--unavailable .source-pill__state {
+  color: var(--red);
+}
+
+.source-pill--unavailable .source-pill__dot,
+.source-dot--unavailable,
+.source-row--unavailable .source-row__dot {
+  background: transparent;
+  box-shadow: inset 0 0 0 1.5px var(--red);
+}
+
+.source-dots {
+  display: flex;
+  gap: 6px;
+}
+
+.source-dot {
+  --pill-tone: var(--sea);
+  display: block;
+  width: 8px;
+  height: 8px;
+  cursor: default;
+}
+
+/* SourceRows */
+.source-row {
+  --pill-tone: var(--sea);
+  display: grid;
+  grid-template-columns: 8px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 2px 10px;
+  padding: 7px 0;
+  font-size: 12.5px;
+  line-height: 1.35;
+  cursor: default;
+}
+
+.source-rows li + li .source-row {
+  border-top: 1px solid var(--line);
+}
+
+.source-row__dot {
+  width: 8px;
+  height: 8px;
+}
+
+.source-row__name {
+  min-width: 0;
+  color: var(--ink);
+}
+
+.source-row__code {
+  font-size: 11px;
+  color: var(--faint);
+}
+
+.source-row__state {
+  font: 500 11px/1 var(--mono);
+  color: var(--faint);
+  white-space: nowrap;
+}
+
+.source-row--unavailable .source-row__state {
+  color: var(--red);
+}
+
+.source-row__note {
+  grid-column: 2 / 4;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.source-rows__attribution {
+  margin-top: 12px;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--faint);
+}
+
+/* A source that is planned but not connected yet: quiet, never an alarm. */
+.source-pill--planned .source-pill__name,
+.source-pill--planned .source-pill__state,
+.source-row--planned .source-row__state {
+  color: var(--faint);
+}
+
+.source-pill--planned .source-pill__dot,
+.source-dot--planned,
+.source-row--planned .source-row__dot {
+  background: transparent;
+  box-shadow: none;
+  border: 1.5px dashed var(--faint);
+}

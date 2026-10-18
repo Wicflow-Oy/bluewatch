@@ -1,0 +1,983 @@
+{
+ "recorded_at": "2026-10-17T19:23:32+00:00",
+ "navn": "havnio",
+ "response": {
+  "_embedded": {
+   "enheter": [
+    {
+     "organisasjonsnummer": "938525420",
+     "navn": "HAVNIO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Dataprogrammeringstjenester",
+      "kode": "62.100"
+     },
+     "stiftelsesdato": "2026-09-16",
+     "registreringsdatoEnhetsregisteret": "2026-09-21",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "STAVANGER",
+      "kommunenummer": "1103",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "925704636",
+     "navn": "HAVINO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Konsulentvirksomhet tilknyttet informasjonsteknologi og forvaltning og drift av it-systemer",
+      "kode": "62.200"
+     },
+     "stiftelsesdato": "2020-08-24",
+     "registreringsdatoEnhetsregisteret": "2020-09-25",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "HALDEN",
+      "kommunenummer": "3101",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "968315110",
+     "navn": "HAFINO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Andre egeninvesteringsselskaper",
+      "kode": "64.323"
+     },
+     "stiftelsesdato": "1993-12-14",
+     "registreringsdatoEnhetsregisteret": "1995-02-20",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "BÆRUM",
+      "kommunenummer": "3201",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "936945236",
+     "navn": "HANNIS AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Uoppgitt",
+      "kode": "00.000"
+     },
+     "stiftelsesdato": "2025-12-16",
+     "registreringsdatoEnhetsregisteret": "2026-01-12",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "SANDEFJORD",
+      "kommunenummer": "3907",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "989209973",
+     "navn": "HAUGIO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utleie av egen eller leid fast eiendom",
+      "kode": "68.200"
+     },
+     "stiftelsesdato": "2005-12-23",
+     "registreringsdatoEnhetsregisteret": "2006-02-09",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "RINGERIKE",
+      "kommunenummer": "3305",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "924287713",
+     "navn": "HAUNCO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Uoppgitt",
+      "kode": "00.000"
+     },
+     "stiftelsesdato": "2019-10-30",
+     "registreringsdatoEnhetsregisteret": "2020-01-06",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "996399532",
+     "navn": "HAVANI AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+      "kode": "70.200"
+     },
+     "stiftelsesdato": "2010-12-16",
+     "registreringsdatoEnhetsregisteret": "2011-01-13",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "STJØRDAL",
+      "kommunenummer": "5035",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "935865360",
+     "navn": "HAVDIS AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Forskning og eksperimentell utvikling innenfor naturvitenskap og teknikk",
+      "kode": "72.100"
+     },
+     "stiftelsesdato": "2025-06-12",
+     "registreringsdatoEnhetsregisteret": "2025-07-18",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "BERGEN",
+      "kommunenummer": "4601",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "917659915",
+     "navn": "HAVECO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Godstransport på vei",
+      "kode": "49.410"
+     },
+     "stiftelsesdato": "2016-06-13",
+     "registreringsdatoEnhetsregisteret": "2016-09-03",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "HEIM",
+      "kommunenummer": "5055",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "917443459",
+     "navn": "HAVFRO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Tjenester tilknyttet fiske, fangst og akvakultur",
+      "kode": "03.300"
+     },
+     "stiftelsesdato": "2016-06-14",
+     "registreringsdatoEnhetsregisteret": "2016-07-07",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "MALVIK",
+      "kommunenummer": "5031",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "927105284",
+     "navn": "HAVIJO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utleie av egen eller leid fast eiendom",
+      "kode": "68.200"
+     },
+     "stiftelsesdato": "2021-05-21",
+     "registreringsdatoEnhetsregisteret": "2021-06-08",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "925223905",
+     "navn": "HAVIND AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Annen teknisk konsulentvirksomhet",
+      "kode": "71.129"
+     },
+     "stiftelsesdato": "2020-06-01",
+     "registreringsdatoEnhetsregisteret": "2020-08-21",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "930607304",
+     "navn": "HAVINOR AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Fiske og fangst i sjø",
+      "kode": "03.110"
+     },
+     "stiftelsesdato": "2022-11-21",
+     "registreringsdatoEnhetsregisteret": "2023-01-09",
+     "konkurs": false,
+     "underAvvikling": true,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "ALTA",
+      "kommunenummer": "5601",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "931395688",
+     "navn": "HAVITO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Uoppgitt",
+      "kode": "00.000"
+     },
+     "stiftelsesdato": "2023-04-10",
+     "registreringsdatoEnhetsregisteret": "2023-05-12",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "SOLA",
+      "kommunenummer": "1124",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "929350081",
+     "navn": "HAVLINER AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Fiske og fangst i sjø",
+      "kode": "03.110"
+     },
+     "stiftelsesdato": "2022-05-04",
+     "registreringsdatoEnhetsregisteret": "2022-06-14",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "NÆRØYSUND",
+      "kommunenummer": "5060",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "916176635",
+     "navn": "HAVLIV AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Bedriftsrådgivning og annen administrativ rådgivning",
+      "kode": "70.200"
+     },
+     "stiftelsesdato": "2015-10-19",
+     "registreringsdatoEnhetsregisteret": "2015-11-04",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "LØRENSKOG",
+      "kommunenummer": "3222",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "924759674",
+     "navn": "HAVNAGO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utvikling og salg av byggeprosjekter",
+      "kode": "68.120"
+     },
+     "stiftelsesdato": "2020-02-18",
+     "registreringsdatoEnhetsregisteret": "2020-03-13",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "FRØYA",
+      "kommunenummer": "5014",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "989189204",
+     "navn": "HAVNOR AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Pr og kommunikasjonstjenester",
+      "kode": "73.300"
+     },
+     "stiftelsesdato": "2005-12-10",
+     "registreringsdatoEnhetsregisteret": "2006-02-04",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "996012352",
+     "navn": "HAVNÅS AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utvikling og salg av byggeprosjekter",
+      "kode": "68.120"
+     },
+     "stiftelsesdato": "2010-08-19",
+     "registreringsdatoEnhetsregisteret": "2010-10-04",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "ASKER",
+      "kommunenummer": "3203",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "980511995",
+     "navn": "HAVNÅS BORETTSLAG",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/BRL"
+       }
+      },
+      "beskrivelse": "Borettslag",
+      "kode": "BRL"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Aktiviteter i borettslag og boligsameier",
+      "kode": "97.001"
+     },
+     "stiftelsesdato": "1998-09-14",
+     "registreringsdatoEnhetsregisteret": "1999-02-22",
+     "hjemmeside": "www.usbl.no",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "NORDRE FOLLO",
+      "kommunenummer": "3207",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "934978161",
+     "navn": "HAVNÅS LOKALRÅD",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+       }
+      },
+      "beskrivelse": "Forening/lag/innretning",
+      "kode": "FLI"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "kode": "94.992"
+     },
+     "stiftelsesdato": "2025-12-08",
+     "registreringsdatoEnhetsregisteret": "2026-01-23",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "INDRE ØSTFOLD",
+      "kommunenummer": "3118",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "971251379",
+     "navn": "HAVNÅS SKOLEKORPS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+       }
+      },
+      "beskrivelse": "Forening/lag/innretning",
+      "kode": "FLI"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utøvende kunstnerisk virksomhet og underholdningsvirksomhet innenfor musikk",
+      "kode": "90.201"
+     },
+     "stiftelsesdato": "1952-01-01",
+     "registreringsdatoEnhetsregisteret": "1995-02-20",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "INDRE ØSTFOLD",
+      "kommunenummer": "3118",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "996897869",
+     "navn": "HAVNÅS VEL",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/FLI"
+       }
+      },
+      "beskrivelse": "Forening/lag/innretning",
+      "kode": "FLI"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Aktiviteter i andre medlemsorganisasjoner ellers",
+      "kode": "94.992"
+     },
+     "stiftelsesdato": "1964-01-01",
+     "registreringsdatoEnhetsregisteret": "2011-05-09",
+     "hjemmeside": "www.havnaas.net",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {}
+    },
+    {
+     "organisasjonsnummer": "998692555",
+     "navn": "HAANMO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Kjøp og salg av egen fast eiendom",
+      "kode": "68.110"
+     },
+     "stiftelsesdato": "2012-07-06",
+     "registreringsdatoEnhetsregisteret": "2012-08-09",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "FÆRDER",
+      "kommunenummer": "3911",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "945936096",
+     "navn": "STIFTELSEN HAVNØY",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/STI"
+       }
+      },
+      "beskrivelse": "Stiftelse",
+      "kode": "STI"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Barneverntjenester",
+      "kode": "88.991"
+     },
+     "stiftelsesdato": "1981-11-17",
+     "registreringsdatoEnhetsregisteret": "1995-02-19",
+     "hjemmeside": "www.havnoy.no",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "TØNSBERG",
+      "kommunenummer": "3905",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "932573881",
+     "navn": "HAFNIA FREIGHT",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+       }
+      },
+      "beskrivelse": "Norskregistrert utenlandsk foretak",
+      "kode": "NUF"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Annen forretningsmessig tjenesteyting ikke nevnt annet sted",
+      "kode": "82.990"
+     },
+     "registreringsdatoEnhetsregisteret": "2023-12-16",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "landkode": "DK"
+     }
+    },
+    {
+     "organisasjonsnummer": "914722748",
+     "navn": "HAFNIA TANKERS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/NUF"
+       }
+      },
+      "beskrivelse": "Norskregistrert utenlandsk foretak",
+      "kode": "NUF"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Uoppgitt",
+      "kode": "00.000"
+     },
+     "registreringsdatoEnhetsregisteret": "2015-01-07",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "landkode": "DK"
+     }
+    },
+    {
+     "organisasjonsnummer": "918524185",
+     "navn": "HANBO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Industri-, produkt- og motedesignvirksomhet",
+      "kode": "74.110"
+     },
+     "stiftelsesdato": "2017-01-20",
+     "registreringsdatoEnhetsregisteret": "2017-02-14",
+     "hjemmeside": "www.hanbo.no",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "BERGEN",
+      "kommunenummer": "4601",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "889267992",
+     "navn": "HANIF AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Andre egeninvesteringsselskaper",
+      "kode": "64.323"
+     },
+     "stiftelsesdato": "2005-12-29",
+     "registreringsdatoEnhetsregisteret": "2006-02-16",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "880047132",
+     "navn": "HANJO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utgivelse av annen programvare",
+      "kode": "58.290"
+     },
+     "stiftelsesdato": "1998-05-02",
+     "registreringsdatoEnhetsregisteret": "1998-08-28",
+     "hjemmeside": "www.hanjo.no",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "STAD",
+      "kommunenummer": "4649",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "887841322",
+     "navn": "HANKO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utleie av egen eller leid fast eiendom",
+      "kode": "68.200"
+     },
+     "stiftelsesdato": "2005-02-01",
+     "registreringsdatoEnhetsregisteret": "2005-02-12",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "HEIM",
+      "kommunenummer": "5055",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "912384527",
+     "navn": "HANMO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Reparasjon og vedlikehold av sivile skip og båter",
+      "kode": "33.150"
+     },
+     "stiftelsesdato": "1963-07-12",
+     "registreringsdatoEnhetsregisteret": "1995-02-19",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "TRONDHEIM",
+      "kommunenummer": "5001",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "891628692",
+     "navn": "HANSOA AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Forebyggende helsearbeid",
+      "kode": "86.992"
+     },
+     "stiftelsesdato": "2007-07-27",
+     "registreringsdatoEnhetsregisteret": "2007-09-12",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "HALDEN",
+      "kommunenummer": "3101",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "936780628",
+     "navn": "HANTO AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Utvikling og salg av byggeprosjekter",
+      "kode": "68.120"
+     },
+     "stiftelsesdato": "1985-01-14",
+     "registreringsdatoEnhetsregisteret": "1995-02-19",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "BÆRUM",
+      "kommunenummer": "3201",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "921644205",
+     "navn": "HAVIDA AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Tjenester tilknyttet fiske, fangst og akvakultur",
+      "kode": "03.300"
+     },
+     "stiftelsesdato": "2018-10-12",
+     "registreringsdatoEnhetsregisteret": "2018-11-01",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "BRØNNØY",
+      "kommunenummer": "1813",
+      "landkode": "NO"
+     }
+    },
+    {
+     "organisasjonsnummer": "832302732",
+     "navn": "HAVIK AS",
+     "organisasjonsform": {
+      "_links": {
+       "self": {
+        "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+       }
+      },
+      "beskrivelse": "Aksjeselskap",
+      "kode": "AS"
+     },
+     "naeringskode1": {
+      "beskrivelse": "Uoppgitt",
+      "kode": "00.000"
+     },
+     "stiftelsesdato": "2023-09-18",
+     "registreringsdatoEnhetsregisteret": "2023-10-24",
+     "konkurs": false,
+     "underAvvikling": false,
+     "underTvangsavviklingEllerTvangsopplosning": false,
+     "forretningsadresse": {
+      "kommune": "OSLO",
+      "kommunenummer": "0301",
+      "landkode": "NO"
+     }
+    }
+   ]
+  },
+  "page": {
+   "number": 0,
+   "size": 50,
+   "totalElements": 231,
+   "totalPages": 5
+  }
+ }
+}

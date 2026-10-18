@@ -1,0 +1,236 @@
+{
+ "recorded_at": "2026-10-17T17:34:07+00:00",
+ "businessId": "3101791-3",
+ "response": {
+  "totalResults": 1,
+  "companies": [
+   {
+    "businessId": {
+     "value": "3101791-3",
+     "registrationDate": "2019-11-26",
+     "source": "3"
+    },
+    "euId": {
+     "value": "FIFPRO.3101791-3",
+     "source": "1"
+    },
+    "names": [
+     {
+      "name": "Alpo Pro Boats Oy",
+      "type": "1",
+      "registrationDate": "2020-01-22",
+      "version": 1,
+      "source": "1"
+     },
+     {
+      "name": "Suomen Laatuveneet Oy",
+      "type": "1",
+      "registrationDate": "2019-12-17",
+      "endDate": "2020-01-22",
+      "version": 2,
+      "source": "1"
+     }
+    ],
+    "mainBusinessLine": {
+     "type": "25990",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Diverse övrig metallvarutillverkning"
+      },
+      {
+       "languageCode": "3",
+       "description": "Manufacture of other fabricated metal products n.e.c."
+      },
+      {
+       "languageCode": "1",
+       "description": "Muualla luokittelematon muiden metallituotteiden valmistus"
+      }
+     ],
+     "typeCodeSet": "TOIMI4",
+     "registrationDate": "2026-01-01",
+     "source": "2"
+    },
+    "website": {
+     "url": "www.alpovene.fi",
+     "registrationDate": "2020-01-14",
+     "source": "0"
+    },
+    "companyForms": [
+     {
+      "type": "16",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Aktiebolag"
+       },
+       {
+        "languageCode": "3",
+        "description": "Limited company"
+       },
+       {
+        "languageCode": "1",
+        "description": "Osakeyhtiö"
+       }
+      ],
+      "registrationDate": "2019-12-17",
+      "version": 1,
+      "source": "1"
+     }
+    ],
+    "companySituations": [],
+    "registeredEntries": [
+     {
+      "type": "0",
+      "descriptions": [
+       {
+        "languageCode": "2",
+        "description": "Oregistrerad"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rekisteröimätön"
+       },
+       {
+        "languageCode": "3",
+        "description": "Unregistered"
+       }
+      ],
+      "registrationDate": "2019-11-26",
+      "endDate": "2019-12-16",
+      "register": "1",
+      "authority": "2"
+     },
+     {
+      "type": "1",
+      "descriptions": [
+       {
+        "languageCode": "3",
+        "description": "Registered"
+       },
+       {
+        "languageCode": "2",
+        "description": "Registrerad"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rekisterissä"
+       }
+      ],
+      "registrationDate": "2019-12-17",
+      "register": "1",
+      "authority": "2"
+     },
+     {
+      "type": "1",
+      "descriptions": [
+       {
+        "languageCode": "3",
+        "description": "Registered"
+       },
+       {
+        "languageCode": "2",
+        "description": "Registrerad"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rekisterissä"
+       }
+      ],
+      "registrationDate": "2019-12-17",
+      "register": "4",
+      "authority": "1"
+     },
+     {
+      "type": "55",
+      "descriptions": [
+       {
+        "languageCode": "3",
+        "description": "Registered"
+       },
+       {
+        "languageCode": "2",
+        "description": "Registrerad"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rekisterissä"
+       }
+      ],
+      "registrationDate": "2019-11-26",
+      "register": "5",
+      "authority": "1"
+     },
+     {
+      "type": "80",
+      "descriptions": [
+       {
+        "languageCode": "1",
+        "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+       },
+       {
+        "languageCode": "2",
+        "description": "Momsskyldig för rörelseverksamhet"
+       },
+       {
+        "languageCode": "3",
+        "description": "VAT-liable for business activity"
+       }
+      ],
+      "registrationDate": "2019-11-19",
+      "register": "6",
+      "authority": "1"
+     },
+     {
+      "type": "41",
+      "descriptions": [
+       {
+        "languageCode": "3",
+        "description": "Registered"
+       },
+       {
+        "languageCode": "2",
+        "description": "Registrerad"
+       },
+       {
+        "languageCode": "1",
+        "description": "Rekisterissä"
+       }
+      ],
+      "registrationDate": "2019-12-01",
+      "register": "7",
+      "authority": "1"
+     }
+    ],
+    "addresses": [
+     {
+      "type": 1,
+      "postOffices": [
+       {
+        "municipalityCode": "684"
+       },
+       {
+        "municipalityCode": "684"
+       }
+      ]
+     },
+     {
+      "type": 2,
+      "postOffices": [
+       {
+        "municipalityCode": "684"
+       },
+       {
+        "municipalityCode": "684"
+       }
+      ]
+     }
+    ],
+    "tradeRegisterStatus": "1",
+    "status": "2",
+    "registrationDate": "2019-12-17",
+    "lastModified": "2025-12-31T07:39:20"
+   }
+  ]
+ }
+}

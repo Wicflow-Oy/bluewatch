@@ -1,0 +1,451 @@
+{
+ "label": "Read by Claude from the public project description, 18 Oct 2026",
+ "model": "claude-haiku-5-5",
+ "read_at": "2026-10-18",
+ "preset": "blue",
+ "prompt_sha": "0cdd842269ef",
+ "reads": {
+  "hackathon:portathon-2026/ku-exe": {
+   "source_url": "https://kmtp.lt/the-winners-of-portathon-2026-proposed-solutions-for-port-sedimentation-industrial-resilience-and-the-development-of-a-green-hydrogen-value-chain/",
+   "text_sha": "01943f2f22ed",
+   "data": {
+    "fields": {
+     "problem": "frequent and costly dredging",
+     "who_has_it": "challenge from the Port of La Rochelle, also relevant to Klaipėda",
+     "solution": "a system that captures sediment entering the port basin plus data collection to forecast sediment build-up",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "problem",
+      "signal": "quantified_pain",
+      "quote": "frequent and costly dredging"
+     },
+     {
+      "field": "who_has_it",
+      "signal": "named_customer",
+      "quote": "challenge from the Port of La Rochelle"
+     },
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "a system that captures sediment entering the port basin plus data collection to forecast sediment build-up"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1624,
+   "output_tokens": 270,
+   "seconds": 2.06
+  },
+  "hackathon:marinehakk-2026-marine-defence-and-resilience/nomad": {
+   "source_url": "https://taltech.ee/en/news/nomad-wins-marinehakk-2026-autonomous-naval-surface-drone-concept",
+   "text_sha": "15276e1f7650",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "the Baltic Workboats AS challenge",
+     "solution": "24 m autonomous naval surface drone concept with an ice-capable hull, low-observable profile above the waterline, GNSS-denied navigation and passive situational awareness, for long-duration Baltic missions; covers secure communications and mission flexibility",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "GNSS-denied navigation and passive situational awareness"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1634,
+   "output_tokens": 216,
+   "seconds": 1.49
+  },
+  "hackathon:hult-prize-global-finals/flow-guard-solutions-kaust-saudi-arabia": {
+   "source_url": "https://www.hultprize.org/hult-prize-winners/2026/flow-guard-solutions",
+   "text_sha": "f20d4cf6f7ee",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Low-cost, battery-powered ultrasonic smart water meter installable by a local plumber; detects leaks and shuts water off automatically.",
+     "who_pays": "",
+     "exists_detail": "30-day pilot in Rabigh, Saudi Arabia: recorded use fell 79%."
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "detects leaks and shuts water off automatically"
+     },
+     {
+      "field": "exists_detail",
+      "signal": "built",
+      "quote": "30-day pilot in Rabigh, Saudi Arabia"
+     },
+     {
+      "field": "exists_detail",
+      "signal": "built_specific",
+      "quote": "30-day pilot in Rabigh, Saudi Arabia: recorded use fell 79%."
+     },
+     {
+      "field": "exists_detail",
+      "signal": "impact_measure",
+      "quote": "recorded use fell 79%."
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1619,
+   "output_tokens": 332,
+   "seconds": 1.78
+  },
+  "hackathon:bcwwa-student-design-competition-engineering-design-contest-not-a-business-idea-contest/biowise-solutions-bcit-civil-engineering": {
+   "source_url": "https://www.bcit.ca/news/stories/bcwwa-student-design-competition-2026/",
+   "text_sha": "5a92092e88bd",
+   "data": {
+    "fields": {
+     "problem": "Strategy to improve water quality in the Fishtrap Creek watershed, Abbotsford",
+     "who_has_it": "",
+     "solution": "combining green and grey infrastructure for resilient stormwater management",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "A Clean Ocean",
+    "impact_quote": "improve water quality in the Fishtrap Creek watershed",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "combining green and grey infrastructure for resilient stormwater management"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1591,
+   "output_tokens": 200,
+   "seconds": 1.31
+  },
+  "hackathon:converge-awards-blue-economy-prize/ampere-uhi-sams": {
+   "source_url": "https://www.convergechallenge.com/converge-celebrates-15-years-of-innovation-with-record-breaking-awards-night/",
+   "text_sha": "fc879337b402",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Autonomous, low-cost modular systems that support restoration of marine ecosystems such as coral and oyster reefs.",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "Thriving and Restored Marine Habitats",
+    "impact_quote": "support restoration of marine ecosystems such as coral and oyster reefs",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "Autonomous, low-cost modular systems"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1597,
+   "output_tokens": 193,
+   "seconds": 1.77
+  },
+  "hackathon:ocean-hackathon-campus-mondial-de-la-mer-network/development-of-a-system-for-collecting-the-waste-from-fishing-vessels": {
+   "source_url": "https://www.campusmer.fr/news-ocean-hackathon-2025-the-10-winning-teams-will-pitch-their-projects-at-the-international-grand-finale-in-brest-3537-992-0-0.html",
+   "text_sha": "a7c79dec4499",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Solar-powered floating stations (15 m3) that collect and sort solid waste and wastewater from fishing vessels, with a mobile app to locate and dock at them; free disposal for fishers.",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "A Clean Ocean",
+    "impact_quote": "collect and sort solid waste and wastewater from fishing vessels",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "Solar-powered floating stations (15 m3) that collect and sort solid waste and wastewater from fishing vessels, with a mobile app to locate and dock at them"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1612,
+   "output_tokens": 247,
+   "seconds": 1.43
+  },
+  "hackathon:ocean-hackathon-campus-mondial-de-la-mer-network/whalze": {
+   "source_url": "https://www.campusmer.fr/news-ocean-hackathon-2025-the-10-winning-teams-will-pitch-their-projects-at-the-international-grand-finale-in-brest-3537-992-0-0.html",
+   "text_sha": "0776f6523248",
+   "data": {
+    "fields": {
+     "problem": "avoid seasonal collisions",
+     "who_has_it": "",
+     "solution": "Predictive tool that routes ships around whale and dolphin presence to avoid seasonal collisions while minimising carrier cost",
+     "who_pays": "",
+     "exists_detail": "team also worked out user needs, cost structure, partnerships and a communication strategy"
+    },
+    "impact_area": "Thriving and Restored Marine Habitats",
+    "impact_quote": "routes ships around whale and dolphin presence",
+    "claims": [
+     {
+      "field": "problem",
+      "signal": "quantified_pain",
+      "quote": ""
+     },
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "Predictive tool that routes ships around whale and dolphin presence"
+     },
+     {
+      "field": "solution",
+      "signal": "comparison",
+      "quote": ""
+     },
+     {
+      "field": "exists_detail",
+      "signal": "built",
+      "quote": "team also worked out user needs, cost structure, partnerships and a communication strategy"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1602,
+   "output_tokens": 322,
+   "seconds": 1.81
+  },
+  "hackathon:philadelphia-maritime-defense-hackathon-albacore-inc/unnamed-winning-team-maritime-domain-awareness-track": {
+   "source_url": "https://www.thedp.com/article/2026/04/penn-students-win-philadelphia-hackathon-cherelle-parker",
+   "text_sha": "146c917932bd",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Maritime model mapping safe passages and possible dangers such as mines, framed around financial and economic impact (built with data analysis and open-source intelligence).",
+     "who_pays": "",
+     "exists_detail": "built with data analysis and open-source intelligence"
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "Maritime model mapping safe passages and possible dangers such as mines"
+     },
+     {
+      "field": "exists_detail",
+      "signal": "built",
+      "quote": "built with data analysis and open-source intelligence"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1587,
+   "output_tokens": 226,
+   "seconds": 1.35
+  },
+  "hackathon:portathon-2026/cfdp": {
+   "source_url": "https://kmtp.lt/the-winners-of-portathon-2026-proposed-solutions-for-port-sedimentation-industrial-resilience-and-the-development-of-a-green-hydrogen-value-chain/",
+   "text_sha": "b9e14c19a241",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "challenge from the Port of Klaipėda",
+     "solution": "Concept with a hydrogen-powered shunting locomotive and hydrogen trucks to create real demand for green hydrogen in port transport",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "who_has_it",
+      "signal": "named_customer",
+      "quote": "challenge from the Port of Klaipėda"
+     },
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "hydrogen-powered shunting locomotive and hydrogen trucks to create real demand for green hydrogen in port transport"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1595,
+   "output_tokens": 242,
+   "seconds": 1.37
+  },
+  "hackathon:intergenerational-ocean-hackathon-at-the-all-atlantic-ocean-research-and-innovation-alliance-aaoria-forum-2026/decision-support-tool-for-small-scale-fisheries-early-career-ocean-professionals-team": {
+   "source_url": "https://marineguardian.eu/marineguardian-project-celebrates-ecop-hackathon-victory-at-aaoria-forum-2026/",
+   "text_sha": "b8729f25f0c9",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Integrates MarineGuardian's Catch Advisor, AI-Decide and Eco Guide into one user-oriented tool for gear, fishing-area and season decisions.",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "Integrates MarineGuardian's Catch Advisor, AI-Decide and Eco Guide into one user-oriented tool for gear, fishing-area and season decisions."
+     }
+    ],
+    "too_thin": true,
+    "why_thin": "The description names a tool that combines three existing products for fishing decisions but does not state the problem it solves, who has that problem, or what has been built or tested."
+   },
+   "input_tokens": 1607,
+   "output_tokens": 262,
+   "seconds": 2.31
+  },
+  "hackathon:ocean-hackathon-campus-mondial-de-la-mer-network/circularponic": {
+   "source_url": "https://www.campusmer.fr/news-ocean-hackathon-2025-the-10-winning-teams-will-pitch-their-projects-at-the-international-grand-finale-in-brest-3537-992-0-0.html",
+   "text_sha": "89ef6f75cf0d",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Digital tool for managing aquaponic systems: calculates the nutrients produced by recirculating aquaculture systems (RAS) and how much is available for plant growth.",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "Sustainably Managed Ocean Resources",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "calculates the nutrients produced by recirculating aquaculture systems (RAS) and how much is available for plant growth"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1589,
+   "output_tokens": 208,
+   "seconds": 1.5
+  },
+  "hackathon:ocean-hackathon-campus-mondial-de-la-mer-network/erostop": {
+   "source_url": "https://www.campusmer.fr/news-ocean-hackathon-2025-the-10-winning-teams-will-pitch-their-projects-at-the-international-grand-finale-in-brest-3537-992-0-0.html",
+   "text_sha": "cf43cdd60ece",
+   "data": {
+    "fields": {
+     "problem": "coastal erosion",
+     "who_has_it": "vulnerable communities and infrastructure",
+     "solution": "AI and smart sensors to monitor, predict and alert on coastal erosion in real time (live map / prediction model / early warning)",
+     "who_pays": "",
+     "exists_detail": ""
+    },
+    "impact_area": "Climate-Resilient Coastal Communities",
+    "impact_quote": "for vulnerable communities and infrastructure",
+    "claims": [
+     {
+      "field": "problem",
+      "signal": "named_customer",
+      "quote": "coastal erosion"
+     },
+     {
+      "field": "who_has_it",
+      "signal": "named_customer",
+      "quote": "vulnerable communities and infrastructure"
+     },
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "AI and smart sensors to monitor, predict and alert on coastal erosion in real time"
+     },
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "live map / prediction model / early warning"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1592,
+   "output_tokens": 321,
+   "seconds": 1.63
+  },
+  "hackathon:converge-awards-blue-economy-prize/recoverpx-heriot-watt-university": {
+   "source_url": "https://www.convergechallenge.com/converge-celebrates-15-years-of-innovation-with-record-breaking-awards-night/",
+   "text_sha": "2e476b03c867",
+   "data": {
+    "fields": {
+     "problem": "",
+     "who_has_it": "",
+     "solution": "Next-generation water sampling platform for pathogen detection, starting with Cryptosporidium, using advanced filtration and automated, remotely operated systems",
+     "who_pays": "",
+     "exists_detail": "validated with several UK water companies"
+    },
+    "impact_area": "none",
+    "impact_quote": "",
+    "claims": [
+     {
+      "field": "solution",
+      "signal": "mechanism",
+      "quote": "using advanced filtration and automated, remotely operated systems"
+     },
+     {
+      "field": "exists_detail",
+      "signal": "built",
+      "quote": "validated with several UK water companies"
+     }
+    ],
+    "too_thin": false,
+    "why_thin": ""
+   },
+   "input_tokens": 1596,
+   "output_tokens": 212,
+   "seconds": 2.55
+  }
+ },
+ "skipped": {
+  "hackathon:ireland-s-edge-aquahack/seabarrk": "description under 12 words",
+  "research:101112943": "title only",
+  "research:101138583": "title only",
+  "research:101056642": "title only",
+  "research:101112884": "title only",
+  "research:101138341": "title only",
+  "research:101182028": "title only",
+  "research:101138013": "title only",
+  "research:101096923": "title only",
+  "research:101094716": "title only",
+  "research:101081642": "title only",
+  "research:101096487": "title only",
+  "research:101137965": "title only",
+  "research:101168016": "title only",
+  "research:101136480": "title only",
+  "research:101192740": "title only",
+  "research:ReNuW-Hubs": "title only",
+  "research:101333547": "title only",
+  "hackathon:eirgrid-cleanergrid-competition-2026/university-college-dublin-master-s-student-team-data-driven-offshore-wind-integration-model": "no public source page"
+ }
+}

@@ -1,0 +1,272 @@
+/* Tidepool design tokens (build-specs/TIDEPOOL-SYSTEM.md). Light is the default; graphite is the dark theme on
+   <html data-theme="graphite">. A workspace only colours one dot (--ws-dot); cobalt is the accent everywhere. */
+
+:root {
+  color-scheme: light;
+
+  /* ---- type ---- */
+  --sans: "Instrument Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* ---- motion ---- */
+  --ease: cubic-bezier(0.22, 1, 0.36, 1); /* fluid out: entrances, colour, sheets' fade */
+  --spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* small overshoot: press release, chips, popovers */
+  --spring-soft: cubic-bezier(0.34, 1.22, 0.64, 1); /* sliding indicators */
+  --sheet: cubic-bezier(0.32, 0.72, 0, 1); /* card morph, phone sheets */
+  --d-press: 90ms; /* press-in */
+  --d-fast: 160ms; /* hover colour, hairlines */
+  --d-base: 240ms; /* seg text colour, header hairline */
+  --d-spring: 320ms; /* press release, button transforms */
+  --d-lift: 380ms; /* row hover lift, open icon rotate */
+  --d-theme: 420ms; /* theme switch background, scrim */
+  --d-slide: 460ms; /* segmented indicator, switch thumb */
+  --d-enter: 620ms; /* list rise, card morph open */
+  --d-bar: 900ms; /* meter bars, count-ups */
+  --stagger: 38ms; /* per row */
+  --stagger-base: 60ms;
+  --press: 0.96; /* buttons */
+  --press-icon: 0.92; /* icon buttons */
+  --press-seg: 0.95; /* segments, filter chips */
+  --press-row: 0.985; /* capsule rows, criteria rows */
+
+  /* ---- radii (4/8 grid) ---- */
+  --r-2xs: 6px; /* kbd, country code */
+  --r-xs: 8px;
+  --r-sm: 12px; /* rank tiles, menu rows, inputs in tight spots */
+  --r-md: 16px; /* meters, inner rows, textareas */
+  --r-lg: 20px; /* capsule rows, popovers, empty states */
+  --r-xl: 24px; /* cards, panels */
+  --r-2xl: 28px; /* the venture card sheet, phone sheets */
+  --r-pill: 999px;
+
+  /* ---- spacing (4/8 grid) ---- */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-7: 28px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+
+  /* ---- layers ---- */
+  --z-shock: -1; /* the click shockwave, behind everything */
+  --z-sticky: 20; /* sticky table heads, banners */
+  --z-tabbar: 200;
+  --z-sheet: 300;
+  --z-header: 350; /* above sheets: they open under the bar, and its popovers must reach over them */
+  --z-popover: 400;
+  --z-palette: 600;
+  --z-toast: 900;
+  --z-tooltip: 1000;
+
+  /* ---- layout ---- */
+  --page-max: 1440px;
+  --gutter: 24px;
+  --header-h: 64px; /* 112px tablet, 56px phone (see media rules below) */
+  --sticky-top: calc(var(--header-h) + 16px); /* every position: sticky inside a page */
+  --rail-w: 336px;
+  --tabbar-h: 64px; /* the phone pill tab bar */
+  --tabbar-gap: 10px; /* its distance from the screen edges */
+  --sheet-top: calc(var(--header-h) + 12px);
+
+  /* ---- colour: light ("paper") ---- */
+  --canvas: #f4f4f1;
+  --canvas-2: #ecece8;
+  --surface: #ffffff;
+  --surface-2: #fafaf8;
+  --sunken: #f0f0ec;
+  --line: rgba(20, 20, 24, 0.07);
+  --line-2: rgba(20, 20, 24, 0.12);
+  --line-3: rgba(20, 20, 24, 0.22);
+  --ink: #111113;
+  --ink-2: #3b3b40;
+  --muted: #696970;
+  --faint: #9c9ca2;
+
+  --accent: #2446ff;
+  --accent-2: #1a35d6;
+  --accent-text: #2446ff; /* new: cobalt used as text (links) */
+  --accent-soft: rgba(36, 70, 255, 0.08);
+  --accent-line: rgba(36, 70, 255, 0.28);
+
+  --sea: #0b8a61;
+  --sea-soft: rgba(11, 138, 97, 0.1);
+  --sea-line: rgba(11, 138, 97, 0.3); /* new */
+
+  --amber: #a35a00; /* new: deadline within 14 days (5.2:1 on white) */
+  --amber-soft: rgba(214, 135, 0, 0.12); /* new */
+  --amber-line: rgba(214, 135, 0, 0.34); /* new */
+
+  --red: #d92d3a; /* new: unavailable, excluded, errors (4.8:1 on white) */
+  --red-soft: rgba(217, 45, 58, 0.09); /* new */
+  --red-line: rgba(217, 45, 58, 0.3); /* new */
+
+  --violet: #6b47dc; /* new: bridges and register signals only */
+  --violet-soft: rgba(107, 71, 220, 0.09); /* new */
+  --violet-line: rgba(107, 71, 220, 0.3); /* new */
+
+  --hatch-ink: rgba(20, 20, 24, 0.13);
+  --hatch: repeating-linear-gradient(135deg, var(--hatch-ink) 0 1px, transparent 1px 7px);
+  --hatch-fine: repeating-linear-gradient(135deg, var(--hatch-ink) 0 1px, transparent 1px 4px);
+  --hatch-red: repeating-linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--red) 28%, transparent) 0 1px,
+    transparent 1px 6px
+  ); /* new */
+
+  --btn-ink: #111113;
+  --btn-ink-fg: #ffffff;
+  --btn-ink-hover: #26262b;
+  --night: #0e0f12; /* the one dark card on the light canvas, and tooltips */
+  --night-fg: #f5f5f2;
+  --scrim: rgba(244, 244, 241, 0.55);
+
+  --sh-1:
+    0 0 0 1px var(--line), 0 1px 2px rgba(20, 20, 24, 0.04), 0 2px 8px -2px rgba(20, 20, 24, 0.05);
+  --sh-2:
+    0 0 0 1px var(--line), 0 2px 4px rgba(20, 20, 24, 0.04), 0 12px 28px -8px rgba(20, 20, 24, 0.14);
+  --sh-3:
+    0 0 0 1px var(--line), 0 4px 8px rgba(20, 20, 24, 0.04),
+    0 24px 56px -16px rgba(20, 20, 24, 0.22), 0 48px 96px -48px rgba(20, 20, 24, 0.25);
+  --sh-seg:
+    0 0 0 1px rgba(20, 20, 24, 0.06), 0 1px 2px rgba(20, 20, 24, 0.08),
+    0 2px 6px -1px rgba(20, 20, 24, 0.08);
+  --sh-ink: 0 1px 2px rgba(0, 0, 0, 0.12), 0 6px 14px -6px rgba(0, 0, 0, 0.35);
+  --sh-night: 0 1px 2px rgba(0, 0, 0, 0.2), 0 24px 48px -24px rgba(20, 30, 90, 0.55);
+
+  --focus-ring: 2px solid var(--accent); /* drawn as an outline, offset 2px (see base.css) */
+  --selection: color-mix(in srgb, var(--accent) 20%, transparent); /* new */
+  --shock-peak: 0.12; /* new: click shockwave peak opacity */
+  --ws-dot: var(--faint); /* the workspace dot; set per workspace below */
+}
+
+:root[data-workspace="apelago"] {
+  --ws-dot: #dfae32;
+}
+:root[data-workspace="redstone"] {
+  --ws-dot: #ef1934;
+}
+
+@media (max-width: 1279px) {
+  :root {
+    --header-h: 112px;
+  } /* 64px bar plus the 48px nav row */
+}
+
+@media (max-width: 719px) {
+  :root {
+    --header-h: 56px;
+    --gutter: 16px;
+    --z-header: 40; /* phone sheets rise over the bar */
+  }
+}
+
+/* ---- graphite ---- */
+:root[data-theme="graphite"] {
+  color-scheme: dark;
+  --canvas: #0f1012;
+  --canvas-2: #141518;
+  --surface: #18191c;
+  --surface-2: #1d1e22;
+  --sunken: #131417;
+  --line: rgba(255, 255, 255, 0.065);
+  --line-2: rgba(255, 255, 255, 0.11);
+  --line-3: rgba(255, 255, 255, 0.2);
+  --ink: #ededea;
+  --ink-2: #c9c9c5;
+  --muted: #9b9ba1;
+  --faint: #6c6c73;
+
+  --accent: #6680ff;
+  --accent-2: #8a9dff;
+  --accent-text: #8a9dff;
+  --accent-soft: rgba(102, 128, 255, 0.13);
+  --accent-line: rgba(102, 128, 255, 0.38);
+
+  --sea: #3cc594;
+  --sea-soft: rgba(60, 197, 148, 0.13);
+  --sea-line: rgba(60, 197, 148, 0.36);
+
+  --amber: #f0b44c;
+  --amber-soft: rgba(240, 180, 76, 0.14);
+  --amber-line: rgba(240, 180, 76, 0.36);
+
+  --red: #ff6b74;
+  --red-soft: rgba(255, 107, 116, 0.13);
+  --red-line: rgba(255, 107, 116, 0.36);
+
+  --violet: #a48bff;
+  --violet-soft: rgba(164, 139, 255, 0.14);
+  --violet-line: rgba(164, 139, 255, 0.38);
+
+  --hatch-ink: rgba(255, 255, 255, 0.12);
+
+  --btn-ink: #ededea;
+  --btn-ink-fg: #111113;
+  --btn-ink-hover: #ffffff;
+  --night: #1f2024;
+  --night-fg: #f5f5f2;
+  --scrim: rgba(15, 16, 18, 0.55);
+
+  --sh-1:
+    0 0 0 1px var(--line), inset 0 1px 0 rgba(255, 255, 255, 0.03),
+    0 2px 8px -2px rgba(0, 0, 0, 0.5);
+  --sh-2:
+    0 0 0 1px var(--line-2), inset 0 1px 0 rgba(255, 255, 255, 0.04),
+    0 14px 32px -10px rgba(0, 0, 0, 0.7);
+  --sh-3:
+    0 0 0 1px var(--line-2), inset 0 1px 0 rgba(255, 255, 255, 0.05),
+    0 30px 70px -20px rgba(0, 0, 0, 0.8);
+  --sh-seg:
+    0 0 0 1px rgba(255, 255, 255, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.06),
+    0 2px 6px rgba(0, 0, 0, 0.5);
+  --sh-ink: 0 1px 2px rgba(0, 0, 0, 0.3), 0 6px 14px -6px rgba(0, 0, 0, 0.6);
+  --sh-night: 0 0 0 1px var(--line-2), 0 24px 48px -24px rgba(0, 0, 0, 0.8);
+
+  --shock-peak: 0.16;
+}
+
+/* ---- legacy aliases: old names → Tidepool. Keep until every screen has migrated; never add new uses. ---- */
+:root {
+  --bg-0: var(--canvas);
+  --bg-1: var(--surface);
+  --bg-2: var(--surface);
+  --bg-3: var(--sunken);
+  --bg-4: var(--canvas-2);
+  --line-1: var(--line);
+  /* --line-2 and --line-3 keep their names and meaning */
+  --text-1: var(--ink);
+  --text-2: var(--ink-2);
+  --text-3: var(--muted); /* not --faint: the old --text-3 carried real information at 12px */
+  --blue-5: var(--accent);
+  --blue-4: var(--accent-text);
+  --blue-glow: var(--accent-soft);
+  --blue-soft: var(--accent-soft);
+  --teal: var(--sea);
+  --teal-soft: var(--sea-soft);
+  --grey-soft: var(--sunken);
+  --radius-control: var(--r-sm);
+  --radius-panel: var(--r-xl);
+  --radius-chip: var(--r-pill);
+  --shadow-pop: var(--sh-3);
+  --shadow-drawer: var(--sh-3);
+  --font-ui: var(--sans);
+  --font-serif: var(--sans); /* the serif is retired; .serif now means "display sans" */
+  --font-mono: var(--mono);
+  --ease-out: var(--ease);
+  --dur-fast: var(--d-fast);
+  --dur: var(--d-base);
+  --dur-slow: 320ms;
+  --topbar-h: var(--header-h);
+  --sidebar-w: 0px; /* the sidebar is gone */
+  --drawer-w: 560px;
+  --primary-bg: var(--btn-ink);
+  --primary-hover: var(--btn-ink-hover);
+  --primary-ink: var(--btn-ink-fg);
+  --pupil: var(--accent);
+  --tile-gradient: var(--btn-ink);
+}

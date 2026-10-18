@@ -1,0 +1,110 @@
+{
+ "GREEN RAY": [
+  [
+   "WARTSILA FINLAND OY",
+   "thirdParty"
+  ],
+  [
+   "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+   "coordinator"
+  ],
+  [
+   "ILMATIETEEN LAITOS",
+   "participant"
+  ]
+ ],
+ "CirclesOfLife": [
+  [
+   "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+   "participant"
+  ],
+  [
+   "MEYER TURKU OY",
+   "participant"
+  ]
+ ],
+ "SEAMLESS": [
+  [
+   "MACGREGOR FINLAND OY",
+   "participant"
+  ],
+  [
+   "AWAKE.AI OY",
+   "participant"
+  ],
+  [
+   "KONGSBERG MARITIME FINLAND OY",
+   "thirdParty"
+  ],
+  [
+   "KALMAR FINLAND OY",
+   "thirdParty"
+  ]
+ ],
+ "REFOLUTION": [
+  [
+   "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+   "participant"
+  ],
+  [
+   "NESTE OYJ",
+   "participant"
+  ]
+ ],
+ "VIGIMARE": [
+  [
+   "LAUREA-AMMATTIKORKEAKOULU OY",
+   "coordinator"
+  ],
+  [
+   "CINIA OY",
+   "participant"
+  ],
+  [
+   "JYVASKYLAN YLIOPISTO",
+   "participant"
+  ],
+  [
+   "HUOLTOVARMUUSKESKUS",
+   "participant"
+  ]
+ ],
+ "STEESMAT": [
+  [
+   "THE SWITCH ENGINEERING OY",
+   "participant"
+  ],
+  [
+   "DANFOSS DRIVES OY",
+   "participant"
+  ],
+  [
+   "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+   "participant"
+  ]
+ ],
+ "Ammonia2-4": [
+  [
+   "WARTSILA FINLAND OY",
+   "thirdParty"
+  ]
+ ],
+ "ICEBERG": [
+  [
+   "OULUN YLIOPISTO",
+   "coordinator"
+  ],
+  [
+   "LAPIN YLIOPISTO",
+   "participant"
+  ],
+  [
+   "WOMEN OF THE ARCTIC RY",
+   "participant"
+  ],
+  [
+   "KASKAS MEDIA OY",
+   "participant"
+  ]
+ ]
+}

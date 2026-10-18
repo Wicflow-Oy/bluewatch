@@ -1,0 +1,54 @@
+/* Night toasts (section 3.10). */
+.toasts {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: var(--z-toast);
+  display: grid;
+  gap: 8px;
+  justify-items: end;
+  pointer-events: none;
+}
+
+.toast {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 380px;
+  padding: 10px 14px 10px 12px;
+  border-radius: 16px;
+  background: var(--night);
+  color: var(--night-fg);
+  font: 400 13px/1.4 var(--sans);
+  box-shadow: var(--sh-3);
+  animation: tp-toast 420ms var(--spring) both;
+  pointer-events: auto;
+}
+
+.toast svg {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  margin-top: 1px;
+  color: #8a9dff;
+}
+
+.toast--success svg {
+  color: #3cc594;
+}
+
+@keyframes tp-toast {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.96);
+  }
+}
+
+@media (max-width: 719px) {
+  .toasts {
+    left: 16px;
+    right: 16px;
+    bottom: calc(var(--tabbar-h) + var(--tabbar-gap) + 12px + env(safe-area-inset-bottom));
+    justify-items: stretch;
+  }
+}

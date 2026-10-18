@@ -1,0 +1,6 @@
+# Format example only. The values are copied from the analyst keys in data/seed/answer_keys.json; they are not partner ratings.
+company,id,country,trl,brl,stage
+Valkama Watercrafts,3274823-2,FI,6-7,3-5,pre-seed to seed
+NanoHalen,3399187-5,FI,4-5,2-3,pre-seed
+Kelluu,2902007-2,FI,high,6-7,Series A
+Norsepower,2506251-5,FI,9,7,unknown

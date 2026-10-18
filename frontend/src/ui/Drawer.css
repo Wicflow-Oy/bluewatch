@@ -1,0 +1,209 @@
+/* Sheets sit below the top bar, so language, alerts, search and the guide stay usable with one open.
+   Spec: TIDEPOOL-SYSTEM.md 2.13 and 4.1. */
+.drawer-root {
+  position: fixed;
+  inset: var(--header-h) 0 0;
+  z-index: var(--z-sheet);
+}
+
+.drawer-scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--scrim);
+  -webkit-backdrop-filter: blur(16px) saturate(1.2);
+  backdrop-filter: blur(16px) saturate(1.2);
+  animation: tp-fade var(--d-theme) var(--ease) both;
+}
+
+.drawer {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: var(--sh-3);
+}
+
+.drawer:focus-visible {
+  outline: none;
+}
+
+.drawer[data-variant="side"] {
+  top: 12px;
+  right: 12px;
+  bottom: 12px;
+  width: min(var(--drawer-w), calc(100vw - 24px));
+  border-radius: var(--r-xl);
+  animation: tp-side-in 520ms var(--ease) both;
+}
+
+.drawer[data-variant="card"] {
+  top: 12px;
+  bottom: 16px;
+  left: max(24px, calc((100vw - var(--page-max)) / 2 + 24px));
+  right: max(24px, calc((100vw - var(--page-max)) / 2 + 24px));
+  border-radius: var(--r-2xl);
+  animation: tp-card-in 520ms var(--ease) both;
+}
+
+.drawer[data-variant="sheet"] {
+  left: 50%;
+  bottom: 16px;
+  width: min(480px, calc(100vw - 24px));
+  max-height: 80dvh;
+  border-radius: var(--r-2xl);
+  transform: translateX(-50%);
+  animation: tp-fade var(--d-base) var(--ease) both;
+}
+
+.drawer-root[data-state="closing"] .drawer {
+  animation: tp-side-out 260ms var(--ease) forwards;
+}
+
+.drawer-root[data-state="closing"] .drawer[data-variant="sheet"] {
+  animation: tp-fade-out 260ms var(--ease) forwards;
+}
+
+.drawer-root[data-state="closing"] .drawer-scrim {
+  animation: tp-fade-out 260ms var(--ease) forwards;
+}
+
+/* A view transition owns the motion. */
+:root[data-vt] .drawer,
+:root[data-vt] .drawer-scrim {
+  animation: none;
+}
+
+/* Panels inside a sheet get the inset look. */
+.drawer .panel {
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+@keyframes tp-side-in {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+}
+
+@keyframes tp-side-out {
+  to {
+    opacity: 0;
+    transform: translateX(16px) scale(0.99);
+  }
+}
+
+@keyframes tp-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(16px) scale(0.985);
+  }
+}
+
+@keyframes tp-fade-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes tp-up-in {
+  from {
+    transform: translateY(100%);
+  }
+}
+
+@keyframes tp-up-out {
+  to {
+    transform: translateY(100%);
+  }
+}
+
+/* Phones: every variant is a bottom sheet with a grab handle. */
+@media (max-width: 719px) {
+  .drawer-root {
+    inset: 0;
+  }
+
+  .drawer,
+  .drawer[data-variant] {
+    top: calc(8px + env(safe-area-inset-top));
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: auto;
+    transform: none;
+    border-radius: var(--r-2xl) var(--r-2xl) 0 0;
+    animation: tp-up-in var(--d-slide) var(--sheet) both;
+  }
+
+  .drawer[data-variant="sheet"] {
+    top: auto;
+    max-height: 88dvh;
+  }
+
+  .drawer-root[data-state="closing"] .drawer,
+  .drawer-root[data-state="closing"] .drawer[data-variant="sheet"] {
+    animation: tp-up-out 320ms var(--sheet) forwards;
+  }
+
+  .drawer::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: 50%;
+    z-index: 2;
+    width: 36px;
+    height: 4px;
+    margin-left: -18px;
+    border-radius: 2px;
+    background: var(--line-3);
+  }
+}
+
+/* The row-to-card morph (lib/motion.ts morph("bw-card", …)). */
+::view-transition-group(bw-card) {
+  animation-duration: 560ms;
+  animation-timing-function: var(--sheet);
+}
+
+::view-transition-old(bw-card) {
+  animation: tp-vt-out 200ms ease-out both;
+}
+
+::view-transition-new(bw-card) {
+  animation: tp-vt-in 380ms 120ms var(--ease) both;
+}
+
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 320ms;
+}
+
+.topbar {
+  view-transition-name: bw-header;
+}
+
+::view-transition-group(bw-header) {
+  animation: none;
+}
+
+::view-transition-old(bw-header) {
+  display: none;
+}
+
+::view-transition-new(bw-header) {
+  animation: none;
+}
+
+@keyframes tp-vt-out {
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes tp-vt-in {
+  from {
+    opacity: 0;
+  }
+}

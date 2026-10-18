@@ -1,0 +1,31 @@
+{
+ "recorded_at": "2026-10-17T17:34:11+00:00",
+ "orgnr": "938525420",
+ "response": {
+  "organisasjonsnummer": "938525420",
+  "navn": "HAVNIO AS",
+  "organisasjonsform": {
+   "_links": {
+    "self": {
+     "href": "https://data.brreg.no/enhetsregisteret/api/organisasjonsformer/AS"
+    }
+   },
+   "beskrivelse": "Aksjeselskap",
+   "kode": "AS"
+  },
+  "naeringskode1": {
+   "beskrivelse": "Dataprogrammeringstjenester",
+   "kode": "62.100"
+  },
+  "stiftelsesdato": "2026-09-16",
+  "registreringsdatoEnhetsregisteret": "2026-09-21",
+  "konkurs": false,
+  "underAvvikling": false,
+  "underTvangsavviklingEllerTvangsopplosning": false,
+  "forretningsadresse": {
+   "kommune": "STAVANGER",
+   "kommunenummer": "1103",
+   "landkode": "NO"
+  }
+ }
+}

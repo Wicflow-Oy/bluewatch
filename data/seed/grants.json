@@ -1,0 +1,1535 @@
+{
+ "verified_at": "2026-10-16",
+ "tiering": "see dossier 9.4 / w1-grant-eligibility.md section 4",
+ "instruments": [
+  {
+   "id": "eic-accelerator",
+   "name": "EIC Accelerator (Open + Challenges)",
+   "funder": "European Innovation Council (EISMEA)",
+   "type": "blended",
+   "status": "open",
+   "deadline": "2026-11-04",
+   "deadline_note": "Full-proposal cut-off; short proposals any time (batched first Tuesday monthly)",
+   "applicant_types": [
+    "sme",
+    "startup",
+    "spin_out",
+    "individual_founding_sme",
+    "small_midcap_equity_only"
+   ],
+   "country_rule": "EU Member State or Horizon associated country; third-country applicants may relocate before step 2",
+   "size_rule": "SME; small mid-caps up to 499 staff (investment only)",
+   "age_rule": null,
+   "trl_min": 6,
+   "trl_max": 8,
+   "consortium_rule": "single applicant",
+   "amount_note": "Grant < EUR 2.5M (24 months) and/or equity EUR 1-10M",
+   "themes": [
+    "ANY"
+   ],
+   "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-accelerator_en",
+   "rule_sources": {
+    "all": "read"
+   }
+  },
+  {
+   "id": "bf-sprint",
+   "name": "Business Finland Sprint grant",
+   "funder": "Business Finland",
+   "type": "grant_de_minimis",
+   "status": "continuous",
+   "deadline": null,
+   "deadline_note": "Continuously open from 1 Sep 2026",
+   "applicant_types": [
+    "finnish_oy"
+   ],
+   "country_rule": "Limited company operating in Finland with Finnish Business ID; Aland-only companies excluded",
+   "size_rule": "< 50 employees and turnover or balance sheet < EUR 10M",
+   "age_rule": "< 5 years with no prior Sprint/Tempo/R&D/YIC/Deep Tech Accelerator funding, or > 5 years with a significant pivot",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "single applicant; committed team >= 2 people working in Finland",
+   "other_hard_rules": [
+    "paid-in cash equity >= EUR 50k",
+    "cash >= EUR 67k (under-5y with advance) or EUR 134k (others)",
+    ">= 2/3 of costs R&D",
+    "not in primary agriculture, fisheries or aquaculture",
+    "de minimis headroom"
+   ],
+   "amount_note": "75% of costs, max EUR 100k (project max ~EUR 133k)",
+   "themes": [
+    "ANY"
+   ],
+   "url": "https://www.businessfinland.fi/en/services/funding/calls/2026/sprint-grant-funding-call/",
+   "rule_sources": {
+    "all": "read"
+   }
+  },
+  {
+   "id": "sbep-jtc4",
+   "name": "Sustainable Blue Economy Partnership (SBEP) joint transnational call",
+   "funder": "SBEP call 4 national funders (no Finnish funder; Sweden: Swedish National Space Agency only) + Horizon Europe co-fund",
+   "type": "partnership_call",
+   "status": "open",
+   "deadline": "2026-11-16",
+   "deadline_note": "Pre-proposal 16 Nov 2026 15:00 CET; full proposal 14 Jun 2027 (SBEP pre-announcement page, read 17 Oct 2026).",
+   "applicant_types": [
+    "any_legal_entity_per_national_funder"
+   ],
+   "country_rule": "Each partner is funded by its own participating national funder. Finland has no funder in call 4: a Finnish-registered firm can join only as a self-funded partner, and self-funded partners do not count toward the minimum consortium. National funders' own eligibility rules apply (company funding is not confirmed for every funder).",
+   "consortium_rule": "Eligible partners from >= 3 participating countries, requesting funding from >= 3 participating funding organisations; >= 2 independent legal entities from 2 EU Member States or Horizon Europe associated countries. Self-funded partners are allowed but do not count toward the minimum.",
+   "themes": [
+    "blue_economy",
+    "blue_economy_transition",
+    "digital_sea_use",
+    "blue_bioresources",
+    "coastal_resilience"
+   ],
+   "url": "https://bluepartnership.eu/funding-opportunity/preannouncement-sustainable-blue-economy-partnerships-fourth-joint",
+   "rule_sources": {
+    "deadline": "read",
+    "consortium_rule": "read",
+    "country_rule": "read",
+    "themes": "read"
+   },
+   "participating_countries": {
+    "BE": "BELSPO, FRS-FNRS, FWO",
+    "BR": "CONFAP",
+    "BG": "MES",
+    "HR": "HRZ",
+    "DK": "Innovation Fund Denmark",
+    "EE": "ETAg; Ministry of Regional Affairs and Agriculture",
+    "FO": "Research Council Faroe Islands",
+    "FR": "ANR",
+    "GE": "SRNSFG",
+    "DE": "BMFTR",
+    "GR": "GSRI",
+    "IE": "Marine Institute; Research Ireland",
+    "IT": "MUR",
+    "LT": "Research Council of Lithuania",
+    "MT": "MCST",
+    "ME": "MESI",
+    "NO": "Research Council of Norway",
+    "PL": "NCBR",
+    "RO": "MCID",
+    "ES": "AEI; CDTI",
+    "SE": "Swedish National Space Agency (only)",
+    "NL": "LVVN/IenW; NWO",
+    "TN": "MHESR",
+    "TR": "TUBITAK",
+    "UA": "MESU",
+    "SK": "SCSTI",
+    "SI": "MVZI",
+    "LV": "listed in the page text, but no funder entry shown: confirm"
+   },
+   "tier_by_registration_country": {
+    "FI": "excluded: no Finnish funder in call 4 (a Finnish firm can only be a self-funded partner); confirm with the funder",
+    "SE": "possible only if the Swedish National Space Agency's rules fit the project (space-related)",
+    "NO": "possible: funder's own eligibility rules apply",
+    "DK": "possible: funder's own eligibility rules apply",
+    "EE": "possible: funder's own eligibility rules apply",
+    "LT": "possible: funder's own eligibility rules apply",
+    "LV": "possible?: listed as participating but no funder entry on the page; confirm"
+   },
+   "upgrade_path_note": "For a Finnish firm there is no upgrade path in call 4 (adding partners does not create a Finnish funder). For Norwegian, Danish, Estonian or Lithuanian firms: two partners from other participating countries with funders."
+  },
+  {
+   "id": "water4all-2026",
+   "name": "Water4All 2026 Joint Transnational Call (sustainable water management)",
+   "funder": "Water4All partnership",
+   "type": "partnership_call",
+   "status": "open",
+   "deadline": "2026-11-10",
+   "consortium_rule": "transnational consortium",
+   "themes": [
+    "water"
+   ],
+   "url": "SEDIA identifier HORIZON-CL6-2021-CLIMATE-01-02",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "inferred"
+   }
+  },
+  {
+   "id": "eurostars-3",
+   "name": "Eurostars-3 (European Partnership on Innovative SMEs) joint call",
+   "funder": "Eureka / Horizon Europe",
+   "type": "partnership_call",
+   "status": "open",
+   "deadline": "2027-03-04",
+   "consortium_rule": "SME-led (innovative SME from a Eurostars country); >= 2 independent entities in >= 2 Eurostars countries, at least one an EU or Horizon Europe associated country; SMEs from Eurostars countries >= 50% of total project cost excluding subcontracting; no participant or country > 70% of budget; duration <= 36 months; civil only",
+   "themes": [
+    "ANY_CIVIL"
+   ],
+   "amount_note": "Finnish funding rate not stated on the Eurostars page; rates and eligible costs are set by national funders (Finland's rate unknown here)",
+   "url": "https://www.eurekanetwork.org/programmes/eurostars/",
+   "rule_sources": {
+    "deadline": "read",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "eic-pathfinder-challenges-2026",
+   "name": "EIC Pathfinder Challenges 2026",
+   "funder": "EIC",
+   "type": "grant",
+   "status": "open",
+   "deadline": "2026-10-28",
+   "trl_min": 1,
+   "trl_max": 4,
+   "consortium_rule": "single entity or consortium (Challenges)",
+   "themes": [
+    "advanced_materials_energy_harvesting",
+    "biotech_healthy_ageing",
+    "cognitive_ai"
+   ],
+   "amount_note": "Up to EUR 4M",
+   "url": "https://eic.ec.europa.eu/eic-funding-opportunities/eic-pathfinder_en",
+   "rule_sources": {
+    "all": "read",
+    "themes": "snippet"
+   },
+   "notes": "Not ocean topics in 2026; shows as theme-EXCLUDED for most blue startups"
+  },
+  {
+   "id": "undp-oic-5",
+   "name": "UNDP Ocean Innovation Challenge, 5th call",
+   "funder": "UNDP",
+   "type": "grant_contract",
+   "status": "open",
+   "deadline": "2026-11-15",
+   "applicant_types": [
+    "private_sector_organisation",
+    "innovator"
+   ],
+   "country_rule": "Priority for innovations benefiting Bangladesh, Indonesia, Philippines, Thailand or Viet Nam (women-led and youth-led preferred). Whether implementation must be in one of these countries is not confirmed.",
+   "amount_note": "Up to USD 100k each, up to 10 innovators",
+   "themes": [
+    "marine_pollution",
+    "ecosystem_restoration",
+    "sustainable_blue_economy"
+   ],
+   "url": "https://www.undp.org/press-releases/innovators-wanted-undp-launches-usd-1-million-global-challenge-healthier-ocean",
+   "rule_sources": {
+    "all": "read",
+    "country_rule": "snippet"
+   }
+  },
+  {
+   "id": "blueinvest-ira",
+   "name": "BlueInvest Investment Readiness Assistance",
+   "funder": "European Commission (EMFAF)",
+   "type": "coaching",
+   "status": "open_no_date",
+   "deadline": null,
+   "country_rule": "EU-headquartered",
+   "trl_min": 4,
+   "other_hard_rules": [
+    "innovative sustainable blue-economy product",
+    "seeking investment",
+    "prior-beneficiary status not stated on the page (unverified rule removed from hard rules)"
+   ],
+   "amount_note": "Free coaching",
+   "themes": [
+    "blue_economy"
+   ],
+   "url": "https://blueinvest-community.converve.io/investment_readiness_assistance.html",
+   "rule_sources": {
+    "all": "read"
+   }
+  },
+  {
+   "id": "noca-2027",
+   "name": "NOCA, Nordic Ocean Cluster Accelerator (2027 Finland cohort, with A'Pelago)",
+   "funder": "Nordic Innovation + ocean clusters",
+   "type": "accelerator",
+   "status": "open_unverified",
+   "deadline": null,
+   "deadline_note": "Checked 17 Oct 2026: the Nordic Innovation NOCA page gives no 2027 cohort deadline, open date, eligibility or cost. apelago.fi/noca/ gives no deadline or open date and says first programme details will be shared at the A'Pelago Initiative on 20 August. The A'Pelago homepage lists NOCA among 2027 programmes to apply to. A deadline of 30 Nov 2026 and a Helsinki on-site of 8-11 Feb 2027 appear only in an unofficial listing.",
+   "applicant_types": [
+    "sme"
+   ],
+   "country_rule": "Nordic region; no specific country requirement stated",
+   "themes": [
+    "maritime",
+    "aquaculture",
+    "ocean_energy",
+    "blue_bioeconomy",
+    "marine_tech",
+    "ocean_digitalisation"
+   ],
+   "url": "https://www.nordicinnovation.org/programs/nordic-ocean-cluster-accelerator-noca",
+   "rule_sources": {
+    "programme": "read",
+    "deadline": "snippet",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://www.apelago.fi/noca/"
+   ]
+  },
+  {
+   "id": "helsinki-blue-economy-studio-2027",
+   "name": "Helsinki Blue Economy Studio (A'Pelago + City of Helsinki)",
+   "funder": "City of Helsinki / A'Pelago",
+   "type": "accelerator",
+   "status": "open",
+   "deadline": "2026-11-30",
+   "deadline_note": "A'Pelago page (checked 17 Oct 2026): applications open until 30 Nov 2026. Session 1 in Feb 2027; closing Demo Day Aug 2027. The page gives conflicting durations (6-month studio vs 5-month growth programme). No equity investment; no participation fee stated. Early-stage teams of 1-2 founders, ideally with an MVP in market; open worldwide, with on-site Helsinki bootcamps required. Outside the 19 listed ids; included because verified.",
+   "themes": [
+    "marine_tech",
+    "water_tech",
+    "maritime_ports",
+    "marine_energy",
+    "marine_resources",
+    "marine_data"
+   ],
+   "url": "https://www.hel.fi/en/news/helsinki-launches-an-international-growth-programme-for-blue-economy-ventures",
+   "rule_sources": {
+    "all": "read",
+    "deadline": "read",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://www.apelago.fi/helsinki-blue-economy-studio/"
+   ]
+  },
+  {
+   "id": "apelago-2027-programmes",
+   "name": "A'Pelago 2027 accelerators: Northern Blue, NOCA, Lab2Impact, Blue Economy Studio",
+   "funder": "A'Pelago",
+   "type": "accelerator",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "apelago.fi lists 2027 programmes (Northern Blue, NOCA, Lab2Impact, Blue Economy Studio) with apply links but no dates, eligibility or funding amounts. The 16 Oct 2026 date was not found on the page.",
+   "notes": "Lab2Impact targets researchers becoming founders (pre-startup)",
+   "url": "https://www.apelago.fi/",
+   "rule_sources": {
+    "all": "read"
+   }
+  },
+  {
+   "id": "finnvera-micro-growth-loan",
+   "name": "Finnvera loan for micro-enterprise growth",
+   "funder": "Finnvera",
+   "type": "loan",
+   "status": "closed_window",
+   "deadline": null,
+   "deadline_note": "2026 window 1 Feb - 31 Jul; reopening unknown",
+   "size_rule": "< 10 staff; turnover or balance <= EUR 2M",
+   "other_hard_rules": [
+    "registered in Finnish Trade Register",
+    "bank refusal in last 6 months",
+    "no payment defaults"
+   ],
+   "amount_note": "EUR 20-50k; Euribor + 4.5%",
+   "url": "https://www.finnvera.fi/eng/financing/loans/loan-for-micro-enterprise-growth",
+   "rule_sources": {
+    "rules": "read",
+    "window": "snippet"
+   }
+  },
+  {
+   "id": "ely-development-grant",
+   "name": "Elinvoimakeskus (ex-ELY) business development grant",
+   "funder": "Finnish regional elinvoimakeskus",
+   "type": "grant_de_minimis",
+   "status": "rolling",
+   "applicant_types": [
+    "sme"
+   ],
+   "amount_note": "Up to about 50% of eligible costs",
+   "url": "https://www.elinvoimakeskus.fi/",
+   "rule_sources": {
+    "all": "snippet"
+   }
+  },
+  {
+   "id": "innovation-fund-small-scale",
+   "name": "EU Innovation Fund small-scale call (IF26)",
+   "funder": "European Commission (CINEA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": null,
+   "deadline_note": "No Innovation Fund call is open (page checked 17 Oct 2026). Five calls are expected to open Dec 2026, including a new IF26 SME call. No deadlines, eligibility or grant rates stated. Small-scale calls ran 2020-2023. The Mar and Sep 2027 deadlines are unverified.",
+   "themes": [
+    "net_zero_technologies"
+   ],
+   "url": "https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund_en",
+   "rule_sources": {
+    "all": "snippet",
+    "status": "read",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://climate.ec.europa.eu/eu-action/eu-funding-climate-action/innovation-fund_en"
+   ]
+  },
+  {
+   "id": "life-2027",
+   "name": "LIFE programme 2027 calls (SNaP, CET, SAP/TA)",
+   "funder": "European Commission (CINEA)",
+   "type": "grant",
+   "status": "mixed",
+   "deadline": null,
+   "deadline_note": "The LIFE programme page (checked 17 Oct 2026) states no 2027 call dates, open-call deadlines or company eligibility. A news item dated 14 Oct 2026 covers the 2026 call.",
+   "themes": [
+    "nature",
+    "climate",
+    "clean_energy_transition"
+   ],
+   "url": "https://cinea.ec.europa.eu/programmes/life_en",
+   "rule_sources": {
+    "all": "snippet",
+    "deadline": "read",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://cinea.ec.europa.eu/programmes/life_en"
+   ]
+  },
+  {
+   "id": "erc-poc",
+   "name": "ERC Proof of Concept",
+   "funder": "European Research Council",
+   "type": "grant_lump_sum",
+   "status": "unknown_2027",
+   "applicant_types": [
+    "erc_pi_host_institution"
+   ],
+   "other_hard_rules": [
+    "PI holds a running ERC Starting, Consolidator, Advanced or Synergy main grant, or the main grant ended after 1 Jan 2025; one application per PI per call; maximum three PoC grants per main grant (six per Synergy project); host must be in an EU Member State or associated country and engage the PI for the project duration; private for-profit hosts welcome"
+   ],
+   "amount_note": "EUR 150,000 lump sum for 18 months (Work Programme 2026)",
+   "themes": [
+    "ANY"
+   ],
+   "url": "https://erc.europa.eu/apply-grant/proof-concept",
+   "rule_sources": {
+    "all": "read",
+    "amount_note": "read"
+   },
+   "deadline_note": "Next call dates and 2027 deadlines not published on the ERC PoC page (checked 16 Oct 2026); page states the scheme continues under Work Programme 2026",
+   "w11_sources": [
+    "https://erc.europa.eu/apply-grant/proof-concept"
+   ]
+  },
+  {
+   "id": "bf-r2b",
+   "name": "Business Finland Research to Business (R2B)",
+   "funder": "Business Finland",
+   "type": "grant",
+   "status": "closed_next_unknown",
+   "applicant_types": [
+    "research_organisation"
+   ],
+   "amount_note": "80% of eligible costs as a grant (call 2/2026); typical total project costs EUR 400,000-700,000; call budget EUR 7.5 million",
+   "notes": "The researcher-to-company route; pairs with A'Pelago Lab2Impact",
+   "url": "https://www.businessfinland.fi/en/services/funding/calls/2026/r2b-funding-call-2-2026/",
+   "rule_sources": {
+    "all": "read",
+    "deadline_note": "read"
+   },
+   "deadline_note": "Call 2/2026 closed 16 Sep 2026 23:59; research organisations with a Finnish business ID only; 80% grant; decisions Jan 2027; next call not stated (checked 17 Oct 2026)",
+   "w11_sources": [
+    "https://www.businessfinland.fi/en/services/funding/calls/2026/r2b-funding-call-2-2026/"
+   ]
+  },
+  {
+   "id": "interreg-bsr",
+   "name": "Interreg Baltic Sea Region 2021-2027",
+   "funder": "Interreg BSR",
+   "type": "grant_partnership",
+   "status": "no_open_call",
+   "consortium_rule": ">= 3 partners from 3 programme countries",
+   "themes": [
+    "ANY_STRATEGIC"
+   ],
+   "url": "https://interreg-baltic.eu/",
+   "rule_sources": {
+    "all": "read",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "innowwide-call-5",
+   "name": "Innowwide Call 5 (European Partnership on Innovative SMEs)",
+   "funder": "Eureka / Horizon Europe (Innovative SMEs partnership)",
+   "type": "partnership_call",
+   "status": "open",
+   "deadline": "2026-12-01",
+   "deadline_note": "Opened 1 Oct 2026; deadline 1 Dec 2026 (SEDIA competitive call 44087099)",
+   "applicant_types": [
+    "sme"
+   ],
+   "notes": "Market-feasibility projects for SMEs entering international markets (programme description to verify)",
+   "themes": [
+    "internationalisation",
+    "ANY"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/44087099",
+   "rule_sources": {
+    "deadline": "sedia",
+    "notes": "inferred"
+   }
+  },
+  {
+   "id": "vinnova-innovative-startups-2026",
+   "name": "Vinnova Innovative Startups 2026",
+   "funder": "Vinnova (SE)",
+   "type": "grant",
+   "status": "open",
+   "deadline": "2027-01-12",
+   "deadline_note": "Opens 12 Oct 2026; closes 12 Jan 2027 at 14:00 (per vinnova.se call page)",
+   "applicant_types": [
+    "swedish_aktiebolag"
+   ],
+   "country_rule": "Swedish limited company operating in Sweden; if part of a group, the whole group must meet the listing and size rules",
+   "size_rule": "Maximum 10 FTE; net turnover or balance sheet total of at most SEK 10M in last financial year (one may exceed SEK 10M, not both)",
+   "age_rule": "Not more than 10 years old at Vinnova decision date 23 Mar 2027; age counted from Swedish company registration",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown (page does not state a consortium rule)",
+   "other_hard_rules": [
+    "company not listed (nor group)",
+    "no profit distributed in last financial year"
+   ],
+   "amount_note": "Up to SEK 500,000; Vinnova can finance up to 100% of project costs (no co-funding required)",
+   "themes": [
+    "knowledge-based business ideas (ANY)"
+   ],
+   "url": "https://www.vinnova.se/en/calls-for-proposals/innovative-startups/innovative-startups-2026",
+   "rule_sources": {
+    "deadline": "read",
+    "applicant_types": "read",
+    "size_rule": "read",
+    "age_rule": "read",
+    "amount_note": "read",
+    "consortium_rule": "unverified"
+   }
+  },
+  {
+   "id": "energimyndigheten-swedish-energy-agency",
+   "name": "Swedish Energy Agency (Energimyndigheten) company calls",
+   "funder": "Swedish Energy Agency (SE)",
+   "type": "grant",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "No open company call confirmed. Funding page returned 404 and the navigation was checked (16 Oct 2026).",
+   "applicant_types": "unknown",
+   "country_rule": "Sweden",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "energy (maritime or offshore relevance not confirmed)"
+   ],
+   "url": "https://www.energimyndigheten.se/en/funding/",
+   "rule_sources": {
+    "all": "unverified",
+    "country_rule": "inferred"
+   }
+  },
+  {
+   "id": "innovation-norway-miljoteknologi",
+   "name": "Innovation Norway environmental technology scheme (Tilskudd til miljoteknologi)",
+   "funder": "Innovation Norway (NO)",
+   "type": "grant",
+   "status": "continuous",
+   "deadline": null,
+   "deadline_note": "Rolling application deadline; not confirmed on the official Innovation Norway page",
+   "applicant_types": [
+    "norwegian_company"
+   ],
+   "country_rule": "Norwegian companies",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": 5,
+   "trl_max": 7,
+   "consortium_rule": "unknown",
+   "amount_note": "Not published; paid in three phases (start-up, mid-term, final settlement)",
+   "themes": [
+    "environmental technology in pilot or demonstration phase with measurable environmental effects"
+   ],
+   "url": "https://www.pnoinnovation.com/funding/environmental-technology-scheme-tilskudd-til-miljoteknologi/",
+   "rule_sources": {
+    "status": "snippet",
+    "deadline": "snippet",
+    "trl_min": "snippet",
+    "trl_max": "snippet",
+    "amount_note": "unverified",
+    "country_rule": "snippet"
+   },
+   "notes": "The 15 May deadline in a 2017 announcement is outdated and was not used."
+  },
+  {
+   "id": "rcn-innovation-project-industrial-energy-transport-2026",
+   "name": "Research Council of Norway: Innovation Project for the Industrial Sector: Energy and transport 2026",
+   "funder": "Research Council of Norway (NO)",
+   "type": "grant",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "Open-ended; processed on an ongoing basis until funds run out",
+   "applicant_types": [
+    "norwegian_registered_business_enterprise"
+   ],
+   "country_rule": "Project owner registered in the Norwegian Register of Business Enterprises with economic activity in Norway",
+   "size_rule": "unknown as eligibility (company size affects funding rate)",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "At least one Norwegian company partner, or procures commissioned research from at least one R&D provider",
+   "amount_note": "NOK 1,000,000-20,000,000 per project (per-project cap NOK 10M for transport, NOK 20M other themes); up to 50% of company project costs (rate depends on IF or EU category and company size)",
+   "themes": [
+    "energy",
+    "transport"
+   ],
+   "url": "https://www.forskningsradet.no/en/call-for-proposals/2026/innovation-project-in-the-industrial-sector-energy-and-transport-2026",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "read",
+    "applicant_types": "read",
+    "country_rule": "read",
+    "consortium_rule": "read",
+    "amount_note": "read",
+    "themes": "read"
+   },
+   "notes": "Not ocean-specific. Listed for completeness as a Norwegian industrial innovation route."
+  },
+  {
+   "id": "rcn-innovation-project-seafood-industry-2026",
+   "name": "Research Council of Norway: Innovation Projects for the Industrial Sector: The Seafood Industry 2026",
+   "funder": "Research Council of Norway (NO)",
+   "type": "grant",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "Open-ended; listed as 'Apply now' on the Research Council call list (checked 16 Oct 2026)",
+   "applicant_types": "unknown (businesses in the seafood industry, per call title)",
+   "country_rule": "Norway",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "seafood industry innovation"
+   ],
+   "url": "https://www.forskningsradet.no/en/call-for-proposals/",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "read",
+    "themes": "read",
+    "applicant_types": "snippet",
+    "amount_note": "unverified",
+    "country_rule": "inferred"
+   },
+   "notes": "Page says the innovation must be within the seafood industry. Company-stage, consortium and funding rules were not stated on the list page; the full call page was not reached."
+  },
+  {
+   "id": "enova-business-programmes",
+   "name": "Enova business programmes (NO)",
+   "funder": "Enova (NO)",
+   "type": "grant",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "Business page reached 17 Oct 2026. It lists sector pages (industry, maritime transport, land transport, buildings, energy system) and an applicant information page. No named programmes, deadlines, eligibility or rates on the page.",
+   "applicant_types": "unknown",
+   "country_rule": "Norway",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "energy and climate (maritime and ocean programmes not confirmed)"
+   ],
+   "url": "https://www.enova.no/nb/bedrift",
+   "rule_sources": {
+    "all": "unverified",
+    "deadline_note": "read",
+    "country_rule": "inferred"
+   },
+   "w11_sources": [
+    "https://www.enova.no/nb/bedrift"
+   ]
+  },
+  {
+   "id": "innovation-fund-denmark-innobooster",
+   "name": "Innovation Fund Denmark: InnoBooster",
+   "funder": "Innovation Fund Denmark (DK)",
+   "type": "grant",
+   "status": "closed_next_unknown",
+   "deadline": null,
+   "deadline_note": "Page checked 17 Oct 2026 says there are currently no calls available. Pool 3 applications were accepted 27 May to 6 Aug 2026; Pool 4 applications 20 Aug to 15 Oct 2026. Both are closed. Next pool dates not stated.",
+   "applicant_types": [
+    "danish_company_registered_with_CVR_number",
+    "sme_EU_definition"
+   ],
+   "country_rule": "Denmark (per programme description)",
+   "size_rule": "EU SME definition",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Up to 35% co-financing of project costs; maximum grant DKK 5M; minimum request DKK 200k; projects up to 2 years",
+   "themes": [
+    "green technology and innovation",
+    "life science",
+    "health and welfare technology",
+    "critical and digital technologies",
+    "defence and security (application section)"
+   ],
+   "url": "https://danmarksinnovationsfond.dk/en/programmes/innobooster/",
+   "rule_sources": {
+    "applicant_types": "read",
+    "themes": "read",
+    "status": "read",
+    "amount_note": "read",
+    "deadline_note": "read",
+    "size_rule": "read",
+    "other_hard_rules": "read"
+   },
+   "w11_sources": [
+    "https://danmarksinnovationsfond.dk/en/programmes/innobooster/"
+   ],
+   "other_hard_rules": [
+    "financial test: at least DKK 100,000 risk capital or development grants in past 3 years, or gross profit of at least DKK 250,000 in one of the past 3 years"
+   ]
+  },
+  {
+   "id": "innovation-fund-denmark-grand-solutions",
+   "name": "Innovation Fund Denmark: Grand Solutions",
+   "funder": "Innovation Fund Denmark (DK)",
+   "type": "grant_partnership",
+   "status": "closed_phase1_concluded",
+   "deadline": null,
+   "deadline_note": "Phase 1 concluded and 125 projects were invited to Phase 2 (news item on the homepage). No open Phase 1 call found.",
+   "applicant_types": "unknown",
+   "country_rule": "Denmark",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown (partnership projects per programme description)",
+   "amount_note": "unknown",
+   "themes": [
+    "societal challenges (research and innovation partnerships)"
+   ],
+   "url": "https://danmarksinnovationsfond.dk/en/programmes/grand-solutions/",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "unverified",
+    "amount_note": "unverified",
+    "country_rule": "inferred"
+   }
+  },
+  {
+   "id": "eudp-denmark",
+   "name": "EUDP (Energy Technology Development and Demonstration Programme, DK)",
+   "funder": "Danish Energy Agency (EUDP)",
+   "type": "grant",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "First 2026 general round closed 25 Feb 2026 (per a press item). No second 2026 round found. CETPartnership JC2026 Danish share (max DKK 10M) deadline not found.",
+   "applicant_types": "unknown",
+   "country_rule": "Denmark (Danish experimental development and demonstration)",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Round 1 general pool DKK 260M; CETPartnership Danish share max DKK 10M",
+   "themes": [
+    "energy technology",
+    "smart energy and digitalisation pool",
+    "pyrolysis pool (round 1)"
+   ],
+   "url": "https://eudp.dk/",
+   "rule_sources": {
+    "status": "snippet",
+    "deadline": "snippet",
+    "amount_note": "snippet",
+    "applicant_types": "unverified"
+   },
+   "notes": "Sources disagree on round 1 totals (82 projects and DKK 804M in one press item; 79 applications and DKK 772M on eudp.dk). Check the call page before quoting figures."
+  },
+  {
+   "id": "enterprise-estonia-start-up-grant",
+   "name": "Enterprise Estonia (EIS) start-up grant",
+   "funder": "Enterprise Estonia (EIS)",
+   "type": "grant_de_minimis",
+   "status": "closed",
+   "deadline": null,
+   "deadline_note": "Acceptance ended 14 Aug 2026 at 09:00 after the budget was committed on 11 Aug 2026. Will reopen when resources become available; no date given.",
+   "applicant_types": [
+    "estonian_starting_entrepreneur"
+   ],
+   "country_rule": "Estonia; mandatory pre-consultation with a regional development centre before applying",
+   "size_rule": "Fewer than 10 FTE employees; turnover of EUR 40,000 or less in previous financial year",
+   "age_rule": "Company up to 3 years old",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "80% support rate (20% self-financing); maximum EUR 20,000 per start-up (standard unit cost EUR 25,000); 24-month project period",
+   "themes": [
+    "any start-up business (general)"
+   ],
+   "url": "https://eis.ee/en/services/start-up-grant/",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "read",
+    "applicant_types": "read",
+    "size_rule": "read",
+    "age_rule": "read",
+    "amount_note": "read",
+    "consortium_rule": "unverified"
+   },
+   "notes": "Growth test: turnover of at least EUR 80,000 in the final project year (Tallinn and Tartu) or EUR 40,000 elsewhere in Estonia. Must create at least one FTE job at or above minimum wage."
+  },
+  {
+   "id": "enterprise-estonia-deep-tech-grant",
+   "name": "Enterprise Estonia: grant for deep tech start-up business development projects",
+   "funder": "Enterprise Estonia (EIS)",
+   "type": "grant",
+   "status": "coming",
+   "deadline": null,
+   "deadline_note": "Round in preparation; applications are planned to open in Q4 2026 (not confirmed on the official page)",
+   "applicant_types": [
+    "micro_or_small_enterprise_registered_in_estonia"
+   ],
+   "country_rule": "Estonia",
+   "size_rule": "Micro or small enterprise",
+   "age_rule": "Operating for at least 7 years",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Maximum EUR 100,000; at least 25% self-financing",
+   "themes": [
+    "deep tech"
+   ],
+   "url": "https://eis.ee/en/services/grant-for-deep-tech-start-up-business-development-projects/",
+   "rule_sources": {
+    "all": "snippet"
+   },
+   "notes": "The 7-year operating requirement does not fit a typical startup; confirm on the EIS page before use."
+  },
+  {
+   "id": "liaa-green-business-innovation-latvia",
+   "name": "LIAA Green Business and Innovation (Latvia, Norway grants)",
+   "funder": "Latvian Investment and Development Agency (LIAA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": null,
+   "deadline_note": "LIAA plans three calls in 2027; dates not given",
+   "applicant_types": [
+    "entrepreneurs"
+   ],
+   "country_rule": "Latvia; page places the scheme in the Liepaja Special Economic Zone context (scope not confirmed)",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Grants EUR 50,000 to about EUR 3M (upper bound partly cut off on the page); programme total EUR 32.54M",
+   "themes": [
+    "green and digital innovation",
+    "new products and technologies",
+    "business competitiveness",
+    "remediation of contaminated sites"
+   ],
+   "url": "https://www.liaa.gov.lv/en",
+   "rule_sources": {
+    "status": "read",
+    "amount_note": "snippet",
+    "themes": "read",
+    "deadline": "read",
+    "applicant_types": "read"
+   },
+   "notes": "Blue-economy or marine focus not stated."
+  },
+  {
+   "id": "lithuania-innovation-agency",
+   "name": "Lithuanian Innovation Agency: funding services",
+   "funder": "Innovation Agency (Inovacijų agentūra, LT)",
+   "type": "grant",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "The services page lists open-ended advisory services only (StartUp Lithuania, consultations, B2Lithuania and others). No funding call with dates found. Innovation Vouchers, Eureka and blue-economy calls did not appear (16 Oct 2026).",
+   "applicant_types": "unknown",
+   "country_rule": "Lithuania",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "business start-up support"
+   ],
+   "url": "https://www.inovacijuagentura.lt/en",
+   "rule_sources": {
+    "all": "unverified"
+   }
+  },
+  {
+   "id": "ilmastorahasto-company-loan",
+   "name": "Finnish Climate Fund (Ilmastorahasto) company loan",
+   "funder": "Ilmastorahasto (FI)",
+   "type": "loan",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "Listed as available; no deadline stated (checked 16 Oct 2026). Page offers direct application or comparison via partner EMI.",
+   "applicant_types": [
+    "limited_company",
+    "limited_partnership",
+    "sole_trader",
+    "general_partnership"
+   ],
+   "country_rule": "Finland",
+   "size_rule": "unknown",
+   "age_rule": "Assessed case by case",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "single company loan",
+   "amount_note": "Loans EUR 1,000 to EUR 350,000; repayment 1 month to 4 years",
+   "themes": [
+    "climate solutions (not stated on the fetched page)"
+   ],
+   "url": "https://ilmastorahasto.fi/en/",
+   "rule_sources": {
+    "status": "read",
+    "amount_note": "read",
+    "applicant_types": "read",
+    "deadline": "read",
+    "themes": "unverified",
+    "country_rule": "inferred"
+   },
+   "notes": "Page does not address startups specifically. No grant or equity programme for startups was found on the fetched page."
+  },
+  {
+   "id": "nordic-innovation-scaleups-call",
+   "name": "Nordic Innovation: Mobilising Capital for Nordic Growth and Scale-ups",
+   "funder": "Nordic Innovation",
+   "type": "call_for_proposals",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "Listed as open on the Nordic Innovation homepage; deadline not shown on the fetched page",
+   "applicant_types": "unknown",
+   "country_rule": "Nordic region",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "scale-up growth and capital mobilisation"
+   ],
+   "url": "https://www.nordicinnovation.org/",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "unverified",
+    "applicant_types": "unverified",
+    "amount_note": "unverified",
+    "country_rule": "inferred"
+   },
+   "notes": "The other open calls on the page (quantum research, RAMP preparatory projects) are not ocean-related."
+  },
+  {
+   "id": "business-finland-rdi-loan",
+   "name": "Business Finland R&D (RDI) loans",
+   "funder": "Business Finland",
+   "type": "loan",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "The RDI loan page returned 404 (16 Oct 2026). The Sprint page does not mention loans.",
+   "applicant_types": "unknown",
+   "country_rule": "Finland",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "research and development"
+   ],
+   "url": "https://www.businessfinland.fi/",
+   "rule_sources": {
+    "all": "unverified",
+    "country_rule": "inferred"
+   },
+   "notes": "Business Finland funding for EU partnership consortia was also not verified."
+  },
+  {
+   "id": "apelago-northern-blue-2027",
+   "name": "A'Pelago Northern Blue 2027 (accelerator)",
+   "funder": "A'Pelago (FI)",
+   "type": "accelerator",
+   "status": "open",
+   "deadline": null,
+   "deadline_note": "The page states that applications for A'Pelago Northern Blue 2027 are open. No closing date stated (checked 17 Oct 2026). The Northern Blue Tour runs from April 2027 and culminates at the A'Pelago Initiative in Turku, with Investor Day on 18-19 Aug 2027.",
+   "applicant_types": "teams and ventures aiming to scale in blue-economy sectors (ocean tech, aquaculture, water treatment, biotech, maritime, food, energy, coastal solutions)",
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Equity-free support programme; no fee or funding amount stated",
+   "themes": [
+    "blue economy (programme focus not stated)"
+   ],
+   "url": "https://www.apelago.fi/apelago-accelerator-programs/",
+   "rule_sources": {
+    "status": "read",
+    "deadline": "unverified",
+    "amount_note": "read",
+    "deadline_note": "read",
+    "applicant_types": "read"
+   },
+   "w11_sources": [
+    "https://www.apelago.fi/apelago-northern-blue/"
+   ]
+  },
+  {
+   "id": "apelago-lab2impact-2027",
+   "name": "A'Pelago Lab2Impact 2027",
+   "funder": "A'Pelago (FI)",
+   "type": "accelerator",
+   "status": "tba",
+   "deadline": null,
+   "deadline_note": "apelago.fi/laboff/ (checked 17 Oct 2026) says 'Lab2Impact 2027 - TBA' and that more info is coming later. No deadline, cost or country rule stated. The apelago.fi homepage lists Lab2Impact among 2027 programmes to apply to; this conflicts with TBA and needs confirmation.",
+   "applicant_types": [
+    "researchers_becoming_founders"
+   ],
+   "country_rule": "unknown (2026 cohort described as Finnish)",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "research commercialisation"
+   ],
+   "url": "https://www.apelago.fi/apelago-accelerator-programs/",
+   "rule_sources": {
+    "applicant_types": "read",
+    "status": "read",
+    "deadline": "unverified",
+    "deadline_note": "read"
+   },
+   "notes": "Pairs with the BF R2B research-to-business route. Not listed in the apelago 2027 list on the page.",
+   "w11_sources": [
+    "https://www.apelago.fi/laboff/"
+   ]
+  },
+  {
+   "id": "ocean-impact-organisation",
+   "name": "Ocean Impact Organisation (SE) accelerator",
+   "funder": "Ocean Impact Organisation",
+   "type": "accelerator",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "Site returned HTTP 404 for the home page and /accelerator (checked 17 Oct 2026). No dates, eligibility or terms verified.",
+   "applicant_types": "unknown",
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "ocean"
+   ],
+   "url": "https://www.oceanimpact.org/",
+   "rule_sources": {
+    "all": "unverified",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://www.oceanimpact.org/"
+   ]
+  },
+  {
+   "id": "katapult-ocean-accelerator",
+   "name": "Katapult Ocean Accelerator",
+   "funder": "Katapult Ocean",
+   "type": "accelerator",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "The Katapult Ocean page (checked 17 Oct 2026) gives no application dates, open status, eligibility or investment terms. It invites contact by email or LinkedIn. Aggregator claims (rolling, EUR 150k-500k, 90 days) remain unverified.",
+   "applicant_types": [
+    "ocean_startups_seeking_investment (per Katapult page)"
+   ],
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "Aggregator figures only: EUR 150,000-500,000 investment and a 90-day programme (unverified)",
+   "themes": [
+    "transportation",
+    "circularity",
+    "ocean data",
+    "energy",
+    "food and water"
+   ],
+   "url": "https://katapult.vc/ocean/ocean-accelerator/",
+   "rule_sources": {
+    "themes": "read",
+    "status": "unverified",
+    "deadline": "unverified",
+    "amount_note": "snippet",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://katapult.vc/ocean/ocean-accelerator/"
+   ]
+  },
+  {
+   "id": "blueinvest-day-2027",
+   "name": "BlueInvest Day 2027",
+   "funder": "European Commission (BlueInvest)",
+   "type": "event",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "The BlueInvest community site (checked 17 Oct 2026) lists no events with dates and links only to BlueInvest Day 2023-2026 pages. No 2027 date, location or registration found.",
+   "applicant_types": "unknown",
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "blue economy investment"
+   ],
+   "url": "https://blueinvest-community.converve.io/",
+   "rule_sources": {
+    "all": "unverified",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://blueinvest-community.converve.io/"
+   ]
+  },
+  {
+   "id": "ocean-exchange-2027",
+   "name": "Ocean Exchange 2027",
+   "funder": "Marine Technology Society (MTS), Ocean Exchange programme",
+   "type": "event",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "oceanexchange.org (checked 17 Oct 2026) lists only the 2026 event, 25-27 Oct 2026 in Fort Lauderdale. No 2027 dates, location or registration found.",
+   "applicant_types": "unknown",
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "ocean"
+   ],
+   "url": "https://www.oceanexchange.org/",
+   "rule_sources": {
+    "all": "unverified",
+    "url": "read",
+    "funder": "read",
+    "deadline_note": "read"
+   },
+   "w11_sources": [
+    "https://www.oceanexchange.org/"
+   ]
+  },
+  {
+   "id": "one-thousand-ocean-startups",
+   "name": "1000 Ocean Startups (member accelerators)",
+   "funder": "1000 Ocean Startups coalition",
+   "type": "coalition",
+   "status": "unknown",
+   "deadline": null,
+   "deadline_note": "Site unreachable (DNS failure, 16 Oct 2026). Open member accelerator calls not verified. The Helsinki Blue Economy Studio page cites membership in the coalition.",
+   "applicant_types": "unknown",
+   "country_rule": "unknown",
+   "size_rule": "unknown",
+   "age_rule": "unknown",
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "unknown",
+   "amount_note": "unknown",
+   "themes": [
+    "ocean"
+   ],
+   "url": "https://1000oceanstartups.com/",
+   "rule_sources": {
+    "all": "unverified"
+   }
+  },
+  {
+   "id": "emso-physical-access-2026",
+   "name": "EMSO ERIC Physical Access 2026",
+   "funder": "EMSO ERIC",
+   "type": "access_programme",
+   "status": "open",
+   "deadline": "2026-10-31",
+   "deadline_note": "Six 2026 cut-offs (28 Feb, 30 Apr, 30 Jun, 31 Aug, 31 Oct, 31 Dec); next 31 Oct, then 31 Dec. Not every facility takes every cut-off. Send a letter of intent first; the facility manager's acknowledgement is needed before a cut-off.",
+   "applicant_types": [
+    "research_org",
+    "university",
+    "sme",
+    "large_company",
+    "individual_researcher"
+   ],
+   "country_rule": "No restriction on the user's country of origin",
+   "size_rule": null,
+   "age_rule": null,
+   "trl_min": null,
+   "trl_max": null,
+   "consortium_rule": "single applicant or team",
+   "amount_note": "Free access units at an EMSO sea observatory, plus up to EUR 15,000 direct funding per proposal (up to EUR 4,000 of it for travel). EUR 90,000 total direct funding for 2026.",
+   "themes": [
+    "ocean_observation",
+    "marine_sensors",
+    "blue_economy"
+   ],
+   "use_as": "a fundable 'next proof' step for sensor ventures: validation at a real sea observatory",
+   "url": "https://emso.eu/physical-access/",
+   "rule_sources": {
+    "all": "read"
+   }
+  }
+ ],
+ "eu_topics": [
+  {
+   "id": "horizon-miss-2024-cross-02-01",
+   "name": "Mission ocean in Slovenian seas — Call for proposals for the provision of financial support to third parties for the implementation of small-scale projects under the RISTANC project",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "cascade",
+   "status": "open",
+   "deadline": "2026-11-28",
+   "type_of_action": null,
+   "consortium_rule": null,
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46945037",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2024-ocean-02-01",
+   "name": "SoS2LearnDBS 1st Open Call for Transition Agendas (OC-TAg1-SoS2LearnDBS-2026)",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "cascade",
+   "status": "open",
+   "deadline": "2026-12-11",
+   "type_of_action": null,
+   "consortium_rule": null,
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/competitive-calls-cs/46939903",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-nature-2027-04-01",
+   "name": "A stronger Global Ocean Observing System to enhance Europe’s strategic autonomy, climate resilience and biodiversity conservation",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "open",
+   "deadline": "2027-02-16",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-NATURE-2027-04-01",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl5-2027-01-d1-12",
+   "name": "Better understanding and attribution of land and ocean carbon sources and sinks",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-03-04",
+   "type_of_action": "HORIZON Research and Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-01-D1-12",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl6-2027-02-climate-01-two-stage",
+   "name": "Open topic: Innovative solutions for the European Water Resilience Strategy",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-04-08",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-01-two-stage",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl6-2027-02-farm2fork-02-two-stage",
+   "name": "Optimising the water-nutrient-energy nexus for sustainable and climate smart agriculture in Africa (FNSSA)",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-04-08",
+   "type_of_action": "HORIZON Research and Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-02-two-stage",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl5-2027-03-d5-15",
+   "name": "Prospective evaluation of nuclear power potential for shipping (ZEWT Partnership)",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-04-14",
+   "type_of_action": "HORIZON Coordination and Support Actions",
+   "consortium_rule": "single or consortium, depending on the topic",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-15",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "inferred"
+   }
+  },
+  {
+   "id": "horizon-cl5-2027-03-d5-17",
+   "name": "Innovative Solutions for mitigating the environmental impact of waterborne transport in marine and aquatic Ecosystems (ZEWT Partnership)",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-04-14",
+   "type_of_action": "HORIZON Research and Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL5-2027-03-D5-17",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-03-ocean-05",
+   "name": "Large-scale demonstration of protection, restoration and management of blue forest ecosystems in European sea basins",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-21",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-05",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-03-ocean-03",
+   "name": "Green, circular and resilient harbours",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-21",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-03",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-03-ocean-01",
+   "name": "Increasing riparian and coastal areas resilience to climate change, including in waterfront cities and islands.",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-21",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-01",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-03-ocean-04",
+   "name": "Towards community-driven business models: coastal and freshwaters sustainable tourism",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-21",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-04",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-03-ocean-02",
+   "name": "Circularity of seafood supply chain",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-21",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-03-OCEAN-02",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-miss-2027-07-clima-cit-ccri-02",
+   "name": "Deploying innovative wastewater management, treatment and valorisation solutions in European cities and regions in the context of climate change",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-22",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-MISS-2027-07-CLIMA-CIT-CCRI-02",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl6-2027-02-climate-04",
+   "name": "Unlocking a safe operating space for Antarctica and the Southern Ocean",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-23",
+   "type_of_action": "HORIZON Research and Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-CLIMATE-04",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl6-2027-02-farm2fork-01",
+   "name": "Increasing the resilience of agriculture in water and nutrient-scarce environments through digital innovations",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-23",
+   "type_of_action": "HORIZON Research and Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-01",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  },
+  {
+   "id": "horizon-cl6-2027-02-farm2fork-06",
+   "name": "Unleashing the potential of sustainable small-scale aquatic food production and recreational fisheries for prosperous local communities",
+   "funder": "Horizon Europe (SEDIA)",
+   "type": "grant",
+   "status": "forthcoming",
+   "deadline": "2027-09-23",
+   "type_of_action": "HORIZON Innovation Actions",
+   "consortium_rule": ">= 3 independent legal entities from 3 different EU or associated countries",
+   "themes": [
+    "ocean_water_maritime"
+   ],
+   "url": "https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL6-2027-02-FARM2FORK-06",
+   "rule_sources": {
+    "deadline": "sedia",
+    "consortium_rule": "snippet"
+   }
+  }
+ ],
+ "merge_log": {
+  "corrections_applied": 25,
+  "corrections_skipped": [],
+  "new_instruments_added": 24
+ },
+ "merge_log_w11": {
+  "corrections_applied": 29,
+  "unknown_ids": []
+ },
+ "merge_log_w15b": [
+  "2026-10-17: sbep-jtc4 corrected from the SBEP pre-announcement page: no Finnish funder in call 4 (FI excluded), Sweden funded only by the Swedish National Space Agency, consortium rule read; tier by registration country added; the old 'add a Swedish SME partner' upgrade path is wrong for FI firms.",
+  "2026-10-17: emso-physical-access-2026 added (emso.eu/physical-access, read): next cut-off 31 Oct 2026, up to EUR 15,000."
+ ]
+}

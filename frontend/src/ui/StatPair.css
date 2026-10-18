@@ -1,0 +1,83 @@
+.stat-pair {
+  display: grid;
+  gap: 12px;
+  container-type: inline-size;
+}
+
+.stat-pair__label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.stat-pair__measure {
+  display: block;
+  margin-top: 4px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: none;
+  color: var(--muted);
+}
+
+.stat-pair__values {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4px 16px;
+}
+
+/* The terms share one row and the figures the next, so a term that wraps (longer in Finnish) never
+   lifts one figure above the other. */
+.stat-pair__side {
+  display: grid;
+  grid-row: span 2;
+  grid-template-rows: subgrid;
+  align-items: end;
+  min-width: 0;
+}
+
+.stat-pair__term {
+  font-size: 12px;
+  line-height: 1.35;
+  line-height: 16px;
+  color: var(--ink-2);
+}
+
+.stat-pair__value {
+  justify-self: start;
+  padding-bottom: 4px;
+  box-shadow: inset 0 -2px 0 transparent;
+  white-space: nowrap;
+}
+
+.stat-pair__value--leads {
+  box-shadow: inset 0 -2px 0 var(--sea);
+}
+
+.stat-pair__k {
+  font: 500 28px/1.1 var(--mono);
+  letter-spacing: -0.04em;
+  color: var(--ink);
+}
+
+.stat-pair__of {
+  font-size: 13px;
+  line-height: 32px;
+  color: var(--ink-2);
+}
+
+.stat-pair__interval {
+  font-size: 12px;
+  line-height: 16px;
+  color: var(--ink-2);
+}
+
+/* A card narrower than two figures side by side stacks them instead of clipping one. */
+@container (max-width: 200px) {
+  .stat-pair__values {
+    grid-template-columns: 1fr;
+    gap: 4px;
+  }
+}

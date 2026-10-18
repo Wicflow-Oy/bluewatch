@@ -1,0 +1,287 @@
+/* The sheet: a spreadsheet-style table shared by Companies (DataTable) and Now Surfacing (the shortlist).
+   One bordered box that scrolls inside itself, a line around every cell, one line per row, row numbers,
+   a sticky header and sticky first columns. Rows set --row-bg so the sticky cells cover what scrolls under. */
+.sheet {
+  position: relative;
+  overflow: auto;
+  border: 1px solid var(--line-2);
+  border-radius: var(--r-sm);
+  background: var(--surface);
+  overscroll-behavior-x: contain;
+}
+
+/* Long sheets: where every column fits, the page scrolls and the header row sticks under the top bar.
+   Narrower, the sheet fills the viewport and scrolls inside, both ways, with the header in sight. */
+.sheet--tall {
+  max-height: calc(100dvh - var(--sticky-top) - 16px);
+}
+
+@media (min-width: 1400px) {
+  .sheet--tall {
+    max-height: none;
+    overflow: clip;
+  }
+
+  .sheet--tall .sheet__head {
+    top: var(--header-h);
+  }
+}
+
+.sheet__grid {
+  min-width: var(--sheet-min);
+}
+
+.sheet__row {
+  display: grid;
+  grid-template-columns: var(--cols);
+}
+
+.sheet__head {
+  position: sticky;
+  top: 0;
+  z-index: 3;
+}
+
+.sheet__th,
+.sheet__td {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  padding: 0 12px;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.sheet__row > :last-child {
+  border-right: 0;
+}
+
+.sheet__th {
+  height: 38px;
+  font: 500 12.5px/1 var(--sans);
+  letter-spacing: -0.005em;
+  color: var(--ink-2);
+  background: var(--surface-2);
+  border-bottom-color: var(--line-2);
+}
+
+.sheet__th svg {
+  flex: none;
+  color: var(--faint);
+}
+
+.sheet__th-label {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sheet__sort {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-width: 0;
+  max-width: 100%;
+  height: 100%;
+  font: inherit;
+  color: inherit;
+  transition: color var(--d-fast);
+}
+
+.sheet__th:has(.sheet__sort) {
+  position: relative;
+  padding-right: 20px;
+}
+
+.sheet__th.sheet__pin:has(.sheet__sort) {
+  position: sticky;
+}
+
+.sheet__sort .sheet__sort-icon {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  margin-top: -6.5px;
+  opacity: 0;
+  transition: opacity var(--d-fast);
+}
+
+.sheet__sort:hover,
+.sheet__sort[aria-pressed="true"] {
+  color: var(--ink);
+}
+
+.sheet__sort:hover .sheet__sort-icon,
+.sheet__sort[aria-pressed="true"] .sheet__sort-icon {
+  opacity: 1;
+  color: var(--accent-text);
+}
+
+.sheet__td {
+  height: 42px;
+  font-size: 13px;
+  line-height: 1.3;
+  color: var(--ink);
+  background: var(--row-bg, var(--surface));
+  transition: background-color var(--d-fast);
+}
+
+/* The text in a cell stays on one line and ends in an ellipsis; the full text is in its title. */
+.sheet__text {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.sheet__muted {
+  color: var(--muted);
+}
+
+.sheet .unknown-word {
+  color: var(--muted);
+}
+
+.sheet__num {
+  justify-content: flex-end;
+  text-align: right;
+}
+
+/* Row numbers, and the pinned name column after them, stay put when the sheet scrolls sideways. */
+.sheet__rownum {
+  position: sticky;
+  left: 0;
+  z-index: 1;
+  justify-content: center;
+  padding: 0 6px;
+  font: 500 11.5px/1 var(--mono);
+  color: var(--faint);
+}
+
+.sheet__th.sheet__rownum {
+  background: var(--surface-2);
+}
+
+.sheet__pin {
+  position: sticky;
+  left: var(--pin-left);
+  z-index: 1;
+  box-shadow: 1px 0 0 var(--line-2);
+}
+
+/* Rows: a tint on hover, cobalt when the row's card is open, a cobalt edge on the keyboard cursor. */
+.sheet__row--body {
+  --row-bg: var(--surface);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.sheet__row--body:hover {
+  --row-bg: color-mix(in srgb, var(--ink) 3.5%, var(--surface));
+}
+
+.sheet__row--body.is-selected,
+.sheet__row--body[aria-current="true"] {
+  --row-bg: color-mix(in srgb, var(--accent) 8%, var(--surface));
+}
+
+.sheet__row--body:focus-visible {
+  outline: none;
+  --row-bg: color-mix(in srgb, var(--accent) 5%, var(--surface));
+}
+
+.sheet__row--body:focus-visible > .sheet__rownum,
+.sheet__row--body.is-selected > .sheet__rownum,
+.sheet__row--body[aria-current="true"] > .sheet__rownum {
+  color: var(--accent-text);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+
+/* The P and E meters get their own columns, so the column header names them instead of a key letter. */
+.sheet .mini-meter {
+  flex: 1;
+  grid-template-columns: minmax(0, 1fr) 30px;
+}
+
+.sheet .mini-meter__key {
+  display: none;
+}
+
+.sheet .tip-anchor--block {
+  flex: 1;
+  min-width: 0;
+}
+
+.sheet .tip-anchor > .mini-meter {
+  flex: 1 1 auto;
+}
+
+/* A country code in front of a name, the way a sheet shows a logo. */
+.sheet__name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.sheet__name .country-code {
+  flex: none;
+}
+
+.sheet__name-text {
+  min-width: 0;
+  overflow: hidden;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--ink);
+}
+
+.data-table {
+  min-width: 0;
+}
+
+/* Pages built around a sheet use the width a wide screen gives them, the way a spreadsheet does. */
+.page.surfacing,
+.page.companies-page {
+  max-width: 1760px;
+}
+
+.data-table .sheet__body > .sheet__row:last-child > .sheet__td {
+  border-bottom: 0;
+}
+
+.data-table__stack {
+  display: none;
+}
+
+/* Phones: stacked capsules. */
+@media (max-width: 719px) {
+  .data-table .sheet {
+    display: none;
+  }
+
+  .data-table__stack {
+    display: grid;
+    gap: 8px;
+  }
+
+  .data-table__stacked {
+    display: block;
+    width: 100%;
+    padding: 14px 16px;
+    text-align: left;
+    color: var(--ink);
+  }
+
+  .data-table__stacked:focus-visible {
+    outline: none;
+    box-shadow:
+      var(--sh-2),
+      0 0 0 2px var(--accent);
+  }
+}

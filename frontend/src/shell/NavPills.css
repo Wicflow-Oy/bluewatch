@@ -1,0 +1,87 @@
+/* The top bar's ink segmented nav (section 2.4). The row never scrolls: a scroller would clip the More menu,
+   and the longest labels (fi, sv) fit from 720px up. */
+.nav-pills {
+  flex-wrap: nowrap;
+}
+
+.nav-pills .seg__btn {
+  height: 30px;
+  padding: 0 14px;
+}
+
+.nav-more {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+}
+
+.nav-more__trigger {
+  gap: 5px;
+}
+
+.nav-more__trigger svg {
+  width: 12px;
+  height: 12px;
+  transition: transform var(--d-base) var(--ease);
+}
+
+.nav-more__trigger[aria-expanded="true"] svg {
+  transform: rotate(180deg);
+}
+
+.nav-more__menu {
+  width: 248px;
+  padding: 6px;
+  transform-origin: top right;
+}
+
+/* A menu row inside a popover: More, language, workspace. */
+.menu-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-height: 40px;
+  padding: 0 12px;
+  border-radius: var(--r-sm);
+  font: 520 13.5px/1.2 var(--sans);
+  color: var(--ink);
+  text-align: left;
+  text-decoration: none;
+  transition: background-color var(--d-fast);
+}
+
+.menu-row:hover {
+  background: var(--sunken);
+  text-decoration: none;
+}
+
+.menu-row[aria-current="page"],
+.menu-row[aria-checked="true"] {
+  background: var(--canvas-2);
+}
+
+.menu-row > svg:first-child {
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+}
+
+.menu-row__label {
+  flex: 1;
+  min-width: 0;
+}
+
+.menu-row > svg:last-child:not(:first-child) {
+  color: var(--accent);
+}
+
+.menu-row:focus-visible {
+  outline-offset: -2px;
+}
+
+/* Counts only where there is room. */
+@media (max-width: 1439px) {
+  .nav-pills__count {
+    display: none;
+  }
+}

@@ -1,0 +1,578 @@
+/* Founder view (Tidepool §5.6). Desktop: 12 columns, 20 px gutters. Phone: one column. */
+
+.founder__top,
+.founder-result {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.founder__top {
+  margin-bottom: 20px;
+}
+
+.founder-result {
+  align-items: start;
+}
+
+.founder__top > *,
+.founder-result > * {
+  grid-column: 1 / -1;
+}
+
+.founder__lookup {
+  grid-column: span 8;
+}
+
+.founder__privacy {
+  grid-column: span 4;
+}
+
+.founder-result__next {
+  grid-column: span 8;
+}
+
+.founder-result__investors {
+  grid-column: span 4;
+}
+
+.founder-result > * {
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+}
+
+.founder-result > :nth-child(2) {
+  animation-delay: 60ms;
+}
+
+.founder-result > :nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.founder-result > :nth-child(n + 4) {
+  animation-delay: 140ms;
+}
+
+/* ---- the lookup: one large pill with the ink submit inside it ---- */
+
+.founder .id-input__row {
+  position: relative;
+}
+
+.founder .id-input__field {
+  height: 56px;
+  padding: 0 148px 0 22px;
+  font-size: 17px;
+  letter-spacing: 0.01em;
+}
+
+.founder .id-input__submit.btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  --h: 44px;
+  max-width: 136px;
+}
+
+/* ---- privacy note ---- */
+
+.founder__privacy-lines {
+  display: grid;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.founder__privacy-lines li {
+  display: flex;
+  gap: 10px;
+}
+
+.founder__privacy-lines svg {
+  flex: none;
+  margin-top: 1px;
+  color: var(--sea);
+}
+
+.founder__privacy-compact {
+  display: none;
+}
+
+/* ---- before the first lookup ---- */
+
+.founder-preview__lines {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.founder-preview__lines li {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.founder-preview__lines svg {
+  flex: none;
+  margin-top: 1px;
+  color: var(--muted);
+}
+
+/* ---- profile ---- */
+
+.founder-profile__top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.founder-profile__title {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.founder-profile__name {
+  overflow-wrap: anywhere;
+}
+
+.founder-profile__card {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  justify-self: start;
+  font: 520 13px/1 var(--sans);
+}
+
+.founder-profile__source {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+}
+
+.founder-facts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.founder-fact {
+  display: grid;
+  align-content: start;
+  gap: 6px;
+  min-width: 0;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.founder-fact dt {
+  font: 500 10.5px/1.3 var(--mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  /* Long labels ("Organisationsnummer") break inside their own box instead of running into the next. */
+  overflow-wrap: anywhere;
+  hyphens: auto;
+}
+
+.founder-fact dd {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.founder-facts--skeleton {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+
+.founder-themes {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.founder-themes__label {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.founder-themes__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+/* ---- comparison strip ---- */
+
+.founder .founder-compare {
+  box-shadow:
+    var(--sh-1),
+    0 0 0 1.5px var(--accent-line);
+}
+
+.founder-compare .panel__title svg {
+  color: var(--accent);
+}
+
+.founder-compare__list {
+  display: grid;
+  gap: 8px;
+}
+
+.founder-compare__item {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.founder-compare__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px 16px;
+}
+
+.founder-compare__name {
+  font: 600 14px/1.3 var(--sans);
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+}
+
+.founder-compare__flip {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--muted);
+}
+
+/* ---- funding tiers ---- */
+
+.founder-tiers {
+  display: grid;
+  gap: 18px;
+}
+
+.founder-tiers__counts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.founder-tiers__count {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  height: 30px;
+  padding: 0 12px 0 4px;
+  border-radius: var(--r-pill);
+  font: 500 12px/1 var(--mono);
+  color: var(--ink);
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.founder-tiers__basis {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+/* ---- next steps without a deadline ---- */
+
+.founder-undated {
+  display: grid;
+  gap: 8px;
+  margin-top: 6px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+}
+
+.founder-undated__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  padding: 0 12px;
+}
+
+.founder-undated__kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+  font: 500 10.5px/1.3 var(--mono);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+/* ---- investor, programme and undated rows ---- */
+
+.founder-list {
+  display: grid;
+  gap: 2px;
+  margin: 0 -12px;
+}
+
+.founder-list__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 44px;
+  padding: 10px 12px;
+  border-radius: 14px;
+  transition: background-color var(--d-fast) var(--ease);
+}
+
+.founder-list__row:hover {
+  background: var(--sunken);
+}
+
+.founder-list__text {
+  display: grid;
+  gap: 3px;
+  min-width: 0;
+}
+
+.founder-list__name {
+  font: 600 13.5px/1.3 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+  overflow-wrap: anywhere;
+}
+
+.founder-list__detail {
+  font-size: 12px;
+  line-height: 1.4;
+  color: var(--muted);
+}
+
+.founder-list__end {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.founder-more {
+  margin-top: 8px;
+}
+
+/* ---- share ---- */
+
+.founder-share {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px 16px;
+  padding: 16px 20px;
+}
+
+.founder-share__note {
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.founder-share__error {
+  flex-basis: 100%;
+  font-size: 13px;
+  color: var(--red);
+}
+
+.founder-share--confirmed {
+  align-items: flex-start;
+  padding: 14px 16px;
+  animation: tp-rise 420ms var(--ease);
+}
+
+.founder-share--confirmed p {
+  flex: 1;
+  min-width: 0;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.founder-share__time {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.founder-dialog {
+  width: min(440px, calc(100vw - 32px));
+  padding: 0;
+  border: 0;
+  border-radius: var(--r-xl);
+  color: var(--ink);
+  background: var(--surface);
+  box-shadow: var(--sh-3);
+}
+
+.founder-dialog[open] {
+  animation: tp-pop 420ms var(--spring);
+}
+
+.founder-dialog::backdrop {
+  background: var(--scrim);
+  backdrop-filter: blur(16px);
+}
+
+.founder-dialog__box {
+  display: grid;
+  gap: 10px;
+  padding: 24px;
+}
+
+.founder-dialog__title {
+  font: 620 20px/1.2 var(--sans);
+  font-stretch: 94%;
+  letter-spacing: -0.03em;
+}
+
+.founder-dialog__body {
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.founder-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+/* ---- unavailable: the error state says "missing", never "zero" ---- */
+
+.founder-down__reason {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* ---- tablet: the rails stack ---- */
+
+@media (max-width: 1279px) {
+  .founder-result__next,
+  .founder-result__investors {
+    grid-column: 1 / -1;
+  }
+
+  .founder-facts--skeleton {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+/* ---- phone ---- */
+
+@media (max-width: 719px) {
+  .founder__top,
+  .founder-result {
+    gap: 16px;
+  }
+
+  .founder__lookup {
+    grid-column: 1 / -1;
+  }
+
+  .founder .id-input__field {
+    height: 52px;
+    padding: 0 128px 0 18px;
+    font-size: 16px;
+  }
+
+  .founder .id-input__submit.btn {
+    top: 4px;
+    right: 4px;
+    max-width: 120px;
+    padding: 0 16px;
+  }
+
+  .founder__privacy {
+    display: none;
+  }
+
+  .founder__privacy-compact {
+    display: block;
+    border-radius: var(--r-lg);
+    background: var(--surface);
+    box-shadow: var(--sh-1);
+  }
+
+  .founder__privacy-compact summary {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    min-height: 44px;
+    padding: 10px 16px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: var(--ink-2);
+    cursor: pointer;
+  }
+
+  .founder__privacy-compact summary svg {
+    flex: none;
+    color: var(--sea);
+  }
+
+  .founder__privacy-compact .founder__privacy-lines {
+    padding: 0 16px 14px 42px;
+  }
+
+  .founder-preview__lines {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .founder-facts,
+  .founder-facts--skeleton {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .founder-result__investors,
+  .founder-result__programmes,
+  .founder-share {
+    order: 1;
+  }
+
+  .founder-list__row--wrap {
+    flex-wrap: wrap;
+  }
+
+  /* Long call names get the full width; the deadline drops under them. */
+  .founder .tier-item__head {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .founder-list__end {
+    justify-content: flex-start;
+  }
+
+  .founder-share .btn {
+    width: 100%;
+  }
+}

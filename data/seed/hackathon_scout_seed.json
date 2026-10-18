@@ -1,0 +1,258 @@
+{
+ "title": "Hackathon scout: contact plans (W15f seed, verified on organisers' pages on 17 Oct 2026)",
+ "built": "2026-10-17",
+ "promise_score_weights": {
+  "placement": {
+   "1st": 30,
+   "2nd": 22,
+   "3rd": 18,
+   "finalist_or_award": 12,
+   "listed": 5
+  },
+  "event_size": {
+   ">=15 teams": 10,
+   ">=8 teams": 6,
+   "smaller or unknown": 3
+  },
+  "partner_on_jury": 5,
+  "theme_fit_max": 20,
+  "recency": {
+   "<=3 months": 10,
+   "3-6 months": 7,
+   "6-12 months": 4
+  },
+  "prototype": {
+   "built or tested": 10,
+   "concept only or unclear": 4
+  },
+  "pre_company": {
+   "no company found": 10,
+   "already a company": 0
+  },
+  "organiser_offers_support": 5
+ },
+ "route_ladder_rules": [
+  "Rank 1: the organiser, or a warm route from a partner who judged the event",
+  "Rank 2: the university's innovation or entrepreneurship office",
+  "Rank 3: the team's own public project channel (site or contact form the team published)",
+  "Rank 4: in person at the next event",
+  "Always: an opt-in link to the student idea programme",
+  "Never: harvested personal e-mails, GitHub commit addresses, LinkedIn scraping, cold DMs to individuals"
+ ],
+ "statuses": [
+  "identified",
+  "route_chosen",
+  "draft_approved",
+  "sent_to_route",
+  "forwarded",
+  "team_opted_in",
+  "in_conversation",
+  "outcome"
+ ],
+ "contact_plans": [
+  {
+   "id": "S1",
+   "mode": "apelago",
+   "project": {
+    "team_or_project": "KU.exe",
+    "solution_name": null,
+    "event": "PORTATHON 2026",
+    "date": "2026-09 (results article 28 Sep 2026)",
+    "city": "Klaipeda",
+    "country": "LT",
+    "organiser": "Klaipeda Science and Technology Park + Klaipeda University (EU-CONEXUS ENABLES)",
+    "placement": "1st of 18 teams (120 participants, 10+ countries, 48 h)",
+    "idea": "Captures sediment entering the La Rochelle port basin and collects data to forecast accumulation, reducing dredging",
+    "institution": "Klaipeda University",
+    "company_status": "none found",
+    "source_url": "https://kmtp.lt/the-winners-of-portathon-2026-proposed-solutions-for-port-sedimentation-industrial-resilience-and-the-development-of-a-green-hydrogen-value-chain/",
+    "tag": "read (lead, 17 Oct)"
+   },
+   "promise_score": {
+    "total": 87,
+    "parts": {
+     "placement": 30,
+     "event_size": 10,
+     "theme_fit": 18,
+     "recency": 10,
+     "prototype": 4,
+     "pre_company": 10,
+     "organiser_offers_support": 5
+    },
+    "note": "Illustrative weights (to tune with A'Pelago and Redstone); a ranking aid, not a prediction"
+   },
+   "why": [
+    "Won the largest recent Baltic port hackathon",
+    "Dredging is a recurring port cost, so there are buyers",
+    "University team, no company found: a pre-company case"
+   ],
+   "gaps": [
+    {
+     "field": "continuing",
+     "question": "Are you continuing BlueSediments after PORTATHON?"
+    },
+    {
+     "field": "built",
+     "question": "What exists today: a model, a prototype or a field test?"
+    },
+    {
+     "field": "pilot_interest",
+     "question": "Has La Rochelle's port, or another port, shown interest in a pilot?"
+    },
+    {
+     "field": "ownership",
+     "question": "Who owns the results: the team or the university?"
+    }
+   ],
+   "offer": "A'Pelago's Northern Blue 2027 programme (scaling across the Baltic) and introductions to port partners in A'Pelago's network",
+   "route_ladder": [
+    {
+     "rank": 1,
+     "kind": "organiser",
+     "organisation": "Klaipeda Science and Technology Park",
+     "why": "Its results page says it supports teams from idea development to investment preparation",
+     "how": "Ask the park to forward the invitation; its general address is published on the results page",
+     "contact_page_url": "https://kmtp.lt/the-winners-of-portathon-2026-proposed-solutions-for-port-sedimentation-industrial-resilience-and-the-development-of-a-green-hydrogen-value-chain/"
+    },
+    {
+     "rank": 2,
+     "kind": "university_office",
+     "organisation": "Klaipeda University (innovation or technology-transfer office)",
+     "how": "Look up the office's public contact page (not yet checked)",
+     "contact_page_url": null
+    },
+    {
+     "rank": 3,
+     "kind": "team_public_channel",
+     "organisation": null,
+     "how": "None found; check for a project page later"
+    },
+    {
+     "rank": 4,
+     "kind": "event",
+     "organisation": "PORTATHON 2027 / EU-CONEXUS events",
+     "how": "Meet the team in person"
+    },
+    {
+     "rank": 5,
+     "kind": "opt_in",
+     "organisation": "Student idea programme",
+     "how": "Every forwarded message carries the opt-in link; the team chooses whether to reply"
+    }
+   ],
+   "draft_outline": {
+    "to_route_rank": 1,
+    "subject": "PORTATHON 2026 winner KU.exe: a Baltic programme and three questions",
+    "points": [
+     "Who we are and why: BlueSediments won PORTATHON 2026",
+     "The offer: Northern Blue 2027 and port-partner introductions",
+     "Three questions from the gaps: continuing, what exists, pilot interest",
+     "An opt-in link, plus a request to forward it to the team",
+     "Footer: marketing notice, our details, how to object"
+    ]
+   },
+   "status": "identified",
+   "flags": [
+    "Send only after human approval; during the event only to team inboxes (demo mode)"
+   ]
+  },
+  {
+   "id": "S2",
+   "mode": "redstone",
+   "project": {
+    "team_or_project": "NOMAD",
+    "event": "MarineHakk 2026 (Marine Defence and Resilience)",
+    "date": "2026-05-08",
+    "city": "Tallinn",
+    "country": "EE",
+    "organiser": "TalTech Estonian Maritime Academy with TalTech Innovation / Startup Centre",
+    "placement": "1st of 8 teams; jury included Redstone VC, UnManned VC, SubMerge Baltic and TalTech",
+    "idea": "Autonomous naval surface drone concept for long missions: 24 m ice-capable hull, low profile, GNSS-free navigation, sensor/cargo/relay roles",
+    "institution": "not stated on the results page",
+    "company_status": "none found (Estonian register name check)",
+    "source_url": "https://taltech.ee/en/news/nomad-wins-marinehakk-2026-autonomous-naval-surface-drone-concept",
+    "tag": "read (lead, 17 Oct)"
+   },
+   "promise_score": {
+    "total": 77,
+    "parts": {
+     "placement": 30,
+     "event_size": 6,
+     "partner_on_jury": 5,
+     "theme_fit": 15,
+     "recency": 7,
+     "prototype": 4,
+     "pre_company": 10
+    },
+    "note": "Illustrative weights (to tune with A'Pelago and Redstone); a ranking aid, not a prediction"
+   },
+   "why": [
+    "Won MarineHakk 2026 with Redstone VC on the jury: a warm route exists",
+    "Maritime autonomy fits Redstone Blue's maritime and ports theme",
+    "No company found"
+   ],
+   "gaps": [
+    {
+     "field": "continuing",
+     "question": "Is the team continuing NOMAD?"
+    },
+    {
+     "field": "built",
+     "question": "What exists beyond the concept: simulation, model or prototype?"
+    },
+    {
+     "field": "market",
+     "question": "Defence buyers, civil uses (survey, relay), or both?"
+    },
+    {
+     "field": "ownership",
+     "question": "Who owns the concept: the team or a university?"
+    }
+   ],
+   "offer": "A follow-up conversation with Redstone's Blue fund team, whose juror already saw the pitch",
+   "route_ladder": [
+    {
+     "rank": 1,
+     "kind": "warm_intro",
+     "organisation": "Redstone (the MarineHakk juror)",
+     "how": "A person at Redstone follows up through the relationship from the event",
+     "contact_page_url": null
+    },
+    {
+     "rank": 2,
+     "kind": "organiser",
+     "organisation": "TalTech Estonian Maritime Academy / TalTech Startup Centre",
+     "how": "Ask the organiser to forward the invitation",
+     "contact_page_url": "https://taltech.ee/en/events/marinehakk-marine-defence-and-resilience"
+    },
+    {
+     "rank": 3,
+     "kind": "team_public_channel",
+     "organisation": null,
+     "how": "None found"
+    },
+    {
+     "rank": 4,
+     "kind": "opt_in",
+     "organisation": "Student idea programme",
+     "how": "Opt-in link in every forwarded message"
+    }
+   ],
+   "draft_outline": {
+    "to_route_rank": 2,
+    "subject": "MarineHakk 2026 winner NOMAD: a follow-up from Redstone and three questions",
+    "points": [
+     "Context: the team won MarineHakk 2026; Redstone sat on the jury",
+     "The offer: a conversation with the Blue fund team",
+     "Three questions from the gaps: continuing, what exists, target market",
+     "An opt-in link, plus a request to forward it to the team"
+    ]
+   },
+   "status": "identified",
+   "flags": [
+    "Dual use: defence-leaning concept; check fund policy before any investment talk",
+    "A'Pelago mode shows it with the dual-use flag; A'Pelago's fit is weaker"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1028 @@
+/* The student page (#/apply): a standalone Tidepool page, phone first (mockup view 3). The root paints no
+   background, so the click shockwave shows on the canvas. */
+
+.ap {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-height: 100dvh;
+  animation: tp-fade var(--d-enter) var(--ease) both;
+}
+
+/* ---- header: the top bar's frosted canvas ---- */
+.ap-header {
+  position: sticky;
+  top: 0;
+  z-index: var(--z-header);
+  flex-shrink: 0;
+  height: 64px;
+  background: color-mix(in srgb, var(--canvas) 92%, transparent);
+  -webkit-backdrop-filter: blur(16px) saturate(1.3);
+  backdrop-filter: blur(16px) saturate(1.3);
+}
+
+.ap-header__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  max-width: calc(1120px + 48px);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.ap-header__end {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+}
+
+.ap-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.ap-brand__text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+}
+
+.ap-brand__name {
+  font: 620 14.5px/1.1 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  white-space: nowrap;
+}
+
+.ap-brand__by {
+  font: 400 11.5px/1.2 var(--sans);
+  color: var(--muted);
+  white-space: nowrap;
+}
+
+/* ---- page grid: form 7 columns, read 5 ---- */
+.ap-main {
+  flex: 1;
+  width: 100%;
+  max-width: calc(1120px + 48px);
+  margin: 0 auto;
+  padding: 32px 24px 48px;
+}
+
+.ap-grid {
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+  column-gap: 24px;
+  align-items: start;
+}
+
+.ap-form-col {
+  grid-column: span 7;
+  display: grid;
+  gap: 20px;
+  min-width: 0;
+}
+
+.ap-result-col {
+  grid-column: span 5;
+  min-width: 0;
+  scroll-margin-top: 88px;
+}
+
+/* The promise and the skeleton are short and follow the visitor; a full read scrolls with the page. */
+.ap-result-col[data-state="idle"],
+.ap-result-col[data-state="reading"] {
+  position: sticky;
+  top: 88px;
+}
+
+@media (max-width: 1279px) {
+  .ap-main {
+    max-width: calc(720px + 48px);
+  }
+
+  .ap-grid {
+    grid-template-columns: minmax(0, 1fr);
+    row-gap: 24px;
+  }
+
+  .ap-form-col,
+  .ap-result-col {
+    grid-column: 1;
+  }
+
+  .ap-result-col[data-state] {
+    position: static;
+  }
+}
+
+/* ---- intro ---- */
+.ap-intro {
+  display: grid;
+  justify-items: start;
+  gap: 12px;
+  padding: 8px 0 4px;
+  animation: tp-rise var(--d-enter) var(--ease) both;
+}
+
+.ap-intro__title {
+  max-width: 640px;
+  color: var(--ink);
+}
+
+.ap-intro__body {
+  max-width: 560px;
+  font: 400 14px/1.5 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.ap-facts li {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 30px;
+  padding: 0 12px 0 10px;
+  border-radius: var(--r-pill);
+  font: 520 12.5px/1.2 var(--sans);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.ap-facts svg {
+  width: 16px;
+  height: 16px;
+  color: var(--accent-text);
+}
+
+/* ---- sections and fields ---- */
+.ap-sections {
+  display: grid;
+  gap: 12px;
+}
+
+.ap-section {
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+}
+
+.ap-section:nth-child(2) {
+  animation-delay: 40ms;
+}
+
+.ap-section:nth-child(3) {
+  animation-delay: 80ms;
+}
+
+.ap-section:nth-child(4) {
+  animation-delay: 120ms;
+}
+
+.ap-section > .panel__header {
+  padding: 20px 24px 0;
+}
+
+.ap-section .panel__title {
+  gap: 12px;
+  font: 600 16px/1.25 var(--sans);
+  letter-spacing: -0.02em;
+}
+
+.ap-section > .panel__body {
+  padding: 18px 24px 24px;
+}
+
+.ap-section__num {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font: 500 11.5px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.ap-section__body {
+  display: grid;
+  gap: 22px;
+}
+
+.ap-section__note {
+  font: 400 13px/1.45 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-field {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.ap-field__label {
+  font: 550 13px/1.35 var(--sans);
+  color: var(--ink);
+}
+
+.ap-field__helper {
+  font: 400 12px/1.4 var(--sans);
+  color: var(--muted);
+}
+
+.ap-field > .input,
+.ap-field > .ap-chips,
+.ap-field > .ap-joined,
+.ap-field > .ap-links {
+  margin-top: 6px;
+}
+
+.ap-field__foot {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.ap-field__error {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  font: 500 12px/1.4 var(--sans);
+  color: var(--red);
+}
+
+.ap-field__error svg {
+  margin-top: 1px;
+}
+
+.ap-field__counter {
+  margin-left: auto;
+  font-size: 11.5px;
+  color: var(--muted);
+}
+
+.ap-textarea.input {
+  min-height: 88px;
+  resize: none;
+  overflow: hidden;
+}
+
+/* ---- choice chips: wrap long impact areas instead of clipping them ---- */
+.ap-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.ap .ap-chip {
+  height: auto;
+  min-height: 34px;
+  padding: 8px 14px;
+  font-size: 13px;
+  line-height: 1.25;
+  text-align: left;
+  white-space: normal;
+}
+
+.ap .ap-chip svg {
+  width: 13px;
+  height: 13px;
+}
+
+/* Time on the idea: one joined pill with a sliding indicator; Finnish words wrap inside the segment. */
+.ap .ap-joined {
+  display: grid;
+  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-flow: column;
+  width: 100%;
+}
+
+.ap .ap-joined .seg__btn {
+  height: auto;
+  min-height: 34px;
+  padding: 6px 10px;
+  line-height: 1.2;
+  white-space: normal;
+  text-align: center;
+}
+
+/* ---- team rows and links ---- */
+.ap-team {
+  display: grid;
+  gap: 8px;
+}
+
+.ap-team__rows {
+  display: grid;
+  gap: 12px;
+}
+
+.ap-team__row {
+  display: grid;
+  grid-template-columns: minmax(140px, 200px) minmax(0, 1fr);
+  align-items: start;
+  gap: 12px;
+}
+
+.ap-team__row--removable {
+  grid-template-columns: minmax(140px, 200px) minmax(0, 1fr) 40px;
+}
+
+.ap-team__role,
+.ap-team__skills {
+  display: grid;
+  gap: 6px;
+  min-width: 0;
+}
+
+.ap-team__remove {
+  width: 40px;
+  height: 40px;
+  margin-top: 24px;
+}
+
+.ap-add {
+  justify-self: start;
+  color: var(--accent-text);
+}
+
+.ap-links {
+  display: grid;
+  gap: 8px;
+}
+
+/* ---- submit area ---- */
+.ap-submit {
+  display: grid;
+  gap: 14px;
+  padding: 4px 0 8px;
+}
+
+.ap-privacy {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font: 400 13px/1.45 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-privacy svg {
+  margin-top: 2px;
+  color: var(--sea);
+}
+
+.ap-ai {
+  display: grid;
+  gap: 6px;
+}
+
+.ap-ai .toggle {
+  width: 100%;
+  min-height: 44px;
+  padding: 12px 14px;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  line-height: 1.45;
+  text-align: left;
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.ap-ai .toggle__track {
+  margin-top: 1px;
+}
+
+.ap-ai__off {
+  padding-left: 66px;
+  font: 400 12px/1.4 var(--sans);
+  color: var(--muted);
+}
+
+.ap-submit__buttons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+
+.ap-spinner {
+  animation: tp-spin 800ms linear infinite;
+}
+
+/* ---- the read ---- */
+.ap-result {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.ap-result > * {
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+}
+
+.ap-result > :nth-child(2) {
+  animation-delay: 50ms;
+}
+
+.ap-result > :nth-child(3) {
+  animation-delay: 100ms;
+}
+
+.ap-result > :nth-child(n + 4) {
+  animation-delay: 150ms;
+}
+
+.ap-result__head {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 2px 4px 0;
+}
+
+.ap-result__idea {
+  display: grid;
+  gap: 8px;
+  min-width: 0;
+}
+
+.ap-result__title {
+  font: 560 15px/1.3 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink-2);
+  overflow-wrap: anywhere;
+}
+
+/* The night card (mockup .ph-hero): the one dark surface, with a drifting cobalt glow and a sea glow. */
+.ap-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: grid;
+  justify-items: start;
+  padding: 20px 20px 18px;
+  border-radius: 26px;
+  color: var(--night-fg);
+  background: var(--night);
+  box-shadow: var(--sh-night);
+}
+
+.ap-hero::before,
+.ap-hero::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+.ap-hero::before {
+  width: 300px;
+  height: 240px;
+  right: -90px;
+  top: -110px;
+  filter: blur(38px);
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--accent) 95%, transparent),
+    transparent
+  );
+  animation: tp-drift 12s ease-in-out infinite alternate;
+}
+
+.ap-hero::after {
+  width: 220px;
+  height: 160px;
+  left: -60px;
+  bottom: -120px;
+  filter: blur(40px);
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--sea) 40%, transparent),
+    transparent
+  );
+}
+
+.ap-hero[data-tier="not_yet"]::before {
+  background: radial-gradient(
+    closest-side,
+    color-mix(in srgb, var(--accent) 45%, transparent),
+    transparent
+  );
+}
+
+.ap-hero__k {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font: 500 10.5px/1 var(--mono);
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: color-mix(in srgb, var(--night-fg) 62%, transparent);
+}
+
+.ap-hero__k::before {
+  content: "";
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--accent) 55%, var(--night-fg));
+  box-shadow:
+    0 0 0 3px color-mix(in srgb, var(--accent) 25%, transparent),
+    0 0 12px color-mix(in srgb, var(--accent) 90%, transparent);
+}
+
+.ap-hero__tier {
+  margin-top: 12px;
+  color: var(--night-fg);
+  overflow-wrap: break-word;
+  hyphens: manual;
+}
+
+/* Long Finnish and Swedish compounds may break; English words stay whole. */
+:lang(fi) .ap-hero__tier,
+:lang(sv) .ap-hero__tier {
+  hyphens: auto;
+}
+
+.ap-hero__tier:focus {
+  outline: none;
+}
+
+.ap-hero__tier:focus-visible {
+  outline: var(--focus-ring);
+  outline-offset: 4px;
+  border-radius: 6px;
+}
+
+.ap-hero__rule {
+  margin-top: 10px;
+  font: 400 13.5px/1.45 var(--sans);
+  color: color-mix(in srgb, var(--night-fg) 74%, transparent);
+}
+
+.ap-hero__chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 14px;
+}
+
+.ap-hero__chips:empty {
+  display: none;
+}
+
+.ap-hero__chips li {
+  display: inline-flex;
+  align-items: center;
+  min-height: 24px;
+  padding: 4px 10px;
+  border-radius: var(--r-pill);
+  font: 520 11.5px/1.25 var(--sans);
+  color: color-mix(in srgb, var(--night-fg) 88%, transparent);
+  background: color-mix(in srgb, var(--night-fg) 8%, transparent);
+  box-shadow: inset 0 0 0 1px color-mix(in srgb, var(--night-fg) 10%, transparent);
+}
+
+.ap-hero--skeleton {
+  gap: 12px;
+  min-height: 168px;
+  align-content: start;
+}
+
+.ap-hero__shimmer {
+  display: block;
+  border-radius: 8px;
+  background:
+    linear-gradient(
+        90deg,
+        transparent,
+        color-mix(in srgb, var(--night-fg) 12%, transparent),
+        transparent
+      )
+      0 0 / 320px 100% no-repeat,
+    color-mix(in srgb, var(--night-fg) 9%, transparent);
+  animation: tp-shimmer 1.4s linear infinite;
+}
+
+/* A white card of the read (mockup .ph-card). */
+.ap-card {
+  min-width: 0;
+  padding: 16px 16px 10px;
+  border-radius: var(--r-xl);
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.ap-card__title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  font: 600 14px/1.25 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.ap-card__title small {
+  flex: none;
+  font: 450 11px/1 var(--mono);
+  color: var(--faint);
+}
+
+.ap-card__body {
+  margin-top: 12px;
+}
+
+.ap-questions {
+  display: grid;
+  gap: 10px;
+  padding-bottom: 6px;
+  counter-reset: ap-q;
+}
+
+.ap-questions li {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr);
+  gap: 10px;
+  font: 450 13.5px/1.4 var(--sans);
+  color: var(--ink);
+  counter-increment: ap-q;
+}
+
+.ap-questions li::before {
+  content: counter(ap-q);
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font: 500 11px/1 var(--mono);
+  color: var(--accent-text);
+  background: var(--accent-soft);
+}
+
+/* About money: an outlined note, not a card. */
+.ap-note {
+  padding: 14px 16px;
+  border-radius: var(--r-lg);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+  font: 400 12.5px/1.5 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-note__title {
+  margin-bottom: 4px;
+  font: 600 12.5px/1.2 var(--sans);
+  color: var(--ink);
+}
+
+.ap-result__foot {
+  display: grid;
+  gap: 4px;
+  padding: 4px 4px 0;
+  font: 450 11px/1.5 var(--sans);
+  color: var(--muted);
+}
+
+.ap-result__foot .mono {
+  font-size: 10.5px;
+  color: var(--faint);
+  overflow-wrap: anywhere;
+}
+
+.ap-promise {
+  padding-bottom: 16px;
+}
+
+.ap-promise__list {
+  display: grid;
+  gap: 12px;
+  margin: 14px 0;
+  counter-reset: ap-promise;
+}
+
+.ap-promise__list li {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr);
+  gap: 12px;
+  font: 400 13.5px/1.45 var(--sans);
+  color: var(--ink);
+  counter-increment: ap-promise;
+}
+
+.ap-promise__list li::before {
+  content: counter(ap-promise);
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font: 500 11.5px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--sunken);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.ap-promise__axiom {
+  padding: 9px 12px;
+  border-radius: 14px;
+  font: 400 12px/1.4 var(--sans);
+  color: var(--ink-2);
+  background: var(--sea-soft);
+}
+
+/* ---- sharing: a card in the read, the dock on a phone ---- */
+.ap-share {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.ap-share--card {
+  padding: 18px;
+  border-radius: var(--r-xl);
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.ap-share__consent {
+  display: grid;
+  gap: 12px;
+  min-width: 0;
+}
+
+.ap-share__title {
+  font: 600 15px/1.25 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+}
+
+/* The consent switch: the agreement on the left, the pill switch on the right. */
+.ap-share--card .toggle {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  gap: 16px;
+  padding: 12px 12px 12px 14px;
+  border-radius: var(--r-md);
+  font: 450 13.5px/1.45 var(--sans);
+  text-align: left;
+  color: var(--ink);
+  background: var(--surface-2);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+
+.ap-share__line {
+  font: 400 13px/1.45 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-share__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ap-receipt {
+  display: grid;
+  grid-template-columns: 22px minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+}
+
+.ap-receipt__ic {
+  display: grid;
+  place-items: center;
+  align-self: start;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  color: var(--night-fg);
+  background: var(--sea);
+}
+
+.ap-receipt__text {
+  display: grid;
+  gap: 2px;
+  min-width: 0;
+  font: 400 12.5px/1.4 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-receipt__title {
+  font: 600 13.5px/1.3 var(--sans);
+  letter-spacing: -0.015em;
+  color: var(--ink);
+}
+
+.ap-receipt__kept {
+  color: var(--muted);
+}
+
+.ap-receipt__kept .mono {
+  color: var(--ink-2);
+}
+
+.ap-receipt > .callout {
+  grid-column: 1 / -1;
+}
+
+/* ---- footer ---- */
+.ap-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px 24px;
+  margin-top: 48px;
+  padding-top: 16px;
+  border-top: 1px solid var(--line);
+  font: 400 12px/1.4 var(--sans);
+  color: var(--muted);
+}
+
+.ap-footer__link {
+  font-weight: 550;
+  color: var(--accent-text);
+}
+
+/* ---- the phone dock (mockup .dock): read button on the form, sharing on the read ---- */
+.ap-dock {
+  position: sticky;
+  bottom: calc(10px + env(safe-area-inset-bottom));
+  z-index: var(--z-sticky);
+  display: grid;
+  gap: 10px;
+  margin: 0 10px calc(10px + env(safe-area-inset-bottom));
+  padding: 14px 14px 14px 18px;
+  border-radius: 30px;
+  background: color-mix(in srgb, var(--surface) 86%, transparent);
+  -webkit-backdrop-filter: blur(20px) saturate(1.4);
+  backdrop-filter: blur(20px) saturate(1.4);
+  box-shadow:
+    0 0 0 1px var(--line-2),
+    var(--sh-3);
+  animation: tp-rise var(--d-enter) var(--ease) both;
+}
+
+.ap-share--dock .ap-share__row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.ap-share__text {
+  flex: 1;
+  min-width: 0;
+}
+
+.ap-share--dock .ap-share__title {
+  font-size: 14px;
+  letter-spacing: -0.015em;
+}
+
+.ap-share__state {
+  margin-top: 3px;
+  font: 400 12px/1.4 var(--sans);
+  color: var(--muted);
+}
+
+/* The switch's name is the consent text, read out but not repeated on screen. */
+.ap-share--dock .toggle {
+  padding: 0;
+}
+
+.ap-share--dock .toggle__label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.ap-share__more {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 460ms var(--ease);
+}
+
+.ap-share__more > div {
+  min-height: 0;
+  overflow: hidden;
+}
+
+.ap-share__consent[data-on="true"] > .ap-share__more {
+  grid-template-rows: 1fr;
+}
+
+.ap-share__in {
+  display: grid;
+  gap: 10px;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid var(--line);
+}
+
+.ap-share__consent-text {
+  font: 400 12.5px/1.45 var(--sans);
+  color: var(--ink-2);
+}
+
+.ap-share--dock .ap-receipt + .ap-share__consent,
+.ap-share--dock .callout + .ap-receipt {
+  padding-top: 10px;
+  border-top: 1px solid var(--line);
+}
+
+@media (max-width: 719px) {
+  .ap-header__inner {
+    padding: 0 16px;
+  }
+
+  .ap-main {
+    padding: 12px 16px 24px;
+  }
+
+  .ap-form-col {
+    gap: 14px;
+  }
+
+  .ap-section > .panel__header {
+    padding: 16px 16px 0;
+  }
+
+  .ap-section > .panel__body {
+    padding: 16px;
+  }
+
+  .ap .ap-chip,
+  .ap .ap-joined .seg__btn {
+    min-height: 40px;
+  }
+
+  .ap-add {
+    min-height: 40px;
+  }
+
+  .ap-team__row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 8px;
+  }
+
+  .ap-team__row--removable {
+    grid-template-columns: minmax(0, 1fr) 44px;
+  }
+
+  .ap-team__skills {
+    grid-column: 1 / -1;
+  }
+
+  .ap-team__remove {
+    grid-column: 2;
+    grid-row: 1;
+    width: 44px;
+    height: 44px;
+  }
+
+  .ap-submit__buttons > .btn {
+    width: 100%;
+  }
+
+  .ap-result__head {
+    align-items: center;
+  }
+
+  .ap-primary,
+  .ap-share__button {
+    width: 100%;
+  }
+
+  .ap-footer {
+    margin-top: 32px;
+  }
+}
+
+/* The "Simulated" marker beside the share title. */
+.ap-share__chip {
+  margin-left: 6px;
+  vertical-align: 1px;
+}

@@ -1,0 +1,582 @@
+{
+ "meta": {
+  "keys": "inferred public-evidence bands, NOT partner ratings",
+  "preds": "age-only BRL baseline (fitted on dev; TRL abstains)",
+  "n_rows": 72
+ },
+ "readiness": {
+  "all": {
+   "trl": {
+    "n_rows": 72,
+    "n_numeric_key": 47,
+    "n_unknown_key": 25,
+    "abstain_when_key_unknown": {
+     "k": 25,
+     "n": 25,
+     "ci": [
+      0.867,
+      1.0
+     ]
+    },
+    "coverage": {
+     "k": 0,
+     "n": 47,
+     "ci": [
+      0.0,
+      0.076
+     ]
+    }
+   },
+   "brl": {
+    "n_rows": 72,
+    "n_numeric_key": 37,
+    "n_unknown_key": 35,
+    "abstain_when_key_unknown": {
+     "k": 20,
+     "n": 35,
+     "ci": [
+      0.409,
+      0.72
+     ]
+    },
+    "coverage": {
+     "k": 17,
+     "n": 37,
+     "ci": [
+      0.31,
+      0.616
+     ]
+    },
+    "interval_overlap": {
+     "k": 17,
+     "n": 17,
+     "ci": [
+      0.816,
+      1.0
+     ]
+    },
+    "midpoint_in_key": {
+     "k": 11,
+     "n": 17,
+     "ci": [
+      0.413,
+      0.827
+     ]
+    },
+    "within_one_level": {
+     "k": 17,
+     "n": 17,
+     "ci": [
+      0.816,
+      1.0
+     ]
+    },
+    "n_straddling_excluded": 3,
+    "exact_bin": {
+     "k": 14,
+     "n": 14,
+     "ci": [
+      0.785,
+      1.0
+     ]
+    },
+    "qwk": {
+     "value": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "confusion_rows_key_cols_engine": {
+     "labels": [
+      "1-3",
+      "4-6",
+      "7-9"
+     ],
+     "matrix": [
+      [
+       8,
+       0,
+       0
+      ],
+      [
+       0,
+       4,
+       0
+      ],
+      [
+       0,
+       0,
+       2
+      ]
+     ]
+    },
+    "exact_bin_by_group": {
+     "judge_known_apelago": {
+      "k": 7,
+      "n": 7
+     },
+     "judge_known_redstone": {
+      "k": 3,
+      "n": 3
+     },
+     "famous": {
+      "k": 4,
+      "n": 4
+     }
+    },
+    "majority_class_baseline_exact": {
+     "k": 8,
+     "n": 14
+    }
+   }
+  },
+  "dev": {
+   "trl": {
+    "n_rows": 44,
+    "n_numeric_key": 28,
+    "n_unknown_key": 16,
+    "abstain_when_key_unknown": {
+     "k": 16,
+     "n": 16,
+     "ci": [
+      0.806,
+      1.0
+     ]
+    },
+    "coverage": {
+     "k": 0,
+     "n": 28,
+     "ci": [
+      0.0,
+      0.121
+     ]
+    }
+   },
+   "brl": {
+    "n_rows": 44,
+    "n_numeric_key": 25,
+    "n_unknown_key": 19,
+    "abstain_when_key_unknown": {
+     "k": 7,
+     "n": 19,
+     "ci": [
+      0.191,
+      0.59
+     ]
+    },
+    "coverage": {
+     "k": 14,
+     "n": 25,
+     "ci": [
+      0.371,
+      0.733
+     ]
+    },
+    "interval_overlap": {
+     "k": 14,
+     "n": 14,
+     "ci": [
+      0.785,
+      1.0
+     ]
+    },
+    "midpoint_in_key": {
+     "k": 10,
+     "n": 14,
+     "ci": [
+      0.454,
+      0.883
+     ]
+    },
+    "within_one_level": {
+     "k": 14,
+     "n": 14,
+     "ci": [
+      0.785,
+      1.0
+     ]
+    },
+    "n_straddling_excluded": 3,
+    "exact_bin": {
+     "k": 11,
+     "n": 11,
+     "ci": [
+      0.741,
+      1.0
+     ]
+    },
+    "qwk": {
+     "value": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "confusion_rows_key_cols_engine": {
+     "labels": [
+      "1-3",
+      "4-6",
+      "7-9"
+     ],
+     "matrix": [
+      [
+       7,
+       0,
+       0
+      ],
+      [
+       0,
+       4,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ]
+     ]
+    },
+    "exact_bin_by_group": {
+     "judge_known_apelago": {
+      "k": 7,
+      "n": 7
+     },
+     "judge_known_redstone": {
+      "k": 2,
+      "n": 2
+     },
+     "famous": {
+      "k": 2,
+      "n": 2
+     }
+    },
+    "majority_class_baseline_exact": {
+     "k": 7,
+     "n": 11
+    }
+   }
+  },
+  "sealed": {
+   "trl": {
+    "n_rows": 28,
+    "n_numeric_key": 19,
+    "n_unknown_key": 9,
+    "abstain_when_key_unknown": {
+     "k": 9,
+     "n": 9,
+     "ci": [
+      0.701,
+      1.0
+     ]
+    },
+    "coverage": {
+     "k": 0,
+     "n": 19,
+     "ci": [
+      0.0,
+      0.168
+     ]
+    }
+   },
+   "brl": {
+    "n_rows": 28,
+    "n_numeric_key": 12,
+    "n_unknown_key": 16,
+    "abstain_when_key_unknown": {
+     "k": 13,
+     "n": 16,
+     "ci": [
+      0.57,
+      0.934
+     ]
+    },
+    "coverage": {
+     "k": 3,
+     "n": 12,
+     "ci": [
+      0.089,
+      0.532
+     ]
+    },
+    "interval_overlap": {
+     "k": 3,
+     "n": 3,
+     "ci": [
+      0.438,
+      1.0
+     ]
+    },
+    "midpoint_in_key": {
+     "k": 1,
+     "n": 3,
+     "ci": [
+      0.061,
+      0.792
+     ]
+    },
+    "within_one_level": {
+     "k": 3,
+     "n": 3,
+     "ci": [
+      0.438,
+      1.0
+     ]
+    },
+    "n_straddling_excluded": 0,
+    "exact_bin": {
+     "k": 3,
+     "n": 3,
+     "ci": [
+      0.438,
+      1.0
+     ]
+    },
+    "qwk": {
+     "value": 1.0,
+     "ci": [
+      1.0,
+      1.0
+     ]
+    },
+    "confusion_rows_key_cols_engine": {
+     "labels": [
+      "1-3",
+      "4-6",
+      "7-9"
+     ],
+     "matrix": [
+      [
+       1,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       0
+      ],
+      [
+       0,
+       0,
+       2
+      ]
+     ]
+    },
+    "exact_bin_by_group": {
+     "judge_known_redstone": {
+      "k": 1,
+      "n": 1
+     },
+     "famous": {
+      "k": 2,
+      "n": 2
+     }
+    },
+    "majority_class_baseline_exact": {
+     "k": 2,
+     "n": 3
+    }
+   }
+  }
+ },
+ "classifier_keyword_baseline": {
+  "snapshots_A": {
+   "n": 15,
+   "tp": 6,
+   "fp": 0,
+   "fn": 3,
+   "tn": 6,
+   "precision": {
+    "k": 6,
+    "n": 6,
+    "ci": [
+     0.61,
+     1.0
+    ]
+   },
+   "recall": {
+    "k": 6,
+    "n": 9,
+    "ci": [
+     0.354,
+     0.879
+    ]
+   }
+  }
+ },
+ "signals": {
+  "antip": {
+   "Norsepower": {
+    "rows": 43,
+    "distinct_dates": 7,
+    "first": "2016-02-05",
+    "last": "2026-08-20"
+   },
+   "Groke Technologies": {
+    "rows": 22,
+    "distinct_dates": 5,
+    "first": "2020-01-16",
+    "last": "2023-01-03"
+   },
+   "Origin by Ocean": {
+    "rows": 27,
+    "distinct_dates": 4,
+    "first": "2019-11-01",
+    "last": "2023-06-22"
+   },
+   "NanoHalen": {
+    "rows": 13,
+    "distinct_dates": 1,
+    "first": "2024-06-13",
+    "last": "2024-06-13"
+   },
+   "Valkama Watercrafts": {
+    "rows": 10,
+    "distinct_dates": 2,
+    "first": "2023-09-29",
+    "last": "2024-07-18"
+   },
+   "Viva Electric Jets": {
+    "rows": 37,
+    "distinct_dates": 7,
+    "first": "2020-06-24",
+    "last": "2026-08-17"
+   },
+   "Kelluu": {
+    "rows": 19,
+    "distinct_dates": 5,
+    "first": "2020-02-05",
+    "last": "2025-05-22"
+   },
+   "NPHarvest": {
+    "rows": 9,
+    "distinct_dates": 1,
+    "first": "2024-04-26",
+    "last": "2024-04-26"
+   },
+   "Norolan": {
+    "rows": 9,
+    "distinct_dates": 2,
+    "first": "2022-12-13",
+    "last": "2026-04-27"
+   },
+   "Space of Mind": {
+    "rows": 7,
+    "distinct_dates": 1,
+    "first": "2026-03-30",
+    "last": "2026-03-30"
+   },
+   "Lentola Logistics": {
+    "rows": 17,
+    "distinct_dates": 5,
+    "first": "2017-10-16",
+    "last": "2026-01-14"
+   },
+   "Redkik": {
+    "rows": 11,
+    "distinct_dates": 2,
+    "first": "2021-04-21",
+    "last": "2021-08-19"
+   },
+   "ICEYE": {
+    "rows": 60,
+    "distinct_dates": 10,
+    "first": "2015-06-22",
+    "last": "2026-09-24"
+   },
+   "Awake.AI": {
+    "rows": 18,
+    "distinct_dates": 3,
+    "first": "2021-02-05",
+    "last": "2023-02-13"
+   },
+   "Marine Charging Point": {
+    "rows": 15,
+    "distinct_dates": 4,
+    "first": "2020-08-11",
+    "last": "2025-04-16"
+   }
+  },
+  "cert_lead": {
+   "n": 18,
+   "cert_before_registration": 9,
+   "lead_0_to_365": 3,
+   "within_60_days_either_way": 7,
+   "rows": [
+    {
+     "name": "Environmental Impacts Academy",
+     "delta_days": 119
+    },
+    {
+     "name": "Nexamass",
+     "delta_days": -31
+    },
+    {
+     "name": "OliOil",
+     "delta_days": 36
+    },
+    {
+     "name": "Space of Mind",
+     "delta_days": 554
+    },
+    {
+     "name": "Nemo Seafarms",
+     "delta_days": -22
+    },
+    {
+     "name": "Eco Weedkiller (EWK Finland)",
+     "delta_days": 1288
+    },
+    {
+     "name": "Coconord",
+     "delta_days": 2287
+    },
+    {
+     "name": "FimusKraft",
+     "delta_days": -348
+    },
+    {
+     "name": "Lokala",
+     "delta_days": 505
+    },
+    {
+     "name": "Ocean Eye",
+     "delta_days": 2209
+    },
+    {
+     "name": "OW-Ferment",
+     "delta_days": -639
+    },
+    {
+     "name": "Kilocode (Saaristo.online)",
+     "delta_days": -7851
+    },
+    {
+     "name": "WAIing (parent Taikoa Oy)",
+     "delta_days": 142
+    },
+    {
+     "name": "Sub Marine Store",
+     "delta_days": -1
+    },
+    {
+     "name": "WESI Solutions (Arctic Fry Oy)",
+     "delta_days": 713
+    },
+    {
+     "name": "Sireness",
+     "delta_days": -22
+    },
+    {
+     "name": "Emission-Eye",
+     "delta_days": -54
+    },
+    {
+     "name": "TuniSea",
+     "delta_days": -26
+    }
+   ]
+  }
+ }
+}

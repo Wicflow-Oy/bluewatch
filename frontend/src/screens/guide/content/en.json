@@ -1,0 +1,750 @@
+{
+  "tracks": [
+    {
+      "id": "bluewatch",
+      "title": "How BlueWatch works",
+      "intro": "For fund and accelerator teams: what BlueWatch does each week, the ideas behind the main screens, where the data comes from and what this prototype does today.",
+      "sections": [
+        {
+          "id": "what-it-does",
+          "title": "What BlueWatch does",
+          "body": [
+            "BlueWatch finds new ocean companies in public company registers, EU public tenders and EU research projects, and tells your team which ones are worth a look now, why, and what to do next. It is built for the people who scout deal flow at an accelerator or a fund.",
+            "Each company gets a venture card that keeps what is known apart from what is assumed and what is still unknown, with a source and dates for every fact. The card ends in one ordered list of next steps, where programmes, grants, investors and buyers sit together, each with its deadline.",
+            "Rules, not a language model, decide every readiness level, score, group and funding tier, and the rule behind each result is shown next to it. You can always see why a company is where it is."
+          ]
+        },
+        {
+          "id": "workspaces",
+          "title": "Two workspaces: A'Pelago and Redstone",
+          "body": [
+            "BlueWatch has one workspace per team. The A'Pelago workspace is set up for an accelerator: it looks for companies worth inviting to a programme, uses plain words for the readiness levels and shows ocean impact as Ocean Impact Navigator areas, never as a number. The Redstone workspace is set up for an investor: it looks for companies worth a first call, uses the standard acronyms such as TRL and BRL, and shows the score values and the parts behind each rank.",
+            "The data, the rules and the sources are the same in both. Only the list, the wording and some of the order change, so switching feels like moving to a colleague's desk, not opening another app."
+          ]
+        },
+        {
+          "id": "weekly-flow",
+          "title": "The weekly flow",
+          "body": [
+            "A typical week runs from public data to a message a person has approved, in five steps."
+          ],
+          "points": [
+            "Sources: BlueWatch reads the company registers of Finland, Norway and Estonia, EU public tenders (TED) and EU research projects (CORDIS), and shows when each source was last read.",
+            "The list: new and newly active companies that fit your workspace are ranked into a list of up to 10, grouped into Act now, Dive deeper and Not yet, each row with up to three sourced reasons.",
+            "The venture card: open a company to see its readiness levels, its potential and evidence, and the gap ledger of facts, assumptions and unknowns.",
+            "Next steps: the card puts what to do next in order, with deadlines, from programmes and grants to investors and buyers. Bridges add dated reasons to act, such as a buyer whose tender closes soon.",
+            "Outreach with approval: when facts are missing, the outreach desk drafts an evidence request to the company, and a person approves the exact text before anything can go out."
+          ]
+        },
+        {
+          "id": "the-list",
+          "title": "The list: up to 10, never padded",
+          "body": [
+            "The list, called Now Surfacing in the app, shows at most 10 companies. A company qualifies when it was founded in the last 12 weeks, when a dated public signal shows it is newly active (a public contract award, an EU project, a signed EU grant or a new product web address), or when it is promising and new to your list. In the Redstone workspace a share issue also counts; the A'Pelago workspace never surfaces a company because of a share issue.",
+            "Companies already in your cohort or portfolio are left out, and so are sole traders and companies outside your thesis or past your stage window. If fewer than 10 qualify, the list shows fewer and leaves the other slots empty. Two lines explain the cut: why these companies made it, and why the next one did not.",
+            "The rank is a weighted sum of five parts: fit, signal, group, evidence and potential. The Redstone workspace shows each part beside the rank, so the order can be checked by hand.",
+            "Each row carries up to three reasons, and each reason has a numbered source. Hover over or tap a source to see three dates: when the event happened, when BlueWatch first saw it and when the page was last read. Rows marked New or Changed show what happened since the last Monday digest.",
+            "The list is always on rather than a weekly report. In the full product it re-ranks whenever a source updates, and a digest of what changed goes out every Monday at 07:00 Helsinki time. This prototype sends no e-mail."
+          ]
+        },
+        {
+          "id": "groups",
+          "title": "Act now, Dive deeper and Not yet",
+          "body": [
+            "Every listed company sits in one of three groups, and each group has a written rule. Under a given preset the thresholds are the same for every company: a potential of 0.6 or more counts as promising, and evidence of 0.5 or more counts as solid."
+          ],
+          "table": {
+            "head": ["Group", "Rule", "What to do"],
+            "rows": [
+              [
+                "Act now",
+                "Promising potential and solid evidence.",
+                "Contact the company with the best-fitting programme or open call, or for a first call."
+              ],
+              [
+                "Dive deeper",
+                "Promising potential, but the evidence is thin.",
+                "Close the biggest unknowns first. The card says which questions to ask."
+              ],
+              [
+                "Not yet",
+                "Too early or a weak fit today, or only a pre-launch page.",
+                "Watch and re-check in four weeks. No contact yet."
+              ],
+              [
+                "Not for us",
+                "Outside the thesis, past the stage window, or a sole trader.",
+                "Never on the list. Still visible on the Companies page."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "readiness-levels",
+          "title": "Readiness levels",
+          "body": [
+            "Each card shows four readiness levels. A level is the highest one that a sourced fact supports, with a confidence and the evidence that would raise it. When no fact supports a level, it is shown as unknown, drawn hatched, and never as zero. A service or consumer business has no technology to rate, so its technology readiness reads Not applicable.",
+            "Confidence is high when two or more independent sources support the level, medium when one primary source does, such as a register or a tender record, and low when the only source is the company's own claims.",
+            "The ocean impact scale is our own draft and is not calibrated: no reference ratings exist for it yet, so BlueWatch claims no precision for it, and self-reported figures can raise it to 3 at most."
+          ],
+          "table": {
+            "head": ["Level", "What it measures", "Scale"],
+            "rows": [
+              [
+                "Technology readiness (TRL)",
+                "How far the technology has come, from an idea to proven operation.",
+                "1 to 9"
+              ],
+              [
+                "Business readiness (BRL, KTH)",
+                "How far the business has come, from an idea to repeatable sales.",
+                "1 to 9"
+              ],
+              [
+                "Ocean impact",
+                "How far the company's ocean impact has come, from intent to embedded in operations.",
+                "Our draft 1 to 5 scale in the Redstone workspace; Ocean Impact Navigator areas only in the A'Pelago workspace"
+              ],
+              [
+                "Investment readiness (IRL)",
+                "How ready the company is for an investor, from registered to repeatable traction.",
+                "1 to 9"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "potential-evidence",
+          "title": "Potential and evidence",
+          "body": [
+            "BlueWatch scores every company on two separate axes. Potential is how big the opportunity looks if the claims hold: fit with your thesis, fit with your stage window and the kind of venture, plus a small bonus for traction. Evidence is how much of that is backed by sources BlueWatch has read: how many of the five standard checks are covered, how independent the sources are and how recent they are.",
+            "Unknowns lower evidence, never potential. A part of potential that cannot be judged is left out of the average rather than counted as zero, so a young company with little written about it sits low on evidence, not low on potential. Known negatives, such as being outside your thesis or past your stage window, do lower potential, because they are facts, not gaps.",
+            "A fact counts according to its source: a register or tender record counts fully and a claim on the company's own site counts for less. An assumption with a stated basis counts for a little, and a check that came back empty counts for half as much as a fact: it is known, but it is not a clean bill."
+          ]
+        },
+        {
+          "id": "gap-ledger",
+          "title": "Facts, assumptions and unknowns",
+          "body": [
+            "Missing information is a lead, not a low score. The gap ledger on each card sorts everything BlueWatch knows about a company into four columns: facts, assumptions, unknowns and not applicable.",
+            "A fact has a source and three dates, and a claim taken from a company's site is kept only if its quote appears word for word on the page. An assumption says what it rests on. An unknown says why it is unknown and how it gets closed: either a public check that BlueWatch runs, such as a register query, or a question to ask the company.",
+            "Every card carries five standard checks: product, customers, team, funding and public contracts. Any check the sources do not cover becomes an unknown with its cheapest next check, so a thin card shows what to find out next instead of looking empty."
+          ]
+        },
+        {
+          "id": "venture-card",
+          "title": "The venture card and its next steps",
+          "body": [
+            "The venture card is one company on one page: its register facts and how certainly it is matched to its register record, the four readiness levels, ten dimensions from market to impact, potential and evidence, the gap ledger, and the opportunities that fit.",
+            "Companies are matched by business ID, never by a loose name. When the match is not certain, confirming it is always the first next step, and no message can go out until it is confirmed.",
+            "Next steps come as one ordered list across programmes, grants, investors, buyers and partners. Good-fit items with a deadline in the next 60 days come first, soonest first. When the evidence is thin, asking the company comes next, and programmes rank above investors. A service business gets no investor steps. Each step says who acts: your team, the company or both."
+          ]
+        },
+        {
+          "id": "bridges",
+          "title": "Bridges",
+          "body": [
+            "A bridge links a company to a counterparty, such as a public buyer, a partner, a funder or a test facility, with evidence on both sides, a deadline where there is one, and a single action. It answers one question: why should this company act now, and with whom?",
+            "There are seven kinds of bridge: won before, open again (the company won a public contract and a buyer now tenders the same thing); already works with; the rule decides; proof step; a law creates buyers; programme fit; and lab window. Each bridge is marked verified, probable or possible, and the Bridges page opens on the verified and probable ones.",
+            "Hide names replaces the company's name with a description from register data and hides its register ID and links, for example when you share your screen."
+          ]
+        },
+        {
+          "id": "funding-tiers",
+          "title": "Funding tiers",
+          "body": [
+            "For every grant and programme, BlueWatch checks the company against the funder's published rules, such as who may apply, from which country and at what stage, and places it in a tier. Every tier shows the rule that decided it, where that rule was read, and the deadline. The two workspaces use slightly different words for the same tiers."
+          ],
+          "table": {
+            "head": ["Tier", "A'Pelago label", "Redstone label", "Meaning"],
+            "rows": [
+              [
+                "Certain",
+                "Likely",
+                "Certain*",
+                "Every deciding rule passes, and each one was read on the funder's official page."
+              ],
+              [
+                "Likely",
+                "Likely",
+                "Probable",
+                "No rule fails and the rules read on the official page pass, but one or two points are still unknown."
+              ],
+              [
+                "Possible",
+                "Possible",
+                "Possible",
+                "No rule fails, but a rule comes from a secondary source, the criteria are not published, more is unknown, or no call is open now."
+              ],
+              [
+                "Excluded",
+                "Unlikely",
+                "Excluded",
+                "A deciding rule fails. The failing rule is shown."
+              ],
+              ["Unknown", "Unknown", "Unknown", "Nothing about the instrument could be verified."]
+            ]
+          }
+        },
+        {
+          "id": "funding-certain",
+          "title": "Why Certain is rare",
+          "body": [
+            "Certain is rare on purpose. It needs every deciding rule to be read on the funder's official call page, not in a summary or a search result, and many funders publish their rules only in part. A closed call never rates above Possible, however well the company fits. Even a Certain result is a reason to confirm with the funder, not a promise of funding.",
+            "Where a company is registered can decide the answer. In call 4 of the Sustainable Blue Economy Partnership (SBEP), for example, no Finnish funder takes part, so a Finnish company is excluded while a Norwegian company of the same kind stays possible.",
+            "Grants are runway, not the business: a company that depends on public funding is flagged on its card."
+          ]
+        },
+        {
+          "id": "founder-view",
+          "title": "The founder view",
+          "body": [
+            "The founder view runs the same rules from the company's side. Type a Finnish, Norwegian or Estonian business ID and BlueWatch shows every grant and programme with its tier and deciding rule, the investors to shortlist, and what to do in the next 30 days. For a company outside the assessed set, the result rests on register facts alone, such as the founding date and industry code, and everything else stays unknown.",
+            "Nothing typed is stored or logged, and the ID goes only to that country's official register. Sole traders are private persons, so BlueWatch shows nothing about them. In the full product a founder can share the result with A'Pelago, which can then invite the company to a programme; in this prototype sharing is switched off, so nothing is stored or sent."
+          ]
+        },
+        {
+          "id": "outreach-desk",
+          "title": "The outreach desk and human approval",
+          "body": [
+            "When a card has open unknowns, the outreach desk drafts an evidence request: one useful opportunity for the company plus the two questions that would close the biggest gaps. Drafts come in English, Finnish or Swedish.",
+            "A person approves every message, and the approval is tied to a fingerprint (a hash) of the exact text and recipient. If one character or the recipient changes, the approval is void. An approval also lapses after 24 hours, and the sending rules are checked again at every step.",
+            "Messages may go only to an organisation's own general address, press contact or contact form, to a founder's role address when a public source showing the role is stored, or to an address whose owner has given consent. Personal or scraped addresses are blocked and never stored. Only a company matched to its register record with certainty can be contacted, so a namesake never gets the message.",
+            "Sending is switched off in this prototype. Send records what would go out, and the company's reply is simulated: the unknowns the questions asked about turn into facts marked Confirmed by the company, and every step is written to an append-only audit trail."
+          ]
+        },
+        {
+          "id": "precision",
+          "title": "Precision, and why we show the baseline",
+          "body": [
+            "The Precision page shows how often BlueWatch's readiness calls agree with an answer key: the same band, within one level, and a weighted kappa once there are at least 10 companies. The answer keys are our own analysts' reading of public evidence for a set of reference companies, not ratings from A'Pelago or Redstone.",
+            "Every number sits next to an age baseline: a simple rule that guesses the band from the company's age alone, scored on the same companies. A tool that cannot beat a guess from age has not earned trust, so the page shows the comparison and says in its first sentence where the baseline wins.",
+            "Each number shows its n, and the samples are small, so treat them as a direction, not a measurement. The page also runs entity traps, look-alike names and foreign namesakes that must not be matched, says whether the results are frozen to one version of the rules, and lets you upload your own blind set, which is scored in memory and not stored."
+          ]
+        },
+        {
+          "id": "presets",
+          "title": "Presets: beyond the blue economy",
+          "body": [
+            "A preset is a thesis written as configuration: the verticals, keywords, grant topics, investor theses, impact framework, stage window and ticket size. The engine, the rules and the thresholds stay the same; only the preset changes, and a new thesis is a new preset file, not new code.",
+            "Switching the preset re-ranks the same companies. Arrows show each company's move, and the companies that drop out are named under the list."
+          ],
+          "table": {
+            "head": ["", "Blue economy", "Climate and circular economy"],
+            "rows": [
+              [
+                "Verticals",
+                "Sustainable maritime and port systems; ocean infrastructure and clean energy; marine intelligence; blue biotech and water technology",
+                "Energy transition and electrification; industrial and transport decarbonisation; circular materials and waste; climate data, accounting and adaptation; water and food systems"
+              ],
+              [
+                "Impact areas",
+                "The six Ocean Impact Navigator areas",
+                "The six environmental objectives of the EU Taxonomy (Regulation (EU) 2020/852)"
+              ],
+              ["Typical ticket", "€200k to €2M", "€500k to €5M"],
+              [
+                "Stage window",
+                "Investment readiness 2 to 8, up to 10 years old",
+                "Investment readiness 2 to 8, up to 10 years old"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "data-sources",
+          "title": "Where the data comes from",
+          "body": [
+            "BlueWatch uses public, company-level data only. Each source shows its state on the list: live, daily file, weekly file, recorded or unavailable. A source that is unavailable is shown as such and is not counted as zero, so a gap in the data never reads as a quiet week.",
+            "Grant rules come from the funders' own call pages and the EU Funding & Tenders portal, investor theses from the investors' own websites, and product claims from the companies' own sites, quoted briefly with a link. Certificate transparency logs show when a company puts a new product web address online.",
+            "In this prototype the list, cards and bridges are computed from public data recorded on 16 and 17 October 2026, and the app shows the date the data was read. The current set holds about 140 Nordic and Baltic ocean companies, around 60 investors, around 60 funding instruments and open EU topics, and more than 80 corporates, ports, public buyers, test beds and universities. In the full product each register is read as often as it publishes, daily or weekly."
+          ],
+          "table": {
+            "head": ["Source", "What BlueWatch uses", "Licence", "In this prototype"],
+            "rows": [
+              [
+                "Finnish Patent and Registration Office (PRH)",
+                "New companies, company lookups, share issues and trade register notices",
+                "CC BY 4.0",
+                "Recorded 16 and 17 Oct 2026; lookups are live when live lookups are switched on"
+              ],
+              [
+                "Brønnøysund Register Centre (Brreg), Norway",
+                "New companies, register changes and company lookups",
+                "NLOD 2.0",
+                "Recorded 16 and 17 Oct 2026; lookups are live when live lookups are switched on"
+              ],
+              [
+                "Estonian e-Business Register (RIK)",
+                "Daily bulk files of companies (legal persons only) and company lookups",
+                "CC BY 4.0",
+                "Daily file"
+              ],
+              [
+                "TED, EU public tenders",
+                "Open tenders and contract awards by winner",
+                "© European Union, CC BY 4.0",
+                "Recorded 16 and 17 Oct 2026"
+              ],
+              [
+                "CORDIS, EU research projects",
+                "Research projects and their participating organisations",
+                "© European Union, CC BY 4.0",
+                "Export of 17 Oct 2026"
+              ],
+              [
+                "Statistics Sweden business register (SCB)",
+                "Not loaded yet: the weekly file also lists sole traders, so it needs a legal-persons-only import first",
+                "Not loaded",
+                "Unavailable, not counted as zero"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "privacy",
+          "title": "Privacy: what is never stored",
+          "body": [
+            "BlueWatch works with organisations, not people. It never stores or shows the name, e-mail address, phone number or photo of a person. Where a source names a founder or a member of staff, BlueWatch records only that a person is named. Sole traders are private persons, so they are never ranked, contacted or shown."
+          ],
+          "points": [
+            "Business IDs and company names typed into a lookup or the founder view are never stored or logged, never put in the page address, and go only to that country's official register.",
+            "Register answers are kept in memory for speed and never written to disk.",
+            "The server keeps no access log. Your IP address is used only as a rate-limit counter in memory.",
+            "Personal or scraped e-mail addresses are blocked in the outreach desk and never stored.",
+            "A partner's blind set is scored in memory and not stored.",
+            "Text read from websites is treated as data, never as instructions.",
+            "Idea Harbour stores nothing a team types unless the team chooses to share it. The Idea Harbour guide explains how."
+          ]
+        },
+        {
+          "id": "live-vs-planned",
+          "title": "What's live in this prototype, and what the full product adds",
+          "body": [
+            "This prototype is working software running on recorded data. The table says plainly what runs now, what comes from a recording, what is switched off, and what is planned."
+          ],
+          "table": {
+            "head": ["Capability", "In this prototype", "In the full product"],
+            "rows": [
+              [
+                "Rules: readiness levels, potential and evidence, groups, funding tiers, next steps",
+                "Live: computed by the app",
+                "The same rules, run on fresh data every day"
+              ],
+              [
+                "The list, venture cards and bridges",
+                "Recorded: public data from 16 and 17 Oct 2026",
+                "Re-ranked whenever a source updates"
+              ],
+              [
+                "Lookup by business ID or name (Finland, Norway, Estonia)",
+                "Live when live lookups are switched on; otherwise the recording, labelled Recorded",
+                "Always live, with the company's site read for a fuller card"
+              ],
+              [
+                "Founder view",
+                "Live when live lookups are switched on, otherwise from the recording; nothing stored; sharing off",
+                "Sharing with A'Pelago switched on, with consent"
+              ],
+              [
+                "Reading company websites",
+                "Recorded: pages read on 16 and 17 Oct 2026",
+                "New companies' sites read automatically, each claim kept only if its quote is on the page, under a daily spending cap"
+              ],
+              [
+                "Outreach desk",
+                "Live up to approval; sending is off and the reply is simulated",
+                "Approved messages sent to the company's general address; real replies update the card"
+              ],
+              [
+                "Weekly digest",
+                "Off: no e-mail is sent",
+                "What changed, every Monday at 07:00 Helsinki time"
+              ],
+              [
+                "Alerts",
+                "Live on the recorded data: deadlines 30 and 14 days ahead, and new register signals on listed companies",
+                "The same alerts on fresh data"
+              ],
+              [
+                "Precision",
+                "Live: answer keys, age baseline, entity traps and blind-set upload",
+                "Blind sets from A'Pelago and Redstone, scored on a frozen version of the rules"
+              ],
+              [
+                "Hackathon scout",
+                "Recorded: public results pages, routes to organisations only",
+                "Approved messages sent to the organiser's own channel"
+              ],
+              [
+                "Idea Harbour",
+                "Live: readiness read and review queue; shared ideas kept in memory for 60 minutes",
+                "Shared ideas stored with recorded consent, double opt-in and agreed retention"
+              ],
+              [
+                "Countries",
+                "Finland, Norway and Estonia; Sweden shown as unavailable",
+                "Sweden (legal persons only), then UK Companies House, France SIRENE and Ireland CRO"
+              ],
+              [
+                "Every EU register",
+                "Planned",
+                "EU Implementing Regulation 2023/138 on high-value datasets obliges company registers in EU member states to publish core company data, including registration date and activity, free of charge by API and bulk download, so each new country needs one connector built the same way"
+              ]
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "idea-harbour",
+      "title": "How Idea Harbour works",
+      "intro": "Idea Harbour is A'Pelago's invitation for student and research teams to bring an ocean idea before it is a company. Teams get an honest readiness read in minutes, and A'Pelago reviews a short, ranked list instead of a pile.",
+      "sections": [
+        {
+          "id": "ih-overview",
+          "title": "What Idea Harbour is",
+          "body": [
+            "Idea Harbour has two sides. Teams use the student page, which A'Pelago shares through an invitation link: they describe an idea in about five minutes, with no account and no names, and get a readiness read straight away. A'Pelago's reviewers use the review queue in BlueWatch, where ideas that teams chose to share sit next to pre-company leads from public data, all read by the same rubric.",
+            "Nothing reaches A'Pelago unless the team decides to share it. The rubric orders the reading; a person at A'Pelago makes every decision."
+          ]
+        },
+        {
+          "id": "students-who",
+          "title": "For students: who it is for",
+          "body": [
+            "Idea Harbour is for student teams, early research teams and hackathon teams with an idea for the ocean or the blue economy that is not a company yet. A'Pelago shares the invitation link through universities, student associations, its Blue Economy Academy and hackathon organisers.",
+            "You don't need a company, a prototype or funding to take part. A team with a problem and a first idea of the solution gets a useful read, and the read says exactly what to add next. The same page can also run with the climate and circular economy preset, where the impact areas are the six EU Taxonomy objectives."
+          ]
+        },
+        {
+          "id": "students-submit",
+          "title": "For students: what you submit",
+          "body": [
+            "The form has four short parts and takes about five minutes. No personal data is needed to get a read: describe your team by roles, never by names."
+          ],
+          "points": [
+            "Your team: the roles on the team (building, business, field knowledge or design) with optional skills, how much time you spend on the idea, and the country you are based in.",
+            "The idea: a working name, the problem and who has it, how your solution works, who would pay and how, and the impact area it improves most, or Not sure.",
+            "What exists so far: what you have, such as research, a concept, a prototype, a pilot, user interviews, letters of intent or paying customers, and what you have built or tested, with dates and numbers if you have them.",
+            "What you need: mentors, a pilot partner, funding, team members or test access, plus up to three public links, such as a project page, a repository or a demo video. A person at A'Pelago opens the links; nothing opens them automatically.",
+            "The form has no fields for names, e-mail addresses or phone numbers. Contact details typed into an answer are removed before reading, links to personal profiles (LinkedIn, Facebook, Instagram, X) are dropped, and the read tells you when either happened."
+          ]
+        },
+        {
+          "id": "students-rubric",
+          "title": "For students: how your idea is read",
+          "body": [
+            "Your answers are read against a published rubric of eight criteria on two axes. Each criterion has four rungs, from 0 to 3, and each rung is defined by what you say (who, how, how much), never by how much you write. A longer answer earns nothing on its own.",
+            "Potential is the weighted average of the potential criteria you answered. Blanks are left out, never counted as zero, and potential is judged once both the problem and the solution are answered; until then it reads Not judged yet. Evidence is the weighted average of the evidence criteria, where a blank counts as nothing shown. Typed answers are claims, not facts, so the form alone never makes evidence strong: that needs a public trace a person can open.",
+            "Unknowns lower evidence, never potential. Each blank becomes a question in your read, not a mark against your idea's potential."
+          ],
+          "table": {
+            "head": ["Criterion", "Axis", "Weight", "What moves it up"],
+            "rows": [
+              [
+                "Problem and who has it",
+                "Potential",
+                "3",
+                "Say who has the problem, then size it with a number or say why now"
+              ],
+              ["Solution", "Potential", "2", "Say how it works, then what it replaces or beats"],
+              [
+                "Who pays",
+                "Potential",
+                "2",
+                "Name a buyer or a way of charging, then give a price"
+              ],
+              [
+                "Team",
+                "Potential",
+                "2",
+                "Show that the team can build, sell and knows the field (roles only)"
+              ],
+              [
+                "Impact area",
+                "Potential",
+                "2",
+                "Choose an area and show in your text how the idea helps, then name what would be measured"
+              ],
+              [
+                "What is built",
+                "Evidence",
+                "3",
+                "Move from a concept to a prototype or pilot, with a number or a date"
+              ],
+              [
+                "Contact with buyers",
+                "Evidence",
+                "3",
+                "Move from talking to users to counted conversations, a pilot partner, letters of intent or paying customers"
+              ],
+              [
+                "Public trace",
+                "Evidence",
+                "2",
+                "Add links a reviewer can open; a public record, such as an organiser's results page, counts most"
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-claude",
+          "title": "For students: reading with Claude",
+          "body": [
+            "Above the button that starts the read there is a switch, on by default, that lets Claude read your answers too. With it on, your text, with contact details already removed, is sent to Anthropic's API for this one read, and none of it is kept. Claude may only add claims it can quote word for word from your answers, and the rules always decide the result.",
+            "Turn the switch off and the rules read your answers alone. Either way the read says which reader produced it, and it is complete. If Claude is unavailable or the day's spending limit is reached, the rules answer and the read says why."
+          ]
+        },
+        {
+          "id": "students-result",
+          "title": "For students: what your result means",
+          "body": [
+            "Your read comes back in seconds with one of the three results in the table below. The results are rules applied to what you wrote, not a prediction of success. If your answers contain text aimed at the reviewer, such as an instruction to rate the idea highly, the idea is held for a person to read.",
+            "Alongside the result you see:"
+          ],
+          "points": [
+            "What is strong, quoted in your own words.",
+            "Up to three next steps from programmes and funding routes that exist in our data, each with its source and any deadline.",
+            "An honest note about money. If nothing in our data fits yet, the read says so.",
+            "Similar public projects, if any. That is not a problem: it shows the problem is real, so say what you do differently.",
+            "How each answer was read, sorted into your claims, our assumptions and the unknowns, each unknown with its next check. The facts column stays empty for a team's own idea: nothing typed into a form is a fact until someone checks it."
+          ],
+          "table": {
+            "head": ["Result", "What it means", "What to do"],
+            "rows": [
+              [
+                "Ready to bring to A'Pelago",
+                "High potential, at least some evidence, and an impact area shown in your text.",
+                "Add it to the review queue when you are ready."
+              ],
+              [
+                "Promising: two answers would decide it",
+                "High or medium potential, but something important is still open.",
+                "Answer the two questions in your read, then read again or share."
+              ],
+              [
+                "Not yet: here is what to add",
+                "Too little to judge yet, or low potential on what is written.",
+                "Add what the read asks for. You can still share now: a Not yet never stops you."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "students-sharing",
+          "title": "For students: sharing with A'Pelago",
+          "body": [
+            "Sharing is your choice. Under your read there is a consent box, unticked, and the share button stays off until you tick it. Sharing puts your answers and your readiness read into the review queue. In this prototype sharing is simulated: the idea goes into a demo review queue that only your browser session sees, and nothing is sent to or received by A'Pelago.",
+            "In this prototype storage is switched off: a shared idea is kept in the server's memory for 60 minutes, visible only in your own browser session, and never written to disk or logs. If you change your answers after sharing, get a new read and share again to update the shared copy.",
+            "In the full product A'Pelago's reviewers see every shared idea and can invite the team to a programme. Sharing then asks for one e-mail address, confirmed by a link sent to it (double opt-in), and a confirmation that you are 18 or older. A'Pelago is responsible for the data, and your consent is recorded together with the exact text you agreed to."
+          ]
+        },
+        {
+          "id": "students-consent",
+          "title": "For students: consent and withdrawal",
+          "body": [
+            "The consent text says what you agree to: in this prototype, that the idea and its readiness read go into the demo review queue, which A'Pelago does not receive; in the full product, that A'Pelago may see them and contact your team about its programmes. You can withdraw at any time. If the consent text changes, the page asks you to read it again and tick the box again.",
+            "Withdraw removes everything your session shared, at once. In the full product a withdrawal deletes the idea and your contact details within 30 days and keeps only a scrambled (hashed) entry of the e-mail address, so you are not contacted again. A shared idea that A'Pelago does not take forward would be deleted after 12 months; that period is a proposal for A'Pelago to decide.",
+            "No decision is made by software alone. The rubric orders the reading, and a person at A'Pelago reviews every idea in the top slots and decides."
+          ]
+        },
+        {
+          "id": "students-timeline",
+          "title": "For students: the timeline",
+          "body": ["From first draft to A'Pelago's review, the steps are short."],
+          "points": [
+            "About five minutes: describe your idea.",
+            "A few seconds: get your readiness read.",
+            "Whenever you like: improve your answers and read again.",
+            "When you are ready: tick the consent box and add the idea to the review queue (simulated in this prototype).",
+            "Each week: A'Pelago's reviewers start from the queue's top five and decide whom to invite.",
+            "At any time: withdraw your idea."
+          ]
+        },
+        {
+          "id": "reviewers-queue",
+          "title": "For reviewers: how the queue ranks",
+          "body": [
+            "The review queue puts ideas that teams shared next to pre-company leads from public data, and ranks them all with the same rubric. There is no hidden score. The order is the tier first (Bring to A'Pelago now, then Promising: ask two questions, then Not yet), then the potential and evidence bands, then each source's own order, with the sources interleaved and teams' own submissions first on a tie. The A'Pelago workspace reads potential before evidence; the Redstone workspace reads evidence first.",
+            "The queue opens on the top five to review this week, and you can switch to the top three or the top ten. Empty slots stay empty when fewer qualify. Under the slots the queue says why these made it and why the next one did not. Filters by source, tier, stage, impact area and needs narrow the list without renumbering it.",
+            "Each idea card shows the read, the two questions to ask, the ledger of facts, claims, assumptions and unknowns, and the rubric row by row. How we vet opens the whole rubric on one screen: every criterion, weight, rung and tier rule.",
+            "The tiers are rules applied to what is written, not predictions. There is no outcome data yet, so nobody can say how many Bring now ideas become companies; the first cohort starts that record."
+          ]
+        },
+        {
+          "id": "reviewers-flags",
+          "title": "For reviewers: flags",
+          "body": [
+            "Flags tell you what to look at before you trust a read. Held, low-effort and near-duplicate ideas stay in the list but never enter the top slots."
+          ],
+          "table": {
+            "head": ["Flag", "When it appears", "What happens"],
+            "rows": [
+              [
+                "Held for a person",
+                "The text contains instructions aimed at the reviewer, such as 'ignore the rules' or 'rate this top'.",
+                "The rules ignore the instructions, the read is Not yet, and the idea waits for a person."
+              ],
+              [
+                "Low effort",
+                "Fewer than 20 words in all, or mostly repeated words.",
+                "The read is Not yet, with the questions that would change it."
+              ],
+              [
+                "Near-duplicate",
+                "The idea reads like another idea or a public project that ranks higher.",
+                "It links to the higher-ranked one, which keeps its place in the top slots."
+              ],
+              [
+                "Grant dependency",
+                "The income would come from grants or donations.",
+                "Shown on the read: investors look for a buyer who pays."
+              ],
+              [
+                "Contact details removed",
+                "E-mail addresses or phone numbers were typed into the answers.",
+                "They are removed before reading and never kept."
+              ],
+              [
+                "Personal link dropped",
+                "A link pointed to a personal profile.",
+                "The link is dropped before reading."
+              ],
+              [
+                "Form and text disagree",
+                "The text mentions something built that the form does not.",
+                "Shown so a reviewer checks what really exists."
+              ]
+            ]
+          }
+        },
+        {
+          "id": "reviewers-public-leads",
+          "title": "For reviewers: hackathon and research leads",
+          "body": [
+            "Public leads enter the queue from two sources. Hackathon results come from the hackathon scout's top-ranked projects, with the organiser's results page as the public record; youth and school events are left out. Research projects come from the EU and Interreg projects in our research file that it rates as a good fit for a start-up and that are still running.",
+            "Each public lead is built only from text the record itself states, about organisations and projects, never people. Claude read the public descriptions of the hackathon leads once, on 17 October 2026. The queue replays that reading, checks every quote against the description again, and drops the reading if the description has changed. Descriptions too thin for a fair read, and research projects that have only a title in our data, read Not judged yet rather than a guess.",
+            "Public leads usually read Promising: the next step is two questions asked through the organisation. Invite via organiser drafts a message to the organiser or a university office, never to an individual, asking them to pass the invitation on, and the team decides whether to reply. In this prototype sending from Idea Harbour is switched off: copy the message and send it from your own e-mail."
+          ]
+        },
+        {
+          "id": "reviewers-sample-data",
+          "title": "For reviewers: the sample-data preview",
+          "body": [
+            "A new queue looks quiet until teams start sharing. A switch in the review queue moves between Live queue and Sample data. Sample data fills the queue with invented ideas, so you can see how ranking, flags, near-duplicates and the top slots behave in a busy week.",
+            "While sample data is on, a banner stays on screen: Sample data: invented to show a full pipeline. Not real submissions. Switch back to Live queue to see only the ideas teams have shared and the public leads."
+          ]
+        }
+      ]
+    }
+  ],
+  "glossary": [
+    {
+      "term": "Age baseline",
+      "definition": "A simple rule that guesses a readiness band from a company's age alone. BlueWatch shows it beside every precision number."
+    },
+    {
+      "term": "Answer key",
+      "definition": "Reference readiness bands for a set of companies, inferred by our analysts from public evidence and used only to measure precision."
+    },
+    {
+      "term": "Assumption",
+      "definition": "A claim BlueWatch has not confirmed, shown with the basis it rests on."
+    },
+    {
+      "term": "Bridge",
+      "definition": "A dated, two-sided reason for a company to act now, with evidence on both sides and one action."
+    },
+    {
+      "term": "Evidence",
+      "definition": "How much of a company's potential is backed by sources BlueWatch has read. Unknowns lower it."
+    },
+    {
+      "term": "Fact",
+      "definition": "A claim backed by a source BlueWatch has read, with the dates when it happened, when it was first seen and when it was last read."
+    },
+    {
+      "term": "Funding tier",
+      "definition": "How well a company meets a grant's or programme's published rules: certain, likely, possible, excluded or unknown, always with the deciding rule."
+    },
+    {
+      "term": "Gap ledger",
+      "definition": "A company's facts, assumptions, unknowns and not-applicable items in four columns, each unknown with its next check."
+    },
+    {
+      "term": "Groups",
+      "definition": "Act now (promising, solid evidence), Dive deeper (promising, thin evidence) and Not yet (too early or a weak fit today). Each has a written rule."
+    },
+    {
+      "term": "Next step",
+      "definition": "One action in a company's ordered list, such as a programme, grant, investor, buyer, partner, pilot or question to ask, with its deadline where there is one."
+    },
+    {
+      "term": "Potential",
+      "definition": "How big the opportunity looks if the claims hold. Unknowns never lower it."
+    },
+    {
+      "term": "Preset",
+      "definition": "A thesis written as configuration: verticals, keywords, grant topics, investor theses and impact areas. The engine stays the same."
+    },
+    {
+      "term": "Readiness level",
+      "definition": "One of four scales: technology, business, ocean impact and investment readiness. Unknown is never zero."
+    },
+    {
+      "term": "Readiness read",
+      "definition": "Idea Harbour's result for one idea: a tier, potential and evidence bands, the two questions that matter most, and next steps."
+    },
+    {
+      "term": "Resolution",
+      "definition": "How certainly a company is matched to its register record, by business ID. Only a certain match can be contacted."
+    },
+    {
+      "term": "Sole trader",
+      "definition": "A private person registered as a business. BlueWatch never ranks, contacts or shows one."
+    },
+    {
+      "term": "Unknown",
+      "definition": "Something the sources do not say, shown with how it gets closed. Missing information is a lead, not a low score."
+    },
+    {
+      "term": "Workspace",
+      "definition": "A team's view of BlueWatch, A'Pelago or Redstone: the same data and rules with a different list and wording."
+    }
+  ],
+  "faq": [
+    {
+      "q": "Is this real data?",
+      "a": "Yes. Every company, tender, research project, grant and investor comes from a public source, and every fact has a link and dates. In this prototype the data was recorded on 16 and 17 October 2026, and the app shows that date. The only simulated parts are the company's reply in the outreach desk and the sample-data preview in Idea Harbour, which is labelled as invented."
+    },
+    {
+      "q": "Why does the list sometimes show fewer than 10 companies?",
+      "a": "Because it is never padded. Only companies with a new reason to look at them this week qualify, and the list says why the next company did not make it."
+    },
+    {
+      "q": "A company I know has low evidence. Has it been marked down?",
+      "a": "No. Evidence measures how much BlueWatch could source, not how good the company is, and unknowns lower evidence only, never potential. The card lists each unknown with the check or question that would close it."
+    },
+    {
+      "q": "Can BlueWatch e-mail a company on its own?",
+      "a": "No. A person approves every message, the approval is tied to the exact text, and personal or scraped addresses are blocked. In this prototype sending is switched off altogether."
+    },
+    {
+      "q": "Why does a grant show Possible when the company clearly fits?",
+      "a": "Because at least one deciding rule could not be read on the funder's official page, the criteria are not published, or no call is open now. The tier names that rule, so you know what to confirm with the funder."
+    },
+    {
+      "q": "How accurate is it?",
+      "a": "The Precision page shows agreement with answer keys next to an age-only baseline, with n for every number, and says where the baseline wins. The samples are small, so read the numbers as a direction. BlueWatch ranks and explains; it does not predict which companies will succeed."
+    },
+    {
+      "q": "Does it work beyond the blue economy?",
+      "a": "Yes. Switch the preset to climate and circular economy and the same companies re-rank under other verticals, grants, investor theses and impact areas. A new thesis is a new preset, not new code."
+    },
+    {
+      "q": "What happens to a business ID I type?",
+      "a": "It goes only to that country's official register and is never stored, logged or put in the page address. Sole traders are private persons, so BlueWatch shows nothing about them."
+    }
+  ]
+}

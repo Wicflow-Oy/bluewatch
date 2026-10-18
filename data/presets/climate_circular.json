@@ -1,0 +1,68 @@
+{
+  "name": "climate_circular",
+  "label": "Climate and circular economy",
+  "description": "The same engine with climate-tech and circular-economy verticals, keywords, grants and investor theses.",
+  "verticals": {
+    "energy_transition": {
+      "label": "Energy transition and electrification",
+      "keywords": ["renewable", "renewables", "wind", "wave energy", "tidal", "solar", "electric", "electrification", "charging", "battery", "batteries", "hydrogen", "energy storage", "grid", "power"]
+    },
+    "industrial_decarbonisation": {
+      "label": "Industrial and transport decarbonisation",
+      "keywords": ["emissions", "decarbonisation", "zero-emission", "net-zero", "net zero", "co2", "carbon", "ghg", "fuel optimisation", "energy efficiency", "low-carbon", "propulsion"]
+    },
+    "circular_materials": {
+      "label": "Circular materials and waste",
+      "keywords": ["circular", "recycled", "recycling", "waste", "by-products", "biodegradable", "bio-based", "biomaterials", "upcycling", "reuse", "replace plastic", "replaces plastic", "compost", "fertiliser", "peat"]
+    },
+    "climate_data_adaptation": {
+      "label": "Climate data, accounting and adaptation",
+      "keywords": ["carbon accounting", "climate risk", "esg", "biodiversity", "co2 removal", "carbon removal", "monitoring", "satellite", "adaptation", "flood"]
+    },
+    "water_food_systems": {
+      "label": "Water and food systems",
+      "keywords": ["water treatment", "wastewater", "nutrients", "phosphorus", "nitrogen", "water reuse", "drinking water", "alternative protein", "fermentation"]
+    }
+  },
+  "vertical_prior": {
+    "maritime_ports": 0.3,
+    "ocean_infra_clean_energy": 0.55,
+    "marine_intelligence": 0.3,
+    "blue_biotech_water": 0.35,
+    "other": 0.35,
+    "none": 0.3
+  },
+  "off_thesis_keywords": ["sauna", "skincare", "clothing", "apparel", "insurance", "micro-hospitality", "caviar", "gourmet"],
+  "grant_topics": ["climate", "energy", "circular", "nature", "water", "pollution"],
+  "investor_topics": ["climate", "energy", "circular", "nature"],
+  "impact": {
+    "name": "EU Taxonomy environmental objectives",
+    "note": "The six objectives of Regulation (EU) 2020/852, used as impact areas; the 1-5 level per area is our own draft scale.",
+    "areas": {
+      "Climate change mitigation": ["emissions", "decarbonisation", "co2", "carbon", "ghg", "renewable", "electric", "zero-emission", "wind", "charging", "energy efficiency", "fuel optimisation"],
+      "Climate change adaptation": ["adaptation", "climate risk", "flood", "flooding", "erosion", "coastal resilience", "early warning"],
+      "Sustainable use and protection of water and marine resources": ["water quality", "wastewater", "water reuse", "drinking water", "nutrients", "phosphorus", "aquaculture", "fisheries"],
+      "Transition to a circular economy": ["circular", "recycled", "recycling", "waste", "by-products", "biodegradable", "bio-based", "upcycling", "reuse", "replace plastic", "replaces plastic"],
+      "Pollution prevention and control": ["pollution", "oil spill", "oil spills", "microplastics", "plastic", "contamination", "non-toxic"],
+      "Protection and restoration of biodiversity and ecosystems": ["biodiversity", "restoration", "reef", "reefs", "habitat", "ecosystem", "ecosystems", "coral", "invasive"]
+    }
+  },
+  "stage_window": {"irl_min": 2, "irl_max": 8, "max_age_years": 10},
+  "ticket_eur": [500000, 5000000],
+  "house_fund": null,
+  "programmes": [
+    "innovation-fund-small-scale",
+    "life-2027",
+    "nordic-innovation-scaleups-call",
+    "helsinki-blue-economy-studio-2027"
+  ],
+  "weights": {
+    "potential": {"thesis_fit": 0.5, "stage_fit": 0.3, "venture_type": 0.2},
+    "evidence": {"coverage": 0.7, "independence": 0.2, "recency": 0.1},
+    "rank": {"fit": 0.3, "signal": 0.25, "group": 0.2, "evidence": 0.15, "potential": 0.1},
+    "investor": {"stage": 0.3, "thesis": 0.3, "geography": 0.2, "ticket": 0.1, "verification": 0.1}
+  },
+  "traction_bonus": 0.15,
+  "thresholds": {"promising": 0.6, "solid_evidence": 0.5, "off_thesis": 0.35},
+  "windows": {"newborn_weeks": 12, "newly_active_days": 365}
+}

@@ -1,0 +1,1870 @@
+{
+ "projects": [
+  {
+   "rank": 1,
+   "score": 12,
+   "tier": "Strong",
+   "acronym": "AlgaePro BANOS",
+   "title": "Accelerating algae product developments in Baltic and North Sea",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-MISS-2022-OCEAN-01",
+   "start": "2023-04-01",
+   "end": "2027-03-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101112943",
+   "grant_agreement_id": "101112943",
+   "rcn": "251111",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/e0a13487-812e-3649-b647-f30874f2c1de",
+   "finnish_participants": [
+    {
+     "name": "SUOMEN YMPARISTOKESKUS",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 579750
+    },
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 341834
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "businessId": "2982879-2",
+     "registered": "2019-02-19",
+     "age_years": 7.7,
+     "young_within_10_years": true,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Young Finnish algae company (registered 2019) is a product-development partner next to SYKE; a company-led product path is already built into the project.",
+   "coordinator": {
+    "name": "SUBMARINER NETWORK FOR BLUE GROWTH EWIV",
+    "country": "DE",
+    "sme": false
+   },
+   "ec_signature_date": "2023-05-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 2,
+   "score": 12,
+   "tier": "Strong",
+   "acronym": "MISSION",
+   "title": "MARITIME JUST-IN-TIME OPTIMIZATION INTEROPERABLE PORT CALL AND VOYAGE OPTIMIZATION TOOL",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2023-D5-01",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101138583",
+   "grant_agreement_id": "101138583",
+   "rcn": "259607",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/eedf87f9-7021-35e3-8fb6-f4f44f52abe1",
+   "finnish_participants": [
+    {
+     "name": "AWAKE.AI OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 413250
+    },
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 574108
+    },
+    {
+     "name": "FINTRAFFIC MERILIIKENTEENOHJAUS OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 177000
+    },
+    {
+     "name": "FINNLINES OYJ",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 106500
+    },
+    {
+     "name": "NAPA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 504000
+    },
+    {
+     "name": "ABO AKADEMI",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 280496
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "NAPA OY",
+     "businessId": "0775681-2",
+     "registered": "1990-01-08",
+     "age_years": 36.8,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "FINNLINES OYJ",
+     "businessId": "0201153-9",
+     "registered": "1978-06-30",
+     "age_years": 48.3,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "AWAKE.AI OY",
+     "businessId": "2945733-8",
+     "registered": "2018-10-11",
+     "age_years": 8.0,
+     "young_within_10_years": true,
+     "note": ""
+    },
+    {
+     "name": "FINTRAFFIC MERILIIKENTEENOHJAUS OY",
+     "businessId": "2945246-5",
+     "registered": "2018-10-10",
+     "age_years": 8.0,
+     "young_within_10_years": true,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "AWAKE.AI (registered 2018) is a young software partner on a port-call and voyage optimisation tool, a plausible spin-out product. Fintraffic is state-owned, so it is not a pre-startup signal.",
+   "coordinator": {
+    "name": "SYDDANSK UNIVERSITET",
+    "country": "DK",
+    "sme": false
+   },
+   "ec_signature_date": "2023-11-22",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 3,
+   "score": 11,
+   "tier": "Medium",
+   "acronym": "GREEN RAY",
+   "title": "New GeneRation marinE ENgines and Retrofit solutions to Achieve methane abatement flexibilitY",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2021-D5-01",
+   "start": "2022-06-01",
+   "end": "2027-05-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101056642",
+   "grant_agreement_id": "101056642",
+   "rcn": "240191",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/ff1ea55e-e17d-3166-981c-a7cde6da86a0",
+   "finnish_participants": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "type": "PRC",
+     "role": "thirdParty",
+     "ec_contribution_eur": 0
+    },
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "REC",
+     "role": "coordinator",
+     "ec_contribution_eur": 1111948
+    },
+    {
+     "name": "ILMATIETEEN LAITOS",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 307625
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "businessId": null,
+     "registered": null,
+     "age_years": null,
+     "young_within_10_years": null,
+     "note": "not in PRH register (Aland company register) or no match"
+    }
+   ],
+   "why_could_become_company": "VTT-led engine retrofit and methane-abatement technology, with the Finnish Meteorological Institute as a participant. It could be licensed or spun out, but the Finnish industrial partner (Wartsila Finland, third party) is a large OEM.",
+   "coordinator": {
+    "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+    "country": "FI",
+    "sme": false
+   },
+   "ec_signature_date": "2022-05-17",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 4,
+   "score": 10,
+   "tier": "Strong",
+   "acronym": "LOCALITY",
+   "title": "LOCALITY - Nature-positive aLgae-based fOod, agriCulture, AquacuLture and textIle producTs made in North and Baltic Sea ecosYstems",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-MISS-2022-OCEAN-01",
+   "start": "2023-06-01",
+   "end": "2027-05-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101112884",
+   "grant_agreement_id": "101112884",
+   "rcn": "254954",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/d8e5f3f1-0125-390a-a2e9-7609b66a7ce2",
+   "finnish_participants": [
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 220774
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "ORIGIN BY OCEAN OY",
+     "businessId": "2982879-2",
+     "registered": "2019-02-19",
+     "age_years": 7.7,
+     "young_within_10_years": true,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Same young algae company (Origin by Ocean, registered 2019) leads Finnish participation in an algae food, feed and textile project, a clear route to a product company.",
+   "coordinator": {
+    "name": "NORSK INSTITUTT FOR VANNFORSKNING STI",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2023-05-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 5,
+   "score": 10,
+   "tier": "Strong",
+   "acronym": "MARPOWER",
+   "title": "Efficient zero-emissions gas turbine POWER system for MARitime transport",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2023-D5-01",
+   "start": "2024-09-01",
+   "end": "2028-08-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101138341",
+   "grant_agreement_id": "101138341",
+   "rcn": "263859",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/86d2e604-9ee0-32bc-a07a-cf2682d19b9d",
+   "finnish_participants": [
+    {
+     "name": "ALFA LAVAL AALBORG OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 541250
+    },
+    {
+     "name": "AURELIA TURBINES OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 1771900
+    },
+    {
+     "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+     "type": "HES",
+     "role": "coordinator",
+     "ec_contribution_eur": 1262364
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "AURELIA TURBINES OY",
+     "businessId": "2545133-4",
+     "registered": "2013-04-19",
+     "age_years": 13.5,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "ALFA LAVAL AALBORG OY",
+     "businessId": "0686592-9",
+     "registered": "1988-02-05",
+     "age_years": 38.7,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "LUT-led zero-emission marine gas turbine power system with Aurelia Turbines (registered 2013); a university-to-SME spin-out or licence route is plausible.",
+   "coordinator": {
+    "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+    "country": "FI",
+    "sme": false
+   },
+   "ec_signature_date": "2024-05-27",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 6,
+   "score": 10,
+   "tier": "Strong",
+   "acronym": "AQUAPHOENIX",
+   "title": "Innovative solutions to reduce AQUAculture emissions and valorize sludge through PHOsphorus and NItrogen eXtraction",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL6-2024-ZEROPOLLUTION-01",
+   "start": "2025-01-01",
+   "end": "2028-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101182028",
+   "grant_agreement_id": "101182028",
+   "rcn": "267076",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/ff6326b9-a83a-3556-ac9e-26d8bb3f35af",
+   "finnish_participants": [
+    {
+     "name": "ÅLANDS LANDSKAPSREGERING/ALLMANNA FÖRVALTNINGEN",
+     "type": "PUB",
+     "role": "associatedPartner",
+     "ec_contribution_eur": 0
+    },
+    {
+     "name": "ALANDS FISKODLARFORENING RF",
+     "type": "?",
+     "role": "participant",
+     "ec_contribution_eur": 69500
+    },
+    {
+     "name": "LUONNONVARAKESKUS",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 179875
+    },
+    {
+     "name": "BRANDO LAX AB",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 33688
+    },
+    {
+     "name": "STORFJARDENS FISK AB",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 28000
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "BRANDO LAX AB",
+     "businessId": null,
+     "registered": null,
+     "age_years": null,
+     "young_within_10_years": null,
+     "note": "not in PRH register (Aland company register) or no match"
+    },
+    {
+     "name": "STORFJARDENS FISK AB",
+     "businessId": null,
+     "registered": null,
+     "age_years": null,
+     "young_within_10_years": null,
+     "note": "not in PRH register (Aland company register) or no match"
+    }
+   ],
+   "why_could_become_company": "Aquaculture nutrient and sludge valorisation with Luke and two Aland fish-farming companies; the companies are not in the Finnish PRH register (Aland), so their size and age are unchecked.",
+   "coordinator": {
+    "name": "NORCE RESEARCH AS",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2024-10-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 7,
+   "score": 9,
+   "tier": "Medium",
+   "acronym": "CirclesOfLife",
+   "title": "Enhancing material CIRCularity and Lower Emissions of Ship building processes in all phases of the LIFE cycle",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2023-D5-01",
+   "start": "2024-01-01",
+   "end": "2026-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101138013",
+   "grant_agreement_id": "101138013",
+   "rcn": "259483",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/1cc3451b-f9bc-356b-9bd2-ba8401339b7f",
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 618184
+    },
+    {
+     "name": "MEYER TURKU OY",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 96503
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "VTT and Meyer Turku (the Turku shipyard) on ship-building material circularity and lower-emission methods (coordinated by Damen Research Development & Innovation, NL). Meyer is a large shipbuilder, so the start-up route is a VTT tool or consultancy spin-out. A Turku link judges will recognise. Ends 31 Dec 2026.",
+   "coordinator": {
+    "name": "DAMEN RESEARCH DEVELOPMENT & INNOVATION BV",
+    "country": "NL",
+    "sme": false
+   },
+   "ec_signature_date": "2023-12-05",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 8,
+   "score": 9,
+   "tier": "Strong",
+   "acronym": "SEAMLESS",
+   "title": "Safe, Efficient and Autonomous: Multimodal Library of European Shortsea and inland Solutions",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2022-D5-01",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101096923",
+   "grant_agreement_id": "101096923",
+   "rcn": "244071",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/c9fb1f7c-9e9b-3b2e-999c-0592d69fd283",
+   "finnish_participants": [
+    {
+     "name": "MACGREGOR FINLAND OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 827750
+    },
+    {
+     "name": "AWAKE.AI OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 248550
+    },
+    {
+     "name": "KONGSBERG MARITIME FINLAND OY",
+     "type": "PRC",
+     "role": "thirdParty",
+     "ec_contribution_eur": 0
+    },
+    {
+     "name": "KALMAR FINLAND OY",
+     "type": "see CORDIS",
+     "role": "thirdParty",
+     "ec_contribution_eur": 0
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "AWAKE.AI OY",
+     "businessId": "2945733-8",
+     "registered": "2018-10-11",
+     "age_years": 8.0,
+     "young_within_10_years": true,
+     "note": ""
+    },
+    {
+     "name": "MACGREGOR FINLAND OY",
+     "businessId": "2557310-4",
+     "registered": "2013-07-01",
+     "age_years": 13.3,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "KONGSBERG MARITIME FINLAND OY",
+     "businessId": "1007628-7",
+     "registered": "1995-05-26",
+     "age_years": 31.4,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "AWAKE.AI (registered 2018) and MacGregor Finland work on a multimodal library of shortsea and inland solutions; software or service spin-out possible.",
+   "coordinator": {
+    "name": "ETHNICON METSOVION POLYTECHNION",
+    "country": "EL",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 9,
+   "score": 9,
+   "tier": "Medium",
+   "acronym": "GEORGE",
+   "title": "Next generation multiplatform Ocean observing technologies for research infrastructures",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-INFRA-2022-TECH-01",
+   "start": "2023-01-01",
+   "end": "2027-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101094716",
+   "grant_agreement_id": "101094716",
+   "rcn": "243513",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/24a4c950-2b3f-3897-8437-35b8fd116039",
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 290229
+    },
+    {
+     "name": "INTEGRATED CARBON OBSERVATION SYSTEM EUROPEAN RESEARCH INFRASTRUCTURECONSORTIUM",
+     "type": "REC",
+     "role": "coordinator",
+     "ec_contribution_eur": 797986
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Ocean observing technologies for research infrastructures (ICOS-led); sensor and data-service spin-out possible from Helsinki University, but the Finnish side is research-only.",
+   "coordinator": {
+    "name": "INTEGRATED CARBON OBSERVATION SYSTEM EUROPEAN RESEARCH INFRASTRUCTURECONSORTIUM",
+    "country": "FI",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-01",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 10,
+   "score": 8,
+   "tier": "Low",
+   "acronym": "REALM",
+   "title": "Reusing Effluents from Agriculture to unLock the potential of Microalgae",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL6-2021-CIRCBIO-01",
+   "start": "2022-07-01",
+   "end": "2027-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101060991",
+   "grant_agreement_id": "101060991",
+   "rcn": "241846",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/ee631e48-8627-397d-be9c-4f27bbd22ecf",
+   "finnish_participants": [
+    {
+     "name": "TURUN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 900399
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Microalgae from agricultural effluents, coordinated by Necton (PT, an SME). The University of Turku is a participant (EC contribution about EUR 0.90M), so this is not a Turku-led project. Runs to 30 Jun 2027. Ocean link is weak (agriculture focus), so it is included only on the algae angle.",
+   "coordinator": {
+    "name": "NECTON-COMPANHIA PORTUGUESA DE CULTURAS MARINHAS SA",
+    "country": "PT",
+    "sme": true
+   },
+   "ec_signature_date": "2022-06-07",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 11,
+   "score": 8,
+   "tier": "Low",
+   "acronym": "OCEANIDS",
+   "title": "User-driven applications and tools for Climate-Informed Maritime Spatial Planning and integrated seascape management, towards a resilient & inclusive Blue Economy",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-MISS-2022-CLIMA-01",
+   "start": "2023-12-01",
+   "end": "2026-07-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101112919",
+   "grant_agreement_id": "101112919",
+   "rcn": "259220",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/c085773a-87fc-3de7-b9b8-48ba79c91591",
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN SATAMA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "RAUMAN SATAMA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "RAAHEN SATAMA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 39000
+    },
+    {
+     "name": "ILMATIETEEN LAITOS",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 177125
+    },
+    {
+     "name": "VARSINAIS-SUOMEN LIITTO",
+     "type": "PUB",
+     "role": "participant",
+     "ec_contribution_eur": 47750
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "HELSINGIN SATAMA OY",
+     "businessId": "2630555-8",
+     "registered": "2014-07-07",
+     "age_years": 12.3,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "RAAHEN SATAMA OY",
+     "businessId": "2627981-2",
+     "registered": "2014-06-19",
+     "age_years": 12.3,
+     "young_within_10_years": false,
+     "note": ""
+    },
+    {
+     "name": "RAUMAN SATAMA OY",
+     "businessId": "2652182-4",
+     "registered": "2014-11-04",
+     "age_years": 11.9,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Finnish ports (city-owned companies) and the Finnish Meteorological Institute on ocean-climate planning tools; ended July 2026. Public-port owners reduce the start-up signal.",
+   "coordinator": {
+    "name": "GEOSYSTEMS HELLAS IT KAI EFARMOGESGEOPLIROFORIAKON SYSTIMATON ANONIMIETAIREIA",
+    "country": "EL",
+    "sme": true
+   },
+   "ec_signature_date": "2023-12-14",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 12,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "FuelSOME",
+   "title": "Multifuel SOFC system with  Maritime Energy vectors",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2021-D2-01",
+   "start": "2022-09-01",
+   "end": "2026-08-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101069828",
+   "grant_agreement_id": "101069828",
+   "rcn": "240926",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/e86f1388-8a56-3717-83bb-f5cabd4c1676",
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 429998
+    },
+    {
+     "name": "ELCOGEN OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 379812
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "ELCOGEN OY",
+     "businessId": "2289594-1",
+     "registered": "2009-09-29",
+     "age_years": 17.0,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "VTT with Elcogen (registered 2009) on maritime SOFC energy systems; ended August 2026. An established fuel-cell company rather than a start-up.",
+   "coordinator": {
+    "name": "AVL LIST GMBH",
+    "country": "AT",
+    "sme": false
+   },
+   "ec_signature_date": "2022-05-18",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 13,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "OBAMA-NEXT",
+   "title": "OBSERVING AND MAPPING MARINE ECOSYSTEMS – NEXT GENERATION TOOLS",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL6-2022-BIODIV-01",
+   "start": "2022-12-01",
+   "end": "2026-11-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101081642",
+   "grant_agreement_id": "101081642",
+   "rcn": "242291",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/0e6877cd-eb99-383d-ad3f-3082245adb99",
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 317311
+    },
+    {
+     "name": "SUOMEN YMPARISTOKESKUS",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 553118
+    },
+    {
+     "name": "LUONNONVARAKESKUS",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 307019
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Helsinki, SYKE and Luke on next-generation marine ecosystem observation tools; a monitoring-tool spin-out is possible but no company partner is listed.",
+   "coordinator": {
+    "name": "AARHUS UNIVERSITET",
+    "country": "DK",
+    "sme": false
+   },
+   "ec_signature_date": "2022-09-28",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 14,
+   "score": 8,
+   "tier": "Strong",
+   "acronym": "AIRSHIP",
+   "title": "AUTONOMOUS FLYING SHIPS FOR INTER-ISLAND AND INLAND WATERS TRANSPORT",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2022-D5-01",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101096487",
+   "grant_agreement_id": "101096487",
+   "rcn": "244585",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/62258c51-d80f-3e4f-bc0c-e6a9fc17864d",
+   "finnish_participants": [
+    {
+     "name": "TAMPEREEN KORKEAKOULUSAATIO SR",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 999425
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Tampere University takes part in an early-stage autonomous ground-effect cargo vehicle (EU, Madrid-coordinated). Strong deep-tech spin-out potential, but TRL is low and the project is still early.",
+   "coordinator": {
+    "name": "UNIVERSIDAD POLITECNICA DE MADRID",
+    "country": "ES",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-05",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 15,
+   "score": 8,
+   "tier": "Low",
+   "acronym": "REFOLUTION",
+   "title": "Refinery integration, scale-up and certification for aviation and marine biofuels production",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2022-D3-01",
+   "start": "2023-01-01",
+   "end": "2026-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101096780",
+   "grant_agreement_id": "101096780",
+   "rcn": "243712",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/da9a9c52-9fc9-36ab-b69d-de02a34f0205",
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 2542822
+    },
+    {
+     "name": "NESTE OYJ",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 296212
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "NESTE OYJ",
+     "businessId": "1852302-9",
+     "registered": "2003-09-17",
+     "age_years": 23.1,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Neste and VTT on ocean/marine biofuel scale-up (coordinated by SINTEF, NO); large industrial partner, so low start-up fit.",
+   "coordinator": {
+    "name": "SINTEF AS",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-09",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 16,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "H2MARINE",
+   "title": "Hydrogen PEM fuel cell stack for marine applications",
+   "funding_scheme": "HORIZON JU Research and Innovation Actions",
+   "scheme_code": "JU RIA",
+   "call": "HORIZON-JTI-CLEANH2-2023-1",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101137965",
+   "grant_agreement_id": "101137965",
+   "rcn": "259482",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/e8b8df09-43b3-392b-a45a-14baa156331a",
+   "finnish_participants": [
+    {
+     "name": "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+     "type": "REC",
+     "role": "participant",
+     "ec_contribution_eur": 629256
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "VTT-only on a hydrogen PEM fuel-cell stack for marine use (Clean Hydrogen JU, to June 2027); a stack or component spin-out is possible, with no company partner in the Finnish list.",
+   "coordinator": {
+    "name": "ETHNIKO KENTRO EREVNAS KAI TECHNOLOGIKIS ANAPTYXIS",
+    "country": "EL",
+    "sme": false
+   },
+   "ec_signature_date": "2023-12-05",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 17,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "VIGIMARE",
+   "title": "Vigilant Maritime Surveillance of Critical Submarine Infrastructure",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL3-2023-INFRA-01",
+   "start": "2024-09-01",
+   "end": "2027-09-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101168016",
+   "grant_agreement_id": "101168016",
+   "rcn": "264929",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/e009abeb-b656-3682-9cf4-0ab1af17a1ce",
+   "finnish_participants": [
+    {
+     "name": "LAUREA-AMMATTIKORKEAKOULU OY",
+     "type": "see CORDIS",
+     "role": "coordinator",
+     "ec_contribution_eur": 492875
+    },
+    {
+     "name": "CINIA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 181037
+    },
+    {
+     "name": "JYVASKYLAN YLIOPISTO",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 138688
+    },
+    {
+     "name": "HUOLTOVARMUUSKESKUS",
+     "type": "PUB",
+     "role": "participant",
+     "ec_contribution_eur": 58125
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "CINIA OY",
+     "businessId": "1465341-6",
+     "registered": "1998-05-06",
+     "age_years": 28.4,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Coordinated by Laurea University of Applied Sciences (FI), with Cinia (registered 1998), the University of Jyvaskyla and the National Emergency Supply Agency, on submarine infrastructure surveillance. A security-market spin-out is possible, but the company partner is not young. Runs to 30 Sep 2027.",
+   "coordinator": {
+    "name": "LAUREA-AMMATTIKORKEAKOULU OY",
+    "country": "FI",
+    "sme": false
+   },
+   "ec_signature_date": "2024-07-19",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 18,
+   "score": 8,
+   "tier": "Low",
+   "acronym": "TwinShip",
+   "title": "TWINSHIP – INTEGRATED DIGITAL TWIN FRAMEWORK TO ENABLE GREEN SHIP OPERATIONS TOWARDS ZERO EMISSION VESSELS",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2024-D5-01",
+   "start": "2025-02-01",
+   "end": "2028-01-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101192583",
+   "grant_agreement_id": "101192583",
+   "rcn": "268185",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/950381e9-3f77-342f-bdb0-23ccf0cacfd7",
+   "finnish_participants": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 560228
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "businessId": null,
+     "registered": null,
+     "age_years": null,
+     "young_within_10_years": null,
+     "note": "not in PRH register (Aland company register) or no match"
+    }
+   ],
+   "why_could_become_company": "Wartsila Finland-only digital twin for ship operations; large OEM, low start-up fit.",
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2024-12-12",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 19,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "SEA-Quester",
+   "title": "Blue Carbon production, export and sequestration in emerging polar ecosystems",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL6-2023-CLIMATE-01",
+   "start": "2024-02-01",
+   "end": "2028-01-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101136480",
+   "grant_agreement_id": "101136480",
+   "rcn": "259168",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/9b8062f1-308f-35ff-bdef-c8200e305b9b",
+   "finnish_participants": [
+    {
+     "name": "ABO AKADEMI",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 411315
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Abo Akademi blue-carbon research on sequestration; a measurement, reporting and verification tool could become a company, but no company partner yet.",
+   "coordinator": {
+    "name": "DANMARKS TEKNISKE UNIVERSITET",
+    "country": "DK",
+    "sme": false
+   },
+   "ec_signature_date": "2023-11-15",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 20,
+   "score": 8,
+   "tier": "Medium",
+   "acronym": "STEESMAT",
+   "title": "Smart Transformer for Enhanced Efficiency and Sustainability in Maritime Transportation",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2024-D5-01",
+   "start": "2025-01-01",
+   "end": "2028-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101192740",
+   "grant_agreement_id": "101192740",
+   "rcn": "268125",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/302f0187-eba4-3727-b17a-02fa14dd7082",
+   "finnish_participants": [
+    {
+     "name": "THE SWITCH ENGINEERING OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 320175
+    },
+    {
+     "name": "DANFOSS DRIVES OY",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 626625
+    },
+    {
+     "name": "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 332750
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "THE SWITCH ENGINEERING OY",
+     "businessId": "2046716-9",
+     "registered": "2006-07-03",
+     "age_years": 20.3,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "The Switch Engineering (registered 2006), Danfoss Drives and LUT on a maritime smart-transformer project (coordinated by Maritime CleanTech, NO). Established companies, so a product scale-up rather than a start-up.",
+   "coordinator": {
+    "name": "MARITIME CLEANTECH",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2024-12-06",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 21,
+   "score": 7,
+   "tier": "Medium",
+   "acronym": "AENEAS",
+   "title": "innovAtive ENErgy storage systems onboArd vesselS",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2022-D5-01",
+   "start": "2023-02-01",
+   "end": "2026-01-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101095902",
+   "grant_agreement_id": "101095902",
+   "rcn": "243271",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/54cc74d1-ea8e-3d09-93ed-f562a478487e",
+   "finnish_participants": [
+    {
+     "name": "VAASAN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 520750
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Vaasa University research on onboard energy storage for vessels; ended January 2026, so the spin-out window may already be passing.",
+   "coordinator": {
+    "name": "FLANDERS MAKE",
+    "country": "BE",
+    "sme": false
+   },
+   "ec_signature_date": "2022-11-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 22,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "Ammonia2-4",
+   "title": "Demonstrating a 2-stroke and 4-stroke large scale ammonia marine engine",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2021-D5-01",
+   "start": "2022-05-01",
+   "end": "2026-04-30",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101056835",
+   "grant_agreement_id": "101056835",
+   "rcn": "240193",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/474e192f-cb88-3236-be78-782bd36076b3",
+   "finnish_participants": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "type": "PRC",
+     "role": "thirdParty",
+     "ec_contribution_eur": 0
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "WARTSILA FINLAND OY",
+     "businessId": null,
+     "registered": null,
+     "age_years": null,
+     "young_within_10_years": null,
+     "note": "not in PRH register (Aland company register) or no match"
+    }
+   ],
+   "why_could_become_company": "Wartsila Finland as third party on ammonia marine engines; large OEM, ended April 2026, low start-up fit.",
+   "coordinator": {
+    "name": "WARTSILA ITALIA SPA",
+    "country": "IT",
+    "sme": false
+   },
+   "ec_signature_date": "2022-04-26",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 23,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "A-AAgora",
+   "title": "Blueprint for Atlantic-Arctic Agora on cross-sectoral cooperation for restoration of marine and coastal ecosystems and increased climate resilience through transformative innovation",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-MISS-2021-OCEAN-02",
+   "start": "2022-12-01",
+   "end": "2026-05-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101093956",
+   "grant_agreement_id": "101093956",
+   "rcn": "243456",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/fc82be4f-04be-3ff7-984b-ab48c49088b1",
+   "finnish_participants": [
+    {
+     "name": "MAPITA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 221462
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "MAPITA OY",
+     "businessId": "2399273-5",
+     "registered": "2011-03-24",
+     "age_years": 15.6,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Mapita (registered 2011) on cross-sectoral marine restoration governance; a small geospatial firm, but the project ended May 2026 and the focus is governance.",
+   "coordinator": {
+    "name": "UNIVERSIDADE DE AVEIRO",
+    "country": "PT",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-06",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 24,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "HyEkoTank",
+   "title": "Hydrogen PEM fuel cell system to retrofit ships in the marine transport industry",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL5-2022-D5-01",
+   "start": "2023-02-01",
+   "end": "2026-07-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101096981",
+   "grant_agreement_id": "101096981",
+   "rcn": "244069",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/fee695ca-5cc0-3ca3-a68f-826973d7ecaf",
+   "finnish_participants": [
+    {
+     "name": "NESTE OYJ",
+     "type": "PRC",
+     "role": "associatedPartner",
+     "ec_contribution_eur": 0
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "NESTE OYJ",
+     "businessId": "1852302-9",
+     "registered": "2003-09-17",
+     "age_years": 23.1,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Neste as associated partner only on ship hydrogen retrofit; ended July 2026, low start-up fit.",
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2022-12-19",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 25,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "i-MASTER",
+   "title": "Integrating Adaptive Learning in Maritime Simulator-Based Education and Training with Intelligent Learning System",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL2-2021-TRANSFORMATIONS-01",
+   "start": "2022-09-01",
+   "end": "2026-08-31",
+   "status_on_2026_10_16": "ended",
+   "cordis_url": "https://cordis.europa.eu/project/id/101060107",
+   "grant_agreement_id": "101060107",
+   "rcn": "238771",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/bcad5c3a-298d-352c-ab03-da9960dbe50f",
+   "finnish_participants": [
+    {
+     "name": "AB YRKESHOGSKOLAN VID ABO AKADEMI",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 328950
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Vocational school (Abo Akademi unit) on adaptive learning in maritime simulators; a training-tech spin-out is possible but the project ended August 2026.",
+   "coordinator": {
+    "name": "UNIVERSITETET I TROMSOE - NORGES ARKTISKE UNIVERSITET",
+    "country": "NO",
+    "sme": false
+   },
+   "ec_signature_date": "2022-06-02",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 26,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "MARBEFES",
+   "title": "MARine Biodiversity and Ecosystem Functioning leading to Ecosystem Services",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL6-2021-BIODIV-01",
+   "start": "2022-09-01",
+   "end": "2027-02-28",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101060937",
+   "grant_agreement_id": "101060937",
+   "rcn": "241726",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/935d834b-7909-3886-b0e2-da17a760ed13",
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 526130
+    },
+    {
+     "name": "ABO AKADEMI",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 273370
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Helsinki and Abo Akademi on marine biodiversity and ecosystem services (coordinated by the Institute of Oceanology, Polish Academy of Sciences); research-only partners. Runs to 28 Feb 2027.",
+   "coordinator": {
+    "name": "INSTYTUT OCEANOLOGII POLSKIEJ AKADEMII NAUK",
+    "country": "PL",
+    "sme": false
+   },
+   "ec_signature_date": "2022-06-02",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 27,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "ICEBERG",
+   "title": "INNOVATIVE COMMUNITY ENGAGEMENT FOR BUILDING EFFECTIVE RESILIENCE AND ARCTIC OCEAN POLLUTION-CONTROL GOVERNANCE IN THE CONTEXT OF CLIMATE CHANGE",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL6-2023-ZEROPOLLUTION-01",
+   "start": "2024-01-01",
+   "end": "2027-06-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101135130",
+   "grant_agreement_id": "101135130",
+   "rcn": "259556",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/ef50f3d5-41a3-32f0-8148-9a049138cc5e",
+   "finnish_participants": [
+    {
+     "name": "OULUN YLIOPISTO",
+     "type": "see CORDIS",
+     "role": "coordinator",
+     "ec_contribution_eur": 852375
+    },
+    {
+     "name": "LAPIN YLIOPISTO",
+     "type": "see CORDIS",
+     "role": "participant",
+     "ec_contribution_eur": 507500
+    },
+    {
+     "name": "WOMEN OF THE ARCTIC RY",
+     "type": "?",
+     "role": "participant",
+     "ec_contribution_eur": 378750
+    },
+    {
+     "name": "KASKAS MEDIA OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 330000
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "KASKAS MEDIA OY",
+     "businessId": "2536207-5",
+     "registered": "2013-03-01",
+     "age_years": 13.6,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "Coordinated by the University of Oulu with the University of Lapland, Kaskas Media (registered 2013) and Women of the Arctic, on Arctic-ocean pollution governance. Media and governance focus, weak technology path. Runs to 30 Jun 2027.",
+   "coordinator": {
+    "name": "OULUN YLIOPISTO",
+    "country": "FI",
+    "sme": false
+   },
+   "ec_signature_date": "2023-11-22",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 28,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "FOREMAST",
+   "title": "Freight vOlumes transfer from Road to waterborne transport, using zero-EMission, Automated, Small and flexible vessel protoTypes",
+   "funding_scheme": "HORIZON  Research and Innovation Actions",
+   "scheme_code": "RIA",
+   "call": "HORIZON-CL5-2023-D5-01",
+   "start": "2024-01-01",
+   "end": "2026-12-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101138261",
+   "grant_agreement_id": "101138261",
+   "rcn": "259194",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/fe398f89-ca3d-3286-861d-406020e6ef80",
+   "finnish_participants": [
+    {
+     "name": "ABB OY",
+     "type": "PRC",
+     "role": "participant",
+     "ec_contribution_eur": 137500
+    }
+   ],
+   "company_age_check_prh": [
+    {
+     "name": "ABB OY",
+     "businessId": "0763403-0",
+     "registered": "1989-10-18",
+     "age_years": 37.0,
+     "young_within_10_years": false,
+     "note": ""
+    }
+   ],
+   "why_could_become_company": "ABB-only partner on road-to-waterborne freight; large corporate, low start-up fit.",
+   "coordinator": {
+    "name": "INLECOM GROUP",
+    "country": "BE",
+    "sme": true
+   },
+   "ec_signature_date": "2023-11-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 29,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "DTO-BioFlow",
+   "title": "Integration of biodiversity monitoring data into the Digital Twin Ocean",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-MISS-2022-OCEAN-01",
+   "start": "2023-09-01",
+   "end": "2027-02-28",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101112823",
+   "grant_agreement_id": "101112823",
+   "rcn": "254965",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/42b20352-9b1a-30c5-9ef6-6a3f8b773e75",
+   "finnish_participants": [
+    {
+     "name": "CSC-TIETEEN TIETOTEKNIIKAN KESKUS OY",
+     "type": "?",
+     "role": "participant",
+     "ec_contribution_eur": 153125
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "CSC (a state IT company) on ocean biodiversity data integration; data-service spin-out possible but the Finnish partner is not a start-up.",
+   "coordinator": {
+    "name": "VLAAMS INSTITUUT VOOR DE ZEE",
+    "country": "BE",
+    "sme": false
+   },
+   "ec_signature_date": "2023-05-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 30,
+   "score": 7,
+   "tier": "Low",
+   "acronym": "CircSyst",
+   "title": "Circular Systemic Solutions for Plastic, Packaging, Bio-Waste, and Water",
+   "funding_scheme": "HORIZON Innovation Actions",
+   "scheme_code": "IA",
+   "call": "HORIZON-CL6-2023-CIRCBIO-02",
+   "start": "2024-06-01",
+   "end": "2027-05-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101135505",
+   "grant_agreement_id": "101135505",
+   "rcn": "263721",
+   "acronym_uri": "http://data.europa.eu/s66/resource/acronyms/d6a62675-2348-3273-8fe8-3555bf36c8bd",
+   "finnish_participants": [
+    {
+     "name": "HELSINGIN YLIOPISTO",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 499919
+    },
+    {
+     "name": "LAB-AMMATTIKORKEAKOULU OY",
+     "type": "HES",
+     "role": "participant",
+     "ec_contribution_eur": 414678
+    }
+   ],
+   "company_age_check_prh": [],
+   "why_could_become_company": "Water and plastics focus rather than ocean; Helsinki and Lab University of Applied Sciences. Included only to reach 30; not an ocean candidate.",
+   "coordinator": {
+    "name": "ASOCIACION DE INVESTIGACION DE LA INDUSTRIA DEL JUGUETE CONEXAS Y AFINES",
+    "country": "ES",
+    "sme": false
+   },
+   "ec_signature_date": "2024-05-21",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)",
+   "rights_status": "unknown"
+  },
+  {
+   "rank": 31,
+   "score": null,
+   "tier": "Local (non-CORDIS)",
+   "acronym": "ReNuW-Hubs",
+   "title": "ReNuW-Hubs: mobile wastewater nutrient recovery (Interreg Central Baltic)",
+   "funding_scheme": "Interreg Central Baltic 2021-2027",
+   "scheme_code": "Interreg",
+   "call": null,
+   "start": "2025-05-01",
+   "end": "2028-04-30",
+   "status_on_2026_10_16": "running",
+   "cordis_url": null,
+   "source_url": "https://centralbaltic.eu/project/renuw-hubs/",
+   "grant_agreement_id": null,
+   "rcn": null,
+   "acronym_uri": null,
+   "source": "interreg_central_baltic",
+   "programme_priority": "Improved environment and resource use (PO3: joint circular economy solutions)",
+   "budget_note": "Not stated on the programme page (a secondary source says about EUR 2.08M; unverified)",
+   "coordinator": {
+    "name": "University of Turku",
+    "country": "FI",
+    "sme": false,
+    "role": "lead partner"
+   },
+   "finnish_participants": [
+    {
+     "name": "University of Turku",
+     "type": "HES",
+     "role": "lead partner",
+     "ec_contribution_eur": null
+    }
+   ],
+   "company_age_check_prh": [],
+   "rights_status": "unknown",
+   "project_type": "Interreg project, no company found",
+   "why_could_become_company": "The University of Turku leads an upgrade of a mobile wastewater-treatment device in a 20-foot container that recovers phosphorus and nitrogen and produces reclaimed irrigation water and hydro-char. No company found yet. A local Turku row, and proof that the tab reads funding streams outside CORDIS (Interreg projects are not in CORDIS).",
+   "cordis_rechecked_at": "n/a (centralbaltic.eu read 2026-10-17)"
+  },
+  {
+   "rank": 32,
+   "score": null,
+   "tier": "EU (outside FI)",
+   "acronym": "SmartGLASS",
+   "title": "Functionalized Glass Membranes for Resource Recovery from Waste Streams",
+   "funding_scheme": "ERC Proof of Concept",
+   "scheme_code": "ERC-POC",
+   "call": null,
+   "start": "2026-10-01",
+   "end": "2028-03-31",
+   "status_on_2026_10_16": "running",
+   "cordis_url": "https://cordis.europa.eu/project/id/101333547",
+   "grant_agreement_id": "101333547",
+   "rcn": null,
+   "acronym_uri": null,
+   "source": "cordis",
+   "coordinator": {
+    "name": "AALBORG UNIVERSITET",
+    "country": "DK",
+    "sme": false
+   },
+   "finnish_participants": [],
+   "ec_signature_date": "2026-07-25",
+   "ec_max_contribution_eur": 150000,
+   "company_age_check_prh": [],
+   "rights_status": "unknown",
+   "project_type": "ERC Proof of Concept, newly signed",
+   "why_could_become_company": "ERC Proof of Concept grant signed 25 Jul 2026 (start 1 Oct 2026) at AALBORG UNIVERSITET: the 'new EU grant signed' reason chip in action. Outside Finland, so it also shows the tab works for any EU country.",
+   "cordis_rechecked_at": "2026-10-17 (CORDIS JSON export, cordis.europa.eu/project/id/<id>?format=json)"
+  }
+ ],
+ "groups": [
+  {
+   "name": "Centre for Sustainable Ocean Science (SOS) and Environmental and Marine Biology unit",
+   "institution": "Abo Akademi University",
+   "country": "FI",
+   "url": "https://sites.abo.fi/centre-for-sustainable-ocean-science/",
+   "focus": "Marine biodiversity problems, Archipelago Sea and Aland as case area; marine coastal ecology, stress and food-web ecology, marine spatial planning",
+   "testbeds_labs": "Two marine research stations in the Archipelago and Aland Sea (per Abo Akademi pages)",
+   "notable_projects": "SOS Centre of Excellence 2024-2028 (Abo Akademi Foundation funding)",
+   "public_spinouts": "None found",
+   "source_status": "official pages seen in search results; not fetched directly"
+  },
+  {
+   "name": "Archipelago Research Institute (Seili marine station)",
+   "institution": "University of Turku",
+   "country": "FI",
+   "url": "https://sites.utu.fi/seili/en/station/",
+   "focus": "Baltic and Archipelago Sea biology and geology; long-term monitoring since 1966",
+   "testbeds_labs": "Marine field station on Seili: laboratories, field equipment, boats, ODAS profiling buoy",
+   "notable_projects": "Participates in FINMARI, RESTAT, AnaEE, FinLTSER, EMBRC-ERIC networks; public data site saaristomeri.utu.fi",
+   "public_spinouts": "None found",
+   "source_status": "official page seen in search results; not fetched directly"
+  },
+  {
+   "name": "Marine Structures; Arctic Marine Engineering and Ice Mechanics; Risks and Intelligence in Marine System",
+   "institution": "Aalto University (Marine and Arctic Technology)",
+   "country": "FI",
+   "url": "https://www.aalto.fi/en/marineandarctic",
+   "focus": "Ship and offshore structures, ship-ice interaction, maritime risk analysis and decision support",
+   "testbeds_labs": "Aalto Ice and Wave Tank; Solid Mechanics Laboratory",
+   "notable_projects": "None named on the page",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved"
+  },
+  {
+   "name": "Marine research activities (SYKE)",
+   "institution": "Finnish Environment Institute (SYKE)",
+   "country": "FI",
+   "url": "https://www.syke.fi/en",
+   "focus": "Marine monitoring and modelling, water quality, Baltic Sea",
+   "testbeds_labs": "Research vessel Aranda with research cruises; marine research laboratory; water and marine modelling services",
+   "notable_projects": "GYPREG (final seminar 28 Oct 2026, Baltic Sea gypsum remediation)",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved (the dedicated marine-centre URL returned 404)"
+  },
+  {
+   "name": "Marine Research Unit (physical oceanography and sea ice)",
+   "institution": "Finnish Meteorological Institute (FMI)",
+   "country": "FI",
+   "url": "https://en.ilmatieteenlaitos.fi/marine-research/",
+   "focus": "Sea ice, waves, sea level, ocean circulation; tools for safe shipping and marine forecasting",
+   "testbeds_labs": "Not named (winter CTD measurement campaigns); member of FINMARI",
+   "notable_projects": "None named on the page; works with private and public partners on marine solutions",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved after redirect"
+  },
+  {
+   "name": "Mariculture research infrastructure and fish stocks / aquaculture research environment",
+   "institution": "Natural Resources Institute Finland (Luke)",
+   "country": "FI",
+   "url": "https://www.luke.fi/en",
+   "focus": "Aquaculture and fish farming, genomics and breeding of farmed fish, sensory tools for fish off-flavours",
+   "testbeds_labs": "Mariculture research infrastructure; Laukaa, Enonkoski, Inari, Keminmaa, Taivalkoski research infrastructures; otolith laboratory",
+   "notable_projects": "Breeding of farmed fish for sustainable consumption; off-flavour mitigation tools",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved"
+  },
+  {
+   "name": "Maritime Technology research area",
+   "institution": "Novia University of Applied Sciences",
+   "country": "FI",
+   "url": "https://www.novia.fi/en/rdi",
+   "focus": "Maritime technology; simulator-based development and innovation (one of six RDI areas, about 20 percent of 2024 project portfolio, about EUR 28.6 million over 181 projects)",
+   "testbeds_labs": "Simulator environment (Aboa Mare not confirmed on the page)",
+   "notable_projects": "MaDaMe, digital maritime information exchange (final seminar 30 Sep 2026)",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved (Aboa Mare and remote-pilotage pages not reached)"
+  },
+  {
+   "name": "Estonian Maritime Academy and Simulator Centre",
+   "institution": "Tallinn University of Technology (TalTech)",
+   "country": "EE",
+   "url": "https://taltech.ee/en/estonian-maritime-academy",
+   "focus": "Maritime education and applied research for the Baltic Sea region; marine pollution control; maritime cybersecurity mentioned",
+   "testbeds_labs": "Simulator Centre (bridge, engine room, marine pollution control simulators, PISCES II)",
+   "notable_projects": "REISFER (green island ferries, midpoint Oct 2025); NOMAD team won MarineHaekk 2026 with an autonomous naval surface drone concept; oil spill response cooperation",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved"
+  },
+  {
+   "name": "DTU Aqua (National Institute of Aquatic Resources)",
+   "institution": "Technical University of Denmark",
+   "country": "DK",
+   "url": "https://aqua.dtu.dk/english",
+   "focus": "Aquaculture, coastal ecology, marine biodiversity, fisheries technology, observation technology, oceanography; blue bioeconomy",
+   "testbeds_labs": "Research vessels Havfisken and Dana; oyster hatchery; fish lab; four sites in Denmark",
+   "notable_projects": "Isla Bonita (Bornholm fish nurseries); MPA4Sustainability (EU restoration guidance)",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved"
+  },
+  {
+   "name": "Department of Marine Technology (IMT) incl. AUR-Lab and Norwegian Ocean Technology Centre",
+   "institution": "NTNU, Norway",
+   "country": "NO",
+   "url": "https://www.ntnu.edu/imt",
+   "focus": "Ship technology, offshore renewables, coastal infrastructure, marine robotics and ocean mapping",
+   "testbeds_labs": "AUR-Lab (Applied Underwater Robotics), cavitation laboratory; Norwegian Ocean Technology Centre under construction (new building spring 2025)",
+   "notable_projects": "None named on the page",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "official page retrieved (ntnu.edu/ocean returned 404)"
+  },
+  {
+   "name": "Ocean space research area (incl. subsea riser testing)",
+   "institution": "SINTEF",
+   "country": "NO",
+   "url": "https://www.sintef.no/en/",
+   "focus": "Ocean space; subsea riser fatigue under wave and internal flow",
+   "testbeds_labs": "Large-scale transparent riser test (news item); SINTEF Ocean laboratory page returned 404",
+   "notable_projects": "Riser fatigue prediction method",
+   "public_spinouts": "None mentioned on the page",
+   "source_status": "partial: official root page retrieved; SINTEF Ocean subpages returned 404"
+  },
+  {
+   "name": "AIRSHIP group (autonomous ground-effect flying ships)",
+   "institution": "Tampere University (EU project partner)",
+   "country": "FI",
+   "url": "https://cordis.europa.eu/project/id/101096487",
+   "focus": "Unmanned, electric ground-effect vehicle for coastal and archipelago cargo; Tampere supplies aeronautical know-how",
+   "testbeds_labs": "Not confirmed",
+   "notable_projects": "AIRSHIP (2023-2026), coordinated from Madrid",
+   "public_spinouts": "None found",
+   "source_status": "partial: CORDIS project page and search snippets; no Tampere group page found"
+  },
+  {
+   "name": "VTT maritime and marine energy projects (CORDIS evidence only)",
+   "institution": "VTT Technical Research Centre of Finland",
+   "country": "FI",
+   "url": "https://www.vtt.fi/en",
+   "focus": "Marine engines and retrofit, marine fuel cells and power-to-X, ship-building circularity, process water reuse",
+   "testbeds_labs": "Not verified (VTT page returned 403)",
+   "notable_projects": "GREEN RAY (coordinator), FuelSOME, H2MARINE, CirclesOfLife, R3VOLUTION (process water, not ocean)",
+   "public_spinouts": "None found",
+   "source_status": "partial: CORDIS data only; VTT pages returned 403"
+  }
+ ],
+ "sources_note": "CORDIS projects (Horizon Europe, ERC, EIC) re-checked against the CORDIS JSON export on 17 Oct 2026; the cached SPARQL statuses were stale. Plus Interreg Central Baltic (programme site), whose projects are not in CORDIS. Every card shows rights_status 'unknown': open code or a paper is not a licence.",
+ "recheck_w15b": {
+  "date": "2026-10-17",
+  "rows_changed": [
+   {
+    "acronym": "GREEN RAY",
+    "changed": {},
+    "finnish_roles_added": [
+     [
+      "ILMATIETEEN LAITOS",
+      "participant"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "CirclesOfLife",
+    "changed": {},
+    "finnish_roles_added": [
+     [
+      "MEYER TURKU OY",
+      "participant"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "SEAMLESS",
+    "changed": {},
+    "finnish_roles_added": [
+     [
+      "KALMAR FINLAND OY",
+      "thirdParty"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": false
+   },
+   {
+    "acronym": "REALM",
+    "changed": {
+     "end": [
+      "2026-06-30",
+      "2027-06-30"
+     ],
+     "status_on_2026_10_16": [
+      "ended",
+      "running"
+     ]
+    },
+    "finnish_roles_added": [],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "REFOLUTION",
+    "changed": {},
+    "finnish_roles_added": [
+     [
+      "TEKNOLOGIAN TUTKIMUSKESKUS VTT OY",
+      "participant"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "VIGIMARE",
+    "changed": {
+     "end": [
+      "2027-08-31",
+      "2027-09-30"
+     ]
+    },
+    "finnish_roles_added": [
+     [
+      "JYVASKYLAN YLIOPISTO",
+      "participant"
+     ],
+     [
+      "LAUREA-AMMATTIKORKEAKOULU OY",
+      "coordinator"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "STEESMAT",
+    "changed": {},
+    "finnish_roles_added": [
+     [
+      "DANFOSS DRIVES OY",
+      "participant"
+     ],
+     [
+      "LAPPEENRANNAN-LAHDEN TEKNILLINEN YLIOPISTO LUT",
+      "participant"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "MARBEFES",
+    "changed": {
+     "end": [
+      "2026-08-31",
+      "2027-02-28"
+     ],
+     "status_on_2026_10_16": [
+      "ended",
+      "running"
+     ]
+    },
+    "finnish_roles_added": [],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   },
+   {
+    "acronym": "ICEBERG",
+    "changed": {
+     "end": [
+      "2026-12-31",
+      "2027-06-30"
+     ]
+    },
+    "finnish_roles_added": [
+     [
+      "LAPIN YLIOPISTO",
+      "participant"
+     ],
+     [
+      "OULUN YLIOPISTO",
+      "coordinator"
+     ]
+    ],
+    "finnish_roles_removed": [],
+    "text_fixed": true
+   }
+  ]
+ }
+}

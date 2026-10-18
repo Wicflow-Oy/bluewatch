@@ -1,0 +1,516 @@
+/* Outreach desk (TIDEPOOL-SYSTEM.md 5.8): a calm stepper flow around one draft and its one action. */
+
+/* ---- header ---- */
+.outreach-picker {
+  width: min(320px, 100%);
+}
+
+.outreach-picker__select.select {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.outreach-banner.callout {
+  margin-bottom: 16px;
+  box-shadow: inset 0 0 0 1px var(--amber-line);
+}
+
+.outreach-banner strong {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ---- desk layout ---- */
+.outreach-desk {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+}
+
+.outreach-steps.capsule {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 10px 16px;
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+}
+
+.outreach-steps .stepper {
+  flex: 1;
+  min-height: 32px;
+}
+
+.outreach-steps .btn {
+  flex: none;
+}
+
+.outreach-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 16px;
+  align-items: start;
+}
+
+.outreach-grid__main,
+.outreach-grid__side {
+  display: grid;
+  gap: 16px;
+  min-width: 0;
+  animation: tp-rise var(--d-enter) var(--ease) backwards;
+}
+
+.outreach-grid__main {
+  animation-delay: 60ms;
+}
+
+.outreach-grid__side {
+  animation-delay: 120ms;
+}
+
+@media (min-width: 1280px) {
+  .outreach-grid {
+    grid-template-columns: minmax(0, 7fr) minmax(0, 5fr);
+  }
+}
+
+/* ---- draft panel ---- */
+
+/* One grid for every field, so the labels share a column as wide as the longest (Finnish) label. */
+.outreach-fields {
+  display: grid;
+  grid-template-columns: minmax(72px, max-content) minmax(0, 1fr);
+  align-items: start;
+  gap: 6px 16px;
+}
+
+.outreach-field {
+  display: contents;
+}
+
+.outreach-field dt {
+  min-height: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.outreach-field dd {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  min-height: 30px;
+  font-size: 13px;
+  color: var(--ink);
+}
+
+.outreach-field .mono {
+  font-size: 12.5px;
+  overflow-wrap: anywhere;
+}
+
+.outreach-subject {
+  font: 600 15px/1.35 var(--sans);
+  letter-spacing: -0.015em;
+  overflow-wrap: anywhere;
+}
+
+.outreach-info {
+  display: inline-grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border-radius: var(--r-pill);
+  color: var(--muted);
+  transition:
+    background-color var(--d-fast) var(--ease),
+    color var(--d-fast) var(--ease);
+}
+
+.outreach-info:hover {
+  color: var(--ink);
+  background: var(--sunken);
+}
+
+.outreach-reasons {
+  display: grid;
+  gap: 4px;
+  padding-left: 16px;
+  list-style: disc;
+}
+
+.outreach-body.inset {
+  max-height: 360px;
+  margin-top: 16px;
+  padding: 16px 18px;
+  overflow-y: auto;
+  border-radius: var(--r-md);
+  font-size: 14px;
+  line-height: 1.6;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  color: var(--ink);
+}
+
+.outreach-body--loading.inset {
+  white-space: normal;
+}
+
+.outreach-body__footer {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.outreach-questions {
+  display: grid;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.outreach-questions__list {
+  display: grid;
+  gap: 10px;
+}
+
+.outreach-question {
+  display: grid;
+  grid-template-columns: 24px minmax(0, 1fr) auto;
+  align-items: start;
+  gap: 10px;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.outreach-question__n {
+  display: inline-grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font: 550 11px/1 var(--mono);
+  color: var(--ink-2);
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.outreach-question__text {
+  padding-top: 2px;
+  color: var(--ink);
+}
+
+.outreach-closes-link.chip-btn {
+  height: 26px;
+  max-width: 100%;
+  font-size: 12px;
+  color: var(--accent-text);
+  box-shadow: inset 0 0 0 1px var(--accent-line);
+}
+
+.outreach-closes-link.chip-btn:hover {
+  background: var(--accent-soft);
+}
+
+/* ---- the one action: a frosted bar that sticks to the panel's bottom while the draft is read ---- */
+.outreach-action {
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  display: grid;
+  gap: 8px;
+  margin: 20px -20px -20px;
+  padding: 12px 20px;
+  border-top: 1px solid var(--line);
+  border-radius: 0 0 var(--r-xl) var(--r-xl);
+  background: color-mix(in srgb, var(--surface) 90%, transparent);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+.outreach-action__row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.outreach-action__button:hover {
+  text-decoration: none;
+}
+
+.outreach-action__note {
+  min-width: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--ink-2);
+}
+
+.outreach-action__error {
+  font-size: 13px;
+  color: var(--red);
+}
+
+.outreach-action__error span {
+  color: var(--ink-2);
+}
+
+.outreach-hash {
+  font: 450 12px/1.3 var(--mono);
+  color: var(--muted);
+  text-decoration: underline dotted var(--line-3);
+  text-underline-offset: 4px;
+  cursor: help;
+}
+
+.outreach-ok,
+.outreach-sent {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.outreach-ok {
+  color: var(--sea);
+}
+
+.outreach-ok svg,
+.outreach-sent svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.outreach-sent svg {
+  color: var(--amber);
+}
+
+.outreach-ok__detail {
+  display: block;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.outreach-blocked {
+  display: grid;
+  gap: 8px;
+  padding: 12px 14px;
+  border-radius: var(--r-md);
+  font-size: 13px;
+  color: var(--ink-2);
+  background: var(--red-soft);
+  box-shadow: inset 0 0 0 1px var(--red-line);
+}
+
+.outreach-blocked__title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+  color: var(--red);
+}
+
+.outreach-spin {
+  animation: tp-spin 0.8s linear infinite;
+}
+
+/* ---- what this closes: the flip from unknown (hatch) to confirmed (sea) ---- */
+.closes {
+  display: grid;
+  gap: 8px;
+}
+
+.closes__item.inset {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  padding: 14px 16px;
+  overflow: hidden;
+  border-radius: var(--r-md);
+  transition: box-shadow var(--d-lift) var(--ease);
+}
+
+.closes__item:focus-visible {
+  outline-offset: 2px;
+}
+
+.closes__item > * {
+  position: relative;
+}
+
+.closes__item::before,
+.closes__item::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.closes__item::before {
+  background-image: var(--hatch);
+  opacity: 0.7;
+  transition: opacity var(--d-lift) var(--ease);
+}
+
+.closes__item::after {
+  background: var(--sea-soft);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--d-lift) var(--ease);
+}
+
+/* A loading item is not an unknown yet, so it gets no hatch. */
+.closes__item--loading::before {
+  content: none;
+}
+
+.closes__item--confirmed.inset {
+  box-shadow: inset 0 0 0 1px var(--sea-line);
+}
+
+.closes__item--confirmed::before {
+  opacity: 0;
+}
+
+.closes__item--confirmed::after {
+  transform: scaleX(1);
+}
+
+.closes__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.closes__why,
+.closes__claim {
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.closes__why {
+  color: var(--ink-2);
+}
+
+.closes__claim {
+  font-weight: 550;
+  color: var(--ink);
+}
+
+.closes__ask {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 12.5px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.closes__ask svg {
+  flex: none;
+  margin-top: 2px;
+}
+
+.closes__note {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+/* ---- blocked and unavailable: hatched, because something is missing, not broken ---- */
+.outreach-unmatched {
+  background-image: var(--hatch);
+}
+
+.outreach-unavailable,
+.outreach-refused {
+  background-image: var(--hatch-red);
+  box-shadow:
+    var(--sh-1),
+    inset 0 0 0 1px var(--red-line);
+}
+
+.outreach .btn[aria-disabled="true"] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* ---- phone ---- */
+@media (max-width: 719px) {
+  .outreach-picker {
+    width: 100%;
+  }
+
+  .outreach-picker__select.select {
+    height: 44px;
+    font-size: 16px; /* 16px stops iOS zoom */
+  }
+
+  .outreach-steps.capsule {
+    gap: 8px;
+    padding: 6px 6px 6px 14px;
+  }
+
+  .outreach-steps .btn {
+    width: 44px;
+    height: 44px;
+    padding: 0;
+  }
+
+  .outreach-steps .btn span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+  }
+
+  /* The status drops under the title so long Finnish and Swedish words never squeeze it. */
+  .outreach-draft .panel__header {
+    flex-wrap: wrap;
+    row-gap: 2px;
+  }
+
+  .outreach-draft .panel__meta {
+    order: 1;
+    flex-basis: 100%;
+  }
+
+  .outreach-fields {
+    column-gap: 12px;
+  }
+
+  .outreach-question {
+    grid-template-columns: 24px minmax(0, 1fr);
+  }
+
+  .outreach-closes-link.chip-btn {
+    grid-column: 2;
+    justify-self: start;
+  }
+
+  .outreach-action {
+    bottom: calc(var(--tabbar-h) + var(--tabbar-gap) + 8px + env(safe-area-inset-bottom));
+    margin-inline: -16px;
+    padding-inline: 16px;
+  }
+
+  .outreach-action__row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 12px;
+  }
+
+  .outreach-action__button {
+    width: 100%;
+  }
+}

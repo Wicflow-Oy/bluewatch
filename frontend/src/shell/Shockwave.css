@@ -1,0 +1,68 @@
+/* z-index -1 on a fixed layer puts it above the canvas (body's background) and below every in-flow
+   element, so the rings show only between cards and through the frosted bars. */
+.shockwave {
+  position: fixed;
+  inset: 0;
+  z-index: var(--z-shock);
+  pointer-events: none;
+  overflow: hidden;
+  contain: strict;
+}
+
+.shock {
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.shock__ring {
+  position: absolute;
+  left: -30vmax;
+  top: -30vmax;
+  width: 60vmax;
+  height: 60vmax;
+  border-radius: 50%;
+  border: 1px solid var(--accent);
+  opacity: 0;
+  transform: scale(0.02);
+  will-change: transform, opacity;
+  animation: tp-shock 1100ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.shock__ring--echo {
+  animation: tp-shock-echo 1000ms 120ms cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+@keyframes tp-shock {
+  0% {
+    opacity: 0;
+    transform: scale(0.02);
+  }
+  12% {
+    opacity: var(--shock-peak);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes tp-shock-echo {
+  0% {
+    opacity: 0;
+    transform: scale(0.02);
+  }
+  15% {
+    opacity: calc(var(--shock-peak) * 0.5);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.84);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shockwave {
+    display: none;
+  }
+}

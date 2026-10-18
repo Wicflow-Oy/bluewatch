@@ -1,0 +1,606 @@
+[
+ {
+  "input": "Sireness",
+  "country": "FI",
+  "domain": "sireness.fi",
+  "steps": {
+   "registry": {
+    "sec": 1.19,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Sireness Oy",
+       "id": "3568392-1",
+       "reg": "2025-09-29",
+       "tol": "72100"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 1.54,
+    "err": null,
+    "val": {
+     "bytes": 88628,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.21,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 5925
+    }
+   },
+   "ted_awards": {
+    "sec": 0.38,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 24.66,
+    "err": null,
+    "val": {
+     "first_cert": "2025-10-21",
+     "n": 14
+    }
+   }
+  },
+  "resolved_business_id": "3568392-1",
+  "total_sec_sequential": 33.0,
+  "max_step_sec": 24.66
+ },
+ {
+  "input": "Sub Marine Store",
+  "country": "FI",
+  "domain": "substore.fi",
+  "steps": {
+   "registry": {
+    "sec": 1.28,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Sub Marine Store Oy",
+       "id": "3197621-7",
+       "reg": "2021-03-15",
+       "tol": "46900"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.63,
+    "err": null,
+    "val": {
+     "bytes": 108981,
+     "vat_ids": [
+      "3197621-7"
+     ],
+     "business_ids": [
+      "3197621-7"
+     ]
+    }
+   },
+   "prh_notices": {
+    "sec": 0.22,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 7365
+    }
+   },
+   "ted_awards": {
+    "sec": 0.22,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 7.21,
+    "err": null,
+    "val": {
+     "first_cert": "2021-03-16",
+     "n": 227
+    }
+   }
+  },
+  "resolved_business_id": "3197621-7",
+  "total_sec_sequential": 14.6,
+  "max_step_sec": 7.21
+ },
+ {
+  "input": "Marine Charging Point",
+  "country": "FI",
+  "domain": "marinechargingpoint.com",
+  "steps": {
+   "registry": {
+    "sec": 1.46,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Marine Charging Point Ab Oy",
+       "id": "3134791-2",
+       "reg": "2020-05-07",
+       "tol": "27120"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 3.39,
+    "err": null,
+    "val": {
+     "bytes": 187643,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.21,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 10696
+    }
+   },
+   "ted_awards": {
+    "sec": 0.25,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 1.63,
+    "err": null,
+    "val": {
+     "first_cert": "2020-08-12",
+     "n": 164
+    }
+   }
+  },
+  "resolved_business_id": "3134791-2",
+  "total_sec_sequential": 11.9,
+  "max_step_sec": 3.39
+ },
+ {
+  "input": "Alpo Pro Boats",
+  "country": "FI",
+  "domain": "alpovene.fi",
+  "steps": {
+   "registry": {
+    "sec": 1.16,
+    "err": null,
+    "val": {
+     "total": 2,
+     "top": [
+      {
+       "name": "Kiinteistö Oy Kairakatu 23",
+       "id": "1844373-1",
+       "reg": "2003-08-07",
+       "tol": "68203"
+      },
+      {
+       "name": "Alpo Pro Boats Oy",
+       "id": "3101791-3",
+       "reg": "2019-11-26",
+       "tol": "25990"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.31,
+    "err": null,
+    "val": {
+     "bytes": 37106,
+     "vat_ids": [],
+     "business_ids": [
+      "3101791-3"
+     ]
+    }
+   },
+   "prh_notices": {
+    "sec": 0.19,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 8157
+    }
+   },
+   "ted_awards": {
+    "sec": 0.27,
+    "err": null,
+    "val": {
+     "awards": 3,
+     "ids": [
+      "433538-2025",
+      "152432-2026",
+      "423989-2026"
+     ]
+    }
+   },
+   "crt_sh": {
+    "sec": 6.83,
+    "err": null,
+    "val": {
+     "first_cert": "2020-03-31",
+     "n": 147
+    }
+   }
+  },
+  "resolved_business_id": "3101791-3",
+  "total_sec_sequential": 13.8,
+  "max_step_sec": 6.83
+ },
+ {
+  "input": "Norsepower",
+  "country": "FI",
+  "domain": "norsepower.com",
+  "steps": {
+   "registry": {
+    "sec": 1.46,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Norsepower Oy Ltd",
+       "id": "2506251-5",
+       "reg": "2012-10-22",
+       "tol": "30110"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 1.22,
+    "err": null,
+    "val": {
+     "bytes": 143536,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.26,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 18877
+    }
+   },
+   "ted_awards": {
+    "sec": 0.25,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 3.01,
+    "err": null,
+    "val": {
+     "first_cert": "2018-03-08",
+     "n": 351
+    }
+   }
+  },
+  "resolved_business_id": "2506251-5",
+  "total_sec_sequential": 11.2,
+  "max_step_sec": 3.01
+ },
+ {
+  "input": "Kelluu",
+  "country": "FI",
+  "domain": "kelluu.com",
+  "steps": {
+   "registry": {
+    "sec": 1.13,
+    "err": null,
+    "val": {
+     "total": 2,
+     "top": [
+      {
+       "name": "Kelluu Clothing Oy",
+       "id": "3431445-4",
+       "reg": "2024-02-29",
+       "tol": "47712"
+      },
+      {
+       "name": "Kelluu Oy",
+       "id": "2902007-2",
+       "reg": "2018-03-09",
+       "tol": "30310"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.26,
+    "err": null,
+    "val": {
+     "bytes": 94101,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.23,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 8962
+    }
+   },
+   "ted_awards": {
+    "sec": 0.2,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 1.94,
+    "err": null,
+    "val": {
+     "first_cert": "2018-11-22",
+     "n": 375
+    }
+   }
+  },
+  "resolved_business_id": "3431445-4",
+  "total_sec_sequential": 8.8,
+  "max_step_sec": 1.94
+ },
+ {
+  "input": "Origin by Ocean",
+  "country": "FI",
+  "domain": "originbyocean.com",
+  "steps": {
+   "registry": {
+    "sec": 1.17,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Origin by Ocean Oy",
+       "id": "2982879-2",
+       "reg": "2019-02-19",
+       "tol": "20590"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.44,
+    "err": null,
+    "val": {
+     "bytes": 110202,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.21,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 13872
+    }
+   },
+   "ted_awards": {
+    "sec": 0.2,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 23.2,
+    "err": null,
+    "val": {
+     "first_cert": "2019-05-21",
+     "n": 142
+    }
+   }
+  },
+  "resolved_business_id": "2982879-2",
+  "total_sec_sequential": 30.2,
+  "max_step_sec": 23.2
+ },
+ {
+  "input": "Emission-Eye",
+  "country": "FI",
+  "domain": "emission-eye.io",
+  "steps": {
+   "registry": {
+    "sec": 1.77,
+    "err": null,
+    "val": {
+     "total": 1,
+     "top": [
+      {
+       "name": "Emission-Eye Oy",
+       "id": "3543918-7",
+       "reg": "2025-06-13",
+       "tol": "62100"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.49,
+    "err": null,
+    "val": {
+     "bytes": 195710,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.26,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 6449
+    }
+   },
+   "ted_awards": {
+    "sec": 0.57,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 12.78,
+    "err": null,
+    "val": {
+     "first_cert": "2025-08-06",
+     "n": 22
+    }
+   }
+  },
+  "resolved_business_id": "3543918-7",
+  "total_sec_sequential": 20.9,
+  "max_step_sec": 12.78
+ },
+ {
+  "input": "Zeabuz",
+  "country": "NO",
+  "domain": "zeabuz.com",
+  "steps": {
+   "registry": {
+    "sec": 0.28,
+    "err": null,
+    "val": [
+     {
+      "name": "ZEABUZ AS",
+      "orgnr": "924571179",
+      "founded": "2019-12-09",
+      "nace": "62.100"
+     }
+    ]
+   },
+   "homepage_ids": {
+    "sec": 1.01,
+    "err": null,
+    "val": {
+     "bytes": 129761,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 0.32,
+    "err": "HTTP Error 502: Bad Gateway",
+    "val": null
+   }
+  },
+  "resolved_business_id": null,
+  "total_sec_sequential": 4.6,
+  "max_step_sec": 1.01
+ },
+ {
+  "input": "Wolt",
+  "country": "FI",
+  "domain": "wolt.com",
+  "steps": {
+   "registry": {
+    "sec": 1.55,
+    "err": null,
+    "val": {
+     "total": 30,
+     "top": [
+      {
+       "name": "Tapani Woltter Ky",
+       "id": "0668931-2",
+       "reg": "1987-09-28",
+       "tol": "50202"
+      },
+      {
+       "name": "Idea ja Tuotanto Wolt Oy",
+       "id": "0713678-7",
+       "reg": "1988-10-13",
+       "tol": "74991"
+      },
+      {
+       "name": "Tupla-Woltti Oy",
+       "id": "0935671-6",
+       "reg": "1993-08-30",
+       "tol": "43210"
+      },
+      {
+       "name": "Woltax Oy",
+       "id": "0937566-9",
+       "reg": "1993-09-13",
+       "tol": "47521"
+      },
+      {
+       "name": "Oy Woltter Ab",
+       "id": "0943797-0",
+       "reg": "1993-10-20",
+       "tol": "05010"
+      }
+     ]
+    }
+   },
+   "homepage_ids": {
+    "sec": 0.57,
+    "err": null,
+    "val": {
+     "bytes": 400000,
+     "vat_ids": [],
+     "business_ids": []
+    }
+   },
+   "prh_notices": {
+    "sec": 0.16,
+    "err": null,
+    "val": {
+     "has_publicNotices": true,
+     "bytes": 3471
+    }
+   },
+   "ted_awards": {
+    "sec": 0.21,
+    "err": null,
+    "val": {
+     "awards": 0,
+     "ids": []
+    }
+   },
+   "crt_sh": {
+    "sec": 5.65,
+    "err": null,
+    "val": {
+     "first_cert": "2016-01-21",
+     "n": 2008
+    }
+   }
+  },
+  "resolved_business_id": "0668931-2",
+  "total_sec_sequential": 13.2,
+  "max_step_sec": 5.65
+ }
+]

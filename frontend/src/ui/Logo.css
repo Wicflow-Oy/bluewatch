@@ -1,0 +1,27 @@
+.mark__iris {
+  fill: var(--btn-ink);
+}
+
+.app-tile {
+  display: inline-grid;
+  place-items: center;
+  flex-shrink: 0;
+  color: var(--btn-ink-fg);
+  background: var(--btn-ink);
+  box-shadow:
+    0 1px 2px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transition: background-color var(--d-theme) var(--ease);
+}
+
+/* Outside a tile the iris is cut from the page, not the ink. */
+:not(.app-tile) > .mark .mark__iris {
+  fill: var(--canvas);
+}
+
+.wordmark {
+  font: 650 15px/1 var(--sans);
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  white-space: nowrap;
+}

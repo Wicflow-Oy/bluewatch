@@ -1,0 +1,7393 @@
+{
+ "run": "Mon 12 Oct 2026 (week 5-11 Oct)",
+ "computed": "2026-10-17 00:42",
+ "A_newly_founded": {
+  "events": 4513,
+  "founded": 3719,
+  "with_priors": 379,
+  "probed": [
+   {
+    "id": "3647437-1",
+    "name": "Sqalent Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647444-3",
+    "name": "Ravize Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647457-4",
+    "name": "onyt Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "onyt.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "onyt — yhteisöjen varainkeruu ryhmille, kerhoille ja yhdistyksille | onyt — yhteisövarainkeruu",
+    "final_url": "https://www.onyt.net/fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647476-9",
+    "name": "LitoSilicone Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "litosilicone.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "litosilicone.fi — Domain registered with JOKER.COM",
+    "final_url": "https://litosilicone.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647579-6",
+    "name": "Aurora Haven Oy",
+    "tol": "55203",
+    "tol_desc": "Short-stay accommodation in holiday cottages and cabins",
+    "website_field": null,
+    "domain": "aurorahaven.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "boating"
+    ],
+    "title": "Aurora Haven",
+    "final_url": "https://www.aurorahaven.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647580-9",
+    "name": "Malm Wealth Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647615-8",
+    "name": "BittiBoys Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "bittiboys.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "BittiBoys Oy — Ohjelmistokehitystä ja konsultointia Oulusta",
+    "final_url": "https://www.bittiboys.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647676-4",
+    "name": "JtelAI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647683-6",
+    "name": "SAMA Energia Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": "samaenergia.fi",
+    "domain": "samaenergia.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SAMA Energia — Itsenäinen energia. Itseohjautuva akku.",
+    "final_url": "https://samaenergia.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-17",
+    "aux": []
+   },
+   {
+    "id": "3647748-4",
+    "name": "Heino Marine Brokerage Oy",
+    "tol": "47631",
+    "tol_desc": "Retail sale of boats and boating accessories",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3647844-4",
+    "name": "FerroNord Oy",
+    "tol": "30110",
+    "tol_desc": "Building of civilian ships and floating structures",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3647941-2",
+    "name": "RSD Software Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3647970-3",
+    "name": "Sakura Charter Oy",
+    "tol": "50300",
+    "tol_desc": "Inland passenger water transport",
+    "website_field": null,
+    "domain": "sakuracharter.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [],
+    "weak": [
+     "veneen",
+     "veneilykauden",
+     "veneilystä"
+    ],
+    "title": "SAKURA CHARTER",
+    "final_url": "https://sakuracharter.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3647994-9",
+    "name": "Silda Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3648032-5",
+    "name": "Otsovision Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "otsovision.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "OtsoVision",
+    "final_url": "https://otsovision.com/fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3648040-5",
+    "name": "Qarity Ltd Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": "www.qarity.fi",
+    "domain": "qarity.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "",
+    "final_url": "https://qarity.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-18",
+    "aux": []
+   },
+   {
+    "id": "3648285-7",
+    "name": "Datavaisto Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://datavaisto.fi",
+    "domain": "datavaisto.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Datavaisto: B2B-liidit ja päättäjien yhteystiedot",
+    "final_url": "https://datavaisto.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648292-9",
+    "name": "ProvenTen Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://proventen.com",
+    "domain": "proventen.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "ProvenTen - Maximize the Value of Your References",
+    "final_url": "https://proventen.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648328-6",
+    "name": "Wellspot Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.wellify.fi",
+    "domain": "wellify.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Wellspot – Näe hyvinvoinnin muutokset ajoissa",
+    "final_url": "https://wellspot.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648338-2",
+    "name": "Linna Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648386-8",
+    "name": "Train with Forte Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648388-4",
+    "name": "Unknown Operations Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "unknownoperations.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Unknown Operations | Melbourne art",
+    "final_url": "https://www.unknownoperations.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648442-2",
+    "name": "VM-Klinikat Kalasatama Oy",
+    "tol": "86220",
+    "tol_desc": "Medical specialists activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-19",
+    "aux": []
+   },
+   {
+    "id": "3648520-6",
+    "name": "Kotocode Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648578-3",
+    "name": "Paattikiiltoon Oy",
+    "tol": "33150",
+    "tol_desc": "Repair and maintenance of civilian ships and boats",
+    "website_field": "www.paattikiiltoon.fi",
+    "domain": "paattikiiltoon.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": true,
+    "strong": [],
+    "weak": [
+     "levän",
+     "satamassa",
+     "vene",
+     "veneelle",
+     "veneellesi",
+     "veneen",
+     "veneenomistajien",
+     "veneesi"
+    ],
+    "title": "Veneen kiillotus ja vahaus ammattitaidolla: Uusimaa, Etelä-suomi",
+    "final_url": "https://paattikiiltoon.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648628-4",
+    "name": "Meriland Oy",
+    "tol": "68203",
+    "tol_desc": "Rental and operating of own or leased non-residential real estate",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648632-1",
+    "name": "Havändan House Oy",
+    "tol": "41000",
+    "tol_desc": "Construction of residential and non-residential buildings",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-20",
+    "aux": [
+     "Havändan House Art",
+     "Havändan House Housing",
+     "Havändan House Construction"
+    ]
+   },
+   {
+    "id": "3648644-4",
+    "name": "Meridi Oy",
+    "tol": "81220",
+    "tol_desc": "Other building and industrial cleaning activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648675-1",
+    "name": "VOLNOR OY",
+    "tol": "30110",
+    "tol_desc": "Building of civilian ships and floating structures",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648752-7",
+    "name": "Lantsi Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648770-3",
+    "name": "Euporia Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "euporia.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Euporia | General-purpose robot intelligence",
+    "final_url": "https://euporia.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648800-1",
+    "name": "ChaosBuddy Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-20",
+    "aux": []
+   },
+   {
+    "id": "3648863-4",
+    "name": "Buildfox Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "buildfox.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Buildfox",
+    "final_url": "https://buildfox.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-21",
+    "aux": []
+   },
+   {
+    "id": "3648886-1",
+    "name": "Opted Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "opted.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Opted | Optimizing education",
+    "final_url": "https://opted.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-21",
+    "aux": []
+   },
+   {
+    "id": "3648958-1",
+    "name": "Lepoku Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "lepoku.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Lepoku Oy — ohjelmistoja Rovaniemeltä",
+    "final_url": "https://lepoku.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-21",
+    "aux": []
+   },
+   {
+    "id": "3648968-8",
+    "name": "Seeres Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.seeres.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-21",
+    "aux": []
+   },
+   {
+    "id": "3649005-6",
+    "name": "WaveBear Capital Oy",
+    "tol": "64210",
+    "tol_desc": "Activities of holding companies",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-21",
+    "aux": []
+   },
+   {
+    "id": "3649116-3",
+    "name": "JSL Konsultointi Oy",
+    "tol": "71121",
+    "tol_desc": "Engineering design and technical consultancy incidental to urban planning",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-22",
+    "aux": []
+   },
+   {
+    "id": "3649128-6",
+    "name": "VemeloAI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "vemeloai.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "VemeloAI | AI Agents, AI Data Flow, Automation &amp; EU AI Compliance",
+    "final_url": "https://vemeloai.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-22",
+    "aux": []
+   },
+   {
+    "id": "3649133-1",
+    "name": "GSOFT Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.garagesoft.fi",
+    "domain": "garagesoft.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "GarageSoft – Kaikki korjaamon toiminnot yhdessä järjestelmässä",
+    "final_url": "https://garagesoft.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-22",
+    "aux": []
+   },
+   {
+    "id": "3649168-1",
+    "name": "Gigi Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-22",
+    "aux": []
+   },
+   {
+    "id": "3649250-2",
+    "name": "Dajost Production Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-23",
+    "aux": []
+   },
+   {
+    "id": "3649292-4",
+    "name": "HaVatek Oy",
+    "tol": "43220",
+    "tol_desc": "Plumbing, heat and air-conditioning installation",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-23",
+    "aux": []
+   },
+   {
+    "id": "3649305-4",
+    "name": "Rolmak Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-23",
+    "aux": []
+   },
+   {
+    "id": "3649319-3",
+    "name": "RaksaData Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649412-9",
+    "name": "Humainds Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649432-1",
+    "name": "YourWay Consulting Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649471-9",
+    "name": "LYXRA Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649506-8",
+    "name": "Liikute Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://liikute.fi/",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649522-8",
+    "name": "Airut Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.airut.ai",
+    "domain": "airut.ai",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "AIRUT — An AI agent your business can trust. And send out.",
+    "final_url": "https://airut.ai/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649552-7",
+    "name": "N. Shevchuk Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649582-6",
+    "name": "Hirppa Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649586-9",
+    "name": "Venora Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://kiwiapp.fi/",
+    "domain": "kiwiapp.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kiwi · Valmennusalusta valmentajille",
+    "final_url": "https://kiwiapp.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649607-9",
+    "name": "Bravr Company Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649637-8",
+    "name": "Softavipu Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://www.softavipu.fi/",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": [
+     "Tietosuojanero"
+    ]
+   },
+   {
+    "id": "3649670-6",
+    "name": "MIRVIKA Oy",
+    "tol": "30110",
+    "tol_desc": "Building of civilian ships and floating structures",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649689-6",
+    "name": "INNI Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "inni.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Inni P&auml;rn&auml;nen",
+    "final_url": "https://inni.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649705-5",
+    "name": "Sumu Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-24",
+    "aux": []
+   },
+   {
+    "id": "3649717-8",
+    "name": "Flowrex Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649750-6",
+    "name": "Resilia Energy Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649774-1",
+    "name": "Nevidera Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "nevidera.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Nevidera Oy – Data töihin pienyrityksille",
+    "final_url": "https://www.nevidera.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649843-7",
+    "name": "PaySki Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "payski.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "PaySki – Älykkäämpi tapa tunnistaa, mitata ja maksaa",
+    "final_url": "https://payski.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649902-6",
+    "name": "Datadeck Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "datadeck.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [
+     "bathymetry",
+     "marine"
+    ],
+    "weak": [
+     "fishing",
+     "kala",
+     "kalaa",
+     "kalaan",
+     "kalalle",
+     "kalapaikat",
+     "kalapedia",
+     "kalapäivän"
+    ],
+    "title": "Fishing DataDeck: kehity kalastajana datan avulla",
+    "final_url": "https://datadeck.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649936-8",
+    "name": "Boat Services Finland Oy",
+    "tol": "33150",
+    "tol_desc": "Repair and maintenance of civilian ships and boats",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol",
+     "blue_name"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3649940-5",
+    "name": "OUTrading Marine Oy",
+    "tol": "46890",
+    "tol_desc": "Other specialised wholesale n.e.c.",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3650028-5",
+    "name": "Meamo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "meamo.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "meamo.com&nbsp;-&nbsp;Tämä WWW-sivu on myynnissä.&nbsp;-&nbsp;meamo Lähteet ja tiedot.",
+    "final_url": "https://ww16.meamo.com/?sub1=20261017-0839-49c6-9925-c64d776ff078",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-25",
+    "aux": []
+   },
+   {
+    "id": "3650069-9",
+    "name": "Mäkitalo Fish Ab Oy",
+    "tol": "46381",
+    "tol_desc": "Wholesale of health food",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650095-5",
+    "name": "Omity Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "omity.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Omity – Talous hallintaan. Aikaa ihmisille.",
+    "final_url": "https://omity.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650106-9",
+    "name": "Harness AI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "harnessai.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Harness AI — A desktop agent client built on DeepSeek Harness",
+    "final_url": "https://harnessai.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": [
+     "KI + Mensch"
+    ]
+   },
+   {
+    "id": "3650181-9",
+    "name": "Jalo Digital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650189-4",
+    "name": "TrendiDigital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650234-4",
+    "name": "Gymkeeper Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650250-4",
+    "name": "ADRIQ Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650299-3",
+    "name": "CyberSentry AI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650321-6",
+    "name": "Kurvi Software Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://kurvi.io/",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650349-4",
+    "name": "HeyCity Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650364-6",
+    "name": "KvarterEtt Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650366-2",
+    "name": "Ukes Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "ukes.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650376-9",
+    "name": "Blue Line Taxi Vaasa Oy",
+    "tol": "49330",
+    "tol_desc": "On-demand passenger transport service activities by vehicle with driver",
+    "website_field": "https://bluelinetaxivaasa.fi/",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-08-26",
+    "aux": []
+   },
+   {
+    "id": "3650484-1",
+    "name": "Uniker Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "uniker.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [
+     "ocean"
+    ],
+    "weak": [],
+    "title": "UNIKER – Backpacks, Rolling Bags &amp; Travel Accessories",
+    "final_url": "https://www.uniker.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650492-1",
+    "name": "Infraeye Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "infraeye.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Sign in to InfraEye",
+    "final_url": "https://infraeye.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650554-5",
+    "name": "OpintoLAB Research Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650634-5",
+    "name": "Kaselio Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650654-8",
+    "name": "FEONA Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650670-8",
+    "name": "Henvix Software Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3650729-2",
+    "name": "Elitas Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "elitas.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "ELITAS Enterprises",
+    "final_url": "https://elitas.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": []
+   },
+   {
+    "id": "3650803-3",
+    "name": "Samalla Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": []
+   },
+   {
+    "id": "3650832-4",
+    "name": "Finance Crew Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "financecrew.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Finance Crew",
+    "final_url": "https://www.financecrew.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": []
+   },
+   {
+    "id": "3650851-9",
+    "name": "Aika Innovations Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "aikainnovations.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Aika Innovations — AI-automaatio tilitoimistoille",
+    "final_url": "https://aikainnovations.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": []
+   },
+   {
+    "id": "3650858-6",
+    "name": "Ratkomo Development Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": [
+     "Tuomio Arbitration",
+     "Oikoa Consulting"
+    ]
+   },
+   {
+    "id": "3650890-6",
+    "name": "Unary oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-28",
+    "aux": [
+     "Aleans Creative"
+    ]
+   },
+   {
+    "id": "3650988-8",
+    "name": "KaPa Kala Oy",
+    "tol": "10200",
+    "tol_desc": "Processing and preserving of fish, crustaceans and molluscs",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol",
+     "blue_name"
+    ],
+    "founded": "2026-08-29",
+    "aux": []
+   },
+   {
+    "id": "3651056-3",
+    "name": "LITTdev Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-30",
+    "aux": []
+   },
+   {
+    "id": "3651070-7",
+    "name": "Infrapalvelu R. Kasvi Oy",
+    "tol": "71122",
+    "tol_desc": "Civil engineering design and technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-30",
+    "aux": []
+   },
+   {
+    "id": "3651096-9",
+    "name": "Hangverse Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-30",
+    "aux": []
+   },
+   {
+    "id": "3651161-1",
+    "name": "Not Suspicious Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://www.notsuspicious.biz",
+    "domain": "notsuspicious.biz",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Not Suspicious | XR Games &amp; Research",
+    "final_url": "https://www.notsuspicious.biz/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651224-3",
+    "name": "SuomiLearn Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "suomilearn.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SuomiLearn — 260 Finnish lessons from A1 to C2",
+    "final_url": "https://suomilearn.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651227-8",
+    "name": "Popify Entertainment Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651265-7",
+    "name": "StackNordic Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "stacknordic.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "StackNordic Oy",
+    "final_url": "https://stacknordic.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651274-5",
+    "name": "SavoKraft Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651412-6",
+    "name": "DEEPNOVA Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651435-3",
+    "name": "Trickbook Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "trickbook.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "TrickBook — Automaattinen kamerajärjestelmä snowparkkiin",
+    "final_url": "https://trickbook.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651473-2",
+    "name": "CVPE Development Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "cvpe.dev",
+    "domain": "cvpe.dev",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "ships"
+    ],
+    "title": "CVPE Development Ltd — Registered Finnish holding entity",
+    "final_url": "https://cvpe.dev/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-31",
+    "aux": []
+   },
+   {
+    "id": "3651514-5",
+    "name": "NORTHSTAR Research Institute Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651523-3",
+    "name": "Kaunisto Engineering Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-08-27",
+    "aux": []
+   },
+   {
+    "id": "3651551-6",
+    "name": "Clumsy Rat Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651571-9",
+    "name": "Iguida Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.iguida.eu",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651688-5",
+    "name": "Sevetek Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": "sevetek.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SeveTek",
+    "final_url": "https://sevetek.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651754-6",
+    "name": "HubSystems Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651764-2",
+    "name": "BIMSpect Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "bimspect.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "BIMSpect | IFC Model Change Analysis for BIM Coordination",
+    "final_url": "https://bimspect.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651789-6",
+    "name": "Riuska Machinery Oy",
+    "tol": "28990",
+    "tol_desc": "Manufacture of other special-purpose machinery n.e.c.",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651794-1",
+    "name": "Korjaustori Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651799-2",
+    "name": "Merico Partners oy",
+    "tol": "46190",
+    "tol_desc": "Activities of agents involved in non-specialised wholesale",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651811-9",
+    "name": "Meklara Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "meklara.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Meklara — AI-native operating software for brokerages",
+    "final_url": "https://www.meklara.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651850-6",
+    "name": "Arkon Group Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "arkon.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [
+     "marine",
+     "ocean"
+    ],
+    "weak": [
+     "boat",
+     "fish",
+     "sea",
+     "venezuela"
+    ],
+    "title": "Arkon® Mounts - High Quality Tablet Mounts, Phone Holders &amp; More — Arkon Mounts",
+    "final_url": "https://arkon.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651856-5",
+    "name": "Refinite Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "refinite.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "REFINITE — AI-Era Industrial Process Optimisation",
+    "final_url": "https://refinite.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-01",
+    "aux": []
+   },
+   {
+    "id": "3651936-5",
+    "name": "Kasitec Oy",
+    "tol": "28990",
+    "tol_desc": "Manufacture of other special-purpose machinery n.e.c.",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3651982-4",
+    "name": "Neurivo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "neurivo.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Tekoälyapua ja räätälöidyt työkalut pk-yrityksille | Neurivo Oy",
+    "final_url": "https://neurivo.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3651991-2",
+    "name": "Ilyvo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ilyvo.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "harbor"
+    ],
+    "title": "AIReceptionist by Ilyvo Oy",
+    "final_url": "https://ilyvo.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652107-8",
+    "name": "Wilminko Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652204-6",
+    "name": "Biocognitive Front Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": "biocognitivefront.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Biocognitive Front",
+    "final_url": "https://biocognitivefront.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652238-8",
+    "name": "Aino & Sampsa Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652250-5",
+    "name": "Tasamäki Ohjelmistot Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.tasamaki.com",
+    "domain": "tasamaki.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Tasamäki Kiinteistöt Oy — Kiinteistösijoittaminen",
+    "final_url": "https://tasamaki.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652254-8",
+    "name": "Ranovi Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-02",
+    "aux": []
+   },
+   {
+    "id": "3652275-9",
+    "name": "ENERGIARAUHA Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652308-1",
+    "name": "Joynow Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "joynow.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "joynow.io",
+    "final_url": "https://joynow.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652360-4",
+    "name": "Savikurki Digital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.savikurki.fi",
+    "domain": "savikurki.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Savikurki: palvelut kunnille, työllisyysalueille, kuntayhtiöille ja hyvinvointialueille",
+    "final_url": "https://savikurki.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652359-1",
+    "name": "Meriva Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": "meriva.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [
+     "aquaculture",
+     "vesiviljelyn"
+    ],
+    "weak": [
+     "fiskodling",
+     "kalanviljely"
+    ],
+    "title": "Meriva Oy | Kalanviljely | Aquaculture specialist",
+    "final_url": "https://meriva.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "blue_name",
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652402-5",
+    "name": "The Birdie Company Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652404-1",
+    "name": "Palokangas Beverage Development Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652429-5",
+    "name": "Nordic Baltic Holding Oy",
+    "tol": "70200",
+    "tol_desc": "Business and other management consultancy activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652465-8",
+    "name": "Stockpulls Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652468-2",
+    "name": "Patra Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "patra.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Patra · Toimialaohjelmistoja niille, joita isot eivät palvele",
+    "final_url": "https://patra.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652497-3",
+    "name": "Null Vector Games Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652515-9",
+    "name": "Infralyze Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "infralyze.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Infralyze",
+    "final_url": "https://infralyze.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652516-7",
+    "name": "Sillanpään Saaristo & Rannikkopalvelut Oy",
+    "tol": "81300",
+    "tol_desc": "Landscape service activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652613-5",
+    "name": "Koodilähde Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "koodilähde.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652619-4",
+    "name": "UpDem Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "updem.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "vessel",
+     "vessels"
+    ],
+    "title": "Updem | Industrial AI Predictive Maintenance Platform for Heavy Assets",
+    "final_url": "https://updem.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3652668-8",
+    "name": "Nordic Sport Science Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "nordicsportscience.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "FRCE | Performance. Decoded. | Nordic Sport Science",
+    "final_url": "https://nordicsportscience.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652687-2",
+    "name": "Enervisio Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": [
+     "Energysoft",
+     "H & V Consulting"
+    ]
+   },
+   {
+    "id": "3652682-1",
+    "name": "Suunta Partners Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652789-1",
+    "name": "Blue Balls Oy",
+    "tol": "70200",
+    "tol_desc": "Business and other management consultancy activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652794-7",
+    "name": "PetHealth Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "pethealth.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "PetHealth — koirasi terveystiedot yhdessä paikassa",
+    "final_url": "https://www.pethealth.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652801-8",
+    "name": "Pilvenhattara digital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652802-6",
+    "name": "Jaki Biotechnologies Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-04",
+    "aux": []
+   },
+   {
+    "id": "3652916-8",
+    "name": "Saqu AI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-05",
+    "aux": []
+   },
+   {
+    "id": "3652919-2",
+    "name": "NicArt Engineering Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-05",
+    "aux": []
+   },
+   {
+    "id": "3652921-3",
+    "name": "TrainGears Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-05",
+    "aux": []
+   },
+   {
+    "id": "3652962-7",
+    "name": "Plan OS Software Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-05",
+    "aux": []
+   },
+   {
+    "id": "3652984-6",
+    "name": "Chaos Monkey Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "chaos-monkey.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "ship"
+    ],
+    "title": "chaos-monkey.com — Systems fail. Plan for it.",
+    "final_url": "https://chaos-monkey.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-05",
+    "aux": []
+   },
+   {
+    "id": "3653055-6",
+    "name": "Jiwny Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653062-8",
+    "name": "Nordastra Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653078-3",
+    "name": "Finnish Advisory Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.finnadvisor.fi",
+    "domain": "finnadvisor.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "",
+    "final_url": "https://accounts.google.com/v3/signin/identifier?opparams=%253Fcred_ref%253Dtrue&dsh=S858329723%3A1792186820401182&client_id=184607126172-7uih9vprlbe742btkt9kuiti8lkiii87.apps.googleusercontent.com&code_challenge=Ox-vS7PVO4wVanHg4i6SfRQDZEVVBH-0-PEMxgdUVzE&code_challenge_method=S256&o2v=2&redirect_uri=https%3A%2F%2Fiap.googleapis.com%2Fv1%2Foauth%2FclientIds%2F184607126172-7uih9vprlbe742btkt9kuiti8lkiii87.apps.googleusercontent.com%3AhandleRedirect&response_type=code&scope=openid+email&service=lso&state=ATbdjREEZX55i3hsd3nFF3a96KSoF4kmxKsN-DytyHnCvE2UzxRVh8uNnk6FAPwQ70BtLrBpILMjiScyy64HCGX4VoSIzxgNV2pADEA36CAMqhPEimA9qobCdFJJ2fjH6-vrGefo-1rITTYNAkfTTNVnJdPNEzZJConyvGQtUHvnQObqG7aLVfguzsu2gxR9njfV6suJ0C3LLQSjPCsdDSSVDNUeS2QQ-onNOcGyPLCNW4CicFHj98LSg9ltg_vUD_vMIswUrx8NhVzP0TV6_Tsm71Y-IKmDs1xPsA5ONe5Aat0TwAf8XfX0221DbmJ5m0AgncPLOKHrS1NcnhyddC5AgGNyqqWAM4e0LOY8B121Hsb-PVR78bFmD8zldBQSECbVJ8i-bwd00CAtPVn-C2WTfZU3QUZP_o4KjMSU5tmv1ih-ImadhGGKK8NVx4yhcZE1XbaHIgu-VmYWu0fkGBBfGMzAzyywzIDVij9O6V8FfFcis54RnkT2UOZtRcfHwrSfdwR7mD989QCthPiV2QvYmdf68HEK-AqHt8NLodxFEgr6j2WPoIKkG95vDvVwyGd8l0vC13Kq3-P-SCKOqiYEqtnkGZqn2tOKLv3c8K8qG0rLHdtLoZlrax7Sq3OpKyjv0iuFJT4kN_MAK_z-XDiRzkQU_hQaaK4VlLJKkyC1sfbLArE7pzq6nPXVl3mmq3jOiAcT_Y1JupkwxqQRpvYTjMcDT-jb_NNVPUMBJDls2Pci9my3QJ1dtVBD03owlyZYXpCuAPcovrAsqpoeBA-3DwumcP353ekba-XjaQMKCmDu3CgYQOxl4eSsyOFnSMbH4kZCENiw-7GwH4koZv9SzIyUdW1seJ55mQSLKnHQArA1lDeUQv-8-Opaf2bnf64Wea8rWcexIaxV_lgh-C152k6_yyiu3Ld7_w9ByRoNQN0GTiKTBCAmuL3Salg4V7DVrCxS4tiTuTv7KmTZ9ABcYf7GuMQ8_w8Yl93l584Tfy7a_zrhPXdQpiQVl10nOHmHhdakypUNdirrEz2q-Kp3Wk_hihEB6M0EjPzvpeM2UYDSeoU_x9EjQURxCDoIZyP40N2SDnyRgsQhMSTYc8rnIbVKk7IkItEm4MnaLrIa&flowName=GeneralOAuthLite&continue=https%3A%2F%2Faccounts.google.com%2Fsignin%2Foauth%2Flegacy%2Fconsent%3Fauthuser%3Dunknown%26part%3DAJi8hANhj9M3PjNXclLmtkB2cHIgMcPywSVMVKrrDRkvDCgeyI9U4XfxcfCBQa77145INNR7iBI_YcjIQ-I01UFXLnW7r209A9KhEHCw0trRThv_c8w01XfcJP00juvsGFJTt95hH4E3HqCvEKPXDzf41HNak-eGC1qXMZjyEZy8JpzXO64g115jl4lpnljoXCd_J8luMRRbQUN3s9qnZXEOoc_ays5VrrOva1cMLNn5TAyYItKYpj3KkaIfx0VaI5KqfnOMo6cYYMVWEwgiMuX24vsvWYrwhoIE4PUGIydCYid2VzqoTtYKswyYg_CoZcndWvYJxnYm8soTORLwQPtYb5hP8wH7XYwI-2EilxPBf4vJJoMovNxRZhveG_PHc9fgqVK0Dxi7db8W6jRU9QB3hD9y3vXNGGgVdmCPK28YPLNAgtQIgG8tHK63Zy8Nt-H1sZnEeDkedW_CbrgZ1MZp19r8yfHJNw%26flowName%3DGeneralOAuthFlow%26as%3DS858329723%253A1792186820401182%26client_id%3D184607126172-7uih9vprlbe742btkt9kuiti8lkiii87.apps.googleusercontent.com%23&app_domain=https%3A%2F%2Fiap.googleapis.com&rart=ANgoxceQXtj97wgURfTOaP9aIkbYWYtltHwIoivOHRKfiLfPRdA_aNPOMO9z0t483WXpXZ-TdBkXzVREugOqvshLJ4bZbH1JZnvX3KiX1YoJQ6y-xK7IkDE",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653081-2",
+    "name": "Vibe Orchard Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "vibeorchard.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Vibe Orchard — sovelluksia arkeen",
+    "final_url": "https://vibeorchard.com/fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653087-1",
+    "name": "Aalto Guard Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "aaltoguard.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Aalto Guard — Vesiturvallisuutta edistämässä",
+    "final_url": "https://www.aaltoguard.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653106-5",
+    "name": "Borealis Clinical Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653116-1",
+    "name": "Creative Mode Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653130-5",
+    "name": "VLR Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653137-2",
+    "name": "KOMPA äly Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-06",
+    "aux": []
+   },
+   {
+    "id": "3653180-7",
+    "name": "OEE Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-07",
+    "aux": []
+   },
+   {
+    "id": "3653251-9",
+    "name": "Mouva AI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-07",
+    "aux": []
+   },
+   {
+    "id": "3653338-6",
+    "name": "Matrix Zone Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-07",
+    "aux": []
+   },
+   {
+    "id": "3653426-6",
+    "name": "Alfanne Solutions Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.alfannesolutions.fi",
+    "domain": "alfannesolutions.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Alfanne Solutions - Digitaalisia ratkaisuja",
+    "final_url": "https://alfannesolutions.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-07",
+    "aux": []
+   },
+   {
+    "id": "3653431-1",
+    "name": "NFG Finland Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": "novatronfusion.com",
+    "domain": "novatronfusion.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Novatron",
+    "final_url": "https://www.novatronfusion.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-03",
+    "aux": []
+   },
+   {
+    "id": "3653492-8",
+    "name": "Qboreal Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653549-6",
+    "name": "Ruunda Ab",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://ruunda.fi",
+    "domain": "ruunda.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "archipelago"
+    ],
+    "title": "Ruunda — creative-technology studio",
+    "final_url": "https://ruunda.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653553-3",
+    "name": "Weiku Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653562-1",
+    "name": "Vinelier Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "vinelier.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Vinelier | Vinelier",
+    "final_url": "https://vinelier.com/fi",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653586-7",
+    "name": "Ikione Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ikione.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "ikione — Wealth &amp; insurance platforms",
+    "final_url": "https://ikione.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653668-3",
+    "name": "Havukko Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name",
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": [
+     "Valanteus"
+    ]
+   },
+   {
+    "id": "3653698-2",
+    "name": "KalanPojat Oy",
+    "tol": "03220",
+    "tol_desc": "Freshwater aquaculture",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol",
+     "blue_name"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653737-9",
+    "name": "Kompetio Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "kompetio.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kompetio – perehdytys ja osaamisenhallinta yrityksille",
+    "final_url": "https://kompetio.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653750-4",
+    "name": "Kaossoft Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "kaossoft.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kaossoft Oy",
+    "final_url": "https://kaossoft.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653753-9",
+    "name": "Vahtor Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.vahtor.com",
+    "domain": "vahtor.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "VAHTOR AI Governance Platform for SMB | Vahtor Oy",
+    "final_url": "https://vahtor.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653763-5",
+    "name": "Fisu Enterprises Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-08",
+    "aux": []
+   },
+   {
+    "id": "3653923-5",
+    "name": "Taival AI Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-09",
+    "aux": []
+   },
+   {
+    "id": "3654067-4",
+    "name": "Topologia Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-09",
+    "aux": []
+   },
+   {
+    "id": "3654203-9",
+    "name": "Zenigloo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "zenigloo.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Zenigloo — Software, AI, and everything in between.",
+    "final_url": "https://zenigloo.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654244-2",
+    "name": "ånd oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://aand.fi",
+    "domain": "aand.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Verkkosivujen suunnittelu Helsingissä | ånd",
+    "final_url": "https://aand.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654257-3",
+    "name": "Soilcare Oy",
+    "tol": "28990",
+    "tol_desc": "Manufacture of other special-purpose machinery n.e.c.",
+    "website_field": null,
+    "domain": "soilcare.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Etusivu - SoilCare",
+    "final_url": "https://www.soilcare.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654269-6",
+    "name": "Runni Water Energy Oy",
+    "tol": "28250",
+    "tol_desc": "Manufacture of non-domestic air conditioning equipment",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654387-5",
+    "name": "Koodimieli Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654397-1",
+    "name": "SupervisorLoop Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "supervisorloop.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SupervisorLoop | The lab workspace for academic research groups",
+    "final_url": "https://supervisorloop.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-10",
+    "aux": []
+   },
+   {
+    "id": "3654477-1",
+    "name": "Locosa Oy",
+    "tol": "50101",
+    "tol_desc": "Sea passenger water transport",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654527-2",
+    "name": "Esan Koodit Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654562-7",
+    "name": "Felixguide Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "felixguide.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "FelixGuide — Hammasklinikan älykäs puhelin- ja ajanvarausavustaja 24/7",
+    "final_url": "https://felixguide.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654575-8",
+    "name": "Vigelo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654583-8",
+    "name": "MotorAI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "motorai.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Motorai.com for sale | Spaceship.com",
+    "final_url": "https://motorai.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654618-7",
+    "name": "Rovuo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654681-4",
+    "name": "Patrimonium Augere Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654685-7",
+    "name": "Qamos Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": "qamos.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Qamos - where even the faintest light carries meaning",
+    "final_url": "https://qamos.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654690-2",
+    "name": "NUARO Systems Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654702-4",
+    "name": "HelpOtus Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654705-9",
+    "name": "Epoch 505 Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654738-2",
+    "name": "Ambier Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://ambierhq.com/",
+    "domain": "ambierhq.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Ambier",
+    "final_url": "https://ambierhq.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-11",
+    "aux": []
+   },
+   {
+    "id": "3654770-2",
+    "name": "Keski-Suomen Laiturirakentajat Oy",
+    "tol": "30110",
+    "tol_desc": "Building of civilian ships and floating structures",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-09-12",
+    "aux": []
+   },
+   {
+    "id": "3654831-8",
+    "name": "Merit Valentin Oy",
+    "tol": "47120",
+    "tol_desc": "Other non-specialised retail sale",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-12",
+    "aux": []
+   },
+   {
+    "id": "3654840-6",
+    "name": "Peltopilotti Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-12",
+    "aux": []
+   },
+   {
+    "id": "3654883-6",
+    "name": "Remro Ab",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-13",
+    "aux": []
+   },
+   {
+    "id": "3654898-3",
+    "name": "Pelistudio Pieni Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-13",
+    "aux": []
+   },
+   {
+    "id": "3654917-7",
+    "name": "Nordic Skyview Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-13",
+    "aux": []
+   },
+   {
+    "id": "3654930-2",
+    "name": "Nodi Tech Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-13",
+    "aux": []
+   },
+   {
+    "id": "3654956-4",
+    "name": "Aimodata Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://aimodata.ai",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-13",
+    "aux": []
+   },
+   {
+    "id": "3655082-1",
+    "name": "Watchpoint Systems Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": []
+   },
+   {
+    "id": "3655174-4",
+    "name": "Momega Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": "www.momega.fi",
+    "domain": "momega.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "MOMEGA — Movement measuring garments for research and care",
+    "final_url": "https://momega.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": []
+   },
+   {
+    "id": "3655250-1",
+    "name": "Contakto Platforms Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": []
+   },
+   {
+    "id": "3655273-9",
+    "name": "Luff Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": []
+   },
+   {
+    "id": "3655298-2",
+    "name": "Tapea Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": []
+   },
+   {
+    "id": "3655311-7",
+    "name": "JRKA Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://jrka.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-14",
+    "aux": [
+     "SpareLine"
+    ]
+   },
+   {
+    "id": "3655345-9",
+    "name": "EFSim Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655373-1",
+    "name": "Syncra AI Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655415-2",
+    "name": "Wisemation Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655448-6",
+    "name": "Smart Pulse Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://smartpulse.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655463-8",
+    "name": "Aikasix Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "aikasix.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Rakennusalan tarjouslaskenta ja tuntikirjaus | AIKASIX",
+    "final_url": "https://www.aikasix.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655494-5",
+    "name": "Markus Juopperi Consulting Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://markus-juopperi.github.io/homepage/",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655511-2",
+    "name": "Oliivilehto Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "oliivilehto.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Oliivilehto Oy",
+    "final_url": "https://oliivilehto.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655514-7",
+    "name": "Kolmio Consulting Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.kolmio.ai",
+    "domain": "kolmio.ai",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kolmio Inc.| Helping companies transform through AI Strategy",
+    "final_url": "https://kolmio.ai/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655553-4",
+    "name": "Kokoo koko kokko kokoon Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.klapii.com",
+    "domain": "klapii.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Login – Vercel",
+    "final_url": "https://vercel.com/login?next=%2Fsso-api%3Furl%3Dhttps%253A%252F%252Fklapii.com%252F%26nonce%3D3e42444cefe89fc36e0b8fe91684c95a63acb2c5f3b4811cc381a5f9fe360ac6",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655613-1",
+    "name": "NEROID Oy",
+    "tol": "26510",
+    "tol_desc": "Manufacture of instruments and appliances for measuring, testing and navigation",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": [
+     "RATlab"
+    ]
+   },
+   {
+    "id": "3655639-3",
+    "name": "Pollari Works Oy",
+    "tol": "33150",
+    "tol_desc": "Repair and maintenance of civilian ships and boats",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-09-15",
+    "aux": []
+   },
+   {
+    "id": "3655728-1",
+    "name": "Loimi Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-16",
+    "aux": []
+   },
+   {
+    "id": "3655746-8",
+    "name": "Firstbeat Wellness Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-16",
+    "aux": []
+   },
+   {
+    "id": "3655772-4",
+    "name": "Sophonics SX Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-16",
+    "aux": []
+   },
+   {
+    "id": "3655924-4",
+    "name": "Repeta Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-16",
+    "aux": []
+   },
+   {
+    "id": "3655987-7",
+    "name": "First Shift Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3655992-2",
+    "name": "FT Enterprise Oy",
+    "tol": "56301",
+    "tol_desc": "Bars and other alcoholic beverage serving activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-17",
+    "aux": [
+     "Paradise Blue"
+    ]
+   },
+   {
+    "id": "3656015-7",
+    "name": "Kuittibotti Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "kuittibotti.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kuittibotti | Yhteiset kulut, selkeä jako",
+    "final_url": "https://kuittibotti.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656024-5",
+    "name": "Devodemix Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "devodemix.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Verkkosivut, ohjelmistokehitys ja testaus | DEVODEMIX Oy",
+    "final_url": "https://devodemix.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656055-2",
+    "name": "Kytrai Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "kytrai.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kytrai Oy — verkkosivut, sovellukset ja AI-agentit yrityksille",
+    "final_url": "https://kytrai.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656097-4",
+    "name": "NorthLase Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656108-8",
+    "name": "SopiSafe Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "sopisafe.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Find Supplier Overbilling: Invoices vs Contracts | SopiSafe",
+    "final_url": "https://sopisafe.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656175-8",
+    "name": "Verdario Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656181-1",
+    "name": "Sielumo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "sielumo.fi",
+    "domain": "sielumo.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Sielumo",
+    "final_url": "https://sielumo.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656183-8",
+    "name": "Fusio Cluster Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656196-9",
+    "name": "02150 Technologies Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656210-1",
+    "name": "MK-tietojärjestelmät oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656219-5",
+    "name": "Vancamed Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-17",
+    "aux": []
+   },
+   {
+    "id": "3656256-6",
+    "name": "BoatShine Oy",
+    "tol": "95290",
+    "tol_desc": "Repair and maintenance of personal and household goods n.e.c.",
+    "website_field": "https://boatshine.fi",
+    "domain": "boatshine.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": true,
+    "strong": [],
+    "weak": [
+     "boat",
+     "boatshine",
+     "veneen",
+     "veneesi"
+    ],
+    "title": "Veneen kiillotus | Veneen vahaus | Turku | Varsinais-Suomi\n &ndash; BoatShine",
+    "final_url": "https://boatshine.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-16",
+    "aux": []
+   },
+   {
+    "id": "3656290-2",
+    "name": "InduSTA OY",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": "www.industa.fi",
+    "domain": "industa.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "",
+    "final_url": "http://www.industa.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-18",
+    "aux": []
+   },
+   {
+    "id": "3656325-1",
+    "name": "Presio Health Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-18",
+    "aux": []
+   },
+   {
+    "id": "3656379-6",
+    "name": "Book Salon Solutions Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-18",
+    "aux": []
+   },
+   {
+    "id": "3656431-8",
+    "name": "Chuhay systems Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-18",
+    "aux": []
+   },
+   {
+    "id": "3656501-1",
+    "name": "Outo Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "outolabs.dev",
+    "domain": "outolabs.dev",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "ship"
+    ],
+    "title": "Outo Labs | Cloud-Native Software Studio",
+    "final_url": "https://outolabs.dev/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": []
+   },
+   {
+    "id": "3656534-5",
+    "name": "Jungle Jode Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": [
+     "TeleKekkonen"
+    ]
+   },
+   {
+    "id": "3656538-8",
+    "name": "Jomentum Management Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": [
+     "Malkian Management"
+    ]
+   },
+   {
+    "id": "3656547-6",
+    "name": "AveZand Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "avezand.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "AveZand",
+    "final_url": "https://avezand.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": []
+   },
+   {
+    "id": "3656549-2",
+    "name": "Pod labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": [
+     "ByteBowl",
+     "Flair CAD"
+    ]
+   },
+   {
+    "id": "3656579-1",
+    "name": "ILOWISE Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ilowise.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "ILOWISE - Sotilastason poikkeamatunnistus siipikarjatuotantoon",
+    "final_url": "https://ilowise.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": []
+   },
+   {
+    "id": "3656585-5",
+    "name": "Hustech Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "hustech.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Hustech — Kasvua toiselta kiertoradalta",
+    "final_url": "https://hustech.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-19",
+    "aux": []
+   },
+   {
+    "id": "3656622-5",
+    "name": "Funiversale Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "funiversale.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Funiversale Oy — Small projects. Space to grow.",
+    "final_url": "https://funiversale.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-20",
+    "aux": [
+     "Eiri AI"
+    ]
+   },
+   {
+    "id": "3656639-9",
+    "name": "Psykoterapia ja psykiatripalvelut Satu Merivalo Oy",
+    "tol": "86220",
+    "tol_desc": "Medical specialists activities",
+    "website_field": "www.satumerivalo.fi",
+    "domain": "satumerivalo.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Psykoterapia ja psykiatripalvelut Satu Merivalo",
+    "final_url": "https://www.satumerivalo.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-20",
+    "aux": []
+   },
+   {
+    "id": "3656648-7",
+    "name": "Valli Systems Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-20",
+    "aux": []
+   },
+   {
+    "id": "3656664-7",
+    "name": "Artun piha ja kunnostus Oy",
+    "tol": "81100",
+    "tol_desc": "Combined facilities support activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-20",
+    "aux": [
+     "Venekuski Holm"
+    ]
+   },
+   {
+    "id": "3656708-4",
+    "name": "EVä fishing Oy",
+    "tol": "32300",
+    "tol_desc": "Manufacture of sports goods",
+    "website_field": null,
+    "domain": "evafishing.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [],
+    "weak": [
+     "boat",
+     "fish",
+     "fishing",
+     "harbor",
+     "port",
+     "sea"
+    ],
+    "title": "Eva's Fishing Trips | Panormo, Rethymno Crete",
+    "final_url": "https://evafishing.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3656837-8",
+    "name": "Linkenite Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "linkenite.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Linkenite - Grow your company, not your headcount",
+    "final_url": "https://www.linkenite.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3656952-2",
+    "name": "Better Things Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://betterthingshq.com",
+    "domain": "betterthingshq.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "port",
+     "ports"
+    ],
+    "title": "Better Things",
+    "final_url": "https://betterthingshq.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3656955-7",
+    "name": "AlexJKL Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3656956-5",
+    "name": "Noelyn Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3656971-7",
+    "name": "Aceman Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": "aceman.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Andrew Bowell — aceman.io",
+    "final_url": "https://aceman.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-21",
+    "aux": []
+   },
+   {
+    "id": "3657138-2",
+    "name": "SeeYouDoc Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.seeyoudoc.com",
+    "domain": "seeyoudoc.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SeeYouDoc · Access Healthcare in the Philippines",
+    "final_url": "https://www.seeyoudoc.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657182-5",
+    "name": "Bunker Gear Solutions Oy",
+    "tol": "26510",
+    "tol_desc": "Manufacture of instruments and appliances for measuring, testing and navigation",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657192-1",
+    "name": "January Company Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657247-3",
+    "name": "Hallanoma Oy",
+    "tol": "56301",
+    "tol_desc": "Bars and other alcoholic beverage serving activities",
+    "website_field": null,
+    "domain": "hallanoma.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Coming Soon",
+    "final_url": "https://hallanoma.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-22",
+    "aux": [
+     "Pub Havanna"
+    ]
+   },
+   {
+    "id": "3657248-1",
+    "name": "Progelab Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657258-8",
+    "name": "Klonkify Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "klonkify.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Klonkify — Find Your Perfect Fit",
+    "final_url": "https://klonkify.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657262-5",
+    "name": "Kreivi Co Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-22",
+    "aux": []
+   },
+   {
+    "id": "3657318-5",
+    "name": "Cemac Oy",
+    "tol": "28990",
+    "tol_desc": "Manufacture of other special-purpose machinery n.e.c.",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657328-1",
+    "name": "Archival Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "archival.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Archival Products for Preservation | Enclosures and Binders",
+    "final_url": "https://archival.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657355-6",
+    "name": "Treatsy Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657356-4",
+    "name": "Manuli Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657415-3",
+    "name": "WW-Marine Power Oy",
+    "tol": "43210",
+    "tol_desc": "Electrical installation",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657494-6",
+    "name": "Machina Mundi Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657523-6",
+    "name": "ZHU Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657531-6",
+    "name": "Boundlessly Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://fransekman.com/",
+    "domain": "fransekman.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Frans Ekman&#39;s blog",
+    "final_url": "https://fransekman.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657553-5",
+    "name": "Ventura Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ventura-labs.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Ventura Labs | Senior Development for Founders and Agencies",
+    "final_url": "https://ventura-labs.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657560-7",
+    "name": "Aperta Group Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "aperta.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Aperta | Payment Processing Solutions",
+    "final_url": "https://www.aperta.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657567-4",
+    "name": "Aboware Ab Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://evelio.net/",
+    "domain": "evelio.net",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Evelio — EV Fleet Battery & Status Monitoring",
+    "final_url": "https://evelio.net/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657595-7",
+    "name": "6027 North Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://6027north.com",
+    "domain": "6027north.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "6027 North Oy",
+    "final_url": "https://6027north.com/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-23",
+    "aux": []
+   },
+   {
+    "id": "3657598-1",
+    "name": "Renkker Oy",
+    "tol": "46190",
+    "tol_desc": "Activities of agents involved in non-specialised wholesale",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-24",
+    "aux": [
+     "Atlantin Kala"
+    ]
+   },
+   {
+    "id": "3657656-2",
+    "name": "Arctic Harbour Capital Oy",
+    "tol": "70200",
+    "tol_desc": "Business and other management consultancy activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-24",
+    "aux": []
+   },
+   {
+    "id": "3657670-6",
+    "name": "Open Business Nordic Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-24",
+    "aux": [
+     "OMA Kustannus"
+    ]
+   },
+   {
+    "id": "3657709-8",
+    "name": "Binarymaths Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "binarymaths.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "ship"
+    ],
+    "title": "BinaryMaths — Software Consulting",
+    "final_url": "https://www.binarymaths.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-24",
+    "aux": []
+   },
+   {
+    "id": "3657818-9",
+    "name": "DcsTuning Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-24",
+    "aux": []
+   },
+   {
+    "id": "3657837-3",
+    "name": "OtterOps Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "otterops.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "OtterOps Oy",
+    "final_url": "https://otterops.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-24",
+    "aux": []
+   },
+   {
+    "id": "3657907-7",
+    "name": "Marram Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3657954-4",
+    "name": "Formatiive Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658033-4",
+    "name": "Q-Automaatio Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.q-automaatio.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658076-4",
+    "name": "Hohan Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658087-9",
+    "name": "Lyniti Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "Lyniti.com",
+    "domain": "lyniti.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "All-in-one business software for service teams | Lyniti",
+    "final_url": "https://lyniti.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658104-6",
+    "name": "Paikallisapu Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658114-2",
+    "name": "Timesink Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://timesinkdb.com",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658119-3",
+    "name": "Suoja Email Finland Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-25",
+    "aux": []
+   },
+   {
+    "id": "3658184-7",
+    "name": "Lagrange Consulting Oy",
+    "tol": "70200",
+    "tol_desc": "Business and other management consultancy activities",
+    "website_field": null,
+    "domain": "lagrangeconsulting.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Lagrange Consulting",
+    "final_url": "https://lagrangeconsulting.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-26",
+    "aux": [
+     "Wild Seas Photography"
+    ]
+   },
+   {
+    "id": "3658202-2",
+    "name": "IceDev Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-26",
+    "aux": []
+   },
+   {
+    "id": "3658264-7",
+    "name": "SU Engineering Oy",
+    "tol": "71121",
+    "tol_desc": "Engineering design and technical consultancy incidental to urban planning",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-27",
+    "aux": []
+   },
+   {
+    "id": "3658267-1",
+    "name": "300 Maritime Oy",
+    "tol": "46180",
+    "tol_desc": "Activities of agents involved in the wholesale of other particular products",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-27",
+    "aux": []
+   },
+   {
+    "id": "3658320-1",
+    "name": "Black Ocean Media Oy",
+    "tol": "73112",
+    "tol_desc": "Other activities of advertising agencies",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-27",
+    "aux": []
+   },
+   {
+    "id": "3658421-2",
+    "name": "Ainio Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ainio.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Ainio · Suomalainen tekoälytyöalusta pienyrittäjille",
+    "final_url": "https://ainio.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-28",
+    "aux": []
+   },
+   {
+    "id": "3658467-7",
+    "name": "Sauma Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "saumalabs.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Sauma One — palvelunhallinta, jossa tekoäly toimii teidän säännöillänne",
+    "final_url": "https://www.saumalabs.com/fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-28",
+    "aux": []
+   },
+   {
+    "id": "3658509-8",
+    "name": "JMO Systems Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-28",
+    "aux": []
+   },
+   {
+    "id": "3658629-3",
+    "name": "Gavia Solutions Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-28",
+    "aux": []
+   },
+   {
+    "id": "3658777-1",
+    "name": "Toden Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "toden.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "AI-vastaanottaja hammasklinikalle | TODEN",
+    "final_url": "https://toden.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3658822-1",
+    "name": "Mustuvat Kanat Oy",
+    "tol": "52229",
+    "tol_desc": "Other service activities incidental to water transportation",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": [
+     "Below Bubbles"
+    ]
+   },
+   {
+    "id": "3658871-5",
+    "name": "SalesHusky Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.saleshusky.com",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3658909-9",
+    "name": "Data Tiering Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3658914-4",
+    "name": "TH Discovery Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3658941-9",
+    "name": "Patritech Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3658980-6",
+    "name": "Hosprest Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3659008-1",
+    "name": "FRCTL-app Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "frctl-app.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "FRCTL",
+    "final_url": "https://www.frctl-app.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-29",
+    "aux": []
+   },
+   {
+    "id": "3659074-3",
+    "name": "Zoftware Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "zoftware.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Business Software Directory - zoftware.io",
+    "final_url": "https://zoftware.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659075-1",
+    "name": "Karelia syntec Oy",
+    "tol": "28990",
+    "tol_desc": "Manufacture of other special-purpose machinery n.e.c.",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659133-2",
+    "name": "Satama Trading Oy",
+    "tol": "46900",
+    "tol_desc": "Non-specialised wholesale trade",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659149-8",
+    "name": "Quality of Fun Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.qualityoffun.com",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659245-8",
+    "name": "Green Crate Oy",
+    "tol": "72100",
+    "tol_desc": "Research and experimental development on natural sciences and engineering",
+    "website_field": "www.greencrate.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659248-2",
+    "name": "Paulux Consulting Oy",
+    "tol": "71129",
+    "tol_desc": "Other engineering activities and related technical consultancy",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-09-30",
+    "aux": []
+   },
+   {
+    "id": "3659369-6",
+    "name": "FieldIT Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-01",
+    "aux": []
+   },
+   {
+    "id": "3659416-2",
+    "name": "SCMedia Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "scmedia.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "SC Media | Boost Your Visibility Today",
+    "final_url": "https://www.scmedia.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-01",
+    "aux": []
+   },
+   {
+    "id": "3659518-1",
+    "name": "Osa Solutions Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "osa-solutions.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": true,
+    "strong": [
+     "marine",
+     "shipyard",
+     "underwater"
+    ],
+    "weak": [
+     "boat",
+     "boating",
+     "boats",
+     "fishfinders",
+     "ship",
+     "vessel"
+    ],
+    "title": "Marine Electrical Services in South Florida | OSA Solutions",
+    "final_url": "https://www.osa-solutions.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-01",
+    "aux": []
+   },
+   {
+    "id": "3659534-1",
+    "name": "Gevolut Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-01",
+    "aux": []
+   },
+   {
+    "id": "3659541-3",
+    "name": "EBION Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "ebion.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "EBION Oy — Websites, digital solutions & AI consulting",
+    "final_url": "https://ebion.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-01",
+    "aux": []
+   },
+   {
+    "id": "3659742-7",
+    "name": "Zaitti Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "zaitti.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Zaitti | Rakenna kotisivut yrityksellesi sekunneissa",
+    "final_url": "https://www.zaitti.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-02",
+    "aux": []
+   },
+   {
+    "id": "3659765-4",
+    "name": "Le36 Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-02",
+    "aux": []
+   },
+   {
+    "id": "3659772-6",
+    "name": "Marine Software Solutions Ab",
+    "tol": "58290",
+    "tol_desc": "Other software publishing",
+    "website_field": "https://boteservice.com/fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-02",
+    "aux": [
+     "Bote Service"
+    ]
+   },
+   {
+    "id": "3659800-8",
+    "name": "Heimo Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-03",
+    "aux": []
+   },
+   {
+    "id": "3659831-5",
+    "name": "StresstoSuperpower Ab",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-03",
+    "aux": []
+   },
+   {
+    "id": "3659865-7",
+    "name": "Petsabyte Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-03",
+    "aux": []
+   },
+   {
+    "id": "3659999-1",
+    "name": "Amatec Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-04",
+    "aux": []
+   },
+   {
+    "id": "3660009-1",
+    "name": "Herva Health Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-04",
+    "aux": []
+   },
+   {
+    "id": "3660016-3",
+    "name": "Solver Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.solverlabs.fi",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660045-4",
+    "name": "Talaris Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660067-3",
+    "name": "Mikroni Digital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://mikroni.fi",
+    "domain": "mikroni.fi",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Mikroni — jämsäläinen full-stack kehittäjä ja freelancer",
+    "final_url": "https://mikroni.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": [
+     "Kotatsu"
+    ]
+   },
+   {
+    "id": "3660074-5",
+    "name": "Softapakkanen Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660091-3",
+    "name": "Larbo Media Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660146-5",
+    "name": "Satamanranta Oy",
+    "tol": "56111",
+    "tol_desc": "Restaurants and cafeterias",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660183-6",
+    "name": "Talle Digital Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660196-7",
+    "name": "SMC Mod Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660277-5",
+    "name": "Vakelo Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "vakelo.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Vakelo – Modernit verkkosivut pienyrityksille",
+    "final_url": "https://vakelo.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660293-5",
+    "name": "Sevenflowlabs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.sevenflowlabs.com",
+    "domain": "sevenflowlabs.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Sevenflow",
+    "final_url": "https://sevenflowlabs.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660315-3",
+    "name": "Dancing Manatee Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "dancingmanatee.com",
+    "domain": "dancingmanatee.com",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Kinami – Opiskele omasta koulukirjastasi",
+    "final_url": "https://dancingmanatee.com/fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660320-9",
+    "name": "Virkka Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "virkka.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Virkka · Technical consulting and medical device regulation",
+    "final_url": "https://virkka.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660345-2",
+    "name": "Usva Interactive Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-05",
+    "aux": []
+   },
+   {
+    "id": "3660365-5",
+    "name": "Nati Technologies Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660543-1",
+    "name": "ED AI Lab Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660609-8",
+    "name": "Kumpani Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660646-9",
+    "name": "Arrel Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "arrel.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [
+     "sea"
+    ],
+    "title": "Home - ARREL",
+    "final_url": "https://arrel.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660686-4",
+    "name": "Twofold Studios Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660690-1",
+    "name": "BioAssetIQ Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-06",
+    "aux": []
+   },
+   {
+    "id": "3660736-5",
+    "name": "CloudyMind Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "cloudymind.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "CloudyMind Oy – Azure Cloud Architecture, Security and Cost Management",
+    "final_url": "https://cloudymind.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660766-4",
+    "name": "Poussa Partners Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660794-7",
+    "name": "Nostic Waters Oy",
+    "tol": "47763",
+    "tol_desc": "Retail sale of pets and pet food",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660865-9",
+    "name": "Wildemark Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "wildemark.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Wildemark",
+    "final_url": "https://wildemark.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660887-8",
+    "name": "Vexless Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "https://vexless.io",
+    "domain": "vexless.io",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Vexless — Accounting infrastructure",
+    "final_url": "https://vexless.io/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660924-8",
+    "name": "OS Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660973-1",
+    "name": "Vyhti Studios Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3660988-9",
+    "name": "JohtoX Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "johtox.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "JohtoX – ilmajohtojen mekaaninen laskenta",
+    "final_url": "https://johtox.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-07",
+    "aux": []
+   },
+   {
+    "id": "3661071-6",
+    "name": "Techanicus Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661120-9",
+    "name": "Meridies Group Oy",
+    "tol": "70200",
+    "tol_desc": "Business and other management consultancy activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661200-9",
+    "name": "ND Tech Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "nd-tech.io",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "New Dawn Technologies | Custom Web &amp; CRM Development Worldwide | NDTech",
+    "final_url": "https://nd-tech.io/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661212-1",
+    "name": "WorkMatchPeople Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661220-1",
+    "name": "Whimsy Wool Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661231-6",
+    "name": "Peekbase Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "peekbase.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Peekbase — cost of living &amp; climate in 5,600+ cities",
+    "final_url": "https://peekbase.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661236-7",
+    "name": "Temantic Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661283-4",
+    "name": "Right Parts Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "right-parts.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "RIGHT-PARTS FOR CAR PARTS, OILS AND MORE -Home",
+    "final_url": "https://right-parts.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-08",
+    "aux": []
+   },
+   {
+    "id": "3661295-7",
+    "name": "Korpivaste Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "www.vaste.app",
+    "domain": "vaste.app",
+    "domain_source": "prh_website",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "VASTE — Hälytysalusta sopimuspalokunnille ja vapaaehtoisille",
+    "final_url": "https://rescue-crew-connect.lovable.app/vaste",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661355-4",
+    "name": "Vuori Subsea Oy",
+    "tol": "64210",
+    "tol_desc": "Activities of holding companies",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661376-5",
+    "name": "Budget Buddy Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661412-7",
+    "name": "ProMenu Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661465-3",
+    "name": "Noriai Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "noriai.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Ohjelmistoja yrityksille ja arkeen",
+    "final_url": "https://noriai.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661515-4",
+    "name": "Pöykkölä Brothers Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661519-7",
+    "name": "Oraxeon Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661536-5",
+    "name": "Lou-hi Technologies Ltd",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661564-8",
+    "name": "Suokas Holding Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661586-7",
+    "name": "Inhimity Solutions Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "inhimitysolutions.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Inhimity Solutions: nettisivut ja digipalvelut",
+    "final_url": "https://inhimity.fi/",
+    "own_id_on_page": true,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-09",
+    "aux": []
+   },
+   {
+    "id": "3661659-5",
+    "name": "Softmatic Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "softmatic.fi",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Softmatic Oy — Ohjelmistoja ravintolan arkeen",
+    "final_url": "https://softmatic.fi/",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-10",
+    "aux": []
+   },
+   {
+    "id": "3661735-2",
+    "name": "Meridian Vector Oy",
+    "tol": "58290",
+    "tol_desc": "Other software publishing",
+    "website_field": null,
+    "domain": "meridianvector.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Meridian Vector | Find Tomorrow&#x27;s Market Leaders",
+    "final_url": "https://meridianvector.com/",
+    "own_id_on_page": false,
+    "prior": [
+     "blue_name"
+    ],
+    "founded": "2026-10-10",
+    "aux": []
+   },
+   {
+    "id": "3661900-8",
+    "name": "Iso Juusto Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-11",
+    "aux": []
+   },
+   {
+    "id": "3661949-7",
+    "name": "Since Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": "sincelabs.com",
+    "domain_source": "guessed",
+    "confirmed": true,
+    "blue": false,
+    "strong": [],
+    "weak": [],
+    "title": "Räätälöidyt tekoälyautomaatiot · Since Labs | Since Labs",
+    "final_url": "https://sincelabs.com/fi",
+    "own_id_on_page": false,
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-11",
+    "aux": []
+   },
+   {
+    "id": "3661967-3",
+    "name": "Palomaki Labs Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": "palomakilabs.com",
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-11",
+    "aux": []
+   },
+   {
+    "id": "3661996-4",
+    "name": "Softalake Oy",
+    "tol": "62100",
+    "tol_desc": "Computer programming activities",
+    "website_field": null,
+    "domain": null,
+    "domain_source": null,
+    "confirmed": false,
+    "blue": null,
+    "strong": [],
+    "weak": [],
+    "prior": [
+     "tech_tol"
+    ],
+    "founded": "2026-10-11",
+    "aux": []
+   }
+  ]
+ },
+ "B_newly_active": [],
+ "C_ted": {
+  "total": 0,
+  "notices": []
+ },
+ "seconds": 276
+}

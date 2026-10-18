@@ -1,0 +1,7397 @@
+{
+ "recorded_at": "2026-10-17T17:34:06+00:00",
+ "request": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies businessIdRegistration 2026-10-13, OY",
+ "totalResults": 88,
+ "companies": [
+  {
+   "businessId": {
+    "value": "3662354-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662354-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Sivutek Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "536"
+      },
+      {
+       "municipalityCode": "536"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T00:46:07"
+  },
+  {
+   "businessId": {
+    "value": "3662364-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662364-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "SetSnitch Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "638"
+      },
+      {
+       "municipalityCode": "638"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T07:51:50"
+  },
+  {
+   "businessId": {
+    "value": "3662387-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662387-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Biker School Joensuu Oy",
+     "type": "1",
+     "registrationDate": "2026-10-14",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "mainBusinessLine": {
+    "type": "85530",
+    "descriptions": [
+     {
+      "languageCode": "3",
+      "description": "Driving school activities"
+     },
+     {
+      "languageCode": "1",
+      "description": "Kuljettajakoulutus"
+     },
+     {
+      "languageCode": "2",
+      "description": "Trafikskoleverksamhet"
+     }
+    ],
+    "typeCodeSet": "TOIMI4",
+    "registrationDate": "2026-10-13",
+    "source": "2"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-14",
+     "version": 1,
+     "source": "1"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "endDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2026-10-14",
+     "register": "1",
+     "authority": "2"
+    },
+    {
+     "type": "1",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2026-10-14",
+     "register": "4",
+     "authority": "1"
+    },
+    {
+     "type": "55",
+     "descriptions": [
+      {
+       "languageCode": "3",
+       "description": "Registered"
+      },
+      {
+       "languageCode": "2",
+       "description": "Registrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisterissä"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "5",
+     "authority": "1"
+    },
+    {
+     "type": "80",
+     "descriptions": [
+      {
+       "languageCode": "1",
+       "description": "Liiketoiminnasta arvonlisäverovelvollinen"
+      },
+      {
+       "languageCode": "2",
+       "description": "Momsskyldig för rörelseverksamhet"
+      },
+      {
+       "languageCode": "3",
+       "description": "VAT-liable for business activity"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "6",
+     "authority": "1"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "167"
+      },
+      {
+       "municipalityCode": "167"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "1",
+   "status": "2",
+   "registrationDate": "2026-10-14",
+   "lastModified": "2026-10-16T01:22:09"
+  },
+  {
+   "businessId": {
+    "value": "3662390-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662390-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kooni Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "www.kooni.fi",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T08:43:53"
+  },
+  {
+   "businessId": {
+    "value": "3662393-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662393-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Lauma Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "https://lauma.cloud",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "615"
+      },
+      {
+       "municipalityCode": "615"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T08:51:45"
+  },
+  {
+   "businessId": {
+    "value": "3662402-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662402-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Mirko Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "257"
+      },
+      {
+       "municipalityCode": "257"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T09:20:21"
+  },
+  {
+   "businessId": {
+    "value": "3662418-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662418-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "TeM Sijoitus Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "236"
+      },
+      {
+       "municipalityCode": "236"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "236"
+      },
+      {
+       "municipalityCode": "236"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T09:58:37"
+  },
+  {
+   "businessId": {
+    "value": "3662420-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662420-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kiinteistö Oy Yritystien hallit",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "481"
+      },
+      {
+       "municipalityCode": "481"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "481"
+      },
+      {
+       "municipalityCode": "481"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T09:59:50"
+  },
+  {
+   "businessId": {
+    "value": "3662425-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662425-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Japami Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "564"
+      },
+      {
+       "municipalityCode": "564"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T10:21:25"
+  },
+  {
+   "businessId": {
+    "value": "3662428-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662428-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Psykoterapiapalvelut Kotiranta Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "102"
+      },
+      {
+       "municipalityCode": "102"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T10:27:55"
+  },
+  {
+   "businessId": {
+    "value": "3662433-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662433-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "J Konneri Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "691"
+      },
+      {
+       "municipalityCode": "691"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T10:49:15"
+  },
+  {
+   "businessId": {
+    "value": "3662436-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662436-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Industris OY",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T10:58:02"
+  },
+  {
+   "businessId": {
+    "value": "3662439-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662439-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "RS Autopaja Ryhmä",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:07:37"
+  },
+  {
+   "businessId": {
+    "value": "3662440-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662440-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Åra restaurants Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:07:38"
+  },
+  {
+   "businessId": {
+    "value": "3662442-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662442-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Ergona oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "205"
+      },
+      {
+       "municipalityCode": "205"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:11:36"
+  },
+  {
+   "businessId": {
+    "value": "3662434-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662434-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Usva DC Kontiolahti Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:16:59"
+  },
+  {
+   "businessId": {
+    "value": "3662450-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662450-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Timpuri Visuals",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:18:31"
+  },
+  {
+   "businessId": {
+    "value": "3662449-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662449-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kuljetus Tuomas Kohmo Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "704"
+      },
+      {
+       "municipalityCode": "704"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:18:31"
+  },
+  {
+   "businessId": {
+    "value": "3662453-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662453-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "VS Urakointi OY",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "434"
+      },
+      {
+       "municipalityCode": "434"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:33:58"
+  },
+  {
+   "businessId": {
+    "value": "3662454-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662454-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Godere",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "638"
+      },
+      {
+       "municipalityCode": "638"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:35:50"
+  },
+  {
+   "businessId": {
+    "value": "3662463-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662463-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Mercy Rock Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "980"
+      },
+      {
+       "municipalityCode": "980"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:46:31"
+  },
+  {
+   "businessId": {
+    "value": "3662465-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662465-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Anilan Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "543"
+      },
+      {
+       "municipalityCode": "543"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:49:35"
+  },
+  {
+   "businessId": {
+    "value": "3662469-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662469-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "JTK-Balaii Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T11:53:26"
+  },
+  {
+   "businessId": {
+    "value": "3662483-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662483-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "KLM Kymen LVI Mittaus & huolto Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "286"
+      },
+      {
+       "municipalityCode": "286"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:27:15"
+  },
+  {
+   "businessId": {
+    "value": "3662485-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662485-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Lunastus Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "167"
+      },
+      {
+       "municipalityCode": "167"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:29:30"
+  },
+  {
+   "businessId": {
+    "value": "3662488-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662488-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Tuvasa Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "924"
+      },
+      {
+       "municipalityCode": "924"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:34:54"
+  },
+  {
+   "businessId": {
+    "value": "3662490-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662490-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Robacha Holding Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:40:24"
+  },
+  {
+   "businessId": {
+    "value": "3662491-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662491-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "KFHabit Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:48:19"
+  },
+  {
+   "businessId": {
+    "value": "3662495-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662495-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Norrberga Villas",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "445"
+      },
+      {
+       "municipalityCode": "445"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T12:55:17"
+  },
+  {
+   "businessId": {
+    "value": "3662498-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662498-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Koskinen Ventures Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "837"
+      },
+      {
+       "municipalityCode": "837"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T13:16:19"
+  },
+  {
+   "businessId": {
+    "value": "3662504-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662504-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "TR Tili Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "687"
+      },
+      {
+       "municipalityCode": "687"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "687"
+      },
+      {
+       "municipalityCode": "687"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T13:34:56"
+  },
+  {
+   "businessId": {
+    "value": "3662510-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662510-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "TopShelf Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "576"
+      },
+      {
+       "municipalityCode": "576"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T13:51:56"
+  },
+  {
+   "businessId": {
+    "value": "3662512-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662512-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "UKV Consulting Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T13:55:40"
+  },
+  {
+   "businessId": {
+    "value": "3662509-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662509-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Heljanko Kiinteistöt Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "018"
+      },
+      {
+       "municipalityCode": "018"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T13:59:03"
+  },
+  {
+   "businessId": {
+    "value": "3662517-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662517-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "EEWA Consulting Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "www.eewa.fi",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "179"
+      },
+      {
+       "municipalityCode": "179"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "179"
+      },
+      {
+       "municipalityCode": "179"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:03:38"
+  },
+  {
+   "businessId": {
+    "value": "3662519-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662519-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kaira Industrial Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:07:34"
+  },
+  {
+   "businessId": {
+    "value": "3662522-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662522-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Maansiirto Martin Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "543"
+      },
+      {
+       "municipalityCode": "543"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:13:11"
+  },
+  {
+   "businessId": {
+    "value": "3662518-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662518-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Muovi-Heljanko A Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "018"
+      },
+      {
+       "municipalityCode": "018"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:24:17"
+  },
+  {
+   "businessId": {
+    "value": "3662524-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662524-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Sijoitus Heljanko Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "018"
+      },
+      {
+       "municipalityCode": "018"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:25:04"
+  },
+  {
+   "businessId": {
+    "value": "3662527-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662527-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Paneliankosken Voima Verkot Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "050"
+      },
+      {
+       "municipalityCode": "050"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "050"
+      },
+      {
+       "municipalityCode": "050"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:25:05"
+  },
+  {
+   "businessId": {
+    "value": "3662535-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662535-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Sähkötyö Kylander Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "684"
+      },
+      {
+       "municipalityCode": "684"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:43:19"
+  },
+  {
+   "businessId": {
+    "value": "3662541-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662541-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "OGS Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:50:31"
+  },
+  {
+   "businessId": {
+    "value": "3662553-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662553-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Nordic Melody Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "www.nordicmelody.com",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "545"
+      },
+      {
+       "municipalityCode": "545"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T15:12:16"
+  },
+  {
+   "businessId": {
+    "value": "3662547-5",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662547-5",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Thermotilat Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "102"
+      },
+      {
+       "municipalityCode": "102"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T15:22:13"
+  },
+  {
+   "businessId": {
+    "value": "3662557-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662557-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Hivex Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T15:23:52"
+  },
+  {
+   "businessId": {
+    "value": "3662559-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662559-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Rixus Digitals Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "694"
+      },
+      {
+       "municipalityCode": "694"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T15:25:12"
+  },
+  {
+   "businessId": {
+    "value": "3662580-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662580-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Topecon Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "051"
+      },
+      {
+       "municipalityCode": "051"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T16:32:45"
+  },
+  {
+   "businessId": {
+    "value": "3662581-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662581-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kulin Kiinteistöt Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "746"
+      },
+      {
+       "municipalityCode": "746"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T16:40:26"
+  },
+  {
+   "businessId": {
+    "value": "3662585-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662585-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Wiese Group Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T16:46:24"
+  },
+  {
+   "businessId": {
+    "value": "3662588-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662588-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Ovela Solutions Oy Ab",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "905"
+      },
+      {
+       "municipalityCode": "905"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "905"
+      },
+      {
+       "municipalityCode": "905"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T16:55:29"
+  },
+  {
+   "businessId": {
+    "value": "3662589-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662589-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "HMT Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "301"
+      },
+      {
+       "municipalityCode": "301"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T14:56:00"
+  },
+  {
+   "businessId": {
+    "value": "3662591-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662591-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Vainula Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Vainula Ltd",
+     "type": "2",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "564"
+      },
+      {
+       "municipalityCode": "564"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T17:13:27"
+  },
+  {
+   "businessId": {
+    "value": "3662593-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662593-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Dionysos",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T17:25:14"
+  },
+  {
+   "businessId": {
+    "value": "3662597-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662597-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Neutilus Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "927"
+      },
+      {
+       "municipalityCode": "927"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T17:32:38"
+  },
+  {
+   "businessId": {
+    "value": "3662599-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662599-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "AH Arctic Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "698"
+      },
+      {
+       "municipalityCode": "698"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T17:47:56"
+  },
+  {
+   "businessId": {
+    "value": "3662601-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662601-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "BM Mobility Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:11:31"
+  },
+  {
+   "businessId": {
+    "value": "3662602-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662602-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Shipping Insulation Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:12:17"
+  },
+  {
+   "businessId": {
+    "value": "3662605-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662605-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Poies Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:22:27"
+  },
+  {
+   "businessId": {
+    "value": "3662606-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662606-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "MKM Katto Service Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:23:52"
+  },
+  {
+   "businessId": {
+    "value": "3662607-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662607-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Wallavilla Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Wallavilla Ltd",
+     "type": "2",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Peltosaaren lammastila",
+     "type": "3",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "734"
+      },
+      {
+       "municipalityCode": "734"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:29:02"
+  },
+  {
+   "businessId": {
+    "value": "3662609-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662609-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "WauWall Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "106"
+      },
+      {
+       "municipalityCode": "106"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:29:45"
+  },
+  {
+   "businessId": {
+    "value": "3662610-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662610-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Aurora Suites Levi",
+     "type": "3",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Aatela Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "833"
+      },
+      {
+       "municipalityCode": "833"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:31:56"
+  },
+  {
+   "businessId": {
+    "value": "3662614-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662614-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Media Kit Club Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Mediakortti.com",
+     "type": "3",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:37:09"
+  },
+  {
+   "businessId": {
+    "value": "3662618-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662618-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "BITEBOX Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "301"
+      },
+      {
+       "municipalityCode": "301"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:45:04"
+  },
+  {
+   "businessId": {
+    "value": "3662620-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662620-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "IKU",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:52:07"
+  },
+  {
+   "businessId": {
+    "value": "3662623-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662623-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Calora Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "179"
+      },
+      {
+       "municipalityCode": "179"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:56:33"
+  },
+  {
+   "businessId": {
+    "value": "3662625-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662625-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Beiggo Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T18:57:16"
+  },
+  {
+   "businessId": {
+    "value": "3662628-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662628-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kasarina Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "698"
+      },
+      {
+       "municipalityCode": "698"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T19:22:29"
+  },
+  {
+   "businessId": {
+    "value": "3662631-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662631-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "PLT Partners Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "286"
+      },
+      {
+       "municipalityCode": "286"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T19:33:21"
+  },
+  {
+   "businessId": {
+    "value": "3662634-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662634-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "JMMLab Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "398"
+      },
+      {
+       "municipalityCode": "398"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T19:39:54"
+  },
+  {
+   "businessId": {
+    "value": "3662633-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662633-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Aurora Berry Ab Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "905"
+      },
+      {
+       "municipalityCode": "905"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T19:47:13"
+  },
+  {
+   "businessId": {
+    "value": "3662644-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662644-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Sulas Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "678"
+      },
+      {
+       "municipalityCode": "678"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T20:09:20"
+  },
+  {
+   "businessId": {
+    "value": "3662655-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662655-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kajo Dynamics",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "543"
+      },
+      {
+       "municipalityCode": "543"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T21:00:39"
+  },
+  {
+   "businessId": {
+    "value": "3662660-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662660-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kynäslahti Consulting Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    },
+    {
+     "name": "Kynaslahti Consulting Oy",
+     "type": "2",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T21:27:04"
+  },
+  {
+   "businessId": {
+    "value": "3662661-1",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662661-1",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "AP Assets Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T21:30:17"
+  },
+  {
+   "businessId": {
+    "value": "3662664-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662664-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Veljekset Suominen Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "169"
+      },
+      {
+       "municipalityCode": "169"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T21:59:05"
+  },
+  {
+   "businessId": {
+    "value": "3662665-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662665-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Haminan Säätövoima Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T22:48:11"
+  },
+  {
+   "businessId": {
+    "value": "3662666-2",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662666-2",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Voimakoti OY",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T22:59:54"
+  },
+  {
+   "businessId": {
+    "value": "3662668-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662668-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Riihimäen Säätövoima Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T23:16:47"
+  },
+  {
+   "businessId": {
+    "value": "3662669-7",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662669-7",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Selkko Oy Ab",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "www.selkko.fi",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "710"
+      },
+      {
+       "municipalityCode": "710"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T23:19:36"
+  },
+  {
+   "businessId": {
+    "value": "3662671-8",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662671-8",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kiesi Partners Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "405"
+      },
+      {
+       "municipalityCode": "405"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T23:38:28"
+  },
+  {
+   "businessId": {
+    "value": "3662672-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662672-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Fysio Urbanus Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T23:41:21"
+  },
+  {
+   "businessId": {
+    "value": "3662676-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3662676-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Kampela Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-13T23:58:48"
+  },
+  {
+   "businessId": {
+    "value": "3663043-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3663043-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Dais Energy Suomi",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "091"
+      },
+      {
+       "municipalityCode": "091"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-15T05:33:41"
+  },
+  {
+   "businessId": {
+    "value": "3663046-9",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3663046-9",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Anson Baer Tilitoimisto Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "092"
+      },
+      {
+       "municipalityCode": "092"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-15T05:33:52"
+  },
+  {
+   "businessId": {
+    "value": "3663077-6",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3663077-6",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "ReWoN Motors Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "website": {
+    "url": "www.rewonmotors.fi",
+    "registrationDate": "2026-10-13",
+    "source": "0"
+   },
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 1,
+     "postOffices": [
+      {
+       "municipalityCode": "167"
+      },
+      {
+       "municipalityCode": "167"
+      }
+     ]
+    },
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "167"
+      },
+      {
+       "municipalityCode": "167"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-15T09:16:26"
+  },
+  {
+   "businessId": {
+    "value": "3663078-4",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3663078-4",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "Nieko Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "208"
+      },
+      {
+       "municipalityCode": "208"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-15T09:17:27"
+  },
+  {
+   "businessId": {
+    "value": "3663081-3",
+    "registrationDate": "2026-10-13",
+    "source": "3"
+   },
+   "euId": {
+    "value": "FIFPRO.3663081-3",
+    "source": "1"
+   },
+   "names": [
+    {
+     "name": "PP-Asennus Oy",
+     "type": "1",
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companyForms": [
+    {
+     "type": "16",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Aktiebolag"
+      },
+      {
+       "languageCode": "3",
+       "description": "Limited company"
+      },
+      {
+       "languageCode": "1",
+       "description": "Osakeyhtiö"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "version": 1,
+     "source": "3"
+    }
+   ],
+   "companySituations": [],
+   "registeredEntries": [
+    {
+     "type": "0",
+     "descriptions": [
+      {
+       "languageCode": "2",
+       "description": "Oregistrerad"
+      },
+      {
+       "languageCode": "1",
+       "description": "Rekisteröimätön"
+      },
+      {
+       "languageCode": "3",
+       "description": "Unregistered"
+      }
+     ],
+     "registrationDate": "2026-10-13",
+     "register": "1",
+     "authority": "2"
+    }
+   ],
+   "addresses": [
+    {
+     "type": 2,
+     "postOffices": [
+      {
+       "municipalityCode": "049"
+      },
+      {
+       "municipalityCode": "049"
+      }
+     ]
+    }
+   ],
+   "tradeRegisterStatus": "0",
+   "status": "1",
+   "lastModified": "2026-10-15T09:22:55"
+  }
+ ]
+}

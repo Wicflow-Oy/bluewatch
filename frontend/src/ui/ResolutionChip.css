@@ -1,0 +1,4 @@
+.resolution-chip {
+  display: inline-flex;
+  border-radius: var(--r-pill);
+}

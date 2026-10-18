@@ -1,0 +1,119 @@
+/* Skeletons, empty and error states (section 3.19). Unknown is hatched, never blank. */
+.skeleton {
+  display: block;
+  background:
+    linear-gradient(
+        90deg,
+        transparent 0,
+        color-mix(in srgb, var(--surface) 70%, transparent) 50%,
+        transparent 100%
+      )
+      no-repeat,
+    var(--sunken);
+  background-size: 320px 100%;
+  animation: tp-shimmer 1.4s linear infinite;
+}
+
+:root[data-theme="graphite"] .skeleton {
+  background:
+    linear-gradient(90deg, transparent 0, rgba(255, 255, 255, 0.04) 50%, transparent 100%) no-repeat,
+    var(--sunken);
+  background-size: 320px 100%;
+}
+
+.skeleton-lines {
+  display: grid;
+}
+
+.loading-region {
+  display: contents;
+}
+
+.state {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 32px 24px;
+  text-align: center;
+  border-radius: var(--r-xl);
+  background-image: var(--hatch);
+  box-shadow: inset 0 0 0 1px var(--line-2);
+}
+
+.state--compact {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px 12px;
+  padding: 16px 18px;
+  border-radius: var(--r-lg);
+  text-align: left;
+}
+
+.state__icon {
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  color: var(--muted);
+  background: var(--surface);
+  box-shadow: var(--sh-1);
+}
+
+.state__icon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.state--compact .state__icon {
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+}
+
+.state--compact .state__icon svg {
+  width: 16px;
+  height: 16px;
+}
+
+.state--error {
+  background: var(--surface);
+  box-shadow: inset 0 0 0 1px var(--red-line);
+}
+
+.state--error .state__icon {
+  color: var(--red);
+  background: var(--red-soft);
+  box-shadow: none;
+}
+
+.state__title {
+  font: 600 14px/1.3 var(--sans);
+  color: var(--ink);
+}
+
+.state--compact .state__title {
+  font: 550 13px/1.3 var(--sans);
+  color: var(--ink-2);
+}
+
+.state__body {
+  max-width: 420px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
+.state__action {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.state--compact .state__action {
+  margin-top: 0;
+}

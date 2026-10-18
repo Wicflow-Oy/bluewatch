@@ -1,0 +1,63 @@
+# BlueWatch public demo: compose project "jx-bluewatch" behind the server's existing Traefik.
+# Run from the repo root:
+#   docker compose -p jx-bluewatch --env-file .env -f deploy/compose.yml up -d --build
+name: jx-bluewatch
+
+services:
+  bluewatch:
+    build:
+      context: ..
+      dockerfile: Dockerfile
+    image: jx-bluewatch:latest
+    container_name: jx-bluewatch
+    restart: unless-stopped
+    env_file:
+      - ../.env
+    environment:
+      BLUEWATCH_PUBLIC: "1"
+      OUTREACH_MODE: "demo"
+      # The deployed commit for /api/meta: BLUEWATCH_BUILD=$(git rev-parse --short HEAD) docker compose ... up
+      BLUEWATCH_BUILD: ${BLUEWATCH_BUILD:-dev}
+      # Uvicorn trusts X-Forwarded-For only from these addresses: set it in .env to the reverse proxy's address
+      # or subnet. Left empty it stays "*", which lets any container on the proxy network spoof a visitor's IP.
+      FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-*}
+      # The daily spend ledger lives on the state volume, so a restart does not reset the cap.
+      # Public mode writes nothing else there.
+      BLUEWATCH_CACHE_DIR: /state
+    mem_limit: 1536m
+    read_only: true
+    tmpfs:
+      - /tmp:size=256m
+    volumes:
+      - state:/state
+    security_opt:
+      - no-new-privileges:true
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    healthcheck:
+      test: ["CMD", "python", "-c", "import sys, urllib.request; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8787/api/health', timeout=4).status == 200 else 1)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 20s
+    networks:
+      - proxy
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=${TRAEFIK_NETWORK:-n8n_default}"
+      - "traefik.http.routers.jx-bluewatch.rule=Host(`${BLUEWATCH_HOST:-bluewatch.demo.wicflow.com}`)"
+      - "traefik.http.routers.jx-bluewatch.entrypoints=${TRAEFIK_ENTRYPOINT:-websecure}"
+      - "traefik.http.routers.jx-bluewatch.tls.certresolver=${TRAEFIK_CERTRESOLVER:-zerossl}"
+      - "traefik.http.services.jx-bluewatch.loadbalancer.server.port=8787"
+
+volumes:
+  state:
+    name: jx-bluewatch-state
+
+networks:
+  proxy:
+    external: true
+    name: ${TRAEFIK_NETWORK:-n8n_default}

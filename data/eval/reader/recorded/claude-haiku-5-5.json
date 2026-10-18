@@ -1,0 +1,492 @@
+{
+ "81c08b87e818eb213b203d91": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Hands-on LCA Training Program\", \"reason\": \"The company sells life cycle assessment training and recruiting services, with no ocean or water business in the page text.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Hands-on LCA Training Program",
+   "reason": "The company sells life cycle assessment training and recruiting services, with no ocean or water business in the page text."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "7b876ef0153babb466f8b658": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"Webhotelli ja domain - edullisesti ja helposti.\",\"reason\":\"The page is a generic Finnish web hosting and domain registration placeholder with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Webhotelli ja domain - edullisesti ja helposti.",
+   "reason": "The page is a generic Finnish web hosting and domain registration placeholder with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "5c51dfc015a103203b26f117": {
+  "text": "{\"blue\": true, \"vertical\": \"ocean_infra_clean_energy\", \"quote\": \"OliOil stand-alone vessels are in readiness 24/7/365.\", \"reason\": \"The company builds robotic vessels that collect oil spills from the sea, an ocean environmental technology business.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "ocean_infra_clean_energy",
+   "quote": "OliOil stand-alone vessels are in readiness 24/7/365.",
+   "reason": "The company builds robotic vessels that collect oil spills from the sea, an ocean environmental technology business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "703cf171aaf413aad1d8f843": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Space of Mind produces award winning micro cabins, which are revolutionising the hospitality industry.\", \"reason\": \"The company builds micro cabins for hospitality, which has no ocean or water business focus.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Space of Mind produces award winning micro cabins, which are revolutionising the hospitality industry.",
+   "reason": "The company builds micro cabins for hospitality, which has no ocean or water business focus."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "9f800edbe1dad9420b218f7e": {
+  "text": "{\"blue\": true, \"vertical\": \"blue_biotech_water\", \"quote\": \"Nemo Seafarms is a biodiversity positive business operating in the Baltic Sea.\", \"reason\": \"The company runs marine nutrient-removal and habitat work in the Baltic Sea, which fits water quality and marine biotech.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "blue_biotech_water",
+   "quote": "Nemo Seafarms is a biodiversity positive business operating in the Baltic Sea.",
+   "reason": "The company runs marine nutrient-removal and habitat work in the Baltic Sea, which fits water quality and marine biotech."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "1dd47660c93b0e16df21e2bb": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"Eco Weedkiller Garden is an easy, safe-to-use weed control device operating with 100°C water.\",\"reason\":\"The company makes hot-water weed control devices for gardens and property, which is not an ocean or water-industry business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Eco Weedkiller Garden is an easy, safe-to-use weed control device operating with 100°C water.",
+   "reason": "The company makes hot-water weed control devices for gardens and property, which is not an ocean or water-industry business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "cd3b77a8ac8b5f576da8f2c6": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Growth from Coco Fiber (website coming soon)\", \"reason\": \"The page shows only a coming-soon placeholder about coco fiber growth, with no evidence of an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Growth from Coco Fiber (website coming soon)",
+   "reason": "The page shows only a coming-soon placeholder about coco fiber growth, with no evidence of an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "142a39fe6c352568fb7212fb": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Make money with your biowaste at lower costs\", \"reason\": \"The company sells bioenergy plants that turn biowaste into biogas, and fisheries and wastewater plants appear only as customer categories, not as its own ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Make money with your biowaste at lower costs",
+   "reason": "The company sells bioenergy plants that turn biowaste into biogas, and fisheries and wastewater plants appear only as customer categories, not as its own ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "029a7f4b8391c08c46ec3a7a": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Lentola Logistics Oy on suomalainen droonilogistiikan uranuurtaja.\", \"reason\": \"The company is a drone logistics provider serving rural and island areas, and the archipelago is only its delivery territory, not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Lentola Logistics Oy on suomalainen droonilogistiikan uranuurtaja.",
+   "reason": "The company is a drone logistics provider serving rural and island areas, and the archipelago is only its delivery territory, not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "3e38a0e06a7afb94c7f975e8": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Find local shops near you!\", \"reason\": \"Lokala is a local shop discovery platform with no ocean or water-related business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Find local shops near you!",
+   "reason": "Lokala is a local shop discovery platform with no ocean or water-related business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "5b0cf0c17bea741db9588bbc": {
+  "text": "{\"blue\": true, \"vertical\": \"marine_intelligence\", \"quote\": \"Our technology platform facilitates micro payments from marine biodiversity sightings to coastal communities\", \"reason\": \"The company runs a marine biodiversity conservation platform that pays coastal communities for marine sightings, which is ocean-focused monitoring and data work.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "marine_intelligence",
+   "quote": "Our technology platform facilitates micro payments from marine biodiversity sightings to coastal communities",
+   "reason": "The company runs a marine biodiversity conservation platform that pays coastal communities for marine sightings, which is ocean-focused monitoring and data work."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "17a54704f58d118ad5192512": {
+  "text": "{\"blue\": true, \"vertical\": \"marine_intelligence\", \"quote\": \"If we could collect precise, real-time water data everywhere\", \"reason\": \"The company collects in-situ real-time water quality data for monitoring and prediction, which is water and marine data work.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "marine_intelligence",
+   "quote": "If we could collect precise, real-time water data everywhere",
+   "reason": "The company collects in-situ real-time water quality data for monitoring and prediction, which is water and marine data work."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "262da0b67ebe41c0bc7546db": {
+  "text": "{\"blue\": true, \"vertical\": \"marine_intelligence\", \"quote\": \"offering unmanned vehicles,tools & supplies for researchers, entrepreneurs & hobbyists.\", \"reason\": \"The company sells underwater equipment and unmanned underwater vehicles such as BlueROV2, which fits the underwater technology category.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "marine_intelligence",
+   "quote": "offering unmanned vehicles,tools & supplies for researchers, entrepreneurs & hobbyists.",
+   "reason": "The company sells underwater equipment and unmanned underwater vehicles such as BlueROV2, which fits the underwater technology category."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "4ad4d89679d0b7f9ea6c9794": {
+  "text": "{\"blue\": true, \"vertical\": \"blue_biotech_water\", \"quote\": \"WESI Solutions AI technology improves efficiency of fish farming and promotes more sustainability for future of aquaculture\", \"reason\": \"The company provides AI technology for automated fish farming and aquaculture, which is ocean/water-based food production.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "blue_biotech_water",
+   "quote": "WESI Solutions AI technology improves efficiency of fish farming and promotes more sustainability for future of aquaculture",
+   "reason": "The company provides AI technology for automated fish farming and aquaculture, which is ocean/water-based food production."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "6d831621cfcdfcb60e494644": {
+  "text": "{\"blue\": true, \"vertical\": \"marine_intelligence\", \"quote\": \"Emission-Eye delivers real-time maritime emissions monitoring with IoT, AI, and blockchain for compliance, insights, and carbon-credit monetization.\", \"reason\": \"The company sells real-time maritime emissions monitoring technology for ships, which is marine monitoring and data work.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "marine_intelligence",
+   "quote": "Emission-Eye delivers real-time maritime emissions monitoring with IoT, AI, and blockchain for compliance, insights, and carbon-credit monetization.",
+   "reason": "The company sells real-time maritime emissions monitoring technology for ships, which is marine monitoring and data work."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "9af89ce377569138020f3972": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"We provide role-based LCA training for leaders, teams, and practitioners—focused on real product and business impact.\", \"reason\": \"The company sells Life Cycle Assessment training for corporate teams, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We provide role-based LCA training for leaders, teams, and practitioners—focused on real product and business impact.",
+   "reason": "The company sells Life Cycle Assessment training for corporate teams, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "28d300069199b7846d998cff": {
+  "text": "{\"blue\": true, \"vertical\": \"blue_biotech_water\", \"quote\": \"Keräämällä sitä talteen voidaan poistaa ravinteita vesistöistä ja hillitä rehevöitymistä.\", \"reason\": \"The company's core business is collecting eutrophication biomass from water bodies to remove nutrients and turn it into raw material, which fits water quality and algae-based work.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "blue_biotech_water",
+   "quote": "Keräämällä sitä talteen voidaan poistaa ravinteita vesistöistä ja hillitä rehevöitymistä.",
+   "reason": "The company's core business is collecting eutrophication biomass from water bodies to remove nutrients and turn it into raw material, which fits water quality and algae-based work."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "8020c0f8fadca51e06872763": {
+  "text": "{\"blue\": true, \"vertical\": \"ocean_infra_clean_energy\", \"quote\": \"AI-powered, eco-friendly response system for swift and effective oil spill control.\", \"reason\": \"The company builds AI-driven autonomous vessels and detection systems for oil spill response at sea, which fits ocean environmental infrastructure and monitoring.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "ocean_infra_clean_energy",
+   "quote": "AI-powered, eco-friendly response system for swift and effective oil spill control.",
+   "reason": "The company builds AI-driven autonomous vessels and detection systems for oil spill response at sea, which fits ocean environmental infrastructure and monitoring."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "4b0b38de54b67e10e1f0edc4": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"a company making seedling trays out of Baltic Reed\", \"reason\": \"The company makes seedling trays for horticulture; its business is not ocean or water related, and the Baltic reed and nutrient removal are only side impacts.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "a company making seedling trays out of Baltic Reed",
+   "reason": "The company makes seedling trays for horticulture; its business is not ocean or water related, and the Baltic reed and nutrient removal are only side impacts."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "b944f4b89a33d81aeb02e677": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Space of Mind creates award-winning micro cabins, ideal for private homes, hotels, and spas.\", \"reason\": \"The company builds micro cabins and saunas, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Space of Mind creates award-winning micro cabins, ideal for private homes, hotels, and spas.",
+   "reason": "The company builds micro cabins and saunas, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "fe0722076187af4de98a2338": {
+  "text": "{\"blue\": true, \"vertical\": \"blue_biotech_water\", \"quote\": \"Nemo Seafarms is a biodiversity positive business operating in the Baltic Sea.\", \"reason\": \"The company runs ocean-based seafarming in the Baltic Sea, which fits the aquaculture and marine biology category.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "blue_biotech_water",
+   "quote": "Nemo Seafarms is a biodiversity positive business operating in the Baltic Sea.",
+   "reason": "The company runs ocean-based seafarming in the Baltic Sea, which fits the aquaculture and marine biology category."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "4dba565f4d894ec43c9b7027": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"Eco Weedkiller Garden is an easy, safe-to-use weed control device operating with 100°C water.\",\"reason\":\"The company makes hot-water weed control devices for gardens and professionals, which is not an ocean or water-treatment business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Eco Weedkiller Garden is an easy, safe-to-use weed control device operating with 100°C water.",
+   "reason": "The company makes hot-water weed control devices for gardens and professionals, which is not an ocean or water-treatment business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "ab989288870dd9408b8ca19b": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Growth from Coco Fiber (website coming soon)\", \"reason\": \"The page describes a coco fiber growth product with no evidence of ocean or water business activity.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Growth from Coco Fiber (website coming soon)",
+   "reason": "The page describes a coco fiber growth product with no evidence of ocean or water business activity."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "69a3794a4023a63daadbe208": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Find local shops, artisans, and market events near you.\", \"reason\": \"The company runs a local shops and market events discovery platform, with no ocean or water business activity.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Find local shops, artisans, and market events near you.",
+   "reason": "The company runs a local shops and market events discovery platform, with no ocean or water business activity."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "68d5c92441cfd4e16d1f74e7": {
+  "text": "{\"blue\": true, \"vertical\": \"marine_intelligence\", \"quote\": \"WAI (Water Intelligence) is transforming how we understand and manage our most vital resource—water.\", \"reason\": \"The company offers in-situ water quality and soil moisture monitoring diagnostics, which fits marine and water monitoring technology.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "marine_intelligence",
+   "quote": "WAI (Water Intelligence) is transforming how we understand and manage our most vital resource—water.",
+   "reason": "The company offers in-situ water quality and soil moisture monitoring diagnostics, which fits marine and water monitoring technology."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "1c9b43d6ee98873425b955f1": {
+  "text": "{\"blue\": true, \"vertical\": \"ocean_infra_clean_energy\", \"quote\": \"Sireness sorbent cleans oil in land and water efficiently with lower emissions and costs.\", \"reason\": \"The company makes biodegradable sorbents for oil spill response on water, which is an ocean and marine environmental protection business.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "ocean_infra_clean_energy",
+   "quote": "Sireness sorbent cleans oil in land and water efficiently with lower emissions and costs.",
+   "reason": "The company makes biodegradable sorbents for oil spill response on water, which is an ocean and marine environmental protection business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "f96c4567304cd16ccdf763d5": {
+  "text": "{\"blue\":true,\"vertical\":\"maritime_ports\",\"quote\":\"Emission-Eye provides real-time maritime emissions intelligence through IoT sensing, AI-powered optimization, and blockchain-verified compliance for global shipping.\",\"reason\":\"The company sells emissions monitoring and compliance intelligence for global shipping operations, which falls under maritime services and marine monitoring.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "maritime_ports",
+   "quote": "Emission-Eye provides real-time maritime emissions intelligence through IoT sensing, AI-powered optimization, and blockchain-verified compliance for global shipping.",
+   "reason": "The company sells emissions monitoring and compliance intelligence for global shipping operations, which falls under maritime services and marine monitoring."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "441ec9f4def804ba5abe3164": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Naiseuden, kehollisuuden ja syklisyyden voima elämässä & yrittäjyydessä. Mentoroinnit, tapahtumat ja retriitit\", \"reason\": \"The company is a body-centred coaching and mentoring business for women, with no ocean or water focus.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Naiseuden, kehollisuuden ja syklisyyden voima elämässä & yrittäjyydessä. Mentoroinnit, tapahtumat ja retriitit",
+   "reason": "The company is a body-centred coaching and mentoring business for women, with no ocean or water focus."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "78bcb812985bb0a1859029ce": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"Kauneudenhoitolaitteet ja hyvinvointilaitteet ammattilaisille.\",\"reason\":\"The company sells beauty and wellness devices to professionals, with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Kauneudenhoitolaitteet ja hyvinvointilaitteet ammattilaisille.",
+   "reason": "The company sells beauty and wellness devices to professionals, with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "1cd4153169a9233e877fde71": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"Welcome to Q-Parts.com!\",\"reason\":\"The page sells guitar parts such as knobs, pickguards, pickups and tuners, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Welcome to Q-Parts.com!",
+   "reason": "The page sells guitar parts such as knobs, pickguards, pickups and tuners, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "dd2ba249d5f7f6bf6c3abbae": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"We are in the middle of The Lakeland Finland and conveniently located along the way\", \"reason\": \"The company runs a holiday village offering cottages, rooms and caravan sites, with no ocean or water business activity.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We are in the middle of The Lakeland Finland and conveniently located along the way",
+   "reason": "The company runs a holiday village offering cottages, rooms and caravan sites, with no ocean or water business activity."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "21f8eb28ac5d2661d1b2c286": {
+  "text": "{\"blue\":true,\"vertical\":\"blue_biotech_water\",\"quote\":\"NMR Technologies tarjoaa NMR-mittauksen vesilaitoksille ja teollisuudelle.\",\"reason\":\"The company sells continuous online NMR measurement for water utilities and industry, including monitoring of water quality such as manganese content.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "blue_biotech_water",
+   "quote": "NMR Technologies tarjoaa NMR-mittauksen vesilaitoksille ja teollisuudelle.",
+   "reason": "The company sells continuous online NMR measurement for water utilities and industry, including monitoring of water quality such as manganese content."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "c112765326d848ced1658667": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"We slow down greenhouse effect by reducing methane gas directly from surrounding air\", \"reason\": \"The company removes methane from ambient air for climate purposes, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We slow down greenhouse effect by reducing methane gas directly from surrounding air",
+   "reason": "The company removes methane from ambient air for climate purposes, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "ac4ac0bdb2643b2845810a32": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"amon.io - Experimental projects and web applications\", \"reason\": \"The page lists experimental web projects such as an image retention cleaner and a radio stream player, with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "amon.io - Experimental projects and web applications",
+   "reason": "The page lists experimental web projects such as an image retention cleaner and a radio stream player, with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "042cfd9bfffabd1fb2d01e45": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"MINIKUROTTAJA KAUKO-OHJAUKSELLA\", \"reason\": \"The page describes a remote-controlled mini excavator for land use on slopes and tight spaces, with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "MINIKUROTTAJA KAUKO-OHJAUKSELLA",
+   "reason": "The page describes a remote-controlled mini excavator for land use on slopes and tight spaces, with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "e2418af148f0ff2e155606db": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Rakennamme ja ylläpidämme piha- ja viheralueita yrityksille, taloyhtiöille ja muille tilaajille pääkaupunkiseudulla.\", \"reason\": \"The company builds and maintains landscaped green areas and courtyards, which is land-based landscaping rather than an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Rakennamme ja ylläpidämme piha- ja viheralueita yrityksille, taloyhtiöille ja muille tilaajille pääkaupunkiseudulla.",
+   "reason": "The company builds and maintains landscaped green areas and courtyards, which is land-based landscaping rather than an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "67dc162cbcf7078322dead02": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Ekologista ympäristönhoitoa\", \"reason\": \"The page describes general ecological environmental maintenance with no evident ocean or water business activity.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Ekologista ympäristönhoitoa",
+   "reason": "The page describes general ecological environmental maintenance with no evident ocean or water business activity."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "42405cf8146b357ace930a11": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"MaeSTRo Lab Oy is a biotech company\", \"reason\": \"The company is a human and animal genomics and forensics firm, with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "MaeSTRo Lab Oy is a biotech company",
+   "reason": "The company is a human and animal genomics and forensics firm, with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "119dc65acdff8f53befd0758": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"The go-to platform for sustainability data management CBAM calculation and reporting\",\"reason\":\"The company sells EU sustainability reporting and carbon accounting software, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "The go-to platform for sustainability data management CBAM calculation and reporting",
+   "reason": "The company sells EU sustainability reporting and carbon accounting software, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "b19b148537eba6f39af258dc": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"our team is returning to the YUKON in 2020\", \"reason\": \"The page is a personal blog about a team's canoe race training on the Yukon River, not a company whose business is ocean or water related.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "our team is returning to the YUKON in 2020",
+   "reason": "The page is a personal blog about a team's canoe race training on the Yukon River, not a company whose business is ocean or water related."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "87ec287f1ae1038c2bedee51": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"AQ Biotech’s phage-biosensors represent cutting-edge technology for rapid, accurate, and affordable disease detection and monitoring.\", \"reason\": \"The company develops medical diagnostic phage-biosensors for disease detection, which is not an ocean or water business despite the name.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "AQ Biotech’s phage-biosensors represent cutting-edge technology for rapid, accurate, and affordable disease detection and monitoring.",
+   "reason": "The company develops medical diagnostic phage-biosensors for disease detection, which is not an ocean or water business despite the name."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "2be474dda24caa33eed7b563": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Systems engineering, silicon to cloud\", \"reason\": \"The company is a general systems engineering consultancy covering FPGA, data pipelines and cloud, with no ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Systems engineering, silicon to cloud",
+   "reason": "The company is a general systems engineering consultancy covering FPGA, data pipelines and cloud, with no ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "7f9dd4efdd100633e2dd5e2e": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"We specialize in fullstack development, mobile applications, and smart solutions.\",\"reason\":\"The company is a general software development firm with no ocean or water-related business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We specialize in fullstack development, mobile applications, and smart solutions.",
+   "reason": "The company is a general software development firm with no ocean or water-related business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "1b0d53ecbf9967ebec0b1bee": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"We develop, produce and sell professional service robots in various industries such as pharmaceutical, hospitality, and other global markets.\", \"reason\": \"The company builds service robots for pharmaceutical and hospitality markets, and the ocean word in its name is not evidence of an ocean business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We develop, produce and sell professional service robots in various industries such as pharmaceutical, hospitality, and other global markets.",
+   "reason": "The company builds service robots for pharmaceutical and hospitality markets, and the ocean word in its name is not evidence of an ocean business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "70febac455f58e5f0738cdef": {
+  "text": "{\"blue\": true, \"vertical\": \"maritime_ports\", \"quote\": \"Hyke offers electric, autonomy-prepared ferries for cleaner, smarter urban mobility\", \"reason\": \"The company builds electric ferries, which is a shipping and maritime transport business.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "maritime_ports",
+   "quote": "Hyke offers electric, autonomy-prepared ferries for cleaner, smarter urban mobility",
+   "reason": "The company builds electric ferries, which is a shipping and maritime transport business."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "22111a101043a9cc2a46fde5": {
+  "text": "{\"blue\": true, \"vertical\": \"maritime_ports\", \"quote\": \"Supercharging maritime freight | AI fleet optimization\", \"reason\": \"The company provides AI fleet optimization for maritime freight, which is shipping and maritime services.\"}",
+  "data": {
+   "blue": true,
+   "vertical": "maritime_ports",
+   "quote": "Supercharging maritime freight | AI fleet optimization",
+   "reason": "The company provides AI fleet optimization for maritime freight, which is shipping and maritime services."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "c7c487c04149f2e664793f7d": {
+  "text": "{\"blue\": false, \"vertical\": \"none\", \"quote\": \"Linen towels and bedding made in Finland.\", \"reason\": \"The company sells home textiles, and the only water-related wording is a passing mention of free shipping.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "Linen towels and bedding made in Finland.",
+   "reason": "The company sells home textiles, and the only water-related wording is a passing mention of free shipping."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "da0fb88198f21e47fd20ca60": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"A family hotel in Turku with sea view rooms, a sauna and breakfast.\",\"reason\":\"The company is a hotel, and the ocean references are only passing mentions like a sea view and boat trips as a guest activity.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "A family hotel in Turku with sea view rooms, a sauna and breakfast.",
+   "reason": "The company is a hotel, and the ocean references are only passing mentions like a sea view and boat trips as a guest activity."
+  },
+  "model": "claude-haiku-5-5"
+ },
+ "3a74f27400e5f8c18349dad3": {
+  "text": "{\"blue\":false,\"vertical\":\"none\",\"quote\":\"We research shopper behaviour and deliver weekly reports.\",\"reason\":\"The company does retail market research and sales reporting, which is not an ocean or water business.\"}",
+  "data": {
+   "blue": false,
+   "vertical": "none",
+   "quote": "We research shopper behaviour and deliver weekly reports.",
+   "reason": "The company does retail market research and sales reporting, which is not an ocean or water business."
+  },
+  "model": "claude-haiku-5-5"
+ }
+}

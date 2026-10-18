@@ -1,0 +1,57 @@
+/* The app frame: one column, the top bar inside the scroller so content slides under its frosted glass.
+   No wrapper paints a background: body paints the canvas, which the click shockwave draws on. */
+.app {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  /* Without a capped row the page grows past the viewport and the document scrolls instead of
+     .app__main, which breaks every position: sticky inside a page. */
+  grid-template-rows: minmax(0, 1fr);
+  height: 100vh;
+  height: 100dvh;
+  animation: tp-fade 320ms var(--ease);
+}
+
+.app__main {
+  /* The containing block for absolutely positioned content (sr-only text included): without it,
+     content below the fold made the document itself scrollable and scrollIntoView shifted the shell. */
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  scroll-padding-top: var(--sticky-top);
+}
+
+.app__content:focus-visible {
+  outline: none;
+}
+
+/* Every screen's frame: centred up to 1440px. */
+.page {
+  max-width: var(--page-max);
+  margin: 0 auto;
+  padding: 8px var(--gutter) 64px;
+  animation: tp-fade 320ms var(--ease);
+}
+
+.skip-link {
+  position: fixed;
+  top: 8px;
+  left: 8px;
+  z-index: var(--z-tooltip);
+  padding: 10px 16px;
+  border-radius: var(--r-pill);
+  background: var(--btn-ink);
+  color: var(--btn-ink-fg);
+  box-shadow: var(--sh-3);
+  transform: translateY(-200%);
+}
+
+.skip-link:focus {
+  transform: none;
+}
+
+/* Room to scroll the last content clear of the floating tab bar. */
+@media (max-width: 719px) {
+  .page {
+    padding: 8px 16px calc(var(--tabbar-h) + var(--tabbar-gap) + 24px + env(safe-area-inset-bottom));
+  }
+}

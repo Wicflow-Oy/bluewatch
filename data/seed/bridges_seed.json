@@ -1,0 +1,527 @@
+{
+ "title": "Opportunity bridges + gap ledger: seed examples (W15c, hand-verified from the demo pack and 17 Oct re-checks)",
+ "built": "2026-10-17",
+ "definition": "A bridge links one company or project to one counterparty (buyer, partner, funder, programme, port or research infrastructure), with evidence on both sides, a date or deadline, one action and a confidence.",
+ "bridge_types": {
+  "won_before_open_again": "TED award by business ID + an open tender in the same class",
+  "already_works_with": "CORDIS or Interreg co-participation, so a pilot or reference route already exists",
+  "rule_decides": "a grant rule decides the tier for this company's registration country, stage or type",
+  "proof_step": "a fundable validation step (test facility, access programme) for this technology class",
+  "law_creates_buyer": "a regulation with a date creates buyers for this capability",
+  "programme_fit": "an accelerator or ecosystem programme fits this company now",
+  "lab_window": "a public research project nearing its end, with no company yet: spin-out window"
+ },
+ "bridges": [
+  {
+   "id": "B1",
+   "type": "won_before_open_again",
+   "mode": "both",
+   "company": {
+    "name": "Alpo Pro Boats",
+    "registry": {
+     "country": "FI",
+     "id": "3101791-3"
+    }
+   },
+   "counterparty": {
+    "name": "Sansia Oy",
+    "kind": "public_buyer"
+   },
+   "reason": "Won C-class oil-spill response vessels in June 2026; Sansia now tenders the same vessel class",
+   "evidence_company": [
+    {
+     "claim": "TED award: C-class oil-spill response vessels, Southwest Finland wellbeing county (Jun 2026)",
+     "url": "https://ted.europa.eu/en/notice/-/detail/423989-2026",
+     "date": "2026-06",
+     "tag": "ted"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Open tender: Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema",
+     "url": "https://ted.europa.eu/en/notice/-/detail/668013-2026",
+     "date": "2026-09-29",
+     "deadline": "2026-10-30",
+     "tag": "ted"
+    },
+    {
+     "claim": "Open tender: Finland – Specialised boats – C-luokan öljyntorjunta- ja pelastusalus, Kajaanin paloasema",
+     "url": "https://ted.europa.eu/en/notice/-/detail/713640-2026",
+     "date": "2026-10-15",
+     "deadline": "2026-11-06",
+     "tag": "ted"
+    }
+   ],
+   "deadline": "2026-10-30",
+   "action": "Send the Sansia tender with the June award as the reference (deadlines 30 Oct and 6 Nov)",
+   "confidence": "verified"
+  },
+  {
+   "id": "B2",
+   "type": "won_before_open_again",
+   "mode": "both",
+   "company": {
+    "name": "Alpo Pro Boats",
+    "registry": {
+     "country": "FI",
+     "id": "3101791-3"
+    }
+   },
+   "counterparty": {
+    "name": "Hansel Oy (state procurement)",
+    "kind": "public_buyer"
+   },
+   "reason": "Three public boat contracts in 12 months; Hansel's boat framework closes 9 Nov",
+   "evidence_company": [
+    {
+     "claim": "3 public wins in 12 months (rescue boat 2025; Border Guard AV5 workboats 2026; oil-spill vessels 2026)",
+     "url": "https://ted.europa.eu/en/notice/-/detail/423989-2026",
+     "date": "2026-06",
+     "tag": "ted"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Open tender: Finland – Boats – Ulkolaitamoottorilliset veneet ja trailerit 2026 (0072002)",
+     "url": "https://ted.europa.eu/en/notice/-/detail/681017-2026",
+     "date": "2026-10-02",
+     "deadline": "2026-11-09",
+     "tag": "ted"
+    },
+    {
+     "claim": "Open tender: Finland – Boats – Kevyet veneet ja trailerit 2026 (0072001)",
+     "url": "https://ted.europa.eu/en/notice/-/detail/681402-2026",
+     "date": "2026-10-02",
+     "deadline": "2026-11-09",
+     "tag": "ted"
+    }
+   ],
+   "deadline": "2026-11-09",
+   "action": "Check which Hansel lot fits aluminium catamaran hulls (outboard-motor or light boats)",
+   "confidence": "probable",
+   "caveat": "Lot fit not checked against the tender documents"
+  },
+  {
+   "id": "B3",
+   "type": "already_works_with",
+   "mode": "both",
+   "company": {
+    "name": "Awake.AI",
+    "registry": {
+     "country": "FI",
+     "id": null
+    }
+   },
+   "counterparty": {
+    "name": "Fintraffic Meriliikenteenohjaus; Finnlines",
+    "kind": "corporate_and_public"
+   },
+   "reason": "Co-participants in the EU project MISSION (port-call and voyage optimisation), which runs to Jun 2027",
+   "evidence_company": [
+    {
+     "claim": "Awake.AI is a participant in MISSION (coordinated by the University of Southern Denmark)",
+     "url": "https://cordis.europa.eu/project/id/101138583",
+     "date": "2024-01-01",
+     "end": "2027-06-30",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Fintraffic and Finnlines are participants in the same project",
+     "url": "https://cordis.europa.eu/project/id/101138583",
+     "date": "2024-01-01",
+     "end": "2027-06-30",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "deadline": null,
+   "action": "Ask for a pilot or reference-customer conversation inside the existing project relationship",
+   "confidence": "verified",
+   "caveat": "Co-participation is not a purchase",
+   "identifying_terms": ["MISSION", "University of Southern Denmark"]
+  },
+  {
+   "id": "B4",
+   "type": "already_works_with",
+   "mode": "apelago",
+   "company": {
+    "name": "CirclesOfLife team at VTT (research output)",
+    "kind": "research_group",
+    "registry": {
+     "country": "FI",
+     "id": null
+    }
+   },
+   "counterparty": {
+    "name": "Meyer Turku",
+    "kind": "corporate"
+   },
+   "reason": "A VTT circularity tool for ship-building already has the Turku shipyard as a project partner",
+   "evidence_company": [
+    {
+     "claim": "VTT is a participant (project coordinated by Damen R&D, NL)",
+     "url": "https://cordis.europa.eu/project/id/101138013",
+     "date": "2024-01-01",
+     "end": "2026-12-31",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Meyer Turku Oy is a participant in the same project",
+     "url": "https://cordis.europa.eu/project/id/101138013",
+     "date": "2024-01-01",
+     "end": "2026-12-31",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "deadline": "2026-12-31",
+   "action": "Lab2Impact-style invitation via A'Pelago before the project ends (31 Dec 2026)",
+   "confidence": "verified",
+   "caveat": "Group level only; no company exists yet",
+   "identifying_terms": ["CirclesOfLife", "VTT", "Damen R&D"]
+  },
+  {
+   "id": "B5",
+   "type": "already_works_with",
+   "mode": "both",
+   "company": {
+    "name": "Origin by Ocean",
+    "registry": {
+     "country": "FI",
+     "id": null
+    }
+   },
+   "counterparty": {
+    "name": "Finnish Environment Institute (SYKE); NIVA (NO)",
+    "kind": "research_org"
+   },
+   "reason": "Product-development partner next to SYKE in AlgaePro BANOS (to Mar 2027) and in LOCALITY (NIVA-coordinated)",
+   "evidence_company": [
+    {
+     "claim": "Origin by Ocean is a participant",
+     "url": "https://cordis.europa.eu/project/id/101112943",
+     "date": "2023-04-01",
+     "end": "2027-03-31",
+     "tag": "cordis_json_2026-10-17"
+    },
+    {
+     "claim": "Origin by Ocean is a participant",
+     "url": "https://cordis.europa.eu/project/id/101112884",
+     "date": "2023-06-01",
+     "end": "2027-05-31",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "SYKE is a participant in the same project",
+     "url": "https://cordis.europa.eu/project/id/101112943",
+     "date": "2023-04-01",
+     "end": "2027-03-31",
+     "tag": "cordis_json_2026-10-17"
+    }
+   ],
+   "deadline": null,
+   "action": "Use the project partners as pilot and validation references in the investor brief",
+   "confidence": "verified",
+   "identifying_terms": ["AlgaePro BANOS", "LOCALITY"]
+  },
+  {
+   "id": "B6",
+   "type": "rule_decides",
+   "mode": "redstone",
+   "company": {
+    "name": "Zeabuz AS",
+    "registry": {
+     "country": "NO",
+     "id": "924571179"
+    }
+   },
+   "counterparty": {
+    "name": "SBEP call 4 via the Research Council of Norway",
+    "kind": "funder"
+   },
+   "reason": "Norway has a funder in SBEP call 4, so the call is Possible; the same profile registered in Finland is Excluded (no Finnish funder)",
+   "evidence_company": [
+    {
+     "claim": "Norwegian limited company (AS)",
+     "url": "https://virksomhet.brreg.no/nb/oppslag/enheter/924571179",
+     "date": null,
+     "tag": "brreg"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "possible: funder's own eligibility rules apply; excluded: no Finnish funder in call 4 (a Finnish firm can only be a self-funded partner); confirm with the funder",
+     "url": "https://bluepartnership.eu/funding-opportunity/preannouncement-sustainable-blue-economy-partnerships-fourth-joint",
+     "date": "2026-10-17",
+     "deadline": "2026-11-16",
+     "tag": "read"
+    }
+   ],
+   "deadline": "2026-11-16",
+   "action": "Country-flip demo: same profile, FI → NO, tier Excluded → Possible, rule shown",
+   "confidence": "possible",
+   "caveat": "RCN's own eligibility rules and the thematic fit are not checked"
+  },
+  {
+   "id": "B7",
+   "type": "proof_step",
+   "mode": "both",
+   "company": {
+    "name": "Sensemakers ApS",
+    "registry": {
+     "country": "DK",
+     "id": null
+    }
+   },
+   "counterparty": {
+    "name": "EMSO ERIC Physical Access 2026",
+    "kind": "research_infrastructure"
+   },
+   "reason": "A sensor-vessel venture can validate at a sea observatory: SMEs from any country, free access plus up to EUR 15,000",
+   "evidence_company": [
+    {
+     "claim": "Autonomous sensor-equipped vessels and a data platform for water quality and biodiversity",
+     "url": "https://sensemakers.dk/",
+     "date": null,
+     "tag": "site"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Free access units at an EMSO sea observatory, plus up to EUR 15,000 direct funding per proposal (up to EUR 4,000 of it for travel). EUR 90,000 total direct funding for 2026.",
+     "url": "https://emso.eu/physical-access/",
+     "date": "2026-10-17",
+     "deadline": "2026-10-31",
+     "tag": "read"
+    }
+   ],
+   "deadline": "2026-10-31",
+   "action": "Send a letter of intent to an EMSO facility before the 31 Oct cut-off",
+   "confidence": "possible",
+   "caveat": "Facility participation per cut-off varies; fit by vertical only"
+  },
+  {
+   "id": "B8",
+   "type": "law_creates_buyer",
+   "mode": "redstone",
+   "company": {
+    "name": "Marine Charging Point",
+    "registry": {
+     "country": "FI",
+     "id": "3134791-2"
+    }
+   },
+   "counterparty": {
+    "name": "Ports covered by AFIR Art. 9 (e.g. Port of Helsinki, TWIN-PORT 6 onshore power)",
+    "kind": "port"
+   },
+   "reason": "FuelEU Art. 6(1): from 1 Jan 2030 ships in scope must use shore power at AFIR Art. 9 ports; the company sells shore and onboard charging",
+   "evidence_company": [
+    {
+     "claim": "Onboard and shore charging for electric vessels",
+     "url": "https://www.marinechargingpoint.com",
+     "date": null,
+     "tag": "site"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "FuelEU Maritime, Reg. (EU) 2023/1805 Art. 6(1), official text on EUR-Lex",
+     "url": "https://eur-lex.europa.eu/eli/reg/2023/1805/oj",
+     "date": "2030-01-01",
+     "tag": "read"
+    },
+    {
+     "claim": "Port of Helsinki TWIN-PORT 6 onshore power at Vuosaari",
+     "url": null,
+     "date": null,
+     "tag": "snippet"
+    }
+   ],
+   "deadline": "2030-01-01",
+   "action": "Redstone: map AFIR Art. 9 ports in the Baltic and their OPS tenders on TED",
+   "confidence": "probable",
+   "caveat": "The port-side buying evidence is a search summary"
+  },
+  {
+   "id": "B9",
+   "type": "programme_fit",
+   "mode": "apelago",
+   "company": {
+    "name": "Meriva Oy",
+    "registry": {
+     "country": "FI",
+     "id": "3652359-1"
+    }
+   },
+   "counterparty": {
+    "name": "A'Pelago Northern Blue 2027",
+    "kind": "programme"
+   },
+   "reason": "A Turku aquaculture consultancy founded 3 Sep 2026: a likely mentor or expert for the next cohort",
+   "evidence_company": [
+    {
+     "claim": "Founded 3 Sep 2026 in Turku",
+     "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3652359-1",
+     "date": "2026-09-03",
+     "tag": "registry"
+    },
+    {
+     "claim": "Aquaculture consulting, project planning, training and R&D",
+     "url": "https://www.meriva.fi/",
+     "date": null,
+     "tag": "site"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Northern Blue 2027 applications open",
+     "url": null,
+     "date": null,
+     "tag": "dossier"
+    }
+   ],
+   "deadline": null,
+   "action": "Invite as an aquaculture mentor or expert for Northern Blue 2027",
+   "confidence": "possible",
+   "caveat": "Fit inferred from the service list"
+  },
+  {
+   "id": "B10",
+   "type": "lab_window",
+   "mode": "apelago",
+   "company": {
+    "name": "ReNuW-Hubs team, University of Turku (research output)",
+    "kind": "research_group",
+    "registry": {
+     "country": "FI",
+     "id": null
+    }
+   },
+   "counterparty": {
+    "name": "A'Pelago Lab2Impact",
+    "kind": "programme"
+   },
+   "reason": "A UTU-led Interreg project builds a mobile nutrient-recovery container; no company yet; runs to Apr 2028",
+   "evidence_company": [
+    {
+     "claim": "Lead partner University of Turku; 1 May 2025 to 30 Apr 2028",
+     "url": "https://centralbaltic.eu/project/renuw-hubs/",
+     "date": "2025-05-01",
+     "end": "2028-04-30",
+     "tag": "read"
+    }
+   ],
+   "evidence_counterparty": [
+    {
+     "claim": "Lab2Impact: A'Pelago's programme for researchers moving towards founding",
+     "url": "https://www.apelago.fi/laboff/",
+     "date": null,
+     "tag": "read"
+    }
+   ],
+   "deadline": null,
+   "action": "Route an invitation through A'Pelago's own Lab2Impact channel (group level, no individuals)",
+   "confidence": "possible",
+   "caveat": "No company exists yet",
+   "identifying_terms": ["ReNuW-Hubs", "University of Turku", "UTU"]
+  }
+ ],
+ "gap_ledger_examples": [
+  {
+   "company": {
+    "name": "Meriva Oy",
+    "registry": {
+     "country": "FI",
+     "id": "3652359-1"
+    }
+   },
+   "facts": [
+    {
+     "claim": "Founded 3 Sep 2026",
+     "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3652359-1",
+     "event_date": "2026-09-03",
+     "tag": "registry"
+    },
+    {
+     "claim": "Registered in Turku",
+     "url": "https://avoindata.prh.fi/opendata-ytj-api/v3/companies?businessId=3652359-1",
+     "tag": "registry"
+    },
+    {
+     "claim": "Aquaculture consulting, project planning, training and R&D",
+     "url": "https://www.meriva.fi/",
+     "tag": "site"
+    },
+    {
+     "claim": "Shows its own business ID on its site (strict entity match)",
+     "url": "https://www.meriva.fi/",
+     "tag": "site"
+    }
+   ],
+   "assumptions": [
+    {
+     "claim": "An expert consultancy, so a partner or mentor rather than an investment case",
+     "basis": "Service list on the site; no product page",
+     "how_to_test": "Ask whether a product is planned"
+    }
+   ],
+   "unknowns": [
+    {
+     "field": "team",
+     "why_unknown": "No team page",
+     "next_check": {
+      "kind": "public_check",
+      "how": "Re-read the site in 4 weeks"
+     },
+     "ask_founder": "Who is on the team, and what is their aquaculture background?"
+    },
+    {
+     "field": "customers_or_sites",
+     "why_unknown": "No references on the site",
+     "next_check": {
+      "kind": "ask_founder"
+     },
+     "ask_founder": "Which farms or sites do you work with today?"
+    },
+    {
+     "field": "funding_events",
+     "why_unknown": "Six weeks old; no share-issue notices yet",
+     "next_check": {
+      "kind": "public_check",
+      "how": "PRH notices by business ID, monthly"
+     }
+    },
+    {
+     "field": "public_contracts",
+     "why_unknown": "No TED award by business ID",
+     "next_check": {
+      "kind": "public_check",
+      "how": "TED winner-identifier query, weekly"
+     }
+    }
+   ],
+   "not_applicable": [
+    {
+     "field": "trl",
+     "why": "Service company; technology readiness does not apply"
+    }
+   ],
+   "scoring": {
+    "potential": "medium (aquaculture, Turku, fits A'Pelago's programmes)",
+    "evidence": "thin (4 facts, 1 assumption, 4 unknowns)",
+    "quadrant": "investigate first",
+    "note": "Unknowns lower the evidence axis, never the potential score"
+   },
+   "evidence_request_draft_outline": [
+    "One value-first item: the Northern Blue 2027 mentor or expert role",
+    "Two questions from the unknowns: team background; current farms or sites",
+    "Sent only to the company's general address, after human approval, with the Art. 14 footer"
+   ]
+  }
+ ]
+}

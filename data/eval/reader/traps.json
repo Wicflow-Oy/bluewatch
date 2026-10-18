@@ -1,0 +1,71 @@
+{
+  "about": "Trap pages for the reader eval (w15-benchmarks.md 2.3.3). 'dryrun' rows are the title and meta description recorded by the W13 live dry run (organisations only); 'synthetic' rows are written to reproduce failure modes seen there.",
+  "cases": [
+    {
+      "id": "tr-blue-ocean-robotics",
+      "group": "trap",
+      "basis": "dryrun",
+      "label": "no",
+      "note": "name says ocean; the business is service robots",
+      "name": "Blue Ocean Robotics",
+      "title": "Blue Ocean Robotics - We Create and Commercialize Robots",
+      "meta": {"description": "We develop, produce and sell professional service robots in various industries such as pharmaceutical, hospitality, and other global markets."},
+      "text": ""
+    },
+    {
+      "id": "tr-hyke",
+      "group": "trap",
+      "basis": "dryrun",
+      "label": "yes",
+      "note": "electric ferries; positive control for the trap group",
+      "name": "Hyke",
+      "title": "Electric Ferries for Smart Urban Mobility | Hyke",
+      "meta": {"description": "Hyke offers electric, autonomy-prepared ferries for cleaner, smarter urban mobility, reducing congestion and emissions in countries worldwide."},
+      "text": ""
+    },
+    {
+      "id": "tr-seaber",
+      "group": "trap",
+      "basis": "dryrun",
+      "label": "yes",
+      "note": "maritime freight software next to the Seaberry namesake",
+      "name": "Seaber",
+      "title": "Supercharging maritime freight | AI fleet optimization | Seaber",
+      "meta": {},
+      "text": ""
+    },
+    {
+      "id": "tr-free-shipping",
+      "group": "trap",
+      "basis": "synthetic",
+      "label": "no",
+      "note": "e-commerce 'free shipping'",
+      "name": "Esimerkki Kauppa Oy",
+      "title": "Esimerkki Kauppa | Home textiles",
+      "meta": {"description": "Linen towels and bedding made in Finland. Free shipping on orders over 50 EUR."},
+      "text": "Linen towels and bedding made in Finland.\nFree shipping on orders over 50 EUR.\nReturns within 30 days. Customer support answers every weekday."
+    },
+    {
+      "id": "tr-sea-view-hotel",
+      "group": "trap",
+      "basis": "synthetic",
+      "label": "no",
+      "note": "a hotel with a sea view and boat trips as a perk",
+      "name": "Esimerkki Hotelli Oy",
+      "title": "Esimerkki Hotelli | Rooms with a sea view",
+      "meta": {"description": "A family hotel in Turku with sea view rooms, a sauna and breakfast."},
+      "text": "Book a room with a sea view.\nGuests can join our summer boat trips to the islands.\nOur restaurant serves breakfast and dinner every day."
+    },
+    {
+      "id": "tr-research-substrings",
+      "group": "trap",
+      "basis": "synthetic",
+      "label": "no",
+      "note": "'sea' inside research, 'port' inside reports and support",
+      "name": "Esimerkki Analytics Oy",
+      "title": "Esimerkki Analytics | Research reports for retail",
+      "meta": {"description": "Market research, sales reports and analyst support for retail chains."},
+      "text": "We research shopper behaviour and deliver weekly reports.\nOur support team helps retail chains read the numbers."
+    }
+  ]
+}
