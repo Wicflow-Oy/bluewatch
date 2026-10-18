@@ -147,7 +147,8 @@
   margin-left: 6px;
 }
 
-/* ---- layout: the sheet runs the full width; the rail's three cards sit under it ---- */
+/* ---- layout: the rail's three cards (Due next, Sonar, Sources) are a band over the list; the sheet runs the
+   full width under the filters ---- */
 .surfacing__layout {
   display: grid;
   grid-template-columns: minmax(0, 1fr);
@@ -161,9 +162,25 @@
 .surfacing__rail {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  align-items: start;
+  align-items: stretch;
   gap: 16px;
   min-width: 0;
+  margin-bottom: 20px;
+}
+
+/* Over the list the band stays compact, so the sheet starts above the fold: a smaller Sonar without its
+   caption, and the next three deadlines (the card for a company lists every one). */
+.surfacing__rail .sonar {
+  max-width: 236px;
+  margin: 0 auto 4px;
+}
+
+.surfacing__rail .sonar-plot__caption {
+  display: none;
+}
+
+.surfacing__rail .deadline-list > li:nth-child(n + 4) {
+  display: none;
 }
 
 /* ---- the sheet: group header rows between the company rows ---- */
@@ -441,6 +458,17 @@
 
 /* ---- phone ---- */
 @media (max-width: 719px) {
+  /* Phones keep the list first; the rail's cards follow it. */
+  .page.surfacing {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .page.surfacing > .surfacing__rail {
+    order: 1;
+    margin: 24px 0 0;
+  }
+
   .surfacing__preset-phone {
     display: block;
     margin: -4px 0 16px;

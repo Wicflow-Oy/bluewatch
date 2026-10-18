@@ -46,7 +46,16 @@ def test_two_questions_close_the_biggest_askable_gaps(company, ledger, bridge):
 def test_first_touch_offers_without_questions(company, bridge):
     draft = first_touch(company, bridge, language="sv")
     assert draft.mode == "first_touch" and draft.questions == []
-    assert "A'Pelago Northern Blue 2027" in draft.subject
+    assert "A'Pelago Northern Blue 2027" in draft.subject and "30 minuter" in draft.subject
+    assert "30 minuter" in draft.body
+
+
+def test_a_draft_is_personal_and_asks_for_an_intro_call(company, ledger, bridge):
+    draft = evidence_request(company, ledger, bridge, language="en")
+    assert draft.subject.startswith("Meriva Oy: ") and draft.subject.endswith(", and a 30-minute intro call?")
+    assert "We noticed that Meriva Oy was registered on" in draft.body
+    assert "30-minute intro call" in draft.body
+    assert draft.body.index("30-minute intro call") < draft.body.index("Before we talk")
 
 
 def test_a_useful_opportunity_is_required(company, ledger):

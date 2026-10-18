@@ -13,6 +13,15 @@ export function SurfacingSkeleton({ title }: { title: string }) {
   return (
     <LoadingRegion label={t("loading", { list: title })}>
       <PageHeader title={title} meta={<Skeleton width={420} height={12} />} />
+      <aside className="surfacing__rail">
+        <div className="surfacing__due-skeleton" />
+        <Panel title={sonar.t("sonar")}>
+          <div className="surfacing__sonar-skeleton" />
+        </Panel>
+        <Panel title={t("sources")}>
+          <SkeletonLines lines={4} gap={14} />
+        </Panel>
+      </aside>
       <div className="surfacing__toolbar">
         <Skeleton width={360} height={42} radius={999} style={{ maxWidth: "100%" }} />
       </div>
@@ -27,15 +36,6 @@ export function SurfacingSkeleton({ title }: { title: string }) {
             </div>
           ))}
         </div>
-        <aside className="surfacing__rail">
-          <div className="surfacing__due-skeleton" />
-          <Panel title={sonar.t("sonar")}>
-            <div className="surfacing__sonar-skeleton" />
-          </Panel>
-          <Panel title={t("sources")}>
-            <SkeletonLines lines={4} gap={14} />
-          </Panel>
-        </aside>
       </div>
     </LoadingRegion>
   );

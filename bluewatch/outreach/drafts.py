@@ -238,7 +238,8 @@ def _draft(
     name = company.names[0] if company.names else company.id
     domain = company_domain(company)
     lead = " ".join(
-        [t["intro"].format(org=identity.org), t["offer_lead"].format(company=name), offer.sentence]
+        [t["intro"].format(org=identity.org), _noticed(company, name, language), t["offer_lead"].format(company=name)]
+        + [offer.sentence]
         + ([t["hedge"]] if offer.hedged else [])
     )
     note = "template"
@@ -254,17 +255,20 @@ def _draft(
         )
     if offer.url:
         details.append(t["source"].format(url=offer.url))
+    # The ask is the one an investor would make: a 30-minute intro call. The questions prepare for it.
     if questions:
         middle = [
+            t["meeting"],
+            "",
             t[f"ask_{len(questions)}"],
             *[f"{i}. {q.text}" for i, q in enumerate(questions, 1)],
             "",
             t["answers_use"],
         ]
-        subject = t[f"subject_request_{len(questions)}"].format(company=name, topic=offer.party)
+        subject = t[f"subject_request_{len(questions)}"].format(company=name, org=identity.org, topic=offer.party)
     else:
-        middle = [t["first_touch_close"]]
-        subject = t["subject_first"].format(company=name, topic=offer.party)
+        middle = [t["meeting"], "", t["first_touch_close"]]
+        subject = t["subject_first"].format(company=name, org=identity.org, topic=offer.party)
     blocks = [
         t["greeting"],
         lead,
@@ -296,6 +300,26 @@ def _draft(
             )
         ],
     )
+
+
+def _noticed(company: Company, name: str, language: str) -> str:
+    """One personal line from the register: when the company was registered, where, and what it works on.
+
+    Only the English text names the line of work, since the sector notes are written in English."""
+    t = TEXTS[language]
+    place = company.registry.municipality
+    note = (company.vertical_note or "").strip()
+    if note and not note[:2].isupper():
+        note = note[0].lower() + note[1:]
+    work = t["work"].format(work=note) if note and t["work"] else ""
+    if company.registry.founded:
+        return t["noticed_registered"].format(
+            company=name,
+            date=format_date(company.registry.founded, language),
+            place=t["place"].format(place=place.title()) if place else "",
+            work=work,
+        )
+    return t["noticed"].format(company=name, work=work)
 
 
 def _polish(lead: str, offer: Offer, facts: list[Evidence], model: ModelClient, settings: Settings) -> tuple[str, str]:

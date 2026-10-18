@@ -16,7 +16,7 @@ import { ideasMessages } from "./messages";
 import { QueueFailed, QueueSkeleton } from "./QueueStates";
 import { closeItem } from "./queueRow";
 import { DEFAULT_TOP_N } from "./api";
-import { BELOW_DESKTOP, PHONE, useMedia } from "./read/hooks";
+import { BELOW_DESKTOP, useMedia } from "./read/hooks";
 import { RubricDrawer } from "./RubricDrawer";
 import { QueueSourceSwitch, SampleBanner } from "./SampleData";
 import { useQueue, type QueueSource } from "./useQueue";
@@ -31,7 +31,6 @@ export function IdeasScreen({ itemId }: { itemId?: string }) {
   const { mode } = useWorkspace();
   const { preset } = usePreset();
   const meta = useMeta();
-  const phone = useMedia(PHONE);
   // Seven columns need a desktop; below it the rows stack as cards.
   const stacked = useMedia(BELOW_DESKTOP);
   // Always opens on the live queue: the sample is a preview someone chooses, never a remembered state.
@@ -86,7 +85,6 @@ export function IdeasScreen({ itemId }: { itemId?: string }) {
           preset={preset}
           filters={filters}
           onFilters={setFilters}
-          phone={phone}
           stacked={stacked}
           today={meta.today}
           keyboard={itemId === undefined && !rubricOpen}

@@ -5,7 +5,7 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 20px;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.4;
   color: var(--muted);
 }
@@ -80,17 +80,17 @@
 }
 
 .scout-stage__word {
-  font: 600 20px/1.1 var(--sans);
+  font: 600 24px/1.1 var(--sans);
   letter-spacing: -0.03em;
 }
 
 .scout-stage__of {
-  font-size: 12px;
+  font-size: 13.5px;
   color: var(--muted);
 }
 
 .scout-stage__caption {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.4;
   color: var(--muted);
 }
@@ -146,10 +146,10 @@ button.scout-row:active {
 .scout-row__rank {
   display: grid;
   place-items: center;
-  width: 28px;
-  height: 28px;
+  width: 34px;
+  height: 34px;
   border-radius: 10px;
-  font: 550 11.5px/1 var(--mono);
+  font: 550 13px/1 var(--mono);
   color: var(--ink-2);
   background: var(--sunken);
   box-shadow: inset 0 0 0 1px var(--line);
@@ -175,7 +175,7 @@ button.scout-row:active {
   overflow: hidden;
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 2;
-  font: 600 14px/1.25 var(--sans);
+  font: 600 16.5px/1.25 var(--sans);
   letter-spacing: -0.015em;
   color: var(--ink);
   overflow-wrap: anywhere;
@@ -183,7 +183,7 @@ button.scout-row:active {
 
 .scout-row__meta {
   overflow: hidden;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.35;
   color: var(--muted);
   text-overflow: ellipsis;
@@ -204,7 +204,7 @@ button.scout-row:active {
 }
 
 .scout-row__total {
-  font: 500 15px/1 var(--mono);
+  font: 500 19px/1 var(--mono);
   letter-spacing: -0.02em;
   color: var(--ink);
 }
@@ -228,7 +228,7 @@ button.scout-row:active {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px 8px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.4;
   color: var(--muted);
 }
@@ -241,7 +241,7 @@ button.scout-row:active {
 }
 
 .scout-detail__prose {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.55;
   color: var(--ink-2);
 }
@@ -269,7 +269,7 @@ button.scout-row:active {
 
 .scout-flag__detail {
   min-width: 0;
-  font-size: 12.5px;
+  font-size: 14px;
   line-height: 1.4;
   color: var(--ink-2);
 }
@@ -286,7 +286,7 @@ button.scout-row:active {
 }
 
 .scout-detail__note {
-  font-size: 12px;
+  font-size: 13.5px;
   line-height: 1.45;
   color: var(--muted);
 }
@@ -320,7 +320,7 @@ button.scout-row:active {
 .scout-gap__text {
   display: grid;
   gap: 3px;
-  font-size: 13px;
+  font-size: 15px;
   line-height: 1.4;
 }
 
@@ -330,7 +330,7 @@ button.scout-row:active {
 }
 
 .scout-gap__ask {
-  font-size: 12.5px;
+  font-size: 14px;
   color: var(--muted);
 }
 
@@ -364,7 +364,7 @@ button.scout-row:active {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  font: 550 11px/1 var(--mono);
+  font: 550 12.5px/1 var(--mono);
   color: var(--ink-2);
   background: var(--surface);
   box-shadow: inset 0 0 0 1px var(--line-2);
@@ -391,14 +391,14 @@ button.scout-row:active {
 }
 
 .scout-route__org {
-  font: 600 13.5px/1.3 var(--sans);
+  font: 600 15.5px/1.3 var(--sans);
   letter-spacing: -0.015em;
   color: var(--ink);
   overflow-wrap: anywhere;
 }
 
 .scout-route__how {
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1.45;
   color: var(--ink-2);
 }
@@ -408,7 +408,7 @@ button.scout-row:active {
   max-width: 100%;
   height: 26px;
   padding: 0 10px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--accent-text);
 }
 
@@ -426,7 +426,7 @@ button.scout-row:active {
 }
 
 .scout-draft__subject {
-  font: 600 14px/1.35 var(--sans);
+  font: 600 16px/1.35 var(--sans);
   letter-spacing: -0.01em;
   color: var(--ink);
 }
@@ -434,7 +434,7 @@ button.scout-row:active {
 .scout-draft__points {
   display: grid;
   gap: 6px;
-  font-size: 13px;
+  font-size: 14.5px;
   line-height: 1.45;
   color: var(--ink-2);
 }
@@ -478,7 +478,7 @@ button.scout-row:active {
 
 .scout-sheet__title {
   overflow: hidden;
-  font: 600 15px/1.2 var(--sans);
+  font: 600 17px/1.2 var(--sans);
   letter-spacing: -0.02em;
   text-overflow: ellipsis;
   white-space: nowrap;

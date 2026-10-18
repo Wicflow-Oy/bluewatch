@@ -20,7 +20,6 @@ interface HarbourProps {
   preset: PresetName;
   filters: Filters;
   onFilters: (filters: Filters) => void;
-  phone: boolean;
   stacked: boolean;
   today: string;
   keyboard: boolean;
@@ -32,7 +31,6 @@ export function Harbour({
   preset,
   filters,
   onFilters,
-  phone,
   stacked,
   today,
   keyboard,
@@ -50,7 +48,7 @@ export function Harbour({
         onChange={onFilters}
         shown={shown.length}
         total={queue.items.length}
-        folded={phone}
+        folded
       />
       {!sample && queue.session_items === 0 && (
         <p className="callout ih-nothing-shared">

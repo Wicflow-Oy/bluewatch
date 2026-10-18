@@ -91,7 +91,7 @@ export function companyColumns(
       id: "id",
       header: t("col_id"),
       icon: Hash,
-      width: 148,
+      width: 144,
       cell: (r) => (
         <span className="sheet__text mono company-id-cell">
           {registryLabel(r.country, r.registry_id)}
@@ -102,7 +102,7 @@ export function companyColumns(
       id: "sector",
       header: t("col_sector"),
       icon: Tag,
-      width: { min: 130 },
+      width: { min: 120 },
       cell: (r) => {
         const sector = verticalText(r.vertical, r.vertical_note);
         return sector ? (
@@ -118,7 +118,7 @@ export function companyColumns(
       id: "founded",
       header: t("col_founded"),
       icon: CalendarDays,
-      width: 108,
+      width: 116,
       cell: (r) =>
         r.founded ? (
           <span className="founded-cell mono">{formatDay(r.founded, { year: true })}</span>
@@ -138,7 +138,7 @@ export function companyColumns(
       id: "potential",
       header: t("col_potential"),
       icon: TrendingUp,
-      width: 108,
+      width: 118,
       cell: (r) => <ScoreCell kind="potential" value={r.potential} />,
       sort: (a, b) => b.potential - a.potential,
     },
@@ -146,7 +146,7 @@ export function companyColumns(
       id: "evidence",
       header: t("col_evidence"),
       icon: ShieldCheck,
-      width: 108,
+      width: 116,
       cell: (r) => <ScoreCell kind="evidence" value={r.evidence} />,
       sort: (a, b) => b.evidence - a.evidence,
     },

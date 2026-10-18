@@ -1014,3 +1014,70 @@ a.ih-slot:hover {
     color: var(--muted);
   }
 }
+
+/* ---- the queue as a sheet (desktop): shares the sheet look with Companies and Now Surfacing ---- */
+.ih-sheet {
+  margin-top: 4px;
+}
+
+.ih-sheet .sheet__body > .sheet__row:last-child > .sheet__td {
+  border-bottom: 0;
+}
+
+.ih-srow--top > .sheet__rownum {
+  font-weight: 650;
+  color: var(--ink);
+}
+
+.ih-srow__title {
+  font-size: 13.5px;
+}
+
+.ih-srow__title:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--line-3);
+  text-underline-offset: 3px;
+}
+
+.ih-srow__why,
+.ih-srow__next {
+  color: var(--ink-2);
+}
+
+.ih-srow__dup {
+  color: var(--accent-text);
+}
+
+.ih-srow__step-icon {
+  flex: none;
+  color: var(--muted);
+}
+
+/* Potential and evidence side by side on one line. */
+.ih-sheet .ih-pills {
+  display: inline-flex;
+  gap: 14px;
+}
+
+.ih-sheet .ih-pill {
+  flex: none;
+}
+
+/* One line per row: chips never wrap inside the sheet. */
+.ih-sheet .chip {
+  white-space: nowrap;
+}
+
+.ih-sheet .ih-row__flags {
+  display: flex;
+  gap: 4px;
+}
+
+.ih-flag--claude {
+  color: var(--accent-text);
+}
+
+/* Filters fold behind one button on every screen size, so the sheet sits right under the top five. */
+.ih-filters__fold[open] .ih-filters__groups {
+  margin-top: 12px;
+}

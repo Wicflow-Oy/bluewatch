@@ -31,12 +31,12 @@ const COLUMNS: { key: SurfacingKey; icon: LucideIcon; width: ColumnWidth }[] = [
   { key: "colCompany", icon: Building2, width: NAME_WIDTH },
   { key: "colSector", icon: Tag, width: { min: 104, fr: 0.8 } },
   { key: "colSignal", icon: Activity, width: 160 },
-  { key: "colPotential", icon: TrendingUp, width: 108 },
-  { key: "colEvidence", icon: ShieldCheck, width: 108 },
-  { key: "colWhy", icon: Sparkles, width: { min: 200, fr: 1.6 } },
+  { key: "colPotential", icon: TrendingUp, width: 118 },
+  { key: "colEvidence", icon: ShieldCheck, width: 112 },
+  { key: "colWhy", icon: Sparkles, width: { min: 190, fr: 1.6 } },
   { key: "colSources", icon: Link2, width: 120 },
   { key: "colDeadline", icon: Clock, width: 160 },
-  { key: "colNext", icon: ListChecks, width: { min: 170, fr: 1.4 } },
+  { key: "colNext", icon: ListChecks, width: { min: 166, fr: 1.4 } },
 ];
 
 const TRACKS = sheetTracks([ROW_NUMBER_WIDTH, ...COLUMNS.map((c) => c.width)]);
@@ -154,7 +154,7 @@ function ColumnHead() {
         <span className="sheet__th sheet__rownum">#</span>
         {COLUMNS.map(({ key, icon: Icon }, i) => (
           <span key={key} className={`sheet__th${i === 0 ? " sheet__pin" : ""}`}>
-            <Icon size={14} strokeWidth={1.6} aria-hidden="true" />
+            <Icon size={15} strokeWidth={1.7} aria-hidden="true" />
             <span className="sheet__th-label">{t(key)}</span>
           </span>
         ))}

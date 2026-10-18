@@ -286,7 +286,7 @@ def test_a_draft_comes_from_the_workspace_and_shows_no_placeholder_sender(mode, 
     response = client.post("/api/outreach/drafts", json={"company_id": MERIVA, "mode": mode}, headers=SESSION)
     view = response.json()
     body = view["draft"]["body"]
-    assert body.split("\n\n")[1].startswith(f"We are {org}.") and f"Sender: {org}." in body
+    assert body.split("\n\n")[1].startswith(f"We are {org},") and f"Sender: {org}." in body
     assert "marketing" not in body and "DEMO-" not in body and ".invalid" not in body
     assert view["decision"]["allowed"]
 

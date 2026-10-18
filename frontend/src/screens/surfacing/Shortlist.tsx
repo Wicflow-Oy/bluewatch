@@ -1,5 +1,5 @@
-// Everything on the Surfacing page that comes from the list: the header and its meta, the filters, the grouped
-// capsule rows, the rail (Due next, Sonar, Sources), the foot, and the card sheet for the open row.
+// Everything on the Surfacing page that comes from the list: the header and its meta, the rail (Due next, Sonar,
+// Sources) as a band over the list, the filters, the grouped sheet rows, the foot, and the card sheet for the open row.
 import { use, useMemo, useState } from "react";
 import type { ListEntry } from "../../contracts";
 import { load } from "../../data";
@@ -86,6 +86,13 @@ export function Shortlist({ companyId, tab }: ShortlistProps) {
         <EmptyList whyThese={list.why_these} />
       ) : (
         <>
+          <SurfacingRail
+            list={list}
+            shownIds={shownIds}
+            hotId={rowHoverId ?? blipHoverId ?? companyId ?? cursorId}
+            onOpen={open}
+            onBlipHover={setBlipHoverId}
+          />
           <Toolbar
             entries={entries}
             filters={filters}
@@ -106,13 +113,6 @@ export function Shortlist({ companyId, tab }: ShortlistProps) {
               />
               <ListFoot list={list} dropped={dropped} />
             </div>
-            <SurfacingRail
-              list={list}
-              shownIds={shownIds}
-              hotId={rowHoverId ?? blipHoverId ?? companyId ?? cursorId}
-              onOpen={open}
-              onBlipHover={setBlipHoverId}
-            />
           </div>
           <SonarSheet
             open={sonarOpen}

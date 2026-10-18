@@ -116,7 +116,7 @@ export function DataTable<T>({
                 const Icon = c.icon;
                 const title = (
                   <>
-                    {Icon && <Icon size={14} strokeWidth={1.6} aria-hidden="true" />}
+                    {Icon && <Icon size={15} strokeWidth={1.7} aria-hidden="true" />}
                     <span className="sheet__th-label">{c.header}</span>
                   </>
                 );

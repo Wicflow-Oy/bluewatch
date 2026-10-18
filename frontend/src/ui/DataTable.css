@@ -16,7 +16,7 @@
   max-height: calc(100dvh - var(--sticky-top) - 16px);
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1420px) {
   .sheet--tall {
     max-height: none;
     overflow: clip;
@@ -59,18 +59,21 @@
   border-right: 0;
 }
 
+/* Headers read as headers: larger, semibold, ink, on a darker band with a firmer rule under it. */
 .sheet__th {
-  height: 38px;
-  font: 500 12.5px/1 var(--sans);
-  letter-spacing: -0.005em;
-  color: var(--ink-2);
-  background: var(--surface-2);
-  border-bottom-color: var(--line-2);
+  height: 44px;
+  font: 600 13.5px/1 var(--sans);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+  background: color-mix(in srgb, var(--ink) 4.5%, var(--surface));
+  border-bottom-color: var(--line-3);
 }
 
 .sheet__th svg {
   flex: none;
-  color: var(--faint);
+  width: 15px;
+  height: 15px;
+  color: var(--muted);
 }
 
 .sheet__th-label {
@@ -162,7 +165,7 @@
 }
 
 .sheet__th.sheet__rownum {
-  background: var(--surface-2);
+  background: color-mix(in srgb, var(--ink) 4.5%, var(--surface));
 }
 
 .sheet__pin {

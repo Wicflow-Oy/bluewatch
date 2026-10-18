@@ -60,24 +60,28 @@ class SenderIdentity:
 TEXTS: dict[str, dict[str, str]] = {
     "en": {
         "greeting": "Hello,",
-        "intro": "We are {org}. We follow new ocean and maritime companies in the Nordics and look for "
-        "concrete next steps that could help them.",
-        "offer_lead": "One opportunity that may be useful for {company}:",
+        "intro": "We are {org}, and we like to get to know new ocean and maritime companies early.",
+        "noticed_registered": "We noticed that {company} was registered on {date}{place}{work}.",
+        "noticed": "We came across {company}{work}.",
+        "place": " in {place}",
+        "work": ", and that you work on {work}",
+        "offer_lead": "We also spotted an opportunity that may be useful for {company}:",
         "hedge": "This is our reading of public information; please check the details at the source.",
         "deadline": "Deadline: {date}.",
         "applies_from": "Applies from: {date}.",
         "source": "Source: {url}",
-        "ask_1": "To make sure we describe your company correctly, could you answer one short question? "
-        "A one-line answer is enough.",
-        "ask_2": "To make sure we describe your company correctly, could you answer two short questions? "
-        "A one-line answer is enough.",
+        "meeting": "Would you be open to a 30-minute intro call in the next two weeks? We would like to hear "
+        "what you are building and how we could help.",
+        "ask_1": "Before we talk, one short question would help us prepare. A one-line answer is enough.",
+        "ask_2": "Before we talk, two short questions would help us prepare. A one-line answer is enough.",
         "answers_use": "We use your answers only to update our notes on your company, and we mark them as "
         "confirmed by the company.",
-        "first_touch_close": "If this is useful, a short reply is enough and we will send more details.",
+        "first_touch_close": "If a call does not suit you right now, a short reply is enough and we will send "
+        "the details.",
         "sign_off": "Best regards,\n{org}",
-        "subject_request_1": "{company}: {topic}, and one quick question",
-        "subject_request_2": "{company}: {topic}, and two quick questions",
-        "subject_first": "{company}: {topic}",
+        "subject_request_1": "{company}: {topic}, and a 30-minute intro call?",
+        "subject_request_2": "{company}: {topic}, and a 30-minute intro call?",
+        "subject_first": "{company}: {topic}, and a 30-minute intro call?",
         "f_sender": "Sender: {org} (business ID {business_id}{address}).",
         "f_sender_pending": "Sender: {org}. Its business ID, privacy notice and stop address are added when "
         "sending is switched on.",
@@ -99,24 +103,28 @@ TEXTS: dict[str, dict[str, str]] = {
     },
     "fi": {
         "greeting": "Hei,",
-        "intro": "Olemme {org}. Seuraamme uusia meri- ja merenkulkualan yrityksiä Pohjoismaissa ja etsimme "
-        "niille konkreettisia seuraavia askelia.",
-        "offer_lead": "Yksi mahdollisuus, josta voisi olla teille hyötyä:",
+        "intro": "Olemme {org}, ja haluamme tutustua uusiin meri- ja merenkulkualan yrityksiin jo varhain.",
+        "noticed_registered": "Huomasimme, että {company} on rekisteröity {date}{place}.",
+        "noticed": "Huomasimme yrityksenne {company}.",
+        "place": " ja sen kotipaikka on {place}",
+        "work": "",
+        "offer_lead": "Löysimme myös mahdollisuuden, josta voisi olla teille hyötyä:",
         "hedge": "Tämä on oma tulkintamme julkisista tiedoista; tarkistattehan yksityiskohdat lähteestä.",
         "deadline": "Määräaika: {date}.",
         "applies_from": "Voimassa alkaen: {date}.",
         "source": "Lähde: {url}",
-        "ask_1": "Jotta kuvaamme yrityksenne oikein, voisitteko vastata yhteen lyhyeen kysymykseen? "
-        "Yhden rivin vastaus riittää.",
-        "ask_2": "Jotta kuvaamme yrityksenne oikein, voisitteko vastata kahteen lyhyeen kysymykseen? "
-        "Yhden rivin vastaus riittää.",
+        "meeting": "Sopisiko teille 30 minuutin esittelypuhelu seuraavan kahden viikon aikana? Haluaisimme "
+        "kuulla, mitä rakennatte ja miten voisimme auttaa.",
+        "ask_1": "Ennen keskustelua yksi lyhyt kysymys auttaisi meitä valmistautumaan. Yhden rivin vastaus riittää.",
+        "ask_2": "Ennen keskustelua kaksi lyhyttä kysymystä auttaisi meitä valmistautumaan. Yhden rivin vastaus "
+        "riittää.",
         "answers_use": "Käytämme vastauksia vain yritystänne koskevien muistiinpanojemme päivittämiseen ja "
         "merkitsemme ne yrityksen vahvistamiksi.",
-        "first_touch_close": "Jos tästä on hyötyä, lyhyt vastaus riittää, niin lähetämme lisätietoja.",
+        "first_touch_close": "Jos puhelu ei sovi juuri nyt, lyhyt vastaus riittää, niin lähetämme lisätiedot.",
         "sign_off": "Ystävällisin terveisin\n{org}",
-        "subject_request_1": "{company}: {topic} ja yksi lyhyt kysymys",
-        "subject_request_2": "{company}: {topic} ja kaksi lyhyttä kysymystä",
-        "subject_first": "{company}: {topic}",
+        "subject_request_1": "{company}: {topic} ja 30 minuutin esittelypuhelu?",
+        "subject_request_2": "{company}: {topic} ja 30 minuutin esittelypuhelu?",
+        "subject_first": "{company}: {topic} ja 30 minuutin esittelypuhelu?",
         "f_sender": "Lähettäjä: {org} (Y-tunnus {business_id}{address}).",
         "f_sender_pending": "Lähettäjä: {org}. Lähettäjän Y-tunnus, tietosuojaseloste ja osoite viestien "
         "kieltämistä varten lisätään, kun viestien lähettäminen otetaan käyttöön.",
@@ -138,23 +146,28 @@ TEXTS: dict[str, dict[str, str]] = {
     },
     "sv": {
         "greeting": "Hej,",
-        "intro": "Vi är {org}. Vi följer nya företag inom havs- och sjöfartsbranschen i Norden och letar efter "
-        "konkreta nästa steg som kan hjälpa dem.",
-        "offer_lead": "En möjlighet som kan vara till nytta för er:",
+        "intro": "Vi är {org}, och vi vill gärna lära känna nya företag inom havs- och sjöfartsbranschen tidigt.",
+        "noticed_registered": "Vi såg att {company} registrerades den {date}{place}.",
+        "noticed": "Vi har lagt märke till {company}.",
+        "place": " med säte i {place}",
+        "work": "",
+        "offer_lead": "Vi hittade också en möjlighet som kan vara till nytta för er:",
         "hedge": "Detta är vår tolkning av offentliga uppgifter; kontrollera gärna detaljerna i källan.",
         "deadline": "Sista dag: {date}.",
         "applies_from": "Gäller från: {date}.",
         "source": "Källa: {url}",
-        "ask_1": "För att vi ska beskriva ert företag rätt, kan ni svara på en kort fråga? Ett svar på en rad räcker.",
-        "ask_2": "För att vi ska beskriva ert företag rätt, kan ni svara på två korta frågor? "
-        "Ett svar på en rad räcker.",
+        "meeting": "Skulle ni vara öppna för ett introduktionssamtal på 30 minuter de närmaste två veckorna? Vi "
+        "vill gärna höra vad ni bygger och hur vi kan hjälpa till.",
+        "ask_1": "Inför samtalet skulle en kort fråga hjälpa oss att förbereda oss. Ett svar på en rad räcker.",
+        "ask_2": "Inför samtalet skulle två korta frågor hjälpa oss att förbereda oss. Ett svar på en rad räcker.",
         "answers_use": "Vi använder svaren endast för att uppdatera våra anteckningar om ert företag, och vi "
         "markerar dem som bekräftade av företaget.",
-        "first_touch_close": "Om detta är till nytta räcker det med ett kort svar, så skickar vi mer information.",
+        "first_touch_close": "Om ett samtal inte passar just nu räcker det med ett kort svar, så skickar vi "
+        "detaljerna.",
         "sign_off": "Med vänliga hälsningar\n{org}",
-        "subject_request_1": "{company}: {topic} och en kort fråga",
-        "subject_request_2": "{company}: {topic} och två korta frågor",
-        "subject_first": "{company}: {topic}",
+        "subject_request_1": "{company}: {topic} och ett introduktionssamtal på 30 minuter?",
+        "subject_request_2": "{company}: {topic} och ett introduktionssamtal på 30 minuter?",
+        "subject_first": "{company}: {topic} och ett introduktionssamtal på 30 minuter?",
         "f_sender": "Avsändare: {org} (FO-nummer {business_id}{address}).",
         "f_sender_pending": "Avsändare: {org}. Avsändarens FO-nummer, dataskyddsbeskrivning och adress för att "
         "avböja meddelanden läggs till när utskicken aktiveras.",
