@@ -10,6 +10,7 @@ Run locally: uvicorn bluewatch.api.app:app --port 8787
 
 from __future__ import annotations
 
+import os
 import threading
 from collections.abc import AsyncIterator, Awaitable, Callable
 from contextlib import asynccontextmanager
@@ -454,8 +455,10 @@ def spa(path: str):
         raise HTTPException(status_code=404, detail="Unknown API route.")
     if not FRONTEND_DIST.exists():
         raise HTTPException(status_code=404, detail="Front end not built.")
-    target = (FRONTEND_DIST / path).resolve()
-    if path and target.is_file() and FRONTEND_DIST.resolve() in target.parents:
+    # The path must stay inside the build folder before we look for a file there.
+    root = os.path.realpath(FRONTEND_DIST)
+    target = os.path.realpath(os.path.join(root, path))
+    if path and target.startswith(root + os.sep) and os.path.isfile(target):
         # Built chunks carry a content hash in their name, so they never change under the same URL.
         immutable = path.startswith("assets/")
         return FileResponse(target, headers={"Cache-Control": IMMUTABLE if immutable else "no-cache"})
